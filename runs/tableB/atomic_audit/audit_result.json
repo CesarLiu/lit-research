@@ -1,0 +1,212 @@
+[
+ {
+  "packet": "../packets/chatscene_knowledge_enabled_safety_critical_scenar.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/chatscene_knowledge_enabled_safety_critical_scenar.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/chatscene_knowledge_enabled_safety_critical_scenar.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/chatscene_knowledge_enabled_safety_critical_scenar.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/chatscene_knowledge_enabled_safety_critical_scenar.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/controllable_latent_diffusion_for_traffic_simulati.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/controllable_latent_diffusion_for_traffic_simulati.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/controllable_latent_diffusion_for_traffic_simulati.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/controllable_latent_diffusion_for_traffic_simulati.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/controllable_latent_diffusion_for_traffic_simulati.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/controllable_latent_diffusion_for_traffic_simulati.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/ctrl_sim_reactive_and_controllable_driving_agents.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/ctrl_sim_reactive_and_controllable_driving_agents.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/ctrl_sim_reactive_and_controllable_driving_agents.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/ctrl_sim_reactive_and_controllable_driving_agents.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/ctrl_sim_reactive_and_controllable_driving_agents.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/smart_scalable_multi_agent_real_time_motion_genera.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/smart_scalable_multi_agent_real_time_motion_genera.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/smart_scalable_multi_agent_real_time_motion_genera.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/smart_scalable_multi_agent_real_time_motion_genera.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/smart_scalable_multi_agent_real_time_motion_genera.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/smart_scalable_multi_agent_real_time_motion_genera.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/top_down_traffic_scenario_generation_via_joint_ini.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/top_down_traffic_scenario_generation_via_joint_ini.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/top_down_traffic_scenario_generation_via_joint_ini.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/top_down_traffic_scenario_generation_via_joint_ini.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/top_down_traffic_scenario_generation_via_joint_ini.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/top_down_traffic_scenario_generation_via_joint_ini.md",
+  "field": "atomic_claim",
+  "verdict": "PARTIAL",
+  "page_mismatch": false,
+  "issue": "Text says 55.3% closer than SC, but Table I speed JSD (SC 0.16, PD-init 0.1524, Ours 0.068) gives 55.3% vs PD-init and about 57.5% vs SC, so the packet is internally inconsistent on the comparator."
+ },
+ {
+  "packet": "../packets/trafficalign_aligning_large_language_models_for_tr.md",
+  "field": "atomic_claim",
+  "verdict": "SUPPORTED",
+  "page_mismatch": false,
+  "issue": ""
+ },
+ {
+  "packet": "../packets/trafficalign_aligning_large_language_models_for_tr.md",
+  "field": "atomic_claim",
+  "verdict": "PARTIAL",
+  "page_mismatch": false,
+  "issue": "Range 21.0%-36.1% and setup are right, but the held-out composite set aggregates the remaining 32 scenarios from every method, not a single set of 32 scenarios."
+ }
+]

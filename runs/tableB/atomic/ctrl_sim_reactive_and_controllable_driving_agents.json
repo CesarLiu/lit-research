@@ -1,0 +1,55 @@
+{
+ "id": "ctrl_sim_reactive_and_controllable_driving_agents",
+ "claims": [
+  {
+   "claim": "At exponential tilting coefficient -25, the finetuned CtRL-Sim model generates 2.1x as many collisions as the base CtRL-Sim model.",
+   "kind": "control_effect",
+   "metric": "collision rate ratio (finetuned vs base) at tilting -25",
+   "condition": "tilting coefficient -25; CtRL-Sim FT (base finetuned on CAT-generated collision scenes) vs base; 1 selected interesting agent controlled, 1000 random test scenes, 1 s history, 8 s rollout, 5 seeds; reward dimension per Figure 4 not named in this sentence",
+   "reported_value": "2.1×",
+   "comparison": "CtRL-Sim base model at the same -25 tilting",
+   "quote": "Specifically, at -25 tilting,\nthe finetuned model is able to generate 2.1× as many collisions and 1.8× as many offroad violations\nas the base model.",
+   "page": "6-7"
+  },
+  {
+   "claim": "CtRL-Sim (Base), without tilting, has a collision rate of 5.8 +/- 0.4 percent in multi-agent imitation.",
+   "kind": "control_effect",
+   "metric": "Collision (%)",
+   "condition": "Table 1 multi-agent imitation, Waymo Open Motion Dataset, 1000 test scenes, up to 8 moving agents controlled by CtRL-Sim, 1 s history, 8 s rollout, mean+/-std over 5 seeds, base model without tilting",
+   "reported_value": "5.8±0.4 %",
+   "comparison": "CtRL-Sim (Positive Tilting) at 5.3±0.2",
+   "quote": "CtRL-Sim (Base)\n1.29±0.04\n2.13±0.08\n73.0±1.3\n8.1±0.2\n5.8±0.4\n11.8±0.2",
+   "page": "5"
+  },
+  {
+   "claim": "CtRL-Sim (Positive Tilting), with tilting coefficient 10 applied to all reward components, has a collision rate of 5.3 +/- 0.2 percent.",
+   "kind": "control_effect",
+   "metric": "Collision (%)",
+   "condition": "Table 1 multi-agent imitation, Waymo Open Motion Dataset, 1000 test scenes, up to 8 moving agents controlled, 1 s history, 8 s rollout, 5 seeds; kappa_c = 10 on all components of the base model",
+   "reported_value": "5.3±0.2 %",
+   "comparison": "CtRL-Sim (Base) at 5.8±0.4",
+   "quote": "CtRL-Sim (Positive Tilting)\n1.25±0.03\n2.04±0.08\n72.9±1.5\n7.9±0.1\n5.3±0.2\n11.0±0.2",
+   "page": "5"
+  },
+  {
+   "claim": "CtRL-Sim (Base), without tilting, has an off-road rate of 11.8 +/- 0.2 percent in multi-agent imitation.",
+   "kind": "control_effect",
+   "metric": "Off Road (%)",
+   "condition": "Table 1 multi-agent imitation, Waymo Open Motion Dataset, 1000 test scenes, up to 8 moving agents controlled, 1 s history, 8 s rollout, 5 seeds, base model without tilting",
+   "reported_value": "11.8±0.2 %",
+   "comparison": "CtRL-Sim (Positive Tilting) at 11.0±0.2",
+   "quote": "CtRL-Sim (Base)\n1.29±0.04\n2.13±0.08\n73.0±1.3\n8.1±0.2\n5.8±0.4\n11.8±0.2",
+   "page": "5"
+  },
+  {
+   "claim": "CtRL-Sim (Positive Tilting), with tilting coefficient 10 on all reward components, has an off-road rate of 11.0 +/- 0.2 percent.",
+   "kind": "control_effect",
+   "metric": "Off Road (%)",
+   "condition": "Table 1 multi-agent imitation, Waymo Open Motion Dataset, 1000 test scenes, up to 8 moving agents controlled, 1 s history, 8 s rollout, 5 seeds; kappa_c = 10 on all components of the base model",
+   "reported_value": "11.0±0.2 %",
+   "comparison": "CtRL-Sim (Base) at 11.8±0.2",
+   "quote": "CtRL-Sim (Positive Tilting)\n1.25±0.03\n2.04±0.08\n72.9±1.5\n7.9±0.1\n5.3±0.2\n11.0±0.2",
+   "page": "5"
+  }
+ ]
+}

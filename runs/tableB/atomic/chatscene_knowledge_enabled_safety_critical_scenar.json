@@ -1,0 +1,55 @@
+{
+ "id": "chatscene_knowledge_enabled_safety_critical_scenar",
+ "claims": [
+  {
+   "claim": "ChatScene-generated adversarial scenes raise the ego-vehicle collision rate by 15% over the most competitive existing baseline in SafeBench.",
+   "kind": "main_result",
+   "metric": "collision rate (CR), increase over best baseline",
+   "condition": "SafeBench, eight CARLA base traffic scenarios; adversarial scenes selected with a surrogate SAC-trained ego vehicle, then tested on three distinct RL-trained ego vehicles; baselines are four SOTA scenario generators (exact baseline not named in this passage)",
+   "reported_value": "15%",
+   "comparison": "most competitive existing baseline",
+   "quote": "eration of safety-critical scenarios, evidenced by a marked\n15% increase in collision rates over the most competitive",
+   "page": "7"
+  },
+  {
+   "claim": "The overall score (OS) of ego vehicles is reduced by 16% relative to the leading baseline in ChatScene-generated scenarios.",
+   "kind": "main_result",
+   "metric": "overall score (OS), relative reduction",
+   "condition": "SafeBench, eight CARLA base traffic scenarios; three distinct ego vehicles; ChatScene scenarios vs the leading baseline",
+   "reported_value": "16%",
+   "comparison": "leading baseline",
+   "quote": "nificant relative reduction in the overall score, amounting to\n16% more compared to the leading baseline.",
+   "page": "7"
+  },
+  {
+   "claim": "After adversarial finetuning with ChatScene scenarios, the ego vehicle's collision rate is reduced by 51% compared with the original ego vehicle without finetuning.",
+   "kind": "main_result",
+   "metric": "collision rate reduction after adversarial finetuning",
+   "condition": "SafeBench; ego vehicle finetuned adversarially with ChatScene-generated scenes (first eight routes), tested on scenes from the last two routes; finetuning 500 epochs, learning rate 0.0001, best result over evaluations every 50 epochs",
+   "reported_value": "51%",
+   "comparison": "original ego vehicle without finetuning",
+   "quote": "We observed a 51%\nreduction in collision rates compared to the original ego\nvehicle without finetuning",
+   "page": "8"
+  },
+  {
+   "claim": "After adversarial finetuning with ChatScene scenarios, the overall score improves by 43% relative to the original ego vehicle without finetuning.",
+   "kind": "main_result",
+   "metric": "overall score (OS), relative improvement after adversarial finetuning",
+   "condition": "SafeBench; ego vehicle finetuned adversarially with ChatScene-generated scenes (first eight routes), tested on last two routes; 500 epochs, learning rate 0.0001",
+   "reported_value": "43%",
+   "comparison": "original ego vehicle without finetuning",
+   "quote": "vehicle without finetuning, and the overall score improved\nby 43% relatively.",
+   "page": "8"
+  },
+  {
+   "claim": "Ego vehicles finetuned on ChatScene scenarios have an additional 9% lower collision rate than ego vehicles finetuned with the SOTA baseline.",
+   "kind": "main_result",
+   "metric": "collision rate reduction after adversarial finetuning, additional vs SOTA",
+   "condition": "SafeBench; adversarial finetuning with scenarios from each method, tested on scenes from the last two routes of all algorithms; 500 epochs, learning rate 0.0001",
+   "reported_value": "9%",
+   "comparison": "SOTA baseline finetuning (baseline not named in this passage)",
+   "quote": "More significantly, the collision rate was\nreduced by an additional 9% compared to the SOTA",
+   "page": "8"
+  }
+ ]
+}

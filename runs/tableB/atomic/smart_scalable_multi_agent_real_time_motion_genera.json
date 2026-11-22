@@ -1,0 +1,65 @@
+{
+ "id": "smart_scalable_multi_agent_real_time_motion_genera",
+ "claims": [
+  {
+   "claim": "SMART 7M reaches a Realism Meta metric of 0.6587 on the WOMD 2023 Sim Agents benchmark.",
+   "kind": "main_result",
+   "metric": "Realism Meta metric (higher is better)",
+   "condition": "WOMD 2023 Sim Agents benchmark (WOSAC), SMART 7M trained exclusively on WOMD",
+   "reported_value": "0.6587",
+   "comparison": "Trajeglish 0.6451 (next listed row in Table 1)",
+   "quote": "SMART 7M\n0.6587\n0.4190\n0.8014\n0.8523\n1.7453",
+   "page": "6-7"
+  },
+  {
+   "claim": "SMART trained only on NuPlan and evaluated on WOMD (zero-shot) achieves a Sim Agents challenge score of 0.72.",
+   "kind": "main_result",
+   "metric": "Sim Agents challenge score",
+   "condition": "Training on NuPlan only, validation on WOMD (zero-shot generalization); which SMART model size and which benchmark year is not stated in this passage",
+   "reported_value": "0.72",
+   "comparison": "",
+   "quote": "dataset for training and WOMD for validation, SMART achieved a competitive\nscore of 0.72 on the Sim Agents challenge.",
+   "page": "1-2"
+  },
+  {
+   "claim": "Ablation model M1 (none of RVT, NAT, NRVT, RVNTP) trained on NuPlan has an interactive metric of 0.593 on the WOMD validation set.",
+   "kind": "ablation",
+   "metric": "interactive (Table 4)",
+   "condition": "SMART 7M, train on NuPlan, WOMD validation set, model M1 with no component marks in Table 4",
+   "reported_value": "0.593",
+   "comparison": "M6 (all four components) at 0.785",
+   "quote": "M1\n0.459\n0.827\n0.857\n0.376\n0.593\n0.603",
+   "page": "9-10"
+  },
+  {
+   "claim": "Ablation model M6 (all four components: RVT, NAT, NRVT, RVNTP) trained on NuPlan has an interactive metric of 0.785 on the WOMD validation set.",
+   "kind": "ablation",
+   "metric": "interactive (Table 4)",
+   "condition": "SMART 7M, train on NuPlan, WOMD validation set, model M6 with four component marks in Table 4 (flattened; the four columns are RVT, NAT, NRVT, RVNTP)",
+   "reported_value": "0.785",
+   "comparison": "M1 (no components) at 0.593",
+   "quote": "M6\n√\n√\n√\n√\n0.453\n0.803\n0.851\n0.416\n0.785\n0.797",
+   "page": "9-10"
+  },
+  {
+   "claim": "Ablation model M1 trained on NuPlan has a map-based metric of 0.603 on the WOMD validation set.",
+   "kind": "ablation",
+   "metric": "map (Table 4)",
+   "condition": "SMART 7M, train on NuPlan, WOMD validation set, model M1 with no component marks in Table 4",
+   "reported_value": "0.603",
+   "comparison": "M6 (all four components) at 0.797",
+   "quote": "M1\n0.459\n0.827\n0.857\n0.376\n0.593\n0.603",
+   "page": "9-10"
+  },
+  {
+   "claim": "Ablation model M6 trained on NuPlan has a map-based metric of 0.797 on the WOMD validation set.",
+   "kind": "ablation",
+   "metric": "map (Table 4)",
+   "condition": "SMART 7M, train on NuPlan, WOMD validation set, model M6 with four component marks in Table 4 (flattened; the four columns are RVT, NAT, NRVT, RVNTP)",
+   "reported_value": "0.797",
+   "comparison": "M1 (no components) at 0.603",
+   "quote": "M6\n√\n√\n√\n√\n0.453\n0.803\n0.851\n0.416\n0.785\n0.797",
+   "page": "9-10"
+  }
+ ]
+}

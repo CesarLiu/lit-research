@@ -1,0 +1,65 @@
+{
+ "id": "controllable_latent_diffusion_for_traffic_simulati",
+ "claims": [
+  {
+   "claim": "CLD with RL reward guidance reaches a failure rate of 0.226 on the no-collision task, lower than the baselines in Table I.",
+   "kind": "main_result",
+   "metric": "failure rate (no collision task)",
+   "condition": "nuScenes, closed-loop simulation 20 s at 2 Hz re-planning, CLD (w/RL) with reward -1 for collision; failure = scenario where ego collides or leaves drivable area",
+   "reported_value": "0.226",
+   "comparison": "baselines SimNet, TrafficSim, BITS, CTG (with/without opt variants) from Table I",
+   "quote": "no-collision task, our method achieves a failure rate of\n0.226 — significantly lower than those of the baselines",
+   "page": "6"
+  },
+  {
+   "claim": "Removing reward guidance (CLD w/o RL) raises the no-collision failure rate to 0.483.",
+   "kind": "ablation",
+   "metric": "failure rate (no collision task)",
+   "condition": "nuScenes, closed-loop 20 s at 2 Hz, CLD without RL reward guidance",
+   "reported_value": "0.483",
+   "comparison": "CLD (w/RL) at 0.226",
+   "quote": "the failure rates increase to 0.483 and 0.450,\nrespectively",
+   "page": "6"
+  },
+  {
+   "claim": "CLD with RL reward guidance reaches a failure rate of 0.136 on the no off-road task.",
+   "kind": "main_result",
+   "metric": "failure rate (no off-road task)",
+   "condition": "nuScenes, closed-loop 20 s at 2 Hz, CLD (w/RL) with reward -1 for leaving the drivable area",
+   "reported_value": "0.136",
+   "comparison": "baselines in Table I; CLD (w/o RL) at 0.450",
+   "quote": "Similarly, for the no off-road task, our approach\nyields a realism score of 0.655 and a failure rate of 0.136,",
+   "page": "6"
+  },
+  {
+   "claim": "Removing reward guidance (CLD w/o RL) raises the no off-road failure rate to 0.450.",
+   "kind": "ablation",
+   "metric": "failure rate (no off-road task)",
+   "condition": "nuScenes, closed-loop 20 s at 2 Hz, CLD without RL reward guidance",
+   "reported_value": "0.450",
+   "comparison": "CLD (w/RL) at 0.136",
+   "quote": "the failure rates increase to 0.483 and 0.450,\nrespectively",
+   "page": "6"
+  },
+  {
+   "claim": "CLD with RL reward guidance has a realism score of 0.655 on the no off-road task (lower is closer to ground truth).",
+   "kind": "main_result",
+   "metric": "real (mean Wasserstein distance over longitudinal acceleration, lateral acceleration, jerk)",
+   "condition": "nuScenes, closed-loop 20 s at 2 Hz, CLD (w/RL), no off-road task",
+   "reported_value": "0.655",
+   "comparison": "CLD (w/o RL) at 0.350",
+   "quote": "Similarly, for the no off-road task, our approach\nyields a realism score of 0.655 and a failure rate of 0.136,",
+   "page": "6"
+  },
+  {
+   "claim": "Without reward guidance (CLD w/o RL) the realism metric drops to 0.350 for both tasks.",
+   "kind": "ablation",
+   "metric": "real (mean Wasserstein distance over longitudinal acceleration, lateral acceleration, jerk)",
+   "condition": "nuScenes, closed-loop 20 s at 2 Hz, CLD without RL reward guidance, both no-collision and no off-road tasks",
+   "reported_value": "0.350",
+   "comparison": "CLD (w/RL) at 0.655",
+   "quote": "the realism metric\ndecreases to 0.350 for both tasks",
+   "page": "6"
+  }
+ ]
+}

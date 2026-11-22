@@ -1,0 +1,25 @@
+{
+ "id": "trafficalign_aligning_large_language_models_for_tr",
+ "claims": [
+  {
+   "claim": "TrafficAlign-generated scenarios reveal up to 10.8% more collisions on average across three autonomous driving models than state-of-the-art methods.",
+   "kind": "main_result",
+   "metric": "collision rate increase over best baseline",
+   "condition": "SafeBench; ego vehicles trained with PPO, SAC and TD3; six regional TrafficAlign instances (the region giving the maximum is not stated in packet); 40 initial scenarios, 50 search rounds each; strongest baseline ChatScene",
+   "reported_value": "10.8%",
+   "comparison": "state-of-the-art baseline ChatScene",
+   "quote": "vealing up to 10.8% more collisions on average across\nthree autonomous driving models than state-of-the-art meth-",
+   "page": "1-2"
+  },
+  {
+   "claim": "Fine-tuning driving models with TrafficAlign-generated scenarios reduces collision rates by 36.1% compared with the original models.",
+   "kind": "main_result",
+   "metric": "collision rate reduction after fine-tuning",
+   "condition": "PPO, SAC and TD3 driving models fine-tuned 500 epochs at learning rate 0.0001 on 48 scenarios, tested on a held-out composite set that pools the remaining 32 scenarios from each generation method; 36.1% is the upper end of a 21.0%-36.1% range across six regions, region not stated in packet",
+   "reported_value": "36.1%",
+   "comparison": "original driving models before fine-tuning",
+   "quote": "significantly reduced\ncollision rates by 36.1% compared with the original models.",
+   "page": "1-2"
+  }
+ ]
+}

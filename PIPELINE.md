@@ -44,9 +44,26 @@ Each run folder (`runs/corpus2`, `runs/tableB`, `runs/chain`, `runs/industry`) h
 - **Backfilled records.** The existing runs were recorded on 2026-11-22 after the fact (`"backfilled": true`): hashes are of the files as they were that day, commands are the ones in this file, and the model for sub-agent steps is recorded as "session default (not recorded)". Notes on each record say where the text has since changed, for example the review was revised after the claim checks.
 - Hashes are of the bytes on this machine. A checkout on another machine may convert line endings and then show CHANGED for text files.
 
+## Atomic-claim ledger (`tools/ledger.py`): from a paper's number to a reproduction record
+
+The claim check links review sentences to table rows. The ledger goes one step further back: each number a paper reports, as one row, with the record of whether anyone reproduced it. It is the contract between this pipeline and whatever runs the code (Claude Code, OpenResearch, openscience, by hand); this pipeline does not run experiments.
+
+1. **Extract** (model step, prompt `prompts/atomic_claims.md`): one JSON per paper in `runs/<table>/atomic/<id>.json`, at most 6 claims, each with one number, its condition, a baseline, a **verbatim quote** and a page. Session: `tools/prep_agents.py render atomic_claims runs/<table> <group file>` to a sub-agent. API: `tools/llm_run.py atomic_claims runs/<table>` (retries on failed checks).
+2. **Check**: `python -I -X utf8 tools/ledger.py check-extract runs/<table>`. Hard problems: quote not in the packet, number not in the packet, no number, missing field. Soft: number not in the quote, more than one number per claim, quote over 30 words.
+3. **Build**: `ledger.py build runs/<table>` writes `ledger.csv` (refuses to overwrite, because a rebuild would erase registrations; `--force` if you mean it). `code_url` is a code-host link found in the evidence packet, with where it was found. It is a lower bound (the packet is partial), a link on a later page may be another paper's code, and it is not checked to work.
+4. **Register before running**: `ledger.py register runs/<table> P05-C1 --tolerance rel:0.05 --budget "GPU-h 8" --approved-by <name>`. This sets the pass criterion, the budget and who approved. A registration cannot be changed afterwards. Then **commit** the ledger.
+5. **Run the experiment** elsewhere, then `ledger.py result runs/<table> P05-C1 --status reproduced --observed 60.2 --run-ref <log path>`. It refuses unless the **committed** ledger already holds the same tolerance, budget, approver and registration time, and refuses `reproduced` when the observed number is outside the tolerance (use `partial` or `not_reproduced`).
+6. **Check the ledger**: `ledger.py check runs/<table>` (statuses, registration before result, observed after registered, tolerance respected).
+
+What it does not do: it cannot tell whether a person really approved (it records the name you pass), whether the run log is genuine, or whether the code is the paper's. Extraction can miss claims or mis-split a flattened table; spot-check it as you do the rows. Claims with more than one number can only be marked `partial` by hand.
+
+**Pilot (2026-11-22)**, 7 papers chosen because their packets state a code link, plus CtRL-Sim (the one closest to the user's research; its packet states no link): 30 claims from 6 papers in `runs/tableB/ledger.csv`, all `not_attempted`. Only 6 of the 34 papers state a code-host link in their packet, so most of the table cannot be reproduced without code. One paper (CCDiff) gave no claims because its numbers sit in flattened tables.
+- The extraction check passes (0 hard problems). 13 of the 30 claims have a quote that is a flattened table fragment, so the row and column of the number rest on the model's reading of line order. An independent opus audit of all 30 claims found 28 supported, 2 partial, 0 unsupported, no page mismatches (`runs/tableB/atomic_audit/`); the two partial claims were corrected by hand (one baseline is unclear in the packet itself). These 13 stay flagged `MAPPING UNVERIFIED` in the ledger, and `register` refuses them until a person checks the packet or paper and passes `--mapping-checked NAME`.
+- Nothing has been registered or run. The code links were not opened; one (`github.com/RoboSafe-Lab`) is an organisation page, not a repository.
+
 ## Two ways to run the model steps
 
-Three steps need a model and have a fixed prompt in `runs/<table>/prompts/`: `extract_row` (phase 6), `audit_cells` (phase 7), `claim_check` (phase 8b). Both ways read the same prompt files and write the same output files, so every later script (`assemble_table.py`, `summarize_claims.py`, the deck and reference tools) works with either.
+Four steps need a model and have a fixed prompt in `runs/<table>/prompts/`: `extract_row` (phase 6), `audit_cells` (phase 7), `claim_check` (phase 8b), `atomic_claims` (the ledger below; its API mode was only dry-run, the session mode was the one used). Both ways read the same prompt files and write the same output files, so every later script (`assemble_table.py`, `summarize_claims.py`, the deck and reference tools) works with either.
 
 | | In Claude (session) | API (OpenAI-compatible endpoint, e.g. a local vLLM server) |
 |---|---|---|

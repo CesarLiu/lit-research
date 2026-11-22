@@ -4,7 +4,7 @@ server, Ollama, or any hosted service with /v1/chat/completions), instead of Cla
 
   python -I -X utf8 tools/llm_run.py STEP RUN_DIR [options]
 
-STEP      extract_row | audit_cells | claim_check          (the prompts are RUN_DIR/prompts/STEP.md, the same files
+STEP      extract_row | atomic_claims | audit_cells | claim_check   (prompts are RUN_DIR/prompts/STEP.md, the same files
                                                              that `prep_agents.py render` gives to Claude sub-agents)
 Options    --base-url URL   default env LLM_BASE_URL or http://localhost:8000/v1
            --model NAME     default env LLM_MODEL (required; vLLM needs the served model name)
@@ -40,6 +40,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from assemble_table import check_row  # noqa: E402
+from ledger import check_claims  # noqa: E402
 
 VERDICTS = {"SUPPORTED", "PARTIAL", "UNSUPPORTED"}
 CLAIM_VERDICTS = VERDICTS | {"NOT-CHECKABLE"}
@@ -56,6 +57,15 @@ def to_api(step: str, template: str) -> str:
     out = []
     for p in paragraphs(template):
         if step == "extract_row":
+            if p.startswith("Input:"):
+                p = ("Input: the evidence packet of one paper is in the user message. A packet holds the paper's first two "
+                     "pages plus the best passages from the paper for five topics. Passages are labelled [pages X-Y].")
+            elif p.startswith("Output:"):
+                p = re.sub(r"^Output:[^\n]*", "Output: reply with ONLY this JSON object (valid JSON, no text before or after it):", p)
+            elif p.startswith("When done"):
+                continue
+            p = p.replace("\n- Do not edit any other file.", "")
+        elif step == "atomic_claims":
             if p.startswith("Input:"):
                 p = ("Input: the evidence packet of one paper is in the user message. A packet holds the paper's first two "
                      "pages plus the best passages from the paper for five topics. Passages are labelled [pages X-Y].")
@@ -190,6 +200,35 @@ def step_extract_row(cfg, run: Path, system: str, log):
     return run_pool(cfg, todo, work, "row")
 
 
+def step_atomic_claims(cfg, run: Path, system: str, log):
+    ids = sorted(p.stem for p in (run / "packets").glob("*.md"))
+    if cfg.group:
+        ids = [i for i in ids if i in {x.strip() for x in open(cfg.group, encoding="utf-8")}]
+    if cfg.only:
+        ids = [i for i in ids if i in cfg.only]
+    outd = Path(cfg.out_dir or run) / "atomic"
+    outd.mkdir(parents=True, exist_ok=True)
+    todo = [i for i in ids if cfg.force or not (outd / f"{i}.json").exists()]
+    print(f"atomic_claims: {len(ids)} packets, {len(ids) - len(todo)} files already exist and are kept, {len(todo)} to do")
+
+    def work(pid):
+        ptxt = (run / "packets" / f"{pid}.md").read_text(encoding="utf-8")
+        if len(ptxt) > cfg.max_prompt_chars:
+            return pid, None, [f"packet too long ({len(ptxt)} chars)"]
+
+        def validate(obj):
+            if isinstance(obj, dict):
+                obj["id"] = pid
+            return check_claims(pid, obj, ptxt)
+
+        obj, probs = ask(cfg, "atomic_claims", pid, system, ptxt, validate, log)
+        if obj is not None:
+            (outd / f"{pid}.json").write_text(json.dumps(obj, indent=1, ensure_ascii=False), encoding="utf-8")
+        return pid, obj, probs
+
+    return run_pool(cfg, todo, work, "paper")
+
+
 def step_audit_cells(cfg, run: Path, system: str, log):
     cells = json.loads((run / "audit_cells.json").read_text(encoding="utf-8"))
     out = Path(cfg.out_dir or run) / "audit_result.json"
@@ -285,7 +324,8 @@ def run_pool(cfg, items, work, label):
     return res
 
 
-STEPS = {"extract_row": step_extract_row, "audit_cells": step_audit_cells, "claim_check": step_claim_check}
+STEPS = {"extract_row": step_extract_row, "atomic_claims": step_atomic_claims, "audit_cells": step_audit_cells,
+         "claim_check": step_claim_check}
 
 
 def main(argv):

@@ -1,0 +1,141 @@
+claim_id,paper_n,paper,kind,claim,metric,condition,reported_value,comparison,quote,page,code_url,code_link_where,status,tolerance,budget,approved_by,registered_at,observed,observed_at,run_ref,note
+P06-C1,6,ChatScene,main_result,ChatScene-generated adversarial scenes raise the ego-vehicle collision rate by 15% over the most competitive existing baseline in SafeBench.,"collision rate (CR), increase over best baseline","SafeBench, eight CARLA base traffic scenarios; adversarial scenes selected with a surrogate SAC-trained ego vehicle, then tested on three distinct RL-trained ego vehicles; baselines are four SOTA scenario generators (exact baseline not named in this passage)",15%,most competitive existing baseline,"eration of safety-critical scenarios, evidenced by a marked
+15% increase in collision rates over the most competitive",7,https://github.com/javyduck/ChatScene,first pages,not_attempted,,,,,,,,
+P06-C2,6,ChatScene,main_result,The overall score (OS) of ego vehicles is reduced by 16% relative to the leading baseline in ChatScene-generated scenarios.,"overall score (OS), relative reduction","SafeBench, eight CARLA base traffic scenarios; three distinct ego vehicles; ChatScene scenarios vs the leading baseline",16%,leading baseline,"nificant relative reduction in the overall score, amounting to
+16% more compared to the leading baseline.",7,https://github.com/javyduck/ChatScene,first pages,not_attempted,,,,,,,,
+P06-C3,6,ChatScene,main_result,"After adversarial finetuning with ChatScene scenarios, the ego vehicle's collision rate is reduced by 51% compared with the original ego vehicle without finetuning.",collision rate reduction after adversarial finetuning,"SafeBench; ego vehicle finetuned adversarially with ChatScene-generated scenes (first eight routes), tested on scenes from the last two routes; finetuning 500 epochs, learning rate 0.0001, best result over evaluations every 50 epochs",51%,original ego vehicle without finetuning,"We observed a 51%
+reduction in collision rates compared to the original ego
+vehicle without finetuning",8,https://github.com/javyduck/ChatScene,first pages,not_attempted,,,,,,,,
+P06-C4,6,ChatScene,main_result,"After adversarial finetuning with ChatScene scenarios, the overall score improves by 43% relative to the original ego vehicle without finetuning.","overall score (OS), relative improvement after adversarial finetuning","SafeBench; ego vehicle finetuned adversarially with ChatScene-generated scenes (first eight routes), tested on last two routes; 500 epochs, learning rate 0.0001",43%,original ego vehicle without finetuning,"vehicle without finetuning, and the overall score improved
+by 43% relatively.",8,https://github.com/javyduck/ChatScene,first pages,not_attempted,,,,,,,,
+P06-C5,6,ChatScene,main_result,Ego vehicles finetuned on ChatScene scenarios have an additional 9% lower collision rate than ego vehicles finetuned with the SOTA baseline.,"collision rate reduction after adversarial finetuning, additional vs SOTA","SafeBench; adversarial finetuning with scenarios from each method, tested on scenes from the last two routes of all algorithms; 500 epochs, learning rate 0.0001",9%,SOTA baseline finetuning (baseline not named in this passage),"More significantly, the collision rate was
+reduced by an additional 9% compared to the SOTA",8,https://github.com/javyduck/ChatScene,first pages,not_attempted,,,,,,,,
+P08-C1,8,Controllable Latent Diffusion for Traffi,main_result,"CLD with RL reward guidance reaches a failure rate of 0.226 on the no-collision task, lower than the baselines in Table I.",failure rate (no collision task),"nuScenes, closed-loop simulation 20 s at 2 Hz re-planning, CLD (w/RL) with reward -1 for collision; failure = scenario where ego collides or leaves drivable area",0.226,"baselines SimNet, TrafficSim, BITS, CTG (with/without opt variants) from Table I","no-collision task, our method achieves a failure rate of
+0.226 — significantly lower than those of the baselines",6,https://github.com/RoboSafe-Lab,first pages,not_attempted,,,,,,,,
+P08-C2,8,Controllable Latent Diffusion for Traffi,ablation,Removing reward guidance (CLD w/o RL) raises the no-collision failure rate to 0.483.,failure rate (no collision task),"nuScenes, closed-loop 20 s at 2 Hz, CLD without RL reward guidance",0.483,CLD (w/RL) at 0.226,"the failure rates increase to 0.483 and 0.450,
+respectively",6,https://github.com/RoboSafe-Lab,first pages,not_attempted,,,,,,,,
+P08-C3,8,Controllable Latent Diffusion for Traffi,main_result,CLD with RL reward guidance reaches a failure rate of 0.136 on the no off-road task.,failure rate (no off-road task),"nuScenes, closed-loop 20 s at 2 Hz, CLD (w/RL) with reward -1 for leaving the drivable area",0.136,baselines in Table I; CLD (w/o RL) at 0.450,"Similarly, for the no off-road task, our approach
+yields a realism score of 0.655 and a failure rate of 0.136,",6,https://github.com/RoboSafe-Lab,first pages,not_attempted,,,,,,,,
+P08-C4,8,Controllable Latent Diffusion for Traffi,ablation,Removing reward guidance (CLD w/o RL) raises the no off-road failure rate to 0.450.,failure rate (no off-road task),"nuScenes, closed-loop 20 s at 2 Hz, CLD without RL reward guidance",0.450,CLD (w/RL) at 0.136,"the failure rates increase to 0.483 and 0.450,
+respectively",6,https://github.com/RoboSafe-Lab,first pages,not_attempted,,,,,,,,
+P08-C5,8,Controllable Latent Diffusion for Traffi,main_result,CLD with RL reward guidance has a realism score of 0.655 on the no off-road task (lower is closer to ground truth).,"real (mean Wasserstein distance over longitudinal acceleration, lateral acceleration, jerk)","nuScenes, closed-loop 20 s at 2 Hz, CLD (w/RL), no off-road task",0.655,CLD (w/o RL) at 0.350,"Similarly, for the no off-road task, our approach
+yields a realism score of 0.655 and a failure rate of 0.136,",6,https://github.com/RoboSafe-Lab,first pages,not_attempted,,,,,,,,
+P08-C6,8,Controllable Latent Diffusion for Traffi,ablation,Without reward guidance (CLD w/o RL) the realism metric drops to 0.350 for both tasks.,"real (mean Wasserstein distance over longitudinal acceleration, lateral acceleration, jerk)","nuScenes, closed-loop 20 s at 2 Hz, CLD without RL reward guidance, both no-collision and no off-road tasks",0.350,CLD (w/RL) at 0.655,"the realism metric
+decreases to 0.350 for both tasks",6,https://github.com/RoboSafe-Lab,first pages,not_attempted,,,,,,,,
+P11-C1,11,CtRL-Sim,control_effect,"At exponential tilting coefficient -25, the finetuned CtRL-Sim model generates 2.1x as many collisions as the base CtRL-Sim model.",collision rate ratio (finetuned vs base) at tilting -25,"tilting coefficient -25; CtRL-Sim FT (base finetuned on CAT-generated collision scenes) vs base; 1 selected interesting agent controlled, 1000 random test scenes, 1 s history, 8 s rollout, 5 seeds; reward dimension per Figure 4 not named in this sentence",2.1×,CtRL-Sim base model at the same -25 tilting,"Specifically, at -25 tilting,
+the finetuned model is able to generate 2.1× as many collisions and 1.8× as many offroad violations
+as the base model.",6-7,,,not_attempted,,,,,,,,
+P11-C2,11,CtRL-Sim,control_effect,"CtRL-Sim (Base), without tilting, has a collision rate of 5.8 +/- 0.4 percent in multi-agent imitation.",Collision (%),"Table 1 multi-agent imitation, Waymo Open Motion Dataset, 1000 test scenes, up to 8 moving agents controlled by CtRL-Sim, 1 s history, 8 s rollout, mean+/-std over 5 seeds, base model without tilting",5.8±0.4 %,CtRL-Sim (Positive Tilting) at 5.3±0.2,"CtRL-Sim (Base)
+1.29±0.04
+2.13±0.08
+73.0±1.3
+8.1±0.2
+5.8±0.4
+11.8±0.2",5,,,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P11-C3,11,CtRL-Sim,control_effect,"CtRL-Sim (Positive Tilting), with tilting coefficient 10 applied to all reward components, has a collision rate of 5.3 +/- 0.2 percent.",Collision (%),"Table 1 multi-agent imitation, Waymo Open Motion Dataset, 1000 test scenes, up to 8 moving agents controlled, 1 s history, 8 s rollout, 5 seeds; kappa_c = 10 on all components of the base model",5.3±0.2 %,CtRL-Sim (Base) at 5.8±0.4,"CtRL-Sim (Positive Tilting)
+1.25±0.03
+2.04±0.08
+72.9±1.5
+7.9±0.1
+5.3±0.2
+11.0±0.2",5,,,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P11-C4,11,CtRL-Sim,control_effect,"CtRL-Sim (Base), without tilting, has an off-road rate of 11.8 +/- 0.2 percent in multi-agent imitation.",Off Road (%),"Table 1 multi-agent imitation, Waymo Open Motion Dataset, 1000 test scenes, up to 8 moving agents controlled, 1 s history, 8 s rollout, 5 seeds, base model without tilting",11.8±0.2 %,CtRL-Sim (Positive Tilting) at 11.0±0.2,"CtRL-Sim (Base)
+1.29±0.04
+2.13±0.08
+73.0±1.3
+8.1±0.2
+5.8±0.4
+11.8±0.2",5,,,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P11-C5,11,CtRL-Sim,control_effect,"CtRL-Sim (Positive Tilting), with tilting coefficient 10 on all reward components, has an off-road rate of 11.0 +/- 0.2 percent.",Off Road (%),"Table 1 multi-agent imitation, Waymo Open Motion Dataset, 1000 test scenes, up to 8 moving agents controlled, 1 s history, 8 s rollout, 5 seeds; kappa_c = 10 on all components of the base model",11.0±0.2 %,CtRL-Sim (Base) at 11.8±0.2,"CtRL-Sim (Positive Tilting)
+1.25±0.03
+2.04±0.08
+72.9±1.5
+7.9±0.1
+5.3±0.2
+11.0±0.2",5,,,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P24-C1,24,SMART,main_result,SMART 7M reaches a Realism Meta metric of 0.6587 on the WOMD 2023 Sim Agents benchmark.,Realism Meta metric (higher is better),"WOMD 2023 Sim Agents benchmark (WOSAC), SMART 7M trained exclusively on WOMD",0.6587,Trajeglish 0.6451 (next listed row in Table 1),"SMART 7M
+0.6587
+0.4190
+0.8014
+0.8523
+1.7453",6-7,https://github.com/rainmaker22/SMART,first pages,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P24-C2,24,SMART,main_result,SMART trained only on NuPlan and evaluated on WOMD (zero-shot) achieves a Sim Agents challenge score of 0.72.,Sim Agents challenge score,"Training on NuPlan only, validation on WOMD (zero-shot generalization); which SMART model size and which benchmark year is not stated in this passage",0.72,,"dataset for training and WOMD for validation, SMART achieved a competitive
+score of 0.72 on the Sim Agents challenge.",1-2,https://github.com/rainmaker22/SMART,first pages,not_attempted,,,,,,,,
+P24-C3,24,SMART,ablation,"Ablation model M1 (none of RVT, NAT, NRVT, RVNTP) trained on NuPlan has an interactive metric of 0.593 on the WOMD validation set.",interactive (Table 4),"SMART 7M, train on NuPlan, WOMD validation set, model M1 with no component marks in Table 4",0.593,M6 (all four components) at 0.785,"M1
+0.459
+0.827
+0.857
+0.376
+0.593
+0.603",9-10,https://github.com/rainmaker22/SMART,first pages,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P24-C4,24,SMART,ablation,"Ablation model M6 (all four components: RVT, NAT, NRVT, RVNTP) trained on NuPlan has an interactive metric of 0.785 on the WOMD validation set.",interactive (Table 4),"SMART 7M, train on NuPlan, WOMD validation set, model M6 with four component marks in Table 4 (flattened; the four columns are RVT, NAT, NRVT, RVNTP)",0.785,M1 (no components) at 0.593,"M6
+√
+√
+√
+√
+0.453
+0.803
+0.851
+0.416
+0.785
+0.797",9-10,https://github.com/rainmaker22/SMART,first pages,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P24-C5,24,SMART,ablation,Ablation model M1 trained on NuPlan has a map-based metric of 0.603 on the WOMD validation set.,map (Table 4),"SMART 7M, train on NuPlan, WOMD validation set, model M1 with no component marks in Table 4",0.603,M6 (all four components) at 0.797,"M1
+0.459
+0.827
+0.857
+0.376
+0.593
+0.603",9-10,https://github.com/rainmaker22/SMART,first pages,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P24-C6,24,SMART,ablation,Ablation model M6 trained on NuPlan has a map-based metric of 0.797 on the WOMD validation set.,map (Table 4),"SMART 7M, train on NuPlan, WOMD validation set, model M6 with four component marks in Table 4 (flattened; the four columns are RVT, NAT, NRVT, RVNTP)",0.797,M1 (no components) at 0.603,"M6
+√
+√
+√
+√
+0.453
+0.803
+0.851
+0.416
+0.785
+0.797",9-10,https://github.com/rainmaker22/SMART,first pages,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P31-C1,31,Top-down Traffic Scenario Generation via,control_effect,TrafficDiffuser's trajectory infilling with hard constraints on goal states only has a final displacement error of 0 m.,FDE (m),"Trajectory infilling, hard constraint (HC) on goal states only, Table II, Argoverse 2",0 m,No hard constraint (None) at 0.1 m,"Goal States
+0.53
+0
+0
+None
+0.53
+0.1
+0.04",5-6,https://github.com/CL2-UWaterloo/TrafficDiffuser,first pages,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P31-C2,31,Top-down Traffic Scenario Generation via,control_effect,TrafficDiffuser's trajectory infilling with no hard constraints has a final displacement error of 0.1 m.,FDE (m),"Trajectory infilling, no hard constraints (None), Table II, Argoverse 2",0.1 m,HC on goal states only at 0 m,"Goal States
+0.53
+0
+0
+None
+0.53
+0.1
+0.04",5-6,https://github.com/CL2-UWaterloo/TrafficDiffuser,first pages,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P31-C3,31,Top-down Traffic Scenario Generation via,main_result,"TrafficDiffuser's trajectory infilling with hard constraint on initial states has an ADE of 0.53 m, versus 1.86 m for PD-init with the same constraint.",ADE (m),"Trajectory infilling, HC on initial states, Table II, Argoverse 2; Ours row",0.53 m,PD-init with HC on initial states at 1.86 m,"Initial States
+0.53
+0.16
+0.19",5-6,https://github.com/CL2-UWaterloo/TrafficDiffuser,first pages,not_attempted,,,,,,,,
+P31-C4,31,Top-down Traffic Scenario Generation via,main_result,TrafficDiffuser's generated initial states have an off-road rate of 5.10 percent without guidance sampling.,Off road rate (%),"High-level scenario generation, initial states, Table I, Argoverse 2, no guidance sampling",5.10 %,PD-init 5.36 and SC 5.25 for initial states,"Ours
+9.80
+5.10
+1.81
+0.068
+0.200
+0.201
+0.101",4-5,https://github.com/CL2-UWaterloo/TrafficDiffuser,first pages,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P31-C5,31,Top-down Traffic Scenario Generation via,main_result,"TrafficDiffuser's generated initial states have a collision rate of 9.80 percent without guidance sampling, higher than the baselines.",Collision rate (%),"High-level scenario generation, initial states, Table I, Argoverse 2, no guidance sampling",9.80 %,SC 4.40 and PD-init 4.22 for initial states,"Ours
+9.80
+5.10
+1.81
+0.068
+0.200
+0.201
+0.101",4-5,https://github.com/CL2-UWaterloo/TrafficDiffuser,first pages,not_attempted,,,,,,,,MAPPING UNVERIFIED (table fragment).
+P31-C6,31,Top-down Traffic Scenario Generation via,main_result,"TrafficDiffuser's generated speed distribution is reported as 55.3 percent closer to the ground truth than the baseline; the text names SceneControl (SC), but Table I matches the baseline PD-init.","Speed JSD, relative improvement","High-level scenario generation, initial states, Table I, Argoverse 2, no guidance sampling",55.3%,"the text says SC; Table I gives 0.1524 (PD-init) to 0.068 (ours), which is 55.3 %, while SC is 0.16 (about 57.5 %): baseline unclear in the packet","distribution is closer to the ground truth by 55.3%, compared
+to the speed output distribution of SC",5,https://github.com/CL2-UWaterloo/TrafficDiffuser,first pages,not_attempted,,,,,,,,
+P32-C1,32,TrafficAlign,main_result,TrafficAlign-generated scenarios reveal up to 10.8% more collisions on average across three autonomous driving models than state-of-the-art methods.,collision rate increase over best baseline,"SafeBench; ego vehicles trained with PPO, SAC and TD3; six regional TrafficAlign instances (the region giving the maximum is not stated in packet); 40 initial scenarios, 50 search rounds each; strongest baseline ChatScene",10.8%,state-of-the-art baseline ChatScene,"vealing up to 10.8% more collisions on average across
+three autonomous driving models than state-of-the-art meth-",1-2,https://github.com/TrafficComposer/TrafficAlign,first pages,not_attempted,,,,,,,,
+P32-C2,32,TrafficAlign,main_result,Fine-tuning driving models with TrafficAlign-generated scenarios reduces collision rates by 36.1% compared with the original models.,collision rate reduction after fine-tuning,"PPO, SAC and TD3 driving models fine-tuned 500 epochs at learning rate 0.0001 on 48 scenarios, tested on a held-out composite set that pools the remaining 32 scenarios from each generation method; 36.1% is the upper end of a 21.0%-36.1% range across six regions, region not stated in packet",36.1%,original driving models before fine-tuning,"significantly reduced
+collision rates by 36.1% compared with the original models.",1-2,https://github.com/TrafficComposer/TrafficAlign,first pages,not_attempted,,,,,,,,

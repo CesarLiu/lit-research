@@ -1,0 +1,65 @@
+{
+ "id": "top_down_traffic_scenario_generation_via_joint_ini",
+ "claims": [
+  {
+   "claim": "TrafficDiffuser's trajectory infilling with hard constraints on goal states only has a final displacement error of 0 m.",
+   "kind": "control_effect",
+   "metric": "FDE (m)",
+   "condition": "Trajectory infilling, hard constraint (HC) on goal states only, Table II, Argoverse 2",
+   "reported_value": "0 m",
+   "comparison": "No hard constraint (None) at 0.1 m",
+   "quote": "Goal States\n0.53\n0\n0\nNone\n0.53\n0.1\n0.04",
+   "page": "5-6"
+  },
+  {
+   "claim": "TrafficDiffuser's trajectory infilling with no hard constraints has a final displacement error of 0.1 m.",
+   "kind": "control_effect",
+   "metric": "FDE (m)",
+   "condition": "Trajectory infilling, no hard constraints (None), Table II, Argoverse 2",
+   "reported_value": "0.1 m",
+   "comparison": "HC on goal states only at 0 m",
+   "quote": "Goal States\n0.53\n0\n0\nNone\n0.53\n0.1\n0.04",
+   "page": "5-6"
+  },
+  {
+   "claim": "TrafficDiffuser's trajectory infilling with hard constraint on initial states has an ADE of 0.53 m, versus 1.86 m for PD-init with the same constraint.",
+   "kind": "main_result",
+   "metric": "ADE (m)",
+   "condition": "Trajectory infilling, HC on initial states, Table II, Argoverse 2; Ours row",
+   "reported_value": "0.53 m",
+   "comparison": "PD-init with HC on initial states at 1.86 m",
+   "quote": "Initial States\n0.53\n0.16\n0.19",
+   "page": "5-6"
+  },
+  {
+   "claim": "TrafficDiffuser's generated initial states have an off-road rate of 5.10 percent without guidance sampling.",
+   "kind": "main_result",
+   "metric": "Off road rate (%)",
+   "condition": "High-level scenario generation, initial states, Table I, Argoverse 2, no guidance sampling",
+   "reported_value": "5.10 %",
+   "comparison": "PD-init 5.36 and SC 5.25 for initial states",
+   "quote": "Ours\n9.80\n5.10\n1.81\n0.068\n0.200\n0.201\n0.101",
+   "page": "4-5"
+  },
+  {
+   "claim": "TrafficDiffuser's generated initial states have a collision rate of 9.80 percent without guidance sampling, higher than the baselines.",
+   "kind": "main_result",
+   "metric": "Collision rate (%)",
+   "condition": "High-level scenario generation, initial states, Table I, Argoverse 2, no guidance sampling",
+   "reported_value": "9.80 %",
+   "comparison": "SC 4.40 and PD-init 4.22 for initial states",
+   "quote": "Ours\n9.80\n5.10\n1.81\n0.068\n0.200\n0.201\n0.101",
+   "page": "4-5"
+  },
+  {
+   "claim": "TrafficDiffuser's generated speed distribution is reported as 55.3 percent closer to the ground truth than the baseline; the text names SceneControl (SC), but Table I matches the baseline PD-init.",
+   "kind": "main_result",
+   "metric": "Speed JSD, relative improvement",
+   "condition": "High-level scenario generation, initial states, Table I, Argoverse 2, no guidance sampling",
+   "reported_value": "55.3%",
+   "comparison": "the text says SC; Table I gives 0.1524 (PD-init) to 0.068 (ours), which is 55.3 %, while SC is 0.16 (about 57.5 %): baseline unclear in the packet",
+   "quote": "distribution is closer to the ground truth by 55.3%, compared\nto the speed output distribution of SC",
+   "page": "5"
+  }
+ ]
+}
