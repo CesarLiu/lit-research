@@ -1,0 +1,13 @@
+{
+ "id": "scenario_diffusion_controllable_driving_scenario_g",
+ "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Map image plus agent tokens (e.g. position, heading, size, speed, final speed, trajectory curvature for chosen agents) and a global scene token that sets how many extra agents are generated.", "pages": "1-5"},
+ "control_mechanism": {"value": "Map encoded and channel-concatenated with the noisy latent; tokens embedded by per-type MLPs and used as keys/values in U-Net cross-attention. Random token masking during training (partial tokenization) lets the model fill in extra agents.", "pages": "4-5"},
+ "base_model": {"value": "Latent diffusion: VAE autoencoder trained for anchor-free detection of oriented boxes plus trajectory regression from BEV; conditional U-Net denoiser trained with the EDM algorithm.", "pages": "3, 17-18"},
+ "datasets": {"value": "Argoverse 2 motion forecasting (250,000 scenarios, 6 regions) and an internal dataset of 6 million scenarios from Las Vegas, Seattle, San Francisco and SLAC campus.", "pages": "5"},
+ "metrics": {"value": "Agent token match rate, number of additional generated agents, MMD-based distribution metrics, precision/recall/F1 of token matching, earth mover's distance on agent count, cross-region comparisons over 5 seeds.", "pages": "7, 8-9, 19-20"},
+ "controllability_evidence": {"value": "Agent token match rate stays 0.97 (0.01) from 0% to 50% masking and 0.96 at 90%; extra generated agents rise from 0.4 (0.3) to 12.6 (0.7) as masking probability increases, showing the global token controls density.", "pages": "7"},
+ "stated_limitations": {"value": "Broader generalization needs more work; training assumes bounding-box perception and trajectory models; only on-road vehicles modelled (no pedestrians); may need iterative generation over larger regions as AV moves.", "pages": "10"},
+ "notes": "MMD metric values are only partly visible in packet tables."
+}

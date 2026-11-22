@@ -1,0 +1,13 @@
+{
+ "id": "advsim_generating_safety_critical_scenarios_for_se",
+ "title": "AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles",
+ "control_family": "other",
+ "control_signal": {"value": "An adversarial objective chosen by the designer (hybrid of imitation, collision and comfort/safety cost terms; a subset such as collisions only can be used), applied to a black-box autonomy system under test.", "pages": "4, 8-9"},
+ "control_mechanism": {"value": "Black-box search (Bayesian optimization best) over a low-dimensional perturbation of actor kinematic-bicycle trajectories, projected onto a collision-free feasible set; LiDAR is re-simulated for each perturbed scene.", "pages": "3-4, 7-8"},
+ "base_model": {"value": "Not a learned generator: perturbs real logs with a high-fidelity LiDAR simulator; tested systems are IL, PLT, NMP and P3 autonomy stacks.", "pages": "2, 6-7"},
+ "datasets": {"value": "UrbanScenarios: 5,000 driving logs of 25 s from North American cities; curated to 3953 train and 409 val 6-second scenarios.", "pages": "6-7"},
+ "metrics": {"value": "Collision rate (up to 3 or 5 s), L2 distance to human trajectory, jerk, lateral acceleration, detection AP at IoU 0.7, prediction L2 error, occupancy F1.", "pages": "6-7"},
+ "controllability_evidence": {"value": "Generated scenarios give an average collision rate of 32.8 %, over 200 % more than the original set; for P3 collisions rise from 8.5 % to 32.0 %. Same-system targeting transfers best (Table 4 diagonal).", "pages": "7-8"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Adversarial perturbation framework, not a generative traffic model; control is optimization of a cost, not user conditioning. Packet shows collision rate dropping for m>=3 perturbed actors (page 8) but that is an observation, not framed as a limitation."
+}

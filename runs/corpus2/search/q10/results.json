@@ -1,0 +1,1201 @@
+{
+  "query": "closed-loop adversarial training end-to-end driving",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 42,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4387838419",
+      "doi": "10.48550/arxiv.2310.12432",
+      "title": "CAT: Closed-loop Adversarial Training for Safe End-to-End Driving",
+      "abstract": "Driving safety is a top priority for autonomous vehicles. Orthogonal to prior work handling accident-prone traffic events by algorithm designs at the policy level, we investigate a Closed-loop Adversarial Training (CAT) framework for safe end-to-end driving in this paper through the lens of environment augmentation. CAT aims to continuously improve the safety of driving agents by training the agent on safety-critical scenarios that are dynamically generated over time. A novel resampling technique is developed to turn log-replay real-world driving scenarios into safety-critical ones via probabilistic factorization, where the adversarial traffic generation is modeled as the multiplication of standard motion prediction sub-problems. Consequently, CAT can launch more efficient physical attacks compared to existing safety-critical scenario generation methods and yields a significantly less computational cost in the iterative learning pipeline. We incorporate CAT into the MetaDrive simulator and validate our approach on hundreds of driving scenarios imported from real-world driving datasets. Experimental results demonstrate that CAT can effectively generate adversarial scenarios countering the agent being trained. After training, the agent can achieve superior driving safety in both log-replay and safety-critical traffic scenarios on the held-out test set. Code and data are available at https://metadriverse.github.io/cat.",
+      "year": 2023,
+      "authors": [
+        "Linrui Zhang",
+        "Zhenghao Peng",
+        "Quanyi Li",
+        "Bolei Zhou"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 95,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2310.12432",
+      "url": "https://openalex.org/W4387838419",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv231012432_CAT_Closed-loop_Adversarial_Training_for_Safe_End-to-End_D",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv231012432_CAT_Closed-loop_Adversarial_Training_for_Safe_End-to-End_D.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4402727495",
+      "doi": "10.1109/cvpr52733.2024.01432",
+      "title": "LMDrive: Closed-Loop End-to-End Driving with Large Language Models",
+      "abstract": "Despite significant recent progress in the field of autonomous driving, modern methods still struggle and can incur serious accidents when encountering long-tail unfore-seen events and challenging urban scenarios. On the one hand, large language models (LLM) have shown impres-sive reasoning capabilities that approach “Artificial Gen-eral Intelligence”. On the other hand, previous autonomous driving methods tend to rely on limited-format inputs (e.g., sensor data and navigation waypoints), restricting the vehi-cle's ability to understand language information and inter-act with humans. To this end, this paper introduces LM-Drive, a novel language-guided, end-to-end, closed-loop autonomous driving framework. LMDrive uniquely processes and integrates multimodal sensor data with naturallanguage instructions, enabling interaction with humans and navigation software in realistic instructional settings. To facilitate research in language-based closed-loop autonomous driving, we also publicly release the corresponding dataset which includes approximately 64K instruction-following data clips, and the LangAuto benchmark that tests the system's ability to handle complex instructions and challenging driving scenarios. Extensive closed-loop experiments are conducted to demonstrate LMDrive's effectiveness. To the best of our knowledge, we're the very first work to leverage LLMs for closed-loop end-to-end autonomous driving. Code is available on our webpage.",
+      "year": 2024,
+      "authors": [
+        "Hao Shao",
+        "Yuxuan Hu",
+        "Letian Wang",
+        "Guanglu Song",
+        "Steven L. Waslander",
+        "Yu Liu",
+        "Hongsheng Li"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 602,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.07488",
+      "url": "https://openalex.org/W4402727495",
+      "also_doi": [],
+      "key": "openalex_101109_cvpr52733202401432_LMDrive_Closed-Loop_End-to-End_Driving_with_Large_Langu",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202401432_LMDrive_Closed-Loop_End-to-End_Driving_with_Large_Langu.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4403621951",
+      "doi": "10.48550/arxiv.2409.07321",
+      "title": "Module-wise Adaptive Adversarial Training for End-to-end Autonomous Driving",
+      "abstract": "Recent advances in deep learning have markedly improved autonomous driving (AD) models, particularly end-to-end systems that integrate perception, prediction, and planning stages, achieving state-of-the-art performance. However, these models remain vulnerable to adversarial attacks, where human-imperceptible perturbations can disrupt decision-making processes. While adversarial training is an effective method for enhancing model robustness against such attacks, no prior studies have focused on its application to end-to-end AD models. In this paper, we take the first step in adversarial training for end-to-end AD models and present a novel Module-wise Adaptive Adversarial Training (MA2T). However, extending conventional adversarial training to this context is highly non-trivial, as different stages within the model have distinct objectives and are strongly interconnected. To address these challenges, MA2T first introduces Module-wise Noise Injection, which injects noise before the input of different modules, targeting training models with the guidance of overall objectives rather than each independent module loss. Additionally, we introduce Dynamic Weight Accumulation Adaptation, which incorporates accumulated weight changes to adaptively learn and adjust the loss weights of each module based on their contributions (accumulated reduction rates) for better balance and robust training. To demonstrate the efficacy of our defense, we conduct extensive experiments on the widely-used nuScenes dataset across several end-to-end AD models under both white-box and black-box attacks, where our method outperforms other baselines by large margins (+5-10%). Moreover, we validate the robustness of our defense through closed-loop evaluation in the CARLA simulation environment, showing improved resilience even against natural corruption.",
+      "year": 2024,
+      "authors": [
+        "Tianyuan Zhang",
+        "Lu Wang",
+        "Jiaqi Kang",
+        "Xinwei Zhang",
+        "Siyuan Liang",
+        "Yuwei Chen",
+        "Aishan Liu",
+        "Xianglong Liu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 13,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.07321",
+      "url": "https://openalex.org/W4403621951",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv240907321_Module-wise_Adaptive_Adversarial_Training_for_End-to-end_A",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240907321_Module-wise_Adaptive_Adversarial_Training_for_End-to-end_A.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3011462663",
+      "doi": "10.1109/tnnls.2020.3043505",
+      "title": "A Survey of End-to-End Driving: Architectures and Training Methods",
+      "abstract": "Autonomous driving is of great interest to industry and academia alike. The use of machine learning approaches for autonomous driving has long been studied, but mostly in the context of perception. In this article, we take a deeper look on the so-called end-to-end approaches for autonomous driving, where the entire driving pipeline is replaced with a single neural network. We review the learning methods, input and output modalities, network architectures, and evaluation schemes in end-to-end driving literature. Interpretability and safety are discussed separately, as they remain challenging for this approach. Beyond providing a comprehensive overview of existing methods, we conclude the review with an architecture that combines the most promising elements of the end-to-end autonomous driving systems.",
+      "year": 2020,
+      "authors": [
+        "Ardi Tampuu",
+        "Tambet Matiisen",
+        "Maksym Semikin",
+        "Dmytro Fishman",
+        "Naveed Muhammad"
+      ],
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "cited_by": 413,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2003.06404",
+      "url": "https://openalex.org/W3011462663",
+      "key": "openalex_101109_tnnls20203043505_A_Survey_of_End-to-End_Driving_Architectures_and_Training",
+      "file_kind": "txt",
+      "file": "openalex_101109_tnnls20203043505_A_Survey_of_End-to-End_Driving_Architectures_and_Training.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4385356567",
+      "doi": "10.1109/iv55152.2023.10186386",
+      "title": "Adversarial Driving: Attacking End-to-End Autonomous Driving",
+      "abstract": "As research in deep neural networks advances, deep convolutional networks become promising for autonomous driving tasks. In particular, there is an emerging trend of employing end-to-end neural network models for autonomous driving. However, previous research has shown that deep neural network classifiers are vulnerable to adversarial attacks. While for regression tasks, the effect of adversarial attacks is not as well understood. In this research, we devise two white-box targeted attacks against end-to-end autonomous driving models. Our attacks manipulate the behavior of the autonomous driving system by perturbing the input image. In an average of 800 attacks with the same attack strength (epsilon=1), the image-specific and image-agnostic attack deviates the steering angle from the original output by 0.478 and 0.111, respectively, which is much stronger than random noises that only perturbs the steering angle by 0.002 (The steering angle ranges from [-1, 1]). Both attacks can be initiated in real-time on CPUs without employing GPUs. Demo video: https://youtu.be/I0i8uN2oOP0.",
+      "year": 2023,
+      "authors": [
+        "Han Wu",
+        "Syed Usama Yunas",
+        "Sareh Rowlands",
+        "Wenjie Ruan",
+        "Johan Wahlström"
+      ],
+      "venue": "IEEE Intelligent Vehicles Symposium",
+      "cited_by": 75,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2103.09151",
+      "url": "https://openalex.org/W4385356567",
+      "key": "openalex_101109_iv55152202310186386_Adversarial_Driving_Attacking_End-to-End_Autonomous_Dr",
+      "file_kind": "txt",
+      "file": "openalex_101109_iv55152202310186386_Adversarial_Driving_Attacking_End-to-End_Autonomous_Dr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4417529641",
+      "doi": "10.48550/arxiv.2512.16055",
+      "title": "Driving in Corner Case: A Real-World Adversarial Closed-Loop Evaluation Platform for End-to-End Autonomous Driving",
+      "abstract": "Safety-critical corner cases, difficult to collect in the real world, are crucial for evaluating end-to-end autonomous driving. Adversarial interaction is an effective method to generate such safety-critical corner cases. While existing adversarial evaluation methods are built for models operating in simplified simulation environments, adversarial evaluation for real-world end-to-end autonomous driving has been little explored. To address this challenge, we propose a closed-loop evaluation platform for end-to-end autonomous driving, which can generate adversarial interactions in real-world scenes. In our platform, the real-world image generator cooperates with an adversarial traffic policy to evaluate various end-to-end models trained on real-world data. The generator, based on flow matching, efficiently and stably generates real-world images according to the traffic environment information. The efficient adversarial surrounding vehicle policy is designed to model challenging interactions and create corner cases that current autonomous driving systems struggle to handle. Experimental results demonstrate that the platform can generate realistic driving images efficiently. Through evaluating the end-to-end models such as UniAD and VAD, we demonstrate that based on the adversarial policy, our platform evaluates the performance degradation of the tested model in corner cases. This result indicates that this platform can effectively detect the model's potential issues, which will facilitate the safety and robustness of end-to-end autonomous driving.",
+      "year": 2025,
+      "authors": [
+        "Jiaheng Geng",
+        "Jiatong Du",
+        "Xinyu Zhang",
+        "Ye Li",
+        "Panqu Wang",
+        "Yanjun Huang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.16055",
+      "url": "https://openalex.org/W4417529641",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv251216055_Driving_in_Corner_Case_A_Real-World_Adversarial_Closed-Loo",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv251216055_Driving_in_Corner_Case_A_Real-World_Adversarial_Closed-Loo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4401109681",
+      "doi": "10.1109/tpami.2024.3435937",
+      "title": "End-to-End Autonomous Driving: Challenges and Frontiers",
+      "abstract": "The autonomous driving community has witnessed a rapid growth in approaches that embrace an end-to-end algorithm framework, utilizing raw sensor input to generate vehicle motion plans, instead of concentrating on individual tasks such as detection and motion prediction. End-to-end systems, in comparison to modular pipelines, benefit from joint feature optimization for perception and planning. This field has flourished due to the availability of large-scale datasets, closed-loop evaluation, and the increasing need for autonomous driving algorithms to perform effectively in challenging scenarios. In this survey, we provide a comprehensive analysis of more than 270 papers, covering the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. We delve into several critical challenges, including multi-modality, interpretability, causal confusion, robustness, and world models, amongst others. Additionally, we discuss current advancements in foundation models and visual pre-training, as well as how to incorporate these techniques within the end-to-end driving framework.",
+      "year": 2024,
+      "authors": [
+        "Li Chen",
+        "Penghao Wu",
+        "Kashyap Chitta",
+        "Bernhard Jaeger",
+        "Andreas Geiger",
+        "Hongyang Li"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "cited_by": 1278,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4401109681",
+      "key": "openalex_101109_tpami20243435937_End-to-End_Autonomous_Driving_Challenges_and_Frontiers",
+      "file_kind": "txt",
+      "file": "openalex_101109_tpami20243435937_End-to-End_Autonomous_Driving_Challenges_and_Frontiers.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W2965333252",
+      "doi": "10.1109/icess.2019.8782514",
+      "title": "Simple Physical Adversarial Examples against End-to-End Autonomous Driving Models",
+      "abstract": "Recent advances in machine learning, especially techniques such as deep neural networks, are promoting a range of high-stakes applications, including autonomous driving, which often relies on deep learning for perception. While deep learning for perception has been shown to be vulnerable to a host of subtle adversarial manipulations of images, end-to-end demonstrations of successful attacks, which manipulate the physical environment and result in physical consequences, are scarce. Moreover, attacks typically involve carefully constructed adversarial examples at the level of pixels. We demonstrate the first end-to-end attacks on autonomous driving in simulation, using simple physically realizable attacks: the painting of black lines on the road. These attacks target deep neural network models for end-to-end autonomous driving control. A systematic investigation shows that such attacks are surprisingly easy to engineer, and we describe scenarios (e.g., right turns) in which they are highly effective, and others that are less vulnerable (e.g., driving straight). Further, we use network deconvolution to demonstrate that the attacks succeed by inducing activation patterns similar to entirely different scenarios used in training.",
+      "year": 2019,
+      "authors": [
+        "Adith Boloor",
+        "Xin He",
+        "Christopher D. Gill",
+        "Yevgeniy Vorobeychik",
+        "Xuan Zhang"
+      ],
+      "venue": "International Conference on Embedded Software and Systems",
+      "cited_by": 105,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1903.05157",
+      "url": "https://openalex.org/W2965333252",
+      "key": "openalex_101109_icess20198782514_Simple_Physical_Adversarial_Examples_against_End-to-End_A",
+      "file_kind": "txt",
+      "file": "openalex_101109_icess20198782514_Simple_Physical_Adversarial_Examples_against_End-to-End_A.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4312991107",
+      "doi": "10.1007/978-3-031-19842-7_16",
+      "title": "Rethinking Closed-Loop Training for Autonomous Driving",
+      "abstract": "",
+      "year": 2022,
+      "authors": [
+        "Wenjun Zhang",
+        "Runsheng Guo",
+        "Wenyuan Zeng",
+        "Yuwen Xiong",
+        "Binbin Dai",
+        "Rui Hu",
+        "Mengye Ren",
+        "Raquel Urtasun"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 46,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.15713",
+      "url": "https://openalex.org/W4312991107",
+      "key": "openalex_101007_978-3-031-19842-7_16_Rethinking_Closed-Loop_Training_for_Autonomous_Drivin",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-19842-7_16_Rethinking_Closed-Loop_Training_for_Autonomous_Drivin.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413147287",
+      "doi": "10.1109/cvpr52734.2025.01124",
+      "title": "DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving",
+      "abstract": "Recently, the diffusion model has emerged as a powerful generative technique for robotic policy learning, capable of modeling multi-mode action distributions. Leveraging its capability for end-to-end autonomous driving is a promising direction. However, the numerous denoising steps in the robotic diffusion policy and the more dynamic, open-world nature of traffic scenes pose substantial challenges for generating diverse driving actions at a real-time speed. To address these challenges, we propose a novel truncated diffusion policy that incorporates prior multi-mode anchors and truncates the diffusion schedule, enabling the model to learn denoising from anchored Gaussian distribution to the multi-mode driving action distribution. Additionally, we design an efficient cascade diffusion decoder for enhanced interaction with conditional scene context. The proposed model, DiffusionDrive, demonstrates 10× reduction in denoising steps compared to vanilla diffusion policy, delivering superior diversity and quality in just 2 steps. On the planning-oriented NAVSIM dataset, with aligned ResNet-34 backbone, DiffusionDrive achieves 88.1 PDMS without bells and whistles, setting a new record, while running at a real-time speed of 45 FPS on an NVIDIA 4090. Qualitative results on challenging scenarios further confirm that DiffusionDrive can robustly generate diverse plausible driving actions.",
+      "year": 2025,
+      "authors": [
+        "Bencheng Liao",
+        "Shaoyu Chen",
+        "Haoran Yin",
+        "Bo Jiang",
+        "Cheng Wang",
+        "Sixu Yan",
+        "Xinbang Zhang",
+        "Xiangyu Li",
+        "Yingpeng Zhang",
+        "Qian Zhang",
+        "Xinggang Wang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 631,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2411.15139",
+      "url": "https://openalex.org/W4413147287",
+      "key": "openalex_101109_cvpr52734202501124_DiffusionDrive_Truncated_Diffusion_Model_for_End-to-End",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202501124_DiffusionDrive_Truncated_Diffusion_Model_for_End-to-End.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4417095041",
+      "doi": "10.52202/085713-1386",
+      "title": "Model-Based Policy Adaptation for Closed-Loop End-to-end Autonomous Driving",
+      "abstract": "End-to-end (E2E) autonomous driving models have demonstrated strong performance in open-loop evaluations but often suffer from cascading errors and poor generalization in closed-loop settings. To address this gap, we propose Model-based Policy Adaptation (MPA), a general framework that enhances the robustness and safety of pretrained E2E driving agents during deployment. MPA first generates diverse counterfactual trajectories using a geometry-consistent simulation engine, exposing the agent to scenarios beyond the original dataset. Based on this generated data, MPA trains a diffusion-based policy adapter to refine the base policy's predictions and a multi-step Q value model to evaluate long-term outcomes. At inference time, the adapter proposes multiple trajectory candidates, and the Q value model selects the one with the highest expected utility. Experiments on the nuScenes benchmark using a photorealistic closed-loop simulator demonstrate that MPA significantly improves performance across in-domain, out-of-domain, and safety-critical scenarios. We further investigate how the scale of counterfactual data and inference-time guidance strategies affect overall effectiveness.",
+      "year": 2025,
+      "authors": [
+        "Haohong Lin",
+        "Yunzhi Zhang",
+        "Wenhao Ding",
+        "Jiajun Wu",
+        "Ding Zhao"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 11,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.21584v1",
+      "url": "https://openalex.org/W4417095041",
+      "also_doi": [],
+      "key": "openalex_1052202_085713-1386_Model-Based_Policy_Adaptation_for_Closed-Loop_End-to-end_Auto",
+      "file_kind": "txt",
+      "file": "openalex_1052202_085713-1386_Model-Based_Policy_Adaptation_for_Closed-Loop_End-to-end_Auto.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7161237039",
+      "doi": "10.48550/arxiv.2605.15120",
+      "title": "CLOVER: Closed-Loop Value Estimation and Ranking for End-to-End Autonomous Driving Planning",
+      "abstract": "End-to-end autonomous driving planners are commonly trained by imitating a single logged trajectory, yet evaluated by rule-based planning metrics that measure safety, feasibility, progress, and comfort. This creates a training--evaluation mismatch: trajectories close to the logged path may violate planning rules, while alternatives farther from the demonstration can remain valid and high-scoring. The mismatch is especially limiting for proposal-selection planners, whose performance depends on candidate-set coverage and scorer ranking quality. We propose CLOVER, a Closed-LOop Value Estimation and Ranking framework for end-to-end autonomous driving planning. CLOVER follows a lightweight generator--scorer formulation: a generator produces diverse candidate trajectories, and a scorer predicts planning-metric sub-scores to rank them at inference time. To expand proposal support beyond single-trajectory imitation, CLOVER constructs evaluator-filtered pseudo-expert trajectories and trains the generator with set-level coverage supervision. It then performs conservative closed-loop self-distillation: the scorer is fitted to true evaluator sub-scores on generated proposals, while the generator is refined toward teacher-selected top-$k$ and vector-Pareto targets with stability regularization. We analyze when an imperfect scorer can improve the generator, showing that scorer-mediated refinement is reliable when scorer-selected targets are enriched under the true evaluator and updates remain conservative. On NAVSIM, CLOVER achieves 94.5 PDMS and 90.4 EPDMS, establishing a new state of the art. On the more challenging NavHard split, it obtains 48.3 EPDMS, matching the strongest reported result. On supplementary nuScenes open-loop evaluation, CLOVER achieves the lowest L2 error and collision rate among compared methods. Code data will be released at https://github.com/WilliamXuanYu/CLOVER.",
+      "year": 2026,
+      "authors": [
+        "Sining Ang",
+        "Yuguang Yang",
+        "Canyu Chen",
+        "Yan Wang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 14,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.15120",
+      "url": "https://openalex.org/W7161237039",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv260515120_CLOVER_Closed-Loop_Value_Estimation_and_Ranking_for_End-to",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260515120_CLOVER_Closed-Loop_Value_Estimation_and_Ranking_for_End-to.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4411550852",
+      "doi": "10.1109/tits.2025.3578383",
+      "title": "LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models",
+      "abstract": "Ensuring and improving the safety of autonomous driving systems (ADS) is crucial for deployment of highly automated vehicles, especially in safety-critical events. To address the rarity issue, adversarial scenario generation methods are developed, in which behaviors of traffic participants are manipulated to induce safety-critical events. However, existing methods still face two limitations. First, identification of the adversarial participant directly impacts the effectiveness of the generation. However, complexity of real-world scenarios, with numerous participants and diverse behaviors, makes identification challenging. Second, potential of generated safety-critical scenarios to continuously improve ADS performance remains underexplored. To address these issues, we propose LLM-attacker: a closed-loop adversarial scenario generation framework leveraging large language models (LLMs). Specifically, multiple LLM agents are designed and coordinated to identify optimal attackers. Then, the trajectories of attackers are optimized to generate adversarial scenarios. These scenarios are iteratively refined based on the performance of ADS, forming a feedback loop to improve ADS. Experimental results show that LLM-attacker can create more dangerous scenarios than other methods, and the ADS trained with it achieves a collision rate half that of training with normal scenarios. This indicates the ability of LLM-attacker to test and enhance the safety and robustness of ADS. The framework’s closed-loop design enables continuous scenario evolution compliant with regulatory standards, supporting both safety assurance and policy verification for ADS. Video demonstrations are provided at: https://drive.google.com/file/d/15rROV_ 8LUcc2jXSuSNBHVOHMCFKSn__B/view",
+      "year": 2025,
+      "authors": [
+        "Yuewen Mei",
+        "Tong Nie",
+        "Jian Sun",
+        "Ye Tian"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 77,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.15850",
+      "url": "https://openalex.org/W4411550852",
+      "key": "openalex_101109_tits20253578383_LLM-Attacker_Enhancing_Closed-Loop_Adversarial_Scenario_Ge",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20253578383_LLM-Attacker_Enhancing_Closed-Loop_Adversarial_Scenario_Ge.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417406809",
+      "doi": "10.36227/techrxiv.176591565.57674132/v1",
+      "title": "Beyond Behavior Cloning in Autonomous Driving: a Survey of Closed-Loop Training Techniques",
+      "abstract": "Behavior cloning, the dominant approach for training autonomous vehicle (AV) policies, suffers from a fundamental gap: policies trained open-loop on temporally independent samples must operate in closed-loop where actions influence future observations. This mismatch can cause covariate shift, compounding errors, and poor interactive behavior, among other issues. Closed-loop training mitigates the problem by exposing policies to the consequences of their actions during training. However, the recent shift to end-to-end (\"sensor to action\") systems has made closed-loop training significantly more complex, requiring costly high-dimensional rendering and managing sim-to-real gaps. This survey presents a comprehensive taxonomy of closed-loop training techniques for end-to-end driving, organized along three axes: action generation (policy rollouts vs. perturbed demonstrations); environment response generation (real-world data collection, AV simulation, generative video and latent world models); and training objectives (closed-loop imitation, reinforcement learning, and their combinations). We analyze key trade-offs along each axis: on-policy vs. on-expert action generation, environment fidelity vs. cost, and expert vs. reward-based training objectives; as well as coupling factors, such as rollout deviation from the policy, expert, and real world logs; and data type, throughput, and latency requirements. The analysis reveals gaps between current research and industry practice, and points to promising directions for future work.",
+      "year": 2025,
+      "authors": [
+        "Péter Karkus",
+        "Maximilian Igl",
+        "Yuxiao Chen",
+        "Kashyap Chitta",
+        "Jef Packer",
+        "Bertrand Douillard",
+        "Ran Tian",
+        "Alexander Naumann",
+        "Guillermo Garcia-Cobo",
+        "Shuhan Tan",
+        "Alperen Değirmenci",
+        "Alexander Popov",
+        "Nikolai Smolyanskiy",
+        "Urs Müller",
+        "Boris Ivanovic",
+        "Marco Pavone"
+      ],
+      "venue": "",
+      "cited_by": 11,
+      "is_oa": true,
+      "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176591565.57674132/v1",
+      "url": "https://openalex.org/W4417406809",
+      "key": "openalex_1036227_techrxiv17659156557674132_v1_Beyond_Behavior_Cloning_in_Autonomous_Drivin",
+      "file_kind": "txt",
+      "file": "openalex_1036227_techrxiv17659156557674132_v1_Beyond_Behavior_Cloning_in_Autonomous_Drivin.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7160912480",
+      "doi": "10.48550/arxiv.2605.10904",
+      "title": "MDrive: Benchmarking Closed-Loop Cooperative Driving for End-to-End Multi-agent Systems",
+      "abstract": "Vehicle-to-Everything (V2X) communication has emerged as a promising paradigm for autonomous driving, enabling connected agents to share complementary perception information and negotiate with each other to benefit the final planning. Existing V2X benchmarks, however, fall short in two ways: (i) open-loop evaluations fail to capture the inherently closed-loop nature of driving, leading to evaluation gaps, and (ii) current closed-loop evaluations lack behavioral and interactive diversity to reflect real-world driving. Thus, it is still unclear the extent of benefits of multi-agent systems for closed-loop driving. In this paper, we introduce MDrive, a closed-loop cooperative driving benchmark comprising 225 scenarios grounded in both NHTSA pre-crash typologies and real-world V2X datasets. Our benchmark results demonstrate that multi-agent systems are generally better than single-agent counterparts. However, current multi-agent systems still face two important challenges: (i) perception sharing enhances perceptions, but doesn't always translate to better planning; (ii) negotiation improves planning performance but harms it in complex and dense traffic scenarios. MDrive further provides an open-source toolbox for scenario generation, Real2Sim conversion, and human-in-the-loop simulation. Together, MDrive establishes a reproducible foundation for evaluating and improving the generalization and robustness of cooperative driving systems.",
+      "year": 2026,
+      "authors": [
+        "Marco Coscoy",
+        "Zewei Zhou",
+        "Seth Z. Zhao",
+        "Henry Wei",
+        "Angela Magtoto",
+        "Johnson Liu",
+        "Rui Song",
+        "Walter Zimmer",
+        "Zhiyu Huang",
+        "Chen Tang",
+        "Bolei Zhou",
+        "Jiaqi W. Ma"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 9,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.10904",
+      "url": "https://openalex.org/W7160912480",
+      "key": "openalex_1048550_arxiv260510904_MDrive_Benchmarking_Closed-Loop_Cooperative_Driving_for_En",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260510904_MDrive_Benchmarking_Closed-Loop_Cooperative_Driving_for_En.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7222924788",
+      "doi": "10.1109/ijcnn69854.2026.11730068",
+      "title": "Decoupling Representation Robustness and Behavioral Robustness in End-to-End Driving A Feature-Space Robustness Module for Actor–Critic Policies",
+      "abstract": "Closed-loop adversarial training has emerged as an effective paradigm for improving the safety of end-to-end autonomous driving policies. However, existing approaches primarily operate at the environment or observation level, leaving the robustness of internal representations largely implicit and poorly understood.In this paper, we introduce the Feature-Space Robustness Module (FRM), a plug-in component that explicitly regularizes latent representations in actor–critic systems via worst-case bounded perturbations, without modifying environment dynamics.We evaluate FRM on a closed-loop driving benchmark with 500 scenarios from the Closed-Loop Adversarial Training for Safe End-to-End Driving (CAT), averaged over five random seeds. Critic-side FRM reduces value sensitivity by over 6×, while joint actor–critic regularization lowers policy divergence by more than 75%. In closed-loop evaluation, FRM achieves comparable crash rates to CAT but with reduced route completion, indicating a trade-off between safety and task efficiency. These results reveal a partial decoupling between value robustness and behavioral robustness.",
+      "year": 2026,
+      "authors": [
+        "Yuanchen Liu",
+        "Dongcheng Li"
+      ],
+      "venue": "International Joint Conference on Neural Networks (IJCNN)",
+      "cited_by": 0,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7222924788",
+      "key": "openalex_101109_ijcnn69854202611730068_Decoupling_Representation_Robustness_and_Behavioral",
+      "file_kind": "txt",
+      "file": "openalex_101109_ijcnn69854202611730068_Decoupling_Representation_Robustness_and_Behavioral.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417060263",
+      "doi": "10.48550/arxiv.2503.11650",
+      "title": "Centaur: Robust End-to-End Autonomous Driving with Test-Time Training",
+      "abstract": "How can we rely on an end-to-end autonomous vehicle's complex decision-making system during deployment? One common solution is to have a ``fallback layer'' that checks the planned trajectory for rule violations and replaces it with a pre-defined safe action if necessary. Another approach involves adjusting the planner's decisions to minimize a pre-defined ``cost function'' using additional system predictions such as road layouts and detected obstacles. However, these pre-programmed rules or cost functions cannot learn and improve with new training data, often resulting in overly conservative behaviors. In this work, we propose Centaur (Cluster Entropy for Test-time trAining using Uncertainty) which updates a planner's behavior via test-time training, without relying on hand-engineered rules or cost functions. Instead, we measure and minimize the uncertainty in the planner's decisions. For this, we develop a novel uncertainty measure, called Cluster Entropy, which is simple, interpretable, and compatible with state-of-the-art planning algorithms. Using data collected at prior test-time time-steps, we perform an update to the model's parameters using a gradient that minimizes the Cluster Entropy. With only this sole gradient update prior to inference, Centaur exhibits significant improvements, ranking first on the navtest leaderboard with notable gains in safety-critical metrics such as time to collision. To provide detailed insights on a per-scenario basis, we also introduce navsafe, a challenging new benchmark, which highlights previously undiscovered failure modes of driving models.",
+      "year": 2025,
+      "authors": [
+        "Chonghao Sima",
+        "Kashyap Chitta",
+        "Zhiding Yu",
+        "Shiyi Lan",
+        "Ping Luo",
+        "Andreas Geiger",
+        "Hongyang Li",
+        "José Manuel Álvarez"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 54,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.11650",
+      "url": "https://openalex.org/W4417060263",
+      "key": "openalex_1048550_arxiv250311650_Centaur_Robust_End-to-End_Autonomous_Driving_with_Test-Tim",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250311650_Centaur_Robust_End-to-End_Autonomous_Driving_with_Test-Tim.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7160284448",
+      "doi": "10.48550/arxiv.2605.00880",
+      "title": "Adversarial Flow Matching for Imperceptible Attacks on End-to-End Autonomous Driving",
+      "abstract": "Autonomous driving (AD) is evolving towards end-to-end (E2E) frameworks through two primary paradigms: monolithic models exemplified by Vision-Language-Action (VLA), and specialized modular architectures. Despite their divergent designs, both paradigms increasingly rely on Transformer backbones for complex reasoning, potentially causing a shared vulnerability: visually imperceptible perturbations can manipulate E2E AD models into hazardous maneuvers by targeting the Transformer module. Most existing adversarial attack approaches against AD systems operate under white-box or black-box settings; yet, they typically necessitate full model transparency, or suffer from either prohibitive query latency or limited attack transferability. In this paper, we propose Adversarial Flow Matching (AFM), a novel gray-box attack framework that exploits Transformer structural vulnerabilities in E2E AD models. AFM enables efficient one-step generation of adversarial examples via a neural average velocity field. Additionally, the proposed technique yields effective and visually imperceptible attacks by synergistically perturbing the generative latent space and the neural average velocity field. Extensive experiments demonstrate that AFM achieves a superior trade-off between attack effectiveness and imperceptibility: it substantially degrades the performance of both VLA and modular AD agents across various scenarios compared to baselines, while maintaining state-of-the-art visual imperceptibility. Furthermore, adversarial examples generated by AFM exhibit robust cross-model transferability, indicating that AFM closely approximates a black-box attack setting while requiring only the prior knowledge that the target AD model incorporates a Transformer-based module.",
+      "year": 2026,
+      "authors": [
+        "Xinyu Zeng",
+        "Xiangkun He",
+        "Lei Tao",
+        "Chen Lv",
+        "Hong Cheng"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.00880",
+      "url": "https://openalex.org/W7160284448",
+      "key": "openalex_1048550_arxiv260500880_Adversarial_Flow_Matching_for_Imperceptible_Attacks_on_End",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260500880_Adversarial_Flow_Matching_for_Imperceptible_Attacks_on_End.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7165372480",
+      "doi": "10.48550/arxiv.2606.19641",
+      "title": "Scaling Self-Play for End-to-End Driving",
+      "abstract": "End-to-end autonomous driving models are typically trained on offline human-demonstration datasets that provide limited state coverage and often no closed-loop feedback, making them prone to compounding errors when deployed in closed-loop and brittle to long-tail agent interactions. To overcome these limitations, we propose an alternative strategy for training end-to-end driving models: large-scale self-play directly from pixels in simulation. While prior self-play approaches have shown promising transfer to real-world driving, they typically assume vectorized Bird's-Eye-View (BEV) observations that are incompatible with end-to-end policies operating directly on sensor observations. To this end, we introduce Gigapixel, a high-throughput batched driving simulator with perspective rendering, enabling scalable self-play directly from pixel observations. Rather than targeting compute-costly photorealistic sensor simulation, Gigapixel renders a simplified bounding-box world that preserves essential scene structure while achieving throughput at 50k agent steps per second. Since direct pixel-space self-play RL is prohibitively sample-inefficient at end-to-end model scale, we propose self-play DAgger training: we train pixel-based policies in self-play via on-policy distillation from a privileged RL teacher. To bridge the sim-to-real gap, we subsequently transfer the self-play trained policies to real-world sensor data through lightweight perception adaptation. Policies trained in Gigapixel and adapted to real-world sensor data achieve competitive performance on the HUGSIM and NAVSIM-v2 benchmarks without human trajectory supervision. Moreover, scaling self-play training yields proportional gains in policy performance, establishing self-play as a practical and scalable strategy for training end-to-end models.",
+      "year": 2026,
+      "authors": [
+        "Luke Rowe",
+        "Roger Girgis",
+        "Rodrigue de Schaetzen",
+        "Daphne Cornelisse",
+        "Alaap Grandhi",
+        "Felix Heide",
+        "Eugene Vinitsky",
+        "Christopher Pal",
+        "Liam Paull"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.19641",
+      "url": "https://openalex.org/W7165372480",
+      "key": "openalex_1048550_arxiv260619641_Scaling_Self-Play_for_End-to-End_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260619641_Scaling_Self-Play_for_End-to-End_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7167928588",
+      "doi": "10.48550/arxiv.2607.08072",
+      "title": "Post-Training in End-to-End Autonomous Driving",
+      "abstract": "End-to-end models that map multimodal inputs directly to future trajectories/maneuvers have emerged as an increasingly prominent research paradigm in autonomous driving. This class of models includes both Vision-Language-Action models and trajectory-generative planners. Unlike classic machine learning applications, autonomous vehicles operate in safety-critical and interaction-intensive environments where traditional open-loop imitation of expert demonstrations is not sufficient to ensure reliability. In particular, small execution errors can accumulate over time, while recovery behaviors are scarce in training data. In addition, long-horizon objectives such as safety and driving comfort are not captured by pointwise labels either. These limitations have motivated a shift toward post-training techniques, which further refine driving policies beyond pure imitation. This survey presents a unified view of post-training for autonomous driving by defining its scope and organizing the existing literature into four major families based on the form of supervision they use. For each family, we discuss its capabilities, limitations, and open challenges. We aim to facilitate a systematic understanding of this emerging area and stimulate future research on reliable and efficient post-training for autonomous driving.A collection of related papers is available at https://github.com/RYNing/Awesome-Post-Training-In-Autonomous-Driving-Papers.",
+      "year": 2026,
+      "authors": [
+        "Ruining Yang",
+        "Muxing Wang",
+        "Yixiao Chen",
+        "Tongfei Guo",
+        "Yi Xu",
+        "Can Cui",
+        "Zichong Yang",
+        "Yitian Zhang",
+        "Ziran Wang",
+        "Yun Fu",
+        "Lili Su"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 4,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.08072",
+      "url": "https://openalex.org/W7167928588",
+      "key": "openalex_1048550_arxiv260708072_Post-Training_in_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260708072_Post-Training_in_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7221025921",
+      "doi": "10.1109/cvprf71909.2026.00110",
+      "title": "Pseudo-Expert Regularized Offline RL for End-to-End Autonomous Driving in Photorealistic Closed-Loop Environments",
+      "abstract": "End-to-end (E2E) autonomous driving models that take only camera images as input and directly predict a future trajectory are appealing for their computational efficiency and potential for improved generalization via unified optimization; however, persistent failure modes remain due to reliance on imitation learning (IL). While online reinforcement learning (RL) could mitigate IL-induced issues, the computational burden of neural rendering-based simulation and large E2E networks renders iterative reward and hyperparameter tuning costly. We introduce a cameraonly E2E offline RL framework that performs no additional exploration and trains solely on a fixed simulator dataset. Offline RL offers strong data efficiency and rapid experimental iteration, yet is susceptible to instability from overestimation on out-of-distribution (OOD) actions. To address this, we construct pseudo ground-truth trajectories from expert driving logs and use them as a behavior regularization signal, suppressing imitation of unsafe or suboptimal behavior while stabilizing value learning. Training and closed-loop evaluation are conducted in a neural rendering environment learned from the public nuScenes dataset. Empirically, the proposed method achieves substantial improvements in collision rate and route completion compared with IL baselines. Our code is available at https://github.com/ToyotaInfoTech/PEBC.",
+      "year": 2026,
+      "authors": [
+        "Chihiro Noguchi",
+        "Takaki Yamamoto"
+      ],
+      "venue": "",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.18662",
+      "url": "https://openalex.org/W7221025921",
+      "key": "openalex_101109_cvprf71909202600110_Pseudo-Expert_Regularized_Offline_RL_for_End-to-End_Au",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvprf71909202600110_Pseudo-Expert_Regularized_Offline_RL_for_End-to-End_Au.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7138867468",
+      "doi": "10.1109/lra.2026.3675928",
+      "title": "PerlAD: Towards Enhanced Closed-Loop End-to-End Autonomous Driving With Pseudo-Simulation-Based Reinforcement Learning",
+      "abstract": "End-to-end autonomous driving policies based on Imitation Learning (IL) often struggle in closed-loop execution due to the misalignment between inadequate open-loop training objectives and real driving requirements. While Reinforcement Learning (RL) offers a solution by directly optimizing driving goals via reward signals, the rendering-based training environments introduce the rendering gap and are inefficient due to high computational costs. To overcome these challenges, we present a novel Pseudo-simulation-based RL method for closed-loop end to-end autonomous driving, PerlAD. Based on offline datasets, PerlAD constructs a pseudo-simulation that operates in vector space, enabling efficient, rendering-free trial-and-error training. To bridge the gap between static datasets and dynamic closed loop environments, PerlAD introduces a prediction world model that generates reactive agent trajectories conditioned on the ego vehicle's plan. Furthermore, to facilitate efficient planning, PerlAD utilizes a hierarchical decoupled planner that combines IL for lateral path generation and RL for longitudinal speed optimization. Comprehensive experimental results demonstrate that PerlAD achieves state-of-the-art performance on the Bench2Drive benchmark, surpassing the previous E2E RL method by 10.29% in Driving Score without requiring expensive online interactions. Additional evaluations on the DOS benchmark further confirm its reliability in handling safety-critical occlusion scenarios.",
+      "year": 2026,
+      "authors": [
+        "Yinfeng Gao",
+        "Qichao Zhang",
+        "Deqing Liu",
+        "Zhongpu Xia",
+        "Guang Li",
+        "Kun Ma",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Long Chen",
+        "Da‐Wei Ding",
+        "Dongbin Zhao"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "cited_by": 6,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.14908",
+      "url": "https://openalex.org/W7138867468",
+      "also_doi": [],
+      "key": "openalex_101109_lra20263675928_PerlAD_Towards_Enhanced_Closed-Loop_End-to-End_Autonomous_D",
+      "file_kind": "txt",
+      "file": "openalex_101109_lra20263675928_PerlAD_Towards_Enhanced_Closed-Loop_End-to-End_Autonomous_D.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4410617866",
+      "doi": "10.54254/2755-2721/2025.tj23323",
+      "title": "Reinforcement Learning Methods for Autonomous Driving: A Survey",
+      "abstract": "In recent years, with the rapid development of intelligent transportation, Reinforcement Learning (RL), as an adaptive decision-making method, has gradually permeated into various levels of Autonomous Driving (AD). Therefore, this paper reviews the latest advances in the application of RL in AD. In terms of high-level decision-making and behavioral planning, RL, combined with visual-language models, imitation learning, multi-stage training, and autoregressive trajectory planning, systematically improves planning accuracy and task success rates. At the motion control level, the synergistic optimization of deep reinforcement learning (DRL) based continuous control strategies and robust control methods enhances performance in path tracking, dynamic obstacle avoidance, and multi-sensor information fusion. Meanwhile, end-to-end autonomous driving leverages novel frameworks such as closed-loop RL, World Model (WM), and multimodal decision fusion, effectively narrowing the gap between simulation and real-world environments while achieving significant improvements in safety and smoothness. Additionally, the paper discusses the limitations of RL applications, including data dependency, training efficiency, safety, and interpretability. Furthermore, it explores the future prospects for achieving more intelligent autonomous driving systems through strategies such as meta-learning, transfer learning, adversarial training, and human-machine collaboration.",
+      "year": 2025,
+      "authors": [
+        "Yujie Lin"
+      ],
+      "venue": "Applied and Computational Engineering",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://www.ewadirect.com/proceedings/ace/article/view/23323/pdf",
+      "url": "https://openalex.org/W4410617866",
+      "key": "openalex_1054254_2755-2721_2025tj23323_Reinforcement_Learning_Methods_for_Autonomous_Drivi",
+      "file_kind": "txt",
+      "file": "openalex_1054254_2755-2721_2025tj23323_Reinforcement_Learning_Methods_for_Autonomous_Drivi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7160197198",
+      "doi": "10.1109/iccv51701.2025.02302",
+      "title": "Orion: A Holistic End-To-End Autonomous Driving Framework by Vision-Language Instructed Action Generation",
+      "abstract": "End-to-end (E2E) autonomous driving methods still struggle to make correct decisions in interactive closed-loop evaluation due to limited causal reasoning capability. Current methods attempt to leverage the powerful understanding and reasoning abilities of Vision-Language Models (VLMs) to resolve this dilemma. However, the problem is still open that few VLMs for E2E methods perform well in the closed-loop evaluation due to the gap between the semantic reasoning space and the purely numerical trajectory output in the action space. To tackle this issue, we propose ORION, a holistic E2E autonomous driving framework by vision-language instructed action generation. ORION uniquely combines a QT-Former to aggregate long-term history context, a Large Language Model (LLM) for driving scenario reasoning, and a generative planner for precision trajectory prediction. ORION further aligns the reasoning space and the action space to implement a unified E2E optimization for both visual question-answering (VQA) and planning tasks. Our method achieves an impressive closed-loop performance of 77.74 Driving Score (DS) and 54.62% Success Rate (SR) on the challenge Bench2Drive datasets, which outperforms state-of-the-art (SOTA) methods by a large margin of 14.28 DS and 19.61% SR.",
+      "year": 2025,
+      "authors": [
+        "Haoyu Fu",
+        "D H Zhang",
+        "Zongchuang Zhao",
+        "Jianfeng Cui",
+        "Dingkang Liang",
+        "Chong Zhang",
+        "Dingyuan Zhang",
+        "Hongwei Xie",
+        "B Wang",
+        "Xiang Bai"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 260,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.19755",
+      "url": "https://openalex.org/W7160197198",
+      "key": "openalex_101109_iccv51701202502302_Orion_A_Holistic_End-To-End_Autonomous_Driving_Framewor",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502302_Orion_A_Holistic_End-To-End_Autonomous_Driving_Framewor.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416359484",
+      "doi": "10.48550/arxiv.2511.12755",
+      "title": "Prompt-Driven Domain Adaptation for End-to-End Autonomous Driving via In-Context RL",
+      "abstract": "Despite significant progress and advances in autonomous driving, many end-to-end systems still struggle with domain adaptation (DA), such as transferring a policy trained under clear weather to adverse weather conditions. Typical DA strategies in the literature include collecting additional data in the target domain or re-training the model, or both. Both these strategies quickly become impractical as we increase scale and complexity of driving. These limitations have encouraged investigation into few-shot and zero-shot prompt-driven DA at inference time involving LLMs and VLMs. These methods work by adding a few state-action trajectories during inference to the prompt (similar to in-context learning). However, there are two limitations of such an approach: $(i)$ prompt-driven DA methods are currently restricted to perception tasks such as detection and segmentation and $(ii)$ they require expert few-shot data. In this work, we present a new approach to inference-time few-shot prompt-driven DA for closed-loop autonomous driving in adverse weather condition using in-context reinforcement learning (ICRL). Similar to other prompt-driven DA methods, our approach does not require any updates to the model parameters nor does it require additional data collection in adversarial weather regime. Furthermore, our approach advances the state-of-the-art in prompt-driven DA by extending to closed driving using general trajectories observed during inference. Our experiments using the CARLA simulator show that ICRL results in safer, more efficient, and more comfortable driving policies in the target domain compared to state-of-the-art prompt-driven DA baselines.",
+      "year": 2025,
+      "authors": [
+        "Aleesha Khurram",
+        "Moeini, Amir",
+        "Shangtong Zhang",
+        "Rohan Chandra"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.12755",
+      "url": "https://openalex.org/W4416359484",
+      "key": "openalex_1048550_arxiv251112755_Prompt-Driven_Domain_Adaptation_for_End-to-End_Autonomous_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv251112755_Prompt-Driven_Domain_Adaptation_for_End-to-End_Autonomous_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.23922v1",
+      "doi": "",
+      "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+      "abstract": "Closed-loop evaluation is increasingly critical for end-to-end autonomous driving. Current closed-loop benchmarks using the CARLA simulator rely on manually configured traffic scenarios, which can diverge from real-world conditions, limiting their ability to reflect actual driving performance. To address these limitations, we introduce a simple yet challenging closed-loop evaluation framework that closely integrates real-world driving scenarios into the CARLA simulator with infrastructure cooperation. Our approach involves extracting 800 dynamic traffic scenarios selected from a comprehensive 100-hour video dataset captured by high-mounted infrastructure sensors, and creating static digital twin assets for 15 real-world intersections with consistent visual appearance. These digital twins accurately replicate the traffic and environmental characteristics of their real-world counterparts, enabling more realistic simulations in CARLA. This evaluation is challenging due to the diversity of driving behaviors, locations, weather conditions, and times of day at complex urban intersections. In addition, we provide a comprehensive closed-loop benchmark for evaluating end-to-end autonomous driving models. Project URL: \\href{https://github.com/AIR-THU/DriveE2E}{https://github.com/AIR-THU/DriveE2E}.",
+      "year": 2025,
+      "authors": [
+        "Haibao Yu",
+        "Wenxian Yang",
+        "Ruiyang Hao",
+        "Chuanye Wang",
+        "Jiaru Zhong",
+        "Ping Luo",
+        "Zaiqing Nie"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.23922v1",
+      "url": "http://arxiv.org/abs/2509.23922v1",
+      "key": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through",
+      "file_kind": "txt",
+      "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.11419v1",
+      "doi": "10.1007/s42154-025-00465-6",
+      "title": "FocalAD: Local Motion Planning for End-to-End Autonomous Driving",
+      "abstract": "In end-to-end autonomous driving,the motion prediction plays a pivotal role in ego-vehicle planning. However, existing methods often rely on globally aggregated motion features, ignoring the fact that planning decisions are primarily influenced by a small number of locally interacting agents. Failing to attend to these critical local interactions can obscure potential risks and undermine planning reliability. In this work, we propose FocalAD, a novel end-to-end autonomous driving framework that focuses on critical local neighbors and refines planning by enhancing local motion representations. Specifically, FocalAD comprises two core modules: the Ego-Local-Agents Interactor (ELAI) and the Focal-Local-Agents Loss (FLA Loss). ELAI conducts a graph-based ego-centric interaction representation that captures motion dynamics with local neighbors to enhance both ego planning and agent motion queries. FLA Loss increases the weights of decision-critical neighboring agents, guiding the model to prioritize those more relevant to planning. Extensive experiments show that FocalAD outperforms existing state-of-the-art methods on the open-loop nuScenes datasets and closed-loop Bench2Drive benchmark. Notably, on the robustness-focused Adv-nuScenes dataset, FocalAD achieves even greater improvements, reducing the average colilision rate by 41.9% compared to DiffusionDrive and by 15.6% compared to SparseDrive.",
+      "year": 2025,
+      "authors": [
+        "Bin Sun",
+        "Boao Zhang",
+        "Jiayi Lu",
+        "Xinjie Feng",
+        "Jiachen Shang",
+        "Rui Cao",
+        "Mengchao Zheng",
+        "Chuanye Wang",
+        "Shichun Yang",
+        "Yaoguang Cao",
+        "Ziying Song"
+      ],
+      "venue": "FocalAD: Local Motion Planning for End-to-End Autonomous Driving. Automot. Innov. (2026)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.11419v1",
+      "url": "http://arxiv.org/abs/2506.11419v1",
+      "key": "arxiv_101007_s42154-025-00465-6_FocalAD_Local_Motion_Planning_for_End-to-End_Autonomous_Dr",
+      "file_kind": "txt",
+      "file": "arxiv_101007_s42154-025-00465-6_FocalAD_Local_Motion_Planning_for_End-to-End_Autonomous_Dr.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.02659v1",
+      "doi": "",
+      "title": "2nd Place Solution for CVPR2024 E2E Challenge: End-to-End Autonomous Driving Using Vision Language Model",
+      "abstract": "End-to-end autonomous driving has drawn tremendous attention recently. Many works focus on using modular deep neural networks to construct the end-to-end archi-tecture. However, whether using powerful large language models (LLM), especially multi-modality Vision Language Models (VLM) could benefit the end-to-end driving tasks remain a question. In our work, we demonstrate that combining end-to-end architectural design and knowledgeable VLMs yield impressive performance on the driving tasks. It is worth noting that our method only uses a single camera and is the best camera-only solution across the leaderboard, demonstrating the effectiveness of vision-based driving approach and the potential for end-to-end driving tasks.",
+      "year": 2025,
+      "authors": [
+        "Zilong Guo",
+        "Yi Luo",
+        "Long Sha",
+        "Dongxu Wang",
+        "Panqu Wang",
+        "Chenyang Xu",
+        "Yi Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.02659v1",
+      "url": "http://arxiv.org/abs/2509.02659v1",
+      "key": "arxiv_250902659v1_2nd_Place_Solution_for_CVPR2024_E2E_Challenge_End-to-End_Autonomous_Driv",
+      "file_kind": "txt",
+      "file": "arxiv_250902659v1_2nd_Place_Solution_for_CVPR2024_E2E_Challenge_End-to-End_Autonomous_Driv.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2307.16676v2",
+      "doi": "10.1109/iros55552.2023.10342187",
+      "title": "End-to-End Reinforcement Learning for Torque Based Variable Height Hopping",
+      "abstract": "Legged locomotion is arguably the most suited and versatile mode to deal with natural or unstructured terrains. Intensive research into dynamic walking and running controllers has recently yielded great advances, both in the optimal control and reinforcement learning (RL) literature. Hopping is a challenging dynamic task involving a flight phase and has the potential to increase the traversability of legged robots. Model based control for hopping typically relies on accurate detection of different jump phases, such as lift-off or touch down, and using different controllers for each phase. In this paper, we present a end-to-end RL based torque controller that learns to implicitly detect the relevant jump phases, removing the need to provide manual heuristics for state detection. We also extend a method for simulation to reality transfer of the learned controller to contact rich dynamic tasks, resulting in successful deployment on the robot after training without parameter tuning.",
+      "year": 2023,
+      "authors": [
+        "Raghav Soni",
+        "Daniel Harnack",
+        "Hannah Isermann",
+        "Sotaro Fushimi",
+        "Shivesh Kumar",
+        "Frank Kirchner"
+      ],
+      "venue": "End-to-End Reinforcement Learning for Torque Based Variable Height Hopping, 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, MI, USA, 2023, pp. 7531-7538",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2307.16676v2",
+      "url": "http://arxiv.org/abs/2307.16676v2",
+      "key": "arxiv_101109_iros55552202310342187_End-to-End_Reinforcement_Learning_for_Torque_Based_Vari",
+      "file_kind": "txt",
+      "file": "arxiv_101109_iros55552202310342187_End-to-End_Reinforcement_Learning_for_Torque_Based_Vari.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2504.04338v1",
+      "doi": "",
+      "title": "Data Scaling Laws for End-to-End Autonomous Driving",
+      "abstract": "Autonomous vehicle (AV) stacks have traditionally relied on decomposed approaches, with separate modules handling perception, prediction, and planning. However, this design introduces information loss during inter-module communication, increases computational overhead, and can lead to compounding errors. To address these challenges, recent works have proposed architectures that integrate all components into an end-to-end differentiable model, enabling holistic system optimization. This shift emphasizes data engineering over software integration, offering the potential to enhance system performance by simply scaling up training resources. In this work, we evaluate the performance of a simple end-to-end driving architecture on internal driving datasets ranging in size from 16 to 8192 hours with both open-loop metrics and closed-loop simulations. Specifically, we investigate how much additional training data is needed to achieve a target performance gain, e.g., a 5% improvement in motion prediction accuracy. By understanding the relationship between model performance and training dataset size, we aim to provide insights for data-driven decision-making in autonomous driving development.",
+      "year": 2025,
+      "authors": [
+        "Alexander Naumann",
+        "Xunjiang Gu",
+        "Tolga Dimlioglu",
+        "Mariusz Bojarski",
+        "Alperen Degirmenci",
+        "Alexander Popov",
+        "Devansh Bisla",
+        "Marco Pavone",
+        "Urs Müller",
+        "Boris Ivanovic"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2504.04338v1",
+      "url": "http://arxiv.org/abs/2504.04338v1",
+      "key": "arxiv_250404338v1_Data_Scaling_Laws_for_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_250404338v1_Data_Scaling_Laws_for_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.21581v4",
+      "doi": "",
+      "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+      "abstract": "While end-to-end autonomous driving has advanced significantly, prevailing methods remain fundamentally misaligned with human cognitive principles in both perception and planning. In this paper, we propose CogAD, a novel end-to-end autonomous driving model that emulates the hierarchical cognition mechanisms of human drivers. CogAD implements dual hierarchical mechanisms: global-to-local context processing for human-like perception and intent-conditioned multi-mode trajectory generation for cognitively-inspired planning. The proposed method demonstrates three principal advantages: comprehensive environmental understanding through hierarchical perception, robust planning exploration enabled by multi-level planning, and diverse yet reasonable multi-modal trajectory generation facilitated by dual-level uncertainty modeling. Extensive experiments on nuScenes and Bench2Drive demonstrate that CogAD achieves state-of-the-art performance in end-to-end planning, exhibiting particular superiority in long-tail scenarios and robust generalization to complex real-world driving conditions.",
+      "year": 2025,
+      "authors": [
+        "Zhennan Wang",
+        "Jianing Teng",
+        "Canqun Xiang",
+        "Kangliang Chen",
+        "Xing Pan",
+        "Lu Deng",
+        "Weihao Gu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.21581v4",
+      "url": "http://arxiv.org/abs/2505.21581v4",
+      "key": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.06664v1",
+      "doi": "",
+      "title": "Generalized Trajectory Scoring for End-to-end Multimodal Planning",
+      "abstract": "End-to-end multi-modal planning is a promising paradigm in autonomous driving, enabling decision-making with diverse trajectory candidates. A key component is a robust trajectory scorer capable of selecting the optimal trajectory from these candidates. While recent trajectory scorers focus on scoring either large sets of static trajectories or small sets of dynamically generated ones, both approaches face significant limitations in generalization. Static vocabularies provide effective coarse discretization but struggle to make fine-grained adaptation, while dynamic proposals offer detailed precision but fail to capture broader trajectory distributions. To overcome these challenges, we propose GTRS (Generalized Trajectory Scoring), a unified framework for end-to-end multi-modal planning that combines coarse and fine-grained trajectory evaluation. GTRS consists of three complementary innovations: (1) a diffusion-based trajectory generator that produces diverse fine-grained proposals; (2) a vocabulary generalization technique that trains a scorer on super-dense trajectory sets with dropout regularization, enabling its robust inference on smaller subsets; and (3) a sensor augmentation strategy that enhances out-of-domain generalization while incorporating refinement training for critical trajectory discrimination. As the winning solution of the Navsim v2 Challenge, GTRS demonstrates superior performance even with sub-optimal sensor inputs, approaching privileged methods that rely on ground-truth perception. Code will be available at https://github.com/NVlabs/GTRS.",
+      "year": 2025,
+      "authors": [
+        "Zhenxin Li",
+        "Wenhao Yao",
+        "Zi Wang",
+        "Xinglong Sun",
+        "Joshua Chen",
+        "Nadine Chang",
+        "Maying Shen",
+        "Zuxuan Wu",
+        "Shiyi Lan",
+        "Jose M. Alvarez"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.06664v1",
+      "url": "http://arxiv.org/abs/2506.06664v1",
+      "key": "arxiv_250606664v1_Generalized_Trajectory_Scoring_for_End-to-end_Multimodal_Planning",
+      "file_kind": "txt",
+      "file": "arxiv_250606664v1_Generalized_Trajectory_Scoring_for_End-to-end_Multimodal_Planning.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.23499v4",
+      "doi": "",
+      "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+      "abstract": "Collecting a high-quality dataset is a critical task that demands meticulous attention to detail, as overlooking certain aspects can render the entire dataset unusable. Autonomous driving challenges remain a prominent area of research, requiring further exploration to enhance the perception and planning performance of vehicles. However, existing datasets are often incomplete. For instance, datasets that include perception information generally lack planning data, while planning datasets typically consist of extensive driving sequences where the ego vehicle predominantly drives forward, offering limited behavioral diversity. In addition, many real datasets struggle to evaluate their models, especially for planning tasks, since they lack a proper closed-loop evaluation setup. The CARLA Leaderboard 2.0 challenge, which provides a diverse set of scenarios to address the long-tail problem in autonomous driving, has emerged as a valuable alternative platform for developing perception and planning models in both open-loop and closed-loop evaluation setups. Nevertheless, existing datasets collected on this platform present certain limitations. Some datasets appear to be tailored primarily for limited sensor configuration, with particular sensor configurations. To support end-to-end autonomous driving research, we have collected a new dataset comprising over 2.85 million frames using the CARLA simulation environment for the diverse Leaderboard 2.0 challenge scenarios. Our dataset is designed not only for planning tasks but also supports dynamic object detection, lane divider detection, centerline detection, traffic light recognition, prediction tasks and visual language action models . Furthermore, we demonstrate its versatility by training various models using our dataset. Moreover, we also provide numerical rarity scores to understand how rarely the current state occurs in the dataset.",
+      "year": 2026,
+      "authors": [
+        "Tugrul Gorgulu",
+        "Atakan Dag",
+        "M. Esat Kalfaoglu",
+        "Halil Ibrahim Kuru",
+        "Baris Can Cam",
+        "Halil Ibrahim Ozturk",
+        "Ozsel Kilinc"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.23499v4",
+      "url": "http://arxiv.org/abs/2602.23499v4",
+      "key": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d",
+      "file_kind": "txt",
+      "file": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2205.14230v2",
+      "doi": "",
+      "title": "Semi-supervised Semantics-guided Adversarial Training for Trajectory Prediction",
+      "abstract": "Predicting the trajectories of surrounding objects is a critical task for self-driving vehicles and many other autonomous systems. Recent works demonstrate that adversarial attacks on trajectory prediction, where small crafted perturbations are introduced to history trajectories, may significantly mislead the prediction of future trajectories and induce unsafe planning. However, few works have addressed enhancing the robustness of this important safety-critical task.In this paper, we present a novel adversarial training method for trajectory prediction. Compared with typical adversarial training on image tasks, our work is challenged by more random input with rich context and a lack of class labels. To address these challenges, we propose a method based on a semi-supervised adversarial autoencoder, which models disentangled semantic features with domain knowledge and provides additional latent labels for the adversarial training. Extensive experiments with different types of attacks demonstrate that our Semisupervised Semantics-guided Adversarial Training (SSAT) method can effectively mitigate the impact of adversarial attacks by up to 73% and outperform other popular defense methods. In addition, experiments show that our method can significantly improve the system's robust generalization to unseen patterns of attacks. We believe that such semantics-guided architecture and advancement on robust generalization is an important step for developing robust prediction models and enabling safe decision-making.",
+      "year": 2022,
+      "authors": [
+        "Ruochen Jiao",
+        "Xiangguo Liu",
+        "Takami Sato",
+        "Qi Alfred Chen",
+        "Qi Zhu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2205.14230v2",
+      "url": "http://arxiv.org/abs/2205.14230v2",
+      "key": "arxiv_220514230v2_Semi-supervised_Semantics-guided_Adversarial_Training_for_Trajectory_Pre",
+      "file_kind": "txt",
+      "file": "arxiv_220514230v2_Semi-supervised_Semantics-guided_Adversarial_Training_for_Trajectory_Pre.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2607.02841v1",
+      "doi": "",
+      "title": "CLEAR: Closed-Loop Reinforcement Learning at Scale for End-to-End Autonomous Driving",
+      "abstract": "End-to-end autonomous driving (E2E-AD) aims to directly map raw sensor information to driving actions. Recently, with the rapid advancement of multi-modal large language models (MLLMs), researchers have proposed the paradigm of Vision-Language-Action (VLA) models for E2E-AD, where it seeks to integrate visual perception, language understanding and action prediction within a single policy. However, existing VLA-based policies largely adopts imitation learning, where it only learns to drive by optimizing distance-based metrics w.r.t. logged expert trajectories. Such distribution shift between open-loop training and closed-loop inference leads to suboptimal performance in closed-loop planning. To close this gap, we present CLEAR, a system that enables closed-loop training using Reinforcement Learning (RL) at scale for E2E-AD. We propose to learn a novel residual waypoint policy around the waypoint prior from pretrained VLA policies, effectively harnessing the knowledge within. On another front, one of the key challenges to scale up RL for vision-based policies is the number of parallel simulation environments since RL is data hungry. To that end, we design a heterogeneous pipeline that places the simulator and the VLA learner on distinct compute groups, which allows us to dramatically increase the number of simulation environments running in parallel while avoiding resource contention and maintaining training stability. We show that with a simple reward, CLEAR significantly outperforms previous methods and sets new state-of-the-art performance on the challenging benchmarks of CARLA longest6 v2 and Bench2Drive.",
+      "year": 2026,
+      "authors": [
+        "Yunxiao Shi",
+        "Hong Cai",
+        "Mohammad Ghavamzadeh",
+        "Fatih Porikli"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.02841v1",
+      "url": "http://arxiv.org/abs/2607.02841v1",
+      "key": "arxiv_260702841v1_CLEAR_Closed-Loop_Reinforcement_Learning_at_Scale_for_End-to-End_Autonom",
+      "file_kind": "txt",
+      "file": "arxiv_260702841v1_CLEAR_Closed-Loop_Reinforcement_Learning_at_Scale_for_End-to-End_Autonom.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2103.01400v3",
+      "doi": "",
+      "title": "Smoothness Analysis of Adversarial Training",
+      "abstract": "Deep neural networks are vulnerable to adversarial attacks. Recent studies about adversarial robustness focus on the loss landscape in the parameter space since it is related to optimization and generalization performance. These studies conclude that the difficulty of adversarial training is caused by the non-smoothness of the loss function: i.e., its gradient is not Lipschitz continuous. However, this analysis ignores the dependence of adversarial attacks on model parameters. Since adversarial attacks are optimized for models, they should depend on the parameters. Considering this dependence, we analyze the smoothness of the loss function of adversarial training using the optimal attacks for the model parameter in more detail. We reveal that the constraint of adversarial attacks is one cause of the non-smoothness and that the smoothness depends on the types of the constraints. Specifically, the $L_\\infty$ constraint can cause non-smoothness more than the $L_2$ constraint. Moreover, our analysis implies that if we flatten the loss function with respect to input data, the Lipschitz constant of the gradient of adversarial loss tends to increase. To address the non-smoothness, we show that EntropySGD smoothens the non-smooth loss and improves the performance of adversarial training.",
+      "year": 2021,
+      "authors": [
+        "Sekitoshi Kanai",
+        "Masanori Yamada",
+        "Hiroshi Takahashi",
+        "Yuki Yamanaka",
+        "Yasutoshi Ida"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2103.01400v3",
+      "url": "http://arxiv.org/abs/2103.01400v3",
+      "key": "arxiv_210301400v3_Smoothness_Analysis_of_Adversarial_Training",
+      "file_kind": "txt",
+      "file": "arxiv_210301400v3_Smoothness_Analysis_of_Adversarial_Training.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2406.06978v4",
+      "doi": "",
+      "title": "Hydra-MDP: End-to-end Multimodal Planning with Multi-target Hydra-Distillation",
+      "abstract": "We propose Hydra-MDP, a novel paradigm employing multiple teachers in a teacher-student model. This approach uses knowledge distillation from both human and rule-based teachers to train the student model, which features a multi-head decoder to learn diverse trajectory candidates tailored to various evaluation metrics. With the knowledge of rule-based teachers, Hydra-MDP learns how the environment influences the planning in an end-to-end manner instead of resorting to non-differentiable post-processing. This method achieves the $1^{st}$ place in the Navsim challenge, demonstrating significant improvements in generalization across diverse driving environments and conditions. More details by visiting \\url{https://github.com/NVlabs/Hydra-MDP}.",
+      "year": 2024,
+      "authors": [
+        "Zhenxin Li",
+        "Kailin Li",
+        "Shihao Wang",
+        "Shiyi Lan",
+        "Zhiding Yu",
+        "Yishen Ji",
+        "Zhiqi Li",
+        "Ziyue Zhu",
+        "Jan Kautz",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang",
+        "Jose M. Alvarez"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2406.06978v4",
+      "url": "http://arxiv.org/abs/2406.06978v4",
+      "key": "arxiv_240606978v4_Hydra-MDP_End-to-end_Multimodal_Planning_with_Multi-target_Hydra-Distill",
+      "file_kind": "txt",
+      "file": "arxiv_240606978v4_Hydra-MDP_End-to-end_Multimodal_Planning_with_Multi-target_Hydra-Distill.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2610.36079v1",
+      "doi": "",
+      "title": "Closed-Loop Aware Planning via Imitation-Free Speed Scoring for End-to-End Autonomous Driving",
+      "abstract": "End-to-end autonomous driving has predominantly relied on open-loop imitation learning for training, which presents two limitations. First, expert demonstrations show only one behavior per scenario, so the model cannot learn alternative valid behaviors and, in turn, cannot adapt to user-specified preferences at test time. Second, noise or ambiguity in these demonstrations can produce inconsistent, unreliable supervision for the end-to-end models. Driving is inherently multi-modal: multiple different behaviors can be valid responses to the same scene, and this diversity arises largely from speed rather than path. We introduce a planning paradigm that learns the path through imitation while scoring a set of candidate speeds across multiple criteria with a learned function supervised by physically grounded safety constraints. We realize this paradigm as Closed-Loop Aware Planning for Autonomous Driving (CLAP-AD), a plug-in planning head that integrates with existing end-to-end driving models and, to our knowledge, is the first to enable explicit test-time control over their speed selection without speed-conditioned training. On Bench2Drive-Speed, CLAP-AD sets a new state of the art Speed-Adherence Score of 82.53, topping TFv6, the strongest baseline on this metric, by 12.9 points while retaining strong closed-loop driving performance. On Bench2Drive, it improves driving score by +28.5 and +32.7 over UniAD and VAD, and on NAVSIM v2, built on real-world driving data, EPDMS by +6.1 over its backbone. Project page: https://clap-ad.github.io",
+      "year": 2026,
+      "authors": [
+        "Emad Aghajanzadeh",
+        "Thomas Schwarzfischer",
+        "Marc Kaufeld",
+        "Moritz Thoma",
+        "Ryan Pégoud",
+        "Manoj Rohit Vemparala",
+        "Pierpaolo Mori",
+        "Nael Fasfous",
+        "Johannes Betz",
+        "Daniel Mueller-Gritschneder",
+        "Ulf Schlichtmann"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.36079v1",
+      "url": "http://arxiv.org/abs/2610.36079v1",
+      "key": "arxiv_261036079v1_Closed-Loop_Aware_Planning_via_Imitation-Free_Speed_Scoring_for_End-to-E",
+      "file_kind": "txt",
+      "file": "arxiv_261036079v1_Closed-Loop_Aware_Planning_via_Imitation-Free_Speed_Scoring_for_End-to-E.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2611.24254v2",
+      "doi": "",
+      "title": "FedE2E: One-Shot Federated Learning for End-to-End Autonomous Driving with Closed-Loop Evaluation",
+      "abstract": "Federated learning enables collaborative model training without sharing datasets. However, existing federated learning methods for autonomous driving typically require multi-round communication and lack closed-loop evaluation, while one-shot methods mainly focus on perception tasks. To address these limitations, we propose \\method, a one-shot federated learning method for end-to-end autonomous driving. It comprises multi-client calibration, anchor-based feature alignment, and token-wise consensus distillation to distill knowledge from heterogeneous models. Closed-loop evaluation on Bench2Drive demonstrates the effectiveness of \\method in both one-shot and multi-round federated learning. In the one-shot setting, it achieves a Driving Score of 55.85, which is 4.07 points higher than prior work. In the multi-round setting, it reaches 60.35 after five communication rounds, the best performance among all compared methods under the same number of communication rounds.",
+      "year": 2026,
+      "authors": [
+        "Tao Lian",
+        "Antonio M. López"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2611.24254v2",
+      "url": "http://arxiv.org/abs/2611.24254v2",
+      "key": "arxiv_261124254v2_FedE2E_One-Shot_Federated_Learning_for_End-to-End_Autonomous_Driving_wit",
+      "file_kind": "txt",
+      "file": "arxiv_261124254v2_FedE2E_One-Shot_Federated_Learning_for_End-to-End_Autonomous_Driving_wit.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.09602v2",
+      "doi": "",
+      "title": "Hidden Biases of End-to-End Driving Datasets",
+      "abstract": "End-to-end driving systems have made rapid progress, but have so far not been applied to the challenging new CARLA Leaderboard 2.0. Further, while there is a large body of literature on end-to-end architectures and training strategies, the impact of the training dataset is often overlooked. In this work, we make a first attempt at end-to-end driving for Leaderboard 2.0. Instead of investigating architectures, we systematically analyze the training dataset, leading to new insights: (1) Expert style significantly affects downstream policy performance. (2) In complex data sets, the frames should not be weighted on the basis of simplistic criteria such as class frequencies. (3) Instead, estimating whether a frame changes the target labels compared to previous frames can reduce the size of the dataset without removing important information. By incorporating these findings, our model ranks first and second respectively on the map and sensors tracks of the 2024 CARLA Challenge, and sets a new state-of-the-art on the Bench2Drive test routes. Finally, we uncover a design flaw in the current evaluation metrics and propose a modification for future challenges. Our dataset, code, and pre-trained models are publicly available at https://github.com/autonomousvision/carla_garage.",
+      "year": 2024,
+      "authors": [
+        "Julian Zimmerlin",
+        "Jens Beißwenger",
+        "Bernhard Jaeger",
+        "Andreas Geiger",
+        "Kashyap Chitta"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.09602v2",
+      "url": "http://arxiv.org/abs/2412.09602v2",
+      "key": "arxiv_241209602v2_Hidden_Biases_of_End-to-End_Driving_Datasets",
+      "file_kind": "txt",
+      "file": "arxiv_241209602v2_Hidden_Biases_of_End-to-End_Driving_Datasets.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.20116v1",
+      "doi": "",
+      "title": "LeGo-Drive: Language-enhanced Goal-oriented Closed-Loop End-to-End Autonomous Driving",
+      "abstract": "Existing Vision-Language models (VLMs) estimate either long-term trajectory waypoints or a set of control actions as a reactive solution for closed-loop planning based on their rich scene comprehension. However, these estimations are coarse and are subjective to their \"world understanding\" which may generate sub-optimal decisions due to perception errors. In this paper, we introduce LeGo-Drive, which aims to address this issue by estimating a goal location based on the given language command as an intermediate representation in an end-to-end setting. The estimated goal might fall in a non-desirable region, like on top of a car for a parking-like command, leading to inadequate planning. Hence, we propose to train the architecture in an end-to-end manner, resulting in iterative refinement of both the goal and the trajectory collectively. We validate the effectiveness of our method through comprehensive experiments conducted in diverse simulated environments. We report significant improvements in standard autonomous driving metrics, with a goal reaching Success Rate of 81%. We further showcase the versatility of LeGo-Drive across different driving scenarios and linguistic inputs, underscoring its potential for practical deployment in autonomous vehicles and intelligent transportation systems.",
+      "year": 2024,
+      "authors": [
+        "Pranjal Paul",
+        "Anant Garg",
+        "Tushar Choudhary",
+        "Arun Kumar Singh",
+        "K. Madhava Krishna"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.20116v1",
+      "url": "http://arxiv.org/abs/2403.20116v1",
+      "key": "arxiv_240320116v1_LeGo-Drive_Language-enhanced_Goal-oriented_Closed-Loop_End-to-End_Autono",
+      "file_kind": "txt",
+      "file": "arxiv_240320116v1_LeGo-Drive_Language-enhanced_Goal-oriented_Closed-Loop_End-to-End_Autono.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2104.10753v1",
+      "doi": "",
+      "title": "Multi-task Learning with Attention for End-to-end Autonomous Driving",
+      "abstract": "Autonomous driving systems need to handle complex scenarios such as lane following, avoiding collisions, taking turns, and responding to traffic signals. In recent years, approaches based on end-to-end behavioral cloning have demonstrated remarkable performance in point-to-point navigational scenarios, using a realistic simulator and standard benchmarks. Offline imitation learning is readily available, as it does not require expensive hand annotation or interaction with the target environment, but it is difficult to obtain a reliable system. In addition, existing methods have not specifically addressed the learning of reaction for traffic lights, which are a rare occurrence in the training datasets. Inspired by the previous work on multi-task learning and attention modeling, we propose a novel multi-task attention-aware network in the conditional imitation learning (CIL) framework. This does not only improve the success rate of standard benchmarks, but also the ability to react to traffic lights, which we show with standard benchmarks.",
+      "year": 2021,
+      "authors": [
+        "Keishi Ishihara",
+        "Anssi Kanervisto",
+        "Jun Miura",
+        "Ville Hautamäki"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2104.10753v1",
+      "url": "http://arxiv.org/abs/2104.10753v1",
+      "key": "arxiv_210410753v1_Multi-task_Learning_with_Attention_for_End-to-end_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_210410753v1_Multi-task_Learning_with_Attention_for_End-to-end_Autonomous_Driving.txt"
+    }
+  ]
+}

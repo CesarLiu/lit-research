@@ -1,0 +1,80 @@
+[
+ {
+  "id": 14,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "Count 9 matches control_family 'inference-time guidance', but SocialDriveGen's control_mechanism is 'gradient-free evolutionary guidance' (8 use a gradient), other families (3 language rows, Top-down) also steer by gradient, and 'frozen' is stated in no guidance row."
+ },
+ {
+  "id": 15,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "Only true if SocialDriveGen is excluded (its controllability_evidence also gives numeric phi/lambda sweeps, making four of the nine), and DiffScene's evidence gives only a trend over N, no per-step numbers."
+ },
+ {
+  "id": 16,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ },
+ {
+  "id": 17,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "controllability_evidence says w_pursue 10 to 60 was raised together with step size eta 0.05 to 0.10, so the rise is not from the pursuit weight alone; the metric is ego-adversary collision."
+ },
+ {
+  "id": 18,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ },
+ {
+  "id": 19,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ },
+ {
+  "id": 20,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "Numbers match (SAFE-SIM notes, [20] controllability_evidence), but 'slightly' is only in the SAFE-SIM row and [20] co-varied eta with w_pursue."
+ },
+ {
+  "id": 21,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ },
+ {
+  "id": 22,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ },
+ {
+  "id": 23,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "Evaluative 'direct test' is not in the row; controllability_evidence varies mask probability and only infers that the global token controls density."
+ },
+ {
+  "id": 24,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "'Mostly qualitative' and interaction-reasoning SCR are in notes/controllability_evidence, but 'its one quantitative table' is not stated; metrics also list open-loop MinADE6/MinFDE6/heading/speed errors."
+ },
+ {
+  "id": 25,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ },
+ {
+  "id": 26,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ }
+]

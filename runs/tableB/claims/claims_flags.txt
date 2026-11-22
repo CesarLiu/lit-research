@@ -1,0 +1,7 @@
+  1 [1. Scope] number_not_in_cited_rows 2019; number_not_in_cited_rows 288; number_not_in_cited_rows 371; no_citation :: The corpus is 371 papers from OpenAlex and arXiv (2019 onward) on traffic scenario generat
+  2 [1. Scope] no_citation :: From those I chose 34 from their abstracts to cover different control mechanisms, and fill
+ 14 [3.1 Guidance gives a dial, a] no_citation :: Nine papers steer a frozen generator with a gradient.
+ 15 [3.1 Guidance gives a dial, a] no_citation :: The dial is demonstrated numerically in three of them.
+ 30 [3.4 Language control is medi] no_citation :: Four of the five language papers pass the text through a symbolic artefact, and their stat
+ 40 [4. Cross-cutting observation] no_citation :: This partly reflects how I chose the 34 from abstracts, so it describes this sample, not t
+ 48 [5. Gaps that the rows suppor] no_citation :: Reliability of language control depends on the code or loss that the LLM writes (section 3

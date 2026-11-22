@@ -1,0 +1,15 @@
+[
+ {"id": 40, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 41, "verdict": "PARTIAL", "wrong_citation": false, "issue": "The count holds (34 rows minus 4 'none/uncontrolled' = 30; all 11 cited rows steer collisions or adversarial strength in control_signal/controllability_evidence), but 11 of 30 is a minority, so 'dominates' is the sentence's own strength, not the rows'; it would only hold under a broader count that also includes rows such as [11], CCDiff, Scenario Dreamer and [34]."},
+ {"id": 42, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "selection.txt confirms the 34 were chosen from abstracts (aim: cover different control mechanisms), but the causal claim that this 'partly' explains the safety-critical share is the author's interpretation and the table cannot confirm or deny it."},
+ {"id": 43, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 44, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 45, "verdict": "PARTIAL", "wrong_citation": false, "issue": "All six listed metric types appear in the metrics/evidence fields, but the blanket 'not comparable across papers' goes beyond the rows: [15] and [19] share nuScenes, 100 validation scenes, failure rate and rule violation, and [18] reports Adv-Ego collision against Safe-Sim (datasets/metrics fields)."},
+ {"id": 46, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "A statement about the author's own process (no ranking); the table cannot confirm or deny it."},
+ {"id": 47, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 48, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 49, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 50, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 51, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 52, "verdict": "PARTIAL", "wrong_citation": false, "issue": "The four [11] items match stated_limitations, but for [9] the row says only the map channel's controllability depends on the reward definition (off-road and lane-centerline rewards fail to steer); the sentence drops this map-only qualifier and the guardrail-degradation limit."}
+]

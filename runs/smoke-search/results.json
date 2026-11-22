@@ -1,0 +1,1199 @@
+{
+  "query": "controllable traffic scenario generation reward tilting autonomous driving",
+  "sources": [
+    "openalex",
+    "crossref",
+    "semanticscholar",
+    "arxiv"
+  ],
+  "from_year": null,
+  "raw_hits": 45,
+  "unique": 45,
+  "per_source": {
+    "openalex": 15,
+    "crossref": 15,
+    "semanticscholar": 0,
+    "arxiv": 15
+  },
+  "errors": {
+    "semanticscholar": "HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search"
+  },
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7128662720",
+      "doi": "",
+      "title": "Controllable Realistic Simulation and Video Generation for Autonomous Vehicles in Safety-Critical Scenarios",
+      "abstract": "RÉSUMÉ: Assurer la sécurité des véhicules autonomes (VA) nécessite de les tester sur un large éven-tail de scénarios, y compris des événements rares et dangereux tels que les collisions. La collecte de telles données dans le monde réel est dangereuse, coûteuse et intrinsèquement limitée en diversité. Les simulateurs traditionnels offrent contrôle et réalisme physique, mais requièrent une création manuelle importante d'éléments visuels et peinent encore à repro-duire la diversité et le réalisme visuel des images réelles de conduite. Cette thèse explore la simulation fondée sur les données à l'aide de modèles de diffusion vidéo génératifs, capables de synthétiser des vidéos de conduite photoréalistes et temporellement cohérentes avec un effort humain minimal, offrant ainsi une alternative évolutive et contrôlable pour les tests de sécurité des VA. Pour commencer, on présente la simulation contrôlable en vue de dessus (bird's-eye view ou BEV) pour la modélisation de comportements de véhicules à haut niveau. Deux contributions antérieures, CtRL-Sim et Scenario Dreamer, permettent la génération de comportements de conduite multi-agents et de réseaux routiers complets en BEV. Bien que puissants pour la création de scénarios, les environnements BEV manquent le niveau de détail visuel néces-saire pour tester les systèmes de perception ou produire des vidéos réalistes d'accidents. Pour combler ces lacunes, la thèse présente la méthode BEV2POV, qui traduit des simula-tions BEV structurées en vidéos du point de vue du conducteur. Au cœur de ce système se trouve Ctrl-V, un modèle de diffusion vidéo contrôlable capable de générer des scènes de conduite structurées à partir de trajectoires de boîtes englobantes. Sur cette base, la contribution principale, Ctrl-Crash, étend l'approche pour générer des scénarios d'accidents réalistes et contrôlables. Ctrl-Crash prend en entrée une scène initiale, les trajectoires des agents et un type d'accident, puis produit des vidéos haute fidélité alignées à la fois avec les conditions d'entrée et avec une dynamique physique plausible. Les résultats montrent que Ctrl-Crash surpasse systématiquement les modèles de génération d'accidents par diffusion existants et prend en charge la génération de scénarios contrefactuels, produisant plusieurs issues plausibles à partir des mêmes conditions initiales. La thèse se conclut par une discussion des limitations et des perspectives de recherche futures dans le domaine de la simulation neuronale pour les VA. Dans leur ensemble, ces contributions font progresser le développement d'outils de simulation réalistes, contrôlables et évolutifs pour la recherche sur les scénarios critiques pour la sécurité des véhicules autonomes. ABSTRACT: Ensuring the safety of autonomous vehicles (AVs) requires testing across a wide range of scenarios, including rare and dangerous events such as collisions. Collecting such data in the real world is unsafe, costly, and inherently limited in diversity. Traditional physics-based simulators provide control and physical realism but require extensive manual asset creation and still fall short of matching the visual diversity and realism of real-world driving footage. This thesis explores data-driven simulation using generative video diffusion models, which can synthesize photorealistic, temporally consistent driving videos with minimal human effort, offering a scalable and controllable alternative for AV safety testing. The work begins with controllable bird's-eye view (BEV) simulation for high-level traffic behavior modeling. Two prior contributions, CtRL-Sim and Scenario Dreamer, enable the generation of multi-agent driving behaviors and entire traffic environments in BEV. While powerful for scenario creation, BEV lacks the visual detail needed to test perception systems or produce realistic crash footage. To bridge this gap, the thesis introduces the BEV2POV framework, which translates structured BEV simulations into driver's-view videos. At its core is Ctrl-V, a controllable video diffusion model capable of generating structured driving scenes from bounding box trajectories. Building on this, the main contribution, Ctrl-Crash, extends the approach to generate realistic and controllable crash scenarios. Ctrl-Crash ac-cepts an initial scene, agent trajectories, and a semantic crash type, producing high-fidelity videos aligned with both the input conditions and plausible physical dynamics. Results show that Ctrl-Crash consistently outperforms prior diffusion-based crash generation models and supports counterfactual scenario generation, producing multiple plausible outcomes from the same starting conditions. The thesis concludes by discussing limitations and outlining future research directions in the field of AV neural simulation. Together, these contributions advance the development of realistic, controllable, and scalable simulation tools for safety-critical AV research.",
+      "year": 2025,
+      "authors": [
+        "Anthony Gosselin"
+      ],
+      "venue": "PolyPublie (École Polytechnique de Montréal)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://publications.polymtl.ca/68994/1/2025_AnthonyGosselin.pdf",
+      "url": "https://openalex.org/W7128662720",
+      "key": "openalex_W7128662720_Controllable_Realistic_Simulation_and_Video_Generation_for_Autonomous",
+      "file_kind": "txt",
+      "file": "openalex_W7128662720_Controllable_Realistic_Simulation_and_Video_Generation_for_Autonomous.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4283787646",
+      "doi": "10.15607/rss.2022.xviii.068",
+      "title": "Learning Interpretable, High-Performing Policies for Autonomous Driving",
+      "abstract": "Gradient-based approaches in reinforcement learning (RL) have achieved tremendous success in learning policies for autonomous vehicles.While the performance of these approaches warrants real-world adoption, these policies lack interpretability, limiting deployability in the safety-critical and legally-regulated domain of autonomous driving (AD).AD requires interpretable and verifiable control policies that maintain high performance.We propose Interpretable Continuous Control Trees (ICCTs), a tree-based model that can be optimized via modern, gradient-based, RL approaches to produce highperforming, interpretable policies.The key to our approach is a procedure for allowing direct optimization in a sparse decisiontree-like representation.We validate ICCTs against baselines across six domains, showing that ICCTs are capable of learning interpretable policy representations that parity or outperform baselines by up to 33% in AD scenarios while achieving a 300x-600x reduction in the number of policy parameters against deep learning baselines.Furthermore, we demonstrate the interpretability and utility of our ICCTs through a 14-car physical robot demonstration.i x k -b i > 0).As each leaf node is represented as a probability mass function over output classes in prior work, leaf nodes, l, must be modified to produce",
+      "year": 2022,
+      "authors": [
+        "Rohan Paleja",
+        "Yaru Niu",
+        "Andrew Silva",
+        "Chace Ritchie",
+        "Sugju Choi",
+        "Matthew Gombolay"
+      ],
+      "venue": "Robotics: Science and Systems",
+      "cited_by": 33,
+      "is_oa": true,
+      "pdf_url": "https://doi.org/10.15607/rss.2022.xviii.068",
+      "url": "https://openalex.org/W4283787646",
+      "key": "openalex_1015607_rss2022xviii068_Learning_Interpretable_High-Performing_Policies_for_Auton",
+      "file_kind": "txt",
+      "file": "openalex_1015607_rss2022xviii068_Learning_Interpretable_High-Performing_Policies_for_Auton.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144722",
+      "doi": "10.1109/cvpr52734.2025.01604",
+      "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+      "abstract": "We introduce Scenario Dreamer, a fully data-driven generative simulator for autonomous vehicle planning that generates both the initial traffic scene—comprising a lane graph and agent bounding boxes—and closed-loop agent behaviours. Existing methods for generating driving simulation environments encode the initial traffic scene as a rasterized image and, as such, require parameter-heavy networks that perform unnecessary computation due to many empty pixels in the rasterized scene. Moreover, we find that existing methods that employ rule-based agent behaviours lack diversity and realism. Scenario Dreamer instead employs a novel vectorized latent diffusion model for initial scene generation that directly operates on the vectorized scene elements and an autoregressive Transformer for data-driven agent behaviour simulation. Scenario Dreamer additionally supports scene extrapolation via diffusion inpainting, enabling the generation of unbounded simulation environments. Extensive experiments show that Scenario Dreamer outperforms existing generative simulators in realism and efficiency: the vectorized scene-generation base model achieves superior generation quality with around 2× fewer parameters, 6× lower generation latency, and 10× fewer GPU training hours compared to the strongest baseline. We confirm its practical utility by showing that reinforcement learning planning agents are more challenged in Scenario Dreamer environments than traditional non-generative simulation environments, especially on long and adversarial driving environments.",
+      "year": 2025,
+      "authors": [
+        "Luke Rowe",
+        "Roger Girgis",
+        "Anthony Gosselin",
+        "Liam Paull",
+        "Christopher Pal",
+        "Felix Heide"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 53,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.22496",
+      "url": "https://openalex.org/W4413144722",
+      "key": "openalex_101109_cvpr52734202501604_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Genera",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202501604_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Genera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7214655900",
+      "doi": "10.48550/arxiv.2609.30818",
+      "title": "Evaluation Is All You Need for Multi-Modal Autonomous Driving",
+      "abstract": "Multi-modal planning is promising for autonomous driving by representing multiple plausible behaviors in ambiguous and long-tail scenarios. Existing methods mainly focus on improving trajectory multi-modality, enhancing trajectory representations, or reshaping the candidate distribution. Nevertheless, we identify a pronounced generation-evaluation asymmetry in multi-modal planning: despite strong oracle performance, existing planners often fail to reliably select the best available candidate, leaving substantial planning potential unrealized. To address this challenge, we propose iDriveVLA, a multi-modal planning framework that improves the candidate trajectory space while enabling more reliable and context-aware trajectory evaluation. Specifically, iDriveVLA introduces a unified trajectory evaluator comprising a Safety-aware Scorer for quality and risk estimation, together with a VLM-guided Modulator for scene-adaptive criterion weighting. We further develop an oracle-aligned progressive training strategy consisting of candidate imitation pretraining, candidate space refinement, and semantic ranking alignment. On the public NAVSIM v1 leaderboard, iDriveVLA achieves a new state-of-the-art performance of 94.95 PDMS, surpassing the human-expert reference.",
+      "year": 2026,
+      "authors": [
+        "Zeyu He",
+        "Shiqi Liu",
+        "Ke Chen",
+        "Yun Yan",
+        "Jinzi Wu",
+        "Dianqiao Lei",
+        "Sirui Wang",
+        "Peng Shurui",
+        "Tao Chen",
+        "Zhuo Huang",
+        "Yu Wu",
+        "Yadong Shao",
+        "Zhichao Li",
+        "Ke Sun",
+        "Yang Guan",
+        "Keqiang Li",
+        "Shengbo Eben Li"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.30818",
+      "url": "https://openalex.org/W7214655900",
+      "key": "openalex_1048550_arxiv260930818_Evaluation_Is_All_You_Need_for_Multi-Modal_Autonomous_Driv",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260930818_Evaluation_Is_All_You_Need_for_Multi-Modal_Autonomous_Driv.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4386978332",
+      "doi": "10.7302/8441",
+      "title": "Model-free Learning and Interaction-aware Control for Safe Autonomous Driving",
+      "abstract": "Autonomous vehicles technologies have greatly advanced in recent years, with promises of various benefits, including improved safety, efficient transportation, increased accessibility, etc. However, ensuring safety is one of the major challenges in bringing them into reality. On one hand, autonomous vehicles may need to share the road with other road users (including human-driven vehicles, cyclists, pedestrians, etc.). On the other hand, the manufacturers have to cope with multiple sources of variability in these vehicles due to part-to-part differences, aging, degradation, or even in-field modifications. This dissertation focuses on addressing these challenges by developing a behavior planner that is able to account for interaction with human drivers and model-free learning-based safety supervisors that are able to adapt to different systems or operating environments. This dissertation first presents the design of a game-theoretic interaction-aware behavior planner. Inspired by Stackelberg Competition, predictive models for human interactions are developed based on the Leader-Follower Game, and a decision-making framework is proposed that integrates game-theoretic predictions, online estimation of other driver's uncertain interactions and optimal control with explicit safety characterization. The proposed approach is applied to forced merging scenarios, where interaction and negotiation with other drivers are typically required. A comprehensive set of simulation-based case studies and validations on naturalistic driving dataset are presented, where the proposed approach demonstrates a high success rate. The dissertation then introduces two model-free learning algorithms to design safety supervisors suitable for non-safety critical systems and for safety critical systems. The design of the safety supervisor relies on the reference governor scheme, which is an add-on scheme to enforce pointwise-in-time state and control constraints. In non-safety critical control systems, where the violation of the constraints is not desirable but does not lead to severe consequences, such systems may initially operate with constraint violations and learn over time to avoid them through less aggressive maneuvering. In safety critical cases, in which constraint violation may lead to catastrophic consequences, systems will initially operate conservatively, and then improve their performance as they learn more about constraint boundaries and maneuvers that approach the constraint boundary. The results include developments and demonstrations of novel algorithms and supporting theory for autonomous online learning to operate systems safely and non-conservatively. Several applications are considered including power management of electric vehicles, rollover avoidance of ground vehicles, and tanker truck rollover avoidance under liquid sloshing effects.",
+      "year": 2023,
+      "authors": [
+        "Kaiwen Liu"
+      ],
+      "venue": "Deep Blue (University of Michigan)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4386978332",
+      "key": "openalex_107302_8441_Model-free_Learning_and_Interaction-aware_Control_for_Safe_Autonomous",
+      "file_kind": "txt",
+      "file": "openalex_107302_8441_Model-free_Learning_and_Interaction-aware_Control_for_Safe_Autonomous.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4321608661",
+      "doi": "10.1109/tlt.2023.3244604",
+      "title": "Robobo SmartCity: An Autonomous Driving Model for Computational Intelligence Learning Through Educational Robotics",
+      "abstract": "This article presents the Robobo SmartCity model, an educational resource to introduce students to computational intelligence (CI) topics using educational robotics as the core learning technology. Robobo SmartCity allows educators to train learners in artificial intelligence (AI) fundamentals from a feasible and practical perspective, following the recommendations of digital education plans to introduce AI at all educational levels. This resource is based on the Robobo educational robot and an autonomous driving setup. It is made up of a city mockup, simulation models, and programming libraries adapted to the students’ skill level. In it, students can be trained in CI topics that support robot autonomy, as computer vision, machine learning, or human–robot interaction, while developing solutions in the motivating and challenging scope of autonomous driving. The main details of this open resource are provided with a set of possible challenges to be faced in it. They are organized in terms of the educational level and students’ skills. The resource has been mainly tested with secondary and high school students, obtaining successful learning outcomes, presented here to inspire other teachers in taking advantage of this learning technology in their classes.",
+      "year": 2023,
+      "authors": [
+        "Martín Naya-Varela",
+        "Sara Guerreiro-Santalla",
+        "Tamara Baamonde",
+        "Francisco Bellas"
+      ],
+      "venue": "IEEE Transactions on Learning Technologies",
+      "cited_by": 45,
+      "is_oa": true,
+      "pdf_url": "https://ruc.udc.es/dspace/bitstream/2183/34961/2/Naya_Varela_Martin_2023_Robobo_smartcity_autonomous_driving_model_computational_intelligence_learning.pdf",
+      "url": "https://openalex.org/W4321608661",
+      "key": "openalex_101109_tlt20233244604_Robobo_SmartCity_An_Autonomous_Driving_Model_for_Computatio",
+      "file_kind": "txt",
+      "file": "openalex_101109_tlt20233244604_Robobo_SmartCity_An_Autonomous_Driving_Model_for_Computatio.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4399205229",
+      "doi": "10.1038/s44172-024-00220-5",
+      "title": "Autonomous mining through cooperative driving and operations enabled by parallel intelligence",
+      "abstract": "Autonomous mining is promising to address several current issues in the mining sector, such as low productivity, safety concerns, and labor shortages. Although partial automation has been achieved in some mining operations, fully autonomous mining remains challenging due to its complexity and scalability in field environments. Here we propose an autonomous mining framework based on the parallel intelligence methodology, employing self-evolving digital twins to model and guide mining processes in the real world. Our framework features a virtual mining subsystem that learns from simulating real-world scenarios and generates new ones, allowing for low-cost training and testing of the integrated autonomous mining system. Through initial validation and extensive testing, particularly in open-pit mining scenarios, our framework has demonstrated stable and efficient autonomous operations. We’ve since deployed it across more than 30 mines, resulting in the extraction of over 30 million tons of minerals. This implementation effectively eliminates the exposure of human operators to hazardous conditions while ensuring 24-hour uninterrupted operation.",
+      "year": 2024,
+      "authors": [
+        "Long Chen",
+        "Yuting Xie",
+        "Yuhang He",
+        "Yunfeng Ai",
+        "Bin Tian",
+        "Lingxi Li",
+        "Shirong Ge",
+        "Fei–Yue Wang"
+      ],
+      "venue": "Communications Engineering",
+      "cited_by": 44,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4399205229",
+      "key": "openalex_101038_s44172-024-00220-5_Autonomous_mining_through_cooperative_driving_and_opera",
+      "file_kind": "txt",
+      "file": "openalex_101038_s44172-024-00220-5_Autonomous_mining_through_cooperative_driving_and_opera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4401574300",
+      "doi": "10.1016/j.trc.2024.104804",
+      "title": "Multi-level traffic-responsive tilt camera surveillance through predictive correlated online learning",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Tao Li",
+        "Zilin Bian",
+        "Haozhe Lei",
+        "Fan Zuo",
+        "Ya-Ting Carolyn Yang",
+        "Quanyan Zhu",
+        "Zhenning Li",
+        "Kaan M. A. Özbay"
+      ],
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "cited_by": 22,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.02208",
+      "url": "https://openalex.org/W4401574300",
+      "key": "openalex_101016_jtrc2024104804_Multi-level_traffic-responsive_tilt_camera_surveillance_thr",
+      "file_kind": "txt",
+      "file": "openalex_101016_jtrc2024104804_Multi-level_traffic-responsive_tilt_camera_surveillance_thr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7204457869",
+      "doi": "10.3389/fsufs.2026.1906757",
+      "title": "From manual to autonomous: the role of intelligent technologies in the driving and control of combine harvester",
+      "abstract": "The intelligent transformation of combine harvesters is essential to the development of smart agriculture. Focusing on the transition from manual operation to autonomous harvesting, this review examines changes in the operator’s role and the technologies used to navigate and control combine harvesters. It also discusses the limitations of manual harvesting, including labor shortages, differences in operator skills, fatigue-related errors, safety risks, and inconsistent performance. Key technologies reviewed include autonomous navigation, environmental perception, mapping, crop row detection, path planning, dynamic obstacle avoidance, trajectory tracking, and artificial intelligence. These technologies reduce operator workload, improve harvesting accuracy, minimize missed areas and overlaps, and promote an operator role transition from direct driving to system supervision, emergency intervention, and fleet coordination. Major challenges include dynamic disturbances caused by changes in grain tank load, header motion, and track slippage on wet or straw-covered fields. Delays in perception, planning, and control systems can also reduce coordination among crop row detection, path replanning, header height control, and speed adjustment. In addition, existing systems do not sufficiently integrate agronomic information such as crop maturity, grain moisture, and optimal harvesting time. Data security risks in multi-machine operations may also cause collisions or incorrect grain allocation. Future advances in multi-sensor fusion, agricultural foundation models, edge computing, 6G communication, unmanned aerial vehicles, and cooperative machine groups will support autonomous and coordinated harvesting. These developments can reduce harvest losses, improve field efficiency, strengthen food security, and promote smart agriculture.",
+      "year": 2026,
+      "authors": [
+        "Yiheng Qian",
+        "Yu Zhang",
+        "Shuhao Fu",
+        "Kai Shan",
+        "Wenbin Zhang",
+        "Zhong Tang"
+      ],
+      "venue": "Frontiers in Sustainable Food Systems",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1906757/pdf",
+      "url": "https://openalex.org/W7204457869",
+      "key": "openalex_103389_fsufs20261906757_From_manual_to_autonomous_the_role_of_intelligent_technol",
+      "file_kind": "txt",
+      "file": "openalex_103389_fsufs20261906757_From_manual_to_autonomous_the_role_of_intelligent_technol.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4393399233",
+      "doi": "10.48550/arxiv.2403.19918",
+      "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning",
+      "abstract": "Evaluating autonomous vehicle stacks (AVs) in simulation typically involves replaying driving logs from real-world recorded traffic. However, agents replayed from offline data are not reactive and hard to intuitively control. Existing approaches address these challenges by proposing methods that rely on heuristics or generative models of real-world data but these approaches either lack realism or necessitate costly iterative sampling procedures to control the generated behaviours. In this work, we take an alternative approach and propose CtRL-Sim, a method that leverages return-conditioned offline reinforcement learning (RL) to efficiently generate reactive and controllable traffic agents. Specifically, we process real-world driving data through a physics-enhanced Nocturne simulator to generate a diverse offline RL dataset, annotated with various rewards. With this dataset, we train a return-conditioned multi-agent behaviour model that allows for fine-grained manipulation of agent behaviours by modifying the desired returns for the various reward components. This capability enables the generation of a wide range of driving behaviours beyond the scope of the initial dataset, including adversarial behaviours. We show that CtRL-Sim can generate realistic safety-critical scenarios while providing fine-grained control over agent behaviours.",
+      "year": 2024,
+      "authors": [
+        "Rowe, Luke",
+        "Roger Girgis",
+        "Anthony Gosselin",
+        "Bruno Carrez",
+        "Florian Golemo",
+        "Felix Heide",
+        "Liam Paull",
+        "Christopher Pal"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 26,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.19918",
+      "url": "https://openalex.org/W4393399233",
+      "key": "openalex_1048550_arxiv240319918_CtRL-Sim_Reactive_and_Controllable_Driving_Agents_with_Off",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240319918_CtRL-Sim_Reactive_and_Controllable_Driving_Agents_with_Off.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7208707055",
+      "doi": "10.1016/j.atres.2026.08.002",
+      "title": "Anytime rulebook-aware nonlinear MPC for autonomous driving with priority-biased tiered slacks",
+      "abstract": "Autonomous-vehicle motion planners must resolve conflicts among safety, regulation, comfort, and efficiency in real time while exposing those decisions for audit. We present W-SQP, a weighted tiered-slack nonlinear model predictive controller (NMPC) that compiles nine driving-rule families into a four-tier shared-slack nonlinear program solved online with CasADi and IPOPT; the name denotes the weighted quadratic slack penalty, not a sequential-quadratic-programming solver. Strongly separated tier penalties bias residual violations toward lower-priority rules while leaving actuation bounds hard. The controller replans from its executed state at 10 Hz and records per-rule residuals on every cycle. A 90 ms solver-time limit returns an anytime iterate that is projected through the vehicle dynamics before execution; median and maximum observed wall-clock solve times were 28 and 104 ms. We evaluate W-SQP in closed loop on 150 Waymo Open Motion Dataset scenarios in Waymax against reactive and proposal-and-select baselines, and introduce a log-independent protocol that separates safety and regulatory compliance from resemblance to the recorded human trajectory. Under this protocol, W-SQP shows no systematic group-level deficit relative to expert replay on the log-independent safety and regulatory rules, with several localized regressions in the hardest, highest-divergence scenarios. The results characterize W-SQP as an auditable, priority-biased, anytime-capable NMPC prototype rather than a hard-real-time or formally safe controller.",
+      "year": 2026,
+      "authors": [
+        "Hadi Hajieghrary",
+        "Benedikt Walter",
+        "Chaitanya Shinde",
+        "Paul Schmitt",
+        "Miguel Hurtado"
+      ],
+      "venue": "Autonomous Transportation Research",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S305086222600022X/pdf",
+      "url": "https://openalex.org/W7208707055",
+      "key": "openalex_101016_jatres202608002_Anytime_rulebook-aware_nonlinear_MPC_for_autonomous_drivin",
+      "file_kind": "txt",
+      "file": "openalex_101016_jatres202608002_Anytime_rulebook-aware_nonlinear_MPC_for_autonomous_drivin.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417268929",
+      "doi": "10.48550/arxiv.2507.20397",
+      "title": "VESPA: Towards un(Human)supervised Open-World Pointcloud Labeling for Autonomous Driving",
+      "abstract": "Data collection for autonomous driving is rapidly accelerating, but manual annotation, especially for 3D labels, remains a major bottleneck due to its high cost and labor intensity. Autolabeling has emerged as a scalable alternative, allowing the generation of labels for point clouds with minimal human intervention. While LiDAR-based autolabeling methods leverage geometric information, they struggle with inherent limitations of lidar data, such as sparsity, occlusions, and incomplete object observations. Furthermore, these methods typically operate in a class-agnostic manner, offering limited semantic granularity. To address these challenges, we introduce VESPA, a multimodal autolabeling pipeline that fuses the geometric precision of LiDAR with the semantic richness of camera images. Our approach leverages vision-language models (VLMs) to enable open-vocabulary object labeling and to refine detection quality directly in the point cloud domain. VESPA supports the discovery of novel categories and produces high-quality 3D pseudolabels without requiring ground-truth annotations or HD maps. On Nuscenes dataset, VESPA achieves an AP of 52.95% for object discovery and up to 46.54% for multiclass object detection, demonstrating strong performance in scalable 3D scene understanding. Code will be available upon acceptance.",
+      "year": 2025,
+      "authors": [
+        "Levente Tempfli",
+        "Esteban Rivera",
+        "Markus Lienkamp"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2507.20397",
+      "url": "https://openalex.org/W4417268929",
+      "key": "openalex_1048550_arxiv250720397_VESPA_Towards_unHumansupervised_Open-World_Pointcloud_Labe",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250720397_VESPA_Towards_unHumansupervised_Open-World_Pointcloud_Labe.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W2799017078",
+      "doi": "10.48550/arxiv.1804.09364",
+      "title": "Driving Policy Transfer via Modularity and Abstraction",
+      "abstract": "End-to-end approaches to autonomous driving have high sample complexity and are difficult to scale to realistic urban driving. Simulation can help end-to-end driving systems by providing a cheap, safe, and diverse training environment. Yet training driving policies in simulation brings up the problem of transferring such policies to the real world. We present an approach to transferring driving policies from simulation to reality via modularity and abstraction. Our approach is inspired by classic driving systems and aims to combine the benefits of modular architectures and end-to-end deep learning approaches. The key idea is to encapsulate the driving policy such that it is not directly exposed to raw perceptual input or low-level vehicle dynamics. We evaluate the presented approach in simulated urban environments and in the real world. In particular, we transfer a driving policy trained in simulation to a 1/5-scale robotic truck that is deployed in a variety of conditions, with no finetuning, on two continents. The supplementary video can be viewed at https://youtu.be/BrMDJqI6H5U",
+      "year": 2018,
+      "authors": [
+        "Müller, Matthias",
+        "Alexey Dosovitskiy",
+        "Bernard Ghanem",
+        "Vladlen Koltun"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 215,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1804.09364",
+      "url": "https://openalex.org/W2799017078",
+      "key": "openalex_1048550_arxiv180409364_Driving_Policy_Transfer_via_Modularity_and_Abstraction",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv180409364_Driving_Policy_Transfer_via_Modularity_and_Abstraction.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7236978130",
+      "doi": "",
+      "title": "Control Principles for Autonomous Communication Networks",
+      "abstract": "The growing complexity of communication networks and the explosion of network traffic have made the task of managing these networks exceedingly hard. A potential approach for striking this increasing complexity is to build an autonomous self-driving network that can measure, analyze and control itself in real time and in an automated fashion without direct human intervention. In this thesis, we focus on realizing such an autonomous network leveraging state-of-the-art networking technologies along with artificial intelligence and machine learning techniques. Toward this goal, we exploit different learning paradigms to automate network management. First, we propose supervised machine learning methods to detect increases in delays in mobile broadband networks. Further, considering the challenges of supervised learning in networking applications, we present a novel real-time distributed architecture for detecting anomalies in mobile network data in an unsupervised fashion. It also involves a collaborative framework for knowledge sharing between the distributed probes in the network to improve the overall system accuracy. Second, we propose a novel deep reinforcement learning based control framework for optimizing resources utilization while minimizing performance degradation in multi-slice Radio Access Network (RAN) through a set of diverse control actions. We explore both centralized and distributed control architectures. Last, we design a framework for timely collecting telemetry, detecting and attributing outages in mobile networks. We evaluate our framework on a software defined virtualised testbed that resembles a cloudified mobile network.",
+      "year": 2023,
+      "authors": [
+        "Azza H. Ahmed"
+      ],
+      "venue": "NVA (Nasjonalt vitenarkiv)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://skriftserien.oslomet.no/skriftserien/article/download/815/786",
+      "url": "https://openalex.org/W7236978130",
+      "key": "openalex_W7236978130_Control_Principles_for_Autonomous_Communication_Networks",
+      "file_kind": "txt",
+      "file": "openalex_W7236978130_Control_Principles_for_Autonomous_Communication_Networks.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4388271065",
+      "doi": "10.4337/9781803929545.00029",
+      "title": "A critical review of traffic signal control and a novel unified view of reinforcement learning and model predictive control approaches for adaptive traffic signal control",
+      "abstract": "Recent years have witnessed substantial growth in adaptive traffic signal control (ATSC) methodologies that improve transportation network efficiency, especially in branches leveraging artificial intelligence based optimization and control algorithms such as reinforcement learning as well as conventional model predictive control. However, lack of cross-domain analysis and comparison of the effectiveness of applied methods in ATSC research limits our understanding of existing challenges and research directions. This chapter proposes a novel unified view of modern ATSCs to identify common ground as well as differences and shortcomings of existing methodologies with the ultimate goal to facilitate cross-fertilization and advance the state-of-the-art. The unified view applies the mathematical language of the Markov decision process, describes the process of controller design from both the world (problem) and solution modeling perspectives. The unified view also analyses systematic issues commonly ignored in existing studies and suggests future potential directions to resolve these issues.",
+      "year": 2023,
+      "authors": [
+        "Xiaoyu Wang",
+        "Baher Abdulhai",
+        "Scott Sanner"
+      ],
+      "venue": "Edward Elgar Publishing eBooks",
+      "cited_by": 36,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2211.14426",
+      "url": "https://openalex.org/W4388271065",
+      "key": "openalex_104337_978180392954500029_A_critical_review_of_traffic_signal_control_and_a_novel",
+      "file_kind": "txt",
+      "file": "openalex_104337_978180392954500029_A_critical_review_of_traffic_signal_control_and_a_novel.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.2139/ssrn.6072140",
+      "doi": "10.2139/ssrn.6072140",
+      "title": "Language-Guided Controllable Traffic Scenario Generation for Autonomous Vehicle Safety Validation",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Hua Yao",
+        "Zhongning Wang",
+        "Chenfei Hou",
+        "Jicheng Chen",
+        "Guo Zhou",
+        "Hui Zhang"
+      ],
+      "venue": "",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.2139/ssrn.6072140",
+      "key": "crossref_102139_ssrn6072140_Language-Guided_Controllable_Traffic_Scenario_Generation_for_A",
+      "file_kind": "txt",
+      "file": "crossref_102139_ssrn6072140_Language-Guided_Controllable_Traffic_Scenario_Generation_for_A.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.1007/s10044-025-01561-3",
+      "doi": "10.1007/s10044-025-01561-3",
+      "title": "TrafficDiff: diffusion model based adversarial traffic scenario controllable generation for autonomous driving robust evaluation",
+      "abstract": "",
+      "year": 2025,
+      "authors": [
+        "Xuesong Bai",
+        "Hongbo Li",
+        "Peng Dong",
+        "Changhang Tian",
+        "Yang Fei",
+        "Jinchuan Zhang",
+        "Yilong Ren",
+        "Aoyong Li"
+      ],
+      "venue": "Pattern Analysis and Applications",
+      "cited_by": 3,
+      "is_oa": null,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10044-025-01561-3.pdf",
+      "url": "https://doi.org/10.1007/s10044-025-01561-3",
+      "key": "crossref_101007_s10044-025-01561-3_TrafficDiff_diffusion_model_based_adversarial_traffic_s",
+      "file_kind": "txt",
+      "file": "crossref_101007_s10044-025-01561-3_TrafficDiff_diffusion_model_based_adversarial_traffic_s.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.1109/tnnls.2024.3495045/mm1",
+      "doi": "10.1109/tnnls.2024.3495045/mm1",
+      "title": "Grid-Centric Traffic Scenario Perception for Autonomous Driving: A Comprehensive Review_supp1-3495045.pdf",
+      "abstract": "",
+      "year": null,
+      "authors": [
+        "Yining Shi"
+      ],
+      "venue": "",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/tnnls.2024.3495045/mm1",
+      "key": "crossref_101109_tnnls20243495045_mm1_Grid-Centric_Traffic_Scenario_Perception_for_Autonomo",
+      "file_kind": "txt",
+      "file": "crossref_101109_tnnls20243495045_mm1_Grid-Centric_Traffic_Scenario_Perception_for_Autonomo.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.1109/cac67268.2025.11486668",
+      "doi": "10.1109/cac67268.2025.11486668",
+      "title": "Controllable and Realistic Safety-critical Scenario Generation for Autonomous Driving Based on Diffusion Models",
+      "abstract": "",
+      "year": 2025,
+      "authors": [
+        "Senyao Qiao",
+        "Yifei Wang",
+        "Hongqing Chu",
+        "Bingzhao Gao",
+        "Qiankun Yu"
+      ],
+      "venue": "2025 China Automation Congress (CAC)",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/cac67268.2025.11486668",
+      "key": "crossref_101109_cac67268202511486668_Controllable_and_Realistic_Safety-critical_Scenario_G",
+      "file_kind": "txt",
+      "file": "crossref_101109_cac67268202511486668_Controllable_and_Realistic_Safety-critical_Scenario_G.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.1109/tse.2025.3569086/mm1",
+      "doi": "10.1109/tse.2025.3569086/mm1",
+      "title": "TARGET: Traffic Rule-based Test Generation for Autonomous Driving Systems_supp1-3569086.pdf",
+      "abstract": "",
+      "year": null,
+      "authors": [
+        "xi zheng"
+      ],
+      "venue": "",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/tse.2025.3569086/mm1",
+      "key": "crossref_101109_tse20253569086_mm1_TARGET_Traffic_Rule-based_Test_Generation_for_Autonomou",
+      "file_kind": "txt",
+      "file": "crossref_101109_tse20253569086_mm1_TARGET_Traffic_Rule-based_Test_Generation_for_Autonomou.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.31979/etd.vqbt-kwk2",
+      "doi": "10.31979/etd.vqbt-kwk2",
+      "title": "Uncovering Weaknesses in Autonomous Driving",
+      "abstract": "",
+      "year": null,
+      "authors": [
+        "Carlos O. Hernandez"
+      ],
+      "venue": "",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.31979/etd.vqbt-kwk2",
+      "key": "crossref_1031979_etdvqbt-kwk2_Uncovering_Weaknesses_in_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "crossref_1031979_etdvqbt-kwk2_Uncovering_Weaknesses_in_Autonomous_Driving.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.1609/aaai.v40i48.42251",
+      "doi": "10.1609/aaai.v40i48.42251",
+      "title": "Guided Latent Spaces for Controllable Multi-Scenario Generation in Autonomous Driving (Student Abstract)",
+      "abstract": "Scenario-based testing is an important approach for the development and validation of autonomous driving systems, as it enables evaluation across different driving situations. Safety-critical scenarios are especially relevant, but they occur rarely in real-world data, which creates the need for generation methods. In this paper, we present a scalable AI-based approach based on a variational autoencoder that unifies the generation of different types of critical scenarios while introducing controllability through a structured latent space. The integration of unified generation and latent space control advances AI-based scenario generation towards practical use, thereby supporting the requirements of industrial validation pipelines.",
+      "year": 2026,
+      "authors": [
+        "Manasa Mariam Mammen",
+        "Zafer Kayatas",
+        "Stefan Wagner"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/42251/46212",
+      "url": "https://doi.org/10.1609/aaai.v40i48.42251",
+      "key": "crossref_101609_aaaiv40i4842251_Guided_Latent_Spaces_for_Controllable_Multi-Scenario_Gener",
+      "file_kind": "txt",
+      "file": "crossref_101609_aaaiv40i4842251_Guided_Latent_Spaces_for_Controllable_Multi-Scenario_Gener.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.1109/tits.2025.3578383/mm1",
+      "doi": "10.1109/tits.2025.3578383/mm1",
+      "title": "LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models_supp1-3578383.mp4",
+      "abstract": "",
+      "year": null,
+      "authors": [
+        "Jian Sun"
+      ],
+      "venue": "",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/tits.2025.3578383/mm1",
+      "key": "crossref_101109_tits20253578383_mm1_LLM-Attacker_Enhancing_Closed-Loop_Adversarial_Scenari",
+      "file_kind": "txt",
+      "file": "crossref_101109_tits20253578383_mm1_LLM-Attacker_Enhancing_Closed-Loop_Adversarial_Scenari.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.20944/preprints202311.0426.v1",
+      "doi": "10.20944/preprints202311.0426.v1",
+      "title": "Research on Specific Scenario Generation Methods for Autonomous Driving Simulation Tests",
+      "abstract": "In this paper, we propose a method for the generation of simulation test scenarios for autonomous driving. Based on the requirements of standard regulatory test scenarios, we can generate virtual simulation scenarios and functional scenario libraries for autonomous driving, which can be used for simulation verification of different ADAS functions. Firstly, the design operation domain (ODD) of the functional scenario is selected and the weight values of the ODD elements taken are calculated; then a combination test algorithm based on parameter weights is improved to generate autonomous driving virtual simulation test cases for the ODD elements, which can effectively reduce the number of generated test cases compared with the traditional combination test algorithm; then the traffic participant elements under each test case are Then, the values of the subelements under the traffic participant element in each test case are sampled and clustered to obtain hazard specific scenarios. Finally, the specific scenarios are applied to the automatic emergency braking (AEB) system on the model-in-the-loop (MIL) testbed to verify the effectiveness of this scenario generation method.",
+      "year": 2023,
+      "authors": [
+        "Ning Li",
+        "Lingshan Chen",
+        "Yongchao Huang"
+      ],
+      "venue": "",
+      "cited_by": 1,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.20944/preprints202311.0426.v1",
+      "key": "crossref_1020944_preprints2023110426v1_Research_on_Specific_Scenario_Generation_Methods_fo",
+      "file_kind": "txt",
+      "file": "crossref_1020944_preprints2023110426v1_Research_on_Specific_Scenario_Generation_Methods_fo.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.1145/3729348",
+      "doi": "10.1145/3729348",
+      "title": "Multi-modal Traffic Scenario Generation for Autonomous Driving System Testing",
+      "abstract": "Autonomous driving systems (ADS) require extensive testing and validation before deployment. However, it is tedious and time-consuming to construct traffic scenarios for ADS testing. In this paper, we propose TrafficComposer, a multi-modal traffic scenario construction approach for ADS testing. TrafficComposer takes as input a natural language (NL) description of a desired traffic scenario and a complementary traffic scene image. Then, it generates the corresponding traffic scenario in a simulator, such as CARLA and LGSVL. Specifically, TrafficComposer integrates high-level dynamic information about the traffic scenario from the NL description and intricate details about the surrounding vehicles, pedestrians, and the road network from the image. The information from the two modalities is complementary to each other and helps generate high-quality traffic scenarios for ADS testing. On a benchmark of 120 traffic scenarios, TrafficComposer achieves 97.0% accuracy, outperforming the best-performing baseline by 7.3%. Both direct testing and fuzz testing experiments on six ADSs prove the bug detection capabilities of the traffic scenarios generated by TrafficComposer. These scenarios can directly discover 37 bugs and help two fuzzing methods find 33%–124% more bugs serving as initial seeds.",
+      "year": 2025,
+      "authors": [
+        "Zhi Tu",
+        "Liangkun Niu",
+        "Wei Fan",
+        "Tianyi Zhang"
+      ],
+      "venue": "Proceedings of the ACM on Software Engineering",
+      "cited_by": 6,
+      "is_oa": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3729348",
+      "url": "https://doi.org/10.1145/3729348",
+      "key": "crossref_101145_3729348_Multi-modal_Traffic_Scenario_Generation_for_Autonomous_Driving_Sys",
+      "file_kind": "txt",
+      "file": "crossref_101145_3729348_Multi-modal_Traffic_Scenario_Generation_for_Autonomous_Driving_Sys.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.26599/commtr.2026.9640060",
+      "doi": "10.26599/commtr.2026.9640060",
+      "title": "Towards Lawful Autonomous Driving: Deriving Scenario-Aware Driving Requirements from Traffic Laws",
+      "abstract": "Abstract Driving in compliance with traffic laws and regulations is a basic requirement for human drivers, yet autonomous vehicles (AVs) can violate these requirements in diverse real-world scenarios. To encode law compliance into AV systems, conventional approaches use formal logic languages to explicitly specify behavioral constraints, but this process is labor-intensive, hard to scale, and costly to maintain. With recent advances in artificial intelligence, it is promising to leverage large language models (LLMs) to derive legal requirements from traffic laws and regulations. However, without explicitly grounding and reasoning in structured traffic scenarios, LLMs often retrieve irrelevant provisions or miss applicable ones, yielding imprecise requirements. To address this, we propose a novel pipeline that grounds LLM reasoning in a traffic scenario taxonomy through node-wise anchors that encode hierarchical semantics. On Chinese traffic laws and OnSite dataset (5,897 scenarios), our method improves law-scenario matching by 29.1 percentage points and increases the accuracy of derived mandatory and prohibitive requirements by 36.9 and 38.2 percentage points, respectively. We further demonstrate real-world applicability by constructing a law-compliance layer for AV navigation and developing an onboard, real-time compliance monitor for in-field testing, providing a solid foundation for future AV development, deployment, and regulatory oversight.",
+      "year": 2026,
+      "authors": [
+        "Bowen Jian",
+        "Rongjie Yu",
+        "Hong Wang",
+        "Liqiang Wang",
+        "Zihang Zou"
+      ],
+      "venue": "Communications in Transportation Research",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.26599/commtr.2026.9640060",
+      "key": "crossref_1026599_commtr20269640060_Towards_Lawful_Autonomous_Driving_Deriving_Scenario-Awa",
+      "file_kind": "txt",
+      "file": "crossref_1026599_commtr20269640060_Towards_Lawful_Autonomous_Driving_Deriving_Scenario-Awa.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.52202/075280-3014",
+      "doi": "10.52202/075280-3014",
+      "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion",
+      "abstract": "",
+      "year": 2023,
+      "authors": [
+        "Ethan Pronovost",
+        "Meghana Reddy Ganesina",
+        "Noureldin Hendy",
+        "Zeyu Wang",
+        "Andres Morales",
+        "Kai Wang",
+        "Nick Roy"
+      ],
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "cited_by": 23,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.52202/075280-3014",
+      "key": "crossref_1052202_075280-3014_Scenario_Diffusion_Controllable_Driving_Scenario_Generation_W",
+      "file_kind": "txt",
+      "file": "crossref_1052202_075280-3014_Scenario_Diffusion_Controllable_Driving_Scenario_Generation_W.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.1109/iros58592.2024.10801623",
+      "doi": "10.1109/iros58592.2024.10801623",
+      "title": "DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Sheng Wang",
+        "Ge Sun",
+        "Fulong Ma",
+        "Tianshuai Hu",
+        "Qiang Qin",
+        "Yongkang Song",
+        "Lei Zhu",
+        "Junwei Liang"
+      ],
+      "venue": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "cited_by": 6,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/iros58592.2024.10801623",
+      "key": "crossref_101109_iros58592202410801623_DragTraffic_Interactive_and_Controllable_Traffic_Sce",
+      "file_kind": "txt",
+      "file": "crossref_101109_iros58592202410801623_DragTraffic_Interactive_and_Controllable_Traffic_Sce.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.1117/12.3102532",
+      "doi": "10.1117/12.3102532",
+      "title": "Optimization of traffic light scenario algorithms for Apollo-based autonomous driving",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Li He",
+        "Wenjian Feng"
+      ],
+      "venue": "International Conference on Frontiers of Traffic and Transportation Engineering (FTTE 2025)",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.1117/12.3102532",
+      "key": "crossref_101117_123102532_Optimization_of_traffic_light_scenario_algorithms_for_Apollo-bas",
+      "file_kind": "txt",
+      "file": "crossref_101117_123102532_Optimization_of_traffic_light_scenario_algorithms_for_Apollo-bas.txt"
+    },
+    {
+      "source": "crossref",
+      "sources": [
+        "crossref"
+      ],
+      "id": "10.2139/ssrn.5734582",
+      "doi": "10.2139/ssrn.5734582",
+      "title": "Controllable risk scenario generation from human crash data for autonomous vehicle testing",
+      "abstract": "",
+      "year": 2025,
+      "authors": [
+        "Qiujing Lu",
+        "Xuanhan Wang",
+        "Runze Yuan",
+        "Wei Lu",
+        "Xinyi Gong",
+        "Shuo Feng"
+      ],
+      "venue": "",
+      "cited_by": 0,
+      "is_oa": null,
+      "pdf_url": "",
+      "url": "https://doi.org/10.2139/ssrn.5734582",
+      "key": "crossref_102139_ssrn5734582_Controllable_risk_scenario_generation_from_human_crash_data_fo",
+      "file_kind": "txt",
+      "file": "crossref_102139_ssrn5734582_Controllable_risk_scenario_generation_from_human_crash_data_fo.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2011.08729v3",
+      "doi": "10.1201/9781003048381",
+      "title": "Control Strategies for Autonomous Vehicles",
+      "abstract": "This chapter focuses on the self-driving technology from a control perspective and investigates the control strategies used in autonomous vehicles and advanced driver-assistance systems from both theoretical and practical viewpoints. First, we introduce the self-driving technology as a whole, including perception, planning and control techniques required for accomplishing the challenging task of autonomous driving. We then dwell upon each of these operations to explain their role in the autonomous system architecture, with a prime focus on control strategies. The core portion of this chapter commences with detailed mathematical modeling of autonomous vehicles followed by a comprehensive discussion on control strategies. The chapter covers longitudinal as well as lateral control strategies for autonomous vehicles with coupled and de-coupled control schemes. We as well discuss some of the machine learning techniques applied to autonomous vehicle control task. Finally, we briefly summarize some of the research works that our team has carried out at the Autonomous Systems Lab and conclude the chapter with a few thoughtful remarks.",
+      "year": 2020,
+      "authors": [
+        "Chinmay Vilas Samak",
+        "Tanmay Vilas Samak",
+        "Sivanathan Kandhasamy"
+      ],
+      "venue": "Autonomous Driving and Advanced Driver-Assistance Systems (ADAS): Applications, Development, Legal Issues, and Testing (1st ed.). CRC Press, 2021",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2011.08729v3",
+      "url": "http://arxiv.org/abs/2011.08729v3",
+      "key": "arxiv_101201_9781003048381_Control_Strategies_for_Autonomous_Vehicles",
+      "file_kind": "txt",
+      "file": "arxiv_101201_9781003048381_Control_Strategies_for_Autonomous_Vehicles.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.21581v4",
+      "doi": "",
+      "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+      "abstract": "While end-to-end autonomous driving has advanced significantly, prevailing methods remain fundamentally misaligned with human cognitive principles in both perception and planning. In this paper, we propose CogAD, a novel end-to-end autonomous driving model that emulates the hierarchical cognition mechanisms of human drivers. CogAD implements dual hierarchical mechanisms: global-to-local context processing for human-like perception and intent-conditioned multi-mode trajectory generation for cognitively-inspired planning. The proposed method demonstrates three principal advantages: comprehensive environmental understanding through hierarchical perception, robust planning exploration enabled by multi-level planning, and diverse yet reasonable multi-modal trajectory generation facilitated by dual-level uncertainty modeling. Extensive experiments on nuScenes and Bench2Drive demonstrate that CogAD achieves state-of-the-art performance in end-to-end planning, exhibiting particular superiority in long-tail scenarios and robust generalization to complex real-world driving conditions.",
+      "year": 2025,
+      "authors": [
+        "Zhennan Wang",
+        "Jianing Teng",
+        "Canqun Xiang",
+        "Kangliang Chen",
+        "Xing Pan",
+        "Lu Deng",
+        "Weihao Gu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.21581v4",
+      "url": "http://arxiv.org/abs/2505.21581v4",
+      "key": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.23922v1",
+      "doi": "",
+      "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+      "abstract": "Closed-loop evaluation is increasingly critical for end-to-end autonomous driving. Current closed-loop benchmarks using the CARLA simulator rely on manually configured traffic scenarios, which can diverge from real-world conditions, limiting their ability to reflect actual driving performance. To address these limitations, we introduce a simple yet challenging closed-loop evaluation framework that closely integrates real-world driving scenarios into the CARLA simulator with infrastructure cooperation. Our approach involves extracting 800 dynamic traffic scenarios selected from a comprehensive 100-hour video dataset captured by high-mounted infrastructure sensors, and creating static digital twin assets for 15 real-world intersections with consistent visual appearance. These digital twins accurately replicate the traffic and environmental characteristics of their real-world counterparts, enabling more realistic simulations in CARLA. This evaluation is challenging due to the diversity of driving behaviors, locations, weather conditions, and times of day at complex urban intersections. In addition, we provide a comprehensive closed-loop benchmark for evaluating end-to-end autonomous driving models. Project URL: \\href{https://github.com/AIR-THU/DriveE2E}{https://github.com/AIR-THU/DriveE2E}.",
+      "year": 2025,
+      "authors": [
+        "Haibao Yu",
+        "Wenxian Yang",
+        "Ruiyang Hao",
+        "Chuanye Wang",
+        "Jiaru Zhong",
+        "Ping Luo",
+        "Zaiqing Nie"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.23922v1",
+      "url": "http://arxiv.org/abs/2509.23922v1",
+      "key": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through",
+      "file_kind": "txt",
+      "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2409.18053v3",
+      "doi": "",
+      "title": "DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving",
+      "abstract": "We present a novel autonomous driving framework, DualAD, designed to imitate human reasoning during driving. DualAD comprises two layers: a rule-based motion planner at the bottom layer that handles routine driving tasks requiring minimal reasoning, and an upper layer featuring a rule-based text encoder that converts driving scenarios from absolute states into text description. This text is then processed by a large language model (LLM) to make driving decisions. The upper layer intervenes in the bottom layer's decisions when potential danger is detected, mimicking human reasoning in critical situations. Closed-loop experiments demonstrate that DualAD, using a zero-shot pre-trained model, significantly outperforms rule-based motion planners that lack reasoning abilities. Our experiments also highlight the effectiveness of the text encoder, which considerably enhances the model's scenario understanding. Additionally, the integrated DualAD model improves with stronger LLMs, indicating the framework's potential for further enhancement. Code and benchmarks are available at github.com/TUM-AVS/DualAD.",
+      "year": 2024,
+      "authors": [
+        "Dingrui Wang",
+        "Marc Kaufeld",
+        "Johannes Betz"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.18053v3",
+      "url": "http://arxiv.org/abs/2409.18053v3",
+      "key": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2103.16273v1",
+      "doi": "",
+      "title": "Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network",
+      "abstract": "Predicting future trajectories of surrounding obstacles is a crucial task for autonomous driving cars to achieve a high degree of road safety. There are several challenges in trajectory prediction in real-world traffic scenarios, including obeying traffic rules, dealing with social interactions, handling traffic of multi-class movement, and predicting multi-modal trajectories with probability. Inspired by people's natural habit of navigating traffic with attention to their goals and surroundings, this paper presents a unique dynamic graph attention network to solve all those challenges. The network is designed to model the dynamic social interactions among agents and conform to traffic rules with a semantic map. By extending the anchor-based method to multiple types of agents, the proposed method can predict multi-modal trajectories with probabilities for multi-class movements using a single model. We validate our approach on the proprietary autonomous driving dataset for the logistic delivery scenario and two publicly available datasets. The results show that our method outperforms state-of-the-art techniques and demonstrates the potential for trajectory prediction in real-world traffic.",
+      "year": 2021,
+      "authors": [
+        "Bo Dong",
+        "Hao Liu",
+        "Yu Bai",
+        "Jinbiao Lin",
+        "Zhuoran Xu",
+        "Xinyu Xu",
+        "Qi Kong"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2103.16273v1",
+      "url": "http://arxiv.org/abs/2103.16273v1",
+      "key": "arxiv_210316273v1_Multi-modal_Trajectory_Prediction_for_Autonomous_Driving_with_Semantic_M",
+      "file_kind": "txt",
+      "file": "arxiv_210316273v1_Multi-modal_Trajectory_Prediction_for_Autonomous_Driving_with_Semantic_M.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2111.06318v2",
+      "doi": "10.1007/s43684-022-00023-5",
+      "title": "Multi-agent Reinforcement Learning for Cooperative Lane Changing of Connected and Autonomous Vehicles in Mixed Traffic",
+      "abstract": "Autonomous driving has attracted significant research interests in the past two decades as it offers many potential benefits, including releasing drivers from exhausting driving and mitigating traffic congestion, among others. Despite promising progress, lane-changing remains a great challenge for autonomous vehicles (AV), especially in mixed and dynamic traffic scenarios. Recently, reinforcement learning (RL), a powerful data-driven control method, has been widely explored for lane-changing decision makings in AVs with encouraging results demonstrated. However, the majority of those studies are focused on a single-vehicle setting, and lane-changing in the context of multiple AVs coexisting with human-driven vehicles (HDVs) have received scarce attention. In this paper, we formulate the lane-changing decision making of multiple AVs in a mixed-traffic highway environment as a multi-agent reinforcement learning (MARL) problem, where each AV makes lane-changing decisions based on the motions of both neighboring AVs and HDVs. Specifically, a multi-agent advantage actor-critic network (MA2C) is developed with a novel local reward design and a parameter sharing scheme. In particular, a multi-objective reward function is proposed to incorporate fuel efficiency, driving comfort, and safety of autonomous driving. Comprehensive experimental results, conducted under three different traffic densities and various levels of human driver aggressiveness, show that our proposed MARL framework consistently outperforms several state-of-the-art benchmarks in terms of efficiency, safety and driver comfort.",
+      "year": 2021,
+      "authors": [
+        "Wei Zhou",
+        "Dong Chen",
+        "Jun Yan",
+        "Zhaojian Li",
+        "Huilin Yin",
+        "Wanchen Ge"
+      ],
+      "venue": "Autonomous Intelligent Systems, 2(1) (2022)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2111.06318v2",
+      "url": "http://arxiv.org/abs/2111.06318v2",
+      "key": "arxiv_101007_s43684-022-00023-5_Multi-agent_Reinforcement_Learning_for_Cooperative_Lane_Ch",
+      "file_kind": "txt",
+      "file": "arxiv_101007_s43684-022-00023-5_Multi-agent_Reinforcement_Learning_for_Cooperative_Lane_Ch.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2110.07067v2",
+      "doi": "",
+      "title": "Offline Reinforcement Learning for Autonomous Driving with Safety and Exploration Enhancement",
+      "abstract": "Reinforcement learning (RL) is a powerful data-driven control method that has been largely explored in autonomous driving tasks. However, conventional RL approaches learn control policies through trial-and-error interactions with the environment and therefore may cause disastrous consequences such as collisions when testing in real-world traffic. Offline RL has recently emerged as a promising framework to learn effective policies from previously-collected, static datasets without the requirement of active interactions, making it especially appealing for autonomous driving applications. Despite promising, existing offline RL algorithms such as Batch-Constrained deep Q-learning (BCQ) generally lead to rather conservative policies with limited exploration efficiency. To address such issues, this paper presents an enhanced BCQ algorithm by employing a learnable parameter noise scheme in the perturbation model to increase the diversity of observed actions. In addition, a Lyapunov-based safety enhancement strategy is incorporated to constrain the explorable state space within a safe region. Experimental results in highway and parking traffic scenarios show that our approach outperforms the conventional RL method, as well as state-of-the-art offline RL algorithms.",
+      "year": 2021,
+      "authors": [
+        "Tianyu Shi",
+        "Dong Chen",
+        "Kaian Chen",
+        "Zhaojian Li"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2110.07067v2",
+      "url": "http://arxiv.org/abs/2110.07067v2",
+      "key": "arxiv_211007067v2_Offline_Reinforcement_Learning_for_Autonomous_Driving_with_Safety_and_Ex",
+      "file_kind": "txt",
+      "file": "arxiv_211007067v2_Offline_Reinforcement_Learning_for_Autonomous_Driving_with_Safety_and_Ex.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2104.10753v1",
+      "doi": "",
+      "title": "Multi-task Learning with Attention for End-to-end Autonomous Driving",
+      "abstract": "Autonomous driving systems need to handle complex scenarios such as lane following, avoiding collisions, taking turns, and responding to traffic signals. In recent years, approaches based on end-to-end behavioral cloning have demonstrated remarkable performance in point-to-point navigational scenarios, using a realistic simulator and standard benchmarks. Offline imitation learning is readily available, as it does not require expensive hand annotation or interaction with the target environment, but it is difficult to obtain a reliable system. In addition, existing methods have not specifically addressed the learning of reaction for traffic lights, which are a rare occurrence in the training datasets. Inspired by the previous work on multi-task learning and attention modeling, we propose a novel multi-task attention-aware network in the conditional imitation learning (CIL) framework. This does not only improve the success rate of standard benchmarks, but also the ability to react to traffic lights, which we show with standard benchmarks.",
+      "year": 2021,
+      "authors": [
+        "Keishi Ishihara",
+        "Anssi Kanervisto",
+        "Jun Miura",
+        "Ville Hautamäki"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2104.10753v1",
+      "url": "http://arxiv.org/abs/2104.10753v1",
+      "key": "arxiv_210410753v1_Multi-task_Learning_with_Attention_for_End-to-end_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_210410753v1_Multi-task_Learning_with_Attention_for_End-to-end_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2312.06351v1",
+      "doi": "",
+      "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+      "abstract": "Various methods have been proposed for utilizing Large Language Models (LLMs) in autonomous driving. One strategy of using LLMs for autonomous driving involves inputting surrounding objects as text prompts to the LLMs, along with their coordinate and velocity information, and then outputting the subsequent movements of the vehicle. When using LLMs for such purposes, capabilities such as spatial recognition and planning are essential. In particular, two foundational capabilities are required: (1) spatial-aware decision making, which is the ability to recognize space from coordinate information and make decisions to avoid collisions, and (2) the ability to adhere to traffic rules. However, quantitative research has not been conducted on how accurately different types of LLMs can handle these problems. In this study, we quantitatively evaluated these two abilities of LLMs in the context of autonomous driving. Furthermore, to conduct a Proof of Concept (POC) for the feasibility of implementing these abilities in actual vehicles, we developed a system that uses LLMs to drive a vehicle.",
+      "year": 2023,
+      "authors": [
+        "Kotaro Tanahashi",
+        "Yuichi Inoue",
+        "Yu Yamaguchi",
+        "Hidetatsu Yaginuma",
+        "Daiki Shiotsuka",
+        "Hiroyuki Shimatani",
+        "Kohei Iwamasa",
+        "Yoshiaki Inoue",
+        "Takafumi Yamaguchi",
+        "Koki Igari",
+        "Tsukasa Horinouchi",
+        "Kento Tokuhiro",
+        "Yugo Tokuchi",
+        "Shunsuke Aoki"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.06351v1",
+      "url": "http://arxiv.org/abs/2312.06351v1",
+      "key": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr",
+      "file_kind": "txt",
+      "file": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2003.00601v1",
+      "doi": "",
+      "title": "3D Point Cloud Processing and Learning for Autonomous Driving",
+      "abstract": "We present a review of 3D point cloud processing and learning for autonomous driving. As one of the most important sensors in autonomous vehicles, light detection and ranging (LiDAR) sensors collect 3D point clouds that precisely record the external surfaces of objects and scenes. The tools for 3D point cloud processing and learning are critical to the map creation, localization, and perception modules in an autonomous vehicle. While much attention has been paid to data collected from cameras, such as images and videos, an increasing number of researchers have recognized the importance and significance of LiDAR in autonomous driving and have proposed processing and learning algorithms to exploit 3D point clouds. We review the recent progress in this research area and summarize what has been tried and what is needed for practical and safe autonomous vehicles. We also offer perspectives on open issues that are needed to be solved in the future.",
+      "year": 2020,
+      "authors": [
+        "Siheng Chen",
+        "Baoan Liu",
+        "Chen Feng",
+        "Carlos Vallespi-Gonzalez",
+        "Carl Wellington"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2003.00601v1",
+      "url": "http://arxiv.org/abs/2003.00601v1",
+      "key": "arxiv_200300601v1_3D_Point_Cloud_Processing_and_Learning_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_200300601v1_3D_Point_Cloud_Processing_and_Learning_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.23499v4",
+      "doi": "",
+      "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+      "abstract": "Collecting a high-quality dataset is a critical task that demands meticulous attention to detail, as overlooking certain aspects can render the entire dataset unusable. Autonomous driving challenges remain a prominent area of research, requiring further exploration to enhance the perception and planning performance of vehicles. However, existing datasets are often incomplete. For instance, datasets that include perception information generally lack planning data, while planning datasets typically consist of extensive driving sequences where the ego vehicle predominantly drives forward, offering limited behavioral diversity. In addition, many real datasets struggle to evaluate their models, especially for planning tasks, since they lack a proper closed-loop evaluation setup. The CARLA Leaderboard 2.0 challenge, which provides a diverse set of scenarios to address the long-tail problem in autonomous driving, has emerged as a valuable alternative platform for developing perception and planning models in both open-loop and closed-loop evaluation setups. Nevertheless, existing datasets collected on this platform present certain limitations. Some datasets appear to be tailored primarily for limited sensor configuration, with particular sensor configurations. To support end-to-end autonomous driving research, we have collected a new dataset comprising over 2.85 million frames using the CARLA simulation environment for the diverse Leaderboard 2.0 challenge scenarios. Our dataset is designed not only for planning tasks but also supports dynamic object detection, lane divider detection, centerline detection, traffic light recognition, prediction tasks and visual language action models . Furthermore, we demonstrate its versatility by training various models using our dataset. Moreover, we also provide numerical rarity scores to understand how rarely the current state occurs in the dataset.",
+      "year": 2026,
+      "authors": [
+        "Tugrul Gorgulu",
+        "Atakan Dag",
+        "M. Esat Kalfaoglu",
+        "Halil Ibrahim Kuru",
+        "Baris Can Cam",
+        "Halil Ibrahim Ozturk",
+        "Ozsel Kilinc"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.23499v4",
+      "url": "http://arxiv.org/abs/2602.23499v4",
+      "key": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d",
+      "file_kind": "txt",
+      "file": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2001.03908v2",
+      "doi": "",
+      "title": "Self-Driving like a Human driver instead of a Robocar: Personalized comfortable driving experience for autonomous vehicles",
+      "abstract": "This paper issues an integrated control system of self-driving autonomous vehicles based on the personal driving preference to provide personalized comfortable driving experience to autonomous vehicle users. We propose an Occupant's Preference Metric (OPM) which is defining a preferred lateral and longitudinal acceleration region with maximum allowable jerk for users. Moreover, we propose a vehicle controller based on control parameters enabling integrated lateral and longitudinal control via preference-aware maneuvering of autonomous vehicles. The proposed system not only provides the criteria for the occupant's driving preference, but also provides a personalized autonomous self-driving style like a human driver instead of a Robocar. The simulation and experimental results demonstrated that the proposed system can maneuver the self-driving vehicle like a human driver by tracking the specified criterion of admissible acceleration and jerk.",
+      "year": 2020,
+      "authors": [
+        "Il Bae",
+        "Jaeyoung Moon",
+        "Junekyo Jhung",
+        "Ho Suk",
+        "Taewoo Kim",
+        "Hyungbin Park",
+        "Jaekwang Cha",
+        "Jinhyuk Kim",
+        "Dohyun Kim",
+        "Shiho Kim"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2001.03908v2",
+      "url": "http://arxiv.org/abs/2001.03908v2",
+      "key": "arxiv_200103908v2_Self-Driving_like_a_Human_driver_instead_of_a_Robocar_Personalized_comfo",
+      "file_kind": "txt",
+      "file": "arxiv_200103908v2_Self-Driving_like_a_Human_driver_instead_of_a_Robocar_Personalized_comfo.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "1911.01054v2",
+      "doi": "",
+      "title": "SoildNet: Soiling Degradation Detection in Autonomous Driving",
+      "abstract": "In the field of autonomous driving, camera sensors are extremely prone to soiling because they are located outside of the car and interact with environmental sources of soiling such as rain drops, snow, dust, sand, mud and so on. This can lead to either partial or complete vision degradation. Hence detecting such decay in vision is very important for safety and overall to preserve the functionality of the \"autonomous\" components in autonomous driving. The contribution of this work involves: 1) Designing a Deep Convolutional Neural Network (DCNN) based baseline network, 2) Exploiting several network remodelling techniques such as employing static and dynamic group convolution, channel reordering to compress the baseline architecture and make it suitable for low power embedded systems with nearly 1 TOPS, 3) Comparing various result metrics of all interim networks dedicated for soiling degradation detection at tile level of size 64 x 64 on input resolution 1280 x 768. The compressed network, is called SoildNet (Sand, snOw, raIn/dIrt, oiL, Dust/muD) that uses only 9.72% trainable parameters of the base network and reduces the model size by more than 7 times with no loss in accuracy",
+      "year": 2019,
+      "authors": [
+        "Arindam Das"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1911.01054v2",
+      "url": "http://arxiv.org/abs/1911.01054v2",
+      "key": "arxiv_191101054v2_SoildNet_Soiling_Degradation_Detection_in_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_191101054v2_SoildNet_Soiling_Degradation_Detection_in_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "0601096v1",
+      "doi": "",
+      "title": "Jam-avoiding adaptive cruise control (ACC) and its impact on traffic dynamics",
+      "abstract": "Adaptive-Cruise Control (ACC) automatically accelerates or decelerates a vehicle to maintain a selected time gap, to reach a desired velocity, or to prevent a rear-end collision. To this end, the ACC sensors detect and track the vehicle ahead for measuring the actual distance and speed difference. Together with the own velocity, these input variables are exactly the same as in car-following models. The focus of this contribution is: What will be the impact of a spreading of ACC systems on the traffic dynamics? Do automated driving strategies have the potential to improve the capacity and stability of traffic flow or will they necessarily increase the heterogeneity and instability? How does the result depend on the ACC equipment level? We discuss microscopic modeling aspects for human and automated (ACC) driving. By means of microscopic traffic simulations, we study how a variable percentage of ACC-equipped vehicles influences the stability of traffic flow, the maximum flow under free traffic conditions until traffic breaks down, and the dynamic capacity of congested traffic. Furthermore, we compare different percentages of ACC with respect to travel times in a specific congestion scenario. Remarkably, we find that already a small amount of ACC equipped cars and, hence, a marginally increased free and dynamic capacity, leads to a drastic reduction of traffic congestion.",
+      "year": 2006,
+      "authors": [
+        "Arne Kesting",
+        "Martin Treiber",
+        "Martin Schönhof",
+        "Florian Kranke",
+        "Dirk Helbing"
+      ],
+      "venue": "Traffic and Granular Flow 2005, p. 633-643. Springer (Berlin), ISBN 9783540476405",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/0601096v1",
+      "url": "http://arxiv.org/abs/physics/0601096v1",
+      "key": "arxiv_0601096v1_Jam-avoiding_adaptive_cruise_control_ACC_and_its_impact_on_traffic_dynamic",
+      "file_kind": "txt",
+      "file": "arxiv_0601096v1_Jam-avoiding_adaptive_cruise_control_ACC_and_its_impact_on_traffic_dynamic.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2408.06070v3",
+      "doi": "",
+      "title": "ControlNeXt: Powerful and Efficient Control for Image and Video Generation",
+      "abstract": "Diffusion models have demonstrated remarkable and robust abilities in both image and video generation. To achieve greater control over generated results, researchers introduce additional architectures, such as ControlNet, Adapters and ReferenceNet, to integrate conditioning controls. However, current controllable generation methods often require substantial additional computational resources, especially for video generation, and face challenges in training or exhibit weak control. In this paper, we propose ControlNeXt: a powerful and efficient method for controllable image and video generation. We first design a more straightforward and efficient architecture, replacing heavy additional branches with minimal additional cost compared to the base model. Such a concise structure also allows our method to seamlessly integrate with other LoRA weights, enabling style alteration without the need for additional training. As for training, we reduce up to 90% of learnable parameters compared to the alternatives. Furthermore, we propose another method called Cross Normalization (CN) as a replacement for Zero-Convolution' to achieve fast and stable training convergence. We have conducted various experiments with different base models across images and videos, demonstrating the robustness of our method.",
+      "year": 2024,
+      "authors": [
+        "Bohao Peng",
+        "Jian Wang",
+        "Yuechen Zhang",
+        "Wenbo Li",
+        "Ming-Chang Yang",
+        "Jiaya Jia"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.06070v3",
+      "url": "http://arxiv.org/abs/2408.06070v3",
+      "key": "arxiv_240806070v3_ControlNeXt_Powerful_and_Efficient_Control_for_Image_and_Video_Generatio",
+      "file_kind": "txt",
+      "file": "arxiv_240806070v3_ControlNeXt_Powerful_and_Efficient_Control_for_Image_and_Video_Generatio.txt"
+    }
+  ]
+}

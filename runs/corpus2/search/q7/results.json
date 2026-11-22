@@ -1,0 +1,1304 @@
+{
+  "query": "reward conditioned offline reinforcement learning traffic simulation",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 50,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4393399233",
+      "doi": "10.48550/arxiv.2403.19918",
+      "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning",
+      "abstract": "Evaluating autonomous vehicle stacks (AVs) in simulation typically involves replaying driving logs from real-world recorded traffic. However, agents replayed from offline data are not reactive and hard to intuitively control. Existing approaches address these challenges by proposing methods that rely on heuristics or generative models of real-world data but these approaches either lack realism or necessitate costly iterative sampling procedures to control the generated behaviours. In this work, we take an alternative approach and propose CtRL-Sim, a method that leverages return-conditioned offline reinforcement learning (RL) to efficiently generate reactive and controllable traffic agents. Specifically, we process real-world driving data through a physics-enhanced Nocturne simulator to generate a diverse offline RL dataset, annotated with various rewards. With this dataset, we train a return-conditioned multi-agent behaviour model that allows for fine-grained manipulation of agent behaviours by modifying the desired returns for the various reward components. This capability enables the generation of a wide range of driving behaviours beyond the scope of the initial dataset, including adversarial behaviours. We show that CtRL-Sim can generate realistic safety-critical scenarios while providing fine-grained control over agent behaviours.",
+      "year": 2024,
+      "authors": [
+        "Rowe, Luke",
+        "Roger Girgis",
+        "Anthony Gosselin",
+        "Bruno Carrez",
+        "Florian Golemo",
+        "Felix Heide",
+        "Liam Paull",
+        "Christopher Pal"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 26,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.19918",
+      "url": "https://openalex.org/W4393399233",
+      "key": "openalex_1048550_arxiv240319918_CtRL-Sim_Reactive_and_Controllable_Driving_Agents_with_Off",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240319918_CtRL-Sim_Reactive_and_Controllable_Driving_Agents_with_Off.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4226427877",
+      "doi": "10.48550/arxiv.2201.02381",
+      "title": "Offline Reinforcement Learning for Road Traffic Control",
+      "abstract": "Traffic signal control is an important problem in urban mobility with a significant potential of economic and environmental impact. While there is a growing interest in Reinforcement Learning (RL) for traffic signal control, the work so far has focussed on learning through simulations which could lead to inaccuracies due to simplifying assumptions. Instead, real experience data on traffic is available and could be exploited at minimal costs. Recent progress in offline or batch RL has enabled just that. Model-based offline RL methods, in particular, have been shown to generalize from the experience data much better than others. We build a model-based learning framework which infers a Markov Decision Process (MDP) from a dataset collected using a cyclic traffic signal control policy that is both commonplace and easy to gather. The MDP is built with pessimistic costs to manage out-of-distribution scenarios using an adaptive shaping of rewards which is shown to provide better regularization compared to the prior related work in addition to being PAC-optimal. Our model is evaluated on a complex signalized roundabout showing that it is possible to build highly performant traffic control policies in a data efficient manner.",
+      "year": 2022,
+      "authors": [
+        "Mayuresh Kunjir",
+        "Sanjay Chawla"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 10,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2201.02381",
+      "url": "https://openalex.org/W4226427877",
+      "key": "openalex_1048550_arxiv220102381_Offline_Reinforcement_Learning_for_Road_Traffic_Control",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv220102381_Offline_Reinforcement_Learning_for_Road_Traffic_Control.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4360584316",
+      "doi": "10.1109/tnnls.2023.3250269",
+      "title": "A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems",
+      "abstract": "With the widespread adoption of deep learning, reinforcement learning (RL) has experienced a dramatic increase in popularity, scaling to previously intractable problems, such as playing complex games from pixel observations, sustaining conversations with humans, and controlling robotic agents. However, there is still a wide range of domains inaccessible to RL due to the high cost and danger of interacting with the environment. Offline RL is a paradigm that learns exclusively from static datasets of previously collected interactions, making it feasible to extract policies from large and diverse training datasets. Effective offline RL algorithms have a much wider range of applications than online RL, being particularly appealing for real-world applications, such as education, healthcare, and robotics. In this work, we contribute with a unifying taxonomy to classify offline RL methods. Furthermore, we provide a comprehensive review of the latest algorithmic breakthroughs in the field using a unified notation as well as a review of existing benchmarks' properties and shortcomings. Additionally, we provide a figure that summarizes the performance of each method and class of methods on different dataset properties, equipping researchers with the tools to decide which type of algorithm is best suited for the problem at hand and identify which classes of algorithms look the most promising. Finally, we provide our perspective on open problems and propose future research directions for this rapidly growing field.",
+      "year": 2023,
+      "authors": [
+        "Rafael Figueiredo Prudencio",
+        "Marcos R. O. A. Máximo",
+        "Esther Luna Colombini"
+      ],
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "cited_by": 692,
+      "is_oa": true,
+      "pdf_url": "https://ieeexplore.ieee.org/ielx7/5962385/6104215/10078377.pdf",
+      "url": "https://openalex.org/W4360584316",
+      "key": "openalex_101109_tnnls20233250269_A_Survey_on_Offline_Reinforcement_Learning_Taxonomy_Revie",
+      "file_kind": "txt",
+      "file": "openalex_101109_tnnls20233250269_A_Survey_on_Offline_Reinforcement_Learning_Taxonomy_Revie.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4321161785",
+      "doi": "10.48550/arxiv.2302.07351",
+      "title": "Constrained Decision Transformer for Offline Safe Reinforcement Learning",
+      "abstract": "Safe reinforcement learning (RL) trains a constraint satisfaction policy by interacting with the environment. We aim to tackle a more challenging problem: learning a safe policy from an offline dataset. We study the offline safe RL problem from a novel multi-objective optimization perspective and propose the $ε$-reducible concept to characterize problem difficulties. The inherent trade-offs between safety and task performance inspire us to propose the constrained decision transformer (CDT) approach, which can dynamically adjust the trade-offs during deployment. Extensive experiments show the advantages of the proposed method in learning an adaptive, safe, robust, and high-reward policy. CDT outperforms its variants and strong offline safe RL baselines by a large margin with the same hyperparameters across all tasks, while keeping the zero-shot adaptation capability to different constraint thresholds, making our approach more suitable for real-world RL under constraints. The code is available at https://github.com/liuzuxin/OSRL.",
+      "year": 2023,
+      "authors": [
+        "Zuxin Liu",
+        "Guo, Zijian",
+        "Yihang Yao",
+        "Zhepeng Cen",
+        "Wenhao Yu",
+        "Tingnan Zhang",
+        "Ding Xuan Zhao"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 125,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2302.07351",
+      "url": "https://openalex.org/W4321161785",
+      "key": "openalex_1048550_arxiv230207351_Constrained_Decision_Transformer_for_Offline_Safe_Reinforc",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv230207351_Constrained_Decision_Transformer_for_Offline_Safe_Reinforc.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W2944633916",
+      "doi": "10.48550/arxiv.1905.04716",
+      "title": "Diagnosing Reinforcement Learning for Traffic Signal Control",
+      "abstract": "With the increasing availability of traffic data and advance of deep reinforcement learning techniques, there is an emerging trend of employing reinforcement learning (RL) for traffic signal control. A key question for applying RL to traffic signal control is how to define the reward and state. The ultimate objective in traffic signal control is to minimize the travel time, which is difficult to reach directly. Hence, existing studies often define reward as an ad-hoc weighted linear combination of several traffic measures. However, there is no guarantee that the travel time will be optimized with the reward. In addition, recent RL approaches use more complicated state (e.g., image) in order to describe the full traffic situation. However, none of the existing studies has discussed whether such a complex state representation is necessary. This extra complexity may lead to significantly slower learning process but may not necessarily bring significant performance gain. In this paper, we propose to re-examine the RL approaches through the lens of classic transportation theory. We ask the following questions: (1) How should we design the reward so that one can guarantee to minimize the travel time? (2) How to design a state representation which is concise yet sufficient to obtain the optimal solution? Our proposed method LIT is theoretically supported by the classic traffic signal control methods in transportation field. LIT has a very simple state and reward design, thus can serve as a building block for future RL approaches to traffic signal control. Extensive experiments on both synthetic and real datasets show that our method significantly outperforms the state-of-the-art traffic signal control methods.",
+      "year": 2019,
+      "authors": [
+        "Guanjie Zheng",
+        "Xinshi Zang",
+        "Nan Xu",
+        "Hua Wei",
+        "Zhengyao Yu",
+        "Vikash V. Gayah",
+        "Kai Meng Xu",
+        "Zhenhui Li"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 170,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1905.04716",
+      "url": "https://openalex.org/W2944633916",
+      "key": "openalex_1048550_arxiv190504716_Diagnosing_Reinforcement_Learning_for_Traffic_Signal_Contr",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv190504716_Diagnosing_Reinforcement_Learning_for_Traffic_Signal_Contr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4386242333",
+      "doi": "10.1145/3600211.3604698",
+      "title": "Reward Reports for Reinforcement Learning",
+      "abstract": "Building systems that are good for society in the face of complex societal effects requires a dynamic approach. Recent approaches to machine learning (ML) documentation have demonstrated the promise of discursive frameworks for deliberation about these complexities. However, these developments have been grounded in a static ML paradigm, leaving the role of feedback and post-deployment performance unexamined. Meanwhile, recent work in reinforcement learning has shown that the effects of feedback and optimization objectives on system behavior can be wide-ranging and unpredictable. In this paper we sketch a framework for documenting deployed and iteratively updated learning systems, which we call Reward Reports. Taking inspiration from technical concepts in reinforcement learning, we outline Reward Reports as living documents that track updates to design choices and assumptions behind what a particular automated system is optimizing for. They are intended to track dynamic phenomena arising from system deployment, rather than merely static properties of models or data. After presenting the elements of a Reward Report, we discuss a concrete example: Meta’s BlenderBot 3 chatbot. Several others for game-playing (DeepMind’s MuZero), content recommendation (MovieLens), and traffic control (Project Flow) are included in the appendix.",
+      "year": 2023,
+      "authors": [
+        "Thomas Krendl Gilbert",
+        "Nathan Lambert",
+        "Sarah Dean",
+        "Tom Zick",
+        "Aaron Snoswell",
+        "S Mehta"
+      ],
+      "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+      "cited_by": 66,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2204.10817",
+      "url": "https://openalex.org/W4386242333",
+      "key": "openalex_101145_36002113604698_Reward_Reports_for_Reinforcement_Learning",
+      "file_kind": "txt",
+      "file": "openalex_101145_36002113604698_Reward_Reports_for_Reinforcement_Learning.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405956510",
+      "doi": "10.48550/arxiv.2412.20519",
+      "title": "Goal-Conditioned Data Augmentation for Offline Reinforcement Learning",
+      "abstract": "Offline reinforcement learning (RL) enables policy learning from pre-collected offline datasets, relaxing the need to interact directly with the environment. However, limited by the quality of offline datasets, it generally fails to learn well-qualified policies in suboptimal datasets. To address datasets with insufficient optimal demonstrations, we introduce Goal-cOnditioned Data Augmentation (GODA), a novel goal-conditioned diffusion-based method for augmenting samples with higher quality. Leveraging recent advancements in generative modelling, GODA incorporates a novel return-oriented goal condition with various selection mechanisms. Specifically, we introduce a controllable scaling technique to provide enhanced return-based guidance during data sampling. GODA learns a comprehensive distribution representation of the original offline datasets while generating new data with selectively higher-return goals, thereby maximizing the utility of limited optimal demonstrations. Furthermore, we propose a novel adaptive gated conditioning method for processing noisy inputs and conditions, enhancing the capture of goal-oriented guidance. We conduct experiments on the D4RL benchmark and real-world challenges, specifically traffic signal control (TSC) tasks, to demonstrate GODA's effectiveness in enhancing data quality and superior performance compared to state-of-the-art data augmentation methods across various offline RL algorithms.",
+      "year": 2025,
+      "authors": [
+        "Xingshuai Huang",
+        "Di Wu",
+        "Benoît Boulet"
+      ],
+      "venue": "Transactions on machine learning research",
+      "cited_by": 7,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4405956510",
+      "key": "openalex_1048550_arxiv241220519_Goal-Conditioned_Data_Augmentation_for_Offline_Reinforceme",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv241220519_Goal-Conditioned_Data_Augmentation_for_Offline_Reinforceme.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415816809",
+      "doi": "10.1007/s42421-025-00139-z",
+      "title": "A Fully Data-Driven Approach for Realistic Traffic Signal Control Using Offline Reinforcement Learning",
+      "abstract": "",
+      "year": 2025,
+      "authors": [
+        "Jianxiong Li",
+        "Shichao Lin",
+        "Tianyu Shi",
+        "Chujie Tian",
+        "Yu Mei",
+        "Jian Song",
+        "Xianyuan Zhan",
+        "Ruimin Li"
+      ],
+      "venue": "Data Science for Transportation",
+      "cited_by": 17,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.15920",
+      "url": "https://openalex.org/W4415816809",
+      "key": "openalex_101007_s42421-025-00139-z_A_Fully_Data-Driven_Approach_for_Realistic_Traffic_Sign",
+      "file_kind": "txt",
+      "file": "openalex_101007_s42421-025-00139-z_A_Fully_Data-Driven_Approach_for_Realistic_Traffic_Sign.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3168988767",
+      "doi": "10.48550/arxiv.2106.06630",
+      "title": "Corruption-Robust Offline Reinforcement Learning",
+      "abstract": "We study the adversarial robustness in offline reinforcement learning. Given a batch dataset consisting of tuples $(s, a, r, s')$, an adversary is allowed to arbitrarily modify $ε$ fraction of the tuples. From the corrupted dataset the learner aims to robustly identify a near-optimal policy. We first show that a worst-case $Ω(dε)$ optimality gap is unavoidable in linear MDP of dimension $d$, even if the adversary only corrupts the reward element in a tuple. This contrasts with dimension-free results in robust supervised learning and best-known lower-bound in the online RL setting with corruption. Next, we propose robust variants of the Least-Square Value Iteration (LSVI) algorithm utilizing robust supervised learning oracles, which achieve near-matching performances in cases both with and without full data coverage. The algorithm requires the knowledge of $ε$ to design the pessimism bonus in the no-coverage case. Surprisingly, in this case, the knowledge of $ε$ is necessary, as we show that being adaptive to unknown $ε$ is impossible.This again contrasts with recent results on corruption-robust online RL and implies that robust offline RL is a strictly harder problem.",
+      "year": 2021,
+      "authors": [
+        "Xuezhou Zhang",
+        "Yiding Chen",
+        "Junwei Zhu",
+        "W. Sun"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 22,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2106.06630",
+      "url": "https://openalex.org/W3168988767",
+      "key": "openalex_1048550_arxiv210606630_Corruption-Robust_Offline_Reinforcement_Learning",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv210606630_Corruption-Robust_Offline_Reinforcement_Learning.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4408728166",
+      "doi": "10.1038/s41467-025-58192-9",
+      "title": "Data-driven energy management for electric vehicles using offline reinforcement learning",
+      "abstract": "Energy management technologies have significant potential to optimize electric vehicle performance and support global energy sustainability. However, despite extensive research, their real-world application remains limited due to reliance on simulations, which often fail to bridge the gap between theory and practice. This study introduces a real-world data-driven energy management framework based on offline reinforcement learning. By leveraging electric vehicle operation data, the proposed approach eliminates the need for manually designed rules or reliance on high-fidelity simulations. It integrates seamlessly into existing frameworks, enhancing performance after deployment. The method is tested on fuel cell electric vehicles, optimizing energy consumption and reducing system degradation. Real-world data from an electric vehicle monitoring system in China validate its effectiveness. The results demonstrate that the proposed method consistently achieves superior performance under diverse conditions. Notably, with increasing data availability, performance improves significantly, from 88% to 98.6% of the theoretical optimum after two updates. Training on over 60 million kilometers of data enables the learning agent to generalize across previously unseen and corner-case scenarios. These findings highlight the potential of data-driven methods to enhance energy efficiency and vehicle longevity through large-scale vehicle data utilization.",
+      "year": 2025,
+      "authors": [
+        "Yong Wang",
+        "Jingda Wu",
+        "Hongwen He",
+        "Zhongbao Wei",
+        "Fengchun Sun"
+      ],
+      "venue": "Nature Communications",
+      "cited_by": 148,
+      "is_oa": true,
+      "pdf_url": "https://www.nature.com/articles/s41467-025-58192-9.pdf",
+      "url": "https://openalex.org/W4408728166",
+      "key": "openalex_101038_s41467-025-58192-9_Data-driven_energy_management_for_electric_vehicles_usi",
+      "file_kind": "txt",
+      "file": "openalex_101038_s41467-025-58192-9_Data-driven_energy_management_for_electric_vehicles_usi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415795968",
+      "doi": "10.52202/079017-3385",
+      "title": "NetworkGym: Reinforcement Learning Environments for Multi-Access Traffic Management in Network Simulation",
+      "abstract": "Mobile devices such as smartphones, laptops, and tablets can often connect to multiple access networks (e.g., Wi-Fi, LTE, and 5G) simultaneously. Recent advancements facilitate seamless integration of these connections below the transport layer, enhancing the experience for apps that lack inherent multi-path support. This optimization hinges on dynamically determining the traffic distribution across networks for each device, a process referred to as \\textit{multi-access traffic splitting}. This paper introduces \\textit{NetworkGym}, a high-fidelity network environment simulator that facilitates generating multiple network traffic flows and multi-access traffic splitting. This simulator facilitates training and evaluating different RL-based solutions for the multi-access traffic splitting problem. Our initial explorations demonstrate that the majority of existing state-of-the-art offline RL algorithms (e.g. CQL) fail to outperform certain hand-crafted heuristic policies on average. This illustrates the urgent need to evaluate offline RL algorithms against a broader range of benchmarks, rather than relying solely on popular ones such as D4RL. We also propose an extension to the TD3+BC algorithm, named Pessimistic TD3 (PTD3), and demonstrate that it outperforms many state-of-the-art offline RL algorithms. PTD3's behavioral constraint mechanism, which relies on value-function pessimism, is theoretically motivated and relatively simple to implement.",
+      "year": 2024,
+      "authors": [
+        "Momin Haider",
+        "Ming Yin",
+        "Menglei Zhang",
+        "Arpit Gupta",
+        "Jing Zhu",
+        "Yu-Xiang Wang"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 8,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415795968",
+      "key": "openalex_1052202_079017-3385_NetworkGym_Reinforcement_Learning_Environments_for_Multi-Acce",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-3385_NetworkGym_Reinforcement_Learning_Environments_for_Multi-Acce.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W2915117209",
+      "doi": "10.1109/tits.2019.2901791",
+      "title": "Multi-Agent Deep Reinforcement Learning for Large-Scale Traffic Signal Control",
+      "abstract": "Reinforcement learning (RL) is a promising data-driven approach for adaptive traffic signal control (ATSC) in complex urban traffic networks, and deep neural networks further enhance its learning power. However, the centralized RL is infeasible for large-scale ATSC due to the extremely high dimension of the joint action space. The multi-agent RL (MARL) overcomes the scalability issue by distributing the global control to each local RL agent, but it introduces new challenges: now, the environment becomes partially observable from the viewpoint of each local agent due to limited communication among agents. Most existing studies in MARL focus on designing efficient communication and coordination among traditional Q-learning agents. This paper presents, for the first time, a fully scalable and decentralized MARL algorithm for the state-of-the-art deep RL agent, advantage actor critic (A2C), within the context of ATSC. In particular, two methods are proposed to stabilize the learning procedure, by improving the observability and reducing the learning difficulty of each local agent. The proposed multi-agent A2C is compared against independent A2C and independent Q-learning algorithms, in both a large synthetic traffic grid and a large real-world traffic network of Monaco city, under simulated peak-hour traffic dynamics. The results demonstrate its optimality, robustness, and sample efficiency over the other state-of-the-art decentralized MARL algorithms.",
+      "year": 2019,
+      "authors": [
+        "Tianshu Chu",
+        "Jie Wang",
+        "Lara Codecà",
+        "Zhaojian Li"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 1331,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1903.04527",
+      "url": "https://openalex.org/W2915117209",
+      "key": "openalex_101109_tits20192901791_Multi-Agent_Deep_Reinforcement_Learning_for_Large-Scale_Tr",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20192901791_Multi-Agent_Deep_Reinforcement_Learning_for_Large-Scale_Tr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416507484",
+      "doi": "10.48550/arxiv.2506.22793",
+      "title": "Offline Reinforcement Learning for Mobility Robustness Optimization",
+      "abstract": "In this work we revisit the Mobility Robustness Optimisation (MRO) algorithm and study the possibility of learning the optimal Cell Individual Offset tuning using offline Reinforcement Learning. Such methods make use of collected offline datasets to learn the optimal policy, without further exploration. We adapt and apply a sequence-based method called Decision Transformers as well as a value-based method called Conservative Q-Learning to learn the optimal policy for the same target reward as the vanilla rule-based MRO. The same input features related to failures, ping-pongs, and other handover issues are used. Evaluation for realistic New Radio networks with 3500 MHz carrier frequency on a traffic mix including diverse user service types and a specific tunable cell-pair shows that offline-RL methods outperform rule-based MRO, offering up to 7% improvement. Furthermore, offline-RL can be trained for diverse objective functions using the same available dataset, thus offering operational flexibility compared to rule-based methods.",
+      "year": 2025,
+      "authors": [
+        "Pegah Alizadeh",
+        "Anastasios Giovanidis",
+        "Pradeepa Ramachandra",
+        "Vasileios Koutsoukis",
+        "Osama Arouk"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.22793",
+      "url": "https://openalex.org/W4416507484",
+      "key": "openalex_1048550_arxiv250622793_Offline_Reinforcement_Learning_for_Mobility_Robustness_Opt",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250622793_Offline_Reinforcement_Learning_for_Mobility_Robustness_Opt.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4287889738",
+      "doi": "10.18653/v1/2022.naacl-main.332",
+      "title": "CHAI: A CHatbot AI for Task-Oriented Dialogue with Offline Reinforcement Learning",
+      "abstract": "Conventionally, generation of natural language for dialogue agents may be viewed as a statistical learning problem: determine the patterns in human-provided data and generate appropriate responses with similar statistical properties. However, dialogue can also be regarded as a goal directed process, where speakers attempt to accomplish a specific task. Reinforcement learning (RL) algorithms are designed specifically for solving such goal-directed problems, but the most direct way to apply RL, through trial-and-error learning in human conversations, is costly. In this paper, we study how offline reinforcement learning can instead be used to train dialogue agents entirely using static datasets collected from human speakers. Our experiments show that recently developed offline RL methods can be combined with language models to yield realistic dialogue agents that better accomplish task goals.",
+      "year": 2022,
+      "authors": [
+        "Siddharth Shankar Verma",
+        "Justin Fu",
+        "Sherry Yang",
+        "Sergey Levine"
+      ],
+      "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+      "cited_by": 64,
+      "is_oa": true,
+      "pdf_url": "https://aclanthology.org/2022.naacl-main.332.pdf",
+      "url": "https://openalex.org/W4287889738",
+      "key": "openalex_1018653_v1_2022naacl-main332_CHAI_A_CHatbot_AI_for_Task-Oriented_Dialogue_with_Of",
+      "file_kind": "txt",
+      "file": "openalex_1018653_v1_2022naacl-main332_CHAI_A_CHatbot_AI_for_Task-Oriented_Dialogue_with_Of.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4414433432",
+      "doi": "10.1109/case58245.2025.11163833",
+      "title": "OffLight: An Offline Multi-Agent Reinforcement Learning Framework for Traffic Signal Control",
+      "abstract": "Efficient traffic signal control (TSC) is crucial for reducing congestion and improving urban mobility. While multi-agent reinforcement learning (MARL) has shown promise in adaptive traffic management, its reliance on real-time interactions makes online training costly and impractical. Offline MARL, which learns from historical data, offers a safer and more scalable alternative but struggles with heterogeneous behavior policies in real-world datasets. We introduce OffLight, a novel offline MARL framework designed to handle policy heterogeneity in traffic signal control datasets. OffLight integrates importance sampling (IS) to correct for distributional shifts and return-based prioritized sampling (RBPS) to emphasize high-quality experiences. To model diverse behavior policies, it leverages a Gaussian mixture model variational graph autoencoder (GMM-VGAE) which captures spatial and temporal traffic dynamics and improves policy estimation. We evaluate OffLight across real-world urban traffic scenarios varying from small to large traffic signal networks. Results show that OffLight outperforms existing offline RL methods by reducing average travel time by up to 7.8% and queue length by 11.2% compared to state-of-the-art approaches. Unlike prior offline RL methods, OffLight effectively adapts to complex and mixed-policy datasets, making it more reliable for real-world deployment without risky online training. These results highlight OffLight’s potential to improve urban traffic management at scale. Our implementation is available at https://github.com/rbokade/offlight.",
+      "year": 2025,
+      "authors": [
+        "Rohit Bokade",
+        "Xiaoning Jin"
+      ],
+      "venue": "IEEE International Conference on Automation Science and Engineering (CASE)",
+      "cited_by": 10,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2411.06601",
+      "url": "https://openalex.org/W4414433432",
+      "key": "openalex_101109_case58245202511163833_OffLight_An_Offline_Multi-Agent_Reinforcement_Learni",
+      "file_kind": "txt",
+      "file": "openalex_101109_case58245202511163833_OffLight_An_Offline_Multi-Agent_Reinforcement_Learni.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7163874782",
+      "doi": "10.1609/icaps.v36i1.42876",
+      "title": "Beyond Hard Constraints: Budget-Conditioned Reachability for Safe Offline Reinforcement Learning",
+      "abstract": "Sequential decision-making using Markov Decision Process underpins many real-world applications. Both model-based and model-free methods have achieved strong results in these settings. However, real-world tasks must balance reward maximization with safety constraints, often conflicting objectives, that can lead to unstable min–max, adversarial optimization. A promising alternative is safety reachability analysis, which precomputes a forward-invariant safe state–action set, ensuring that an agent starting inside this set remains safe indefinitely. Yet, most reachability-based methods address only hard safety constraints, and little work extends reachability to cumulative cost constraints. To address this, first, we define a safety-conditioned reachability set that decouples reward maximization from cumulative safety cost constraints. Second, we show how this set enforces safety constraints without unstable min–max or Lagrangian optimization, yielding a novel offline safe RL algorithm that learns a safe policy from a fixed dataset without environment interaction. Finally, experiments on standard offline safe-RL benchmarks, and a real-world maritime navigation task demonstrate that our method matches or outperforms state-of-the-art baselines while maintaining safety.",
+      "year": 2026,
+      "authors": [
+        "Janaka Chathuranga Brahmanage",
+        "Akshat Kumar"
+      ],
+      "venue": "Proceedings of the International Conference on Automated Planning and Scheduling",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://ojs.aaai.org/index.php/ICAPS/article/download/42876/50436",
+      "url": "https://openalex.org/W7163874782",
+      "key": "openalex_101609_icapsv36i142876_Beyond_Hard_Constraints_Budget-Conditioned_Reachability_fo",
+      "file_kind": "txt",
+      "file": "openalex_101609_icapsv36i142876_Beyond_Hard_Constraints_Budget-Conditioned_Reachability_fo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7222988950",
+      "doi": "10.14288/1.0456945",
+      "title": "Donsker-Varadhan policy matching for reward-free offline reinforcement learning",
+      "abstract": "This thesis studies an alternative method for reward-free offline reinforcement learning, investigating how well an agent can learn from a fixed dataset when reward guidance is missing, weak, or unreliable. A common way to handle this problem is behavior regularization, where the learned policy is kept close to the behavior policy that generated the dataset. This thesis studies an actor-to-behavior KL version of this idea using the Donsker–Varadhan representation of KL divergence. In contrast to behavior cloning’s behavior-to-actor KL direction, this actor-to-behavior direction can avoid the action-averaging problem. A reward-augmented alternative is also studied and can be used in settings where reward labeling is meaningful. In controlled settings, our method can recover KL divergence. However, its practical performance depends strongly on witness quality, optimization stability, and dataset structure. Therefore, while the method provides a principled framework for reward-free policy optimization, it does not consistently outperform established benchmark algorithms.",
+      "year": 2026,
+      "authors": [
+        "Quang Anh Đào"
+      ],
+      "venue": "cIRcle (University of British Columbia)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://open.library.ubc.ca/media/download/pdf/24/1.0456945/3",
+      "url": "https://openalex.org/W7222988950",
+      "key": "openalex_1014288_10456945_Donsker-Varadhan_policy_matching_for_reward-free_offline_reinfor",
+      "file_kind": "txt",
+      "file": "openalex_1014288_10456945_Donsker-Varadhan_policy_matching_for_reward-free_offline_reinfor.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3216078707",
+      "doi": "10.48550/arxiv.2111.11097",
+      "title": "UMBRELLA: Uncertainty-Aware Model-Based Offline Reinforcement Learning Leveraging Planning",
+      "abstract": "Offline reinforcement learning (RL) provides a framework for learning decision-making from offline data and therefore constitutes a promising approach for real-world applications as automated driving. Self-driving vehicles (SDV) learn a policy, which potentially even outperforms the behavior in the sub-optimal data set. Especially in safety-critical applications as automated driving, explainability and transferability are key to success. This motivates the use of model-based offline RL approaches, which leverage planning. However, current state-of-the-art methods often neglect the influence of aleatoric uncertainty arising from the stochastic behavior of multi-agent systems. This work proposes a novel approach for Uncertainty-aware Model-Based Offline REinforcement Learning Leveraging plAnning (UMBRELLA), which solves the prediction, planning, and control problem of the SDV jointly in an interpretable learning-based fashion. A trained action-conditioned stochastic dynamics model captures distinctively different future evolutions of the traffic scene. The analysis provides empirical evidence for the effectiveness of our approach in challenging automated driving simulations and based on a real-world public dataset.",
+      "year": 2021,
+      "authors": [
+        "Christopher Diehl",
+        "Timo Sievernich",
+        "Martin Krüger",
+        "Frank Hoffmann",
+        "Torsten Bertram"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 36,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2111.11097",
+      "url": "https://openalex.org/W3216078707",
+      "key": "openalex_1048550_arxiv211111097_UMBRELLA_Uncertainty-Aware_Model-Based_Offline_Reinforceme",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv211111097_UMBRELLA_Uncertainty-Aware_Model-Based_Offline_Reinforceme.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4410121475",
+      "doi": "10.3390/infrastructures10050114",
+      "title": "Traffic Signal Control via Reinforcement Learning: A Review on Applications and Innovations",
+      "abstract": "Traffic signal control plays a pivotal role in intelligent transportation systems, directly affecting urban mobility, congestion mitigation, and environmental sustainability. As traffic networks become more dynamic and complex, traditional strategies such as fixed-time and actuated control increasingly fall short in addressing real-time variability. In response, adaptive signal control—powered predominantly by reinforcement learning—has emerged as a promising data-driven solution for optimizing signal operations in evolving traffic environments. The current review presents a comprehensive analysis of high-impact reinforcement-learning-based traffic signal control methods, evaluating their contributions across numerous key dimensions: methodology type, multi-agent architectures, reward design, performance evaluation, baseline comparison, network scale, practical applicability, and simulation platforms. Through a systematic examination of the most influential studies, the review identifies dominant trends, unresolved challenges, and strategic directions for future research. The findings underscore the transformative potential of RL in enabling intelligent, responsive, and sustainable traffic management systems, marking a significant shift toward next-generation urban mobility solutions.",
+      "year": 2025,
+      "authors": [
+        "Panagiotis Michailidis",
+        "Iakovos Michailidis",
+        "Charalampos Rafail Lazaridis",
+        "Elias B. Kosmatopoulos"
+      ],
+      "venue": "Infrastructures",
+      "cited_by": 158,
+      "is_oa": true,
+      "pdf_url": "https://www.mdpi.com/2412-3811/10/5/114/pdf?version=1746531161",
+      "url": "https://openalex.org/W4410121475",
+      "key": "openalex_103390_infrastructures10050114_Traffic_Signal_Control_via_Reinforcement_Learning_",
+      "file_kind": "txt",
+      "file": "openalex_103390_infrastructures10050114_Traffic_Signal_Control_via_Reinforcement_Learning_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7161844387",
+      "doi": "10.48550/arxiv.2605.19033",
+      "title": "RLFTSim: Realistic and Controllable Multi-Agent Traffic Simulation via Reinforcement Learning Fine-Tuning",
+      "abstract": "Supervised open-loop training has been widely adopted for training traffic simulation models; however, it fails to capture the inherently dynamic, multi-agent interactions common in complex driving scenarios. We introduce RLFTSim, a reinforcement-learning-based fine-tuning framework that enhances scenario realism by aligning simulator rollouts with real-world data distributions and provides a method for distilling goal-conditioned controllability in scenario generation. We instantiate RLFTSim on top of a pre-trained simulation model, design a reward that balances fidelity and controllability, and perform comprehensive experiments on the Waymo Open Motion Dataset. Our results show improvements in realism, achieving state-of-the-art performance. Compared with other heuristic search-based fine-tuning methods, RLFTSim requires significantly fewer samples due to a proposed low-variance and dense reward signal, and it directly addresses the realism alignment issue by design. We also demonstrate the effectiveness of our approach for distilling traffic simulation controllability through goal conditioning. The project page is available at https://ehsan-ami.github.io/rlftsim.",
+      "year": 2026,
+      "authors": [
+        "Ehsan Ahmadi",
+        "Hunter Schofield",
+        "Behzad Khamidehi",
+        "Fazel Arasteh",
+        "Jinjun Shan",
+        "Lili Mou",
+        "Dongfeng Bai",
+        "Kasra Rezaee"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.19033",
+      "url": "https://openalex.org/W7161844387",
+      "key": "openalex_1048550_arxiv260519033_RLFTSim_Realistic_and_Controllable_Multi-Agent_Traffic_Sim",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260519033_RLFTSim_Realistic_and_Controllable_Multi-Agent_Traffic_Sim.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4391259941",
+      "doi": "10.1007/s11432-022-3696-5",
+      "title": "A survey on model-based reinforcement learning",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Fan-Ming Luo",
+        "Tian Xu",
+        "Hang Lai",
+        "Xionghui Chen",
+        "Weinan Zhang",
+        "Yang Yu"
+      ],
+      "venue": "Science China Information Sciences",
+      "cited_by": 266,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2206.09328",
+      "url": "https://openalex.org/W4391259941",
+      "key": "openalex_101007_s11432-022-3696-5_A_survey_on_model-based_reinforcement_learning",
+      "file_kind": "txt",
+      "file": "openalex_101007_s11432-022-3696-5_A_survey_on_model-based_reinforcement_learning.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4408697163",
+      "doi": "10.1109/itsc58415.2024.10920216",
+      "title": "F1tenth Autonomous Racing With Offline Reinforcement Learning Methods",
+      "abstract": "Autonomous racing serves as a critical platform for evaluating automated driving systems and enhancing vehicle mobility intelligence. This work investigates offline reinforcement learning methods to train agents within the dynamic F1tenth racing environment. The study begins by exploring the challenges of online training in the Austria race track environment, where agents consistently fail to complete the laps. Consequently, this research pivots towards an offline strategy, leveraging 'expert' demonstration dataset to facilitate agent training. A waypoint-based suboptimal controller is developed to gather data with successful lap episodes. This data is then employed to train offline learning-based algorithms, with a subsequent analysis of the agents' cross-track performance, evaluating their zero-shot transferability from seen to unseen scenarios and their capacity to adapt to changes in environment dynamics. Beyond mere algorithm benchmarking in autonomous racing scenarios, this study also introduces and describes the machinery of our return-conditioned decision treebased policy, comparing its performance with methods that employ fully connected neural networks, Transformers, and Diffusion Policies and highlighting some insights into method selection for training autonomous agents in driving interactions.",
+      "year": 2024,
+      "authors": [
+        "Prajwal Koirala",
+        "Cody Harrison Fleming"
+      ],
+      "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+      "cited_by": 8,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.04198",
+      "url": "https://openalex.org/W4408697163",
+      "key": "openalex_101109_itsc58415202410920216_F1tenth_Autonomous_Racing_With_Offline_Reinforcement",
+      "file_kind": "txt",
+      "file": "openalex_101109_itsc58415202410920216_F1tenth_Autonomous_Racing_With_Offline_Reinforcement.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4400947023",
+      "doi": "10.23919/ecc64448.2024.10590895",
+      "title": "Learning to Control Autonomous Fleets from Observation via Offline Reinforcement Learning",
+      "abstract": "Autonomous Mobility-on-Demand (AMoD) systems are an evolving mode of transportation in which a centrally coordinated fleet of self-driving vehicles dynamically serves travel requests. The control of these systems is typically formulated as a large network optimization problem, and reinforcement learning (RL) has recently emerged as a promising approach to solve the open challenges in this space. Recent centralized RL approaches focus on learning from online data, ignoring the per-sample-cost of interactions within real-world transportation systems. To address these limitations, we propose to formalize the control of AMoD systems through the lens of offline reinforcement learning and learn effective control strategies using solely offline data, which is readily available to current mobility operators. We further investigate design decisions and provide empirical evidence based on data from real-world mobility systems showing how offline learning allows to recover AMoD control policies that (i) exhibit performance on par with online methods, (ii) allow for sample-efficient online fine-tuning and (iii) eliminate the need for complex simulation environments. Crucially, this paper demonstrates that offline RL is a promising paradigm for the application of RL-based solutions within economically-critical systems, such as mobility systems.",
+      "year": 2024,
+      "authors": [
+        "Carolin Schmidt",
+        "Daniele Gammelli",
+        "Francisco C. Pereira",
+        "Filipe Rodrigues"
+      ],
+      "venue": "European Control Conference (ECC)",
+      "cited_by": 12,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2302.14833",
+      "url": "https://openalex.org/W4400947023",
+      "key": "openalex_1023919_ecc64448202410590895_Learning_to_Control_Autonomous_Fleets_from_Observati",
+      "file_kind": "txt",
+      "file": "openalex_1023919_ecc64448202410590895_Learning_to_Control_Autonomous_Fleets_from_Observati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4409249084",
+      "doi": "10.1109/tnse.2025.3558747",
+      "title": "Age of Semantics in Cooperative Communications: To Expedite Simulation Towards Real via Offline Reinforcement Learning",
+      "abstract": "The age of information metric fails to correctly describe the intrinsic semantics of a status update. In an intelligent reflecting surface-aided cooperative relay communication system, we propose the age of semantics (AoS) for measuring the semantics freshness of status updates. Specifically, we focus on status updates from a source node (SN) to the destination, which is formulated as a Markov decision process. The objective of the SN is to maximize the expected satisfaction of AoS and energy consumption under the maximum transmit power constraint. To seek the optimal control policy, we first derive an online deep actor-critic (DAC) learning scheme under the on-policy temporal difference learning framework. However, implementing the online DAC in practice poses key challenge in infinitely repeated interactions between the SN and the system, which can be dangerous particularly during exploration. We then put forward a novel offline DAC scheme, which estimates the optimal control policy from a previously collected dataset without any further interactions with the system. Numerical experiments verify the theoretical results and show that our offline DAC scheme significantly outperforms the online DAC scheme and the most representative baselines in terms of mean utility, demonstrating strong robustness to dataset quality.",
+      "year": 2025,
+      "authors": [
+        "Xianfu Chen",
+        "Zhifeng Zhao",
+        "Shiwen Mao",
+        "Celimuge Wu",
+        "Honggang Zhang",
+        "Mehdi Bennis"
+      ],
+      "venue": "IEEE Transactions on Network Science and Engineering",
+      "cited_by": 9,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2209.08947",
+      "url": "https://openalex.org/W4409249084",
+      "key": "openalex_101109_tnse20253558747_Age_of_Semantics_in_Cooperative_Communications_To_Expedite",
+      "file_kind": "txt",
+      "file": "openalex_101109_tnse20253558747_Age_of_Semantics_in_Cooperative_Communications_To_Expedite.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4221144608",
+      "doi": "10.48550/arxiv.2203.08398",
+      "title": "COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks",
+      "abstract": "As reinforcement learning (RL) has achieved near human-level performance in a variety of tasks, its robustness has raised great attention. While a vast body of research has explored test-time (evasion) attacks in RL and corresponding defenses, its robustness against training-time (poisoning) attacks remains largely unanswered. In this work, we focus on certifying the robustness of offline RL in the presence of poisoning attacks, where a subset of training trajectories could be arbitrarily manipulated. We propose the first certification framework, COPA, to certify the number of poisoning trajectories that can be tolerated regarding different certification criteria. Given the complex structure of RL, we propose two certification criteria: per-state action stability and cumulative reward bound. To further improve the certification, we propose new partition and aggregation protocols to train robust policies. We further prove that some of the proposed certification methods are theoretically tight and some are NP-Complete problems. We leverage COPA to certify three RL environments trained with different algorithms and conclude: (1) The proposed robust aggregation protocols such as temporal aggregation can significantly improve the certifications; (2) Our certification for both per-state action stability and cumulative reward bound are efficient and tight; (3) The certification for different training algorithms and environments are different, implying their intrinsic robustness properties. All experimental results are available at https://copa-leaderboard.github.io.",
+      "year": 2022,
+      "authors": [
+        "Wu, Fan",
+        "Linyi Li",
+        "Chejian Xu",
+        "Zhang, Huan",
+        "Bhavya Kailkhura",
+        "Krishnaram Kenthapadi",
+        "Zhao, Ding",
+        "Bo 波 Li 李"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 28,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2203.08398",
+      "url": "https://openalex.org/W4221144608",
+      "key": "openalex_1048550_arxiv220308398_COPA_Certifying_Robust_Policies_for_Offline_Reinforcement_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv220308398_COPA_Certifying_Robust_Policies_for_Offline_Reinforcement_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2012.06899v1",
+      "doi": "",
+      "title": "Semi-supervised reward learning for offline reinforcement learning",
+      "abstract": "In offline reinforcement learning (RL) agents are trained using a logged dataset. It appears to be the most natural route to attack real-life applications because in domains such as healthcare and robotics interactions with the environment are either expensive or unethical. Training agents usually requires reward functions, but unfortunately, rewards are seldom available in practice and their engineering is challenging and laborious. To overcome this, we investigate reward learning under the constraint of minimizing human reward annotations. We consider two types of supervision: timestep annotations and demonstrations. We propose semi-supervised learning algorithms that learn from limited annotations and incorporate unlabelled data. In our experiments with a simulated robotic arm, we greatly improve upon behavioural cloning and closely approach the performance achieved with ground truth rewards. We further investigate the relationship between the quality of the reward model and the final policies. We notice, for example, that the reward models do not need to be perfect to result in useful policies.",
+      "year": 2020,
+      "authors": [
+        "Ksenia Konyushkova",
+        "Konrad Zolna",
+        "Yusuf Aytar",
+        "Alexander Novikov",
+        "Scott Reed",
+        "Serkan Cabi",
+        "Nando de Freitas"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2012.06899v1",
+      "url": "http://arxiv.org/abs/2012.06899v1",
+      "key": "arxiv_201206899v1_Semi-supervised_reward_learning_for_offline_reinforcement_learning",
+      "file_kind": "txt",
+      "file": "arxiv_201206899v1_Semi-supervised_reward_learning_for_offline_reinforcement_learning.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2211.07614v1",
+      "doi": "",
+      "title": "Towards Data-Driven Offline Simulations for Online Reinforcement Learning",
+      "abstract": "Modern decision-making systems, from robots to web recommendation engines, are expected to adapt: to user preferences, changing circumstances or even new tasks. Yet, it is still uncommon to deploy a dynamically learning agent (rather than a fixed policy) to a production system, as it's perceived as unsafe. Using historical data to reason about learning algorithms, similar to offline policy evaluation (OPE) applied to fixed policies, could help practitioners evaluate and ultimately deploy such adaptive agents to production. In this work, we formalize offline learner simulation (OLS) for reinforcement learning (RL) and propose a novel evaluation protocol that measures both fidelity and efficiency of the simulation. For environments with complex high-dimensional observations, we propose a semi-parametric approach that leverages recent advances in latent state discovery in order to achieve accurate and efficient offline simulations. In preliminary experiments, we show the advantage of our approach compared to fully non-parametric baselines. The code to reproduce these experiments will be made available at https://github.com/microsoft/rl-offline-simulation.",
+      "year": 2022,
+      "authors": [
+        "Shengpu Tang",
+        "Felipe Vieira Frujeri",
+        "Dipendra Misra",
+        "Alex Lamb",
+        "John Langford",
+        "Paul Mineiro",
+        "Sebastian Kochman"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2211.07614v1",
+      "url": "http://arxiv.org/abs/2211.07614v1",
+      "key": "arxiv_221107614v1_Towards_Data-Driven_Offline_Simulations_for_Online_Reinforcement_Learnin",
+      "file_kind": "txt",
+      "file": "arxiv_221107614v1_Towards_Data-Driven_Offline_Simulations_for_Online_Reinforcement_Learnin.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "1907.04543v4",
+      "doi": "",
+      "title": "An Optimistic Perspective on Offline Reinforcement Learning",
+      "abstract": "Off-policy reinforcement learning (RL) using a fixed offline dataset of logged interactions is an important consideration in real world applications. This paper studies offline RL using the DQN replay dataset comprising the entire replay experience of a DQN agent on 60 Atari 2600 games. We demonstrate that recent off-policy deep RL algorithms, even when trained solely on this fixed dataset, outperform the fully trained DQN agent. To enhance generalization in the offline setting, we present Random Ensemble Mixture (REM), a robust Q-learning algorithm that enforces optimal Bellman consistency on random convex combinations of multiple Q-value estimates. Offline REM trained on the DQN replay dataset surpasses strong RL baselines. Ablation studies highlight the role of offline dataset size and diversity as well as the algorithm choice in our positive results. Overall, the results here present an optimistic view that robust RL algorithms trained on sufficiently large and diverse offline datasets can lead to high quality policies. The DQN replay dataset can serve as an offline RL benchmark and is open-sourced.",
+      "year": 2019,
+      "authors": [
+        "Rishabh Agarwal",
+        "Dale Schuurmans",
+        "Mohammad Norouzi"
+      ],
+      "venue": "Proceedings of the 37th International Conference on Machine Learning, PMLR 119:104-114, 2020",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1907.04543v4",
+      "url": "http://arxiv.org/abs/1907.04543v4",
+      "key": "arxiv_190704543v4_An_Optimistic_Perspective_on_Offline_Reinforcement_Learning",
+      "file_kind": "txt",
+      "file": "arxiv_190704543v4_An_Optimistic_Perspective_on_Offline_Reinforcement_Learning.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2310.20025v3",
+      "doi": "",
+      "title": "GOPlan: Goal-conditioned Offline Reinforcement Learning by Planning with Learned Models",
+      "abstract": "Offline Goal-Conditioned RL (GCRL) offers a feasible paradigm for learning general-purpose policies from diverse and multi-task offline datasets. Despite notable recent progress, the predominant offline GCRL methods, mainly model-free, face constraints in handling limited data and generalizing to unseen goals. In this work, we propose Goal-conditioned Offline Planning (GOPlan), a novel model-based framework that contains two key phases: (1) pretraining a prior policy capable of capturing multi-modal action distribution within the multi-goal dataset; (2) employing the reanalysis method with planning to generate imagined trajectories for funetuning policies. Specifically, we base the prior policy on an advantage-weighted conditioned generative adversarial network, which facilitates distinct mode separation, mitigating the pitfalls of out-of-distribution (OOD) actions. For further policy optimization, the reanalysis method generates high-quality imaginary data by planning with learned models for both intra-trajectory and inter-trajectory goals. With thorough experimental evaluations, we demonstrate that GOPlan achieves state-of-the-art performance on various offline multi-goal navigation and manipulation tasks. Moreover, our results highlight the superior ability of GOPlan to handle small data budgets and generalize to OOD goals.",
+      "year": 2023,
+      "authors": [
+        "Mianchu Wang",
+        "Rui Yang",
+        "Xi Chen",
+        "Hao Sun",
+        "Meng Fang",
+        "Giovanni Montana"
+      ],
+      "venue": "Transactions on Machine Learning Research (05/2024)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2310.20025v3",
+      "url": "http://arxiv.org/abs/2310.20025v3",
+      "key": "arxiv_231020025v3_GOPlan_Goal-conditioned_Offline_Reinforcement_Learning_by_Planning_with_",
+      "file_kind": "txt",
+      "file": "arxiv_231020025v3_GOPlan_Goal-conditioned_Offline_Reinforcement_Learning_by_Planning_with_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2211.14827v1",
+      "doi": "",
+      "title": "Domain Generalization for Robust Model-Based Offline Reinforcement Learning",
+      "abstract": "Existing offline reinforcement learning (RL) algorithms typically assume that training data is either: 1) generated by a known policy, or 2) of entirely unknown origin. We consider multi-demonstrator offline RL, a middle ground where we know which demonstrators generated each dataset, but make no assumptions about the underlying policies of the demonstrators. This is the most natural setting when collecting data from multiple human operators, yet remains unexplored. Since different demonstrators induce different data distributions, we show that this can be naturally framed as a domain generalization problem, with each demonstrator corresponding to a different domain. Specifically, we propose Domain-Invariant Model-based Offline RL (DIMORL), where we apply Risk Extrapolation (REx) (Krueger et al., 2020) to the process of learning dynamics and rewards models. Our results show that models trained with REx exhibit improved domain generalization performance when compared with the natural baseline of pooling all demonstrators' data. We observe that the resulting models frequently enable the learning of superior policies in the offline model-based RL setting, can improve the stability of the policy learning process, and potentially enable increased exploration.",
+      "year": 2022,
+      "authors": [
+        "Alan Clark",
+        "Shoaib Ahmed Siddiqui",
+        "Robert Kirk",
+        "Usman Anwar",
+        "Stephen Chung",
+        "David Krueger"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2211.14827v1",
+      "url": "http://arxiv.org/abs/2211.14827v1",
+      "key": "arxiv_221114827v1_Domain_Generalization_for_Robust_Model-Based_Offline_Reinforcement_Learn",
+      "file_kind": "txt",
+      "file": "arxiv_221114827v1_Domain_Generalization_for_Robust_Model-Based_Offline_Reinforcement_Learn.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2011.13885v1",
+      "doi": "",
+      "title": "Offline Learning from Demonstrations and Unlabeled Experience",
+      "abstract": "Behavior cloning (BC) is often practical for robot learning because it allows a policy to be trained offline without rewards, by supervised learning on expert demonstrations. However, BC does not effectively leverage what we will refer to as unlabeled experience: data of mixed and unknown quality without reward annotations. This unlabeled data can be generated by a variety of sources such as human teleoperation, scripted policies and other agents on the same robot. Towards data-driven offline robot learning that can use this unlabeled experience, we introduce Offline Reinforced Imitation Learning (ORIL). ORIL first learns a reward function by contrasting observations from demonstrator and unlabeled trajectories, then annotates all data with the learned reward, and finally trains an agent via offline reinforcement learning. Across a diverse set of continuous control and simulated robotic manipulation tasks, we show that ORIL consistently outperforms comparable BC agents by effectively leveraging unlabeled experience.",
+      "year": 2020,
+      "authors": [
+        "Konrad Zolna",
+        "Alexander Novikov",
+        "Ksenia Konyushkova",
+        "Caglar Gulcehre",
+        "Ziyu Wang",
+        "Yusuf Aytar",
+        "Misha Denil",
+        "Nando de Freitas",
+        "Scott Reed"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2011.13885v1",
+      "url": "http://arxiv.org/abs/2011.13885v1",
+      "key": "arxiv_201113885v1_Offline_Learning_from_Demonstrations_and_Unlabeled_Experience",
+      "file_kind": "txt",
+      "file": "arxiv_201113885v1_Offline_Learning_from_Demonstrations_and_Unlabeled_Experience.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2212.02620v1",
+      "doi": "",
+      "title": "Benchmarking Offline Reinforcement Learning Algorithms for E-Commerce Order Fraud Evaluation",
+      "abstract": "Amazon and other e-commerce sites must employ mechanisms to protect their millions of customers from fraud, such as unauthorized use of credit cards. One such mechanism is order fraud evaluation, where systems evaluate orders for fraud risk, and either \"pass\" the order, or take an action to mitigate high risk. Order fraud evaluation systems typically use binary classification models that distinguish fraudulent and legitimate orders, to assess risk and take action. We seek to devise a system that considers both financial losses of fraud and long-term customer satisfaction, which may be impaired when incorrect actions are applied to legitimate customers. We propose that taking actions to optimize long-term impact can be formulated as a Reinforcement Learning (RL) problem. Standard RL methods require online interaction with an environment to learn, but this is not desirable in high-stakes applications like order fraud evaluation. Offline RL algorithms learn from logged data collected from the environment, without the need for online interaction, making them suitable for our use case. We show that offline RL methods outperform traditional binary classification solutions in SimStore, a simplified e-commerce simulation that incorporates order fraud risk. We also propose a novel approach to training offline RL policies that adds a new loss term during training, to better align policy exploration with taking correct actions.",
+      "year": 2022,
+      "authors": [
+        "Soysal Degirmenci",
+        "Chris Jones"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2212.02620v1",
+      "url": "http://arxiv.org/abs/2212.02620v1",
+      "key": "arxiv_221202620v1_Benchmarking_Offline_Reinforcement_Learning_Algorithms_for_E-Commerce_Or",
+      "file_kind": "txt",
+      "file": "arxiv_221202620v1_Benchmarking_Offline_Reinforcement_Learning_Algorithms_for_E-Commerce_Or.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.12375v1",
+      "doi": "",
+      "title": "Value Bonuses using Ensemble Errors for Exploration in Reinforcement Learning",
+      "abstract": "Optimistic value estimates provide one mechanism for directed exploration in reinforcement learning (RL). The agent acts greedily with respect to an estimate of the value plus what can be seen as a value bonus. The value bonus can be learned by estimating a value function on reward bonuses, propagating local uncertainties around rewards. However, this approach only increases the value bonus for an action retroactively, after seeing a higher reward bonus from that state and action. Such an approach does not encourage the agent to visit a state and action for the first time. In this work, we introduce an algorithm for exploration called Value Bonuses with Ensemble errors (VBE), that maintains an ensemble of random action-value functions (RQFs). VBE uses the errors in the estimation of these RQFs to design value bonuses that provide first-visit optimism and deep exploration. The key idea is to design the rewards for these RQFs in such a way that the value bonus can decrease to zero. We show that VBE outperforms Bootstrap DQN and two reward bonus approaches (RND and ACB) on several classic environments used to test exploration and provide demonstrative experiments that it can scale easily to more complex environments like Atari.",
+      "year": 2026,
+      "authors": [
+        "Abdul Wahab",
+        "Raksha Kumaraswamy",
+        "Martha White"
+      ],
+      "venue": "Reinforcement Learning Journal, vol. 6, 2025, pp. 1894-1915",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.12375v1",
+      "url": "http://arxiv.org/abs/2602.12375v1",
+      "key": "arxiv_260212375v1_Value_Bonuses_using_Ensemble_Errors_for_Exploration_in_Reinforcement_Lea",
+      "file_kind": "txt",
+      "file": "arxiv_260212375v1_Value_Bonuses_using_Ensemble_Errors_for_Exploration_in_Reinforcement_Lea.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2607.18488v1",
+      "doi": "",
+      "title": "The Open Ant: A Robot Platform for Reinforcement Learning Research",
+      "abstract": "Reinforcement learning (RL) research has demonstrated success in both physical and simulated domains; however, the predominant methodology remains rooted in simulations. The predominance of simulations makes translating research to physical reality uncertain for both algorithms and researchers. We propose a physical platform that is designed to simplify the transition. In this paper, we present the Open Ant: a physical variant of the commonly used Gymnasium Ant environment, along with a simulation. We demonstrate that competent walking policies can be learned from scratch in approximately one hour directly from the physical robot's experience for two substantially different RL algorithms: SARSA($λ$) and Soft Actor-Critic (SAC). Separately, we show policies that were learned in simulation transfer to reality. We also examine how well the platform supports a nimble experimental ecosystem. Specifically, we observe the speed with which new users from diverse backgrounds achieve their first success with the platform, and how easily the platform can be repaired and updated when hardware issues arise. Both the hardware design and software are available as open-source on GitHub for ease of customization. In summary, we advocate for the use of the Open Ant for RL researchers who frequently use simulated environments, so they can more easily include robot experiments in their evaluations.",
+      "year": 2026,
+      "authors": [
+        "Elena Sorina Lupu",
+        "Patrick Spieler",
+        "Khurram Javed",
+        "Kris De Asis",
+        "John D. Martin",
+        "Martha Steenstrup",
+        "Joseph Modayil"
+      ],
+      "venue": "Reinforcement Learning Journal (RLJ), 2026",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.18488v1",
+      "url": "http://arxiv.org/abs/2607.18488v1",
+      "key": "arxiv_260718488v1_The_Open_Ant_A_Robot_Platform_for_Reinforcement_Learning_Research",
+      "file_kind": "txt",
+      "file": "arxiv_260718488v1_The_Open_Ant_A_Robot_Platform_for_Reinforcement_Learning_Research.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2011.14379v1",
+      "doi": "",
+      "title": "Offline Reinforcement Learning Hands-On",
+      "abstract": "Offline Reinforcement Learning (RL) aims to turn large datasets into powerful decision-making engines without any online interactions with the environment. This great promise has motivated a large amount of research that hopes to replicate the success RL has experienced in simulation settings. This work ambitions to reflect upon these efforts from a practitioner viewpoint. We start by discussing the dataset properties that we hypothesise can characterise the type of offline methods that will be the most successful. We then verify these claims through a set of experiments and designed datasets generated from environments with both discrete and continuous action spaces. We experimentally validate that diversity and high-return examples in the data are crucial to the success of offline RL and show that behavioural cloning remains a strong contender compared to its contemporaries. Overall, this work stands as a tutorial to help people build their intuition on today's offline RL methods and their applicability.",
+      "year": 2020,
+      "authors": [
+        "Louis Monier",
+        "Jakub Kmec",
+        "Alexandre Laterre",
+        "Thomas Pierrot",
+        "Valentin Courgeau",
+        "Olivier Sigaud",
+        "Karim Beguir"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2011.14379v1",
+      "url": "http://arxiv.org/abs/2011.14379v1",
+      "key": "arxiv_201114379v1_Offline_Reinforcement_Learning_Hands-On",
+      "file_kind": "txt",
+      "file": "arxiv_201114379v1_Offline_Reinforcement_Learning_Hands-On.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2507.20499v2",
+      "doi": "",
+      "title": "DmC: Nearest Neighbor Guidance Diffusion Model for Offline Cross-domain Reinforcement Learning",
+      "abstract": "Cross-domain offline reinforcement learning (RL) seeks to enhance sample efficiency in offline RL by utilizing additional offline source datasets. A key challenge is to identify and utilize source samples that are most relevant to the target domain. Existing approaches address this challenge by measuring domain gaps through domain classifiers, target transition dynamics modeling, or mutual information estimation using contrastive loss. However, these methods often require large target datasets, which is impractical in many real-world scenarios. In this work, we address cross-domain offline RL under a limited target data setting, identifying two primary challenges: (1) Dataset imbalance, which is caused by large source and small target datasets and leads to overfitting in neural network-based domain gap estimators, resulting in uninformative measurements; and (2) Partial domain overlap, where only a subset of the source data is closely aligned with the target domain. To overcome these issues, we propose DmC, a novel framework for cross-domain offline RL with limited target samples. Specifically, DmC utilizes $k$-nearest neighbor ($k$-NN) based estimation to measure domain proximity without neural network training, effectively mitigating overfitting. Then, by utilizing this domain proximity, we introduce a nearest-neighbor-guided diffusion model to generate additional source samples that are better aligned with the target domain, thus enhancing policy learning with more effective source samples. Through theoretical analysis and extensive experiments in diverse MuJoCo environments, we demonstrate that DmC significantly outperforms state-of-the-art cross-domain offline RL methods, achieving substantial performance gains.",
+      "year": 2025,
+      "authors": [
+        "Linh Le Pham Van",
+        "Minh Hoang Nguyen",
+        "Duc Kieu",
+        "Hung Le",
+        "Hung The Tran",
+        "Sunil Gupta"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2507.20499v2",
+      "url": "http://arxiv.org/abs/2507.20499v2",
+      "key": "arxiv_250720499v2_DmC_Nearest_Neighbor_Guidance_Diffusion_Model_for_Offline_Cross-domain_R",
+      "file_kind": "txt",
+      "file": "arxiv_250720499v2_DmC_Nearest_Neighbor_Guidance_Diffusion_Model_for_Offline_Cross-domain_R.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2111.14346v1",
+      "doi": "",
+      "title": "Pessimistic Model Selection for Offline Deep Reinforcement Learning",
+      "abstract": "Deep Reinforcement Learning (DRL) has demonstrated great potentials in solving sequential decision making problems in many applications. Despite its promising performance, practical gaps exist when deploying DRL in real-world scenarios. One main barrier is the over-fitting issue that leads to poor generalizability of the policy learned by DRL. In particular, for offline DRL with observational data, model selection is a challenging task as there is no ground truth available for performance demonstration, in contrast with the online setting with simulated environments. In this work, we propose a pessimistic model selection (PMS) approach for offline DRL with a theoretical guarantee, which features a provably effective framework for finding the best policy among a set of candidate models. Two refined approaches are also proposed to address the potential bias of DRL model in identifying the optimal policy. Numerical studies demonstrated the superior performance of our approach over existing methods.",
+      "year": 2021,
+      "authors": [
+        "Chao-Han Huck Yang",
+        "Zhengling Qi",
+        "Yifan Cui",
+        "Pin-Yu Chen"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2111.14346v1",
+      "url": "http://arxiv.org/abs/2111.14346v1",
+      "key": "arxiv_211114346v1_Pessimistic_Model_Selection_for_Offline_Deep_Reinforcement_Learning",
+      "file_kind": "txt",
+      "file": "arxiv_211114346v1_Pessimistic_Model_Selection_for_Offline_Deep_Reinforcement_Learning.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2102.05612v1",
+      "doi": "",
+      "title": "Personalization for Web-based Services using Offline Reinforcement Learning",
+      "abstract": "Large-scale Web-based services present opportunities for improving UI policies based on observed user interactions. We address challenges of learning such policies through model-free offline Reinforcement Learning (RL) with off-policy training. Deployed in a production system for user authentication in a major social network, it significantly improves long-term objectives. We articulate practical challenges, compare several ML techniques, provide insights on training and evaluation of RL models, and discuss generalizations.",
+      "year": 2021,
+      "authors": [
+        "Pavlos Athanasios Apostolopoulos",
+        "Zehui Wang",
+        "Hanson Wang",
+        "Chad Zhou",
+        "Kittipat Virochsiri",
+        "Norm Zhou",
+        "Igor L. Markov"
+      ],
+      "venue": "2nd Offline Reinforcement Learning Workshop at NeurIPS 2021",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2102.05612v1",
+      "url": "http://arxiv.org/abs/2102.05612v1",
+      "key": "arxiv_210205612v1_Personalization_for_Web-based_Services_using_Offline_Reinforcement_Learn",
+      "file_kind": "txt",
+      "file": "arxiv_210205612v1_Personalization_for_Web-based_Services_using_Offline_Reinforcement_Learn.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2606.07592v1",
+      "doi": "",
+      "title": "UNIQ: Conformal Calibration for Adaptive Conservatism in Offline Reinforcement Learning",
+      "abstract": "Offline reinforcement learning requires careful conservatism to mitigate distribution shift, yet most existing methods apply a fixed penalty uniformly across all states regardless of local data coverage. We present UNIQ (Uncertainty-Informed Quantile), an offline RL method that introduces state-adaptive conservatism through conformally calibrated uncertainty estimation. Built on the Implicit Q-Learning (IQL) backbone, UNIQ trains a multi-expectile value ensemble, computes distribution-free uncertainty estimates using split conformal prediction, and maps the resulting signal to a state-dependent expectile that relaxes conservatism in well-covered regions while strengthening it in uncertain regions near the data frontier. On D4RL MuJoCo benchmarks, UNIQ consistently improves over IQL, with the largest gains observed on Walker2d and replay-heavy tasks. At the same time, UNIQ operates at near-IQL memory cost (approximately 250 MB peak VRAM), providing roughly a 10x reduction compared to EDAC. Rather than pursuing overall state-of-the-art performance, we position UNIQ as a practical mechanism contribution that improves the performance-efficiency trade-off in offline reinforcement learning.",
+      "year": 2026,
+      "authors": [
+        "Aditya Upadhyay"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.07592v1",
+      "url": "http://arxiv.org/abs/2606.07592v1",
+      "key": "arxiv_260607592v1_UNIQ_Conformal_Calibration_for_Adaptive_Conservatism_in_Offline_Reinforc",
+      "file_kind": "txt",
+      "file": "arxiv_260607592v1_UNIQ_Conformal_Calibration_for_Adaptive_Conservatism_in_Offline_Reinforc.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.22008v1",
+      "doi": "",
+      "title": "TROFI: Trajectory-Ranked Offline Inverse Reinforcement Learning",
+      "abstract": "In offline reinforcement learning, agents are trained using only a fixed set of stored transitions derived from a source policy. However, this requires that the dataset be labeled by a reward function. In applied settings such as video game development, the availability of the reward function is not always guaranteed. This paper proposes Trajectory-Ranked OFfline Inverse reinforcement learning (TROFI), a novel approach to effectively learn a policy offline without a pre-defined reward function. TROFI first learns a reward function from human preferences, which it then uses to label the original dataset making it usable for training the policy. In contrast to other approaches, our method does not require optimal trajectories. Through experiments on the D4RL benchmark we demonstrate that TROFI consistently outperforms baselines and performs comparably to using the ground truth reward to learn policies. Additionally, we validate the efficacy of our method in a 3D game environment. Our studies of the reward model highlight the importance of the reward function in this setting: we show that to ensure the alignment of a value function to the actual future discounted reward, it is fundamental to have a well-engineered and easy-to-learn reward function.",
+      "year": 2025,
+      "authors": [
+        "Alessandro Sestini",
+        "Joakim Bergdahl",
+        "Konrad Tollmar",
+        "Andrew D. Bagdanov",
+        "Linus Gisslén"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.22008v1",
+      "url": "http://arxiv.org/abs/2506.22008v1",
+      "key": "arxiv_250622008v1_TROFI_Trajectory-Ranked_Offline_Inverse_Reinforcement_Learning",
+      "file_kind": "txt",
+      "file": "arxiv_250622008v1_TROFI_Trajectory-Ranked_Offline_Inverse_Reinforcement_Learning.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.14837v1",
+      "doi": "10.1609/aaai.v36i6.20594",
+      "title": "Reinforcement Learning with Stochastic Reward Machines",
+      "abstract": "Reward machines are an established tool for dealing with reinforcement learning problems in which rewards are sparse and depend on complex sequences of actions. However, existing algorithms for learning reward machines assume an overly idealized setting where rewards have to be free of noise. To overcome this practical limitation, we introduce a novel type of reward machines, called stochastic reward machines, and an algorithm for learning them. Our algorithm, based on constraint solving, learns minimal stochastic reward machines from the explorations of a reinforcement learning agent. This algorithm can easily be paired with existing reinforcement learning algorithms for reward machines and guarantees to converge to an optimal policy in the limit. We demonstrate the effectiveness of our algorithm in two case studies and show that it outperforms both existing methods and a naive approach for handling noisy reward functions.",
+      "year": 2025,
+      "authors": [
+        "Jan Corazza",
+        "Ivan Gavran",
+        "Daniel Neider"
+      ],
+      "venue": "Corazza, J., Gavran, I., & Neider, D. (2022). Reinforcement Learning with Stochastic Reward Machines. Proceedings of the AAAI Conference on Artificial Intelligence, 36(6), 6429-6436",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.14837v1",
+      "url": "http://arxiv.org/abs/2510.14837v1",
+      "key": "arxiv_101609_aaaiv36i620594_Reinforcement_Learning_with_Stochastic_Reward_Machines",
+      "file_kind": "txt",
+      "file": "arxiv_101609_aaaiv36i620594_Reinforcement_Learning_with_Stochastic_Reward_Machines.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2405.14114v2",
+      "doi": "",
+      "title": "Offline Reinforcement Learning from Datasets with Structured Non-Stationarity",
+      "abstract": "Current Reinforcement Learning (RL) is often limited by the large amount of data needed to learn a successful policy. Offline RL aims to solve this issue by using transitions collected by a different behavior policy. We address a novel Offline RL problem setting in which, while collecting the dataset, the transition and reward functions gradually change between episodes but stay constant within each episode. We propose a method based on Contrastive Predictive Coding that identifies this non-stationarity in the offline dataset, accounts for it when training a policy, and predicts it during evaluation. We analyze our proposed method and show that it performs well in simple continuous control tasks and challenging, high-dimensional locomotion tasks. We show that our method often achieves the oracle performance and performs better than baselines.",
+      "year": 2024,
+      "authors": [
+        "Johannes Ackermann",
+        "Takayuki Osa",
+        "Masashi Sugiyama"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.14114v2",
+      "url": "http://arxiv.org/abs/2405.14114v2",
+      "key": "arxiv_240514114v2_Offline_Reinforcement_Learning_from_Datasets_with_Structured_Non-Station",
+      "file_kind": "txt",
+      "file": "arxiv_240514114v2_Offline_Reinforcement_Learning_from_Datasets_with_Structured_Non-Station.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2306.11885v1",
+      "doi": "",
+      "title": "Reward Shaping via Diffusion Process in Reinforcement Learning",
+      "abstract": "Reinforcement Learning (RL) models have continually evolved to navigate the exploration - exploitation trade-off in uncertain Markov Decision Processes (MDPs). In this study, I leverage the principles of stochastic thermodynamics and system dynamics to explore reward shaping via diffusion processes. This provides an elegant framework as a way to think about exploration-exploitation trade-off. This article sheds light on relationships between information entropy, stochastic system dynamics, and their influences on entropy production. This exploration allows us to construct a dual-pronged framework that can be interpreted as either a maximum entropy program for deriving efficient policies or a modified cost optimization program accounting for informational costs and benefits. This work presents a novel perspective on the physical nature of information and its implications for online learning in MDPs, consequently providing a better understanding of information-oriented formulations in RL.",
+      "year": 2023,
+      "authors": [
+        "Peeyush Kumar"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.11885v1",
+      "url": "http://arxiv.org/abs/2306.11885v1",
+      "key": "arxiv_230611885v1_Reward_Shaping_via_Diffusion_Process_in_Reinforcement_Learning",
+      "file_kind": "txt",
+      "file": "arxiv_230611885v1_Reward_Shaping_via_Diffusion_Process_in_Reinforcement_Learning.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.08062v2",
+      "doi": "",
+      "title": "FairDICE: Fairness-Driven Offline Multi-Objective Reinforcement Learning",
+      "abstract": "Multi-objective reinforcement learning (MORL) aims to optimize policies in the presence of conflicting objectives, where linear scalarization is commonly used to reduce vector-valued returns into scalar signals. While effective for certain preferences, this approach cannot capture fairness-oriented goals such as Nash social welfare or max-min fairness, which require nonlinear and non-additive trade-offs. Although several online algorithms have been proposed for specific fairness objectives, a unified approach for optimizing nonlinear welfare criteria in the offline setting-where learning must proceed from a fixed dataset-remains unexplored. In this work, we present FairDICE, the first offline MORL framework that directly optimizes nonlinear welfare objective. FairDICE leverages distribution correction estimation to jointly account for welfare maximization and distributional regularization, enabling stable and sample-efficient learning without requiring explicit preference weights or exhaustive weight search. Across multiple offline benchmarks, FairDICE demonstrates strong fairness-aware performance compared to existing baselines.",
+      "year": 2025,
+      "authors": [
+        "Woosung Kim",
+        "Jinho Lee",
+        "Jongmin Lee",
+        "Byung-Jun Lee"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.08062v2",
+      "url": "http://arxiv.org/abs/2506.08062v2",
+      "key": "arxiv_250608062v2_FairDICE_Fairness-Driven_Offline_Multi-Objective_Reinforcement_Learning",
+      "file_kind": "txt",
+      "file": "arxiv_250608062v2_FairDICE_Fairness-Driven_Offline_Multi-Objective_Reinforcement_Learning.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2212.03733v3",
+      "doi": "",
+      "title": "Tiered Reward: Designing Rewards for Specification and Fast Learning of Desired Behavior",
+      "abstract": "Reinforcement-learning agents seek to maximize a reward signal through environmental interactions. As humans, our job in the learning process is to design reward functions to express desired behavior and enable the agent to learn such behavior swiftly. However, designing good reward functions to induce the desired behavior is generally hard, let alone the question of which rewards make learning fast. In this work, we introduce a family of a reward structures we call Tiered Reward that addresses both of these questions. We consider the reward-design problem in tasks formulated as reaching desirable states and avoiding undesirable states. To start, we propose a strict partial ordering of the policy space to resolve trade-offs in behavior preference. We prefer policies that reach the good states faster and with higher probability while avoiding the bad states longer. Next, we introduce Tiered Reward, a class of environment-independent reward functions and show it is guaranteed to induce policies that are Pareto-optimal according to our preference relation. Finally, we demonstrate that Tiered Reward leads to fast learning with multiple tabular and deep reinforcement-learning algorithms.",
+      "year": 2022,
+      "authors": [
+        "Zhiyuan Zhou",
+        "Shreyas Sundara Raman",
+        "Henry Sowerby",
+        "Michael L. Littman"
+      ],
+      "venue": "Reinforcement Learning Journal, vol. 1, no. 1, 2024, pp. TBD",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2212.03733v3",
+      "url": "http://arxiv.org/abs/2212.03733v3",
+      "key": "arxiv_221203733v3_Tiered_Reward_Designing_Rewards_for_Specification_and_Fast_Learning_of_D",
+      "file_kind": "txt",
+      "file": "arxiv_221203733v3_Tiered_Reward_Designing_Rewards_for_Specification_and_Fast_Learning_of_D.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2501.17842v1",
+      "doi": "",
+      "title": "From Sparse to Dense: Toddler-inspired Reward Transition in Goal-Oriented Reinforcement Learning",
+      "abstract": "Reinforcement learning (RL) agents often face challenges in balancing exploration and exploitation, particularly in environments where sparse or dense rewards bias learning. Biological systems, such as human toddlers, naturally navigate this balance by transitioning from free exploration with sparse rewards to goal-directed behavior guided by increasingly dense rewards. Inspired by this natural progression, we investigate the Toddler-Inspired Reward Transition in goal-oriented RL tasks. Our study focuses on transitioning from sparse to potential-based dense (S2D) rewards while preserving optimal strategies. Through experiments on dynamic robotic arm manipulation and egocentric 3D navigation tasks, we demonstrate that effective S2D reward transitions significantly enhance learning performance and sample efficiency. Additionally, using a Cross-Density Visualizer, we show that S2D transitions smooth the policy loss landscape, resulting in wider minima that improve generalization in RL models. In addition, we reinterpret Tolman's maze experiments, underscoring the critical role of early free exploratory learning in the context of S2D rewards.",
+      "year": 2025,
+      "authors": [
+        "Junseok Park",
+        "Hyeonseo Yang",
+        "Min Whoo Lee",
+        "Won-Seok Choi",
+        "Minsu Lee",
+        "Byoung-Tak Zhang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.17842v1",
+      "url": "http://arxiv.org/abs/2501.17842v1",
+      "key": "arxiv_250117842v1_From_Sparse_to_Dense_Toddler-inspired_Reward_Transition_in_Goal-Oriented",
+      "file_kind": "txt",
+      "file": "arxiv_250117842v1_From_Sparse_to_Dense_Toddler-inspired_Reward_Transition_in_Goal-Oriented.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.08644v1",
+      "doi": "",
+      "title": "Semi-gradient DICE for Offline Constrained Reinforcement Learning",
+      "abstract": "Stationary Distribution Correction Estimation (DICE) addresses the mismatch between the stationary distribution induced by a policy and the target distribution required for reliable off-policy evaluation (OPE) and policy optimization. DICE-based offline constrained RL particularly benefits from the flexibility of DICE, as it simultaneously maximizes return while estimating costs in offline settings. However, we have observed that recent approaches designed to enhance the offline RL performance of the DICE framework inadvertently undermine its ability to perform OPE, making them unsuitable for constrained RL scenarios. In this paper, we identify the root cause of this limitation: their reliance on a semi-gradient optimization, which solves a fundamentally different optimization problem and results in failures in cost estimation. Building on these insights, we propose a novel method to enable OPE and constrained RL through semi-gradient DICE. Our method ensures accurate cost estimation and achieves state-of-the-art performance on the offline constrained RL benchmark, DSRL.",
+      "year": 2025,
+      "authors": [
+        "Woosung Kim",
+        "JunHo Seo",
+        "Jongmin Lee",
+        "Byung-Jun Lee"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.08644v1",
+      "url": "http://arxiv.org/abs/2506.08644v1",
+      "key": "arxiv_250608644v1_Semi-gradient_DICE_for_Offline_Constrained_Reinforcement_Learning",
+      "file_kind": "txt",
+      "file": "arxiv_250608644v1_Semi-gradient_DICE_for_Offline_Constrained_Reinforcement_Learning.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2410.01458v1",
+      "doi": "",
+      "title": "From Reward Shaping to Q-Shaping: Achieving Unbiased Learning with LLM-Guided Knowledge",
+      "abstract": "Q-shaping is an extension of Q-value initialization and serves as an alternative to reward shaping for incorporating domain knowledge to accelerate agent training, thereby improving sample efficiency by directly shaping Q-values. This approach is both general and robust across diverse tasks, allowing for immediate impact assessment while guaranteeing optimality. We evaluated Q-shaping across 20 different environments using a large language model (LLM) as the heuristic provider. The results demonstrate that Q-shaping significantly enhances sample efficiency, achieving a \\textbf{16.87\\%} improvement over the best baseline in each environment and a \\textbf{253.80\\%} improvement compared to LLM-based reward shaping methods. These findings establish Q-shaping as a superior and unbiased alternative to conventional reward shaping in reinforcement learning.",
+      "year": 2024,
+      "authors": [
+        "Xiefeng Wu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2410.01458v1",
+      "url": "http://arxiv.org/abs/2410.01458v1",
+      "key": "arxiv_241001458v1_From_Reward_Shaping_to_Q-Shaping_Achieving_Unbiased_Learning_with_LLM-Gu",
+      "file_kind": "txt",
+      "file": "arxiv_241001458v1_From_Reward_Shaping_to_Q-Shaping_Achieving_Unbiased_Learning_with_LLM-Gu.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2012.02476v1",
+      "doi": "",
+      "title": "Offline Meta-level Model-based Reinforcement Learning Approach for Cold-Start Recommendation",
+      "abstract": "Reinforcement learning (RL) has shown great promise in optimizing long-term user interest in recommender systems. However, existing RL-based recommendation methods need a large number of interactions for each user to learn a robust recommendation policy. The challenge becomes more critical when recommending to new users who have a limited number of interactions. To that end, in this paper, we address the cold-start challenge in the RL-based recommender systems by proposing a meta-level model-based reinforcement learning approach for fast user adaptation. In our approach, we learn to infer each user's preference with a user context variable that enables recommendation systems to better adapt to new users with few interactions. To improve adaptation efficiency, we learn to recover the user policy and reward from only a few interactions via an inverse reinforcement learning method to assist a meta-level recommendation agent. Moreover, we model the interaction relationship between the user model and recommendation agent from an information-theoretic perspective. Empirical results show the effectiveness of the proposed method when adapting to new users with only a single interaction sequence. We further provide a theoretical analysis of the recommendation performance bound.",
+      "year": 2020,
+      "authors": [
+        "Yanan Wang",
+        "Yong Ge",
+        "Li Li",
+        "Rui Chen",
+        "Tong Xu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2012.02476v1",
+      "url": "http://arxiv.org/abs/2012.02476v1",
+      "key": "arxiv_201202476v1_Offline_Meta-level_Model-based_Reinforcement_Learning_Approach_for_Cold-",
+      "file_kind": "txt",
+      "file": "arxiv_201202476v1_Offline_Meta-level_Model-based_Reinforcement_Learning_Approach_for_Cold-.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2307.07091v2",
+      "doi": "",
+      "title": "Robotic Manipulation Datasets for Offline Compositional Reinforcement Learning",
+      "abstract": "Offline reinforcement learning (RL) is a promising direction that allows RL agents to pre-train on large datasets, avoiding the recurrence of expensive data collection. To advance the field, it is crucial to generate large-scale datasets. Compositional RL is particularly appealing for generating such large datasets, since 1)~it permits creating many tasks from few components, 2)~the task structure may enable trained agents to solve new tasks by combining relevant learned components, and 3)~the compositional dimensions provide a notion of task relatedness. This paper provides four offline RL datasets for simulated robotic manipulation created using the $256$ tasks from CompoSuite [Mendez at al., 2022a]. Each dataset is collected from an agent with a different degree of performance, and consists of $256$ million transitions. We provide training and evaluation settings for assessing an agent's ability to learn compositional task policies. Our benchmarking experiments show that current offline RL methods can learn the training tasks to some extent and that compositional methods outperform non-compositional methods. Yet current methods are unable to extract the compositional structure to generalize to unseen tasks, highlighting a need for future research in offline compositional RL.",
+      "year": 2023,
+      "authors": [
+        "Marcel Hussing",
+        "Jorge A. Mendez",
+        "Anisha Singrodia",
+        "Cassandra Kent",
+        "Eric Eaton"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2307.07091v2",
+      "url": "http://arxiv.org/abs/2307.07091v2",
+      "key": "arxiv_230707091v2_Robotic_Manipulation_Datasets_for_Offline_Compositional_Reinforcement_Le",
+      "file_kind": "txt",
+      "file": "arxiv_230707091v2_Robotic_Manipulation_Datasets_for_Offline_Compositional_Reinforcement_Le.txt"
+    }
+  ]
+}

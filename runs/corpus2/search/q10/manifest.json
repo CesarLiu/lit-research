@@ -1,0 +1,843 @@
+[
+  {
+    "title": "CAT: Closed-loop Adversarial Training for Safe End-to-End Driving",
+    "year": 2023,
+    "authors": [
+      "Linrui Zhang",
+      "Zhenghao Peng",
+      "Quanyi Li",
+      "Bolei Zhou"
+    ],
+    "doi": "10.48550/arxiv.2310.12432",
+    "file": "openalex_1048550_arxiv231012432_CAT_Closed-loop_Adversarial_Training_for_Safe_End-to-End_D.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4387838419",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LMDrive: Closed-Loop End-to-End Driving with Large Language Models",
+    "year": 2024,
+    "authors": [
+      "Hao Shao",
+      "Yuxuan Hu",
+      "Letian Wang",
+      "Guanglu Song",
+      "Steven L. Waslander",
+      "Yu Liu",
+      "Hongsheng Li"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01432",
+    "file": "openalex_101109_cvpr52733202401432_LMDrive_Closed-Loop_End-to-End_Driving_with_Large_Langu.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402727495",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Module-wise Adaptive Adversarial Training for End-to-end Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Tianyuan Zhang",
+      "Lu Wang",
+      "Jiaqi Kang",
+      "Xinwei Zhang",
+      "Siyuan Liang",
+      "Yuwei Chen",
+      "Aishan Liu",
+      "Xianglong Liu"
+    ],
+    "doi": "10.48550/arxiv.2409.07321",
+    "file": "openalex_1048550_arxiv240907321_Module-wise_Adaptive_Adversarial_Training_for_End-to-end_A.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403621951",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Survey of End-to-End Driving: Architectures and Training Methods",
+    "year": 2020,
+    "authors": [
+      "Ardi Tampuu",
+      "Tambet Matiisen",
+      "Maksym Semikin",
+      "Dmytro Fishman",
+      "Naveed Muhammad"
+    ],
+    "doi": "10.1109/tnnls.2020.3043505",
+    "file": "openalex_101109_tnnls20203043505_A_Survey_of_End-to-End_Driving_Architectures_and_Training.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3011462663",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Adversarial Driving: Attacking End-to-End Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Han Wu",
+      "Syed Usama Yunas",
+      "Sareh Rowlands",
+      "Wenjie Ruan",
+      "Johan Wahlström"
+    ],
+    "doi": "10.1109/iv55152.2023.10186386",
+    "file": "openalex_101109_iv55152202310186386_Adversarial_Driving_Attacking_End-to-End_Autonomous_Dr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4385356567",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Driving in Corner Case: A Real-World Adversarial Closed-Loop Evaluation Platform for End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Jiaheng Geng",
+      "Jiatong Du",
+      "Xinyu Zhang",
+      "Ye Li",
+      "Panqu Wang",
+      "Yanjun Huang"
+    ],
+    "doi": "10.48550/arxiv.2512.16055",
+    "file": "openalex_1048550_arxiv251216055_Driving_in_Corner_Case_A_Real-World_Adversarial_Closed-Loo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417529641",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "End-to-End Autonomous Driving: Challenges and Frontiers",
+    "year": 2024,
+    "authors": [
+      "Li Chen",
+      "Penghao Wu",
+      "Kashyap Chitta",
+      "Bernhard Jaeger",
+      "Andreas Geiger",
+      "Hongyang Li"
+    ],
+    "doi": "10.1109/tpami.2024.3435937",
+    "file": "openalex_101109_tpami20243435937_End-to-End_Autonomous_Driving_Challenges_and_Frontiers.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4401109681",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Simple Physical Adversarial Examples against End-to-End Autonomous Driving Models",
+    "year": 2019,
+    "authors": [
+      "Adith Boloor",
+      "Xin He",
+      "Christopher D. Gill",
+      "Yevgeniy Vorobeychik",
+      "Xuan Zhang"
+    ],
+    "doi": "10.1109/icess.2019.8782514",
+    "file": "openalex_101109_icess20198782514_Simple_Physical_Adversarial_Examples_against_End-to-End_A.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2965333252",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Rethinking Closed-Loop Training for Autonomous Driving",
+    "year": 2022,
+    "authors": [
+      "Wenjun Zhang",
+      "Runsheng Guo",
+      "Wenyuan Zeng",
+      "Yuwen Xiong",
+      "Binbin Dai",
+      "Rui Hu",
+      "Mengye Ren",
+      "Raquel Urtasun"
+    ],
+    "doi": "10.1007/978-3-031-19842-7_16",
+    "file": "openalex_101007_978-3-031-19842-7_16_Rethinking_Closed-Loop_Training_for_Autonomous_Drivin.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4312991107",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Bencheng Liao",
+      "Shaoyu Chen",
+      "Haoran Yin",
+      "Bo Jiang",
+      "Cheng Wang",
+      "Sixu Yan",
+      "Xinbang Zhang",
+      "Xiangyu Li",
+      "Yingpeng Zhang",
+      "Qian Zhang",
+      "Xinggang Wang"
+    ],
+    "doi": "10.1109/cvpr52734.2025.01124",
+    "file": "openalex_101109_cvpr52734202501124_DiffusionDrive_Truncated_Diffusion_Model_for_End-to-End.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413147287",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Model-Based Policy Adaptation for Closed-Loop End-to-end Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Haohong Lin",
+      "Yunzhi Zhang",
+      "Wenhao Ding",
+      "Jiajun Wu",
+      "Ding Zhao"
+    ],
+    "doi": "10.52202/085713-1386",
+    "file": "openalex_1052202_085713-1386_Model-Based_Policy_Adaptation_for_Closed-Loop_End-to-end_Auto.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417095041",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CLOVER: Closed-Loop Value Estimation and Ranking for End-to-End Autonomous Driving Planning",
+    "year": 2026,
+    "authors": [
+      "Sining Ang",
+      "Yuguang Yang",
+      "Canyu Chen",
+      "Yan Wang"
+    ],
+    "doi": "10.48550/arxiv.2605.15120",
+    "file": "openalex_1048550_arxiv260515120_CLOVER_Closed-Loop_Value_Estimation_and_Ranking_for_End-to.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7161237039",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models",
+    "year": 2025,
+    "authors": [
+      "Yuewen Mei",
+      "Tong Nie",
+      "Jian Sun",
+      "Ye Tian"
+    ],
+    "doi": "10.1109/tits.2025.3578383",
+    "file": "openalex_101109_tits20253578383_LLM-Attacker_Enhancing_Closed-Loop_Adversarial_Scenario_Ge.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4411550852",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Beyond Behavior Cloning in Autonomous Driving: a Survey of Closed-Loop Training Techniques",
+    "year": 2025,
+    "authors": [
+      "Péter Karkus",
+      "Maximilian Igl",
+      "Yuxiao Chen",
+      "Kashyap Chitta",
+      "Jef Packer",
+      "Bertrand Douillard",
+      "Ran Tian",
+      "Alexander Naumann",
+      "Guillermo Garcia-Cobo",
+      "Shuhan Tan",
+      "Alperen Değirmenci",
+      "Alexander Popov",
+      "Nikolai Smolyanskiy",
+      "Urs Müller",
+      "Boris Ivanovic",
+      "Marco Pavone"
+    ],
+    "doi": "10.36227/techrxiv.176591565.57674132/v1",
+    "file": "openalex_1036227_techrxiv17659156557674132_v1_Beyond_Behavior_Cloning_in_Autonomous_Drivin.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417406809",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MDrive: Benchmarking Closed-Loop Cooperative Driving for End-to-End Multi-agent Systems",
+    "year": 2026,
+    "authors": [
+      "Marco Coscoy",
+      "Zewei Zhou",
+      "Seth Z. Zhao",
+      "Henry Wei",
+      "Angela Magtoto",
+      "Johnson Liu",
+      "Rui Song",
+      "Walter Zimmer",
+      "Zhiyu Huang",
+      "Chen Tang",
+      "Bolei Zhou",
+      "Jiaqi W. Ma"
+    ],
+    "doi": "10.48550/arxiv.2605.10904",
+    "file": "openalex_1048550_arxiv260510904_MDrive_Benchmarking_Closed-Loop_Cooperative_Driving_for_En.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160912480",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Decoupling Representation Robustness and Behavioral Robustness in End-to-End Driving A Feature-Space Robustness Module for Actor–Critic Policies",
+    "year": 2026,
+    "authors": [
+      "Yuanchen Liu",
+      "Dongcheng Li"
+    ],
+    "doi": "10.1109/ijcnn69854.2026.11730068",
+    "file": "openalex_101109_ijcnn69854202611730068_Decoupling_Representation_Robustness_and_Behavioral.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7222924788",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Centaur: Robust End-to-End Autonomous Driving with Test-Time Training",
+    "year": 2025,
+    "authors": [
+      "Chonghao Sima",
+      "Kashyap Chitta",
+      "Zhiding Yu",
+      "Shiyi Lan",
+      "Ping Luo",
+      "Andreas Geiger",
+      "Hongyang Li",
+      "José Manuel Álvarez"
+    ],
+    "doi": "10.48550/arxiv.2503.11650",
+    "file": "openalex_1048550_arxiv250311650_Centaur_Robust_End-to-End_Autonomous_Driving_with_Test-Tim.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417060263",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Adversarial Flow Matching for Imperceptible Attacks on End-to-End Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Xinyu Zeng",
+      "Xiangkun He",
+      "Lei Tao",
+      "Chen Lv",
+      "Hong Cheng"
+    ],
+    "doi": "10.48550/arxiv.2605.00880",
+    "file": "openalex_1048550_arxiv260500880_Adversarial_Flow_Matching_for_Imperceptible_Attacks_on_End.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160284448",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Scaling Self-Play for End-to-End Driving",
+    "year": 2026,
+    "authors": [
+      "Luke Rowe",
+      "Roger Girgis",
+      "Rodrigue de Schaetzen",
+      "Daphne Cornelisse",
+      "Alaap Grandhi",
+      "Felix Heide",
+      "Eugene Vinitsky",
+      "Christopher Pal",
+      "Liam Paull"
+    ],
+    "doi": "10.48550/arxiv.2606.19641",
+    "file": "openalex_1048550_arxiv260619641_Scaling_Self-Play_for_End-to-End_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7165372480",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Post-Training in End-to-End Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Ruining Yang",
+      "Muxing Wang",
+      "Yixiao Chen",
+      "Tongfei Guo",
+      "Yi Xu",
+      "Can Cui",
+      "Zichong Yang",
+      "Yitian Zhang",
+      "Ziran Wang",
+      "Yun Fu",
+      "Lili Su"
+    ],
+    "doi": "10.48550/arxiv.2607.08072",
+    "file": "openalex_1048550_arxiv260708072_Post-Training_in_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7167928588",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Pseudo-Expert Regularized Offline RL for End-to-End Autonomous Driving in Photorealistic Closed-Loop Environments",
+    "year": 2026,
+    "authors": [
+      "Chihiro Noguchi",
+      "Takaki Yamamoto"
+    ],
+    "doi": "10.1109/cvprf71909.2026.00110",
+    "file": "openalex_101109_cvprf71909202600110_Pseudo-Expert_Regularized_Offline_RL_for_End-to-End_Au.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7221025921",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "PerlAD: Towards Enhanced Closed-Loop End-to-End Autonomous Driving With Pseudo-Simulation-Based Reinforcement Learning",
+    "year": 2026,
+    "authors": [
+      "Yinfeng Gao",
+      "Qichao Zhang",
+      "Deqing Liu",
+      "Zhongpu Xia",
+      "Guang Li",
+      "Kun Ma",
+      "Guang Chen",
+      "Hangjun Ye",
+      "Long Chen",
+      "Da‐Wei Ding",
+      "Dongbin Zhao"
+    ],
+    "doi": "10.1109/lra.2026.3675928",
+    "file": "openalex_101109_lra20263675928_PerlAD_Towards_Enhanced_Closed-Loop_End-to-End_Autonomous_D.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7138867468",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Reinforcement Learning Methods for Autonomous Driving: A Survey",
+    "year": 2025,
+    "authors": [
+      "Yujie Lin"
+    ],
+    "doi": "10.54254/2755-2721/2025.tj23323",
+    "file": "openalex_1054254_2755-2721_2025tj23323_Reinforcement_Learning_Methods_for_Autonomous_Drivi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4410617866",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Orion: A Holistic End-To-End Autonomous Driving Framework by Vision-Language Instructed Action Generation",
+    "year": 2025,
+    "authors": [
+      "Haoyu Fu",
+      "D H Zhang",
+      "Zongchuang Zhao",
+      "Jianfeng Cui",
+      "Dingkang Liang",
+      "Chong Zhang",
+      "Dingyuan Zhang",
+      "Hongwei Xie",
+      "B Wang",
+      "Xiang Bai"
+    ],
+    "doi": "10.1109/iccv51701.2025.02302",
+    "file": "openalex_101109_iccv51701202502302_Orion_A_Holistic_End-To-End_Autonomous_Driving_Framewor.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160197198",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Prompt-Driven Domain Adaptation for End-to-End Autonomous Driving via In-Context RL",
+    "year": 2025,
+    "authors": [
+      "Aleesha Khurram",
+      "Moeini, Amir",
+      "Shangtong Zhang",
+      "Rohan Chandra"
+    ],
+    "doi": "10.48550/arxiv.2511.12755",
+    "file": "openalex_1048550_arxiv251112755_Prompt-Driven_Domain_Adaptation_for_End-to-End_Autonomous_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416359484",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+    "year": 2025,
+    "authors": [
+      "Haibao Yu",
+      "Wenxian Yang",
+      "Ruiyang Hao",
+      "Chuanye Wang",
+      "Jiaru Zhong",
+      "Ping Luo",
+      "Zaiqing Nie"
+    ],
+    "doi": "",
+    "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.23922v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FocalAD: Local Motion Planning for End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Bin Sun",
+      "Boao Zhang",
+      "Jiayi Lu",
+      "Xinjie Feng",
+      "Jiachen Shang",
+      "Rui Cao",
+      "Mengchao Zheng",
+      "Chuanye Wang",
+      "Shichun Yang",
+      "Yaoguang Cao",
+      "Ziying Song"
+    ],
+    "doi": "10.1007/s42154-025-00465-6",
+    "file": "arxiv_101007_s42154-025-00465-6_FocalAD_Local_Motion_Planning_for_End-to-End_Autonomous_Dr.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.11419v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "2nd Place Solution for CVPR2024 E2E Challenge: End-to-End Autonomous Driving Using Vision Language Model",
+    "year": 2025,
+    "authors": [
+      "Zilong Guo",
+      "Yi Luo",
+      "Long Sha",
+      "Dongxu Wang",
+      "Panqu Wang",
+      "Chenyang Xu",
+      "Yi Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_250902659v1_2nd_Place_Solution_for_CVPR2024_E2E_Challenge_End-to-End_Autonomous_Driv.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.02659v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "End-to-End Reinforcement Learning for Torque Based Variable Height Hopping",
+    "year": 2023,
+    "authors": [
+      "Raghav Soni",
+      "Daniel Harnack",
+      "Hannah Isermann",
+      "Sotaro Fushimi",
+      "Shivesh Kumar",
+      "Frank Kirchner"
+    ],
+    "doi": "10.1109/iros55552.2023.10342187",
+    "file": "arxiv_101109_iros55552202310342187_End-to-End_Reinforcement_Learning_for_Torque_Based_Vari.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2307.16676v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Data Scaling Laws for End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Alexander Naumann",
+      "Xunjiang Gu",
+      "Tolga Dimlioglu",
+      "Mariusz Bojarski",
+      "Alperen Degirmenci",
+      "Alexander Popov",
+      "Devansh Bisla",
+      "Marco Pavone",
+      "Urs Müller",
+      "Boris Ivanovic"
+    ],
+    "doi": "",
+    "file": "arxiv_250404338v1_Data_Scaling_Laws_for_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2504.04338v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Zhennan Wang",
+      "Jianing Teng",
+      "Canqun Xiang",
+      "Kangliang Chen",
+      "Xing Pan",
+      "Lu Deng",
+      "Weihao Gu"
+    ],
+    "doi": "",
+    "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.21581v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generalized Trajectory Scoring for End-to-end Multimodal Planning",
+    "year": 2025,
+    "authors": [
+      "Zhenxin Li",
+      "Wenhao Yao",
+      "Zi Wang",
+      "Xinglong Sun",
+      "Joshua Chen",
+      "Nadine Chang",
+      "Maying Shen",
+      "Zuxuan Wu",
+      "Shiyi Lan",
+      "Jose M. Alvarez"
+    ],
+    "doi": "",
+    "file": "arxiv_250606664v1_Generalized_Trajectory_Scoring_for_End-to-end_Multimodal_Planning.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.06664v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+    "year": 2026,
+    "authors": [
+      "Tugrul Gorgulu",
+      "Atakan Dag",
+      "M. Esat Kalfaoglu",
+      "Halil Ibrahim Kuru",
+      "Baris Can Cam",
+      "Halil Ibrahim Ozturk",
+      "Ozsel Kilinc"
+    ],
+    "doi": "",
+    "file": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.23499v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Semi-supervised Semantics-guided Adversarial Training for Trajectory Prediction",
+    "year": 2022,
+    "authors": [
+      "Ruochen Jiao",
+      "Xiangguo Liu",
+      "Takami Sato",
+      "Qi Alfred Chen",
+      "Qi Zhu"
+    ],
+    "doi": "",
+    "file": "arxiv_220514230v2_Semi-supervised_Semantics-guided_Adversarial_Training_for_Trajectory_Pre.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2205.14230v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CLEAR: Closed-Loop Reinforcement Learning at Scale for End-to-End Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Yunxiao Shi",
+      "Hong Cai",
+      "Mohammad Ghavamzadeh",
+      "Fatih Porikli"
+    ],
+    "doi": "",
+    "file": "arxiv_260702841v1_CLEAR_Closed-Loop_Reinforcement_Learning_at_Scale_for_End-to-End_Autonom.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2607.02841v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Smoothness Analysis of Adversarial Training",
+    "year": 2021,
+    "authors": [
+      "Sekitoshi Kanai",
+      "Masanori Yamada",
+      "Hiroshi Takahashi",
+      "Yuki Yamanaka",
+      "Yasutoshi Ida"
+    ],
+    "doi": "",
+    "file": "arxiv_210301400v3_Smoothness_Analysis_of_Adversarial_Training.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2103.01400v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Hydra-MDP: End-to-end Multimodal Planning with Multi-target Hydra-Distillation",
+    "year": 2024,
+    "authors": [
+      "Zhenxin Li",
+      "Kailin Li",
+      "Shihao Wang",
+      "Shiyi Lan",
+      "Zhiding Yu",
+      "Yishen Ji",
+      "Zhiqi Li",
+      "Ziyue Zhu",
+      "Jan Kautz",
+      "Zuxuan Wu",
+      "Yu-Gang Jiang",
+      "Jose M. Alvarez"
+    ],
+    "doi": "",
+    "file": "arxiv_240606978v4_Hydra-MDP_End-to-end_Multimodal_Planning_with_Multi-target_Hydra-Distill.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2406.06978v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Closed-Loop Aware Planning via Imitation-Free Speed Scoring for End-to-End Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Emad Aghajanzadeh",
+      "Thomas Schwarzfischer",
+      "Marc Kaufeld",
+      "Moritz Thoma",
+      "Ryan Pégoud",
+      "Manoj Rohit Vemparala",
+      "Pierpaolo Mori",
+      "Nael Fasfous",
+      "Johannes Betz",
+      "Daniel Mueller-Gritschneder",
+      "Ulf Schlichtmann"
+    ],
+    "doi": "",
+    "file": "arxiv_261036079v1_Closed-Loop_Aware_Planning_via_Imitation-Free_Speed_Scoring_for_End-to-E.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.36079v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FedE2E: One-Shot Federated Learning for End-to-End Autonomous Driving with Closed-Loop Evaluation",
+    "year": 2026,
+    "authors": [
+      "Tao Lian",
+      "Antonio M. López"
+    ],
+    "doi": "",
+    "file": "arxiv_261124254v2_FedE2E_One-Shot_Federated_Learning_for_End-to-End_Autonomous_Driving_wit.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2611.24254v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Hidden Biases of End-to-End Driving Datasets",
+    "year": 2024,
+    "authors": [
+      "Julian Zimmerlin",
+      "Jens Beißwenger",
+      "Bernhard Jaeger",
+      "Andreas Geiger",
+      "Kashyap Chitta"
+    ],
+    "doi": "",
+    "file": "arxiv_241209602v2_Hidden_Biases_of_End-to-End_Driving_Datasets.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.09602v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LeGo-Drive: Language-enhanced Goal-oriented Closed-Loop End-to-End Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Pranjal Paul",
+      "Anant Garg",
+      "Tushar Choudhary",
+      "Arun Kumar Singh",
+      "K. Madhava Krishna"
+    ],
+    "doi": "",
+    "file": "arxiv_240320116v1_LeGo-Drive_Language-enhanced_Goal-oriented_Closed-Loop_End-to-End_Autono.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.20116v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-task Learning with Attention for End-to-end Autonomous Driving",
+    "year": 2021,
+    "authors": [
+      "Keishi Ishihara",
+      "Anssi Kanervisto",
+      "Jun Miura",
+      "Ville Hautamäki"
+    ],
+    "doi": "",
+    "file": "arxiv_210410753v1_Multi-task_Learning_with_Attention_for_End-to-end_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2104.10753v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

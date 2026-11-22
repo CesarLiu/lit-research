@@ -1,0 +1,924 @@
+[
+  {
+    "title": "DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model",
+    "year": 2023,
+    "authors": [
+      "Xiaofan Li",
+      "Yifu Zhang",
+      "Xiaoqing Ye"
+    ],
+    "doi": "10.48550/arxiv.2310.07771",
+    "file": "openalex_1048550_arxiv231007771_DrivingDiffusion_Layout-Guided_multi-view_driving_scene_vi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4387634829",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generating Driving Scenes with Diffusion",
+    "year": 2023,
+    "authors": [
+      "Ethan Pronovost",
+      "Wang, Kai",
+      "Nick Roy"
+    ],
+    "doi": "10.48550/arxiv.2305.18452",
+    "file": "openalex_1048550_arxiv230518452_Generating_Driving_Scenes_with_Diffusion.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4378942459",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models",
+    "year": 2023,
+    "authors": [
+      "Seung Wook Kim",
+      "Bradley Brown",
+      "Kangxue Yin",
+      "Karsten Kreis",
+      "Katja Schwarz",
+      "Daiqing Li",
+      "Robin Rombach",
+      "Antonio B. Torralba",
+      "Sanja Fidler"
+    ],
+    "doi": "10.1109/cvpr52729.2023.00821",
+    "file": "openalex_101109_cvpr52729202300821_NeuralField-LDM_Scene_Generation_with_Hierarchical_Late.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4386076371",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LD-scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios",
+    "year": 2026,
+    "authors": [
+      "Mingxing Peng",
+      "Yuting Xie",
+      "Xusen Guo",
+      "Ruoyu Yao",
+      "Hai Yang",
+      "Jun Ma"
+    ],
+    "doi": "10.1016/j.trc.2026.105694",
+    "file": "openalex_101016_jtrc2026105694_LD-scene_LLM-guided_diffusion_for_controllable_generation_o.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413241602",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+    "year": 2025,
+    "authors": [
+      "Luke Rowe",
+      "Roger Girgis",
+      "Anthony Gosselin",
+      "Liam Paull",
+      "Christopher Pal",
+      "Felix Heide"
+    ],
+    "doi": "10.1109/cvpr52734.2025.01604",
+    "file": "openalex_101109_cvpr52734202501604_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Genera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413144722",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation",
+    "year": 2025,
+    "authors": [
+      "Yang Chen",
+      "Yangfan He",
+      "Aaron Xuxiang Tian",
+      "Dong Chen",
+      "Jianhui Wang",
+      "Tianyu Shi",
+      "Arsalan Heydarian",
+      "Pei Liu"
+    ],
+    "doi": "10.1109/icra55743.2025.11127600",
+    "file": "openalex_101109_icra55743202511127600_Wcdt_World-Centric_Diffusion_Transformer_for_Traffic.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413945198",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MagicVideo: Efficient Video Generation With Latent Diffusion Models",
+    "year": 2022,
+    "authors": [
+      "Daquan Zhou",
+      "Weimin Wang",
+      "Hanshu Yan",
+      "Lv, Weiwei",
+      "Yizhe Zhu",
+      "Jiashi Feng"
+    ],
+    "doi": "10.48550/arxiv.2211.11018",
+    "file": "openalex_1048550_arxiv221111018_MagicVideo_Efficient_Video_Generation_With_Latent_Diffusio.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4309800375",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents",
+    "year": 2024,
+    "authors": [
+      "Yumeng Zhang",
+      "Shi Gong",
+      "Kaixin Xiong",
+      "Xiaoqing Ye",
+      "Li, Xiaofan",
+      "Xiao Tan",
+      "Wang, Fan",
+      "Jizhou Huang",
+      "Hua Ming Wu",
+      "Haifeng Wang"
+    ],
+    "doi": "10.48550/arxiv.2407.05679",
+    "file": "openalex_1048550_arxiv240705679_BEVWorld_A_Multimodal_World_Simulator_for_Autonomous_Drivi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4400481099",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion",
+    "year": 2023,
+    "authors": [
+      "Ethan Pronovost",
+      "Meghana Reddy Ganesina",
+      "Noureldin Hendy",
+      "Zeyu Wang",
+      "Andres Morales",
+      "Kai Wang",
+      "Nick Roy"
+    ],
+    "doi": "10.52202/075280-3014",
+    "file": "openalex_1052202_075280-3014_Scenario_Diffusion_Controllable_Driving_Scenario_Generation_W.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7133197891",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "3D Layout-Guided Autonomous Driving Scene Generation",
+    "year": 2026,
+    "authors": [
+      "Yu Liu"
+    ],
+    "doi": "10.1051/itmconf/20268404011",
+    "file": "openalex_101051_itmconf_20268404011_3D_Layout-Guided_Autonomous_Driving_Scene_Generation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7151102241",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation",
+    "year": 2024,
+    "authors": [
+      "Jiachen Lu",
+      "Ze Huang",
+      "Zeyu Yang",
+      "Jiahui Zhang",
+      "Li Zhang"
+    ],
+    "doi": "10.1007/978-3-031-72989-8_19",
+    "file": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403759442",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "WorldSplat: Gaussian-Centric Feed-Forward 4D Scene Generation for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Zhu, Ziyue",
+      "Zhanqian Wu",
+      "Zhenxin Zhu",
+      "Lijun Zhou",
+      "Haiyang Sun",
+      "Wan, Bing",
+      "Kun Ma",
+      "Guang Chen",
+      "Hangjun Ye",
+      "Jin Xie",
+      "Jian Ming Yang"
+    ],
+    "doi": "10.48550/arxiv.2509.23402",
+    "file": "openalex_1048550_arxiv250923402_WorldSplat_Gaussian-Centric_Feed-Forward_4D_Scene_Generati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415332459",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Align Your Latents: High-Resolution Video Synthesis with Latent Diffusion Models",
+    "year": 2023,
+    "authors": [
+      "Andreas Blattmann",
+      "Robin Rombach",
+      "Huan Ling",
+      "Tim Dockhorn",
+      "Seung Wook Kim",
+      "Sanja Fidler",
+      "Karsten Kreis"
+    ],
+    "doi": "10.1109/cvpr52729.2023.02161",
+    "file": "openalex_101109_cvpr52729202302161_Align_Your_Latents_High-Resolution_Video_Synthesis_with.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4386071957",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Prometheus: 3D-Aware Latent Diffusion Models for Feed-Forward Text-to-3D Scene Generation",
+    "year": 2025,
+    "authors": [
+      "Yuanbo Yang",
+      "Jiahao Shao",
+      "Xinyang Li",
+      "Yujun Shen",
+      "Andreas Geiger",
+      "Yiyi Liao"
+    ],
+    "doi": "10.1109/cvpr52734.2025.00272",
+    "file": "openalex_101109_cvpr52734202500272_Prometheus_3D-Aware_Latent_Diffusion_Models_for_Feed-Fo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413144336",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Augmentation of LiDAR Scenes with Adverse Weather Conditions Using Latent Diffusion Models",
+    "year": 2025,
+    "authors": [
+      "Andrea Matteazzi",
+      "Matthew Arnold",
+      "Dietmar Tutsch"
+    ],
+    "doi": "10.1007/978-981-95-4097-6_14",
+    "file": "openalex_101007_978-981-95-4097-6_14_Augmentation_of_LiDAR_Scenes_with_Adverse_Weather_Con.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416159046",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Diffusion-based Generation, Optimization, and Planning in 3D Scenes",
+    "year": 2023,
+    "authors": [
+      "Siyuan Huang",
+      "Zan Wang",
+      "Puhao Li",
+      "Baoxiong Jia",
+      "Tengyu Liu",
+      "Yixin Zhu",
+      "Wei Liang",
+      "Song Chun Zhu"
+    ],
+    "doi": "10.1109/cvpr52729.2023.01607",
+    "file": "openalex_101109_cvpr52729202301607_Diffusion-based_Generation_Optimization_and_Planning_in.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4386075980",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LDFA: Latent Diffusion Face Anonymization for Self-driving Applications",
+    "year": 2023,
+    "authors": [
+      "Marvin Klemp",
+      "Kevin Rösch",
+      "Royden Wagner",
+      "Jannik Quehl",
+      "Martin Lauer"
+    ],
+    "doi": "10.1109/cvprw59228.2023.00322",
+    "file": "openalex_101109_cvprw59228202300322_LDFA_Latent_Diffusion_Face_Anonymization_for_Self-driv.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4385800797",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Glad: A Streaming Scene Generator for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Xie, Bin",
+      "Liu, Yingfei",
+      "Tiancai Wang",
+      "Jiale Cao",
+      "Xiangyu Zhang"
+    ],
+    "doi": "10.48550/arxiv.2503.00045",
+    "file": "openalex_1048550_arxiv250300045_Glad_A_Streaming_Scene_Generator_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415080777",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Towards Realistic Scene Generation with LiDAR Diffusion Models",
+    "year": 2024,
+    "authors": [
+      "Haoxi Ran",
+      "Vitor Guizilini",
+      "Yue Wang"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01396",
+    "file": "openalex_101109_cvpr52733202401396_Towards_Realistic_Scene_Generation_with_LiDAR_Diffusion.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402703082",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LION: Latent Point Diffusion Models for 3D Shape Generation",
+    "year": 2022,
+    "authors": [
+      "Xiaohui Zeng",
+      "Arash Vahdat",
+      "Francis Williams",
+      "Žan Gojčič",
+      "Or Litany",
+      "Sanja Fidler",
+      "Karsten Kreis"
+    ],
+    "doi": "10.52202/068431-0728",
+    "file": "openalex_1052202_068431-0728_LION_Latent_Point_Diffusion_Models_for_3D_Shape_Generation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7133220370",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MapDreamer: Aerial Imagery Conditioned Latent Diffusion for Lane-Level Map Generation",
+    "year": 2026,
+    "authors": [
+      "Julian Brandes",
+      "Philipp Crocoll",
+      "Wolfram Burgard"
+    ],
+    "doi": "10.1007/978-3-032-37467-7_6",
+    "file": "openalex_101007_978-3-032-37467-7_6_MapDreamer_Aerial_Imagery_Conditioned_Latent_Diffusion.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7167216484",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "year": 2022,
+    "authors": [
+      "Robin Rombach",
+      "Andreas Blattmann",
+      "Dominik Lorenz",
+      "Patrick Esser",
+      "Björn Ommer"
+    ],
+    "doi": "10.1109/cvpr52688.2022.01042",
+    "file": "openalex_101109_cvpr52688202201042_High-Resolution_Image_Synthesis_with_Latent_Diffusion_M.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4312933868",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "UniScene: Unified Occupancy-centric Driving Scene Generation",
+    "year": 2025,
+    "authors": [
+      "Bohan Li",
+      "J. Guo",
+      "Hongsi Liu",
+      "Yingshuang Zou",
+      "Yikang Ding",
+      "Xiwu Chen",
+      "Hu Zhu",
+      "Feiyang Tan",
+      "Chi Zhang",
+      "Tiancai Wang",
+      "Shuchang Zhou",
+      "Li Zhang",
+      "Xiaojuan Qi",
+      "Hao Zhao",
+      "Mu Yang",
+      "Wenjun Zeng",
+      "Xin Jin"
+    ],
+    "doi": "10.1109/cvpr52734.2025.01118",
+    "file": "openalex_101109_cvpr52734202501118_UniScene_Unified_Occupancy-centric_Driving_Scene_Genera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413144960",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Genesis: Multimodal Driving Scene Generation with Spatio-Temporal and Cross-Modal Consistency",
+    "year": 2025,
+    "authors": [
+      "Xiangyu Guo",
+      "Zhanqian Wu",
+      "Kaixin Xiong",
+      "Ziyang Xu",
+      "Lijun Zhou",
+      "Gangwei Xu",
+      "Shaoqing Xu",
+      "Haiyang Sun",
+      "Bing Wang",
+      "Guang Chen",
+      "Hangjun Ye",
+      "Wenyu Liu",
+      "Xinggang Wang"
+    ],
+    "doi": "10.52202/085713-2021",
+    "file": "openalex_1052202_085713-2021_Genesis_Multimodal_Driving_Scene_Generation_with_Spatio-Tempo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417307772",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+    "year": 2025,
+    "authors": [
+      "Shijie Chen",
+      "Peixi Peng"
+    ],
+    "doi": "",
+    "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.04830v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design",
+    "year": 2026,
+    "authors": [
+      " Latent Labs Team",
+      "Sebastian M. Schmon",
+      "Daniella Pretorius",
+      "Simon Mathis",
+      "Rebecca Bartke-Croughan",
+      "Aishaini Puvanendran",
+      "James Vuckovic",
+      "Henry Kenlay",
+      "Mária Vlachynská",
+      "Alex Bridgland",
+      "Ivan Grishin",
+      "Sven Over",
+      "David Li",
+      "Bridget Li",
+      "Jonathan Crabbé",
+      "Agrin Hilmkil",
+      "Alexander W. R. Nelson",
+      "David Yuan",
+      "Annette Obika",
+      "Simon A. A. Kohl"
+    ],
+    "doi": "",
+    "file": "arxiv_260329727v2_Latent-Y_A_Lab-Validated_Autonomous_Agent_for_De_Novo_Drug_Design.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2603.29727v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design",
+    "year": 2025,
+    "authors": [
+      " Latent Labs Team",
+      "Alex Bridgland",
+      "Jonathan Crabbé",
+      "Henry Kenlay",
+      "Daniella Pretorius",
+      "Sebastian M. Schmon",
+      "Agrin Hilmkil",
+      "Rebecca Bartke-Croughan",
+      "Robin Rombach",
+      "Michael Flashman",
+      "Tomas Matteson",
+      "Simon Mathis",
+      "Alexander W. R. Nelson",
+      "David Yuan",
+      "Annette Obika",
+      "Simon A. A. Kohl"
+    ],
+    "doi": "",
+    "file": "arxiv_250719375v1_Latent-X_An_Atom-level_Frontier_Model_for_De_Novo_Protein_Binder_Design.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2507.19375v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+    "year": 2025,
+    "authors": [
+      "Chuan Fang",
+      "Heng Li",
+      "Yixun Liang",
+      "Jia Zheng",
+      "Yongsen Mao",
+      "Yuan Liu",
+      "Rui Tang",
+      "Zihan Zhou",
+      "Ping Tan"
+    ],
+    "doi": "",
+    "file": "arxiv_250914981v4_SPATIALGEN_Layout-guided_3D_Indoor_Scene_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.14981v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2",
+    "year": 2025,
+    "authors": [
+      " Latent Labs Team",
+      "Henry Kenlay",
+      "Daniella Pretorius",
+      "Jonathan Crabbé",
+      "Alex Bridgland",
+      "Sebastian M. Schmon",
+      "Agrin Hilmkil",
+      "James Vuckovic",
+      "Simon Mathis",
+      "Tomas Matteson",
+      "Rebecca Bartke-Croughan",
+      "Amir Motmaen",
+      "Robin Rombach",
+      "Mária Vlachynská",
+      "Alexander W. R. Nelson",
+      "David Yuan",
+      "Annette Obika",
+      "Simon A. A. Kohl"
+    ],
+    "doi": "",
+    "file": "arxiv_251220263v1_Drug-like_antibodies_with_low_immunogenicity_in_human_panels_designed_wi.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.20263v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Text-driven Visual Synthesis with Latent Diffusion Prior",
+    "year": 2023,
+    "authors": [
+      "Ting-Hsuan Liao",
+      "Songwei Ge",
+      "Yiran Xu",
+      "Yao-Chih Lee",
+      "Badour AlBahar",
+      "Jia-Bin Huang"
+    ],
+    "doi": "",
+    "file": "arxiv_230208510v2_Text-driven_Visual_Synthesis_with_Latent_Diffusion_Prior.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2302.08510v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Blended Latent Diffusion",
+    "year": 2022,
+    "authors": [
+      "Omri Avrahami",
+      "Ohad Fried",
+      "Dani Lischinski"
+    ],
+    "doi": "10.1145/3592450",
+    "file": "arxiv_101145_3592450_Blended_Latent_Diffusion.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2206.02779v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Coherent 3D Scene Diffusion From a Single RGB Image",
+    "year": 2024,
+    "authors": [
+      "Manuel Dahnert",
+      "Angela Dai",
+      "Norman Müller",
+      "Matthias Nießner"
+    ],
+    "doi": "",
+    "file": "arxiv_241210294v1_Coherent_3D_Scene_Diffusion_From_a_Single_RGB_Image.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.10294v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DiscDiff: Latent Diffusion Model for DNA Sequence Generation",
+    "year": 2024,
+    "authors": [
+      "Zehui Li",
+      "Yuhao Ni",
+      "William A V Beardall",
+      "Guoxuan Xia",
+      "Akashaditya Das",
+      "Guy-Bart Stan",
+      "Yiren Zhao"
+    ],
+    "doi": "",
+    "file": "arxiv_240206079v2_DiscDiff_Latent_Diffusion_Model_for_DNA_Sequence_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2402.06079v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "3D Scene Generation: A Survey",
+    "year": 2025,
+    "authors": [
+      "Haozhe Xie",
+      "Beichen Wen",
+      "Zhaoxi Chen",
+      "Fangzhou Hong",
+      "Ziwei Liu"
+    ],
+    "doi": "10.1007/s11263-026-02999-6",
+    "file": "arxiv_101007_s11263-026-02999-6_3D_Scene_Generation_A_Survey.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.05474v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Simple Latent Diffusion Approach for Panoptic Segmentation and Mask Inpainting",
+    "year": 2024,
+    "authors": [
+      "Wouter Van Gansbeke",
+      "Bert De Brabandere"
+    ],
+    "doi": "",
+    "file": "arxiv_240110227v2_A_Simple_Latent_Diffusion_Approach_for_Panoptic_Segmentation_and_Mask_In.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2401.10227v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Latent-Shift: Latent Diffusion with Temporal Shift for Efficient Text-to-Video Generation",
+    "year": 2023,
+    "authors": [
+      "Jie An",
+      "Songyang Zhang",
+      "Harry Yang",
+      "Sonal Gupta",
+      "Jia-Bin Huang",
+      "Jiebo Luo",
+      "Xi Yin"
+    ],
+    "doi": "",
+    "file": "arxiv_230408477v2_Latent-Shift_Latent_Diffusion_with_Temporal_Shift_for_Efficient_Text-to-.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2304.08477v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "BeyondScene: Higher-Resolution Human-Centric Scene Generation With Pretrained Diffusion",
+    "year": 2024,
+    "authors": [
+      "Gwanghyun Kim",
+      "Hayeon Kim",
+      "Hoigi Seo",
+      "Dong Un Kang",
+      "Se Young Chun"
+    ],
+    "doi": "",
+    "file": "arxiv_240404544v1_BeyondScene_Higher-Resolution_Human-Centric_Scene_Generation_With_Pretra.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2404.04544v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+    "year": 2025,
+    "authors": [
+      "Yuheng Liu",
+      "Xinke Li",
+      "Yuning Zhang",
+      "Lu Qi",
+      "Xin Li",
+      "Wenping Wang",
+      "Chongshou Li",
+      "Xueting Li",
+      "Ming-Hsuan Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_250307152v1_Controllable_3D_Outdoor_Scene_Generation_via_Scene_Graphs.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.07152v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Beyond Surface Statistics: Scene Representations in a Latent Diffusion Model",
+    "year": 2023,
+    "authors": [
+      "Yida Chen",
+      "Fernanda Viégas",
+      "Martin Wattenberg"
+    ],
+    "doi": "",
+    "file": "arxiv_230605720v2_Beyond_Surface_Statistics_Scene_Representations_in_a_Latent_Diffusion_Mo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2306.05720v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Latent-Reframe: Enabling Camera Control for Video Diffusion Model without Training",
+    "year": 2024,
+    "authors": [
+      "Zhenghong Zhou",
+      "Jie An",
+      "Jiebo Luo"
+    ],
+    "doi": "",
+    "file": "arxiv_241206029v1_Latent-Reframe_Enabling_Camera_Control_for_Video_Diffusion_Model_without.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.06029v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Pyramid Diffusion for Fine 3D Large Scene Generation",
+    "year": 2023,
+    "authors": [
+      "Yuheng Liu",
+      "Xinke Li",
+      "Xueting Li",
+      "Lu Qi",
+      "Chongshou Li",
+      "Ming-Hsuan Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_231112085v2_Pyramid_Diffusion_for_Fine_3D_Large_Scene_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2311.12085v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LT3SD: Latent Trees for 3D Scene Diffusion",
+    "year": 2024,
+    "authors": [
+      "Quan Meng",
+      "Lei Li",
+      "Matthias Nießner",
+      "Angela Dai"
+    ],
+    "doi": "",
+    "file": "arxiv_240908215v2_LT3SD_Latent_Trees_for_3D_Scene_Diffusion.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2409.08215v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Smooth Diffusion: Crafting Smooth Latent Spaces in Diffusion Models",
+    "year": 2023,
+    "authors": [
+      "Jiayi Guo",
+      "Xingqian Xu",
+      "Yifan Pu",
+      "Zanlin Ni",
+      "Chaofei Wang",
+      "Manushree Vasu",
+      "Shiji Song",
+      "Gao Huang",
+      "Humphrey Shi"
+    ],
+    "doi": "",
+    "file": "arxiv_231204410v1_Smooth_Diffusion_Crafting_Smooth_Latent_Spaces_in_Diffusion_Models.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2312.04410v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Build-A-Scene: Interactive 3D Layout Control for Diffusion-Based Image Generation",
+    "year": 2024,
+    "authors": [
+      "Abdelrahman Eldesokey",
+      "Peter Wonka"
+    ],
+    "doi": "",
+    "file": "arxiv_240814819v1_Build-A-Scene_Interactive_3D_Layout_Control_for_Diffusion-Based_Image_Ge.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.14819v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Recent Advances in 3D Object and Scene Generation: A Survey",
+    "year": 2025,
+    "authors": [
+      "Xiang Tang",
+      "Ruotong Li",
+      "Xiaopeng Fan"
+    ],
+    "doi": "",
+    "file": "arxiv_250411734v2_Recent_Advances_in_3D_Object_and_Scene_Generation_A_Survey.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2504.11734v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation",
+    "year": 2024,
+    "authors": [
+      "Alexey Bokhovkin",
+      "Quan Meng",
+      "Shubham Tulsiani",
+      "Angela Dai"
+    ],
+    "doi": "",
+    "file": "arxiv_241201801v2_SceneFactor_Factored_Latent_3D_Diffusion_for_Controllable_3D_Scene_Gener.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.01801v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Steerable Scene Generation with Post Training and Inference-Time Search",
+    "year": 2025,
+    "authors": [
+      "Nicholas Pfaff",
+      "Hongkai Dai",
+      "Sergey Zakharov",
+      "Shun Iwase",
+      "Russ Tedrake"
+    ],
+    "doi": "",
+    "file": "arxiv_250504831v2_Steerable_Scene_Generation_with_Post_Training_and_Inference-Time_Search.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.04831v2",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

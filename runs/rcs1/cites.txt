@@ -1,0 +1,5 @@
+CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning doi:10.48550/arxiv.2403.19918
+Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion doi:10.52202/075280-3014
+DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving doi:10.1109/iros58592.2024.10801623
+Guided Latent Spaces for Controllable Multi-Scenario Generation in Autonomous Driving (Student Abstract) doi:10.1609/aaai.v40i48.42251
+DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving doi:10.1109/iros58592.2024.10801623

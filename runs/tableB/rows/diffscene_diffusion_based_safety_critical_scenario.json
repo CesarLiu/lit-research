@@ -1,0 +1,13 @@
+{
+ "id": "diffscene_diffusion_based_safety_critical_scenario",
+ "title": "DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "Adversarial objectives (safety, functionality, constraint-based) against a target AV algorithm, plus the number of guided adversarial optimization steps N as a risk versus naturalness knob.", "pages": "1-2, 4, 7"},
+ "control_mechanism": {"value": "At each reverse diffusion step, multi-step gradient optimization of a learned model of the safety-critical objective is applied to the denoised trajectory, followed by initial-state calibration; the diffusion model itself is goal-agnostic.", "pages": "2, 4"},
+ "base_model": {"value": "Goal-agnostic diffusion model trained on benign trajectories, plus a separate learned model predicting the safety-critical objective; evaluated against RL-based AV algorithms in Carla.", "pages": "2, 4-5"},
+ "datasets": {"value": "Benign dataset of 6,995 trajectories collected in Carla from RL models; 5,000 generated trajectories per scenario setting (4,000 train, 1,000 test) to train the objective model.", "pages": "5"},
+ "metrics": {"value": "Collision Rate, Incomplete Route, Speed Satisfaction; naturalness by SSPD, Frechet, DTW, Wasserstein distance and KL on acceleration; downstream collision rate after fine-tuning.", "pages": "5"},
+ "controllability_evidence": {"value": "Collision rate rises as optimization steps N go from 0 to 30, while SSPD and Frechet grow (a trade-off). Table 1: DiffScene collision rate 0.85 (S1), 0.87 (S2), 0.79 (S3).", "pages": "6-7"},
+ "stated_limitations": {"value": "Greater optimization steps raise naturalness cost; the generator must be controlled so scenarios are not used for adversarial purposes.", "pages": "7-8"},
+ "notes": "Packet states no technical limitations section; limits listed are drawn from trade-off discussion and conclusion. Only the naturalness constraint is explored; other combinations are left for future work (page 4)."
+}

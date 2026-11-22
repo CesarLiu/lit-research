@@ -1,0 +1,783 @@
+[
+  {
+    "title": "Visual Traffic Knowledge Graph Generation from Scene Images",
+    "year": 2023,
+    "authors": [
+      "Yunfei Guo",
+      "Fei Yin",
+      "Xiaohui Li",
+      "Xudong Yan",
+      "Tao Xue",
+      "Shuqi Mei",
+      "Cheng‐Lin Liu"
+    ],
+    "doi": "10.1109/iccv51070.2023.01975",
+    "file": "openalex_101109_iccv51070202301975_Visual_Traffic_Knowledge_Graph_Generation_from_Scene_Im.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4390871814",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "T 2 SG: Traffic Topology Scene Graph for Topology Reasoning in Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Changsheng Lv",
+      "Mengshi Qi",
+      "Liang Liu",
+      "Huadóng Ma"
+    ],
+    "doi": "10.1109/cvpr52734.2025.01603",
+    "file": "openalex_101109_cvpr52734202501603_T_2_SG_Traffic_Topology_Scene_Graph_for_Topology_Reason.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413145822",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Traffic Scene Representation and Encoding With Graph Structure Learning and Exploration",
+    "year": 2025,
+    "authors": [
+      "Xiaoyu Mo",
+      "Baichuan Lou",
+      "Zhiqi Mao",
+      "Qihang Huang",
+      "Weigao Sun",
+      "Yafei Wang",
+      "Chen Lv"
+    ],
+    "doi": "10.1109/tits.2025.3582574",
+    "file": "openalex_101109_tits20253582574_Traffic_Scene_Representation_and_Encoding_With_Graph_Struc.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4411948780",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Towards Traffic Scene Description: The Semantic Scene Graph",
+    "year": 2022,
+    "authors": [
+      "Maximilian Zipfl",
+      "J. Marius Zöllner"
+    ],
+    "doi": "10.1109/itsc55140.2022.9922469",
+    "file": "openalex_101109_itsc5514020229922469_Towards_Traffic_Scene_Description_The_Semantic_Scene_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3217070037",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SparScene: Efficient Traffic Scene Representation via Sparse Graph Learning for Large-Scale Trajectory Generation",
+    "year": 2026,
+    "authors": [
+      "Xiaoyu Mo",
+      "Jintian Ge",
+      "Zifan Wang",
+      "Chen Lv",
+      "Karl Henrik Johansson"
+    ],
+    "doi": "10.1109/tpami.2026.3750173",
+    "file": "openalex_101109_tpami20263750173_SparScene_Efficient_Traffic_Scene_Representation_via_Spar.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7117313122",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Hazard-Aware Traffic Scene Graph Generation",
+    "year": 2026,
+    "authors": [
+      "Yaoqi Huang",
+      "Julie Stephany Berrío",
+      "Mao Shan",
+      "Worrall Stewart"
+    ],
+    "doi": "10.48550/arxiv.2603.03584",
+    "file": "openalex_1048550_arxiv260303584_Hazard-Aware_Traffic_Scene_Graph_Generation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7133885519",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Fine-Grained Traffic Inference from Road to Lane via Spatio-Temporal Graph Node Generation",
+    "year": 2025,
+    "authors": [
+      "Shuhao Li",
+      "Weidong Yang",
+      "Yue Cui",
+      "Xiaoxing Liu",
+      "Lingkai Meng",
+      "Lipeng Ma",
+      "Fan Zhang"
+    ],
+    "doi": "10.1145/3711896.3736961",
+    "file": "openalex_101145_37118963736961_Fine-Grained_Traffic_Inference_from_Road_to_Lane_via_Spatio.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4412877039",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Lane Graph Estimation for Scene Understanding in Urban Driving",
+    "year": 2021,
+    "authors": [
+      "Jannik Zürn",
+      "Johan Vertens",
+      "Wolfram Burgard"
+    ],
+    "doi": "10.1109/lra.2021.3111433",
+    "file": "openalex_101109_lra20213111433_Lane_Graph_Estimation_for_Scene_Understanding_in_Urban_Driv.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3158708105",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Neural Scene Graphs for Dynamic Scenes",
+    "year": 2021,
+    "authors": [
+      "Julian Ost",
+      "Fahim Mannan",
+      "Nils Thuerey",
+      "Julian Knodt",
+      "Felix Heide"
+    ],
+    "doi": "10.1109/cvpr46437.2021.00288",
+    "file": "openalex_101109_cvpr46437202100288_Neural_Scene_Graphs_for_Dynamic_Scenes.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3108625339",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "nuScenes Knowledge Graph - A comprehensive semantic representation of traffic scenes for trajectory prediction",
+    "year": 2023,
+    "authors": [
+      "Leon Mlodzian",
+      "Zhigang Sun",
+      "Hendrik Berkemeyer",
+      "Sebastian Monka",
+      "Zixu Wang",
+      "Stefan Dietze",
+      "Lavdim Halilaj",
+      "Juergen Luettin"
+    ],
+    "doi": "10.1109/iccvw60793.2023.00011",
+    "file": "openalex_101109_iccvw60793202300011_nuScenes_Knowledge_Graph_-_A_comprehensive_semantic_re.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4390189928",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AutoGraph: Predicting Lane Graphs From Traffic Observations",
+    "year": 2023,
+    "authors": [
+      "Jannik Zürn",
+      "Ingmar Posner",
+      "Wolfram Burgard"
+    ],
+    "doi": "10.1109/lra.2023.3331653",
+    "file": "openalex_101109_lra20233331653_AutoGraph_Predicting_Lane_Graphs_From_Traffic_Observations.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4388543867",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Driving Through Graphs: a Bipartite Graph for Traffic Scene Analysis",
+    "year": 2024,
+    "authors": [
+      "Aditya Humnabadkar",
+      "Arindam Sikdar",
+      "Huaizhong Zhang",
+      "Tanveer Hussain",
+      "Ardhendu Behera"
+    ],
+    "doi": "10.1109/icip51287.2024.10647492",
+    "file": "openalex_101109_icip51287202410647492_Driving_Through_Graphs_a_Bipartite_Graph_for_Traffic.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402916509",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Relation-based Motion Prediction using Traffic Scene Graphs",
+    "year": 2022,
+    "authors": [
+      "Maximilian Zipfl",
+      "Felix Hertlein",
+      "Achim Rettinger",
+      "Steffen Thoma",
+      "Lavdim Halilaj",
+      "Juergen Luettin",
+      "Stefan Schmid",
+      "Cory Andrew Henson"
+    ],
+    "doi": "10.1109/itsc55140.2022.9922155",
+    "file": "openalex_101109_itsc5514020229922155_Relation-based_Motion_Prediction_using_Traffic_Scene_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4308068563",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Graph-based topology reasoning for driving scenes",
+    "year": 2026,
+    "authors": [
+      "Tianyu Li",
+      "Li Chen",
+      "Huijie Wang",
+      "Yang Li",
+      "Jie Yang",
+      "Xiangwei Geng",
+      "Hang Xu",
+      "Chunjing Xu",
+      "Junchi Yan",
+      "Ping Luo",
+      "Hui Li"
+    ],
+    "doi": "10.1007/s11432-025-4815-9",
+    "file": "openalex_101007_s11432-025-4815-9_Graph-based_topology_reasoning_for_driving_scenes.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4365211588",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "STGT-Gen: Spatio-Temporal Graph Transformer for Multi-Vehicle Traffic Scenario Generation",
+    "year": 2025,
+    "authors": [
+      "Xupeng Qin",
+      "Chao Lu",
+      "Y. Wei",
+      "Sizhe Fan",
+      "Ze Song",
+      "Jianwei Gong"
+    ],
+    "doi": "10.4271/2025-01-7316",
+    "file": "openalex_104271_2025-01-7316_STGT-Gen_Spatio-Temporal_Graph_Transformer_for_Multi-Vehicle_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7119031322",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SceneGen: Learning to Generate Realistic Traffic Scenes",
+    "year": 2021,
+    "authors": [
+      "Shuhan Tan",
+      "Kelvin Wong",
+      "Shenlong Wang",
+      "Sivabalan Manivasagam",
+      "Mengye Ren",
+      "Raquel Urtasun"
+    ],
+    "doi": "10.1109/cvpr46437.2021.00095",
+    "file": "openalex_101109_cvpr46437202100095_SceneGen_Learning_to_Generate_Realistic_Traffic_Scenes.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3173280621",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Lane Graph as Path: Continuity-Preserving Path-Wise Modeling for Online Lane Graph Construction",
+    "year": 2024,
+    "authors": [
+      "Bencheng Liao",
+      "Shaoyu Chen",
+      "Bo Jiang",
+      "Tianheng Cheng",
+      "Qian Zhang",
+      "Wenyu Liu",
+      "Chang Huang",
+      "Xinggang Wang"
+    ],
+    "doi": "10.1007/978-3-031-72784-9_19",
+    "file": "openalex_101007_978-3-031-72784-9_19_Lane_Graph_as_Path_Continuity-Preserving_Path-Wise_Mo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402961448",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Traffic Scene Similarity: a Graph-based Contrastive Learning Approach",
+    "year": 2023,
+    "authors": [
+      "Maximilian Zipfl",
+      "Moritz Jarosch",
+      "J. Marius Zöllner"
+    ],
+    "doi": "10.1109/ssci52147.2023.10372060",
+    "file": "openalex_101109_ssci52147202310372060_Traffic_Scene_Similarity_a_Graph-based_Contrastive_L.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4390481667",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Enhancing Vision-Language Models with Scene Graphs for Traffic Accident Understanding",
+    "year": 2024,
+    "authors": [
+      "Aaron Lohner",
+      "Francesco Compagno",
+      "Jonathan Francis",
+      "Alessandro Oltramari"
+    ],
+    "doi": "10.1109/iavvc63304.2024.10786395",
+    "file": "openalex_101109_iavvc63304202410786395_Enhancing_Vision-Language_Models_with_Scene_Graphs_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405363067",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SemanticFormer: Holistic and Semantic Traffic Scene Representation for Trajectory Prediction Using Knowledge Graphs",
+    "year": 2024,
+    "authors": [
+      "Zhigang Sun",
+      "Zixu Wang",
+      "Lavdim Halilaj",
+      "Juergen Luettin"
+    ],
+    "doi": "10.1109/lra.2024.3426386",
+    "file": "openalex_101109_lra20243426386_SemanticFormer_Holistic_and_Semantic_Traffic_Scene_Represen.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4400488005",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Self Supervised Clustering of Traffic Scenes using Graph Representations",
+    "year": 2022,
+    "authors": [
+      "Maximilian Zipfl",
+      "Moritz Jarosch",
+      "J. Marius Zöllner"
+    ],
+    "doi": "10.1109/iceccme55909.2022.9988246",
+    "file": "openalex_101109_iceccme5590920229988246_Self_Supervised_Clustering_of_Traffic_Scenes_using.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4313307325",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Sheng Wang",
+      "Ge Sun",
+      "Fulong Ma",
+      "Tianshuai Hu",
+      "Qiang Qin",
+      "Yongkang Song",
+      "Lei Zhu",
+      "Junwei Liang"
+    ],
+    "doi": "10.1109/iros58592.2024.10801623",
+    "file": "openalex_101109_iros58592202410801623_DragTraffic_Interactive_and_Controllable_Traffic_Sce.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405787055",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Query by Example: Semantic Traffic Scene Retrieval Using LLM-Based Scene Graph Representation",
+    "year": 2025,
+    "authors": [
+      "Yafu Tian",
+      "Alexander Carballo",
+      "Ruifeng Li",
+      "Simon Thompson",
+      "Kazuya Takeda"
+    ],
+    "doi": "10.3390/s25082546",
+    "file": "openalex_103390_s25082546_Query_by_Example_Semantic_Traffic_Scene_Retrieval_Using_LLM-Base.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409535208",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic",
+    "year": 2024,
+    "authors": [
+      "Kashyap Chitta",
+      "Daniel Dauner",
+      "Andreas Geiger"
+    ],
+    "doi": "10.1007/978-3-031-73235-5_4",
+    "file": "openalex_101007_978-3-031-73235-5_4_SLEDGE_Synthesizing_Driving_Environments_with_Generati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402951698",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Geometry-Guided Representations for Coherent Lane and Traffic Topology Reasoning in Driving Scenes",
+    "year": 2026,
+    "authors": [
+      "Yueru Luo",
+      "Changqing Zhou",
+      "Yiming Yang",
+      "Erlong Li",
+      "Chao Zheng",
+      "Shuguang Robert Cui",
+      "Zhen Li"
+    ],
+    "doi": "10.1145/3770855.3817889",
+    "file": "openalex_101145_37708553817889_Geometry-Guided_Representations_for_Coherent_Lane_and_Traff.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415109089",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Triplet-Aware Scene Graph Embeddings",
+    "year": 2019,
+    "authors": [
+      "Brigit Schroeder",
+      "Subarna Tripathi",
+      "Hanlin Tang"
+    ],
+    "doi": "",
+    "file": "arxiv_190909256v1_Triplet-Aware_Scene_Graph_Embeddings.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/1909.09256v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Informative Scene Graph Generation via Debiasing",
+    "year": 2023,
+    "authors": [
+      "Lianli Gao",
+      "Xinyu Lyu",
+      "Yuyu Guo",
+      "Yuxuan Hu",
+      "Yuan-Fang Li",
+      "Lu Xu",
+      "Heng Tao Shen",
+      "Jingkuan Song"
+    ],
+    "doi": "",
+    "file": "arxiv_230805286v2_Informative_Scene_Graph_Generation_via_Debiasing.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2308.05286v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Unbiased Scene Graph Generation from Biased Training",
+    "year": 2020,
+    "authors": [
+      "Kaihua Tang",
+      "Yulei Niu",
+      "Jianqiang Huang",
+      "Jiaxin Shi",
+      "Hanwang Zhang"
+    ],
+    "doi": "",
+    "file": "arxiv_200211949v4_Unbiased_Scene_Graph_Generation_from_Biased_Training.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2002.11949v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+    "year": 2025,
+    "authors": [
+      "Chuan Fang",
+      "Heng Li",
+      "Yixun Liang",
+      "Jia Zheng",
+      "Yongsen Mao",
+      "Yuan Liu",
+      "Rui Tang",
+      "Zihan Zhou",
+      "Ping Tan"
+    ],
+    "doi": "",
+    "file": "arxiv_250914981v4_SPATIALGEN_Layout-guided_3D_Indoor_Scene_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.14981v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+    "year": 2025,
+    "authors": [
+      "Yuheng Liu",
+      "Xinke Li",
+      "Yuning Zhang",
+      "Lu Qi",
+      "Xin Li",
+      "Wenping Wang",
+      "Chongshou Li",
+      "Xueting Li",
+      "Ming-Hsuan Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_250307152v1_Controllable_3D_Outdoor_Scene_Generation_via_Scene_Graphs.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.07152v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Panoptic Video Scene Graph Generation",
+    "year": 2023,
+    "authors": [
+      "Jingkang Yang",
+      "Wenxuan Peng",
+      "Xiangtai Li",
+      "Zujin Guo",
+      "Liangyu Chen",
+      "Bo Li",
+      "Zheng Ma",
+      "Kaiyang Zhou",
+      "Wayne Zhang",
+      "Chen Change Loy",
+      "Ziwei Liu"
+    ],
+    "doi": "",
+    "file": "arxiv_231117058v1_Panoptic_Video_Scene_Graph_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2311.17058v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Bird's-Eye-View Scene Graph for Vision-Language Navigation",
+    "year": 2023,
+    "authors": [
+      "Rui Liu",
+      "Xiaohan Wang",
+      "Wenguan Wang",
+      "Yi Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_230804758v2_Birds-Eye-View_Scene_Graph_for_Vision-Language_Navigation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2308.04758v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "3D Scene Generation: A Survey",
+    "year": 2025,
+    "authors": [
+      "Haozhe Xie",
+      "Beichen Wen",
+      "Zhaoxi Chen",
+      "Fangzhou Hong",
+      "Ziwei Liu"
+    ],
+    "doi": "10.1007/s11263-026-02999-6",
+    "file": "arxiv_101007_s11263-026-02999-6_3D_Scene_Generation_A_Survey.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.05474v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "NICEST: Noisy Label Correction and Training for Robust Scene Graph Generation",
+    "year": 2022,
+    "authors": [
+      "Lin Li",
+      "Jun Xiao",
+      "Hanrong Shi",
+      "Hanwang Zhang",
+      "Yi Yang",
+      "Wei Liu",
+      "Long Chen"
+    ],
+    "doi": "",
+    "file": "arxiv_220713316v2_NICEST_Noisy_Label_Correction_and_Training_for_Robust_Scene_Graph_Genera.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2207.13316v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LANe: Lighting-Aware Neural Fields for Compositional Scene Synthesis",
+    "year": 2023,
+    "authors": [
+      "Akshay Krishnan",
+      "Amit Raj",
+      "Xianling Zhang",
+      "Alexandra Carlson",
+      "Nathan Tseng",
+      "Sandhya Sridhar",
+      "Nikita Jaipuria",
+      "James Hays"
+    ],
+    "doi": "",
+    "file": "arxiv_230403280v1_LANe_Lighting-Aware_Neural_Fields_for_Compositional_Scene_Synthesis.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2304.03280v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Geometric 2D Scene Graph Generation",
+    "year": 2026,
+    "authors": [
+      "Christoph Jahn",
+      "Urs Waldmann",
+      "Bastian Goldluecke"
+    ],
+    "doi": "10.5220/0014249800004052",
+    "file": "arxiv_105220_0014249800004052_Geometric_2D_Scene_Graph_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2607.22325v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+    "year": 2025,
+    "authors": [
+      "Shijie Chen",
+      "Peixi Peng"
+    ],
+    "doi": "",
+    "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.04830v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models",
+    "year": 2021,
+    "authors": [
+      "Lyuyi Zhu",
+      "Kairui Feng",
+      "Ziyuan Pu",
+      "Wei Ma"
+    ],
+    "doi": "",
+    "file": "arxiv_210409369v1_Adversarial_Diffusion_Attacks_on_Graph-based_Traffic_Prediction_Models.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2104.09369v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Hierarchical Discrete Flow Matching for Graph Generation",
+    "year": 2026,
+    "authors": [
+      "Yoann Boget",
+      "Pablo Strasser",
+      "Alexandros Kalousis"
+    ],
+    "doi": "",
+    "file": "arxiv_260400236v1_Hierarchical_Discrete_Flow_Matching_for_Graph_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2604.00236v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Counting cliques without generalized theta graphs",
+    "year": 2023,
+    "authors": [
+      "Jun Gao",
+      "Zhuo Wu",
+      "Yisai Xue"
+    ],
+    "doi": "",
+    "file": "arxiv_231115289v2_Counting_cliques_without_generalized_theta_graphs.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2311.15289v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ALF: Adaptive Label Finetuning for Scene Graph Generation",
+    "year": 2023,
+    "authors": [
+      "Qishen Chen",
+      "Jianzhi Liu",
+      "Xinyu Lyu",
+      "Lianli Gao",
+      "Heng Tao Shen",
+      "Jingkuan Song"
+    ],
+    "doi": "",
+    "file": "arxiv_231217425v3_ALF_Adaptive_Label_Finetuning_for_Scene_Graph_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2312.17425v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Agnostic Lane Detection",
+    "year": 2019,
+    "authors": [
+      "Yuenan Hou"
+    ],
+    "doi": "",
+    "file": "arxiv_190503704v1_Agnostic_Lane_Detection.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/1905.03704v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

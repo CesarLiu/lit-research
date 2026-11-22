@@ -1,0 +1,16 @@
+# arXiv DOI form: expect CONFIRMED
+10.48550/arXiv.1706.03762
+# arXiv:ID form, no DOI: expect CONFIRMED
+CtRL-Sim: Reactive and Controllable Driving Agents with Offline RL. arXiv:2403.19918
+# arxiv.org URL with version: expect CONFIRMED
+https://arxiv.org/abs/2112.10752v2
+# nonexistent arXiv id: expect NOT FOUND / WEAK
+10.48550/arXiv.9999.99999
+# arXiv title only: expect TITLE MATCH on the real paper
+Attention Is All You Need
+Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments
+# invented
+CtRL-Sim++: Hierarchical Diffusion Reward Tilting for Closed-Loop Scenario Generation
+# regressions: Crossref DOI, retracted
+10.1038/nature14236
+10.1016/S0140-6736(97)11096-0

@@ -1,0 +1,7 @@
+34 of 34 seeds resolved in OpenAlex
+backward: 649 distinct cited works; forward: 1191 distinct citing works
+candidates linked to >= 2 seeds: 570
+  already in corpus: 83
+  not in corpus, 2019 or later, on topic by keyword rule: 379
+  of those, passing the stricter rule too: 247
+API requests made (not cached): 0

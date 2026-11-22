@@ -1,0 +1,1140 @@
+{
+  "query": "traffic scene generation lane graph",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 42,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4390871814",
+      "doi": "10.1109/iccv51070.2023.01975",
+      "title": "Visual Traffic Knowledge Graph Generation from Scene Images",
+      "abstract": "Although previous works on traffic scene understanding have achieved great success, most of them stop at a low-level perception stage, such as road segmentation and lane detection, and few concern high-level understanding. In this paper, we present Visual Traffic Knowledge Graph Generation (VTKGG), a new task for in-depth traffic scene understanding that tries to extract multiple kinds of information and integrate them into a knowledge graph. To achieve this goal, we first introduce a large dataset named CASIA-Tencent Road Scene dataset (RS10K) with comprehensive annotations to support related research. Secondly, we propose a novel traffic scene parsing architecture containing a Hierarchical Graph ATtention network (HGAT) to analyze the heterogeneous elements and their complicated relations in traffic scene images. By hierarchizing the heterogeneous graph and equipping it with cross-level links, our approach exploits the correlation among various elements completely and acquires accurate relations. The experimental results show that our method can effectively generate visual traffic knowledge graphs and achieve state-of-the-art performance. The dataset RS10K is available at http://www.nlpr.ia.ac.cn/pal/RS10K.html.",
+      "year": 2023,
+      "authors": [
+        "Yunfei Guo",
+        "Fei Yin",
+        "Xiaohui Li",
+        "Xudong Yan",
+        "Tao Xue",
+        "Shuqi Mei",
+        "Cheng‐Lin Liu"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 27,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4390871814",
+      "key": "openalex_101109_iccv51070202301975_Visual_Traffic_Knowledge_Graph_Generation_from_Scene_Im",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51070202301975_Visual_Traffic_Knowledge_Graph_Generation_from_Scene_Im.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4413145822",
+      "doi": "10.1109/cvpr52734.2025.01603",
+      "title": "T 2 SG: Traffic Topology Scene Graph for Topology Reasoning in Autonomous Driving",
+      "abstract": "Understanding the traffic scenes and then generating highdefinition (HD) maps present significant challenges in autonomous driving. In this paper, we defined a novel Traffic Topology Scene Graph (T2SG), a unified scene graph explicitly modeling the lane, controlled and guided by different road signals (e.g., right turn), and topology relationships among them, which is always ignored by previous high-definition (HD) mapping methods. For the generation of T2SG, we propose TopoFormer, a novel one- stage Topology Scene Graph TransFormer with two newly-designed layers. Specifically, TopoFormer incorporates a Lane Aggregation Layer (LAL) that leverages the geometric distance among the centerline of lanes to guide the aggregation of global information. Furthermore, we proposed a Counterfactual Intervention Layer (CIL) to model the reasonable road structure (e.g., intersection, straight) among lanes under counterfactual intervention. Then the generated T2SG can provide a more accurate and explainable description of the topological structure in traffic scenes. Experimental results demonstrate that TopoFormer outperforms existing methods on the T2SG generation task, and the generated T2SG significantly enhances traffic topology reasoning in downstream tasks, achieving a state-of-the-art performance of 46.3 OLS on the OpenLane-V2 benchmark. Our source code is available at https://github.com/MICLAB-BUPT/T2SG.",
+      "year": 2025,
+      "authors": [
+        "Changsheng Lv",
+        "Mengshi Qi",
+        "Liang Liu",
+        "Huadóng Ma"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 51,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2411.18894",
+      "url": "https://openalex.org/W4413145822",
+      "also_doi": [],
+      "key": "openalex_101109_cvpr52734202501603_T_2_SG_Traffic_Topology_Scene_Graph_for_Topology_Reason",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202501603_T_2_SG_Traffic_Topology_Scene_Graph_for_Topology_Reason.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4411948780",
+      "doi": "10.1109/tits.2025.3582574",
+      "title": "Traffic Scene Representation and Encoding With Graph Structure Learning and Exploration",
+      "abstract": "Effective scene representation is critical for trajectory generation tasks in autonomous driving. Existing attention-based methods often rely on fixed-length input elements, limiting their ability to adapt to dynamic traffic environments, and frequently overlook lane connectivity. Methods that consider lane connectivity often segment lanes into smaller pieces, which consequently creates a more complex graph structure with an increased number of nodes and edges. Additionally, many current approaches select agent interactions based on fixed distance thresholds, which may miss important long-range or indirect interactions and ignore the fact that proximity does not indicate interaction. In this paper, we propose SceneGNN, a novel framework for learning traffic scenario representation through interaction graph learning and lane graph exploration. SceneGNN constructs a single heterogeneous graph that integrates both agents and lanes, leveraging high-definition maps without over-segmentation. To model lane connectivity more effectively, we introduce LaneGNN, which combines an Omnidirectional Lane Aggregator (OLA) and Directional Lane Explorer (DLE) to explore lane-to-lane interdependencies. Additionally, instead of relying on proximity-based heuristics, our interaction graph learner dynamically constructs inter-agent edges based on learned features, allowing the model to capture meaningful interactions beyond mere distance. We evaluate SceneGNN on the Waymo Open Motion Dataset, where it achieves competitive performance. Our results demonstrate that by efficiently capturing both agent-lane relationships and inter-agent interactions, SceneGNN improves the accuracy and scalability of multi-agent trajectory prediction for real-world autonomous driving applications.",
+      "year": 2025,
+      "authors": [
+        "Xiaoyu Mo",
+        "Baichuan Lou",
+        "Zhiqi Mao",
+        "Qihang Huang",
+        "Weigao Sun",
+        "Yafei Wang",
+        "Chen Lv"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 7,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4411948780",
+      "key": "openalex_101109_tits20253582574_Traffic_Scene_Representation_and_Encoding_With_Graph_Struc",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20253582574_Traffic_Scene_Representation_and_Encoding_With_Graph_Struc.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W3217070037",
+      "doi": "10.1109/itsc55140.2022.9922469",
+      "title": "Towards Traffic Scene Description: The Semantic Scene Graph",
+      "abstract": "For the classification of traffic scenes, a description model is necessary that can describe the scene in a uniform way, independent of its domain. A model to describe a traffic scene in a semantic way is described in this paper. The description model allows to describe a traffic scene independently of the road geometry and road topology. Here, the traffic participants are projected onto the road network and represented as nodes in a graph. Depending on the relative location between two traffic participants with respect to the road topology, semantically classified edges are created between the corresponding nodes. For concretization, the edge attributes are extended by relative distances and velocities between both traffic participants with regard to the course of the lane. An important aspect of the description is that it can be converted easily into a machine-readable format. The current description focuses on dynamic objects of a traffic scene and considers traffic participants, such as pedestrians or vehicles.",
+      "year": 2022,
+      "authors": [
+        "Maximilian Zipfl",
+        "J. Marius Zöllner"
+      ],
+      "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+      "cited_by": 42,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2111.10196",
+      "url": "https://openalex.org/W3217070037",
+      "also_doi": [],
+      "key": "openalex_101109_itsc5514020229922469_Towards_Traffic_Scene_Description_The_Semantic_Scene_",
+      "file_kind": "txt",
+      "file": "openalex_101109_itsc5514020229922469_Towards_Traffic_Scene_Description_The_Semantic_Scene_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7117313122",
+      "doi": "10.1109/tpami.2026.3750173",
+      "title": "SparScene: Efficient Traffic Scene Representation via Sparse Graph Learning for Large-Scale Trajectory Generation",
+      "abstract": "Multi-agent trajectory generation is a core problem for autonomous driving and intelligent transportation systems. However, efficiently modeling the dynamic interactions between numerous road users and infrastructures in complex scenes remains an open problem. Existing methods typically employ distance-based or fully connected dense graph structures to capture interaction information, which not only introduces a large number of redundant edges but also requires complex and heavily parameterized networks for encoding, thereby resulting in low training and inference efficiency, limiting scalability to large and complex traffic scenes. To overcome the limitations of existing methods, we propose SparScene, a sparse graph learning framework designed for efficient and computationally scalable traffic scene representation. Instead of relying on distance thresholds, SparScene leverages the lane graph topology to construct structure-aware sparse connections between agents and lanes, enabling efficient yet informative scene graph representation. SparScene adopts a lightweight graph encoder that efficiently aggregates agent-map and agent-agent interactions, yielding compact scene representations with substantially improved efficiency and inference scalability. On the motion prediction benchmark of the Waymo Open Motion Dataset, SparScene achieves competitive performance with remarkable efficiency. It generates trajectories for more than 200 agents in a scene within 5 ms and scales to more than 5,000 agents and 17,000 lanes with merely 54 ms of inference time with only 2.9 GB of GPU memory, highlighting its superior computational scalability for large-scale traffic scenes.",
+      "year": 2026,
+      "authors": [
+        "Xiaoyu Mo",
+        "Jintian Ge",
+        "Zifan Wang",
+        "Chen Lv",
+        "Karl Henrik Johansson"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7117313122",
+      "key": "openalex_101109_tpami20263750173_SparScene_Efficient_Traffic_Scene_Representation_via_Spar",
+      "file_kind": "txt",
+      "file": "openalex_101109_tpami20263750173_SparScene_Efficient_Traffic_Scene_Representation_via_Spar.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7133885519",
+      "doi": "10.48550/arxiv.2603.03584",
+      "title": "Hazard-Aware Traffic Scene Graph Generation",
+      "abstract": "Maintaining situational awareness in complex driving scenarios is challenging. It requires continuously prioritizing attention among extensive scene entities and understanding how prominent hazards might affect the ego vehicle. While existing studies excel at detecting specific semantic categories and visually salient regions, they lack the ability to assess safety-relevance. Meanwhile, the generic spatial predicates either for foreground objects only or for all scene entities modeled by existing scene graphs are inadequate for driving scenarios. To bridge this gap, we introduce a novel task, Traffic Scene Graph Generation, which captures traffic-specific relations between prominent hazards and the ego vehicle. We propose a novel framework that explicitly uses traffic accident data and depth cues to supplement visual features and semantic information for reasoning. The output traffic scene graphs provide intuitive guidelines that stress prominent hazards by color-coding their severity and notating their effect mechanism and relative location to the ego vehicle. We create relational annotations on Cityscapes dataset and evaluate our model on 10 tasks from 5 perspectives. The results in comparative experiments and ablation studies demonstrate our capacity in ego-centric reasoning for hazard-aware traffic scene understanding.",
+      "year": 2026,
+      "authors": [
+        "Yaoqi Huang",
+        "Julie Stephany Berrío",
+        "Mao Shan",
+        "Worrall Stewart"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.03584",
+      "url": "https://openalex.org/W7133885519",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv260303584_Hazard-Aware_Traffic_Scene_Graph_Generation",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260303584_Hazard-Aware_Traffic_Scene_Graph_Generation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4412877039",
+      "doi": "10.1145/3711896.3736961",
+      "title": "Fine-Grained Traffic Inference from Road to Lane via Spatio-Temporal Graph Node Generation",
+      "abstract": "Fine-grained traffic management and prediction are fundamental to key applications such as autonomous driving, lane change guidance, and traffic signal control. However, obtaining lane-level traffic data has become a critical bottleneck for data-driven models due to limitations in the types and number of sensors and issues with the accuracy of tracking algorithms. To address this, we propose the Fine-grained Road Traffic Inference (FRTI) task, which aims to generate more detailed lane-level traffic information using limited road data, providing a more energy-efficient and cost-effective solution for precise traffic management. This task is abstracted as the first scene of the spatio-temporal graph node generation problem. We designed a two-stage framework-RoadDiff-to solve the FRTI task. This framework leverages the Road-Lane Correlation Autoencoder-Decoder and the Lane Diffusion Module to fully utilize the limited spatio-temporal dependencies and distribution relationships of road data to accurately infer fine-grained lane traffic states. Based on existing research, we designed several baseline models with the potential to solve the FRTI task and conducted extensive experiments on six datasets representing different road conditions to validate the effectiveness of the RoadDiff model in addressing the FRTI task. The relevant datasets and code are available at https://github.com/ShuhaoLii/RoadDiff.",
+      "year": 2025,
+      "authors": [
+        "Shuhao Li",
+        "Weidong Yang",
+        "Yue Cui",
+        "Xiaoxing Liu",
+        "Lingkai Meng",
+        "Lipeng Ma",
+        "Fan Zhang"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3711896.3736961",
+      "url": "https://openalex.org/W4412877039",
+      "key": "openalex_101145_37118963736961_Fine-Grained_Traffic_Inference_from_Road_to_Lane_via_Spatio",
+      "file_kind": "txt",
+      "file": "openalex_101145_37118963736961_Fine-Grained_Traffic_Inference_from_Road_to_Lane_via_Spatio.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W3158708105",
+      "doi": "10.1109/lra.2021.3111433",
+      "title": "Lane Graph Estimation for Scene Understanding in Urban Driving",
+      "abstract": "Lane-level scene annotations provide invaluable data in autonomous vehicles for trajectory planning in complex environments such as urban areas and cities. However, obtaining such data is time-consuming and expensive since lane annotations have to be annotated manually by humans and are as such hard to scale to large areas. In this work, we propose a novel approach for lane geometry estimation from bird’s-eye-view images. We formulate the problem of lane shape and lane connections estimation as a graph estimation problem where lane anchor points are graph nodes and lane segments are graph edges. We train a graph estimation model on multimodal bird’s-eye-view data processed from the popular NuScenes dataset and its map expansion pack. We furthermore estimate the direction of the lane connection for each lane segment with a separate model which results in a directed lane graph. We illustrate the performance of our LaneGraphNet model on the challenging NuScenes dataset and provide extensive qualitative and quantitative evaluation. Our model shows promising performance for most evaluated urban scenes and can serve as a step towards automated generation of HD lane annotations for autonomous driving. The dataset will be made available athttp://lanegraph.informatik.uni-freiburg.de.",
+      "year": 2021,
+      "authors": [
+        "Jannik Zürn",
+        "Johan Vertens",
+        "Wolfram Burgard"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "cited_by": 40,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2105.00195",
+      "url": "https://openalex.org/W3158708105",
+      "also_doi": [],
+      "key": "openalex_101109_lra20213111433_Lane_Graph_Estimation_for_Scene_Understanding_in_Urban_Driv",
+      "file_kind": "txt",
+      "file": "openalex_101109_lra20213111433_Lane_Graph_Estimation_for_Scene_Understanding_in_Urban_Driv.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W3108625339",
+      "doi": "10.1109/cvpr46437.2021.00288",
+      "title": "Neural Scene Graphs for Dynamic Scenes",
+      "abstract": "Recent implicit neural rendering methods have demonstrated that it is possible to learn accurate view synthesis for complex scenes by predicting their volumetric density and color supervised solely by a set of RGB images. However, existing methods are restricted to learning efficient representations of static scenes that encode all scene objects into a single neural network, and they lack the ability to represent dynamic scenes and decompose scenes into individual objects. In this work, we present the first neural rendering method that represents multi-object dynamic scenes as scene graphs. We propose a learned scene graph representation, which encodes object transformations and radiance, allowing us to efficiently render novel arrangements and views of the scene. To this end, we learn implicitly encoded scenes, combined with a jointly learned latent representation to describe similar objects with a single implicit function. We assess the proposed method on synthetic and real automotive data, validating that our approach learns dynamic scenes – only by observing a video of this scene – and allows for rendering novel photo-realistic views of novel scene compositions with unseen sets of objects at unseen poses.",
+      "year": 2021,
+      "authors": [
+        "Julian Ost",
+        "Fahim Mannan",
+        "Nils Thuerey",
+        "Julian Knodt",
+        "Felix Heide"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 432,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2011.10379",
+      "url": "https://openalex.org/W3108625339",
+      "also_doi": [],
+      "key": "openalex_101109_cvpr46437202100288_Neural_Scene_Graphs_for_Dynamic_Scenes",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr46437202100288_Neural_Scene_Graphs_for_Dynamic_Scenes.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4390189928",
+      "doi": "10.1109/iccvw60793.2023.00011",
+      "title": "nuScenes Knowledge Graph - A comprehensive semantic representation of traffic scenes for trajectory prediction",
+      "abstract": "Trajectory prediction in traffic scenes involves accurately forecasting the behaviour of surrounding vehicles. To achieve this objective it is crucial to consider contextual information, including the driving path of vehicles, road topology, lane dividers, and traffic rules. Although studies demonstrated the potential of leveraging heterogeneous context for improving trajectory prediction, state-of-the-art deep learning approaches still rely on a limited subset of this information. This is mainly due to the limited availability of comprehensive representations. This paper presents an approach that utilizes knowledge graphs to model the diverse entities and their semantic connections within traffic scenes. Further, we present nuScenes Knowledge Graph (nSKG), a knowledge graph for the nuScenes dataset, that models explicitly all scene participants and road elements, as well as their semantic and spatial relationships. To facilitate the usage of the nSKG via graph neural networks for trajectory prediction, we provide the data in a format, ready-to-use by the PyGlibrary. All artefacts can be found here: https://tinyurl.com/5t2vv9yu.",
+      "year": 2023,
+      "authors": [
+        "Leon Mlodzian",
+        "Zhigang Sun",
+        "Hendrik Berkemeyer",
+        "Sebastian Monka",
+        "Zixu Wang",
+        "Stefan Dietze",
+        "Lavdim Halilaj",
+        "Juergen Luettin"
+      ],
+      "venue": "IEEE International Conference on Computer Vision Workshops",
+      "cited_by": 31,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.09676",
+      "url": "https://openalex.org/W4390189928",
+      "key": "openalex_101109_iccvw60793202300011_nuScenes_Knowledge_Graph_-_A_comprehensive_semantic_re",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccvw60793202300011_nuScenes_Knowledge_Graph_-_A_comprehensive_semantic_re.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4388543867",
+      "doi": "10.1109/lra.2023.3331653",
+      "title": "AutoGraph: Predicting Lane Graphs From Traffic Observations",
+      "abstract": "Lane graph estimation is a long-standing problem in the context of autonomous driving. Previous works aimed at solving this problem by relying on large-scale, hand-annotated lane graphs, introducing a data bottleneck for training models to solve this task. To overcome this limitation, we propose to use the motion patterns of traffic participants as lane graph annotations. In ourAutoGraphapproach, we employ a pre-trained object tracker to collect the tracklets of traffic participants such as vehicles and trucks. Based on the location of these tracklets, we predict the successor lane graph from an initial position using overhead RGB images only, not requiring any human supervision. In a subsequent stage, we show how the individual successor predictions can be aggregated into a consistent lane graph. We demonstrate the efficacy of our approach on the UrbanLaneGraph dataset and perform extensive quantitative and qualitative evaluations, indicating that AutoGraph is on par with models trained on hand-annotated graph data.",
+      "year": 2023,
+      "authors": [
+        "Jannik Zürn",
+        "Ingmar Posner",
+        "Wolfram Burgard"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "cited_by": 11,
+      "is_oa": true,
+      "pdf_url": "https://ora.ox.ac.uk/objects/uuid:34b2f397-dc36-4cc2-9728-424980406065/files/sws859h185",
+      "url": "https://openalex.org/W4388543867",
+      "also_doi": [],
+      "key": "openalex_101109_lra20233331653_AutoGraph_Predicting_Lane_Graphs_From_Traffic_Observations",
+      "file_kind": "txt",
+      "file": "openalex_101109_lra20233331653_AutoGraph_Predicting_Lane_Graphs_From_Traffic_Observations.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402916509",
+      "doi": "10.1109/icip51287.2024.10647492",
+      "title": "Driving Through Graphs: a Bipartite Graph for Traffic Scene Analysis",
+      "abstract": "We introduce a novel approach for traffic scene analysis in driving videos by exploring spatio-temporal relationships captured by a temporal frame-to-frame (f2f) bipartite graph, eliminating the need for complex image-level high-dimensional feature extraction. Instead, we rely on object detectors that provide bounding box information. The proposed graph approach efficiently connects objects across frames where nodes represent essential object attributes, and edges signify interactions based on simple spatial metrics such as distance and angles between objects. A key innovation is the integration of dynamic edge attributes, computed using Multilayer Perceptrons (MLP) by exploring this spatial metric. These attributes enhance our Interaction-aware Graph Neural Networks (IA-GNNs) framework by adapting the PageRank-driven approximate personalized propagation of neural predictions (APPNP) scheme and graph attention mechanism in a novel way. This has significantly improved our model’s ability to understand spatio-temporal interactions of multiple objects in traffic scenarios. We have rigorously evaluated our approach on two benchmark datasets, METEOR and INTERACTION, demonstrating its accuracy in analyzing traffic scenarios. This streamlined, graph-based strategy marks a significant shift towards more efficient and insightful traffic scene analysis using video data. Our source code is available at: https://github.com/Addy-1998/Bip_DTG.",
+      "year": 2024,
+      "authors": [
+        "Aditya Humnabadkar",
+        "Arindam Sikdar",
+        "Huaizhong Zhang",
+        "Tanveer Hussain",
+        "Ardhendu Behera"
+      ],
+      "venue": "Proceedings - International Conference on Image Processing",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://research.edgehill.ac.uk/ws/files/92359971/Graph_Learning_traffic_Scenes_ICIP-2024.pdf",
+      "url": "https://openalex.org/W4402916509",
+      "key": "openalex_101109_icip51287202410647492_Driving_Through_Graphs_a_Bipartite_Graph_for_Traffic",
+      "file_kind": "txt",
+      "file": "openalex_101109_icip51287202410647492_Driving_Through_Graphs_a_Bipartite_Graph_for_Traffic.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4308068563",
+      "doi": "10.1109/itsc55140.2022.9922155",
+      "title": "Relation-based Motion Prediction using Traffic Scene Graphs",
+      "abstract": "Representing relevant information of a traffic scene and understanding its environment is crucial for the success of autonomous driving. Modeling the surrounding of an autonomous car using semantic relations, i.e., how different traffic participants relate in the context of traffic rule based behaviors, is hardly been considered in previous work. This stems from the fact that these relations are hard to extract from real-world traffic scenes. In this work, we model traffic scenes in a form of spatial semantic scene graphs for various different predictions about the traffic participants, e.g., acceleration and deceleration. Our learning and inference approach uses Graph Neural Networks (GNNs) and shows that incorporating explicit information about the spatial semantic relations between traffic participants improves the predicdtion results. Specifically, the acceleration prediction of traffic participants is improved by up to 12% compared to the baselines, which do not exploit this explicit information. Furthermore, by including additional information about previous scenes, we achieve 73% improvements.",
+      "year": 2022,
+      "authors": [
+        "Maximilian Zipfl",
+        "Felix Hertlein",
+        "Achim Rettinger",
+        "Steffen Thoma",
+        "Lavdim Halilaj",
+        "Juergen Luettin",
+        "Stefan Schmid",
+        "Cory Andrew Henson"
+      ],
+      "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+      "cited_by": 17,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2212.02503",
+      "url": "https://openalex.org/W4308068563",
+      "key": "openalex_101109_itsc5514020229922155_Relation-based_Motion_Prediction_using_Traffic_Scene_",
+      "file_kind": "txt",
+      "file": "openalex_101109_itsc5514020229922155_Relation-based_Motion_Prediction_using_Traffic_Scene_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4365211588",
+      "doi": "10.1007/s11432-025-4815-9",
+      "title": "Graph-based topology reasoning for driving scenes",
+      "abstract": "Understanding the road structure is essential for achieving autonomous driving. This intricate topic contains two fundamental components: the interconnections between lanes and the associations between lanes and traffic elements (e.g., traffic lights), where a comprehensive topology reasoning method is still absent. On one hand, existing map learning techniques face challenges in deriving lane connectivity using segmentation or laneline-based representations; or prior approaches focus on centerline detection while neglecting interaction modeling. On the other hand, the topic of assigning traffic elements to lanes is limited in the image domain, leaving the construction of the correspondence between image and 3D views an unexplored challenge. To address these issues, we present TopoNet, an end-to-end topology reasoning network for analyzing driving scenes. To capture the topology of driving environments effectively, we introduce three key designs: (1) an embedding module that integrates semantic knowledge from 2D elements into a unified feature space; (2) a curated scene graph neural network that models relationships and facilitates feature interactions within the network; (3) a scene knowledge graph devised to differentiate prior knowledge from various types of the scene topology avoiding arbitrary message transmission. We evaluate TopoNet on the challenging scene understanding benchmark, OpenLane-V2, where our approach outperforms all previous studies by a significant margin across all perceptual and topological metrics. The code is released at https://github.com/OpenDriveLab/TopoNet .",
+      "year": 2026,
+      "authors": [
+        "Tianyu Li",
+        "Li Chen",
+        "Huijie Wang",
+        "Yang Li",
+        "Jie Yang",
+        "Xiangwei Geng",
+        "Hang Xu",
+        "Chunjing Xu",
+        "Junchi Yan",
+        "Ping Luo",
+        "Hui Li"
+      ],
+      "venue": "Science China Information Sciences",
+      "cited_by": 106,
+      "is_oa": true,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11432-025-4815-9.pdf",
+      "url": "https://openalex.org/W4365211588",
+      "key": "openalex_101007_s11432-025-4815-9_Graph-based_topology_reasoning_for_driving_scenes",
+      "file_kind": "txt",
+      "file": "openalex_101007_s11432-025-4815-9_Graph-based_topology_reasoning_for_driving_scenes.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7119031322",
+      "doi": "10.4271/2025-01-7316",
+      "title": "STGT-Gen: Spatio-Temporal Graph Transformer for Multi-Vehicle Traffic Scenario Generation",
+      "abstract": "In the testing and validation of autonomous driving systems, scenario-based simulation is crucial to address the high costs and insufficient scene coverage of real-road testing. However, existing simulators rely on handcrafted rules to generate traffic scenarios, failing to capture the complexity of multi-agent interactions and physical rationality in real traffic. This paper proposes STGT-Gen, a data-driven Spatio-Temporal Graph Transformer framework, to generate realistic and diverse multi-vehicle traffic scenarios by integrating spatio-temporal interaction modeling, physical constraints, and high-definition (HD) map information.STGT-Gen adopts an encoder-decoder architecture: The encoder captures temporal dependencies of vehicle trajectories and spatial interactions via a Temporal Transformer and a Spatial Graph Transformer, respectively, while a hierarchical map encoding module fuses lane topologies and traffic rules. The decoder ensures physical feasibility during long-term trajectory generation through the Separating Axis Theorem (SAT) for collision detection and dynamic constraints (acceleration and steering angle limits). Experiments on real-world rounD and highD traffic datasets show that compared with the LSTM baseline model and recent Transformer-based methods, STGT-Gen achieves three-dimensional optimization: the Average Displacement Error (ADE) is reduced by 34.6%–40.7% compared to LSTM and by 12.3%–18.5% compared to Transformer baselines, the collision rate decreases by 62%, and the lane deviation rate drops by 81%. These results significantly enhance the trajectory accuracy, physical safety, and map compliance of generated scenarios, providing an efficient solution for high-fidelity scenario testing of autonomous driving systems.",
+      "year": 2025,
+      "authors": [
+        "Xupeng Qin",
+        "Chao Lu",
+        "Y. Wei",
+        "Sizhe Fan",
+        "Ze Song",
+        "Jianwei Gong"
+      ],
+      "venue": "SAE technical papers on CD-ROM/SAE technical paper series",
+      "cited_by": 1,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7119031322",
+      "key": "openalex_104271_2025-01-7316_STGT-Gen_Spatio-Temporal_Graph_Transformer_for_Multi-Vehicle_",
+      "file_kind": "txt",
+      "file": "openalex_104271_2025-01-7316_STGT-Gen_Spatio-Temporal_Graph_Transformer_for_Multi-Vehicle_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3173280621",
+      "doi": "10.1109/cvpr46437.2021.00095",
+      "title": "SceneGen: Learning to Generate Realistic Traffic Scenes",
+      "abstract": "We consider the problem of generating realistic traffic scenes automatically. Existing methods typically insert actors into the scene according to a set of hand-crafted heuristics and are limited in their ability to model the true complexity and diversity of real traffic scenes, thus inducing a content gap between synthesized traffic scenes versus real ones. As a result, existing simulators lack the fidelity necessary to train and test self-driving vehicles. To address this limitation, we present SceneGen—a neural autoregressive model of traffic scenes that eschews the need for rules and heuristics. In particular, given the ego-vehicle state and a high definition map of surrounding area, SceneGen inserts actors of various classes into the scene and synthesizes their sizes, orientations, and velocities. We demonstrate on two large-scale datasets SceneGen’s ability to faithfully model distributions of real traffic scenes. Moreover, we show that SceneGen coupled with sensor simulation can be used to train perception models that generalize to the real world.",
+      "year": 2021,
+      "authors": [
+        "Shuhan Tan",
+        "Kelvin Wong",
+        "Shenlong Wang",
+        "Sivabalan Manivasagam",
+        "Mengye Ren",
+        "Raquel Urtasun"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 172,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2101.06541",
+      "url": "https://openalex.org/W3173280621",
+      "key": "openalex_101109_cvpr46437202100095_SceneGen_Learning_to_Generate_Realistic_Traffic_Scenes",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr46437202100095_SceneGen_Learning_to_Generate_Realistic_Traffic_Scenes.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402961448",
+      "doi": "10.1007/978-3-031-72784-9_19",
+      "title": "Lane Graph as Path: Continuity-Preserving Path-Wise Modeling for Online Lane Graph Construction",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Bencheng Liao",
+        "Shaoyu Chen",
+        "Bo Jiang",
+        "Tianheng Cheng",
+        "Qian Zhang",
+        "Wenyu Liu",
+        "Chang Huang",
+        "Xinggang Wang"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 74,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.08815",
+      "url": "https://openalex.org/W4402961448",
+      "key": "openalex_101007_978-3-031-72784-9_19_Lane_Graph_as_Path_Continuity-Preserving_Path-Wise_Mo",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72784-9_19_Lane_Graph_as_Path_Continuity-Preserving_Path-Wise_Mo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4390481667",
+      "doi": "10.1109/ssci52147.2023.10372060",
+      "title": "Traffic Scene Similarity: a Graph-based Contrastive Learning Approach",
+      "abstract": "Ensuring validation for highly automated driving poses significant obstacles to the widespread adoption of highly automated vehicles. Scenario-based testing offers a potential solution by reducing the homologation effort required for these systems. However, a crucial prerequisite, yet unresolved, is the definition and reduction of the test space to a finite number of scenarios. To tackle this challenge, we propose an extension to a contrastive learning approach utilizing graphs to construct a meaningful embedding space. Our approach demonstrates the continuous mapping of scenes using scene-specific features and the formation of thematically similar clusters based on the resulting embeddings. Based on the found clusters, similar scenes could be identified in the subsequent test process, which can lead to a reduction in redundant test runs.",
+      "year": 2023,
+      "authors": [
+        "Maximilian Zipfl",
+        "Moritz Jarosch",
+        "J. Marius Zöllner"
+      ],
+      "venue": "IEEE Symposium Series on Computational Intelligence (SSCI)",
+      "cited_by": 10,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2309.09720",
+      "url": "https://openalex.org/W4390481667",
+      "key": "openalex_101109_ssci52147202310372060_Traffic_Scene_Similarity_a_Graph-based_Contrastive_L",
+      "file_kind": "txt",
+      "file": "openalex_101109_ssci52147202310372060_Traffic_Scene_Similarity_a_Graph-based_Contrastive_L.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405363067",
+      "doi": "10.1109/iavvc63304.2024.10786395",
+      "title": "Enhancing Vision-Language Models with Scene Graphs for Traffic Accident Understanding",
+      "abstract": "Recognizing a traffic accident is an essential part of any autonomous driving or road monitoring system. An accident can appear in a wide variety of forms, and understanding what type of accident is taking place may be useful to prevent it from reoccurring. This work focuses on classifying traffic scenes into specific accident types. We approach the problem by representing a traffic scene as a graph, where objects such as cars can be represented as nodes, and relative distances and directions between them as edges. This representation of a traffic scene is referred to as a scene graph, and can be used as input for an accident classifier. Better results are obtained with a classifier that fuses the scene graph input with visual and textual representations. This work introduces a multi-stage, multimodal pipeline that pre-processes videos of traffic accidents, encodes them as scene graphs, and aligns this representation with vision and language modalities before executing the classification task. When trained on 4 classes, our method achieves a balanced accuracy score of 57.77% on an (unbalanced) subset of the popular Detection of Traffic Anomaly (DoTA) benchmark, representing an increase of close to 5 percentage points from the case where scene graph information is not taken into account.",
+      "year": 2024,
+      "authors": [
+        "Aaron Lohner",
+        "Francesco Compagno",
+        "Jonathan Francis",
+        "Alessandro Oltramari"
+      ],
+      "venue": "IEEE International Automated Vehicle Validation Conference (IAVVC)",
+      "cited_by": 20,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2407.05910",
+      "url": "https://openalex.org/W4405363067",
+      "key": "openalex_101109_iavvc63304202410786395_Enhancing_Vision-Language_Models_with_Scene_Graphs_",
+      "file_kind": "txt",
+      "file": "openalex_101109_iavvc63304202410786395_Enhancing_Vision-Language_Models_with_Scene_Graphs_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4400488005",
+      "doi": "10.1109/lra.2024.3426386",
+      "title": "SemanticFormer: Holistic and Semantic Traffic Scene Representation for Trajectory Prediction Using Knowledge Graphs",
+      "abstract": "Trajectory prediction in autonomous driving relies on accurate representation of all relevant contexts of the driving scene, including traffic participants, road topology, traffic signs, as well as their semantic relations to each other. Despite increased attention to this issue, most approaches in trajectory prediction do not consider all of these factors sufficiently. We presentSemanticFormer, an approach for predicting multimodal trajectories by reasoning over a semantic traffic scene graph using a hybrid approach. It utilizes high-level information in the form of meta-paths, i.e. trajectories on which an agent is allowed to drive from a knowledge graph which is then processed by a novel pipeline based on multiple attention mechanisms to predict accurate trajectories. SemanticFormer comprises a hierarchical heterogeneous graph encoder to capture spatio-temporal and relational information across agents as well as between agents and road elements. Further, it includes a predictor to fuse different encodings and decode trajectories with probabilities. Finally, a refinement module assesses permitted meta-paths of trajectories and speed profiles to obtain final predicted trajectories. Evaluation of the nuScenes benchmark demonstrates improved performance compared to several SOTA methods. In addition, we demonstrate that our knowledge graph can be easily added to two graph-based existing SOTA methods, namely VectorNet and LaFormer, replacing their original homogeneous graphs. The evaluation results suggest that by adding our knowledge graph the performance of the original methods is enhanced by 5% and 4%, respectively.",
+      "year": 2024,
+      "authors": [
+        "Zhigang Sun",
+        "Zixu Wang",
+        "Lavdim Halilaj",
+        "Juergen Luettin"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "cited_by": 49,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.19379",
+      "url": "https://openalex.org/W4400488005",
+      "key": "openalex_101109_lra20243426386_SemanticFormer_Holistic_and_Semantic_Traffic_Scene_Represen",
+      "file_kind": "txt",
+      "file": "openalex_101109_lra20243426386_SemanticFormer_Holistic_and_Semantic_Traffic_Scene_Represen.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4313307325",
+      "doi": "10.1109/iceccme55909.2022.9988246",
+      "title": "Self Supervised Clustering of Traffic Scenes using Graph Representations",
+      "abstract": "Examining graphs for similarity is a well-known challenge, but one that is mandatory for grouping graphs together. We present a data-driven method to cluster traffic scenes that is self-supervised, i.e. without manual labelling. We leverage the semantic scene graph model to create a generic graph embedding of the traffic scene, which is then mapped to a low-dimensional embedding space using a Siamese network, in which clustering is performed. In the training process of our novel approach, we augment existing traffic scenes in the Cartesian space to generate positive similarity samples. This allows us to overcome the challenge of reconstructing a graph and at the same time obtain a representation to describe the similarity of traffic scenes. We could show, that the resulting clusters possess common semantic characteristics. The approach was evaluated on the INTERACTION dataset.",
+      "year": 2022,
+      "authors": [
+        "Maximilian Zipfl",
+        "Moritz Jarosch",
+        "J. Marius Zöllner"
+      ],
+      "venue": "International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)",
+      "cited_by": 6,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2211.15508",
+      "url": "https://openalex.org/W4313307325",
+      "key": "openalex_101109_iceccme5590920229988246_Self_Supervised_Clustering_of_Traffic_Scenes_using",
+      "file_kind": "txt",
+      "file": "openalex_101109_iceccme5590920229988246_Self_Supervised_Clustering_of_Traffic_Scenes_using.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405787055",
+      "doi": "10.1109/iros58592.2024.10801623",
+      "title": "DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving",
+      "abstract": "Evaluating and training autonomous driving systems require diverse and scalable corner cases. However, most existing scene generation methods lack controllability, accuracy, and versatility, resulting in unsatisfactory generation results. Inspired by DragGAN in image generation, we propose DragTraffic, a generalized, interactive, and controllable traffic scene generation framework based on conditional diffusion. DragTraffic enables non-experts to generate a variety of realistic driving scenarios for different types of traffic agents through an adaptive mixture expert architecture. We employ a regression model to provide a general initial solution and a refinement process based on the conditional diffusion model to ensure diversity. User-customized context is introduced through cross-attention to ensure high controllability. Experiments on a real-world driving dataset show that DragTraffic outperforms existing methods in terms of authenticity, diversity, and freedom. Demo videos and code are available at https://chantsss.github.io/Dragtraffic/.",
+      "year": 2024,
+      "authors": [
+        "Sheng Wang",
+        "Ge Sun",
+        "Fulong Ma",
+        "Tianshuai Hu",
+        "Qiang Qin",
+        "Yongkang Song",
+        "Lei Zhu",
+        "Junwei Liang"
+      ],
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "cited_by": 15,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.12624",
+      "url": "https://openalex.org/W4405787055",
+      "key": "openalex_101109_iros58592202410801623_DragTraffic_Interactive_and_Controllable_Traffic_Sce",
+      "file_kind": "txt",
+      "file": "openalex_101109_iros58592202410801623_DragTraffic_Interactive_and_Controllable_Traffic_Sce.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4409535208",
+      "doi": "10.3390/s25082546",
+      "title": "Query by Example: Semantic Traffic Scene Retrieval Using LLM-Based Scene Graph Representation",
+      "abstract": "In autonomous driving, retrieving a specific traffic scene in huge datasets is a significant challenge. Traditional scene retrieval methods struggle to cope with the semantic complexity and heterogeneity of traffic scenes and are unable to meet the variable needs of different users. This paper proposes \"Query-by-Example\", a traffic scene retrieval approach based on Visual-Large Language Model (VLM)-generated Road Scene Graph (RSG) representation. Our method uses VLMs to generate structured scene graphs from video data, capturing high-level semantic attributes and detailed object relationships in traffic scenes. We introduce an extensible set of scene attributes and a graph-based scene description to quantify scene similarity. We also propose a RSG-LLM benchmark dataset containing 1000 traffic scenes, their corresponding natural language descriptions, and RSGs to evaluate the performance of LLMs in generating RSGs. Experiments show that our method can effectively retrieve semantically similar traffic scenes from large databases, supporting various query formats, including natural language, images, video clips, rosbag, etc. Our method provides a comprehensive and flexible framework for traffic scene retrieval, promoting its application in autonomous driving systems.",
+      "year": 2025,
+      "authors": [
+        "Yafu Tian",
+        "Alexander Carballo",
+        "Ruifeng Li",
+        "Simon Thompson",
+        "Kazuya Takeda"
+      ],
+      "venue": "Sensors",
+      "cited_by": 7,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4409535208",
+      "key": "openalex_103390_s25082546_Query_by_Example_Semantic_Traffic_Scene_Retrieval_Using_LLM-Base",
+      "file_kind": "txt",
+      "file": "openalex_103390_s25082546_Query_by_Example_Semantic_Traffic_Scene_Retrieval_Using_LLM-Base.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402951698",
+      "doi": "10.1007/978-3-031-73235-5_4",
+      "title": "SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Kashyap Chitta",
+        "Daniel Dauner",
+        "Andreas Geiger"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 53,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.17933",
+      "url": "https://openalex.org/W4402951698",
+      "key": "openalex_101007_978-3-031-73235-5_4_SLEDGE_Synthesizing_Driving_Environments_with_Generati",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-73235-5_4_SLEDGE_Synthesizing_Driving_Environments_with_Generati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415109089",
+      "doi": "10.1145/3770855.3817889",
+      "title": "Geometry-Guided Representations for Coherent Lane and Traffic Topology Reasoning in Driving Scenes",
+      "abstract": "Road topology reasoning is fundamental for autonomous driving, requiring both accurate perception of road elements and understanding of their complex connectivity, including lane connectivity (Lane-to-Lane, L2L) and traffic regulation (Lane-to-Traffic signs, L2T). However, existing methods typically treat perception and topology reasoning as fragmented tasks, ignoring their potential for mutual enhancement. Crucially, while topology is inherently relational, prior works often overlook geometric relationships during feature extraction, relying instead on brittle post-processing or coordinate-based heuristics applied only at inference time. To bridge this gap, we propose Copo ( Co herent Perception and To po logy), a unified framework that integrates geometry-guided relational modeling across three levels: 1) Perception-level: We introduce a relation-aware lane detector that utilizes geometry-biased self-attention and curve-guided cross-attention to enrich lane representations with structural priors; 2) Reasoning-level: We design relation-enhanced topology heads, including a geometry-enhanced L2L head and a cross-view L2T head, which effectively align features to infer connectivity; and 3) Supervision-level: We implement a contrastive InfoNCE strategy to regularize relational embeddings, pulling connected pairs closer in the latent space. This coherent multi-level design enables end-to-end joint optimization of perception and reasoning. Extensive experiments on OpenLane-V2 demonstrate that CoPo significantly outperforms existing methods, achieving gains of +3.1 in DET_l, +5.3 in TOP_ll, +4.9 in TOP_lt, and +4.4 overall in OLS, setting a new state-of-the-art.",
+      "year": 2026,
+      "authors": [
+        "Yueru Luo",
+        "Changqing Zhou",
+        "Yiming Yang",
+        "Erlong Li",
+        "Chao Zheng",
+        "Shuguang Robert Cui",
+        "Zhen Li"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "cited_by": 4,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415109089",
+      "key": "openalex_101145_37708553817889_Geometry-Guided_Representations_for_Coherent_Lane_and_Traff",
+      "file_kind": "txt",
+      "file": "openalex_101145_37708553817889_Geometry-Guided_Representations_for_Coherent_Lane_and_Traff.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "1909.09256v1",
+      "doi": "",
+      "title": "Triplet-Aware Scene Graph Embeddings",
+      "abstract": "Scene graphs have become an important form of structured knowledge for tasks such as for image generation, visual relation detection, visual question answering, and image retrieval. While visualizing and interpreting word embeddings is well understood, scene graph embeddings have not been fully explored. In this work, we train scene graph embeddings in a layout generation task with different forms of supervision, specifically introducing triplet super-vision and data augmentation. We see a significant performance increase in both metrics that measure the goodness of layout prediction, mean intersection-over-union (mIoU)(52.3% vs. 49.2%) and relation score (61.7% vs. 54.1%),after the addition of triplet supervision and data augmentation. To understand how these different methods affect the scene graph representation, we apply several new visualization and evaluation methods to explore the evolution of the scene graph embedding. We find that triplet supervision significantly improves the embedding separability, which is highly correlated with the performance of the layout prediction model.",
+      "year": 2019,
+      "authors": [
+        "Brigit Schroeder",
+        "Subarna Tripathi",
+        "Hanlin Tang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1909.09256v1",
+      "url": "http://arxiv.org/abs/1909.09256v1",
+      "key": "arxiv_190909256v1_Triplet-Aware_Scene_Graph_Embeddings",
+      "file_kind": "txt",
+      "file": "arxiv_190909256v1_Triplet-Aware_Scene_Graph_Embeddings.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2308.05286v2",
+      "doi": "",
+      "title": "Informative Scene Graph Generation via Debiasing",
+      "abstract": "Scene graph generation aims to detect visual relationship triplets, (subject, predicate, object). Due to biases in data, current models tend to predict common predicates, e.g. \"on\" and \"at\", instead of informative ones, e.g. \"standing on\" and \"looking at\". This tendency results in the loss of precise information and overall performance. If a model only uses \"stone on road\" rather than \"stone blocking road\" to describe an image, it may be a grave misunderstanding. We argue that this phenomenon is caused by two imbalances: semantic space level imbalance and training sample level imbalance. For this problem, we propose DB-SGG, an effective framework based on debiasing but not the conventional distribution fitting. It integrates two components: Semantic Debiasing (SD) and Balanced Predicate Learning (BPL), for these imbalances. SD utilizes a confusion matrix and a bipartite graph to construct predicate relationships. BPL adopts a random undersampling strategy and an ambiguity removing strategy to focus on informative predicates. Benefiting from the model-agnostic process, our method can be easily applied to SGG models and outperforms Transformer by 136.3%, 119.5%, and 122.6% on mR@20 at three SGG sub-tasks on the SGG-VG dataset. Our method is further verified on another complex SGG dataset (SGG-GQA) and two downstream tasks (sentence-to-graph retrieval and image captioning).",
+      "year": 2023,
+      "authors": [
+        "Lianli Gao",
+        "Xinyu Lyu",
+        "Yuyu Guo",
+        "Yuxuan Hu",
+        "Yuan-Fang Li",
+        "Lu Xu",
+        "Heng Tao Shen",
+        "Jingkuan Song"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2308.05286v2",
+      "url": "http://arxiv.org/abs/2308.05286v2",
+      "key": "arxiv_230805286v2_Informative_Scene_Graph_Generation_via_Debiasing",
+      "file_kind": "txt",
+      "file": "arxiv_230805286v2_Informative_Scene_Graph_Generation_via_Debiasing.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2002.11949v4",
+      "doi": "",
+      "title": "Unbiased Scene Graph Generation from Biased Training",
+      "abstract": "Today's scene graph generation (SGG) task is still far from practical, mainly due to the severe training bias, e.g., collapsing diverse \"human walk on / sit on / lay on beach\" into \"human on beach\". Given such SGG, the down-stream tasks such as VQA can hardly infer better scene structures than merely a bag of objects. However, debiasing in SGG is not trivial because traditional debiasing methods cannot distinguish between the good and bad bias, e.g., good context prior (e.g., \"person read book\" rather than \"eat\") and bad long-tailed bias (e.g., \"near\" dominating \"behind / in front of\"). In this paper, we present a novel SGG framework based on causal inference but not the conventional likelihood. We first build a causal graph for SGG, and perform traditional biased training with the graph. Then, we propose to draw the counterfactual causality from the trained graph to infer the effect from the bad bias, which should be removed. In particular, we use Total Direct Effect (TDE) as the proposed final predicate score for unbiased SGG. Note that our framework is agnostic to any SGG model and thus can be widely applied in the community who seeks unbiased predictions. By using the proposed Scene Graph Diagnosis toolkit on the SGG benchmark Visual Genome and several prevailing models, we observed significant improvements over the previous state-of-the-art methods.",
+      "year": 2020,
+      "authors": [
+        "Kaihua Tang",
+        "Yulei Niu",
+        "Jianqiang Huang",
+        "Jiaxin Shi",
+        "Hanwang Zhang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2002.11949v4",
+      "url": "http://arxiv.org/abs/2002.11949v4",
+      "key": "arxiv_200211949v4_Unbiased_Scene_Graph_Generation_from_Biased_Training",
+      "file_kind": "txt",
+      "file": "arxiv_200211949v4_Unbiased_Scene_Graph_Generation_from_Biased_Training.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.14981v4",
+      "doi": "",
+      "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+      "abstract": "Creating high-fidelity 3D models of indoor environments is essential for applications in design, virtual reality, and robotics. However, manual 3D modeling remains time-consuming and labor-intensive. While recent advances in generative AI have enabled automated scene synthesis, existing methods often face challenges in balancing visual quality, diversity, semantic consistency, and user control. A major bottleneck is the lack of a large-scale, high-quality dataset tailored to this task. To address this gap, we introduce a comprehensive synthetic dataset, featuring 12,328 structured annotated scenes with 57,431 rooms, and 4.7M photorealistic 2D renderings. Leveraging this dataset, we present SpatialGen, a novel multi-view multi-modal diffusion model that generates realistic and semantically consistent 3D indoor scenes. Given a 3D layout and a reference image (derived from a text prompt), our model synthesizes appearance (color image), geometry (scene coordinate map), and semantic (semantic segmentation map) from arbitrary viewpoints, while preserving spatial consistency across modalities. SpatialGen consistently generates superior results to previous methods in our experiments. We are open-sourcing our data and models to empower the community and advance the field of indoor scene understanding and generation.",
+      "year": 2025,
+      "authors": [
+        "Chuan Fang",
+        "Heng Li",
+        "Yixun Liang",
+        "Jia Zheng",
+        "Yongsen Mao",
+        "Yuan Liu",
+        "Rui Tang",
+        "Zihan Zhou",
+        "Ping Tan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.14981v4",
+      "url": "http://arxiv.org/abs/2509.14981v4",
+      "key": "arxiv_250914981v4_SPATIALGEN_Layout-guided_3D_Indoor_Scene_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_250914981v4_SPATIALGEN_Layout-guided_3D_Indoor_Scene_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.07152v1",
+      "doi": "",
+      "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+      "abstract": "Three-dimensional scene generation is crucial in computer vision, with applications spanning autonomous driving, gaming and the metaverse. Current methods either lack user control or rely on imprecise, non-intuitive conditions. In this work, we propose a method that uses, scene graphs, an accessible, user friendly control format to generate outdoor 3D scenes. We develop an interactive system that transforms a sparse scene graph into a dense BEV (Bird's Eye View) Embedding Map, which guides a conditional diffusion model to generate 3D scenes that match the scene graph description. During inference, users can easily create or modify scene graphs to generate large-scale outdoor scenes. We create a large-scale dataset with paired scene graphs and 3D semantic scenes to train the BEV embedding and diffusion models. Experimental results show that our approach consistently produces high-quality 3D urban scenes closely aligned with the input scene graphs. To the best of our knowledge, this is the first approach to generate 3D outdoor scenes conditioned on scene graphs.",
+      "year": 2025,
+      "authors": [
+        "Yuheng Liu",
+        "Xinke Li",
+        "Yuning Zhang",
+        "Lu Qi",
+        "Xin Li",
+        "Wenping Wang",
+        "Chongshou Li",
+        "Xueting Li",
+        "Ming-Hsuan Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.07152v1",
+      "url": "http://arxiv.org/abs/2503.07152v1",
+      "key": "arxiv_250307152v1_Controllable_3D_Outdoor_Scene_Generation_via_Scene_Graphs",
+      "file_kind": "txt",
+      "file": "arxiv_250307152v1_Controllable_3D_Outdoor_Scene_Generation_via_Scene_Graphs.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2311.17058v1",
+      "doi": "",
+      "title": "Panoptic Video Scene Graph Generation",
+      "abstract": "Towards building comprehensive real-world visual perception systems, we propose and study a new problem called panoptic scene graph generation (PVSG). PVSG relates to the existing video scene graph generation (VidSGG) problem, which focuses on temporal interactions between humans and objects grounded with bounding boxes in videos. However, the limitation of bounding boxes in detecting non-rigid objects and backgrounds often causes VidSGG to miss key details crucial for comprehensive video understanding. In contrast, PVSG requires nodes in scene graphs to be grounded by more precise, pixel-level segmentation masks, which facilitate holistic scene understanding. To advance research in this new area, we contribute the PVSG dataset, which consists of 400 videos (289 third-person + 111 egocentric videos) with a total of 150K frames labeled with panoptic segmentation masks as well as fine, temporal scene graphs. We also provide a variety of baseline methods and share useful design practices for future work.",
+      "year": 2023,
+      "authors": [
+        "Jingkang Yang",
+        "Wenxuan Peng",
+        "Xiangtai Li",
+        "Zujin Guo",
+        "Liangyu Chen",
+        "Bo Li",
+        "Zheng Ma",
+        "Kaiyang Zhou",
+        "Wayne Zhang",
+        "Chen Change Loy",
+        "Ziwei Liu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.17058v1",
+      "url": "http://arxiv.org/abs/2311.17058v1",
+      "key": "arxiv_231117058v1_Panoptic_Video_Scene_Graph_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_231117058v1_Panoptic_Video_Scene_Graph_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2308.04758v2",
+      "doi": "",
+      "title": "Bird's-Eye-View Scene Graph for Vision-Language Navigation",
+      "abstract": "Vision-language navigation (VLN), which entails an agent to navigate 3D environments following human instructions, has shown great advances. However, current agents are built upon panoramic observations, which hinders their ability to perceive 3D scene geometry and easily leads to ambiguous selection of panoramic view. To address these limitations, we present a BEV Scene Graph (BSG), which leverages multi-step BEV representations to encode scene layouts and geometric cues of indoor environment under the supervision of 3D detection. During navigation, BSG builds a local BEV representation at each step and maintains a BEV-based global scene map, which stores and organizes all the online collected local BEV representations according to their topological relations. Based on BSG, the agent predicts a local BEV grid-level decision score and a global graph-level decision score, combined with a sub-view selection score on panoramic views, for more accurate action prediction. Our approach significantly outperforms state-of-the-art methods on REVERIE, R2R, and R4R, showing the potential of BEV perception in VLN.",
+      "year": 2023,
+      "authors": [
+        "Rui Liu",
+        "Xiaohan Wang",
+        "Wenguan Wang",
+        "Yi Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2308.04758v2",
+      "url": "http://arxiv.org/abs/2308.04758v2",
+      "key": "arxiv_230804758v2_Birds-Eye-View_Scene_Graph_for_Vision-Language_Navigation",
+      "file_kind": "txt",
+      "file": "arxiv_230804758v2_Birds-Eye-View_Scene_Graph_for_Vision-Language_Navigation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.05474v2",
+      "doi": "10.1007/s11263-026-02999-6",
+      "title": "3D Scene Generation: A Survey",
+      "abstract": "3D scene generation seeks to synthesize spatially structured, semantically meaningful, and photorealistic environments for applications such as immersive media, robotics, autonomous driving, and embodied AI. Early methods based on procedural rules offered scalability but limited diversity. Recent advances in deep generative models (e.g., GANs, diffusion models) and 3D representations (e.g., NeRF, 3D Gaussians) have enabled the learning of real-world scene distributions, improving fidelity, diversity, and view consistency. Recent advances like diffusion models bridge 3D scene synthesis and photorealism by reframing generation as image or video synthesis problems. This survey provides a systematic overview of state-of-the-art approaches, organizing them into four paradigms: procedural generation, neural 3D-based generation, image-based generation, and video-based generation. We analyze their technical foundations, trade-offs, and representative results, and review commonly used datasets, evaluation protocols, and downstream applications. We conclude by discussing key challenges in generation capacity, 3D representation, data and annotations, and evaluation, and outline promising directions including higher fidelity, physics-aware and interactive generation, and unified perception-generation models. This review organizes recent advances in 3D scene generation and highlights promising directions at the intersection of generative AI, 3D vision, and embodied intelligence. To track ongoing developments, we maintain an up-to-date project page: https://github.com/hzxie/Awesome-3D-Scene-Generation.",
+      "year": 2025,
+      "authors": [
+        "Haozhe Xie",
+        "Beichen Wen",
+        "Zhaoxi Chen",
+        "Fangzhou Hong",
+        "Ziwei Liu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.05474v2",
+      "url": "http://arxiv.org/abs/2505.05474v2",
+      "key": "arxiv_101007_s11263-026-02999-6_3D_Scene_Generation_A_Survey",
+      "file_kind": "txt",
+      "file": "arxiv_101007_s11263-026-02999-6_3D_Scene_Generation_A_Survey.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2207.13316v2",
+      "doi": "",
+      "title": "NICEST: Noisy Label Correction and Training for Robust Scene Graph Generation",
+      "abstract": "Nearly all existing scene graph generation (SGG) models have overlooked the ground-truth annotation qualities of mainstream SGG datasets, i.e., they assume: 1) all the manually annotated positive samples are equally correct; 2) all the un-annotated negative samples are absolutely background. In this paper, we argue that neither of the assumptions applies to SGG: there are numerous noisy ground-truth predicate labels that break these two assumptions and harm the training of unbiased SGG models. To this end, we propose a novel NoIsy label CorrEction and Sample Training strategy for SGG: NICEST. Specifically, it consists of two parts: NICE and NIST, which rule out these noisy label issues by generating high-quality samples and the effective training strategy, respectively. NICE first detects noisy samples and then reassigns them more high-quality soft predicate labels. NIST is a multi-teacher knowledge distillation based training strategy, which enables the model to learn unbiased fusion knowledge. And a dynamic trade-off weighting strategy in NIST is designed to penalize the bias of different teachers. Due to the model-agnostic nature of both NICE and NIST, our NICEST can be seamlessly incorporated into any SGG architecture to boost its performance on different predicate categories. In addition, to better evaluate the generalization of SGG models, we further propose a new benchmark VG-OOD, by re-organizing the prevalent VG dataset and deliberately making the predicate distributions of the training and test sets as different as possible for each subject-object category pair. This new benchmark helps disentangle the influence of subject-object category based frequency biases. Extensive ablations and results on different backbones and tasks have attested to the effectiveness and generalization ability of each component of NICEST.",
+      "year": 2022,
+      "authors": [
+        "Lin Li",
+        "Jun Xiao",
+        "Hanrong Shi",
+        "Hanwang Zhang",
+        "Yi Yang",
+        "Wei Liu",
+        "Long Chen"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2207.13316v2",
+      "url": "http://arxiv.org/abs/2207.13316v2",
+      "key": "arxiv_220713316v2_NICEST_Noisy_Label_Correction_and_Training_for_Robust_Scene_Graph_Genera",
+      "file_kind": "txt",
+      "file": "arxiv_220713316v2_NICEST_Noisy_Label_Correction_and_Training_for_Robust_Scene_Graph_Genera.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2304.03280v1",
+      "doi": "",
+      "title": "LANe: Lighting-Aware Neural Fields for Compositional Scene Synthesis",
+      "abstract": "Neural fields have recently enjoyed great success in representing and rendering 3D scenes. However, most state-of-the-art implicit representations model static or dynamic scenes as a whole, with minor variations. Existing work on learning disentangled world and object neural fields do not consider the problem of composing objects into different world neural fields in a lighting-aware manner. We present Lighting-Aware Neural Field (LANe) for the compositional synthesis of driving scenes in a physically consistent manner. Specifically, we learn a scene representation that disentangles the static background and transient elements into a world-NeRF and class-specific object-NeRFs to allow compositional synthesis of multiple objects in the scene. Furthermore, we explicitly designed both the world and object models to handle lighting variation, which allows us to compose objects into scenes with spatially varying lighting. This is achieved by constructing a light field of the scene and using it in conjunction with a learned shader to modulate the appearance of the object NeRFs. We demonstrate the performance of our model on a synthetic dataset of diverse lighting conditions rendered with the CARLA simulator, as well as a novel real-world dataset of cars collected at different times of the day. Our approach shows that it outperforms state-of-the-art compositional scene synthesis on the challenging dataset setup, via composing object-NeRFs learned from one scene into an entirely different scene whilst still respecting the lighting variations in the novel scene. For more results, please visit our project website https://lane-composition.github.io/.",
+      "year": 2023,
+      "authors": [
+        "Akshay Krishnan",
+        "Amit Raj",
+        "Xianling Zhang",
+        "Alexandra Carlson",
+        "Nathan Tseng",
+        "Sandhya Sridhar",
+        "Nikita Jaipuria",
+        "James Hays"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2304.03280v1",
+      "url": "http://arxiv.org/abs/2304.03280v1",
+      "key": "arxiv_230403280v1_LANe_Lighting-Aware_Neural_Fields_for_Compositional_Scene_Synthesis",
+      "file_kind": "txt",
+      "file": "arxiv_230403280v1_LANe_Lighting-Aware_Neural_Fields_for_Compositional_Scene_Synthesis.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2607.22325v1",
+      "doi": "10.5220/0014249800004052",
+      "title": "Geometric 2D Scene Graph Generation",
+      "abstract": "In production processes for consumer products, assembly instructions are essential not only for planning but also for executing the production process. Likewise in robotics, it is crucial for an assembly robot to understand how components fit together and can be assembled. To facilitate these tasks, we contribute a method for constructing scene graphs to represent and characterize assembly relationships between components. Our approach does not rely on semantic data and is capable of handling a very small dataset. To realize this, the output of a Faster R-CNN model is used to create geometric representations, which are then processed by a transformer architecture to generate an adjacency matrix. This matrix serves as input to a Siamese network that uses message passing based on an attentional graph convolutional network (aGCN) architecture to characterize the connections between the components. We validate our method on a study dataset of toy model components which can be assembled into transportation vehicles.",
+      "year": 2026,
+      "authors": [
+        "Christoph Jahn",
+        "Urs Waldmann",
+        "Bastian Goldluecke"
+      ],
+      "venue": "Jahn, C., Waldmann, U. and Goldluecke, B. (2026). Geometric 2D Scene Graph Generation. In Proceedings of the 18th International Conference on Agents and Artificial Intelligence - ICAART 2026",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.22325v1",
+      "url": "http://arxiv.org/abs/2607.22325v1",
+      "key": "arxiv_105220_0014249800004052_Geometric_2D_Scene_Graph_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_105220_0014249800004052_Geometric_2D_Scene_Graph_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.04830v1",
+      "doi": "",
+      "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+      "abstract": "Closed-loop simulation and scalable pre-training for autonomous driving require synthesizing free-viewpoint driving scenes. However, existing datasets and generative pipelines rarely provide consistent off-trajectory observations, limiting large-scale evaluation and training. While recent generative models demonstrate strong visual realism, they struggle to jointly achieve interpolation consistency and extrapolation realism without per-scene optimization. To address this, we propose FreeGen, a feed-forward reconstruction-generation co-training framework for free-viewpoint driving scene synthesis. The reconstruction model provides stable geometric representations to ensure interpolation consistency, while the generation model performs geometry-aware enhancement to improve realism at unseen viewpoints. Through co-training, generative priors are distilled into the reconstruction model to improve off-trajectory rendering, and the refined geometry in turn offers stronger structural guidance for generation. Experiments demonstrate that FreeGen achieves state-of-the-art performance for free-viewpoint driving scene synthesis.",
+      "year": 2025,
+      "authors": [
+        "Shijie Chen",
+        "Peixi Peng"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.04830v1",
+      "url": "http://arxiv.org/abs/2512.04830v1",
+      "key": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View",
+      "file_kind": "txt",
+      "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2104.09369v1",
+      "doi": "",
+      "title": "Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models",
+      "abstract": "Real-time traffic prediction models play a pivotal role in smart mobility systems and have been widely used in route guidance, emerging mobility services, and advanced traffic management systems. With the availability of massive traffic data, neural network-based deep learning methods, especially the graph convolutional networks (GCN) have demonstrated outstanding performance in mining spatio-temporal information and achieving high prediction accuracy. Recent studies reveal the vulnerability of GCN under adversarial attacks, while there is a lack of studies to understand the vulnerability issues of the GCN-based traffic prediction models. Given this, this paper proposes a new task -- diffusion attack, to study the robustness of GCN-based traffic prediction models. The diffusion attack aims to select and attack a small set of nodes to degrade the performance of the entire prediction model. To conduct the diffusion attack, we propose a novel attack algorithm, which consists of two major components: 1) approximating the gradient of the black-box prediction model with Simultaneous Perturbation Stochastic Approximation (SPSA); 2) adapting the knapsack greedy algorithm to select the attack nodes. The proposed algorithm is examined with three GCN-based traffic prediction models: St-Gcn, T-Gcn, and A3t-Gcn on two cities. The proposed algorithm demonstrates high efficiency in the adversarial attack tasks under various scenarios, and it can still generate adversarial samples under the drop regularization such as DropOut, DropNode, and DropEdge. The research outcomes could help to improve the robustness of the GCN-based traffic prediction models and better protect the smart mobility systems. Our code is available at https://github.com/LYZ98/Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models",
+      "year": 2021,
+      "authors": [
+        "Lyuyi Zhu",
+        "Kairui Feng",
+        "Ziyuan Pu",
+        "Wei Ma"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2104.09369v1",
+      "url": "http://arxiv.org/abs/2104.09369v1",
+      "key": "arxiv_210409369v1_Adversarial_Diffusion_Attacks_on_Graph-based_Traffic_Prediction_Models",
+      "file_kind": "txt",
+      "file": "arxiv_210409369v1_Adversarial_Diffusion_Attacks_on_Graph-based_Traffic_Prediction_Models.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2604.00236v1",
+      "doi": "",
+      "title": "Hierarchical Discrete Flow Matching for Graph Generation",
+      "abstract": "Denoising-based models, including diffusion and flow matching, have led to substantial advances in graph generation. Despite this progress, such models remain constrained by two fundamental limitations: a computational cost that scales quadratically with the number of nodes and a large number of function evaluations required during generation. In this work, we introduce a novel hierarchical generative framework that reduces the number of node pairs that must be evaluated and adopts discrete flow matching to significantly decrease the number of denoising iterations. We empirically demonstrate that our approach more effectively captures graph distributions while substantially reducing generation time.",
+      "year": 2026,
+      "authors": [
+        "Yoann Boget",
+        "Pablo Strasser",
+        "Alexandros Kalousis"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.00236v1",
+      "url": "http://arxiv.org/abs/2604.00236v1",
+      "key": "arxiv_260400236v1_Hierarchical_Discrete_Flow_Matching_for_Graph_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_260400236v1_Hierarchical_Discrete_Flow_Matching_for_Graph_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2311.15289v2",
+      "doi": "",
+      "title": "Counting cliques without generalized theta graphs",
+      "abstract": "The \\textit{generalized Turán number} $\\mathrm{ex}(n, T, F)$ is the maximum possible number of copies of $T$ in an $F$-free graph on $n$ vertices for any two graphs $T$ and $F$. For the book graph $B_t$, there is a close connection between $\\ex(n,K_3,B_t)$ and the Ruzsa-Szemerédi triangle removal lemma. Motivated by this, in this paper, we study the generalized Turán problem for generalized theta graphs, a natural extension of book graphs. Our main result provides a complete characterization of the magnitude of $\\ex(n,K_3,H)$ when $H$ is a generalized theta graph, indicating when it is quadratic, when it is nearly quadratic, and when it is subquadratic. Furthermore, as an application, we obtain the exact value of $\\ex(n, K_r, kF)$, where $F$ is an edge-critical generalized theta graph, and $3\\le r\\le k+1$, extending several recent results.",
+      "year": 2023,
+      "authors": [
+        "Jun Gao",
+        "Zhuo Wu",
+        "Yisai Xue"
+      ],
+      "venue": "Journal of Graph Theory (2026)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.15289v2",
+      "url": "http://arxiv.org/abs/2311.15289v2",
+      "key": "arxiv_231115289v2_Counting_cliques_without_generalized_theta_graphs",
+      "file_kind": "txt",
+      "file": "arxiv_231115289v2_Counting_cliques_without_generalized_theta_graphs.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2312.17425v3",
+      "doi": "",
+      "title": "ALF: Adaptive Label Finetuning for Scene Graph Generation",
+      "abstract": "Scene Graph Generation (SGG) endeavors to predict the relationships between subjects and objects in a given image. Nevertheless, the long-tail distribution of relations often leads to biased prediction on coarse labels, presenting a substantial hurdle in SGG. To address this issue, researchers focus on unbiased SGG and introduce data transfer methods to transfer coarse-grained predicates into fine-grained ones across the entire dataset. However, these methods encounter two primary challenges: 1) They overlook the inherent context constraints imposed by subject-object pairs, leading to erroneous relations transfer. 2) Additional retraining process are required after the data transfer, which incurs substantial computational costs. To overcome these limitations, we introduce the first plug-and-play one-stage data transfer pipeline in SGG, termed Adaptive Label Finetuning (ALF), which eliminates the need for extra retraining sessions and meanwhile significantly enhance models' relation recognition capability across various SGG benchmark approaches. Specifically, ALF consists of two components: Adaptive Label Construction (ALC) and Adaptive Iterative Learning (AIL). By imposing Predicate-Context Constraints within relation space, ALC adaptively re-ranks and selects candidate relations in reference to model's predictive logits utilizing the Restriction-Based Judgment techniques, achieving robust relation transfer. Supervised with labels transferred by ALC, AIL iteratively finetunes the SGG models in an auto-regressive manner, which mitigates the substantial computational costs arising from the retraining process. Extensive experiments demonstrate that ALF achieves a 16% improvement in mR@100 compared to the typical SGG method Motif, with only a 6% increase in calculation costs compared to the state-of-the-art method IETrans.",
+      "year": 2023,
+      "authors": [
+        "Qishen Chen",
+        "Jianzhi Liu",
+        "Xinyu Lyu",
+        "Lianli Gao",
+        "Heng Tao Shen",
+        "Jingkuan Song"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.17425v3",
+      "url": "http://arxiv.org/abs/2312.17425v3",
+      "key": "arxiv_231217425v3_ALF_Adaptive_Label_Finetuning_for_Scene_Graph_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_231217425v3_ALF_Adaptive_Label_Finetuning_for_Scene_Graph_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "1905.03704v1",
+      "doi": "",
+      "title": "Agnostic Lane Detection",
+      "abstract": "Lane detection is an important yet challenging task in autonomous driving, which is affected by many factors, e.g., light conditions, occlusions caused by other vehicles, irrelevant markings on the road and the inherent long and thin property of lanes. Conventional methods typically treat lane detection as a semantic segmentation task, which assigns a class label to each pixel of the image. This formulation heavily depends on the assumption that the number of lanes is pre-defined and fixed and no lane changing occurs, which does not always hold. To make the lane detection model applicable to an arbitrary number of lanes and lane changing scenarios, we adopt an instance segmentation approach, which first differentiates lanes and background and then classify each lane pixel into each lane instance. Besides, a multi-task learning paradigm is utilized to better exploit the structural information and the feature pyramid architecture is used to detect extremely thin lanes. Three popular lane detection benchmarks, i.e., TuSimple, CULane and BDD100K, are used to validate the effectiveness of our proposed algorithm.",
+      "year": 2019,
+      "authors": [
+        "Yuenan Hou"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1905.03704v1",
+      "url": "http://arxiv.org/abs/1905.03704v1",
+      "key": "arxiv_190503704v1_Agnostic_Lane_Detection",
+      "file_kind": "txt",
+      "file": "arxiv_190503704v1_Agnostic_Lane_Detection.txt"
+    }
+  ]
+}

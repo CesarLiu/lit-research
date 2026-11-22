@@ -1,0 +1,15 @@
+[
+ {"id": 1, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 2, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 3, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 4, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Statement of the review's framing question; the table can neither confirm nor deny it."},
+ {"id": 5, "verdict": "PARTIAL", "wrong_citation": false, "issue": "[30] control_signal/base_model say VLM proposals are turned into rewards by an LLM, not 'VLM-written reward functions'; 'no retraining' is stated only in [20] and [34] control_mechanism/control_signal, while [5] also uses classifier-free guidance and [1]/[12] train a separate reward/objective model."},
+ {"id": 6, "verdict": "PARTIAL", "wrong_citation": false, "issue": "[6] control_mechanism builds the Scenic program by retrieving and assembling stored snippets, not by the LLM writing it; [32] control_signal is a region choice plus prompt, not a scenario description, and 'no fine-grained steering' drops the row's qualifier 'shown in packet'."},
+ {"id": 7, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 8, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 9, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 10, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 11, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 12, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 13, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""}
+]

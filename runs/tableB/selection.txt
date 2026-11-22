@@ -1,0 +1,38 @@
+# Papers for comparison table B: spread across control mechanisms. Substring of title, must match one downloaded paper.
+# Reasons below were written on 2026-11-22, AFTER the table was built, from the table rows. The original choice was made from
+# abstracts with the single aim "cover different control mechanisms", so a reason describes the role the paper plays, not a
+# judgement recorded at the time. Not selected: the other 254 papers with full text (no per-paper reason was kept).
+CtRL-Sim # reward/return conditioning: one tilt coefficient per reward component
+RLFTSim # RL fine-tuning: per-agent goal conditioning on a token model
+CAT: Closed-loop Adversarial Training # other: adversarial scenarios used inside closed-loop training of the planner
+Guided Conditional Diffusion for Controllable Traffic Simulation # inference-time guidance: signal temporal logic rules
+AdvDiffuser # inference-time guidance: reward gradient in latent diffusion, adversarial target
+SAFE-SIM # inference-time guidance: TTC cost weight gives an aggressiveness dial
+DiffScene # inference-time guidance: adversarial objectives against a target AV
+Safety-Critical Traffic Simulation with Guided Latent Diffusion # inference-time guidance in a latent space
+Controllable Latent Diffusion for Traffic Simulation # RL fine-tuning of a diffusion model with collision and off-road rewards
+ECoSim # trained-in conditioning: sketch, behavior code or language command via fine-tuning
+Scenario Diffusion # trained-in conditioning: map image plus agent tokens
+DragTraffic # trained-in conditioning: per-agent attributes through cross-attention
+Versatile Behavior Diffusion # inference-time guidance: goals and soft constraints without retraining
+RealGen # other: retrieval-based in-context generation from template scenarios
+Controllable Sim Agents with Behavior Latents # reward/return conditioning: behaviour latent over four reward channels
+SocialDriveGen # inference-time guidance fed by language-model proposals (language plus guidance)
+Language-Guided Traffic Simulation via Scene-Level Diffusion # language control: text turned into a loss function
+ChatScene # language control: text turned into a Scenic program
+TrafficAlign # language/LLM: model aligned to regional traffic, text output only
+LD-scene # language/LLM: LLM-guided adversarial diffusion
+Guided Latent Spaces for Controllable # latent-space control: one designated latent dimension for scenario type
+Conditional Flow-VAE # latent-space control: difficulty label with a flow to safety-critical latents
+SceneDM: Scene-level # no control signal: realism-focused scene-level generator, kept for contrast
+Scenario Dreamer # reward/return conditioning plus scene-density conditioning, vectorized latent diffusion
+Trajeglish # trained-in conditioning: map and initial states, partial control by fixed actions
+AdvSim # other: black-box adversarial search against a system under test
+KING: Generating # other: adversarial gradient through a differentiable kinematic model
+Controllable Traffic Simulation through LLM-Guided # language control: LLM writes the loss for guided diffusion
+Rolling Ahead Diffusion # no control signal: long-rollout realism, kept for contrast
+Causal Composition Diffusion # inference-time guidance: reward objectives with a composition scheme
+BehaviorGPT # no control signal: next-patch prediction sim agent, kept for contrast
+SMART: Scalable # no control signal: next-token sim agent, kept for contrast
+Proposal-Conditioned Latent Diffusion # inference-time guidance: pursuit-evasion costs
+Top-down Traffic Scenario Generation # trained-in conditioning: hard endpoint constraints in infilling

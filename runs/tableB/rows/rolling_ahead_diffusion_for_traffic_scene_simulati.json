@@ -1,0 +1,13 @@
+{
+ "id": "rolling_ahead_diffusion_for_traffic_scene_simulati",
+ "title": "Rolling Ahead Diffusion for Traffic Scene Simulation",
+ "control_family": "none/uncontrolled",
+ "control_signal": {"value": "No user steering signal; model conditions on observed agent states, map and agent dimensions. Test-time conditioning is listed as future work.", "pages": "5, 7-8"},
+ "control_mechanism": {"value": "Not a control method: a sliding window of partially denoised future steps (rolling diffusion) with self-attention over time and agents and cross-attention to map features.", "pages": "4-5"},
+ "base_model": {"value": "Rolling diffusion model with EDM-style noise schedule and Heun sampler, transformer denoiser; compared against DJINN (MPC) and a diffusion autoregressive model.", "pages": "4-5"},
+ "datasets": {"value": "INTERACTION dataset.", "pages": "10-11"},
+ "metrics": {"value": "minSceneADE, minSceneFDE, miss rate; collision rate against an adversarial (replay-slowed) agent; prediction time per sample.", "pages": "6-7"},
+ "controllability_evidence": {"value": "Reactivity test with a slowed adversarial agent: collision rate RoAD-15 0.019, RoAD-20 0.024, AR 0.016, DJINN 0.052; prediction time 0.34, 0.20, 0.68, 0.07 min.", "pages": "6-7"},
+ "stated_limitations": {"value": "Partial denoising of future states limits adaptation to perturbations from agents under another planner; larger windows lower reactivity. Test-time conditioning is deferred to future work.", "pages": "6, 7-8"},
+ "notes": "Paper is about reactive, efficient closed-loop simulation, not controllable generation; the reactivity test is not a controllability test. Workshop paper."
+}

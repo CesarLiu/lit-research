@@ -1,0 +1,1168 @@
+{
+  "query": "language-guided traffic scenario generation",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 44,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7223392206",
+      "doi": "10.1109/tits.2026.3742522",
+      "title": "Language-Guided Safety-Critical Mixed-Traffic Scenario Generation for Closed-Loop Automated Driving Validation",
+      "abstract": "Generating realistic, language-guided traffic scenarios remains a significant challenge, as existing methods struggle to balance high-level semantic controllability with the kinematic constraints of heterogeneous multi-agent interactions. To address this, we introduce language-guided traffic simulation (LangTS), a systematic generation framework featuring an agent-aligned language grounding mechanism that conditions class-specific motion-token representations on natural-language intents. Furthermore, we train a closed-loop autoregressive model with next-token and prompt-mask supervision, which supports language-conditioned rollout with responsive background traffic. To demonstrate its practical utility, we establish an engineering pipeline that mines safety-critical interactions via human-in-the-loop simulation to train a generative library for downstream safety validation. We assess rollout realism using metrics from the Waymo Open Sim Agents Challenge (WOSAC) and instruction compliance using instruction-following accuracy (IFA). In downstream studies, LangTS-based policy adaptation lowers target-domain collision rates under both reported protocols, and the pedestrian hazard-trigger rate is 59% versus 41% for OpenSCENARIO. Overall, LangTS provides a framework for autonomous driving validation, bridging human semantic intent with dynamic physical realism in mixed traffic environments.",
+      "year": 2026,
+      "authors": [
+        "Hua Yao",
+        "Zhongning Wang",
+        "Chenfei Hou",
+        "Jicheng Chen",
+        "Guo Zhou",
+        "Hui Zhang"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7223392206",
+      "key": "openalex_101109_tits20263742522_Language-Guided_Safety-Critical_Mixed-Traffic_Scenario_Gen",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20263742522_Language-Guided_Safety-Critical_Mixed-Traffic_Scenario_Gen.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4404795626",
+      "doi": "10.1109/tiv.2024.3508471",
+      "title": "ChatSUMO: Large Language Model for Automating Traffic Scenario Generation in Simulation of Urban MObility",
+      "abstract": "Large Language Models (LLMs), capable of handling multi-modal input and outputs such as text, voice, images, and video, are transforming the way we process information. Beyond just generating textual responses to prompts, they can integrate with different software platforms to offer comprehensive solutions across diverse applications. In this paper, we present ChatSUMO, an LLM-based agent that integrates language processing skills to generate abstract and real-world simulation scenarios in the widely-used traffic simulator - Simulation of Urban MObility (SUMO). Our methodology begins by leveraging the LLM for user input, which adapts it to relevant keywords needed to run python scripts. These scripts are designed to convert specified regions into coordinates, fetch data from OpenStreetMap, transform it into a road network, and subsequently run SUMO simulations with the designated traffic conditions. The outputs of the simulations are then interpreted by the LLM resulting in informative comparisons and summaries. Users can continue the interaction and generate a variety of customized scenarios without prior traffic simulation expertise. Any city available from OpenStreetMap can be imported, and for demonstration, we created a real-world simulation for the city of Albany. ChatSUMO also allows simulation customization capabilities of edge edit, traffic light optimization, and vehicle edit by users through the web interface.",
+      "year": 2024,
+      "authors": [
+        "Shuyang Li",
+        "Talha Azfar",
+        "Ruimin Ke"
+      ],
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "cited_by": 113,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.09040",
+      "url": "https://openalex.org/W4404795626",
+      "key": "openalex_101109_tiv20243508471_ChatSUMO_Large_Language_Model_for_Automating_Traffic_Scenar",
+      "file_kind": "txt",
+      "file": "openalex_101109_tiv20243508471_ChatSUMO_Large_Language_Model_for_Automating_Traffic_Scenar.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4403906447",
+      "doi": "10.1007/978-3-031-73033-7_6",
+      "title": "RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios",
+      "abstract": "Simulation plays a crucial role in the development of autonomous vehicles (AVs) due to the potential risks associated with real-world testing. Although significant progress has been made in the visual aspects of simulators, generating complex behavior among agents remains a formidable challenge. It is not only imperative to ensure realism in the scenarios generated but also essential to incorporate preferences and conditions to facilitate controllable generation for AV training and evaluation. Traditional methods, mainly relying on memorizing the distribution of training datasets, often fall short in generating unseen scenarios. Inspired by the success of retrieval augmented generation in large language models, we present RealGen, a novel retrieval-based in-context learning framework for traffic scenario generation. RealGen synthesizes new scenarios by combining behaviors from multiple retrieved examples in a gradient-free way, which may originate from templates or tagged scenarios. This in-context learning framework endows versatile generative capabilities, including the ability to edit scenarios, compose various behaviors, and produce critical scenarios. Evaluations show that RealGen offers considerable flexibility and controllability, marking a new direction in the field of controllable traffic scenario generation. Check our project website for more information: https://realgen.github.io.",
+      "year": 2024,
+      "authors": [
+        "Wenhao Ding",
+        "Yulong Cao",
+        "Ding Xuan Zhao",
+        "Chaowei Xiao",
+        "Marco Pavone"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 78,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.13303",
+      "url": "https://openalex.org/W4403906447",
+      "also_doi": [],
+      "key": "openalex_101007_978-3-031-73033-7_6_RealGen_Retrieval_Augmented_Generation_for_Controllabl",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-73033-7_6_RealGen_Retrieval_Augmented_Generation_for_Controllabl.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415757161",
+      "doi": "10.1016/j.ait.2026.100057",
+      "title": "Agentic traffic intelligence: Augmented human-in-the-loop scenario generation for microscopic traffic simulation",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Xiangyong Luo",
+        "Guanhao Xu",
+        "Abhilasha Saroj",
+        "Jinghui Yuan",
+        "Parth Kadav",
+        "Yunli Shao",
+        "Chieh Ross Wang"
+      ],
+      "venue": "Artificial Intelligence for Transportation",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415757161",
+      "key": "openalex_101016_jait2026100057_Agentic_traffic_intelligence_Augmented_human-in-the-loop_sc",
+      "file_kind": "txt",
+      "file": "openalex_101016_jait2026100057_Agentic_traffic_intelligence_Augmented_human-in-the-loop_sc.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7166670891",
+      "doi": "10.48550/arxiv.2606.29097",
+      "title": "TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation",
+      "abstract": "Recent research has investigated the use of large language models (LLMs) to generate traffic scenarios for autonomous driving. However, pretrained LLMs often fail to align with real-world traffic distributions. In this work, we present TrafficAlign, an automated framework that synthesizes traffic scenarios based on real-world driving videos, performs data validation, and aligns LLMs with the synthesized scenarios. The evaluation shows that traffic scenarios generated by TrafficAlign are highly effective, revealing up to 10.8% more collisions on average across three autonomous driving models than state-of-the-art methods. Furthermore, fine-tuning these driving models with TrafficAlign-generated scenarios significantly reduced collision rates by 36.1% compared with the original models. A qualitative study using traffic datasets from six geographically diverse regions shows that TrafficAlign-generated scenarios exhibit strong alignment with corresponding traffic distributions in these regions.",
+      "year": 2026,
+      "authors": [
+        "Zhi Tu",
+        "Le Niu",
+        "Tianyi Zhang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.29097",
+      "url": "https://openalex.org/W7166670891",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv260629097_TrafficAlign_Aligning_Large_Language_Models_for_Traffic_Sc",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260629097_TrafficAlign_Aligning_Large_Language_Models_for_Traffic_Sc.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4383097675",
+      "doi": "10.1109/icra48891.2023.10160296",
+      "title": "TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios",
+      "abstract": "Diverse and realistic traffic scenarios are crucial for evaluating the AI safety of autonomous driving systems in simulation. This work introduces a data-driven method called TrafficGen for traffic scenario generation. It learns from the fragmented human driving data collected in the real world and then generates realistic traffic scenarios. TrafficGen is an autoregressive neural generative model with an encoder-decoder architecture. In each autoregressive iteration, it first encodes the current traffic context with the attention mechanism and then decodes a vehicle's initial state followed by generating its long trajectory. We evaluate the trained model in terms of vehicle placement and trajectories, and the experimental result shows our method has substantial improvements over baselines for generating traffic scenarios. After training, TrafficGen can also augment existing traffic scenarios, by adding new vehicles and extending the fragmented trajectories. We further demonstrate that importing the generated scenarios into a simulator as an interactive training environment improves the performance and safety of a driving agent learned from reinforcement learning. Model and data are available at https://metadriverse.github.io/trafficgen.",
+      "year": 2023,
+      "authors": [
+        "Lan Feng",
+        "Quanyi Li",
+        "Zhenghao Peng",
+        "Shuhan Tan",
+        "Bolei Zhou"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 218,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2210.06609",
+      "url": "https://openalex.org/W4383097675",
+      "also_doi": [],
+      "key": "openalex_101109_icra48891202310160296_TrafficGen_Learning_to_Generate_Diverse_and_Realisti",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra48891202310160296_TrafficGen_Learning_to_Generate_Diverse_and_Realisti.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4407759124",
+      "doi": "10.48550/arxiv.2502.12178",
+      "title": "Direct Preference Optimization-Enhanced Multi-Guided Diffusion Model for Traffic Scenario Generation",
+      "abstract": "Diffusion-based models are recognized for their effectiveness in using real-world driving data to generate realistic and diverse traffic scenarios. These models employ guided sampling to incorporate specific traffic preferences and enhance scenario realism. However, guiding the sampling process to conform to traffic rules and preferences can result in deviations from real-world traffic priors and potentially leading to unrealistic behaviors. To address this challenge, we introduce a multi-guided diffusion model that utilizes a novel training strategy to closely adhere to traffic priors, even when employing various combinations of guides. This model adopts a multi-task learning framework, enabling a single diffusion model to process various guide inputs. For increased guided sampling precision, our model is fine-tuned using the Direct Preference Optimization (DPO) algorithm. This algorithm optimizes preferences based on guide scores, effectively navigating the complexities and challenges associated with the expensive and often non-differentiable gradient calculations during the guided sampling fine-tuning process. Evaluated using the nuScenes dataset our model provides a strong baseline for balancing realism, diversity and controllability in the traffic scenario generation.",
+      "year": 2025,
+      "authors": [
+        "S Yu",
+        "K. Kim",
+        "Kim, Daejung",
+        "Han, Haewook",
+        "Jinhan Lee"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 4,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.12178",
+      "url": "https://openalex.org/W4407759124",
+      "key": "openalex_1048550_arxiv250212178_Direct_Preference_Optimization-Enhanced_Multi-Guided_Diffu",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250212178_Direct_Preference_Optimization-Enhanced_Multi-Guided_Diffu.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7221589258",
+      "doi": "10.2139/ssrn.7608004",
+      "title": "Semantic Risk Prior Guided Conditional Diffusion for Safety-Critical Traffic Scenario Generation",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Chengju Sun",
+        "Tongcheng Gu",
+        "Dongwei Xu",
+        "Haifeng Guo",
+        "Tieming Chen",
+        "Akhylbek Kurishbayev",
+        "Duman Imanmadi"
+      ],
+      "venue": "SSRN Electronic Journal",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://papers.ssrn.com/sol3/Delivery.cfm/19b1325b-af5c-40ec-8ff5-82b1caaee5d7-MECA.pdf?abstractid=7608004&mirid=1",
+      "url": "https://openalex.org/W7221589258",
+      "key": "openalex_102139_ssrn7608004_Semantic_Risk_Prior_Guided_Conditional_Diffusion_for_Safety-Cr",
+      "file_kind": "txt",
+      "file": "openalex_102139_ssrn7608004_Semantic_Risk_Prior_Guided_Conditional_Diffusion_for_Safety-Cr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416750974",
+      "doi": "10.1109/iros60139.2025.11246348",
+      "title": "AGENTS-LLM: Augmentative GENeration of Challenging Traffic Scenarios with an Agentic LLM Framework",
+      "abstract": "Rare, yet critical, scenarios pose a significant challenge in testing and evaluating autonomous driving planners. Relying solely on real-world driving scenes requires collecting massive datasets to capture these scenarios. While automatic generation of traffic scenarios appears promising, data-driven models require extensive training data and often lack fine-grained control over the output. Moreover, generating novel scenarios from scratch can introduce a distributional shift from the original training scenes which undermines the validity of evaluations especially for learning-based planners. To sidestep this, recent work proposes to generate challenging scenarios by augmenting original scenarios from the test set. However, this involves the manual augmentation of scenarios by domain experts. An approach that is unable to meet the demands for scale in the evaluation of self-driving systems. Therefore, this paper introduces a novel LLM-agent based framework for augmenting real-world traffic scenarios using natural language descriptions, addressing the limitations of existing methods. A key innovation is the use of an agentic design, enabling fine-grained control over the output and maintaining high performance even with smaller, cost-effective LLMs. Extensive human expert evaluation demonstrates our framework’s ability to accurately adhere to user intent, generating high quality augmented scenarios comparable to those created manually.",
+      "year": 2025,
+      "authors": [
+        "Yu Yao",
+        "Salil Bhatnagar",
+        "Markus Mazzola",
+        "Vasileios Belagiannis",
+        "Igor Gilitschenski",
+        "Luigi Palmieri",
+        "Simon Razniewski",
+        "Marcel Hallgarten"
+      ],
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "cited_by": 16,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2507.13729",
+      "url": "https://openalex.org/W4416750974",
+      "key": "openalex_101109_iros60139202511246348_AGENTS-LLM_Augmentative_GENeration_of_Challenging_Tr",
+      "file_kind": "txt",
+      "file": "openalex_101109_iros60139202511246348_AGENTS-LLM_Augmentative_GENeration_of_Challenging_Tr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4411449700",
+      "doi": "10.1145/3729348",
+      "title": "Multi-modal Traffic Scenario Generation for Autonomous Driving System Testing",
+      "abstract": "Autonomous driving systems (ADS) require extensive testing and validation before deployment. However, it is tedious and time-consuming to construct traffic scenarios for ADS testing. In this paper, we propose TrafficComposer, a multi-modal traffic scenario construction approach for ADS testing. TrafficComposer takes as input a natural language (NL) description of a desired traffic scenario and a complementary traffic scene image. Then, it generates the corresponding traffic scenario in a simulator, such as CARLA and LGSVL. Specifically, TrafficComposer integrates high-level dynamic information about the traffic scenario from the NL description and intricate details about the surrounding vehicles, pedestrians, and the road network from the image. The information from the two modalities is complementary to each other and helps generate high-quality traffic scenarios for ADS testing. On a benchmark of 120 traffic scenarios, TrafficComposer achieves 97.0% accuracy, outperforming the best-performing baseline by 7.3%. Both direct testing and fuzz testing experiments on six ADSs prove the bug detection capabilities of the traffic scenarios generated by TrafficComposer. These scenarios can directly discover 37 bugs and help two fuzzing methods find 33%–124% more bugs serving as initial seeds.",
+      "year": 2025,
+      "authors": [
+        "Zhi Tu",
+        "Liangkun Niu",
+        "Wei Fan",
+        "Tianyi Zhang"
+      ],
+      "venue": "Proceedings of the ACM on software engineering.",
+      "cited_by": 9,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.14881v2",
+      "url": "https://openalex.org/W4411449700",
+      "key": "openalex_101145_3729348_Multi-modal_Traffic_Scenario_Generation_for_Autonomous_Driving_Sys",
+      "file_kind": "txt",
+      "file": "openalex_101145_3729348_Multi-modal_Traffic_Scenario_Generation_for_Autonomous_Driving_Sys.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W2952402617",
+      "doi": "10.1145/3314221.3314633",
+      "title": "Scenic: a language for scenario specification and scene generation",
+      "abstract": "We propose a new probabilistic programming language for the design and analysis of perception systems, especially those based on machine learning. Specifically, we consider the problems of training a perception system to handle rare events, testing its performance under different conditions, and debugging failures. We show how a probabilistic programming language can help address these problems by specifying distributions encoding interesting types of inputs and sampling these to generate specialized training and test sets. More generally, such languages can be used for cyber-physical systems and robotics to write environment models, an essential prerequisite to any formal analysis. In this paper, we focus on systems like autonomous cars and robots, whose environment is a scene, a configuration of physical objects and agents. We design a domain-specific language, Scenic, for describing scenarios that are distributions over scenes. As a probabilistic programming language, Scenic allows assigning distributions to features of the scene, as well as declaratively imposing hard and soft constraints over the scene. We develop specialized techniques for sampling from the resulting distribution, taking advantage of the structure provided by Scenic's domain-specific syntax. Finally, we apply Scenic in a case study on a convolutional neural network designed to detect cars in road images, improving its performance beyond that achieved by state-of-the-art synthetic data generation methods.",
+      "year": 2019,
+      "authors": [
+        "Daniel J. Fremont",
+        "Tommaso Dreossi",
+        "Shromona Ghosh",
+        "Xiangyu Yue",
+        "Alberto Luigi Sangiovanni-Vincentelli",
+        "Sanjit Arunkumar Seshia"
+      ],
+      "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+      "cited_by": 457,
+      "is_oa": true,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3314221.3314633",
+      "url": "https://openalex.org/W2952402617",
+      "key": "openalex_101145_33142213314633_Scenic_a_language_for_scenario_specification_and_scene_gene",
+      "file_kind": "txt",
+      "file": "openalex_101145_33142213314633_Scenic_a_language_for_scenario_specification_and_scene_gene.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417308312",
+      "doi": "10.52202/085713-1849",
+      "title": "Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation",
+      "abstract": "Scenario-based testing is essential for validating the performance of autonomous driving (AD) systems. However, such testing is limited by the scarcity of long-tailed, safety-critical scenarios in existing datasets collected in the real world. To tackle the data issue, we propose the Adv-BMT framework, which augments real-world scenarios with diverse and realistic adversarial traffic interactions. The core component of Adv-BMT is a bidirectional motion transformer (BMT) model to perform inverse traffic motion predictions, which takes agent information in the last time step of the scenario as input, and reconstructs the traffic in the inverse of chronological order until the initial time step. The Adv-BMT framework is a two-staged pipeline: it first conducts adversarial initializations and then inverse motion predictions. Different from previous work, we do not need any collision data for pretraining, and are able to generate realistic and diverse collision interactions. Our experimental results validate the quality of generated collision scenarios by Adv-BMT: training in our augmented dataset would reduce episode collision rates by 20%. Demo and code are available at: https://metadriverse.github.io/adv-bmt/.",
+      "year": 2025,
+      "authors": [
+        "Yuxin Liu",
+        "Zhenghao Peng",
+        "Xuanhao Cui",
+        "Bolei Zhou"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 14,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4417308312",
+      "key": "openalex_1052202_085713-1849_Adv-BMT_Bidirectional_Motion_Transformer_for_Safety-Critical_",
+      "file_kind": "txt",
+      "file": "openalex_1052202_085713-1849_Adv-BMT_Bidirectional_Motion_Transformer_for_Safety-Critical_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4210496774",
+      "doi": "10.1007/s10994-021-06120-5",
+      "title": "Scenic: a language for scenario specification and data generation",
+      "abstract": "We propose a new probabilistic programming language for the design and analysis of cyber-physical systems, especially those based on machine learning. We consider several problems arising in the design process, including training a system to be robust to rare events, testing its performance under different conditions, and debugging failures. We show how a probabilistic programming language can help address these problems by specifying distributions encoding interesting types of inputs, then sampling these to generate specialized training and test data. More generally, such languages can be used to write environment models, an essential prerequisite to any formal analysis. In this paper, we focus on systems such as autonomous cars and robots, whose environment at any point in time is a scene , a configuration of physical objects and agents. We design a domain-specific language, Scenic , for describing scenarios that are distributions over scenes and the behaviors of their agents over time. Scenic combines concise, readable syntax for spatiotemporal relationships with the ability to declaratively impose hard and soft constraints over the scenario. We develop specialized techniques for sampling from the resulting distribution, taking advantage of the structure provided by Scenic ’s domain-specific syntax. Finally, we apply Scenic in multiple case studies for training, testing, and debugging neural networks for perception both as standalone components and within the context of a full cyber-physical system.",
+      "year": 2022,
+      "authors": [
+        "Daniel J. Fremont",
+        "Edward Kim",
+        "Tommaso Dreossi",
+        "Shromona Ghosh",
+        "Xiangyu Yue",
+        "Alberto Luigi Sangiovanni-Vincentelli",
+        "Sanjit Arunkumar Seshia"
+      ],
+      "venue": "Machine Learning",
+      "cited_by": 171,
+      "is_oa": true,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10994-021-06120-5.pdf",
+      "url": "https://openalex.org/W4210496774",
+      "key": "openalex_101007_s10994-021-06120-5_Scenic_a_language_for_scenario_specification_and_data_g",
+      "file_kind": "txt",
+      "file": "openalex_101007_s10994-021-06120-5_Scenic_a_language_for_scenario_specification_and_data_g.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7166133763",
+      "doi": "10.48550/arxiv.2606.27123",
+      "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation",
+      "abstract": "Closed-loop traffic simulation remains challenging because it must generate interactive multi-agent behaviors that are scene-consistent and controllable throughout rollout. Prior diffusion-based approaches achieve strong realism, but their computational cost can hinder deployment in time-constrained replanning loops for autonomous vehicle planning and simulation. We present a diffusion-based scenario generation framework conditioned on instance-centric scene context and multimodal proposal priors, with optional test-time guidance for shaping safety-critical behaviors. A compact action-latent representation and proposal-based initialization improve sampling efficiency and reduce per-step runtime without retraining. Experiments on the Waymo Open Motion Dataset demonstrate a favorable balance among realism, safety, and controllability across diverse interactive scenarios, while showing that test-time guidance enables systematic trade-offs among competing objectives.",
+      "year": 2026,
+      "authors": [
+        "Shubham Vaijanath Phoolari",
+        "Aleyna Kara",
+        "Christoph Lauer",
+        "Steven Peters"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.27123",
+      "url": "https://openalex.org/W7166133763",
+      "key": "openalex_1048550_arxiv260627123_Proposal-Conditioned_Latent_Diffusion_for_Closed-Loop_Traf",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260627123_Proposal-Conditioned_Latent_Diffusion_for_Closed-Loop_Traf.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4380551436",
+      "doi": "10.48550/arxiv.2306.06344",
+      "title": "Language-Guided Traffic Simulation via Scene-Level Diffusion",
+      "abstract": "Realistic and controllable traffic simulation is a core capability that is necessary to accelerate autonomous vehicle (AV) development. However, current approaches for controlling learning-based traffic models require significant domain expertise and are difficult for practitioners to use. To remedy this, we present CTG++, a scene-level conditional diffusion model that can be guided by language instructions. Developing this requires tackling two challenges: the need for a realistic and controllable traffic model backbone, and an effective method to interface with a traffic model using language. To address these challenges, we first propose a scene-level diffusion model equipped with a spatio-temporal transformer backbone, which generates realistic and controllable traffic. We then harness a large language model (LLM) to convert a user's query into a loss function, guiding the diffusion model towards query-compliant generation. Through comprehensive evaluation, we demonstrate the effectiveness of our proposed method in generating realistic, query-compliant traffic simulations.",
+      "year": 2023,
+      "authors": [
+        "Ziyuan Zhong",
+        "Davis Rempe",
+        "Yuxiao Chen",
+        "Boris Ivanovic",
+        "Yulong Cao",
+        "Danfei Xu",
+        "Marco Pavone",
+        "Baishakhi Ray"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 124,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.06344",
+      "url": "https://openalex.org/W4380551436",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv230606344_Language-Guided_Traffic_Simulation_via_Scene-Level_Diffusi",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv230606344_Language-Guided_Traffic_Simulation_via_Scene-Level_Diffusi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7170034652",
+      "doi": "10.48550/arxiv.2607.18637",
+      "title": "End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation",
+      "abstract": "Generating closed-loop traffic scenarios that are both realistic and controllable is crucial for evaluating autonomous driving systems, especially under rare safety-critical interactions. Existing learning-based methods often struggle to balance controllability and realism, offering either limited fine-grained control over traffic behavior or controllable scenarios at the expense of behavioral plausibility. This paper presents E2E-CDiff, an end-to-end conditional diffusion framework for controllable and realistic scenario generation. Conditioned on front-view visual observations, E2E-CDiff jointly denoises future motion states and executable low-level controls for route-interacting background vehicles. This unified state-action generation mitigates the planning-control mismatch in conventional two-stage trajectory-then-controller pipelines. Differentiable guidance further regulates speed, enforces drivable-area compliance, and supports collision-avoidance or collision-seeking behaviors, enabling both naturalistic and safety-critical scenario generation. Experiments on Bench2Drive show that E2E-CDiff achieves a favorable controllability-realism trade-off compared with representative reinforcement- and imitation-learning baselines, while its collision-guided variant induces challenging interactions across multiple autonomous driving systems. E2E-CDiff also performs competitively as a learning-based ego planner, demonstrating the generality of end-to-end state-action diffusion.",
+      "year": 2026,
+      "authors": [
+        "Jingzheng Li",
+        "Yufei Ge",
+        "Zhijun Chen",
+        "Qianren Mao",
+        "Zizhe Wang",
+        "Binhang Qi",
+        "Bing Li",
+        "Keyu Chen",
+        "Baochang Zhang",
+        "Xianglong Liu",
+        "Philip S Yu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.18637",
+      "url": "https://openalex.org/W7170034652",
+      "key": "openalex_1048550_arxiv260718637_End-to-end_Conditional_Diffusion_for_Realistic_and_Control",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260718637_End-to-end_Conditional_Diffusion_for_Realistic_and_Control.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416745125",
+      "doi": "10.62311/nesx/rp-m2-dec-2021",
+      "title": "Stochastic Modelling and Scenario Generation for Cloud Workload and Network Traffic in OR Models",
+      "abstract": "Effective stochastic and robust optimisation in cloud and network operations depends critically on the realism of the underlying uncertainty models. Many existing studies rely on simplistic independent and identically distributed assumptions or coarse aggregate demand profiles, which fail to represent temporal patterns, correlations, and extreme events. This study develops a stochastic modelling and scenario generation framework tailored to cloud workload and network traffic inputs for operations research models. Using data produced by CloudSim and NS-3, as well as representative trace datasets, large volumes of time series are preprocessed with Hadoop and Apache Spark. Statistical and econometric models, including ARIMA, vector autoregression, and panel data formulations, are estimated in R, statsmodels, Stata, SPSS, and EViews to capture temporal dynamics and cross-sectional dependencies. Scenario generation procedures derive multi-period demand and traffic paths consistent with these models, with calibration and validation performed via distributional tests and forecast error metrics. Numerical illustrations demonstrate that stochastic optimisation models fed by the proposed scenario sets yield decisions that are more robust to demand spikes and structural changes than models using naive or static assumptions. The framework provides a systematic bridge between data-driven uncertainty modelling and scenario-based optimisation in digital infrastructure. Keywords: stochastic modeling, scenario generation, cloud computing, network traffic, time-series analysis, econometric modeling, stochastic programming, demand uncertain",
+      "year": 2021,
+      "authors": [
+        "Murali Krishna Pasupuleti"
+      ],
+      "venue": "International Journal of Academic and Industrial Research Innovations(IJAIRI)",
+      "cited_by": 187,
+      "is_oa": true,
+      "pdf_url": "https://www.nationaleducationservices.org/file-download/1532555/Download Full-Text Research Paper  PDF Pp 26-50-d2.pdf",
+      "url": "https://openalex.org/W4416745125",
+      "key": "openalex_1062311_nesx_rp-m2-dec-2021_Stochastic_Modelling_and_Scenario_Generation_for_Clou",
+      "file_kind": "txt",
+      "file": "openalex_1062311_nesx_rp-m2-dec-2021_Stochastic_Modelling_and_Scenario_Generation_for_Clou.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415796739",
+      "doi": "10.52202/079017-2474",
+      "title": "Language-Driven Interactive Traffic Trajectory Generation",
+      "abstract": "Realistic trajectory generation with natural language control is pivotal for advancing autonomous vehicle technology. However, previous methods focus on individual traffic participant trajectory generation, thus failing to account for the complexity of interactive traffic dynamics. In this work, we propose InteractTraj, the first language-driven traffic trajectory generator that can generate interactive traffic trajectories. InteractTraj interprets abstract trajectory descriptions into concrete formatted interaction-aware numerical codes and learns a mapping between these formatted codes and the final interactive trajectories. To interpret language descriptions, we propose a language-to-code encoder with a novel interaction-aware encoding strategy. To produce interactive traffic trajectories, we propose a code-to-trajectory decoder with interaction-aware feature aggregation that synergizes vehicle interactions with the environmental map and the vehicle moves. Extensive experiments show our method demonstrates superior performance over previous SoTA methods, offering a more realistic generation of interactive traffic trajectories with high controllability via diverse natural language commands. Our code is available at https://github.com/X1a-jk/InteractTraj.git",
+      "year": 2024,
+      "authors": [
+        "Junkai Xia",
+        "Chenxin Xu",
+        "Qingyao Xu",
+        "Yanfeng Wang",
+        "Siheng Chen"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 38,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415796739",
+      "key": "openalex_1052202_079017-2474_Language-Driven_Interactive_Traffic_Trajectory_Generation",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-2474_Language-Driven_Interactive_Traffic_Trajectory_Generation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413146049",
+      "doi": "10.1109/cvpr52734.2025.02565",
+      "title": "Causal Composition Diffusion Model for Closed-loop Traffic Generation",
+      "abstract": "Simulation is critical for safety evaluation in autonomous driving, particularly in capturing complex interactive behaviors. However, generating realistic and controllable traffic scenarios in long-tail situations remains a significant challenge. Existing generative models suffer from the conflicting objective between user-defined controllability and realism constraints, which is amplified in safety-critical contexts. In this work, we introduce the Causal Compositional Diffusion Model (CCDiff), a structure-guided diffusion framework to address these challenges. We first formulate the learning of controllable and realistic closed-loop simulation as a constrained optimization problem. Then, CCDiff maximizes controllability while adhering to realism by automatically identifying and injecting causal structures directly into the diffusion process, providing structured guidance to enhance both realism and controllability. Through rigorous evaluations on benchmark datasets and in a closed-loop simulator, CCDiff demonstrates substantial gains over state-of-the-art approaches in generating realistic and user-preferred trajectories. Our results show CCDiff’s effectiveness in extracting and leveraging causal structures, showing improved closed-loop performance based on key metrics such as collision rate, off-road rate, FDE, and comfort. For more details, welcome to check our project website.",
+      "year": 2025,
+      "authors": [
+        "Haohong Lin",
+        "Xin Huang",
+        "Tung Phan",
+        "David S. Hayden",
+        "Huan Zhang",
+        "Zhao Ding",
+        "Siddhartha S Srinivasa",
+        "Eric M. Wolff",
+        "Hongge Chen"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 46,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.17920",
+      "url": "https://openalex.org/W4413146049",
+      "key": "openalex_101109_cvpr52734202502565_Causal_Composition_Diffusion_Model_for_Closed-loop_Traf",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202502565_Causal_Composition_Diffusion_Model_for_Closed-loop_Traf.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7162677108",
+      "doi": "10.48550/arxiv.2605.27685",
+      "title": "Decoupled Intelligence: A Multi-Agent LLM Framework for Controllable Traffic Scenario Generation in SUMO",
+      "abstract": "The integration of Large Language Models (LLMs) with microscopic traffic simulation offers a promising path toward autonomous urban planning and intelligent transportation analysis. However, existing monolithic agent architectures often struggle with the complexity of end-to-end simulation workflows, leading to reasoning failures, parameter inconsistency, and a lack of systematic state management. This paper proposes a novel multi-agent collaborative framework designed to automate the entire lifecycle of traffic simulation in SUMO (Simulation of Urban Mobility). Our approach decouples the simulation pipeline into specialized roles, including Planner, Builder, Demand, Runner, and Analyst, coordinated by a high-level reasoning engine. We introduce a state-persistent Orchestrator leveraging the Model Context Protocol (MCP) to ensure seamless data handover and environmental consistency across distributed agent actions. This architecture enables a robust closed-loop refinement process, where simulation outcomes are iteratively analyzed and optimized to satisfy user-defined Key Performance Indicators (KPIs). Experimental results through role ablation studies demonstrate that the proposed multi-agent framework significantly enhances task success rates and parameter accuracy compared to single-agent baselines. Furthermore, case studies on real-world network extraction and traffic optimization highlight the system's capability to bridge the gap between high-level natural language intent and low-level simulation execution.",
+      "year": 2026,
+      "authors": [
+        "Shuyang Li",
+        "Ruimin Ke"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.27685",
+      "url": "https://openalex.org/W7162677108",
+      "key": "openalex_1048550_arxiv260527685_Decoupled_Intelligence_A_Multi-Agent_LLM_Framework_for_Con",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260527685_Decoupled_Intelligence_A_Multi-Agent_LLM_Framework_for_Con.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403345815",
+      "doi": "10.1007/s10270-026-01372-y",
+      "title": "Automated and logically exhaustive generation of traffic scenarios at road junctions using a multi-level danger definition",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Aren A. Babikian",
+        "Attila Ficsor",
+        "Oszkár Semeráth",
+        "Gunter Mussbacher",
+        "Dániel Varró"
+      ],
+      "venue": "Software & Systems Modeling",
+      "cited_by": 3,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2410.07079",
+      "url": "https://openalex.org/W4403345815",
+      "key": "openalex_101007_s10270-026-01372-y_Automated_and_logically_exhaustive_generation_of_traffi",
+      "file_kind": "txt",
+      "file": "openalex_101007_s10270-026-01372-y_Automated_and_logically_exhaustive_generation_of_traffi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7131275488",
+      "doi": "10.1109/apsec66846.2025.00060",
+      "title": "LLM-Based Semantic Modeling and Cooperative Evolutionary Fuzzing for Traffic Violation Scenario Generation",
+      "abstract": "Ensuring the safety of autonomous driving systems (ADS) in a cost-effective and efficient manner remains a critical challenge. Existing law-guided scenario generation approaches are typically limited to a narrow subset of legal rules, resulting in insufficient scenario diversity, and search-based methods often struggle with large and sparse search spaces. To address these limitations, we propose SLaFE (Semantic Law Modeling and Fuzzing based on Cooperative Evolution), a novel traffic violation scenario generation framework designed to systematically evaluate the safety of ADS. SLaFE harnesses the reasoning capabilities of large language models (LLMs) to convert traffic laws into structured scenario constraints. These scenarios are then optimized via a cooperative evolutionary fuzzing algorithm that explores the parameter space to identify boundary cases likely to trigger abnormal ADS behaviors. We evaluate SLaFE on the Apollo platform within the LGSVL simulator using ten realworld traffic regulations. Experimental results show that SLaFE successfully triggered all 10 types of traffic law violations (10/10), outperforming the best existing method, VioHawk (9/10), while others detected no more than 3. Moreover, SLaFE achieved an average triggering time of 5.1 minutes per law type, significantly faster than VioHawk (9.0 minutes) and other baselines. These results highlight SLaFE’s effectiveness in discovering diverse and critical law-violating scenarios for ADS testing.",
+      "year": 2025,
+      "authors": [
+        "Yangyang Liu",
+        "Xinyu Li",
+        "Yan Xiao",
+        "Mengya Zhang",
+        "Pengcheng Zhang"
+      ],
+      "venue": "Asia-Pacific Software Engineering Conference (APSEC)",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.02222",
+      "url": "https://openalex.org/W7131275488",
+      "also_doi": [],
+      "key": "openalex_101109_apsec66846202500060_LLM-Based_Semantic_Modeling_and_Cooperative_Evolutiona",
+      "file_kind": "txt",
+      "file": "openalex_101109_apsec66846202500060_LLM-Based_Semantic_Modeling_and_Cooperative_Evolutiona.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7131827335",
+      "doi": "10.1109/tits.2026.3662886",
+      "title": "Versatile Behavior Diffusion for Generalized Traffic Agent Simulation",
+      "abstract": "Existing traffic simulation models often fall short in capturing the intricacies of real-world scenarios, particularly the interactive behaviors among multiple traffic participants, thereby limiting their utility in the evaluation and validation of autonomous driving systems. We introduce Versatile Behavior Diffusion (VBD), a novel traffic scenario generation framework based on diffusion generative models that synthesizes scene-consistent, realistic, and controllable multi-agent interactions. VBD achieves strong performance in closed-loop traffic simulation, generating scene-consistent agent behaviors that reflect complex agent interactions. A key capability of VBD is inference-time scenario editing through multi-step refinement, guided by behavior priors and model-based optimization objectives, enabling flexible and controllable behavior generation. Despite being trained on real-world traffic datasets with only normal conditions, we introduce conflict-prior and game-theoretic guidance approaches. These approaches enable the generation of interactive, customizable, or long-tail safety-critical scenarios, which are essential for comprehensive testing and validation of autonomous driving systems. Extensive experiments validate the effectiveness and versatility of VBD and highlight its promise as a foundational tool for advancing traffic simulation and autonomous vehicle development. Project website:https://sites.google.com/view/versatile-behavior-diffusion",
+      "year": 2026,
+      "authors": [
+        "Zhiyu Huang",
+        "Zixu Zhang",
+        "Ameya Vaidya",
+        "Yuxiao Chen",
+        "Jaime F. Fisac",
+        "Chen Lv"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 82,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.02524",
+      "url": "https://openalex.org/W7131827335",
+      "key": "openalex_101109_tits20263662886_Versatile_Behavior_Diffusion_for_Generalized_Traffic_Agent",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20263662886_Versatile_Behavior_Diffusion_for_Generalized_Traffic_Agent.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7171871208",
+      "doi": "10.1109/iv66570.2026.11623826",
+      "title": "ARISE – Adaptive Refinement and Iterative Scenario Engineering",
+      "abstract": "The effectiveness of collision-free trajectory planners depends on the quality and diversity of training data, especially for rare scenarios. A widely used approach to improve dataset diversity involves generating realistic synthetic traffic scenarios. However, producing such scenarios remains difficult due to the precision required when scripting them manually or generating them in a single pass. Natural language offers a flexible way to describe scenarios, but existing text-to-simulation pipelines often rely on static snippet retrieval, limited grammar, single-pass decoding, or lack robust executability checks. Moreover, they depend heavily on constrained LLM prompting with minimal post-processing. To address these limitations, we introduce ARISE — Adaptive Refinement and Iterative Scenario Engineering, a multi-stage tool that converts natural language prompts into executable Scenic scripts through iterative LLM-guided refinement. After each generation, ARISE tests script executability in simulation software, feeding structured diagnostics back to the LLM until both syntactic and functional requirements are met. This process significantly reduces the need for manual intervention. Through extensive evaluation, ARISE outperforms the baseline in generating semantically accurate and executable traffic scenarios with greater reliability and robustness.",
+      "year": 2026,
+      "authors": [
+        "Konstantin Poddubnyy",
+        "Igor Vozniak",
+        "Иван Бурмистров",
+        "Nils Lipp",
+        "Davit Hovhannisyan",
+        "Christian Müller",
+        "Philipp Slusallek"
+      ],
+      "venue": "IEEE Intelligent Vehicles Symposium",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2601.14743",
+      "url": "https://openalex.org/W7171871208",
+      "key": "openalex_101109_iv66570202611623826_ARISE__Adaptive_Refinement_and_Iterative_Scenario_Engi",
+      "file_kind": "txt",
+      "file": "openalex_101109_iv66570202611623826_ARISE__Adaptive_Refinement_and_Iterative_Scenario_Engi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416960169",
+      "doi": "10.1007/s11704-026-51974-4",
+      "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Jiaguo Tian",
+        "Zhengbang Zhu",
+        "Shenyu Zhang",
+        "Li Xu",
+        "Bo Zheng",
+        "Xu Liu",
+        "Weijie Peng",
+        "Shizeng Yao",
+        "Weinan Zhang"
+      ],
+      "venue": "Frontiers of Computer Science",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.01363",
+      "url": "https://openalex.org/W4416960169",
+      "key": "openalex_101007_s11704-026-51974-4_SocialDriveGen_generating_diverse_traffic_scenarios_wit",
+      "file_kind": "txt",
+      "file": "openalex_101007_s11704-026-51974-4_SocialDriveGen_generating_diverse_traffic_scenarios_wit.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2011.11995v1",
+      "doi": "",
+      "title": "InTAS -- The Ingolstadt Traffic Scenario for SUMO",
+      "abstract": "Vehicular Ad Hoc Networks (VANETs) are expected to be the next big step towards safer road transport, supporting applications to exchange information between vehicles. To develop novel applications for this area a high number of tests, considering all traffic situations, are demanded. However, it is unfeasible to reproduce these tests in real life, by the fact that any failure on the applications would cause severe impacts on transport system safety and could risk human lives. Thus, this paper presents the concept, model, and validation for InTAS, a realistic traffic scenario for Ingolstadt. InTAS road topology accurately represents Ingolstadt real road map. Elements such as buildings, bus stops, and traffic lights were added to the map. Twenty traffic lights systems were simulated according to the real program deployed on the traffic lights. Traffic demand was modeled based on the activitygen method, considering demographic data and real-traffic information. The city public transport system was also simulated accordingly to bus time-tables and their routes. The simulation step was implemented considering the best value for device.rerouting.probability, which was defined by evaluating InTAS output and real traffic data. The scenario was validated by comparing real-traffic data from 24 measurement points with InTAS simulation results.",
+      "year": 2020,
+      "authors": [
+        "Silas C. Lobo",
+        "Stefan Neumeier",
+        "Evelio M. G. Fernandez",
+        "Christian Facchi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2011.11995v1",
+      "url": "http://arxiv.org/abs/2011.11995v1",
+      "key": "arxiv_201111995v1_InTAS_--_The_Ingolstadt_Traffic_Scenario_for_SUMO",
+      "file_kind": "txt",
+      "file": "arxiv_201111995v1_InTAS_--_The_Ingolstadt_Traffic_Scenario_for_SUMO.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2306.09327v1",
+      "doi": "",
+      "title": "Language-Guided Music Recommendation for Video via Prompt Analogies",
+      "abstract": "We propose a method to recommend music for an input video while allowing a user to guide music selection with free-form natural language. A key challenge of this problem setting is that existing music video datasets provide the needed (video, music) training pairs, but lack text descriptions of the music. This work addresses this challenge with the following three contributions. First, we propose a text-synthesis approach that relies on an analogy-based prompting procedure to generate natural language music descriptions from a large-scale language model (BLOOM-176B) given pre-trained music tagger outputs and a small number of human text descriptions. Second, we use these synthesized music descriptions to train a new trimodal model, which fuses text and video input representations to query music samples. For training, we introduce a text dropout regularization mechanism which we show is critical to model performance. Our model design allows for the retrieved music audio to agree with the two input modalities by matching visual style depicted in the video and musical genre, mood, or instrumentation described in the natural language query. Third, to evaluate our approach, we collect a testing dataset for our problem by annotating a subset of 4k clips from the YT8M-MusicVideo dataset with natural language music descriptions which we make publicly available. We show that our approach can match or exceed the performance of prior methods on video-to-music retrieval while significantly improving retrieval accuracy when using text guidance.",
+      "year": 2023,
+      "authors": [
+        "Daniel McKee",
+        "Justin Salamon",
+        "Josef Sivic",
+        "Bryan Russell"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.09327v1",
+      "url": "http://arxiv.org/abs/2306.09327v1",
+      "key": "arxiv_230609327v1_Language-Guided_Music_Recommendation_for_Video_via_Prompt_Analogies",
+      "file_kind": "txt",
+      "file": "arxiv_230609327v1_Language-Guided_Music_Recommendation_for_Video_via_Prompt_Analogies.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2409.14674v1",
+      "doi": "",
+      "title": "RACER: Rich Language-Guided Failure Recovery Policies for Imitation Learning",
+      "abstract": "Developing robust and correctable visuomotor policies for robotic manipulation is challenging due to the lack of self-recovery mechanisms from failures and the limitations of simple language instructions in guiding robot actions. To address these issues, we propose a scalable data generation pipeline that automatically augments expert demonstrations with failure recovery trajectories and fine-grained language annotations for training. We then introduce Rich languAge-guided failure reCovERy (RACER), a supervisor-actor framework, which combines failure recovery data with rich language descriptions to enhance robot control. RACER features a vision-language model (VLM) that acts as an online supervisor, providing detailed language guidance for error correction and task execution, and a language-conditioned visuomotor policy as an actor to predict the next actions. Our experimental results show that RACER outperforms the state-of-the-art Robotic View Transformer (RVT) on RLbench across various evaluation settings, including standard long-horizon tasks, dynamic goal-change tasks and zero-shot unseen tasks, achieving superior performance in both simulated and real world environments. Videos and code are available at: https://rich-language-failure-recovery.github.io.",
+      "year": 2024,
+      "authors": [
+        "Yinpei Dai",
+        "Jayjun Lee",
+        "Nima Fazeli",
+        "Joyce Chai"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.14674v1",
+      "url": "http://arxiv.org/abs/2409.14674v1",
+      "key": "arxiv_240914674v1_RACER_Rich_Language-Guided_Failure_Recovery_Policies_for_Imitation_Learn",
+      "file_kind": "txt",
+      "file": "arxiv_240914674v1_RACER_Rich_Language-Guided_Failure_Recovery_Policies_for_Imitation_Learn.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2108.07374v1",
+      "doi": "10.18653/v1/2021.gem-1.11",
+      "title": "Reusable Templates and Guides For Documenting Datasets and Models for Natural Language Processing and Generation: A Case Study of the HuggingFace and GEM Data and Model Cards",
+      "abstract": "Developing documentation guidelines and easy-to-use templates for datasets and models is a challenging task, especially given the variety of backgrounds, skills, and incentives of the people involved in the building of natural language processing (NLP) tools. Nevertheless, the adoption of standard documentation practices across the field of NLP promotes more accessible and detailed descriptions of NLP datasets and models, while supporting researchers and developers in reflecting on their work. To help with the standardization of documentation, we present two case studies of efforts that aim to develop reusable documentation templates -- the HuggingFace data card, a general purpose card for datasets in NLP, and the GEM benchmark data and model cards with a focus on natural language generation. We describe our process for developing these templates, including the identification of relevant stakeholder groups, the definition of a set of guiding principles, the use of existing templates as our foundation, and iterative revisions based on feedback.",
+      "year": 2021,
+      "authors": [
+        "Angelina McMillan-Major",
+        "Salomey Osei",
+        "Juan Diego Rodriguez",
+        "Pawan Sasanka Ammanamanchi",
+        "Sebastian Gehrmann",
+        "Yacine Jernite"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2108.07374v1",
+      "url": "http://arxiv.org/abs/2108.07374v1",
+      "key": "arxiv_1018653_v1_2021gem-111_Reusable_Templates_and_Guides_For_Documenting_Datasets_and_Mo",
+      "file_kind": "txt",
+      "file": "arxiv_1018653_v1_2021gem-111_Reusable_Templates_and_Guides_For_Documenting_Datasets_and_Mo.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2310.08187v1",
+      "doi": "",
+      "title": "Visual Question Generation in Bengali",
+      "abstract": "The task of Visual Question Generation (VQG) is to generate human-like questions relevant to the given image. As VQG is an emerging research field, existing works tend to focus only on resource-rich language such as English due to the availability of datasets. In this paper, we propose the first Bengali Visual Question Generation task and develop a novel transformer-based encoder-decoder architecture that generates questions in Bengali when given an image. We propose multiple variants of models - (i) image-only: baseline model of generating questions from images without additional information, (ii) image-category and image-answer-category: guided VQG where we condition the model to generate questions based on the answer and the category of expected question. These models are trained and evaluated on the translated VQAv2.0 dataset. Our quantitative and qualitative results establish the first state of the art models for VQG task in Bengali and demonstrate that our models are capable of generating grammatically correct and relevant questions. Our quantitative results show that our image-cat model achieves a BLUE-1 score of 33.12 and BLEU-3 score of 7.56 which is the highest of the other two variants. We also perform a human evaluation to assess the quality of the generation tasks. Human evaluation suggests that image-cat model is capable of generating goal-driven and attribute-specific questions and also stays relevant to the corresponding image.",
+      "year": 2023,
+      "authors": [
+        "Mahmud Hasan",
+        "Labiba Islam",
+        "Jannatul Ferdous Ruma",
+        "Tasmiah Tahsin Mayeesha",
+        "Rashedur M. Rahman"
+      ],
+      "venue": "Proceedings of the Workshop on Multimodal, Multilingual Natural Language Generation and Multilingual WebNLG Challenge (MM-NLG 2023), 2023, 10-19",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2310.08187v1",
+      "url": "http://arxiv.org/abs/2310.08187v1",
+      "key": "arxiv_231008187v1_Visual_Question_Generation_in_Bengali",
+      "file_kind": "txt",
+      "file": "arxiv_231008187v1_Visual_Question_Generation_in_Bengali.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2102.10130v1",
+      "doi": "",
+      "title": "Image Classification using CNN for Traffic Signs in Pakistan",
+      "abstract": "The autonomous automotive industry is one of the largest and most conventional projects worldwide, with many technology companies effectively designing and orienting their products towards automobile safety and accuracy. These products are performing very well over the roads in developed countries. But can fail in the first minute in an underdeveloped country because there is much difference between a developed country environment and an underdeveloped country environment. The following study proposed to train these Artificial intelligence models in environment space in an underdeveloped country like Pakistan. The proposed approach on image classification uses convolutional neural networks for image classification for the model. For model pre-training German traffic signs data set was selected then fine-tuned on Pakistan's dataset. The experimental setup showed the best results and accuracy from the previously conducted experiments. In this work to increase the accuracy, more dataset was collected to increase the size of images in every class in the data set. In the future, a low number of classes are required to be further increased where more images for traffic signs are required to be collected to get more accuracy on the training of the model over traffic signs of Pakistan's most used and popular roads motorway and national highway, whose traffic signs color, size, and shapes are different from common traffic signs.",
+      "year": 2021,
+      "authors": [
+        "Abdul Azeem Sikander",
+        "Hamza Ali"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2102.10130v1",
+      "url": "http://arxiv.org/abs/2102.10130v1",
+      "key": "arxiv_210210130v1_Image_Classification_using_CNN_for_Traffic_Signs_in_Pakistan",
+      "file_kind": "txt",
+      "file": "arxiv_210210130v1_Image_Classification_using_CNN_for_Traffic_Signs_in_Pakistan.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2502.00612v2",
+      "doi": "",
+      "title": "Using Causality for Enhanced Prediction of Web Traffic Time Series",
+      "abstract": "Predicting web service traffic has significant social value, as it can be applied to various practical scenarios, including but not limited to dynamic resource scaling, load balancing, system anomaly detection, service-level agreement compliance, and fraud detection. Web service traffic is characterized by frequent and drastic fluctuations over time and are influenced by heterogeneous web user behaviors, making accurate prediction a challenging task. Previous research has extensively explored statistical approaches, and neural networks to mine features from preceding service traffic time series for prediction. However, these methods have largely overlooked the causal relationships between services. Drawing inspiration from causality in ecological systems, we empirically recognize the causal relationships between web services. To leverage these relationships for improved web service traffic prediction, we propose an effective neural network module, CCMPlus, designed to extract causal relationship features across services. This module can be seamlessly integrated with existing time series models to consistently enhance the performance of web service traffic predictions. We theoretically justify that the causal correlation matrix generated by the CCMPlus module captures causal relationships among services. Empirical results on real-world datasets from Microsoft Azure, Alibaba Group, and Ant Group confirm that our method surpasses state-of-the-art approaches in Mean Squared Error (MSE) and Mean Absolute Error (MAE) for predicting service traffic time series. These findings highlight the efficacy of leveraging causal relationships for improved predictions.",
+      "year": 2025,
+      "authors": [
+        "Chang Tian",
+        "Mingzhe Xing",
+        "Zenglin Shi",
+        "Matthew B. Blaschko",
+        "Yinliang Yue",
+        "Marie-Francine Moens"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.00612v2",
+      "url": "http://arxiv.org/abs/2502.00612v2",
+      "key": "arxiv_250200612v2_Using_Causality_for_Enhanced_Prediction_of_Web_Traffic_Time_Series",
+      "file_kind": "txt",
+      "file": "arxiv_250200612v2_Using_Causality_for_Enhanced_Prediction_of_Web_Traffic_Time_Series.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.18694v1",
+      "doi": "",
+      "title": "AI-Driven Climate Policy Scenario Generation for Sub-Saharan Africa",
+      "abstract": "Climate policy scenario generation and evaluation have traditionally relied on integrated assessment models (IAMs) and expert-driven qualitative analysis. These methods enable stakeholders, such as policymakers and researchers, to anticipate impacts, plan governance strategies, and develop mitigation measures. However, traditional methods are often time-intensive, reliant on simple extrapolations of past trends, and limited in capturing the complex and interconnected nature of energy and climate issues. With the advent of artificial intelligence (AI), particularly generative AI models trained on vast datasets, these limitations can be addressed, ensuring robustness even under limited data conditions. In this work, we explore the novel method that employs generative AI, specifically large language models (LLMs), to simulate climate policy scenarios for Sub-Saharan Africa. These scenarios focus on energy transition themes derived from the historical United Nations Climate Change Conference (COP) documents. By leveraging generative models, the project aims to create plausible and diverse policy scenarios that align with regional climate goals and energy challenges. Given limited access to human evaluators, automated techniques were employed for scenario evaluation. We generated policy scenarios using the llama3.2-3B model. Of the 34 generated responses, 30 (88%) passed expert validation, accurately reflecting the intended impacts provided in the corresponding prompts. We compared these validated responses against assessments from a human climate expert and two additional LLMs (gemma2-2B and mistral-7B). Our structured, embedding-based evaluation framework shows that generative AI effectively generate scenarios that are coherent, relevant, plausible, and diverse. This approach offers a transformative tool for climate policy planning in data-constrained regions.",
+      "year": 2025,
+      "authors": [
+        "Rafiu Adekoya Badekale",
+        "Adewale Akinfaderin"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.18694v1",
+      "url": "http://arxiv.org/abs/2505.18694v1",
+      "key": "arxiv_250518694v1_AI-Driven_Climate_Policy_Scenario_Generation_for_Sub-Saharan_Africa",
+      "file_kind": "txt",
+      "file": "arxiv_250518694v1_AI-Driven_Climate_Policy_Scenario_Generation_for_Sub-Saharan_Africa.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2508.21411v1",
+      "doi": "",
+      "title": "CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios with AJAN",
+      "abstract": "User-friendly modeling and virtual simulation of urban traffic scenarios with different types of interacting agents such as pedestrians, cyclists and autonomous vehicles remains a challenge. We present CARJAN, a novel tool for semi-automated generation and simulation of such scenarios based on the multi-agent engineering framework AJAN and the driving simulator CARLA. CARJAN provides a visual user interface for the modeling, storage and maintenance of traffic scenario layouts, and leverages SPARQL Behavior Tree-based decision-making and interactions for agents in dynamic scenario simulations in CARLA. CARJAN provides a first integrated approach for interactive, intelligent agent-based generation and simulation of virtual traffic scenarios in CARLA.",
+      "year": 2025,
+      "authors": [
+        "Leonard Frank Neis",
+        "Andre Antakli",
+        "Matthias Klusch"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2508.21411v1",
+      "url": "http://arxiv.org/abs/2508.21411v1",
+      "key": "arxiv_250821411v1_CARJAN_Agent-Based_Generation_and_Simulation_of_Traffic_Scenarios_with_A",
+      "file_kind": "txt",
+      "file": "arxiv_250821411v1_CARJAN_Agent-Based_Generation_and_Simulation_of_Traffic_Scenarios_with_A.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2307.00161v1",
+      "doi": "",
+      "title": "FFPDG: Fast, Fair and Private Data Generation",
+      "abstract": "Generative modeling has been used frequently in synthetic data generation. Fairness and privacy are two big concerns for synthetic data. Although Recent GAN [\\cite{goodfellow2014generative}] based methods show good results in preserving privacy, the generated data may be more biased. At the same time, these methods require high computation resources. In this work, we design a fast, fair, flexible and private data generation method. We show the effectiveness of our method theoretically and empirically. We show that models trained on data generated by the proposed method can perform well (in inference stage) on real application scenarios.",
+      "year": 2023,
+      "authors": [
+        "Weijie Xu",
+        "Jinjin Zhao",
+        "Francis Iannacci",
+        "Bo Wang"
+      ],
+      "venue": "ICLR 2021 Workshop on Synthetic Data Generation",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2307.00161v1",
+      "url": "http://arxiv.org/abs/2307.00161v1",
+      "key": "arxiv_230700161v1_FFPDG_Fast_Fair_and_Private_Data_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_230700161v1_FFPDG_Fast_Fair_and_Private_Data_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2604.08140v1",
+      "doi": "",
+      "title": "Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark",
+      "abstract": "Network traffic, as a key media format, is crucial for ensuring security and communications in modern internet infrastructure. While existing methods offer excellent performance, they face two key bottlenecks: (1) They fail to capture multidimensional semantics beyond unimodal sequence patterns. (2) Their black box property, i.e., providing only category labels, lacks an auditable reasoning process. We identify a key factor that existing network traffic datasets are primarily designed for classification and inherently lack rich semantic annotations, failing to generate human-readable evidence report. To address data scarcity, this paper proposes a Byte-Grounded Traffic Description (BGTD) benchmark for the first time, combining raw bytes with structured expert annotations. BGTD provides necessary behavioral features and verifiable chains of evidence for multimodal reasoning towards explainable encrypted traffic interpretation. Built upon BGTD, this paper proposes an end-to-end traffic-language representation framework (mmTraffic), a multimodal reasoning architecture bridging physical traffic encoding and semantic interpretation. In order to alleviate modality interference and generative hallucinations, mmTraffic adopts a jointly-optimized perception-cognition architecture. By incorporating a perception-centered traffic encoder and a cognition-centered LLM generator, mmTraffic achieves refined traffic interpretation with guaranteed category prediction. Extensive experiments demonstrate that mmTraffic autonomously generates high-fidelity, human-readable, and evidence-grounded traffic interpretation reports, while maintaining highly competitive classification accuracy comparing to specialized unimodal model (e.g., NetMamba). The source code is available at https://github.com/lgzhangzlg/Multimodal-Reasoning-with-LLM-for-Encrypted-Traffic-Interpretation-A-Benchmark",
+      "year": 2026,
+      "authors": [
+        "Longgang Zhang",
+        "Xiaowei Fu",
+        "Fuxiang Huang",
+        "Lei Zhang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.08140v1",
+      "url": "http://arxiv.org/abs/2604.08140v1",
+      "key": "arxiv_260408140v1_Multimodal_Reasoning_with_LLM_for_Encrypted_Traffic_Interpretation_A_Ben",
+      "file_kind": "txt",
+      "file": "arxiv_260408140v1_Multimodal_Reasoning_with_LLM_for_Encrypted_Traffic_Interpretation_A_Ben.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2405.13256v1",
+      "doi": "",
+      "title": "Traffic control using intelligent timing of traffic lights with reinforcement learning technique and real-time processing of surveillance camera images",
+      "abstract": "Optimal management of traffic light timing is one of the most effective factors in reducing urban traffic. In most old systems, fixed timing was used along with human factors to control traffic, which is not very efficient in terms of time and cost. Nowadays, methods in the field of traffic management are based on the use of artificial intelligence. In this method, by using real-time processing of video surveillance camera images along with reinforcement learning, the optimal timing of traffic lights is determined and applied according to several parameters. In the research, deep learning methods were used in vehicle detection using the YOLOv9-C model to estimate the number and other characteristics of vehicles such as speed. Finally, by modeling vehicles in an urban environment simulator at OpenAI Gym using multi-factor reinforcement learning and the DQN Rainbow algorithm, timing is applied to traffic lights at intersections. Additionally, the use of transfer learning along with retraining the model on images of Iranian cars has increased the accuracy of the model. The results of the proposed method show a model that is reasonably accurate in both parts of analyzing surveillance cameras and finding the optimal timing, and it has been observed that it has better accuracy than previous research.",
+      "year": 2024,
+      "authors": [
+        "Mahdi Jamebozorg",
+        "Mohsen Hami",
+        "Sajjad Deh Deh Jani"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.13256v1",
+      "url": "http://arxiv.org/abs/2405.13256v1",
+      "key": "arxiv_240513256v1_Traffic_control_using_intelligent_timing_of_traffic_lights_with_reinforc",
+      "file_kind": "txt",
+      "file": "arxiv_240513256v1_Traffic_control_using_intelligent_timing_of_traffic_lights_with_reinforc.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.18208v1",
+      "doi": "10.5121/ijwmn.2025.17202",
+      "title": "A traffic incident management framework for vehicular ad hoc networks",
+      "abstract": "Vehicular Ad Hoc Networks (VANETs) support the information dissemination among vehicles, Roadside Units (RSUs), and a Trust Authority (TA). A trust model evaluates an entity or data or both to determine truthfulness. A security model confirms authentication, integrity, availability, non repudiation issues. With these aspects in mind, many models have been proposed in literature. Furthermore, many information dissemination approaches are proposed. However, the lack of a model that can manage traffic incidents completely inspires this work. This paper details how and when a message needs to be generated and relayed so that the incidents can be reported and managed in a timely manner. This paper addresses this challenge by providing a traffic incident management model to manage several traffic incidents efficiently. Additionally, we simulate this model using the VEINS simulator with vehicles, RSUs, and a TA. From the experiments, we measure the average number of transmissions required for reporting a single traffic incident while varying the vehicle density and relaying considerations. We consider two types of relaying. In one series of experiments, messages from regular vehicles and RSUs are relayed up to four hops. In another series of experiments, messages from the regular vehicles and RSUs are relayed until their generation time reaches sixty seconds. Additionally, messages from the official vehicles are relayed when they approach an incident or when the incident is cleared. Results from the simulations show that more vehicles are informed with four-hop relaying than sixty-second relaying in both cases.",
+      "year": 2026,
+      "authors": [
+        "Rezvi Shahariar",
+        "Chris Phillips"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.18208v1",
+      "url": "http://arxiv.org/abs/2602.18208v1",
+      "key": "arxiv_105121_ijwmn202517202_A_traffic_incident_management_framework_for_vehicular_ad_hoc_n",
+      "file_kind": "txt",
+      "file": "arxiv_105121_ijwmn202517202_A_traffic_incident_management_framework_for_vehicular_ad_hoc_n.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2301.05294v4",
+      "doi": "10.1177/02783649241284069",
+      "title": "Learning to Control and Coordinate Mixed Traffic Through Robot Vehicles at Complex and Unsignalized Intersections",
+      "abstract": "Intersections are essential road infrastructures for traffic in modern metropolises. However, they can also be the bottleneck of traffic flows as a result of traffic incidents or the absence of traffic coordination mechanisms such as traffic lights. Recently, various control and coordination mechanisms that are beyond traditional control methods have been proposed to improve the efficiency of intersection traffic by leveraging the ability of autonomous vehicles. Amongst these methods, the control of foreseeable mixed traffic that consists of human-driven vehicles (HVs) and robot vehicles (RVs) has emerged. We propose a decentralized multi-agent reinforcement learning approach for the control and coordination of mixed traffic by RVs at real-world, complex intersections -- an open challenge to date. We design comprehensive experiments to evaluate the effectiveness, robustness, generalizablility, and adaptability of our approach. In particular, our method can prevent congestion formation via merely 5% RVs under a real-world traffic demand of 700 vehicles per hour. In contrast, without RVs, congestion will form when the traffic demand reaches as low as 200 vehicles per hour. Moreover, when the RV penetration rate exceeds 60%, our method starts to outperform traffic signal control in terms of the average waiting time of all vehicles. Our method is not only robust against blackout events, sudden RV percentage drops, and V2V communication error, but also enjoys excellent generalizablility, evidenced by its successful deployment in five unseen intersections. Lastly, our method performs well under various traffic rules, demonstrating its adaptability to diverse scenarios. Videos and code of our work are available at https://sites.google.com/view/mixedtrafficcontrol",
+      "year": 2023,
+      "authors": [
+        "Dawei Wang",
+        "Weizi Li",
+        "Lei Zhu",
+        "Jia Pan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2301.05294v4",
+      "url": "http://arxiv.org/abs/2301.05294v4",
+      "key": "arxiv_101177_02783649241284069_Learning_to_Control_and_Coordinate_Mixed_Traffic_Through_Ro",
+      "file_kind": "txt",
+      "file": "arxiv_101177_02783649241284069_Learning_to_Control_and_Coordinate_Mixed_Traffic_Through_Ro.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2104.09369v1",
+      "doi": "",
+      "title": "Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models",
+      "abstract": "Real-time traffic prediction models play a pivotal role in smart mobility systems and have been widely used in route guidance, emerging mobility services, and advanced traffic management systems. With the availability of massive traffic data, neural network-based deep learning methods, especially the graph convolutional networks (GCN) have demonstrated outstanding performance in mining spatio-temporal information and achieving high prediction accuracy. Recent studies reveal the vulnerability of GCN under adversarial attacks, while there is a lack of studies to understand the vulnerability issues of the GCN-based traffic prediction models. Given this, this paper proposes a new task -- diffusion attack, to study the robustness of GCN-based traffic prediction models. The diffusion attack aims to select and attack a small set of nodes to degrade the performance of the entire prediction model. To conduct the diffusion attack, we propose a novel attack algorithm, which consists of two major components: 1) approximating the gradient of the black-box prediction model with Simultaneous Perturbation Stochastic Approximation (SPSA); 2) adapting the knapsack greedy algorithm to select the attack nodes. The proposed algorithm is examined with three GCN-based traffic prediction models: St-Gcn, T-Gcn, and A3t-Gcn on two cities. The proposed algorithm demonstrates high efficiency in the adversarial attack tasks under various scenarios, and it can still generate adversarial samples under the drop regularization such as DropOut, DropNode, and DropEdge. The research outcomes could help to improve the robustness of the GCN-based traffic prediction models and better protect the smart mobility systems. Our code is available at https://github.com/LYZ98/Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models",
+      "year": 2021,
+      "authors": [
+        "Lyuyi Zhu",
+        "Kairui Feng",
+        "Ziyuan Pu",
+        "Wei Ma"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2104.09369v1",
+      "url": "http://arxiv.org/abs/2104.09369v1",
+      "key": "arxiv_210409369v1_Adversarial_Diffusion_Attacks_on_Graph-based_Traffic_Prediction_Models",
+      "file_kind": "txt",
+      "file": "arxiv_210409369v1_Adversarial_Diffusion_Attacks_on_Graph-based_Traffic_Prediction_Models.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2410.10929v7",
+      "doi": "",
+      "title": "ASTM :Autonomous Smart Traffic Management System Using Artificial Intelligence CNN and LSTM",
+      "abstract": "In the modern world, the development of Artificial Intelligence (AI) has contributed to improvements in various areas, including automation, computer vision, fraud detection, and more. AI can be leveraged to enhance the efficiency of Autonomous Smart Traffic Management (ASTM) systems and reduce traffic congestion rates. This paper presents an Autonomous Smart Traffic Management (STM) system that uses AI to improve traffic flow rates. The system employs the YOLO V5 Convolutional Neural Network to detect vehicles in traffic management images. Additionally, it predicts the number of vehicles for the next 12 hours using a Recurrent Neural Network with Long Short-Term Memory (RNN-LSTM). The Smart Traffic Management Cycle Length Analysis manages the traffic cycle length based on these vehicle predictions, aided by AI. From the results of the RNN-LSTM model for predicting vehicle numbers over the next 12 hours, we observe that the model predicts traffic with a Mean Squared Error (MSE) of 4.521 vehicles and a Root Mean Squared Error (RMSE) of 2.232 vehicles. After simulating the STM system in the CARLA simulation environment, we found that the Traffic Management Congestion Flow Rate with ASTM (21 vehicles per minute) is 50\\% higher than the rate without STM (around 15 vehicles per minute). Additionally, the Traffic Management Vehicle Pass Delay with STM (5 seconds per vehicle) is 70\\% lower than without STM (around 12 seconds per vehicle). These results demonstrate that the STM system using AI can increase traffic flow by 50\\% and reduce vehicle pass delays by 70\\%.",
+      "year": 2024,
+      "authors": [
+        "Christofel Rio Goenawan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2410.10929v7",
+      "url": "http://arxiv.org/abs/2410.10929v7",
+      "key": "arxiv_241010929v7_ASTM_Autonomous_Smart_Traffic_Management_System_Using_Artificial_Intelli",
+      "file_kind": "txt",
+      "file": "arxiv_241010929v7_ASTM_Autonomous_Smart_Traffic_Management_System_Using_Artificial_Intelli.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2107.04464v1",
+      "doi": "",
+      "title": "A First Look at Class Incremental Learning in Deep Learning Mobile Traffic Classification",
+      "abstract": "The recent popularity growth of Deep Learning (DL) re-ignited the interest towards traffic classification, with several studies demonstrating the accuracy of DL-based classifiers to identify Internet applications' traffic. Even with the aid of hardware accelerators (GPUs, TPUs), DL model training remains expensive, and limits the ability to operate frequent model updates necessary to fit to the ever evolving nature of Internet traffic, and mobile traffic in particular. To address this pain point, in this work we explore Incremental Learning (IL) techniques to add new classes to models without a full retraining, hence speeding up model's updates cycle. We consider iCarl, a state of the art IL method, and MIRAGE-2019, a public dataset with traffic from 40 Android apps, aiming to understand \"if there is a case for incremental learning in traffic classification\". By dissecting iCarl internals, we discuss ways to improve its design, contributing a revised version, namely iCarl+. Despite our analysis reveals their infancy, IL techniques are a promising research area on the roadmap towards automated DL-based traffic analysis systems.",
+      "year": 2021,
+      "authors": [
+        "Giampaolo Bovenzi",
+        "Lixuan Yang",
+        "Alessandro Finamore",
+        "Giuseppe Aceto",
+        "Domenico Ciuonzo",
+        "Antonio Pescapè",
+        "Dario Rossi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2107.04464v1",
+      "url": "http://arxiv.org/abs/2107.04464v1",
+      "key": "arxiv_210704464v1_A_First_Look_at_Class_Incremental_Learning_in_Deep_Learning_Mobile_Traff",
+      "file_kind": "txt",
+      "file": "arxiv_210704464v1_A_First_Look_at_Class_Incremental_Learning_in_Deep_Learning_Mobile_Traff.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.10715v1",
+      "doi": "",
+      "title": "VLM-Guided Adaptive Negative Prompting for Creative Generation",
+      "abstract": "Creative generation is the synthesis of new, surprising, and valuable samples that reflect user intent yet cannot be envisioned in advance. This task aims to extend human imagination, enabling the discovery of visual concepts that exist in the unexplored spaces between familiar domains. While text-to-image diffusion models excel at rendering photorealistic scenes that faithfully match user prompts, they still struggle to generate genuinely novel content. Existing approaches to enhance generative creativity either rely on interpolation of image features, which restricts exploration to predefined categories, or require time-intensive procedures such as embedding optimization or model fine-tuning. We propose VLM-Guided Adaptive Negative-Prompting, a training-free, inference-time method that promotes creative image generation while preserving the validity of the generated object. Our approach utilizes a vision-language model (VLM) that analyzes intermediate outputs of the generation process and adaptively steers it away from conventional visual concepts, encouraging the emergence of novel and surprising outputs. We evaluate creativity through both novelty and validity, using statistical metrics in the CLIP embedding space. Through extensive experiments, we show consistent gains in creative novelty with negligible computational overhead. Moreover, unlike existing methods that primarily generate single objects, our approach extends to complex scenarios, such as generating coherent sets of creative objects and preserving creativity within elaborate compositional prompts. Our method integrates seamlessly into existing diffusion pipelines, offering a practical route to producing creative outputs that venture beyond the constraints of textual descriptions.",
+      "year": 2025,
+      "authors": [
+        "Shelly Golan",
+        "Yotam Nitzan",
+        "Zongze Wu",
+        "Or Patashnik"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.10715v1",
+      "url": "http://arxiv.org/abs/2510.10715v1",
+      "key": "arxiv_251010715v1_VLM-Guided_Adaptive_Negative_Prompting_for_Creative_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_251010715v1_VLM-Guided_Adaptive_Negative_Prompting_for_Creative_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2112.05077v2",
+      "doi": "",
+      "title": "Generating Useful Accident-Prone Driving Scenarios via a Learned Traffic Prior",
+      "abstract": "Evaluating and improving planning for autonomous vehicles requires scalable generation of long-tail traffic scenarios. To be useful, these scenarios must be realistic and challenging, but not impossible to drive through safely. In this work, we introduce STRIVE, a method to automatically generate challenging scenarios that cause a given planner to produce undesirable behavior, like collisions. To maintain scenario plausibility, the key idea is to leverage a learned model of traffic motion in the form of a graph-based conditional VAE. Scenario generation is formulated as an optimization in the latent space of this traffic model, perturbing an initial real-world scene to produce trajectories that collide with a given planner. A subsequent optimization is used to find a \"solution\" to the scenario, ensuring it is useful to improve the given planner. Further analysis clusters generated scenarios based on collision type. We attack two planners and show that STRIVE successfully generates realistic, challenging scenarios in both cases. We additionally \"close the loop\" and use these scenarios to optimize hyperparameters of a rule-based planner.",
+      "year": 2021,
+      "authors": [
+        "Davis Rempe",
+        "Jonah Philion",
+        "Leonidas J. Guibas",
+        "Sanja Fidler",
+        "Or Litany"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2112.05077v2",
+      "url": "http://arxiv.org/abs/2112.05077v2",
+      "key": "arxiv_211205077v2_Generating_Useful_Accident-Prone_Driving_Scenarios_via_a_Learned_Traffic",
+      "file_kind": "txt",
+      "file": "arxiv_211205077v2_Generating_Useful_Accident-Prone_Driving_Scenarios_via_a_Learned_Traffic.txt"
+    }
+  ]
+}

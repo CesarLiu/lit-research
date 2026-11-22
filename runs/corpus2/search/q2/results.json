@@ -1,0 +1,1191 @@
+{
+  "query": "controllable traffic simulation",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 46,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4383108499",
+      "doi": "10.1109/icra48891.2023.10161463",
+      "title": "Guided Conditional Diffusion for Controllable Traffic Simulation",
+      "abstract": "Controllable and realistic traffic simulation is critical for developing and verifying autonomous vehicles. Typical heuristic-based traffic models offer flexible control to make vehicles follow specific trajectories and traffic rules. On the other hand, data-driven approaches generate realistic and human-like behaviors, improving transfer from simulated to real-world traffic. However, to the best of our knowledge, no traffic model offers both controllability and realism. In this work, we develop a conditional diffusion model for controllable traffic generation (CTG) that allows users to control desired properties of trajectories at test time (e.g., reach a goal or follow a speed limit) while maintaining realism and physical feasibility through enforced dynamics. The key technical idea is to leverage recent advances from diffusion modeling and differentiable logic to guide generated trajectories to meet rules defined using signal temporal logic (STL). We further extend guidance to multi-agent settings and enable interaction-based rules like collision avoidance. CTG is extensively evaluated on the nuScenes dataset for diverse and composite rules, demonstrating improvement over strong baselines in terms of the controllability-realism tradeoff. Demo videos can be found at https://aiasd.github.io/ctg.github.io",
+      "year": 2023,
+      "authors": [
+        "Ziyuan Zhong",
+        "Davis Rempe",
+        "Danfei Xu",
+        "Yuxiao Chen",
+        "Sushant Veer",
+        "Tong Che",
+        "Baishakhi Ray",
+        "Marco Pavone"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 320,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2210.17366",
+      "url": "https://openalex.org/W4383108499",
+      "also_doi": [],
+      "key": "openalex_101109_icra48891202310161463_Guided_Conditional_Diffusion_for_Controllable_Traffi",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra48891202310161463_Guided_Conditional_Diffusion_for_Controllable_Traffi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4414743715",
+      "doi": "10.48550/arxiv.2505.03344",
+      "title": "RIFT: Group-Relative RL Fine-Tuning for Realistic and Controllable Traffic Simulation",
+      "abstract": "Achieving both realism and controllability in closed-loop traffic simulation remains a key challenge in autonomous driving. Dataset-based methods reproduce realistic trajectories but suffer from covariate shift in closed-loop deployment, compounded by simplified dynamics models that further reduce reliability. Conversely, physics-based simulation methods enhance reliable and controllable closed-loop interactions but often lack expert demonstrations, compromising realism. To address these challenges, we introduce a dual-stage AV-centric simulation framework that conducts imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and route-level controllability, followed by reinforcement learning fine-tuning in a physics-based simulator to enhance style-level controllability and mitigate covariate shift. In the fine-tuning stage, we propose RIFT, a novel group-relative RL fine-tuning strategy that evaluates all candidate modalities through group-relative formulation and employs a surrogate objective for stable optimization, enhancing style-level controllability and mitigating covariate shift while preserving the trajectory-level realism and route-level controllability inherited from IL pre-training. Extensive experiments demonstrate that RIFT improves realism and controllability in traffic simulation while simultaneously exposing the limitations of modern AV systems in closed-loop evaluation. Project Page: https://currychen77.github.io/RIFT/",
+      "year": 2025,
+      "authors": [
+        "Keyu Chen",
+        "Wenchao Sun",
+        "Hao Bo Cheng",
+        "Sifa Zheng"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 17,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.03344",
+      "url": "https://openalex.org/W4414743715",
+      "key": "openalex_1048550_arxiv250503344_RIFT_Group-Relative_RL_Fine-Tuning_for_Realistic_and_Contr",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250503344_RIFT_Group-Relative_RL_Fine-Tuning_for_Realistic_and_Contr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7167104847",
+      "doi": "10.1007/978-3-032-37196-6_2",
+      "title": "ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation",
+      "abstract": "Controllable traffic simulation is critical for testing autonomous driving systems, yet existing approaches often require retraining large generative models with extensive annotated data. We introduce a lightweight control adaptation framework that enables multi-modal controllability (sketch, latent behavior codes, and text) for pretrained state-of-the-art diffusion and autoregressive traffic models. By modulating intermediate features through identity-initialized FiLM layers, our method efficiently adds new control modalities while preserving the base model's generative prior. Evaluated on Waymo Open Sim Agents Challenge, our approach demonstrates strong controllability with less than 1% of the paired control data. Through context-aware condition transfer, our framework enables counterfactual scenario generation and long-tail synthesis while maintaining stable closed-loop driving realism and safety. Our framework unlocks new possibilities for controllable traffic simulation, enabling targeted scenario generation through lightweight adaptation of pretrained generative models. Project page: https://ecosim-web.github.io/",
+      "year": 2026,
+      "authors": [
+        "Yu-Hsiang Chen",
+        "Wei-Jer Chang",
+        "Yi-Ting Chen",
+        "Masayoshi Tomizuka"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.00545",
+      "url": "https://openalex.org/W7167104847",
+      "also_doi": [],
+      "key": "openalex_101007_978-3-032-37196-6_2_ECoSim_Data_Efficient_Fine-Tuning_for_Controllable_Tra",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-032-37196-6_2_ECoSim_Data_Efficient_Fine-Tuning_for_Controllable_Tra.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4416749640",
+      "doi": "10.1109/iros60139.2025.11247747",
+      "title": "Controllable Traffic Simulation through LLM-Guided Hierarchical Reasoning and Refinement",
+      "abstract": "Evaluating autonomous driving systems in complex and diverse traffic scenarios through controllable simulation is essential to ensure their safety and reliability. However, existing traffic simulation methods face challenges in their controllability. To address this, we propose a novel diffusion-based and LLM-enhanced traffic simulation framework. Our approach incorporates a high-level understanding module and a low-level refinement module, which systematically examines the hierarchical structure of traffic elements, guides LLMs to thoroughly analyze traffic scenario descriptions step by step, and refines the generation by self-reflection, enhancing their understanding of complex situations. Furthermore, we propose a Frenet-frame-based cost function framework that provides LLMs with geometrically meaningful quantities, improving their grasp of spatial relationships in a scenario and enabling more accurate cost function generation. Experiments on the Waymo Open Motion Dataset (WOMD) demonstrate that our method can handle more intricate descriptions and generate a broader range of scenarios in a controllable manner.",
+      "year": 2025,
+      "authors": [
+        "Zhiyuan Liu",
+        "Leheng Li",
+        "Yuning Wang",
+        "Haotian Lin",
+        "Hao Cheng",
+        "Zhizhe Liu",
+        "Lei He",
+        "Jianqiang Wang"
+      ],
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "cited_by": 17,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.15135",
+      "url": "https://openalex.org/W4416749640",
+      "also_doi": [],
+      "key": "openalex_101109_iros60139202511247747_Controllable_Traffic_Simulation_through_LLM-Guided_H",
+      "file_kind": "txt",
+      "file": "openalex_101109_iros60139202511247747_Controllable_Traffic_Simulation_through_LLM-Guided_H.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4385562469",
+      "doi": "10.1145/3580305.3599789",
+      "title": "CBLab: Supporting the Training of Large-scale Traffic Control Policies with Scalable Traffic Simulation",
+      "abstract": "Traffic simulation provides interactive data for the optimization of traffic control policies. However, existing traffic simulators are limited by their lack of scalability and shortage in input data, which prevents them from generating interactive data from traffic simulation in the scenarios of real large-scale city road networks. In this paper, we present City Brain Lab, a toolkit for scalable traffic simulation. CBLab consists of three components: CBEngine, CBData, and CBScenario. CBEngine is a highly efficient simulator supporting large-scale traffic simulation. CBData includes a traffic dataset with road network data of 100 cities all around the world. We also develop a pipeline to conduct a one-click transformation from raw road networks to input data of our traffic simulation. Combining CBEngine and CBData allows researchers to run scalable traffic simulations in the road network of real large-scale cities. Based on that, CBScenario implements an interactive environment and a benchmark for two scenarios of traffic control policies respectively, with which traffic control policies adaptable for large-scale urban traffic can be trained and tuned. To the best of our knowledge, CBLab is the first infrastructure supporting traffic control policy optimization in large-scale urban scenarios. CBLab has supported the City Brain Challenge @ KDD CUP 2021. The project is available on GitHub:~https://github.com/CityBrainLab/CityBrainLab.git.",
+      "year": 2023,
+      "authors": [
+        "Chumeng Liang",
+        "Zherui Huang",
+        "Yicheng Liu",
+        "Zhanyu Liu",
+        "Guanjie Zheng",
+        "Hanyuan Shi",
+        "Kan Wu",
+        "Yuhao Du",
+        "Fuliang Li",
+        "Zhenhui Jessie Li"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "cited_by": 31,
+      "is_oa": true,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3580305.3599789",
+      "url": "https://openalex.org/W4385562469",
+      "also_doi": [],
+      "key": "openalex_101145_35803053599789_CBLab_Supporting_the_Training_of_Large-scale_Traffic_Contro",
+      "file_kind": "txt",
+      "file": "openalex_101145_35803053599789_CBLab_Supporting_the_Training_of_Large-scale_Traffic_Contro.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W2944774797",
+      "doi": "10.2478/ttj-2019-0014",
+      "title": "Vehicle-In-The-Loop (VIL) and Scenario-In-The-Loop (SCIL) Automotive Simulation Concepts from the Perspectives of Traffic Simulation and Traffic Control",
+      "abstract": "As highly automated and autonomous vehicles (AVs) become more and more widespread, inducing the change of traffic dynamics, significant changes occur in traditional traffic control. So far, automotive testing has been done mostly in real-world or pure virtual simulation environment. However, this practice is quite obsolete as testing in real traffic conditions can be quite costly, moreover purely simulation based testing might be inadequate for specific goals. Accordingly, a hybrid concept of the Vehicle-inthe-Loop (ViL) was born recently, in accordance with the Hardware-in-the-Loop concept, i.e. in the ViL concept the vehicle is the 'hardware' within the simulation loop. Furthermore, due to the development of software capabilities, a novel approach, the Scenarioin-the-Loop (SciL) concept evolves based on the ViL approach. The paper defines the main purposes and conditions related to implementing ViL and SciL concepts from the perspective of traffic simulation and traffic control.",
+      "year": 2019,
+      "authors": [
+        "Márton Tamás Horváth",
+        "Qiong Lu",
+        "Tamás Tettamanti",
+        "Árpád Török",
+        "Zsolt Szalay"
+      ],
+      "venue": "Transport and Telecommunication Journal",
+      "cited_by": 34,
+      "is_oa": true,
+      "pdf_url": "https://content.sciendo.com/downloadpdf/journals/ttj/20/2/article-p153.pdf",
+      "url": "https://openalex.org/W2944774797",
+      "key": "openalex_102478_ttj-2019-0014_Vehicle-In-The-Loop_VIL_and_Scenario-In-The-Loop_SCIL_Automo",
+      "file_kind": "txt",
+      "file": "openalex_102478_ttj-2019-0014_Vehicle-In-The-Loop_VIL_and_Scenario-In-The-Loop_SCIL_Automo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3128681600",
+      "doi": "10.1016/j.trpro.2021.01.042",
+      "title": "Traffic control algorithms for mixed vehicle traffic – A simulation-based investigation",
+      "abstract": "A library of software tools, that implements various motorway traffic control algorithms in a generic way for any network topology given by the user, has been developed and integrated with the advanced simulation environment VSimRTI. The control algorithms have been thoroughly assessed via comprehensive simulation investigations involving a large variety of penetration rates for CAVs, infrastructure types and capabilities, and traffic conditions (free flow, critical, congested). The most promising strategy appears to be an ACC parameter adaptation strategy that is presented together with the simulation evaluation results for a test site at Girona (Spain).",
+      "year": 2021,
+      "authors": [
+        "Vasileios Markantonakis",
+        "Aneza Doko",
+        "Ioannis Papamichail",
+        "Markos Papageorgiou",
+        "Karl Schrab",
+        "Maximilian Neubauer",
+        "Robert Protzmann"
+      ],
+      "venue": "Transportation research procedia",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2352146521000740/pdf",
+      "url": "https://openalex.org/W3128681600",
+      "key": "openalex_101016_jtrpro202101042_Traffic_control_algorithms_for_mixed_vehicle_traffic__A_si",
+      "file_kind": "txt",
+      "file": "openalex_101016_jtrpro202101042_Traffic_control_algorithms_for_mixed_vehicle_traffic__A_si.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4414900400",
+      "doi": "10.48550/arxiv.2503.11771",
+      "title": "Controllable Latent Diffusion for Traffic Simulation",
+      "abstract": "The validation of autonomous driving systems benefits greatly from the ability to generate scenarios that are both realistic and precisely controllable. Conventional approaches, such as real-world test drives, are not only expensive but also lack the flexibility to capture targeted edge cases for thorough evaluation. To address these challenges, we propose a controllable latent diffusion that guides the training of diffusion models via reinforcement learning to automatically generate a diverse and controllable set of driving scenarios for virtual testing. Our approach removes the reliance on large-scale real-world data by generating complex scenarios whose properties can be finely tuned to challenge and assess autonomous vehicle systems. Experimental results show that our approach has the lowest collision rate of $0.098$ and lowest off-road rate of $0.096$, demonstrating superiority over existing baselines. The proposed approach significantly improves the realism, stability and controllability of the generated scenarios, enabling more nuanced safety evaluation of autonomous vehicles.",
+      "year": 2025,
+      "authors": [
+        "Xiao, Yizhuo",
+        "Mustafa Suphi Erden",
+        "Cheng Wang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.11771",
+      "url": "https://openalex.org/W4414900400",
+      "key": "openalex_1048550_arxiv250311771_Controllable_Latent_Diffusion_for_Traffic_Simulation",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250311771_Controllable_Latent_Diffusion_for_Traffic_Simulation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4310623140",
+      "doi": "10.4324/9781315045467-128",
+      "title": "Task and Interaction Regulation in Controlling a Traffic Simulation",
+      "abstract": "In collaborative problem solving, metacognition not only covers strategic reasoning related to the task but also reasoning related to the interaction itself. The hypothesis underlying this work states that regulation of the interaction and regulation of the task are closely related mechanisms and that their co-occurrence facilitates coordination. These assumptions are tested experimentally with a traffic simulator. The results show that co-occurrence of task and interaction regulation allows quicker solving of the problem, thus better performance. The experimental treatment aims at observing the effects of interaction meters on the accuracy of subjects’ estimation of their participation. Interaction meters are visualization tools that represent the number of contributions related to the discussion and to the implementation of the solution.",
+      "year": 2023,
+      "authors": [
+        "Patrick Jermann"
+      ],
+      "venue": "Routledge eBooks",
+      "cited_by": 16,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4310623140",
+      "key": "openalex_104324_9781315045467-128_Task_and_Interaction_Regulation_in_Controlling_a_Traffic",
+      "file_kind": "txt",
+      "file": "openalex_104324_9781315045467-128_Task_and_Interaction_Regulation_in_Controlling_a_Traffic.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3213115507",
+      "doi": "10.1088/1742-6596/2068/1/012043",
+      "title": "Simulation and Research of Urban Intelligent Traffic Light Control System",
+      "abstract": "Intelligent traffic light control system belongs to the field of transportation public safety control. So far, the traffic light control system on the market cannot change the working time of the traffic lights according to the actual traffic flow, which is not conducive to the easing of the traffic flow and easy to cause traffic jams. Therefore, it is necessary to solve the problem of the existing traffic light control system which cannot adjust the working hours of the traffic light according to the actual road conditions, so as to alleviate the traffic jam at the intersection to a certain extent. In this paper, the design of intelligent traffic light control system uses AT89C51 MCU as the core device. The system controls the traffic of different times and different conditions, and it can alleviate traffic jam to a certain extent. This paper analyzes the hardware and software designes of intelligent traffic light control system, and simulates traffic light control by simulation software. The system of this paper is simple in structure, economical and practical, reliable in operation and it can effectively dredge the traffic.",
+      "year": 2021,
+      "authors": [
+        "Chunling Sun",
+        "Fuhai Liu"
+      ],
+      "venue": "Journal of Physics Conference Series",
+      "cited_by": 3,
+      "is_oa": true,
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/2068/1/012043/pdf",
+      "url": "https://openalex.org/W3213115507",
+      "key": "openalex_101088_1742-6596_2068_1_012043_Simulation_and_Research_of_Urban_Intelligent_Traff",
+      "file_kind": "txt",
+      "file": "openalex_101088_1742-6596_2068_1_012043_Simulation_and_Research_of_Urban_Intelligent_Traff.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4379415345",
+      "doi": "10.1145/3573900.3591116",
+      "title": "Towards Discrete-Event, Aggregating, and Relational Control Interfaces for Traffic Simulation",
+      "abstract": "The use of IoT and AI/ML to extract insights for Data-Driven Decision-Making (DDDM) in Intelligent Traffic Systems (ITS) is becoming increasingly popular. While simulation is a cost-effective and safe way to evaluate such approaches, existing simulators are often impractical due to inefficient control interfaces. In this work, we propose a Discrete-Event, Aggregating, and Relational Control Interfaces (DAR-CI) framework for achieving efficient traffic management simulations through a coupled approach. It enables a non-blocking interaction mode based on a discrete-event synchronization architecture. The overhead caused by data exchange is substantially reduced by supporting the direct retrieval of temporal metrics, data batch processing and customized in-situ aggregation. Combined with flexible, extendable, easy-to-understand, and implementation-friendly semantic specifications, we propose DAR-CI to serve as a universal tool for the traffic simulation community, taking the use and control of traffic simulation to a new level. A proof-of-concept study on the simulation of an adaptive traffic light control system demonstrates a 9.53X speedup compared to TraCI, a widely used protocol for controlling traffic simulators.",
+      "year": 2023,
+      "authors": [
+        "Zhuoxiao Meng",
+        "Anibal Siguenza-Torres",
+        "Mingyue Gao",
+        "Margherita Grossi",
+        "Alexander Wieder",
+        "Xiaorui Du",
+        "Stefano Bortoli",
+        "Christoph Sommer",
+        "Alois Knoll"
+      ],
+      "venue": "ACM/IEEE/SCS Workshop on Principles of Advanced and Distributed Simulation (PADS)",
+      "cited_by": 8,
+      "is_oa": true,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3573900.3591116",
+      "url": "https://openalex.org/W4379415345",
+      "key": "openalex_101145_35739003591116_Towards_Discrete-Event_Aggregating_and_Relational_Control_I",
+      "file_kind": "txt",
+      "file": "openalex_101145_35739003591116_Towards_Discrete-Event_Aggregating_and_Relational_Control_I.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3199947090",
+      "doi": "10.1109/icra46639.2022.9812223",
+      "title": "PredictionNet: Real-Time Joint Probabilistic Traffic Prediction for Planning, Control, and Simulation",
+      "abstract": "Predicting the future motion of traffic agents is crucial for safe and efficient autonomous driving. To this end, we present PredictionNet, a deep neural network (DNN) that predicts the motion of all surrounding traffic agents together with the ego-vehicle's motion. All predictions are probabilistic and are represented in a simple top-down rasterization that allows an arbitrary number of agents. Conditioned on a multi-layer map with lane information, the network outputs future positions, velocities, and backtrace vectors jointly for all agents including the ego-vehicle in a single pass. Trajectories are then extracted from the output. The network can be used to simulate realistic traffic, and it produces competitive results on popular benchmarks. More importantly, it has been used to successfully control a real-world vehicle for hundreds of kilometers, by combining it with a motion planning/control subsystem. The network runs faster than real-time on an embedded GPU, and the system shows good generalization (across sensory modalities and locations) due to the choice of input representation. Furthermore, we demonstrate that by extending the DNN with reinforcement learning (RL), it can better handle rare or unsafe events like aggressive maneuvers and crashes.",
+      "year": 2022,
+      "authors": [
+        "A. Kamenev",
+        "Lirui Wang",
+        "Ollin Boer Bohan",
+        "Ishwar Kulkarni",
+        "Bilal Kartal",
+        "Artem Molchanov",
+        "Stan T. Birchfield",
+        "D. Nistér",
+        "Nikolai Smolyanskiy"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 61,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2109.11094",
+      "url": "https://openalex.org/W3199947090",
+      "key": "openalex_101109_icra4663920229812223_PredictionNet_Real-Time_Joint_Probabilistic_Traffic_P",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra4663920229812223_PredictionNet_Real-Time_Joint_Probabilistic_Traffic_P.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4287826313",
+      "doi": "",
+      "title": "High Performance Computing Traffic Simulations for Real-Time Traffic Control of Mobility in Chattanooga Region",
+      "abstract": "In 2019, highway congestion wasted over 3 billion gallons of fuel and caused 8.8 billion hours of lost productivity.1 Research has shown that introducing near-real time traffic controls can significantly reduce congestion. Validated and calibrated traffic simulations enable the modeling of transportation systems and the evaluation of different traffic control actions and schemes given a variety of circumstances that represent likely future scenarios. The developed scenarios can inform the deployment of controls in near real-time to improve freight and passenger vehicle congestion and energy use. In this work, we present simulations used to model the traffic in the Chattanooga, Tennessee, metropolitan area. Simulations were constructed and calibrated using a variety of local, data science enhanced, data sources utilizing open source software including the Simulation of Urban Mobility (SUMO) simulator. High-Performance Computing (HPC) provides a scalable platform with enough computing for the high-fidelity simulation of many scenarios and the application of advance data science especially for large-scale systems. Our simulations include microscopic simulations at a corridor level for traffic signal control, and mesoscopic simulations to evaluate regional operational controls and infrastructure.",
+      "year": 2020,
+      "authors": [
+        "Juliette Ugirumurera"
+      ],
+      "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4287826313",
+      "key": "openalex_W4287826313_High_Performance_Computing_Traffic_Simulations_for_Real-Time_Traffic_",
+      "file_kind": "txt",
+      "file": "openalex_W4287826313_High_Performance_Computing_Traffic_Simulations_for_Real-Time_Traffic_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4387142467",
+      "doi": "10.2478/cait-2023-0032",
+      "title": "Modelling and Simulation of Traffic Light Control",
+      "abstract": "This study presents design of traffic light system with feedback control that considers a crossroad in an urban area. Two types of controllers are designed – fuzzy and analytical, which have been tested separately on Aimsun platform through a simulation. The aim of the study is to compare the performance of both controllers in terms of increasing traffic flow and decreasing queue length. The controllers manage the duration of the green light according to the traffic flow. Two different formal models are designed, tested, and compared. They have produced adequate solutions in terms of developing controllers for modeling and simulation of transportation tasks.",
+      "year": 2023,
+      "authors": [
+        "Boriana Vatchova",
+        "Yordanka Boneva",
+        "ALEXANDER E. GEGOV"
+      ],
+      "venue": "Cybernetics and Information Technologies",
+      "cited_by": 6,
+      "is_oa": true,
+      "pdf_url": "https://sciendo.com/pdf/10.2478/cait-2023-0032",
+      "url": "https://openalex.org/W4387142467",
+      "key": "openalex_102478_cait-2023-0032_Modelling_and_Simulation_of_Traffic_Light_Control",
+      "file_kind": "txt",
+      "file": "openalex_102478_cait-2023-0032_Modelling_and_Simulation_of_Traffic_Light_Control.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4400231926",
+      "doi": "10.1109/icaaic60222.2024.10575522",
+      "title": "Enhancing Traffic Control Strategies through Dynamic Simulation and Reinforcement Learning",
+      "abstract": "In urban areas, traffic congestion is a major problem causing increased travel times, higher consumption of fuel, and environmental pollution. The traditional traffic control systems cannot adapt to dynamic traffic conditions, causing inefficient traffic flow and inefficient use of road infrastructure. In this paper, we propose a novel method to enhance traffic management strategies through dynamic simulation and reinforcement learning (RL). A simulation framework is presented that models the complex interactions among vehicles, traffic signals, and infrastructure in a realistic urban environment. Within this framework, RL agents are deployed to learn adaptive traffic control policies that minimize congestion and optimize traffic flow. This approach uses the ability of RL to continuously learn and adjust to shifting traffic circumstances, which results in improved efficiency and responsiveness compared to static or rule-based control systems. Finally, evaluate the effectiveness of the approach through extensive simulations and demonstrate its capability to significantly reduce congestion, decrease travel times, decrease average waiting time and enhance overall traffic management. By integrating dynamic simulation and RL-based control strategies, the proposed approach offers a guaranteed solution for addressing the challenges of urban traffic congestion and advancing the field of intelligent transportation systems.",
+      "year": 2024,
+      "authors": [
+        "Alona Mary Sebastian",
+        "K R Athulram",
+        "Colin Michael",
+        "Diya Anna Sunil",
+        "K. G. Preetha"
+      ],
+      "venue": "International Conference on Applied Artificial Intelligence and Computing (ICAAIC)",
+      "cited_by": 7,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4400231926",
+      "key": "openalex_101109_icaaic60222202410575522_Enhancing_Traffic_Control_Strategies_through_Dynam",
+      "file_kind": "txt",
+      "file": "openalex_101109_icaaic60222202410575522_Enhancing_Traffic_Control_Strategies_through_Dynam.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7117481176",
+      "doi": "10.31224/6107",
+      "title": "Stochastic Control Behavior of the Balancing Rider for Cycling Safety in Traffic Simulation",
+      "abstract": "Cyclist models with realistic behavior are essential for simulation-based safety testing of automated vehicles, assistance systems, traffic control, and infrastructure. We investigated the role of bicycle dynamics and human control for traffic processes in an experiment with ten cyclists following unanticipated, visual heading commands under varying time-pressure at multiple speeds, and propose a new Balancing Rider model for traffic simulation. It combines the Carvallo-Whipple bicycle model with full-state feedback to capture bicycle dynamics, human heading control, and balancing. We estimated control parameters for each individual maneuver, and described their distribution in a stochastic model. We tested trajectories generated from this distribution for predictive power and simulated obstacle avoidance to analyze safety prediction in comparison to a planar baseline model. The cycling experiment revealed a large variety of slow and quick control strategies for heading changes. The Balancing Rider model achieved excellent calibration and promising predictive performance covering the observed control strategies. A baseline planar point model couldn't capture details of cyclist maneuvers like countersteering and heading overshoot, with path deviations reaching an order of meters. For obstacle avoidance, we project > 0.4 s Time-to-Collision difference between the models, showing that the added physical detail greatly impacts simulated safety assessment. This illustrates that bicycle dynamics and human control behaviors are important elements explaining causal cycling traffic processes and should be included in models for simulated safety testing. The large variety of control behaviors among the participants could potentially be an explanatory factor of traffic conflict outcomes, which future work should investigate further.",
+      "year": 2025,
+      "authors": [
+        "Christoph M. Konrad",
+        "Riender Happee",
+        "Jason K. Moore",
+        "Azita Dabiri"
+      ],
+      "venue": "Engineering Archive (engrXiv)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://engrxiv.org/preprint/download/6107/10087",
+      "url": "https://openalex.org/W7117481176",
+      "key": "openalex_1031224_6107_Stochastic_Control_Behavior_of_the_Balancing_Rider_for_Cycling_Safet",
+      "file_kind": "txt",
+      "file": "openalex_1031224_6107_Stochastic_Control_Behavior_of_the_Balancing_Rider_for_Cycling_Safet.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7224840613",
+      "doi": "10.1109/click68749.2026.11741909",
+      "title": "Simulation Based On Traffic Light Control System By Using Sumo And TraCI",
+      "abstract": "Urban traffic jams are one of those problems that just won’t die, especially on intersections where old-fashioned fixed timer signals still do their duty regardless of what is actually happening on the road. To improve over the present, the study designed a adaptive traffic signal control system that is present with the composition of AI and IoT simulation to dynamically change the timing allotment of signals dynamically. The developed system uses a reinforcement learning approach to learn the live traffic conditions at the present such as how many vehicles are waiting and how long the queues at any given intersection area. Proof of concept, it is constructed with realistic four way urban intersection in SUMO (Simulation of Urban Mobility) and connected it with Python via the TraCI interface for testing. This system was built on top of a Deep Q-Network, or DQN for short. It’s more like a learner that tries different patterns of timing signals, reports which help with traffic flow and gradually learns better decisions over time. “Real-time info traffic volume, queue lengths, how long cars have been waiting is fed to it through virtual IoT sensors so that the system can determine on-the-fly how long a light should stay green,” Well, it can also see when it ran the tests that this adapted method significantly reduced how long they had to wait and how much the lines build up and it actually moved a lot more cars through the intersection. Overall, this system processed traffic about 10 to 15 percent more efficiently than the ordinary old fixed timer systems. The researcher believe that this approach is realistic and practical for handling traffic in smart cities.",
+      "year": 2026,
+      "authors": [
+        "J Maria Shanthi",
+        "V Krishnamoorthy",
+        "S. Mohan Raju",
+        "G. Kalaimani",
+        "M. Subburaj"
+      ],
+      "venue": "",
+      "cited_by": 0,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7224840613",
+      "key": "openalex_101109_click68749202611741909_Simulation_Based_On_Traffic_Light_Control_System_By",
+      "file_kind": "txt",
+      "file": "openalex_101109_click68749202611741909_Simulation_Based_On_Traffic_Light_Control_System_By.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7217605013",
+      "doi": "",
+      "title": "Smart AI-Based Traffic Light Control System Using YOLO and Simulation",
+      "abstract": "Rapid urbanization and the increasing number of vehicles on roads have led to severetraffic congestion in cities worldwide. Traditional traffic light systems operate on fixedtiming mechanisms, which are inefficient in handling dynamic traffic conditions. Thisproject presents a smart traffic control system that leverages Artificial Intelligence (AI)and computer vision techniques to optimize traffic signal management. The systemintegrates traffic simulation with real-time vehicle detection using the YOLO (You OnlyLook Once) object detection algorithm.The proposed system consists of two primarymodules: a traffic simulation module and a YOLO-based vehicle detection and countingmodule. The simulation module models traffic flow at intersections, allowing users toobserve how intelligent signal control can reduce congestion. The YOLO moduleprocesses video input to detect and count vehicles in real time. Based on the number ofvehicles detected in each lane, the system dynamically adjusts traffic signal timings.A graphical user interface (GUI) is developed using Python’s Tkinter library to provideuser interaction. The GUI allows users to load traffic videos, run detection algorithms,and initiate simulations. This makes the system user-friendly and suitable fordemonstration and experimentation purposes.The YOLO algorithm is chosen due to itshigh speed and accuracy in object detection tasks. It processes entire images in a singlepass, making it ideal for real-time applications like traffic monitoring. The detectedvehicles are classified and counted, providing essential data for intelligent decisionmaking.The system aims to reduce waiting times at intersections, improve traffic flowefficiency, and minimize fuel consumption and emissions. By adapting signal timingsbased on real-time conditions rather than fixed intervals, the proposed approachsignificantly enhances traffic management.This project demonstrates how AI can beeffectively applied to real-world problems in transportation",
+      "year": 2026,
+      "authors": [
+        "V.SARALA GUDALA DIVAKAR RAMPRASAD"
+      ],
+      "venue": "International Journal of Data Science and IoT Management System",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://ijdim.com/journal/index.php/ijdim/article/download/546/509",
+      "url": "https://openalex.org/W7217605013",
+      "key": "openalex_W7217605013_Smart_AI-Based_Traffic_Light_Control_System_Using_YOLO_and_Simulation",
+      "file_kind": "txt",
+      "file": "openalex_W7217605013_Smart_AI-Based_Traffic_Light_Control_System_Using_YOLO_and_Simulation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3201011981",
+      "doi": "10.46354/i3m.2021.emss.005",
+      "title": "Simulations of road traffic at light-controlled intersections",
+      "abstract": "Light-controlled intersections represent important traffic points within urban road networks. The application of specific traffic control plans within this type of intersections affects not only the traffic capacity of these parts of the network, but also traffic on roads in their immediate or more distant surroundings. For control plans, it is appropriate to assess their various variants in order to subsequently determine the most suitable solution for deployment in real operation. For the needs of examining different traffic control strategies, it is possible to take advantage of road traffic simulations. Detailed simulation-based assessment of specific variants of traffic control (within limited segments of road networks) represents a suitable support for the implementation of efficient and smooth traffic inside of a given part of the real network (or inside of a designed network, the construction of which is planned in the future). The case study presents the examination of road traffic in a smaller city using the simulation tool Aimsun. The investigated system includes one central light-controlled intersection, two smaller intersections and also parts of adjacent roads. The aim of the research is to assess traffic variants that use different traffic control signal plans, especially within the central intersection. Variants are evaluated and appropriate recommendations are formulated.",
+      "year": 2021,
+      "authors": [
+        "Antonín Kavička"
+      ],
+      "venue": "The ...European modeling & simulation symposium",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://doi.org/10.46354/i3m.2021.emss.005",
+      "url": "https://openalex.org/W3201011981",
+      "key": "openalex_1046354_i3m2021emss005_Simulations_of_road_traffic_at_light-controlled_intersecti",
+      "file_kind": "txt",
+      "file": "openalex_1046354_i3m2021emss005_Simulations_of_road_traffic_at_light-controlled_intersecti.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4304192572",
+      "doi": "10.1111/cgf.14699",
+      "title": "Spatio‐temporal Keyframe Control of Traffic Simulation using Coarse‐to‐Fine Optimization",
+      "abstract": "We present a novel traffic trajectory editing method which uses spatio‐temporal keyframes to control vehicles during the simulation to generate desired traffic trajectories. By taking self‐motivation, path following and collision avoidance into account, the proposed force‐based traffic simulation framework updates vehicle's motions in both the Frenet coordinates and the Cartesian coordinates. With the way‐points from users, lane‐level navigation can be generated by reference path planning. With a given keyframe, the coarse‐to‐fine optimization is proposed to efficiently generate the plausible trajectory which can satisfy the spatio‐temporal constraints. At first, a directed state‐time graph constructed along the reference path is used to search for a coarse‐grained trajectory by mapping the keyframe as the goal. Then, using the information extracted from the coarse trajectory as initialization, adjoint‐based optimization is applied to generate a finer trajectory with smooth motions based on our force‐based simulation. We validate our method with extensive experiments.",
+      "year": 2022,
+      "authors": [
+        "Yi Han",
+        "He Wang",
+        "Xiaogang Jin"
+      ],
+      "venue": "Computer Graphics Forum",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.14699",
+      "url": "https://openalex.org/W4304192572",
+      "key": "openalex_101111_cgf14699_Spatiotemporal_Keyframe_Control_of_Traffic_Simulation_using_Coars",
+      "file_kind": "txt",
+      "file": "openalex_101111_cgf14699_Spatiotemporal_Keyframe_Control_of_Traffic_Simulation_using_Coars.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4389606831",
+      "doi": "10.1109/iceta61311.2023.10344055",
+      "title": "Web-Based Visualization and Control of Traffic Simulation",
+      "abstract": "In the present day, thanks to intelligent technologies, it has become feasible to efficiently manage transport networks and optimize the flow of traffic in urban areas. Through the use of digital twins and traffic scenario simulations, traffic flow can be anticipated and refined, leading to improved mobility and reduced congestion and emissions. There are several traffic simulation tools and environments that can be installed locally and used for traffic simulation. However, due to various aspects such as online learning, user convenience, complex traffic scenarios or fast model and tool updates, web-based simulation can be beneficial. In this work, we proposed and developed a web application that uses similar technologies to simulate various traffic scenarios, allowing the monitoring of the efficiency of the proposed traffic network under different circumstances. In addition to visualizing the simulation, the implemented application allows users to actively intervene in its operation. Simulation control enables users to experiment with different configurations of the transport network and predict their impact on traffic flow.",
+      "year": 2023,
+      "authors": [
+        "Jozef Kapusta",
+        "Peter Trúchly"
+      ],
+      "venue": "International Conference on Emerging eLearning Technologies and Applications (ICETA)",
+      "cited_by": 1,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4389606831",
+      "key": "openalex_101109_iceta61311202310344055_Web-Based_Visualization_and_Control_of_Traffic_Simu",
+      "file_kind": "txt",
+      "file": "openalex_101109_iceta61311202310344055_Web-Based_Visualization_and_Control_of_Traffic_Simu.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W2986928613",
+      "doi": "10.1088/1742-6596/1353/1/012101",
+      "title": "Evaluation of the effectiveness of traffic control algorithms based on a simulation model in the AnyLogic",
+      "abstract": "The increase in the number of vehicles every year covers an growing number of countries, as a result of which the vehicle fleet of large cities and megalopolises is constantly increasing, as well as the number of people involved in traffic. The growth in traffic leads to the increase in traffic intensity, which in the conditions of cities with historically developed buildings leads to a transport problem. It is particularly acute in the nodal points of the road network. The problems are caused by the increase in transport delays, queuing and congestion, which in turn causes the decrease in the speed of communication, unnecessary consumption of fuel and increased wear of components and assemblies of vehicles. Effective traffic management involves the use of both network and local adaptive control algorithms. City-wide automated system should be based on the principles of maximum management efficiency and reliability of the system.",
+      "year": 2019,
+      "authors": [
+        "Ya I Shamlitskiy",
+        "S. Mironenko",
+        "N V Kovbasa",
+        "N V Bezrukova",
+        "В С Тынченко",
+        "В В Кукарцев"
+      ],
+      "venue": "Journal of Physics Conference Series",
+      "cited_by": 10,
+      "is_oa": true,
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/1353/1/012101/pdf",
+      "url": "https://openalex.org/W2986928613",
+      "key": "openalex_101088_1742-6596_1353_1_012101_Evaluation_of_the_effectiveness_of_traffic_control",
+      "file_kind": "txt",
+      "file": "openalex_101088_1742-6596_1353_1_012101_Evaluation_of_the_effectiveness_of_traffic_control.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7163674923",
+      "doi": "10.2991/978-94-6239-703-3_18",
+      "title": "Integrating Ethics into Simulation-Driven Engineering Education: A Traffic Signal Control Experiment",
+      "abstract": "Integrating ethics into engineering education is essential for cultivating socially responsible professionals. This study presents a traffic simulation-based experimental pedagogy that embeds ethical reasoning into a traffic signal control course. A “semi-flipped + semi-autonomous” teaching model is proposed, guiding students through field investigation, traffic simulation, scenario design, and multi-dimensional evaluation against technical (delay, queue length) and ethical (equity, safety, sustainability) criteria. Implementation results demonstrate enhanced technical proficiency, ethical awareness, and collaborative skills. The framework offers a replicable approach for integrating value-based education into simulation-driven engineering curricula.",
+      "year": 2026,
+      "authors": [
+        "Yanli Wang",
+        "Linbo Li",
+        "Bing Wu",
+        "Ling Wang",
+        "Wanjing Ma"
+      ],
+      "venue": "Advances in engineering research/Advances in Engineering Research",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://www.atlantis-press.com/article/126024867.pdf",
+      "url": "https://openalex.org/W7163674923",
+      "key": "openalex_102991_978-94-6239-703-3_18_Integrating_Ethics_into_Simulation-Driven_Engineering",
+      "file_kind": "txt",
+      "file": "openalex_102991_978-94-6239-703-3_18_Integrating_Ethics_into_Simulation-Driven_Engineering.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403760824",
+      "doi": "10.1007/978-3-031-72664-4_14",
+      "title": "SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Wei-Jer Chang",
+        "Francesco Pittaluga",
+        "Masayoshi Tomizuka",
+        "Wei Zhan",
+        "Manmohan Krishna Chandraker"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 89,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2401.00391",
+      "url": "https://openalex.org/W4403760824",
+      "key": "openalex_101007_978-3-031-72664-4_14_SAFE-SIM_Safety-Critical_Closed-Loop_Traffic_Simulati",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72664-4_14_SAFE-SIM_Safety-Critical_Closed-Loop_Traffic_Simulati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4229032350",
+      "doi": "10.1038/s41598-022-08481-w",
+      "title": "Research on integrated simulation platform for urban traffic control connecting simulation and practice",
+      "abstract": "Though effective in theoretical simulation, the established traffic control models and optimization algorithms will result in model mismatch or even control strategy failure in actual application. However, they are commonly adopted in traffic signal control research, resulting in the unavailability of many exceptional control algorithms in practice. Simulation should function as a bridge between theoretical research and actual application, allowing the gap between the two to be communicated and made up for. However, an effective connection between the two has yet to be established to enable simulation methods in existing traffic control research. To this end, we designed and developed a simulation platform for \"Online Application-HILS (Hardware-in-the-Loop Simulation)-Practice\" integration over traffic signal control. In this paper, the architecture and characteristics of the integrated simulation platform were described. Besides, the function of each module of the platform was detailed, followed by listing simulation examples for six complex scenarios, with the active control scenario being selected for simulation comparison analysis. The findings demonstrated extensive road network simulation with the integrated simulation platform, multidimensional control variables, control strategies with support, as well as stable and reliable operation. It can be used to verify several sorts of traffic control simulation with variable dimensions.",
+      "year": 2022,
+      "authors": [
+        "Lili Zhang",
+        "Qi Zhao",
+        "Yu Pei",
+        "Jing Li",
+        "Di Yao",
+        "Xinzhe Wang",
+        "Li Wang",
+        "Lingyu Zhang"
+      ],
+      "venue": "Scientific Reports",
+      "cited_by": 11,
+      "is_oa": true,
+      "pdf_url": "https://www.nature.com/articles/s41598-022-08481-w.pdf",
+      "url": "https://openalex.org/W4229032350",
+      "key": "openalex_101038_s41598-022-08481-w_Research_on_integrated_simulation_platform_for_urban_tr",
+      "file_kind": "txt",
+      "file": "openalex_101038_s41598-022-08481-w_Research_on_integrated_simulation_platform_for_urban_tr.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2301.05294v4",
+      "doi": "10.1177/02783649241284069",
+      "title": "Learning to Control and Coordinate Mixed Traffic Through Robot Vehicles at Complex and Unsignalized Intersections",
+      "abstract": "Intersections are essential road infrastructures for traffic in modern metropolises. However, they can also be the bottleneck of traffic flows as a result of traffic incidents or the absence of traffic coordination mechanisms such as traffic lights. Recently, various control and coordination mechanisms that are beyond traditional control methods have been proposed to improve the efficiency of intersection traffic by leveraging the ability of autonomous vehicles. Amongst these methods, the control of foreseeable mixed traffic that consists of human-driven vehicles (HVs) and robot vehicles (RVs) has emerged. We propose a decentralized multi-agent reinforcement learning approach for the control and coordination of mixed traffic by RVs at real-world, complex intersections -- an open challenge to date. We design comprehensive experiments to evaluate the effectiveness, robustness, generalizablility, and adaptability of our approach. In particular, our method can prevent congestion formation via merely 5% RVs under a real-world traffic demand of 700 vehicles per hour. In contrast, without RVs, congestion will form when the traffic demand reaches as low as 200 vehicles per hour. Moreover, when the RV penetration rate exceeds 60%, our method starts to outperform traffic signal control in terms of the average waiting time of all vehicles. Our method is not only robust against blackout events, sudden RV percentage drops, and V2V communication error, but also enjoys excellent generalizablility, evidenced by its successful deployment in five unseen intersections. Lastly, our method performs well under various traffic rules, demonstrating its adaptability to diverse scenarios. Videos and code of our work are available at https://sites.google.com/view/mixedtrafficcontrol",
+      "year": 2023,
+      "authors": [
+        "Dawei Wang",
+        "Weizi Li",
+        "Lei Zhu",
+        "Jia Pan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2301.05294v4",
+      "url": "http://arxiv.org/abs/2301.05294v4",
+      "key": "arxiv_101177_02783649241284069_Learning_to_Control_and_Coordinate_Mixed_Traffic_Through_Ro",
+      "file_kind": "txt",
+      "file": "arxiv_101177_02783649241284069_Learning_to_Control_and_Coordinate_Mixed_Traffic_Through_Ro.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2405.13256v1",
+      "doi": "",
+      "title": "Traffic control using intelligent timing of traffic lights with reinforcement learning technique and real-time processing of surveillance camera images",
+      "abstract": "Optimal management of traffic light timing is one of the most effective factors in reducing urban traffic. In most old systems, fixed timing was used along with human factors to control traffic, which is not very efficient in terms of time and cost. Nowadays, methods in the field of traffic management are based on the use of artificial intelligence. In this method, by using real-time processing of video surveillance camera images along with reinforcement learning, the optimal timing of traffic lights is determined and applied according to several parameters. In the research, deep learning methods were used in vehicle detection using the YOLOv9-C model to estimate the number and other characteristics of vehicles such as speed. Finally, by modeling vehicles in an urban environment simulator at OpenAI Gym using multi-factor reinforcement learning and the DQN Rainbow algorithm, timing is applied to traffic lights at intersections. Additionally, the use of transfer learning along with retraining the model on images of Iranian cars has increased the accuracy of the model. The results of the proposed method show a model that is reasonably accurate in both parts of analyzing surveillance cameras and finding the optimal timing, and it has been observed that it has better accuracy than previous research.",
+      "year": 2024,
+      "authors": [
+        "Mahdi Jamebozorg",
+        "Mohsen Hami",
+        "Sajjad Deh Deh Jani"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.13256v1",
+      "url": "http://arxiv.org/abs/2405.13256v1",
+      "key": "arxiv_240513256v1_Traffic_control_using_intelligent_timing_of_traffic_lights_with_reinforc",
+      "file_kind": "txt",
+      "file": "arxiv_240513256v1_Traffic_control_using_intelligent_timing_of_traffic_lights_with_reinforc.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.09252v2",
+      "doi": "",
+      "title": "Large-scale Regional Traffic Signal Control Based on Single-Agent Reinforcement Learning",
+      "abstract": "In the context of global urbanization and motorization, traffic congestion has become a significant issue, severely affecting the quality of life, environment, and economy. This paper puts forward a single-agent reinforcement learning (RL)-based regional traffic signal control (TSC) model. Different from multi - agent systems, this model can coordinate traffic signals across a large area, with the goals of alleviating regional traffic congestion and minimizing the total travel time. The TSC environment is precisely defined through specific state space, action space, and reward functions. The state space consists of the current congestion state, which is represented by the queue lengths of each link, and the current signal phase scheme of intersections. The action space is designed to select an intersection first and then adjust its phase split. Two reward functions are meticulously crafted. One focuses on alleviating congestion and the other aims to minimize the total travel time while considering the congestion level. The experiments are carried out with the SUMO traffic simulation software. The performance of the TSC model is evaluated by comparing it with a base case where no signal-timing adjustments are made. The results show that the model can effectively control congestion. For example, the queuing length is significantly reduced in the scenarios tested. Moreover, when the reward is set to both alleviate congestion and minimize the total travel time, the average travel time is remarkably decreased, which indicates that the model can effectively improve traffic conditions. This research provides a new approach for large-scale regional traffic signal control and offers valuable insights for future urban traffic management.",
+      "year": 2025,
+      "authors": [
+        "Qiang Li",
+        "Jin Niu",
+        "Qin Luo",
+        "Lina Yu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.09252v2",
+      "url": "http://arxiv.org/abs/2503.09252v2",
+      "key": "arxiv_250309252v2_Large-scale_Regional_Traffic_Signal_Control_Based_on_Single-Agent_Reinfo",
+      "file_kind": "txt",
+      "file": "arxiv_250309252v2_Large-scale_Regional_Traffic_Signal_Control_Based_on_Single-Agent_Reinfo.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2102.10130v1",
+      "doi": "",
+      "title": "Image Classification using CNN for Traffic Signs in Pakistan",
+      "abstract": "The autonomous automotive industry is one of the largest and most conventional projects worldwide, with many technology companies effectively designing and orienting their products towards automobile safety and accuracy. These products are performing very well over the roads in developed countries. But can fail in the first minute in an underdeveloped country because there is much difference between a developed country environment and an underdeveloped country environment. The following study proposed to train these Artificial intelligence models in environment space in an underdeveloped country like Pakistan. The proposed approach on image classification uses convolutional neural networks for image classification for the model. For model pre-training German traffic signs data set was selected then fine-tuned on Pakistan's dataset. The experimental setup showed the best results and accuracy from the previously conducted experiments. In this work to increase the accuracy, more dataset was collected to increase the size of images in every class in the data set. In the future, a low number of classes are required to be further increased where more images for traffic signs are required to be collected to get more accuracy on the training of the model over traffic signs of Pakistan's most used and popular roads motorway and national highway, whose traffic signs color, size, and shapes are different from common traffic signs.",
+      "year": 2021,
+      "authors": [
+        "Abdul Azeem Sikander",
+        "Hamza Ali"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2102.10130v1",
+      "url": "http://arxiv.org/abs/2102.10130v1",
+      "key": "arxiv_210210130v1_Image_Classification_using_CNN_for_Traffic_Signs_in_Pakistan",
+      "file_kind": "txt",
+      "file": "arxiv_210210130v1_Image_Classification_using_CNN_for_Traffic_Signs_in_Pakistan.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2406.19781v2",
+      "doi": "",
+      "title": "LCSim: A Large-Scale Controllable Traffic Simulator",
+      "abstract": "With the rapid growth of urban transportation and the continuous progress in autonomous driving, a demand for robust benchmarking autonomous driving algorithms has emerged, calling for accurate modeling of large-scale urban traffic scenarios with diverse vehicle driving styles. Traditional traffic simulators, such as SUMO, often depend on hand-crafted scenarios and rule-based models, where vehicle actions are limited to speed adjustment and lane changes, making it difficult for them to create realistic traffic environments. In recent years, real-world traffic scenario datasets have been developed alongside advancements in autonomous driving, facilitating the rise of data-driven simulators and learning-based simulation methods. However, current data-driven simulators are often restricted to replicating the traffic scenarios and driving styles within the datasets they rely on, limiting their ability to model multi-style driving behaviors observed in the real world. We propose \\textit{LCSim}, a large-scale controllable traffic simulator. First, we define a unified data format for traffic scenarios and provide tools to construct them from multiple data sources, enabling large-scale traffic simulation. Furthermore, we integrate a diffusion-based vehicle motion planner into LCSim to facilitate realistic and diverse vehicle modeling. Under specific guidance, this allows for the creation of traffic scenarios that reflect various driving styles. Leveraging these features, LCSim can provide large-scale, realistic, and controllable virtual traffic environments. Codes and demos are available at https://tsinghua-fib-lab.github.io/LCSim.",
+      "year": 2024,
+      "authors": [
+        "Yuheng Zhang",
+        "Tianjian Ouyang",
+        "Fudan Yu",
+        "Lei Qiao",
+        "Wei Wu",
+        "Jingtao Ding",
+        "Jian Yuan",
+        "Yong Li"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2406.19781v2",
+      "url": "http://arxiv.org/abs/2406.19781v2",
+      "key": "arxiv_240619781v2_LCSim_A_Large-Scale_Controllable_Traffic_Simulator",
+      "file_kind": "txt",
+      "file": "arxiv_240619781v2_LCSim_A_Large-Scale_Controllable_Traffic_Simulator.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2511.00549v2",
+      "doi": "",
+      "title": "Robust Single-Agent Reinforcement Learning for Regional Traffic Signal Control Under Demand Fluctuations",
+      "abstract": "Traffic congestion, primarily driven by intersection queuing, significantly impacts urban living standards, safety, environmental quality, and economic efficiency. While Traffic Signal Control (TSC) systems hold potential for congestion mitigation, traditional optimization models often fail to capture real-world traffic complexity and dynamics. This study introduces a novel single-agent reinforcement learning (RL) framework for regional adaptive TSC, circumventing the coordination complexities inherent in multi-agent systems through a centralized decision-making paradigm. The model employs an adjacency matrix to unify the encoding of road network topology, real-time queue states derived from probe vehicle data, and current signal timing parameters. Leveraging the efficient learning capabilities of the DreamerV3 world model, the agent learns control policies where actions sequentially select intersections and adjust their signal phase splits to regulate traffic inflow/outflow, analogous to a feedback control system. Reward design prioritizes queue dissipation, directly linking congestion metrics (queue length) to control actions. Simulation experiments conducted in SUMO demonstrate the model's effectiveness: under inference scenarios with multi-level (10%, 20%, 30%) Origin-Destination (OD) demand fluctuations, the framework exhibits robust anti-fluctuation capability and significantly reduces queue lengths. This work establishes a new paradigm for intelligent traffic control compatible with probe vehicle technology. Future research will focus on enhancing practical applicability by incorporating stochastic OD demand fluctuations during training and exploring regional optimization mechanisms for contingency events.",
+      "year": 2025,
+      "authors": [
+        "Qiang Li",
+        "Jin Niu",
+        "Lina Yu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.00549v2",
+      "url": "http://arxiv.org/abs/2511.00549v2",
+      "key": "arxiv_251100549v2_Robust_Single-Agent_Reinforcement_Learning_for_Regional_Traffic_Signal_C",
+      "file_kind": "txt",
+      "file": "arxiv_251100549v2_Robust_Single-Agent_Reinforcement_Learning_for_Regional_Traffic_Signal_C.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2208.06234v2",
+      "doi": "",
+      "title": "Ad Hoc HLA Simulation Model Derived From a Model-Based Traffic Scenario",
+      "abstract": "Modern highly automated and autonomous traffic systems and subsystems require new approaches to test their functional safety in the context of validation and verification. One approach that has taken a leading role in current research is scenario-based testing. For various reasons, simulation is considered to be the most practicable solution for a wide range of test scenarios. However, this is where many existing simulation systems in research reach their limits. In order to be able to integrate the widest possible range of systems to be tested into the simulation, the use of co-simulation has proven to be particularly useful. In this work, the High Level Architecture defined in the IEEE 1516-2010 standard is specifically addressed and a concept is developed that establishes the foundation for the feasible use of scenario-based distributed co-simulation on its basis. The main challenge identified and addressed is the resolution of the double-sided dependency between scenario and simulation models. The solution was to fully automate the generation and instantiation of the simulation environment on the basis of a scenario instance. Finally, the developed concept was implemented as a prototype and the resulting process for its use is presented here using an example scenario. Based on the experience gained during the creation of the concept and the prototype, the next steps for future work are outlined in conclusion.",
+      "year": 2022,
+      "authors": [
+        "David Reiher",
+        "Axel Hahn"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2208.06234v2",
+      "url": "http://arxiv.org/abs/2208.06234v2",
+      "key": "arxiv_220806234v2_Ad_Hoc_HLA_Simulation_Model_Derived_From_a_Model-Based_Traffic_Scenario",
+      "file_kind": "txt",
+      "file": "arxiv_220806234v2_Ad_Hoc_HLA_Simulation_Model_Derived_From_a_Model-Based_Traffic_Scenario.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2511.00551v2",
+      "doi": "",
+      "title": "Single-agent Reinforcement Learning Model for Regional Adaptive Traffic Signal Control",
+      "abstract": "Several studies have employed reinforcement learning (RL) to address the challenges of regional adaptive traffic signal control (ATSC) and achieved promising results. In this field, existing research predominantly adopts multi-agent frameworks. However, the adoption of multi-agent frameworks presents challenges for scalability. Instead, the Traffic signal control (TSC) problem necessitates a single-agent framework. TSC inherently relies on centralized management by a single control center, which can monitor traffic conditions across all roads in the study area and coordinate the control of all intersections. This work proposes a single-agent RL-based regional ATSC model compatible with probe vehicle technology. Key components of the RL design include state, action, and reward function definitions. To facilitate learning and manage congestion, both state and reward functions are defined based on queue length, with action designed to regulate queue dynamics. The queue length definition used in this study differs slightly from conventional definitions but is closely correlated with congestion states. More importantly, it allows for reliable estimation using link travel time data from probe vehicles. With probe vehicle data already covering most urban roads, this feature enhances the proposed method's potential for widespread deployment. The method was comprehensively evaluated using the SUMO simulation platform. Experimental results demonstrate that the proposed model effectively mitigates large-scale regional congestion levels via coordinated multi-intersection control.",
+      "year": 2025,
+      "authors": [
+        "Qiang Li",
+        "Ningjing Zeng",
+        "Lina Yu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.00551v2",
+      "url": "http://arxiv.org/abs/2511.00551v2",
+      "key": "arxiv_251100551v2_Single-agent_Reinforcement_Learning_Model_for_Regional_Adaptive_Traffic_",
+      "file_kind": "txt",
+      "file": "arxiv_251100551v2_Single-agent_Reinforcement_Learning_Model_for_Regional_Adaptive_Traffic_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2408.06070v3",
+      "doi": "",
+      "title": "ControlNeXt: Powerful and Efficient Control for Image and Video Generation",
+      "abstract": "Diffusion models have demonstrated remarkable and robust abilities in both image and video generation. To achieve greater control over generated results, researchers introduce additional architectures, such as ControlNet, Adapters and ReferenceNet, to integrate conditioning controls. However, current controllable generation methods often require substantial additional computational resources, especially for video generation, and face challenges in training or exhibit weak control. In this paper, we propose ControlNeXt: a powerful and efficient method for controllable image and video generation. We first design a more straightforward and efficient architecture, replacing heavy additional branches with minimal additional cost compared to the base model. Such a concise structure also allows our method to seamlessly integrate with other LoRA weights, enabling style alteration without the need for additional training. As for training, we reduce up to 90% of learnable parameters compared to the alternatives. Furthermore, we propose another method called Cross Normalization (CN) as a replacement for Zero-Convolution' to achieve fast and stable training convergence. We have conducted various experiments with different base models across images and videos, demonstrating the robustness of our method.",
+      "year": 2024,
+      "authors": [
+        "Bohao Peng",
+        "Jian Wang",
+        "Yuechen Zhang",
+        "Wenbo Li",
+        "Ming-Chang Yang",
+        "Jiaya Jia"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.06070v3",
+      "url": "http://arxiv.org/abs/2408.06070v3",
+      "key": "arxiv_240806070v3_ControlNeXt_Powerful_and_Efficient_Control_for_Image_and_Video_Generatio",
+      "file_kind": "txt",
+      "file": "arxiv_240806070v3_ControlNeXt_Powerful_and_Efficient_Control_for_Image_and_Video_Generatio.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.38280v1",
+      "doi": "",
+      "title": "Timing Sensitivity in Actuated Traffic Signal Control: A simulation study on one urban network",
+      "abstract": "A comparison between adaptive and fixed-time traffic signals can change when only their timing settings change. We examine this sensitivity in 240 simulation runs on one OpenStreetMap-derived urban network, using eight configurations, three arrival rates and ten paired demand seeds. The experiment varies the maximum green of presence-based actuation, retimes the fixed baseline, and includes a discharge-based phase-termination rule. The endpoint is finite-window time spent per offered trip, including entry waiting and penalties for removed or abandoned trips. At the highest tested load, actuation with a maximum green of twice the planned split has a mean endpoint 57.4 per cent above the original fixed plan. Reducing that multiplier to 1.25 puts it 70.7 per cent below the same plan. Against the best of three tested fixed plans, discharge-based termination reduces the mean endpoint by 14.8, 15.8 and 18.3 per cent across the three loads. Both timing sweeps favour their shortest tested setting, so neither identifies an optimum. This exploratory study uses synthetic demand, negligible start-up lost time and physical removal of persistently stationary vehicles. The results support testing timing sensitivity before attributing performance to a controller family; they do not establish a setting for real-world deployment.",
+      "year": 2026,
+      "authors": [
+        "Nitai Aharoni"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.38280v1",
+      "url": "http://arxiv.org/abs/2609.38280v1",
+      "key": "arxiv_260938280v1_Timing_Sensitivity_in_Actuated_Traffic_Signal_Control_A_simulation_study",
+      "file_kind": "txt",
+      "file": "arxiv_260938280v1_Timing_Sensitivity_in_Actuated_Traffic_Signal_Control_A_simulation_study.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2410.10929v7",
+      "doi": "",
+      "title": "ASTM :Autonomous Smart Traffic Management System Using Artificial Intelligence CNN and LSTM",
+      "abstract": "In the modern world, the development of Artificial Intelligence (AI) has contributed to improvements in various areas, including automation, computer vision, fraud detection, and more. AI can be leveraged to enhance the efficiency of Autonomous Smart Traffic Management (ASTM) systems and reduce traffic congestion rates. This paper presents an Autonomous Smart Traffic Management (STM) system that uses AI to improve traffic flow rates. The system employs the YOLO V5 Convolutional Neural Network to detect vehicles in traffic management images. Additionally, it predicts the number of vehicles for the next 12 hours using a Recurrent Neural Network with Long Short-Term Memory (RNN-LSTM). The Smart Traffic Management Cycle Length Analysis manages the traffic cycle length based on these vehicle predictions, aided by AI. From the results of the RNN-LSTM model for predicting vehicle numbers over the next 12 hours, we observe that the model predicts traffic with a Mean Squared Error (MSE) of 4.521 vehicles and a Root Mean Squared Error (RMSE) of 2.232 vehicles. After simulating the STM system in the CARLA simulation environment, we found that the Traffic Management Congestion Flow Rate with ASTM (21 vehicles per minute) is 50\\% higher than the rate without STM (around 15 vehicles per minute). Additionally, the Traffic Management Vehicle Pass Delay with STM (5 seconds per vehicle) is 70\\% lower than without STM (around 12 seconds per vehicle). These results demonstrate that the STM system using AI can increase traffic flow by 50\\% and reduce vehicle pass delays by 70\\%.",
+      "year": 2024,
+      "authors": [
+        "Christofel Rio Goenawan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2410.10929v7",
+      "url": "http://arxiv.org/abs/2410.10929v7",
+      "key": "arxiv_241010929v7_ASTM_Autonomous_Smart_Traffic_Management_System_Using_Artificial_Intelli",
+      "file_kind": "txt",
+      "file": "arxiv_241010929v7_ASTM_Autonomous_Smart_Traffic_Management_System_Using_Artificial_Intelli.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2607.21831v1",
+      "doi": "",
+      "title": "A Graph-Based Control Interface for Traffic Signals on Heterogeneous Road Networks",
+      "abstract": "We present a traffic-signal control interface in which a shared graph neural network assigns scores to individual traffic movements. Each junction converts these scores into its own variable-sized set of legal signal phases using a deterministic incidence matrix. Directed corridor nodes provide traffic context, while movement nodes represent controlled input-to-output paths through junctions. Typed mean aggregation produces one scalar per movement; phase definitions and signal timing remain outside the learned network. This makes graph size and junction-specific action count independent of the learned parameter shapes. PPO experiments evaluate the interface on unseen synthetic grid geometries, altered signal coverage, and five heterogeneous city graphs. The policies retained performance across unseen geometries within the synthetic grid family, while changes in signal coverage exposed sensitivity to a signal-coverage distribution shift. A single trained city-policy instance executed across all five city graphs, with heterogeneous outcomes. These results provide feasibility evidence rather than a general estimate of transfer to arbitrary road networks.",
+      "year": 2026,
+      "authors": [
+        "Bertil Braun"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.21831v1",
+      "url": "http://arxiv.org/abs/2607.21831v1",
+      "key": "arxiv_260721831v1_A_Graph-Based_Control_Interface_for_Traffic_Signals_on_Heterogeneous_Roa",
+      "file_kind": "txt",
+      "file": "arxiv_260721831v1_A_Graph-Based_Control_Interface_for_Traffic_Signals_on_Heterogeneous_Roa.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2104.08203v1",
+      "doi": "10.36819/sw21.041",
+      "title": "Why Machine Learning Integrated Patient Flow Simulation?",
+      "abstract": "Patient flow analysis can be studied from a clinical and or operational perspective using simulation. Traditional statistical methods such as stochastic distribution methods have been used to construct patient flow simulation submodels such as patient inflow, Length of Stay (LoS), Cost of Treatment (CoT) and Clinical Pathway (CP) models. However, patient inflow demonstrates seasonality, trend and variation over time. LoS, CoT and CP are significantly determined by attributes of patients and clinical and laboratory test results. For this reason, patient flow simulation models constructed using traditional statistical methods are criticized for ignoring heterogeneity and their contribution to personalized and value based healthcare. On the other hand, machine learning methods have proven to be efficient to study and predict admission rate, LoS, CoT, and CP. This paper, hence, describes why coupling machine learning with patient flow simulation is important and proposes a conceptual architecture that shows how to integrate machine learning with patient flow simulation.",
+      "year": 2021,
+      "authors": [
+        "Tesfamariam M. Abuhay",
+        "Adane Mamuye",
+        "Stewart Robinson",
+        "Sergey V. Kovalchuk"
+      ],
+      "venue": "Proceedings of the Operational Research Society Simulation Workshop 2021 (SW21)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2104.08203v1",
+      "url": "http://arxiv.org/abs/2104.08203v1",
+      "key": "arxiv_1036819_sw21041_Why_Machine_Learning_Integrated_Patient_Flow_Simulation",
+      "file_kind": "txt",
+      "file": "arxiv_1036819_sw21041_Why_Machine_Learning_Integrated_Patient_Flow_Simulation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2311.08429v1",
+      "doi": "10.1109/wsc60868.2023.10407855",
+      "title": "Purpose in the Machine: Do Traffic Simulators Produce Distributionally Equivalent Outcomes for Reinforcement Learning Applications?",
+      "abstract": "Traffic simulators are used to generate data for learning in intelligent transportation systems (ITSs). A key question is to what extent their modelling assumptions affect the capabilities of ITSs to adapt to various scenarios when deployed in the real world. This work focuses on two simulators commonly used to train reinforcement learning (RL) agents for traffic applications, CityFlow and SUMO. A controlled virtual experiment varying driver behavior and simulation scale finds evidence against distributional equivalence in RL-relevant measures from these simulators, with the root mean squared error and KL divergence being significantly greater than 0 for all assessed measures. While granular real-world validation generally remains infeasible, these findings suggest that traffic simulators are not a deus ex machina for RL training: understanding the impacts of inter-simulator differences is necessary to train and deploy RL-based ITSs.",
+      "year": 2023,
+      "authors": [
+        "Rex Chen",
+        "Kathleen M. Carley",
+        "Fei Fang",
+        "Norman Sadeh"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.08429v1",
+      "url": "http://arxiv.org/abs/2311.08429v1",
+      "key": "arxiv_101109_wsc60868202310407855_Purpose_in_the_Machine_Do_Traffic_Simulators_Produce_Dis",
+      "file_kind": "txt",
+      "file": "arxiv_101109_wsc60868202310407855_Purpose_in_the_Machine_Do_Traffic_Simulators_Produce_Dis.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.18208v1",
+      "doi": "10.5121/ijwmn.2025.17202",
+      "title": "A traffic incident management framework for vehicular ad hoc networks",
+      "abstract": "Vehicular Ad Hoc Networks (VANETs) support the information dissemination among vehicles, Roadside Units (RSUs), and a Trust Authority (TA). A trust model evaluates an entity or data or both to determine truthfulness. A security model confirms authentication, integrity, availability, non repudiation issues. With these aspects in mind, many models have been proposed in literature. Furthermore, many information dissemination approaches are proposed. However, the lack of a model that can manage traffic incidents completely inspires this work. This paper details how and when a message needs to be generated and relayed so that the incidents can be reported and managed in a timely manner. This paper addresses this challenge by providing a traffic incident management model to manage several traffic incidents efficiently. Additionally, we simulate this model using the VEINS simulator with vehicles, RSUs, and a TA. From the experiments, we measure the average number of transmissions required for reporting a single traffic incident while varying the vehicle density and relaying considerations. We consider two types of relaying. In one series of experiments, messages from regular vehicles and RSUs are relayed up to four hops. In another series of experiments, messages from the regular vehicles and RSUs are relayed until their generation time reaches sixty seconds. Additionally, messages from the official vehicles are relayed when they approach an incident or when the incident is cleared. Results from the simulations show that more vehicles are informed with four-hop relaying than sixty-second relaying in both cases.",
+      "year": 2026,
+      "authors": [
+        "Rezvi Shahariar",
+        "Chris Phillips"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.18208v1",
+      "url": "http://arxiv.org/abs/2602.18208v1",
+      "key": "arxiv_105121_ijwmn202517202_A_traffic_incident_management_framework_for_vehicular_ad_hoc_n",
+      "file_kind": "txt",
+      "file": "arxiv_105121_ijwmn202517202_A_traffic_incident_management_framework_for_vehicular_ad_hoc_n.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2502.00612v2",
+      "doi": "",
+      "title": "Using Causality for Enhanced Prediction of Web Traffic Time Series",
+      "abstract": "Predicting web service traffic has significant social value, as it can be applied to various practical scenarios, including but not limited to dynamic resource scaling, load balancing, system anomaly detection, service-level agreement compliance, and fraud detection. Web service traffic is characterized by frequent and drastic fluctuations over time and are influenced by heterogeneous web user behaviors, making accurate prediction a challenging task. Previous research has extensively explored statistical approaches, and neural networks to mine features from preceding service traffic time series for prediction. However, these methods have largely overlooked the causal relationships between services. Drawing inspiration from causality in ecological systems, we empirically recognize the causal relationships between web services. To leverage these relationships for improved web service traffic prediction, we propose an effective neural network module, CCMPlus, designed to extract causal relationship features across services. This module can be seamlessly integrated with existing time series models to consistently enhance the performance of web service traffic predictions. We theoretically justify that the causal correlation matrix generated by the CCMPlus module captures causal relationships among services. Empirical results on real-world datasets from Microsoft Azure, Alibaba Group, and Ant Group confirm that our method surpasses state-of-the-art approaches in Mean Squared Error (MSE) and Mean Absolute Error (MAE) for predicting service traffic time series. These findings highlight the efficacy of leveraging causal relationships for improved predictions.",
+      "year": 2025,
+      "authors": [
+        "Chang Tian",
+        "Mingzhe Xing",
+        "Zenglin Shi",
+        "Matthew B. Blaschko",
+        "Yinliang Yue",
+        "Marie-Francine Moens"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.00612v2",
+      "url": "http://arxiv.org/abs/2502.00612v2",
+      "key": "arxiv_250200612v2_Using_Causality_for_Enhanced_Prediction_of_Web_Traffic_Time_Series",
+      "file_kind": "txt",
+      "file": "arxiv_250200612v2_Using_Causality_for_Enhanced_Prediction_of_Web_Traffic_Time_Series.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2408.02208v1",
+      "doi": "10.1016/j.trc.2024.104804",
+      "title": "Multi-level Traffic-Responsive Tilt Camera Surveillance through Predictive Correlated Online Learning",
+      "abstract": "In urban traffic management, the primary challenge of dynamically and efficiently monitoring traffic conditions is compounded by the insufficient utilization of thousands of surveillance cameras along the intelligent transportation system. This paper introduces the multi-level Traffic-responsive Tilt Camera surveillance system (TTC-X), a novel framework designed for dynamic and efficient monitoring and management of traffic in urban networks. By leveraging widely deployed pan-tilt-cameras (PTCs), TTC-X overcomes the limitations of a fixed field of view in traditional surveillance systems by providing mobilized and 360-degree coverage. The innovation of TTC-X lies in the integration of advanced machine learning modules, including a detector-predictor-controller structure, with a novel Predictive Correlated Online Learning (PiCOL) methodology and the Spatial-Temporal Graph Predictor (STGP) for real-time traffic estimation and PTC control. The TTC-X is tested and evaluated under three experimental scenarios (e.g., maximum traffic flow capture, dynamic route planning, traffic state estimation) based on a simulation environment calibrated using real-world traffic data in Brooklyn, New York. The experimental results showed that TTC-X captured over 60\\% total number of vehicles at the network level, dynamically adjusted its route recommendation in reaction to unexpected full-lane closure events, and reconstructed link-level traffic states with best MAE less than 1.25 vehicle/hour. Demonstrating scalability, cost-efficiency, and adaptability, TTC-X emerges as a powerful solution for urban traffic management in both cyber-physical and real-world environments.",
+      "year": 2024,
+      "authors": [
+        "Tao Li",
+        "Zilin Bian",
+        "Haozhe Lei",
+        "Fan Zuo",
+        "Ya-Ting Yang",
+        "Quanyan Zhu",
+        "Zhenning Li",
+        "Kaan Ozbay"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.02208v1",
+      "url": "http://arxiv.org/abs/2408.02208v1",
+      "key": "arxiv_101016_jtrc2024104804_Multi-level_Traffic-Responsive_Tilt_Camera_Surveillance_throug",
+      "file_kind": "txt",
+      "file": "arxiv_101016_jtrc2024104804_Multi-level_Traffic-Responsive_Tilt_Camera_Surveillance_throug.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2206.11996v3",
+      "doi": "",
+      "title": "The Real Deal: A Review of Challenges and Opportunities in Moving Reinforcement Learning-Based Traffic Signal Control Systems Towards Reality",
+      "abstract": "Traffic signal control (TSC) is a high-stakes domain that is growing in importance as traffic volume grows globally. An increasing number of works are applying reinforcement learning (RL) to TSC; RL can draw on an abundance of traffic data to improve signalling efficiency. However, RL-based signal controllers have never been deployed. In this work, we provide the first review of challenges that must be addressed before RL can be deployed for TSC. We focus on four challenges involving (1) uncertainty in detection, (2) reliability of communications, (3) compliance and interpretability, and (4) heterogeneous road users. We show that the literature on RL-based TSC has made some progress towards addressing each challenge. However, more work should take a systems thinking approach that considers the impacts of other pipeline components on RL.",
+      "year": 2022,
+      "authors": [
+        "Rex Chen",
+        "Fei Fang",
+        "Norman Sadeh"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2206.11996v3",
+      "url": "http://arxiv.org/abs/2206.11996v3",
+      "key": "arxiv_220611996v3_The_Real_Deal_A_Review_of_Challenges_and_Opportunities_in_Moving_Reinfor",
+      "file_kind": "txt",
+      "file": "arxiv_220611996v3_The_Real_Deal_A_Review_of_Challenges_and_Opportunities_in_Moving_Reinfor.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2604.08140v1",
+      "doi": "",
+      "title": "Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark",
+      "abstract": "Network traffic, as a key media format, is crucial for ensuring security and communications in modern internet infrastructure. While existing methods offer excellent performance, they face two key bottlenecks: (1) They fail to capture multidimensional semantics beyond unimodal sequence patterns. (2) Their black box property, i.e., providing only category labels, lacks an auditable reasoning process. We identify a key factor that existing network traffic datasets are primarily designed for classification and inherently lack rich semantic annotations, failing to generate human-readable evidence report. To address data scarcity, this paper proposes a Byte-Grounded Traffic Description (BGTD) benchmark for the first time, combining raw bytes with structured expert annotations. BGTD provides necessary behavioral features and verifiable chains of evidence for multimodal reasoning towards explainable encrypted traffic interpretation. Built upon BGTD, this paper proposes an end-to-end traffic-language representation framework (mmTraffic), a multimodal reasoning architecture bridging physical traffic encoding and semantic interpretation. In order to alleviate modality interference and generative hallucinations, mmTraffic adopts a jointly-optimized perception-cognition architecture. By incorporating a perception-centered traffic encoder and a cognition-centered LLM generator, mmTraffic achieves refined traffic interpretation with guaranteed category prediction. Extensive experiments demonstrate that mmTraffic autonomously generates high-fidelity, human-readable, and evidence-grounded traffic interpretation reports, while maintaining highly competitive classification accuracy comparing to specialized unimodal model (e.g., NetMamba). The source code is available at https://github.com/lgzhangzlg/Multimodal-Reasoning-with-LLM-for-Encrypted-Traffic-Interpretation-A-Benchmark",
+      "year": 2026,
+      "authors": [
+        "Longgang Zhang",
+        "Xiaowei Fu",
+        "Fuxiang Huang",
+        "Lei Zhang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.08140v1",
+      "url": "http://arxiv.org/abs/2604.08140v1",
+      "key": "arxiv_260408140v1_Multimodal_Reasoning_with_LLM_for_Encrypted_Traffic_Interpretation_A_Ben",
+      "file_kind": "txt",
+      "file": "arxiv_260408140v1_Multimodal_Reasoning_with_LLM_for_Encrypted_Traffic_Interpretation_A_Ben.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2107.04464v1",
+      "doi": "",
+      "title": "A First Look at Class Incremental Learning in Deep Learning Mobile Traffic Classification",
+      "abstract": "The recent popularity growth of Deep Learning (DL) re-ignited the interest towards traffic classification, with several studies demonstrating the accuracy of DL-based classifiers to identify Internet applications' traffic. Even with the aid of hardware accelerators (GPUs, TPUs), DL model training remains expensive, and limits the ability to operate frequent model updates necessary to fit to the ever evolving nature of Internet traffic, and mobile traffic in particular. To address this pain point, in this work we explore Incremental Learning (IL) techniques to add new classes to models without a full retraining, hence speeding up model's updates cycle. We consider iCarl, a state of the art IL method, and MIRAGE-2019, a public dataset with traffic from 40 Android apps, aiming to understand \"if there is a case for incremental learning in traffic classification\". By dissecting iCarl internals, we discuss ways to improve its design, contributing a revised version, namely iCarl+. Despite our analysis reveals their infancy, IL techniques are a promising research area on the roadmap towards automated DL-based traffic analysis systems.",
+      "year": 2021,
+      "authors": [
+        "Giampaolo Bovenzi",
+        "Lixuan Yang",
+        "Alessandro Finamore",
+        "Giuseppe Aceto",
+        "Domenico Ciuonzo",
+        "Antonio Pescapè",
+        "Dario Rossi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2107.04464v1",
+      "url": "http://arxiv.org/abs/2107.04464v1",
+      "key": "arxiv_210704464v1_A_First_Look_at_Class_Incremental_Learning_in_Deep_Learning_Mobile_Traff",
+      "file_kind": "txt",
+      "file": "arxiv_210704464v1_A_First_Look_at_Class_Incremental_Learning_in_Deep_Learning_Mobile_Traff.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2308.00600v1",
+      "doi": "10.1109/wsc60868.2023.10408063",
+      "title": "Simulating the social influence in transport mode choices",
+      "abstract": "Agent-based simulations have been used in modeling transportation systems for traffic management and passenger flows. In this work, we hope to shed light on the complex factors that influence transportation mode decisions within developing countries, using Colombia as a case study. We model an ecosystem of human agents that decide at each time step on the mode of transportation they would take to work. Their decision is based on a combination of their personal satisfaction with the journey they had just taken, which is evaluated across a personal vector of needs, the information they crowdsource from their prevailing social network, and their personal uncertainty about the experience of trying a new transport solution. We simulate different network structures to analyze the social influence for different decision-makers. We find that in low/medium connected groups inquisitive people actively change modes cyclically over the years while imitators cluster rapidly and change less frequently.",
+      "year": 2023,
+      "authors": [
+        "Kathleen Salazar-Serna",
+        "Lynnette Hui Xian Ng",
+        "Lorena Cadavid",
+        "Carlos J. Franco",
+        "Kathleen Carley"
+      ],
+      "venue": "Winter Simulation Conference WSC (2023) 3154-3165",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2308.00600v1",
+      "url": "http://arxiv.org/abs/2308.00600v1",
+      "key": "arxiv_101109_wsc60868202310408063_Simulating_the_social_influence_in_transport_mode_choice",
+      "file_kind": "txt",
+      "file": "arxiv_101109_wsc60868202310408063_Simulating_the_social_influence_in_transport_mode_choice.txt"
+    }
+  ]
+}

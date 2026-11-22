@@ -1,0 +1,146 @@
+[
+ {
+  "packet": "packets/safety_critical_traffic_simulation_with_guided_lat.md",
+  "field": "control_mechanism",
+  "claimed_value": "Gradients of the guidance objectives perturb the denoising (DDIM) sampling of the latent; collision-avoidance gradient updates non-adversarial vehicles' latents, adversarial plus map terms update the adversarial vehicle's latent. A feasibility-based sample selection then ranks candidates.",
+  "claimed_pages": "3-5"
+ },
+ {
+  "packet": "packets/safety_critical_traffic_simulation_with_guided_lat.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Adv-Ego Collision Rate 38.17% versus AdvSim 24.72% and Strive 22.69%; adversarial-vehicle off-road 11.49%; inference 171.60 s versus 338.35 s and 609.72 s. Ablation: guidance raises adversariality over unguided model; replay gives near-zero.",
+  "claimed_pages": "5-6"
+ },
+ {
+  "packet": "packets/scenario_dreamer_vectorized_latent_diffusion_for_g.md",
+  "field": "control_mechanism",
+  "claimed_value": "Exponential tilting of a learned return distribution in a return-conditioned multi-agent Transformer (CtRL-Sim); scene density set by specifying (No, Nl) before latent sampling; map or inpainting conditioning; classifier guidance for simulation-compatible scenes.",
+  "claimed_pages": "5-6"
+ },
+ {
+  "packet": "packets/scenario_dreamer_vectorized_latent_diffusion_for_g.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Planner collision rate 4.9% with kappa=+10 versus 11.9% with kappa=-50, with only modest JSD change. RL planner success falls from 38.2% to 32.1% under negative tilting on 100m scenes.",
+  "claimed_pages": "7, 13"
+ },
+ {
+  "packet": "packets/behaviorgpt_smart_agent_simulation_for_autonomous.md",
+  "field": "control_mechanism",
+  "claimed_value": "not stated in packet",
+  "claimed_pages": ""
+ },
+ {
+  "packet": "packets/behaviorgpt_smart_agent_simulation_for_autonomous.md",
+  "field": "controllability_evidence",
+  "claimed_value": "None; no controllability experiment. Realism result reported instead: REALISM 0.7473, minADE 1.4147 on the 2024 Waymo Sim Agents test set.",
+  "claimed_pages": "8"
+ },
+ {
+  "packet": "packets/controllable_sim_agents_with_behavior_latents.md",
+  "field": "control_mechanism",
+  "claimed_value": "Latent inferred in closed form from per-channel discounted returns; it enters the flow generator as an extra cross-attention token, with classifier-free guidance trained under mixed channel masks.",
+  "claimed_pages": "2-4"
+ },
+ {
+  "packet": "packets/controllable_sim_agents_with_behavior_latents.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Table 2 CSM diagonals at w=1.5: safety +0.66, map +0.61, speed +8.15, accel +8.76; unconditional: +0.06, +0.06, -3.33, +4.77. Test realism 0.7145, minADE 1.80 m.",
+  "claimed_pages": "6-7"
+ },
+ {
+  "packet": "packets/king_generating_safety_critical_driving_scenarios.md",
+  "field": "control_mechanism",
+  "claimed_value": "Gradient-based optimization of adversarial agents' actions, backpropagating through a differentiable kinematic bicycle model (direct path only) in closed-loop simulation. No learned generative model.",
+  "claimed_pages": "4, 5-6"
+ },
+ {
+  "packet": "packets/king_generating_safety_critical_driving_scenarios.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Overall collision rate 82.50% for KING vs 68.33% for CMA-ES and 66.67% for random search; abstract states 20% higher success than black-box optimization.",
+  "claimed_pages": "8-9, 1"
+ },
+ {
+  "packet": "packets/guided_latent_spaces_for_controllable_multi_scenar.md",
+  "field": "control_mechanism",
+  "claimed_value": "One latent dimension z_type encodes scenario class, with a class-conditional prior with per-class means and an auxiliary alignment loss pulling z_type to its class center.",
+  "claimed_pages": "1"
+ },
+ {
+  "packet": "packets/guided_latent_spaces_for_controllable_multi_scenar.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Each scenario type forms a distinct cluster in z0; an external classifier gives classification error between 0.00e+0 and 2.00e-2 across six scenario types.",
+  "claimed_pages": "2"
+ },
+ {
+  "packet": "packets/dragtraffic_interactive_and_controllable_traffic_s.md",
+  "field": "control_mechanism",
+  "claimed_value": "Context is fed into the diffusion denoiser via cross-attention; an MLP encodes the 8-dim condition and concatenates it with state and lane encoders in the initializer regression model. No guidance loss.",
+  "claimed_pages": "1, 4-5, 6-7"
+ },
+ {
+  "packet": "packets/dragtraffic_interactive_and_controllable_traffic_s.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Interaction reasoning: SCR at 9s rollout is 3.33% for DragTraffic with condition vs 13.59% for TrafficGen mixture training. Qualitative scene editing: setting agent 1's target condition removes its freezing.",
+  "claimed_pages": "5-6, 6"
+ },
+ {
+  "packet": "packets/scenario_diffusion_controllable_driving_scenario_g.md",
+  "field": "control_mechanism",
+  "claimed_value": "Map encoded and channel-concatenated with the noisy latent; tokens embedded by per-type MLPs and used as keys/values in U-Net cross-attention. Random token masking during training (partial tokenization) lets the model fill in extra agents.",
+  "claimed_pages": "4-5"
+ },
+ {
+  "packet": "packets/scenario_diffusion_controllable_driving_scenario_g.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Agent token match rate stays 0.97 (0.01) from 0% to 50% masking and 0.96 at 90%; extra generated agents rise from 0.4 (0.3) to 12.6 (0.7) as masking probability increases, showing the global token controls density.",
+  "claimed_pages": "7"
+ },
+ {
+  "packet": "packets/controllable_traffic_simulation_through_llm_guided.md",
+  "field": "control_mechanism",
+  "claimed_value": "An LLM (GPT-4o) uses chain-of-thought to write a Frenet-frame cost function; its gradient guides diffusion sampling at test time, and a refinement module revises the cost from failed trajectory coordinates.",
+  "claimed_pages": "1-3, 5"
+ },
+ {
+  "packet": "packets/controllable_traffic_simulation_through_llm_guided.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Guidance success rate over four event types, 20 scenarios each, beat a target-point baseline and improved with refinement (Table IV); exact values not in packet. Unconditional SCR 6.3% vs 9.7% and 11.2%.",
+  "claimed_pages": "5-7"
+ },
+ {
+  "packet": "packets/smart_scalable_multi_agent_real_time_motion_genera.md",
+  "field": "control_mechanism",
+  "claimed_value": "Decoder-only Transformer with temporal, agent-agent and agent-map attention predicts next motion token; no steering mechanism described.",
+  "claimed_pages": "4-6"
+ },
+ {
+  "packet": "packets/smart_scalable_multi_agent_real_time_motion_genera.md",
+  "field": "controllability_evidence",
+  "claimed_value": "not stated in packet; no controllability experiment. Zero-shot score of 0.72 on Sim Agents challenge when trained only on NuPlan is a generalization result.",
+  "claimed_pages": "1"
+ },
+ {
+  "packet": "packets/diffscene_diffusion_based_safety_critical_scenario.md",
+  "field": "control_mechanism",
+  "claimed_value": "At each reverse diffusion step, multi-step gradient optimization of a learned model of the safety-critical objective is applied to the denoised trajectory, followed by initial-state calibration; the diffusion model itself is goal-agnostic.",
+  "claimed_pages": "2, 4"
+ },
+ {
+  "packet": "packets/diffscene_diffusion_based_safety_critical_scenario.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Collision rate rises as optimization steps N go from 0 to 30, while SSPD and Frechet grow (a trade-off). Table 1: DiffScene collision rate 0.85 (S1), 0.87 (S2), 0.79 (S3).",
+  "claimed_pages": "6-7"
+ },
+ {
+  "packet": "packets/ld_scene_llm_guided_diffusion_for_controllable_gen.md",
+  "field": "control_mechanism",
+  "claimed_value": "An LLM chain-of-thought code generator plus LLM debugger turn the query into a guidance loss function; the loss steers the latent denoising sampling at inference (inference-time guidance).",
+  "claimed_pages": "1-2, 5"
+ },
+ {
+  "packet": "packets/ld_scene_llm_guided_diffusion_for_controllable_gen.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Table 1: Adv-Ego Coll 40.75% vs 27.81% for Safe-Sim. Adversarial level weak/medium/strong gives TTC 2.06/1.98/1.91 s and Adv Acc_lon 1.02/1.09/1.20 m/s2. Three query case studies (normal, high-speed, sharp-turn collision).",
+  "claimed_pages": "10, 13-15"
+ }
+]

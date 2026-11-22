@@ -1,0 +1,861 @@
+[
+  {
+    "title": "SceneDM: Scene-level Multi-agent Trajectory Generation with Consistent Diffusion Models",
+    "year": 2023,
+    "authors": [
+      "Zhiming Guo",
+      "Xing Hua Gao",
+      "Jian-Lan Zhou",
+      "Xinyu Cai",
+      "Botian Shi"
+    ],
+    "doi": "10.48550/arxiv.2311.15736",
+    "file": "openalex_1048550_arxiv231115736_SceneDM_Scene-level_Multi-agent_Trajectory_Generation_with.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4389116282",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Scene Transformer: A unified architecture for predicting multiple agent trajectories",
+    "year": 2021,
+    "authors": [
+      "Jiquan Ngiam",
+      "Benjamin Caine",
+      "Vijay Vasudevan",
+      "Zhengdong Zhang",
+      "Hao-Tien Lewis Chiang",
+      "Jeffrey Ling",
+      "Roelofs, Rebecca",
+      "Alex Bewley",
+      "Chenxi Liu",
+      "Venugopal, Ashish",
+      "Weiss, David",
+      "Ben Sapp",
+      "Zhifeng Chen",
+      "Jonathon Shlens"
+    ],
+    "doi": "10.48550/arxiv.2106.08417",
+    "file": "openalex_1048550_arxiv210608417_Scene_Transformer_A_unified_architecture_for_predicting_mu.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3204161688",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Sports-Traj: A Unified Trajectory Generation Model for Multi-Agent Movement in Sports",
+    "year": 2025,
+    "authors": [
+      "Yi Xu",
+      "Yun Fu"
+    ],
+    "doi": "10.48550/arxiv.2405.17680",
+    "file": "openalex_1048550_arxiv240517680_Sports-Traj_A_Unified_Trajectory_Generation_Model_for_Mult.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4399151425",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Multi-Agent Formation Navigation Using Diffusion-Based Trajectory Generation",
+    "year": 2026,
+    "authors": [
+      "Hieu Do Quang",
+      "Chien Truong-Quoc",
+      "Quoc Van Tran"
+    ],
+    "doi": "10.48550/arxiv.2601.10725",
+    "file": "openalex_1048550_arxiv260110725_Multi-Agent_Formation_Navigation_Using_Diffusion-Based_Tra.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7124723497",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "QCNeXt: A Next-Generation Framework For Joint Multi-Agent Trajectory Prediction",
+    "year": 2023,
+    "authors": [
+      "Zikang Zhou",
+      "Zihao Wen",
+      "Wang, Jianping",
+      "Yung‐Hui Li",
+      "Yu-Kai Huang"
+    ],
+    "doi": "10.48550/arxiv.2306.10508",
+    "file": "openalex_1048550_arxiv230610508_QCNeXt_A_Next-Generation_Framework_For_Joint_Multi-Agent_T.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4381556596",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation",
+    "year": 2025,
+    "authors": [
+      "Yang Chen",
+      "Yangfan He",
+      "Aaron Xuxiang Tian",
+      "Dong Chen",
+      "Jianhui Wang",
+      "Tianyu Shi",
+      "Arsalan Heydarian",
+      "Pei Liu"
+    ],
+    "doi": "10.1109/icra55743.2025.11127600",
+    "file": "openalex_101109_icra55743202511127600_Wcdt_World-Centric_Diffusion_Transformer_for_Traffic.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413945198",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "The Trajectron: Probabilistic Multi-Agent Trajectory Modeling With Dynamic Spatiotemporal Graphs",
+    "year": 2019,
+    "authors": [
+      "Boris Ivanovic",
+      "Marco Pavone"
+    ],
+    "doi": "10.1109/iccv.2019.00246",
+    "file": "openalex_101109_iccv201900246_The_Trajectron_Probabilistic_Multi-Agent_Trajectory_Modeling.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2940718442",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MATRIX: Multi-Agent Trajectory Generation with Diverse Contexts",
+    "year": 2024,
+    "authors": [
+      "Zhuo Xu",
+      "Rui Hong Zhou",
+      "Yida Yin",
+      "Huidong Gao",
+      "Masayoshi Tomizuka",
+      "Jiachen Li"
+    ],
+    "doi": "10.1109/icra57147.2024.10610944",
+    "file": "openalex_101109_icra57147202410610944_MATRIX_Multi-Agent_Trajectory_Generation_with_Divers.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4401415045",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Multi-Agent Trajectory Prediction with Scalable Diffusion Transformer",
+    "year": 2024,
+    "authors": [
+      "Shenyu Zhang",
+      "Shixiong Kai",
+      "Chang Chen",
+      "Yuzheng Zhuang",
+      "Zhengbang Zhu",
+      "Minghuan Liu",
+      "Weinan Zhang"
+    ],
+    "doi": "10.1145/3719545.3720337",
+    "file": "openalex_101145_37195453720337_Multi-Agent_Trajectory_Prediction_with_Scalable_Diffusion_T.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414247648",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "THOMAS: Trajectory Heatmap Output with learned Multi-Agent Sampling",
+    "year": 2021,
+    "authors": [
+      "Thomas Gilles",
+      "Sabatini, Stefano",
+      "Dzmitry Tsishkou",
+      "Bogdan Stanciulescu",
+      "Fabien Moutarde"
+    ],
+    "doi": "10.48550/arxiv.2110.06607",
+    "file": "openalex_1048550_arxiv211006607_THOMAS_Trajectory_Heatmap_Output_with_learned_Multi-Agent_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3206458928",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "TransDiffuser: Diverse Trajectory Generation with Decorrelated Multi-modal Representation for End-to-end Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Xuefeng Jiang",
+      "Yuan Ma",
+      "Pengxiang Li",
+      "Leimeng Xu",
+      "Xin Wen",
+      "Kun Zhan",
+      "Zhongpu Xia",
+      "Peng Jia",
+      "Xianpeng Lang",
+      "Sheng Sun"
+    ],
+    "doi": "10.1109/icra57385.2026.11695998",
+    "file": "openalex_101109_icra57385202611695998_TransDiffuser_Diverse_Trajectory_Generation_with_Dec.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415314490",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Zebin Xing",
+      "Xingyu Zhang",
+      "Yang Hu",
+      "Bo Jiang",
+      "Tong He",
+      "Qian Zhang",
+      "Xiaoxiao Long",
+      "Wei Hong Yin"
+    ],
+    "doi": "10.1109/cvpr52734.2025.00157",
+    "file": "openalex_101109_cvpr52734202500157_GoalFlow_Goal-Driven_Flow_Matching_for_Multimodal_Traje.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413145448",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning",
+    "year": 2020,
+    "authors": [
+      "Jiachen Li",
+      "Fan Yang",
+      "Masayoshi Tomizuka",
+      "Chiho Choi"
+    ],
+    "doi": "10.48550/arxiv.2003.13924",
+    "file": "openalex_1048550_arxiv200313924_EvolveGraph_Multi-Agent_Trajectory_Prediction_with_Dynamic.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3099354210",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MTR++: Multi-Agent Motion Prediction With Symmetric Scene Modeling and Guided Intention Querying",
+    "year": 2024,
+    "authors": [
+      "Shaoshuai Shi",
+      "Li Jiang",
+      "Dengxin Dai",
+      "Bernt Schiele"
+    ],
+    "doi": "10.1109/tpami.2024.3352811",
+    "file": "openalex_101109_tpami20243352811_MTR_Multi-Agent_Motion_Prediction_With_Symmetric_Scene_Mo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4390788068",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "FantasyHSI: Video-Generation-Centric 4D Human Synthesis in Any Scene Through a Graph-Based Multi-Agent Framework",
+    "year": 2026,
+    "authors": [
+      "Lingzhou Mu",
+      "Wang Qiang",
+      "Fan Jiang",
+      "Mengchao Wang",
+      "Mu Xu",
+      "Kai Zhang"
+    ],
+    "doi": "10.1609/aaai.v40i10.37758",
+    "file": "openalex_101609_aaaiv40i1037758_FantasyHSI_Video-Generation-Centric_4D_Human_Synthesis_in_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7137987599",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "JointDiff: Bridging Continuous and Discrete in Multi-Agent Trajectory Generation",
+    "year": 2026,
+    "authors": [
+      "Guillem Capellera",
+      "Luis Ferraz",
+      "Rubio, Antonio",
+      "Alexandre Alahi",
+      "Antonio Agudo"
+    ],
+    "doi": "10.48550/arxiv.2509.22522",
+    "file": "openalex_1048550_arxiv250922522_JointDiff_Bridging_Continuous_and_Discrete_in_Multi-Agent_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416830883",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Human trajectory prediction and generation using LSTM models and GANs",
+    "year": 2021,
+    "authors": [
+      "Luca Rossi",
+      "Marina Paolanti",
+      "Roberto Pierdicca",
+      "Emanuele Frontoni"
+    ],
+    "doi": "10.1016/j.patcog.2021.108136",
+    "file": "openalex_101016_jpatcog2021108136_Human_trajectory_prediction_and_generation_using_LSTM_mo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3180212133",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SceneAgent: A Multi-Agent Framework for Portable Game Scene Generation",
+    "year": 2026,
+    "authors": [
+      "Xingyi Li",
+      "Jiahao Yang",
+      "Yiqin Zhu",
+      "Jingwen Ye",
+      "Yang Sun",
+      "Weidong Zhang"
+    ],
+    "doi": "10.48550/arxiv.2611.17821",
+    "file": "openalex_1048550_arxiv261117821_SceneAgent_A_Multi-Agent_Framework_for_Portable_Game_Scene.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7234351955",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Vehicle trajectory prediction and generation using LSTM models and GANs",
+    "year": 2021,
+    "authors": [
+      "Luca Rossi",
+      "Andrea Ajmar",
+      "Marina Paolanti",
+      "Roberto Pierdicca"
+    ],
+    "doi": "10.1371/journal.pone.0253868",
+    "file": "openalex_101371_journalpone0253868_Vehicle_trajectory_prediction_and_generation_using_LSTM.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4230865148",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Scene compliant spatio-temporal multi-modal multi-agent long-term trajectory forecasting",
+    "year": 2021,
+    "authors": [
+      "Daniela A. Ridel"
+    ],
+    "doi": "10.11606/t.55.2021.tde-08112021-112852",
+    "file": "openalex_1011606_t552021tde-08112021-112852_Scene_compliant_spatio-temporal_multi-modal_mu.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3213982088",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SceneDM: Consistent Diffusion Models for Coherent Multi-agent Trajectory Generation",
+    "year": 2025,
+    "authors": [
+      "Zhiming Guo",
+      "Xing Gao",
+      "Jian-Lan Zhou",
+      "Xinyu Cai",
+      "Xuemeng Yang",
+      "Licheng Wen",
+      "Xiao Sun"
+    ],
+    "doi": "10.1109/case58245.2025.11163744",
+    "file": "openalex_101109_case58245202511163744_SceneDM_Consistent_Diffusion_Models_for_Coherent_Mul.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414432335",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Trajectory Generation by Chance-Constrained Nonlinear MPC With Probabilistic Prediction",
+    "year": 2020,
+    "authors": [
+      "Xiaoxue Zhang",
+      "Jun Ma",
+      "Zilong Cheng",
+      "Sunan Huang",
+      "Shuzhi Sam Ge",
+      "Tong Heng Lee"
+    ],
+    "doi": "10.1109/tcyb.2020.3032711",
+    "file": "openalex_101109_tcyb20203032711_Trajectory_Generation_by_Chance-Constrained_Nonlinear_MPC_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3108370624",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+    "year": 2026,
+    "authors": [
+      "Hongchi Xia",
+      "Xuan Li",
+      "Zhaoshuo Li",
+      "Qianli Ma",
+      "Jiashu Xu",
+      "Ming-Yu Liu",
+      "Yin Cui",
+      "Tsung‐Yi Lin",
+      "Wei-Chiu Ma",
+      "Shenlong Wang",
+      "Shuran Song",
+      "Fangyin Wei"
+    ],
+    "doi": "10.48550/arxiv.2602.10116",
+    "file": "openalex_1048550_arxiv260210116_SAGE_Scalable_Agentic_3D_Scene_Generation_for_Embodied_AI.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7128647072",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents",
+    "year": 2021,
+    "authors": [
+      "ByeoungDo Kim",
+      "Seong Hyeon Park",
+      "Seok-Hwan Lee",
+      "Elbek Khoshimjonov",
+      "Dongsuk Kum",
+      "Junsoo Kim",
+      "Jeong Soo Kim",
+      "Jun Won Choi"
+    ],
+    "doi": "10.1109/cvpr46437.2021.01440",
+    "file": "openalex_101109_cvpr46437202101440_LaPred_Lane-Aware_Prediction_of_Multi-Modal_Future_Traj.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3198662297",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey of Multi-Agent Deep Reinforcement Learning with Communication",
+    "year": 2022,
+    "authors": [
+      "Changxi Zhu",
+      "Mehdi Dastani",
+      "Shihan Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_220308975v2_A_Survey_of_Multi-Agent_Deep_Reinforcement_Learning_with_Communication.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2203.08975v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Augmenting the action space with conventions to improve multi-agent cooperation in Hanabi",
+    "year": 2024,
+    "authors": [
+      "F. Bredell",
+      "H. A. Engelbrecht",
+      "J. C. Schoeman"
+    ],
+    "doi": "10.1007/s10458-025-09709-5",
+    "file": "arxiv_101007_s10458-025-09709-5_Augmenting_the_action_space_with_conventions_to_improve_mu.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.06333v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AOAD-MAT: Transformer-based multi-agent deep reinforcement learning model considering agents' order of action decisions",
+    "year": 2025,
+    "authors": [
+      "Shota Takayama",
+      "Katsuhide Fujita"
+    ],
+    "doi": "10.1007/978-3-032-13562-9_23",
+    "file": "arxiv_101007_978-3-032-13562-9_23_AOAD-MAT_Transformer-based_multi-agent_deep_reinforcemen.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.13343v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "From Model-Based Screening to Data-Driven Surrogates: A Multi-Stage Workflow for Exploring Stochastic Agent-Based Models",
+    "year": 2026,
+    "authors": [
+      "Paul Saves",
+      "Matthieu Mastio",
+      "Nicolas Verstaevel",
+      "Benoit Gaudou"
+    ],
+    "doi": "10.1007/978-3-032-39354-8_11",
+    "file": "arxiv_101007_978-3-032-39354-8_11_From_Model-Based_Screening_to_Data-Driven_Surrogates_A_M.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2604.03350v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-agent Auditory Scene Analysis: Improved Localization Speed and Robustness by Multi-beamformed Speech Quality Feedback",
+    "year": 2026,
+    "authors": [
+      "Caleb Rascon"
+    ],
+    "doi": "",
+    "file": "arxiv_261000538v1_Multi-agent_Auditory_Scene_Analysis_Improved_Localization_Speed_and_Robu.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.00538v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Quantifying the effects of environment and population diversity in multi-agent reinforcement learning",
+    "year": 2021,
+    "authors": [
+      "Kevin R. McKee",
+      "Joel Z. Leibo",
+      "Charlie Beattie",
+      "Richard Everett"
+    ],
+    "doi": "10.1007/s10458-022-09548-8",
+    "file": "arxiv_101007_s10458-022-09548-8_Quantifying_the_effects_of_environment_and_population_dive.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2102.08370v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Learning Reward Machines in Cooperative Multi-Agent Tasks",
+    "year": 2023,
+    "authors": [
+      "Leo Ardon",
+      "Daniel Furelos-Blanco",
+      "Alessandra Russo"
+    ],
+    "doi": "10.1007/978-3-031-56255-6_3",
+    "file": "arxiv_101007_978-3-031-56255-6_3_Learning_Reward_Machines_in_Cooperative_Multi-Agent_Tasks.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2303.14061v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code",
+    "year": 2025,
+    "authors": [
+      "Muhammad Haseeb"
+    ],
+    "doi": "",
+    "file": "arxiv_250808322v1_Context_Engineering_for_Multi-Agent_LLM_Code_Assistants_Using_Elicit_Not.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.08322v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MORPH: Self-Organising Multi-Robot Task Allocation via Neuroplasticity-Inspired Adaptive Topology",
+    "year": 2026,
+    "authors": [
+      "Xuezhi Niu",
+      "Didem Gürdür Broo"
+    ],
+    "doi": "10.1007/978-3-032-39395-1_31",
+    "file": "arxiv_101007_978-3-032-39395-1_31_MORPH_Self-Organising_Multi-Robot_Task_Allocation_via_Ne.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.32745v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Learning the Value Systems of Agents with Preference-based and Inverse Reinforcement Learning",
+    "year": 2026,
+    "authors": [
+      "Andrés Holgado-Sánchez",
+      "Holger Billhardt",
+      "Alberto Fernández",
+      "Sascha Ossowski"
+    ],
+    "doi": "10.1007/s10458-026-09732-0",
+    "file": "arxiv_101007_s10458-026-09732-0_Learning_the_Value_Systems_of_Agents_with_Preference-based.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.04518v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MLFC: From 10 to 50 Planners in the Multi-Agent Programming Contest",
+    "year": 2021,
+    "authors": [
+      "Rafael C. Cardoso",
+      "Angelo Ferrando",
+      "Fabio Papacchini",
+      "Matt Luckcuck",
+      "Sven Linker",
+      "Terry R. Payne"
+    ],
+    "doi": "10.1007/978-3-030-88549-6_4",
+    "file": "arxiv_101007_978-3-030-88549-6_4_MLFC_From_10_to_50_Planners_in_the_Multi-Agent_Programmin.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2110.08172v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Interference-Aware K-Step Reachable Communication in Multi-Agent Reinforcement Learning",
+    "year": 2026,
+    "authors": [
+      "Ziyu Cheng",
+      "Jinsheng Ren",
+      "Zhouxian Jiang",
+      "Chenzhihang Li",
+      "Rongye Shi",
+      "Bin Liang",
+      "Jun Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_260315054v1_Interference-Aware_K-Step_Reachable_Communication_in_Multi-Agent_Reinfor.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2603.15054v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications",
+    "year": 2024,
+    "authors": [
+      "Raphael Shu",
+      "Nilaksh Das",
+      "Michelle Yuan",
+      "Monica Sunkara",
+      "Yi Zhang"
+    ],
+    "doi": "",
+    "file": "arxiv_241205449v1_Towards_Effective_GenAI_Multi-Agent_Collaboration_Design_and_Evaluation_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.05449v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Energy-Optimal Multi-Agent Navigation as a Strategic-Form Game",
+    "year": 2024,
+    "authors": [
+      "Logan Beaver"
+    ],
+    "doi": "",
+    "file": "arxiv_240319641v1_Energy-Optimal_Multi-Agent_Navigation_as_a_Strategic-Form_Game.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.19641v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Absorbing State Phase Transitions in Multi-Agent Search",
+    "year": 2026,
+    "authors": [
+      "Wenwen Zheng",
+      "Yuzhe Yang",
+      "Helen Qu",
+      "Xin Eric Wang",
+      "Haewon Jeong"
+    ],
+    "doi": "",
+    "file": "arxiv_260938327v2_Absorbing_State_Phase_Transitions_in_Multi-Agent_Search.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.38327v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-agent Collective Construction using 3D Decomposition",
+    "year": 2023,
+    "authors": [
+      "Akshaya Kesarimangalam Srinivasan",
+      "Shambhavi Singh",
+      "Geordan Gutow",
+      "Howie Choset",
+      "Bhaskar Vundurthy"
+    ],
+    "doi": "",
+    "file": "arxiv_230900985v1_Multi-agent_Collective_Construction_using_3D_Decomposition.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2309.00985v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-Agent Collaborative Framework For Math Problem Generation",
+    "year": 2025,
+    "authors": [
+      "Kia Karbasi",
+      "Kevin Hong",
+      "Mohammad Amin Samadi",
+      "Gregory Pottie"
+    ],
+    "doi": "10.5281/zenodo.15870246",
+    "file": "arxiv_105281_zenodo15870246_Multi-Agent_Collaborative_Framework_For_Math_Problem_Generatio.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2511.03958v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MAEBE: Multi-Agent Emergent Behavior Framework",
+    "year": 2025,
+    "authors": [
+      "Sinem Erisken",
+      "Timothy Gothard",
+      "Martin Leitgab",
+      "Ram Potham"
+    ],
+    "doi": "",
+    "file": "arxiv_250603053v2_MAEBE_Multi-Agent_Emergent_Behavior_Framework.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.03053v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Agent-Temporal Attention for Reward Redistribution in Episodic Multi-Agent Reinforcement Learning",
+    "year": 2022,
+    "authors": [
+      "Baicen Xiao",
+      "Bhaskar Ramasubramanian",
+      "Radha Poovendran"
+    ],
+    "doi": "",
+    "file": "arxiv_220104612v1_Agent-Temporal_Attention_for_Reward_Redistribution_in_Episodic_Multi-Age.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2201.04612v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Deep Reinforcement Learning for Multi-Agent Interaction",
+    "year": 2022,
+    "authors": [
+      "Ibrahim H. Ahmed",
+      "Cillian Brewitt",
+      "Ignacio Carlucho",
+      "Filippos Christianos",
+      "Mhairi Dunion",
+      "Elliot Fosong",
+      "Samuel Garcin",
+      "Shangmin Guo",
+      "Balint Gyevnar",
+      "Trevor McInroe",
+      "Georgios Papoudakis",
+      "Arrasy Rahman",
+      "Lukas Schäfer",
+      "Massimiliano Tamborski",
+      "Giuseppe Vecchio",
+      "Cheng Wang",
+      "Stefano V. Albrecht"
+    ],
+    "doi": "",
+    "file": "arxiv_220801769v1_Deep_Reinforcement_Learning_for_Multi-Agent_Interaction.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2208.01769v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SPEAR: An Engineering Case Study of Multi-Agent Coordination for Smart Contract Auditing",
+    "year": 2026,
+    "authors": [
+      "Indraveni Chebolu",
+      "Arnab Mallick",
+      "Harmesh Rana"
+    ],
+    "doi": "",
+    "file": "arxiv_260204418v3_SPEAR_An_Engineering_Case_Study_of_Multi-Agent_Coordination_for_Smart_Co.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.04418v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA",
+    "year": 2026,
+    "authors": [
+      "Ummar Abbas",
+      "Mourad Ouzzani",
+      "Mohamed Y. Eltabakh",
+      "Omar Sinan",
+      "Gagan Bhatia",
+      "Hamdy Mubarak",
+      "Majd Hawasly",
+      "Mohammed Qusay Hashim",
+      "Kareem Darwish",
+      "Firoj Alam"
+    ],
+    "doi": "",
+    "file": "arxiv_260308501v3_Fanar-Sadiq_A_Multi-Agent_Architecture_for_Grounded_Islamic_QA.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2603.08501v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Game-Theoretic Approach to Multi-Agent Trust Region Optimization",
+    "year": 2021,
+    "authors": [
+      "Ying Wen",
+      "Hui Chen",
+      "Yaodong Yang",
+      "Zheng Tian",
+      "Minne Li",
+      "Xu Chen",
+      "Jun Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_210606828v1_A_Game-Theoretic_Approach_to_Multi-Agent_Trust_Region_Optimization.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2106.06828v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

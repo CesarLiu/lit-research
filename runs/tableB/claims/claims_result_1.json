@@ -1,0 +1,15 @@
+[
+ {"id": 1, "verdict": "UNSUPPORTED", "wrong_citation": false, "issue": "371 (candidates after keyword rule) and 288 (open full text retrieved) match PRISMA.md, but the sources 'OpenAlex and arXiv' and the year '2019 onward' appear nowhere in PRISMA.md."},
+ {"id": 2, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 3, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 4, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Statement of the review's own research question; the table cannot confirm or deny it."},
+ {"id": 5, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Count 9 is correct, but 'perturbs each denoising step' loses [20]'s control_mechanism qualifier 'optionally in late reverse steps', and [1]/[12] guide with a separately learned reward/objective model (control_mechanism), which 'differentiable rules, costs or rewards' glosses over; [30]'s and [34]'s signals are not listed."},
+ {"id": 6, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 7, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Count 5 and mechanisms match, but the signal list 'agent attributes, map, goals, number of agents' omits [14]'s trajectory sketch, behaviour latent code and language command (control_signal)."},
+ {"id": 8, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Count 3 is correct, but 'a tilt coefficient per reward component' fits [11] only; [28]'s control_signal is a single tilting strength on a collision-with-ego reward."},
+ {"id": 9, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 10, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 11, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 12, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Count 4 is correct, but 'that the search returned' contradicts selection.txt, which says these four were chosen and 'kept for contrast'; [23]'s notes describe reactive, efficient simulation rather than realism; 'excluded from the comparison below' is a process statement the table cannot confirm."},
+ {"id": 13, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""}
+]

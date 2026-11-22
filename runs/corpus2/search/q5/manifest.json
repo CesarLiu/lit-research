@@ -1,0 +1,879 @@
+[
+  {
+    "title": "Heter-Sim: Heterogeneous Multi-Agent Systems Simulation by Interactive Data-Driven Optimization",
+    "year": 2019,
+    "authors": [
+      "Jiaping Ren",
+      "Wei Xiang",
+      "Yangxi Xiao",
+      "Ruigang Yang",
+      "Dinesh Manocha",
+      "Xiaogang Jin"
+    ],
+    "doi": "10.1109/tvcg.2019.2946769",
+    "file": "openalex_101109_tvcg20192946769_Heter-Sim_Heterogeneous_Multi-Agent_Systems_Simulation_by_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2979982576",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MeKB-Sim: Personal Knowledge Base-Powered Multi-Agent Simulation",
+    "year": 2025,
+    "authors": [
+      "Zhenran Xu",
+      "Jifang Wang",
+      "Baotian Hu",
+      "Longyue Wang",
+      "Min Zhang"
+    ],
+    "doi": "10.18653/v1/2025.naacl-demo.33",
+    "file": "openalex_1018653_v1_2025naacl-demo33_MeKB-Sim_Personal_Knowledge_Base-Powered_Multi-Agent_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4411119787",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors",
+    "year": 2021,
+    "authors": [
+      "Simon Suo",
+      "Sebastian Regalado",
+      "Sergio Casas",
+      "Raquel Urtasun"
+    ],
+    "doi": "10.1109/cvpr46437.2021.01026",
+    "file": "openalex_101109_cvpr46437202101026_TrafficSim_Learning_to_Simulate_Realistic_Multi-Agent_B.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3181350748",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving",
+    "year": 2022,
+    "authors": [
+      "Yiming Li",
+      "Dekun Ma",
+      "Ziyan An",
+      "Zixun Wang",
+      "Yiqi Zhong",
+      "Siheng Chen",
+      "Chen Feng"
+    ],
+    "doi": "10.1109/lra.2022.3192802",
+    "file": "openalex_101109_lra20223192802_V2X-Sim_Multi-Agent_Collaborative_Perception_Dataset_and_Be.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4286544732",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "User Behavior Simulation with Large Language Model-based Agents",
+    "year": 2025,
+    "authors": [
+      "Lei Wang",
+      "Jingsen Zhang",
+      "Hao Yang",
+      "Zhi-Yuan Chen",
+      "Jiakai Tang",
+      "Zeyu Zhang",
+      "Xu Chen",
+      "Yankai Lin",
+      "Hao Sun",
+      "Ruihua Song",
+      "Wayne Xin Zhao",
+      "Jun Xu",
+      "Zhicheng Dou",
+      "Yi-Xiang Wang",
+      "Ji-Rong Wen"
+    ],
+    "doi": "10.1145/3708985",
+    "file": "openalex_101145_3708985_User_Behavior_Simulation_with_Large_Language_Model-based_Agents.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405643789",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Mind the Sim2Real Gap in User Simulation for Agentic Tasks",
+    "year": 2026,
+    "authors": [
+      "Xuhui Zhou",
+      "Weiwei Sun",
+      "Qianou Ma",
+      "Yiqing Xie",
+      "Jiarui Liu",
+      "Weihua Du",
+      "Sean Welleck",
+      "Yiming Yang",
+      "Graham Neubig",
+      "Tongshuang Wu",
+      "Maarten Sap"
+    ],
+    "doi": "10.48550/arxiv.2603.11245",
+    "file": "openalex_1048550_arxiv260311245_Mind_the_Sim2Real_Gap_in_User_Simulation_for_Agentic_Tasks.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7135169797",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Amorphous Fortress: Observing Emergent Behavior in Multi-Agent FSMs",
+    "year": 2023,
+    "authors": [
+      "M Charity",
+      "Dipika Rajesh",
+      "Sam Earle",
+      "Julian Togelius"
+    ],
+    "doi": "10.48550/arxiv.2306.13169",
+    "file": "openalex_1048550_arxiv230613169_Amorphous_Fortress_Observing_Emergent_Behavior_in_Multi-Ag.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4382142105",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "The Waymo Open Sim Agents Challenge",
+    "year": 2023,
+    "authors": [
+      "Nico Montali",
+      "John Lambert",
+      "Paul Mougin",
+      "Alex Kuefler",
+      "Nicholas Rhinehart",
+      "Michelle Li",
+      "Cole Gulino",
+      "T. Emrich",
+      "Zoey Yang",
+      "Shimon Whiteson",
+      "Brandyn White",
+      "Dragomir Anguelov"
+    ],
+    "doi": "10.52202/075280-2582",
+    "file": "openalex_1052202_075280-2582_The_Waymo_Open_Sim_Agents_Challenge.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7133266969",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Sim-Stu: A Multi-Agent System for Simulating Learning Processes",
+    "year": 2025,
+    "authors": [
+      "Wenhao Zhang",
+      "Xu Du",
+      "Tianyu Dong",
+      "Weigang Ren",
+      "Jun You Tan",
+      "Bing Ma"
+    ],
+    "doi": "10.1109/ica67499.2025.00019",
+    "file": "openalex_101109_ica67499202500019_Sim-Stu_A_Multi-Agent_System_for_Simulating_Learning_Pro.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7125897862",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Building reliable sim driving agents by scaling self-play",
+    "year": 2025,
+    "authors": [
+      "Daphne Cornelisse",
+      "Aarav Pandya",
+      "Joseph, Kevin",
+      "Suárez, Joseph",
+      "Eugene Vinitsky"
+    ],
+    "doi": "10.48550/arxiv.2502.14706",
+    "file": "openalex_1048550_arxiv250214706_Building_reliable_sim_driving_agents_by_scaling_self-play.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4407808586",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Versatile Behavior Diffusion for Generalized Traffic Agent Simulation",
+    "year": 2026,
+    "authors": [
+      "Zhiyu Huang",
+      "Zixu Zhang",
+      "Ameya Vaidya",
+      "Yuxiao Chen",
+      "Jaime F. Fisac",
+      "Chen Lv"
+    ],
+    "doi": "10.1109/tits.2026.3662886",
+    "file": "openalex_101109_tits20263662886_Versatile_Behavior_Diffusion_for_Generalized_Traffic_Agent.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7131827335",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Crowd Panic Behavior Simulation Using Multi-Agent Modeling",
+    "year": 2024,
+    "authors": [
+      "Catalin Marian Dumitrescu",
+      "Valentin Radu",
+      "Radu Gheorghe",
+      "Alina Iuliana Tăbîrcă",
+      "Maria Cristina Ștefan",
+      "Liliana Manea"
+    ],
+    "doi": "10.3390/electronics13183622",
+    "file": "openalex_103390_electronics13183622_Crowd_Panic_Behavior_Simulation_Using_Multi-Agent_Mode.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402496531",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments",
+    "year": 2026,
+    "authors": [
+      "Zhiyu Huang",
+      "Zewei Zhou",
+      "Tianhui Cai",
+      "Yun Zhang",
+      "Jiaqi Ma"
+    ],
+    "doi": "10.1109/cvprf71909.2026.00089",
+    "file": "openalex_101109_cvprf71909202600089_MDG_Masked_Denoising_Generation_for_Multi-Agent_Behavi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7221045132",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023,
+    "authors": [
+      "Joon-Sung Park",
+      "Joseph O'Brien",
+      "Carrie Jun Cai",
+      "Meredith Ringel Morris",
+      "Percy Liang",
+      "Michael S. Bernstein"
+    ],
+    "doi": "10.1145/3586183.3606763",
+    "file": "openalex_101145_35861833606763_Generative_Agents_Interactive_Simulacra_of_Human_Behavior.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4387835442",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Modular Interface for Multi-Agent Marine Autonomy Simulation",
+    "year": 2025,
+    "authors": [
+      "Mathew Schwartzman",
+      "Charles Benjamin"
+    ],
+    "doi": "10.23919/oceans59106.2025.11245128",
+    "file": "openalex_1023919_oceans59106202511245128_A_Modular_Interface_for_Multi-Agent_Marine_Autono.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416650277",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Controllable Sim Agents with Behavior Latents",
+    "year": 2026,
+    "authors": [
+      "Juanwu Lu",
+      "J ZHU",
+      "Ziran Wang"
+    ],
+    "doi": "10.48550/arxiv.2607.02496",
+    "file": "openalex_1048550_arxiv260702496_Controllable_Sim_Agents_with_Behavior_Latents.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7167252705",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Advancing Multi-agent Traffic Simulation via R1-Style Reinforcement Fine-Tuning",
+    "year": 2026,
+    "authors": [
+      "Muleilan Pei",
+      "Shaoshuai Shi",
+      "Shaojie Shen"
+    ],
+    "doi": "10.48550/arxiv.2509.23993",
+    "file": "openalex_1048550_arxiv250923993_Advancing_Multi-agent_Traffic_Simulation_via_R1-Style_Rein.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415335912",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "TrajGen: Generating Realistic and Diverse Trajectories With Reactive and Feasible Agent Behaviors for Autonomous Driving",
+    "year": 2022,
+    "authors": [
+      "Qichao Zhang",
+      "Yinfeng Gao",
+      "Yikang Zhang",
+      "Youtian Guo",
+      "Da‐Wei Ding",
+      "Yunpeng Wang",
+      "Peng Sun",
+      "Dongbin Zhao"
+    ],
+    "doi": "10.1109/tits.2022.3202185",
+    "file": "openalex_101109_tits20223202185_TrajGen_Generating_Realistic_and_Diverse_Trajectories_With.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4226440390",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DecompGAIL: Learning Realistic Traffic Behaviors with Decomposed Multi-Agent Generative Adversarial Imitation Learning",
+    "year": 2026,
+    "authors": [
+      "Ke Guo",
+      "Haochen Liu",
+      "Xiaojun Wu",
+      "Lv, Chen"
+    ],
+    "doi": "10.48550/arxiv.2510.06913",
+    "file": "openalex_1048550_arxiv251006913_DecompGAIL_Learning_Realistic_Traffic_Behaviors_with_Decom.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415097439",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "The Traitors: Deception and Trust in Multi-Agent Language Model Simulations",
+    "year": 2025,
+    "authors": [
+      "Pedro M. P. Curvo"
+    ],
+    "doi": "10.48550/arxiv.2505.12923",
+    "file": "openalex_1048550_arxiv250512923_The_Traitors_Deception_and_Trust_in_Multi-Agent_Language_M.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417302326",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Physical Simulation for Multi-agent Multi-machine Tending",
+    "year": 2024,
+    "authors": [
+      "Abdalwhab Abdalwhab",
+      "Giovanni Beltrame",
+      "David St-Onge"
+    ],
+    "doi": "10.48550/arxiv.2410.19761",
+    "file": "openalex_1048550_arxiv241019761_Physical_Simulation_for_Multi-agent_Multi-machine_Tending.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4404313174",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars",
+    "year": 2023,
+    "authors": [
+      "Wenyue Hua",
+      "Lizhou Fan",
+      "Lingyao Li",
+      "Kai Mei",
+      "Jianchao Ji",
+      "Yingqiang Ge",
+      "Libby Hemphill",
+      "Yongfeng Zhang"
+    ],
+    "doi": "10.48550/arxiv.2311.17227",
+    "file": "openalex_1048550_arxiv231117227_War_and_Peace_WarAgent_Large_Language_Model-based_Multi-Ag.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4389217265",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Emergent Tool Use From Multi-Agent Autocurricula",
+    "year": 2019,
+    "authors": [
+      "Bowen Baker",
+      "Ingmar Kanitscheider",
+      "Todor Markov",
+      "Wu, Yi",
+      "Glenn Powell",
+      "Bob McGrew",
+      "Igor Mordatch"
+    ],
+    "doi": "10.48550/arxiv.1909.07528",
+    "file": "openalex_1048550_arxiv190907528_Emergent_Tool_Use_From_Multi-Agent_Autocurricula.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2973525135",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Amorphous Fortress: Exploring Emergent Behavior and Complexity in Multi-Agent 0-Player Games",
+    "year": 2024,
+    "authors": [
+      "Megan Charity",
+      "Sam Earle",
+      "Dipika Rajesh",
+      "Mayu Wilson",
+      "Julian Togelius"
+    ],
+    "doi": "10.1109/cec60901.2024.10612153",
+    "file": "openalex_101109_cec60901202410612153_Amorphous_Fortress_Exploring_Emergent_Behavior_and_Co.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4401414376",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey of Multi-Agent Deep Reinforcement Learning with Communication",
+    "year": 2022,
+    "authors": [
+      "Changxi Zhu",
+      "Mehdi Dastani",
+      "Shihan Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_220308975v2_A_Survey_of_Multi-Agent_Deep_Reinforcement_Learning_with_Communication.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2203.08975v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Augmenting the action space with conventions to improve multi-agent cooperation in Hanabi",
+    "year": 2024,
+    "authors": [
+      "F. Bredell",
+      "H. A. Engelbrecht",
+      "J. C. Schoeman"
+    ],
+    "doi": "10.1007/s10458-025-09709-5",
+    "file": "arxiv_101007_s10458-025-09709-5_Augmenting_the_action_space_with_conventions_to_improve_mu.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.06333v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Learning the Value Systems of Agents with Preference-based and Inverse Reinforcement Learning",
+    "year": 2026,
+    "authors": [
+      "Andrés Holgado-Sánchez",
+      "Holger Billhardt",
+      "Alberto Fernández",
+      "Sascha Ossowski"
+    ],
+    "doi": "10.1007/s10458-026-09732-0",
+    "file": "arxiv_101007_s10458-026-09732-0_Learning_the_Value_Systems_of_Agents_with_Preference-based.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.04518v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "From Model-Based Screening to Data-Driven Surrogates: A Multi-Stage Workflow for Exploring Stochastic Agent-Based Models",
+    "year": 2026,
+    "authors": [
+      "Paul Saves",
+      "Matthieu Mastio",
+      "Nicolas Verstaevel",
+      "Benoit Gaudou"
+    ],
+    "doi": "10.1007/978-3-032-39354-8_11",
+    "file": "arxiv_101007_978-3-032-39354-8_11_From_Model-Based_Screening_to_Data-Driven_Surrogates_A_M.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2604.03350v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Quantifying the effects of environment and population diversity in multi-agent reinforcement learning",
+    "year": 2021,
+    "authors": [
+      "Kevin R. McKee",
+      "Joel Z. Leibo",
+      "Charlie Beattie",
+      "Richard Everett"
+    ],
+    "doi": "10.1007/s10458-022-09548-8",
+    "file": "arxiv_101007_s10458-022-09548-8_Quantifying_the_effects_of_environment_and_population_dive.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2102.08370v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AOAD-MAT: Transformer-based multi-agent deep reinforcement learning model considering agents' order of action decisions",
+    "year": 2025,
+    "authors": [
+      "Shota Takayama",
+      "Katsuhide Fujita"
+    ],
+    "doi": "10.1007/978-3-032-13562-9_23",
+    "file": "arxiv_101007_978-3-032-13562-9_23_AOAD-MAT_Transformer-based_multi-agent_deep_reinforcemen.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.13343v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications",
+    "year": 2024,
+    "authors": [
+      "Raphael Shu",
+      "Nilaksh Das",
+      "Michelle Yuan",
+      "Monica Sunkara",
+      "Yi Zhang"
+    ],
+    "doi": "",
+    "file": "arxiv_241205449v1_Towards_Effective_GenAI_Multi-Agent_Collaboration_Design_and_Evaluation_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.05449v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Causal Explanations for Sequential Decision-Making in Multi-Agent Systems",
+    "year": 2023,
+    "authors": [
+      "Balint Gyevnar",
+      "Cheng Wang",
+      "Christopher G. Lucas",
+      "Shay B. Cohen",
+      "Stefano V. Albrecht"
+    ],
+    "doi": "",
+    "file": "arxiv_230210809v4_Causal_Explanations_for_Sequential_Decision-Making_in_Multi-Agent_System.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2302.10809v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Agent-Temporal Attention for Reward Redistribution in Episodic Multi-Agent Reinforcement Learning",
+    "year": 2022,
+    "authors": [
+      "Baicen Xiao",
+      "Bhaskar Ramasubramanian",
+      "Radha Poovendran"
+    ],
+    "doi": "",
+    "file": "arxiv_220104612v1_Agent-Temporal_Attention_for_Reward_Redistribution_in_Episodic_Multi-Age.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2201.04612v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-agent Auditory Scene Analysis: Improved Localization Speed and Robustness by Multi-beamformed Speech Quality Feedback",
+    "year": 2026,
+    "authors": [
+      "Caleb Rascon"
+    ],
+    "doi": "",
+    "file": "arxiv_261000538v1_Multi-agent_Auditory_Scene_Analysis_Improved_Localization_Speed_and_Robu.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.00538v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-Agent Learning of Numerical Methods for Hyperbolic PDEs with Factored Dec-MDP",
+    "year": 2022,
+    "authors": [
+      "Yiwei Fu",
+      "Dheeraj S. K. Kapilavai",
+      "Elliot Way"
+    ],
+    "doi": "10.1007/978-3-031-18192-4_15",
+    "file": "arxiv_101007_978-3-031-18192-4_15_Multi-Agent_Learning_of_Numerical_Methods_for_Hyperbolic.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2205.15716v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A mechanism for discovering semantic relationships among agent communication protocols",
+    "year": 2024,
+    "authors": [
+      "Idoia Berges",
+      "Jesús Bermúdez",
+      "Alfredo Goñi",
+      "Arantza Illarramendi"
+    ],
+    "doi": "10.1007/s10458-010-9154-1",
+    "file": "arxiv_101007_s10458-010-9154-1_A_mechanism_for_discovering_semantic_relationships_among_ag.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2401.16216v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Agent-Time Attention for Sparse Rewards Multi-Agent Reinforcement Learning",
+    "year": 2022,
+    "authors": [
+      "Jennifer She",
+      "Jayesh K. Gupta",
+      "Mykel J. Kochenderfer"
+    ],
+    "doi": "",
+    "file": "arxiv_221017540v1_Agent-Time_Attention_for_Sparse_Rewards_Multi-Agent_Reinforcement_Learni.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2210.17540v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Unravelling multi-agent ranked delegations",
+    "year": 2021,
+    "authors": [
+      "Rachael Colley",
+      "Umberto Grandi",
+      "Arianna Novaro"
+    ],
+    "doi": "",
+    "file": "arxiv_211113145v1_Unravelling_multi-agent_ranked_delegations.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2111.13145v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Refined Hardness of Distance-Optimal Multi-Agent Path Finding",
+    "year": 2022,
+    "authors": [
+      "Tzvika Geft",
+      "Dan Halperin"
+    ],
+    "doi": "",
+    "file": "arxiv_220307416v1_Refined_Hardness_of_Distance-Optimal_Multi-Agent_Path_Finding.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2203.07416v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Off-the-Grid MARL: Datasets with Baselines for Offline Multi-Agent Reinforcement Learning",
+    "year": 2023,
+    "authors": [
+      "Claude Formanek",
+      "Asad Jeewa",
+      "Jonathan Shock",
+      "Arnu Pretorius"
+    ],
+    "doi": "",
+    "file": "arxiv_230200521v2_Off-the-Grid_MARL_Datasets_with_Baselines_for_Offline_Multi-Agent_Reinfo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2302.00521v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MAEBE: Multi-Agent Emergent Behavior Framework",
+    "year": 2025,
+    "authors": [
+      "Sinem Erisken",
+      "Timothy Gothard",
+      "Martin Leitgab",
+      "Ram Potham"
+    ],
+    "doi": "",
+    "file": "arxiv_250603053v2_MAEBE_Multi-Agent_Emergent_Behavior_Framework.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.03053v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ARCANE: A Multi-Agent Framework for Interpretable and Configurable Alignment",
+    "year": 2025,
+    "authors": [
+      "Charlie Masters",
+      "Marta Grześkiewicz",
+      "Stefano V. Albrecht"
+    ],
+    "doi": "",
+    "file": "arxiv_251206196v1_ARCANE_A_Multi-Agent_Framework_for_Interpretable_and_Configurable_Alignm.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.06196v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior",
+    "year": 2026,
+    "authors": [
+      "Michele Persiani",
+      "Thomas Hellström"
+    ],
+    "doi": "",
+    "file": "arxiv_260905190v1_The_Mirror_Agent_Model_a_Bayesian_Architecture_for_Interpretable_Agent_B.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.05190v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Massive Multi-Agent Data-Driven Simulations of the GitHub Ecosystem",
+    "year": 2019,
+    "authors": [
+      "Jim Blythe",
+      "John Bollenbacher",
+      "Di Huang",
+      "Pik-Mai Hui",
+      "Rachel Krohn",
+      "Diogo Pacheco",
+      "Goran Muric",
+      "Anna Sapienza",
+      "Alexey Tregubov",
+      "Yong-Yeol Ahn",
+      "Alessandro Flammini",
+      "Kristina Lerman",
+      "Filippo Menczer",
+      "Tim Weninger",
+      "Emilio Ferrara"
+    ],
+    "doi": "10.1007/978-3-030-24209-1_1",
+    "file": "arxiv_101007_978-3-030-24209-1_1_Massive_Multi-Agent_Data-Driven_Simulations_of_the_GitHub.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/1908.05437v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Fast Agent-Based Simulation Framework with Applications to Reinforcement Learning and the Study of Trading Latency Effects",
+    "year": 2020,
+    "authors": [
+      "Peter Belcak",
+      "Jan-Peter Calliess",
+      "Stefan Zohren"
+    ],
+    "doi": "",
+    "file": "arxiv_200807871v3_Fast_Agent-Based_Simulation_Framework_with_Applications_to_Reinforcement.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2008.07871v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Private Agent-Based Modeling",
+    "year": 2024,
+    "authors": [
+      "Ayush Chopra",
+      "Arnau Quera-Bofarull",
+      "Nurullah Giray-Kuru",
+      "Michael Wooldridge",
+      "Ramesh Raskar"
+    ],
+    "doi": "",
+    "file": "arxiv_240412983v1_Private_Agent-Based_Modeling.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2404.12983v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-Agent Robotic Control with Onboard Vision-Language Models",
+    "year": 2026,
+    "authors": [
+      "Kajetan Rachwał",
+      "Maciej Majek",
+      "Bartłomiej Boczek",
+      "Jakub Matejczyk",
+      "Dominik Matejkowski",
+      "Adam Dąbrowski",
+      "Tim Seyde",
+      "Alexander Amini",
+      "Maria Ganzha"
+    ],
+    "doi": "",
+    "file": "arxiv_260707403v1_Multi-Agent_Robotic_Control_with_Onboard_Vision-Language_Models.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2607.07403v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "GOV-REK: Governed Reward Engineering Kernels for Designing Robust Multi-Agent Reinforcement Learning Systems",
+    "year": 2024,
+    "authors": [
+      "Ashish Rana",
+      "Michael Oesterle",
+      "Jannik Brinkmann"
+    ],
+    "doi": "",
+    "file": "arxiv_240401131v2_GOV-REK_Governed_Reward_Engineering_Kernels_for_Designing_Robust_Multi-A.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2404.01131v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Implementing Agents in JavaScript",
+    "year": 2025,
+    "authors": [
+      "Timotheus Kampik"
+    ],
+    "doi": "",
+    "file": "arxiv_250518228v2_Implementing_Agents_in_JavaScript.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.18228v2",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

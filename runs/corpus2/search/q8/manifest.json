@@ -1,0 +1,920 @@
+[
+  {
+    "title": "SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction",
+    "year": 2024,
+    "authors": [
+      "Wei Wu",
+      "Xiaoxin Feng",
+      "Ziyan Gao",
+      "Yuheng Kan"
+    ],
+    "doi": "10.52202/079017-3622",
+    "file": "openalex_1052202_079017-3622_SMART_Scalable_Multi-agent_Real-time_Motion_Generation_via_Ne.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415795787",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Trajeglish: Traffic Modeling as Next-Token Prediction",
+    "year": 2024,
+    "authors": [
+      "Jonah Philion",
+      "Xue Bin Peng",
+      "Sanja Fidler"
+    ],
+    "doi": "10.48550/arxiv.2312.04535",
+    "file": "openalex_1048550_arxiv231204535_Trajeglish_Traffic_Modeling_as_Next-Token_Prediction.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4389500205",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Long-Term Traffic Simulation with Interleaved Autoregressive Motion and Scenario Generation",
+    "year": 2025,
+    "authors": [
+      "Xiuyu Yang",
+      "Shuhan Tan",
+      "Philipp Krähenbühl"
+    ],
+    "doi": "10.1109/iccv51701.2025.02347",
+    "file": "openalex_101109_iccv51701202502347_Long-Term_Traffic_Simulation_with_Interleaved_Autoregre.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417095647",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion",
+    "year": 2024,
+    "authors": [
+      "Boyuan Chen",
+      "Diego Martí Monsó",
+      "Yilun Du",
+      "Max Simchowitz",
+      "Russ Tedrake",
+      "Vincent Sitzmann"
+    ],
+    "doi": "10.52202/079017-0759",
+    "file": "openalex_1052202_079017-0759_Diffusion_Forcing_Next-token_Prediction_Meets_Full-Sequence_D.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415798523",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SceneStreamer: Continuous Scenario Generation as Next Token Group Prediction",
+    "year": 2026,
+    "authors": [
+      "Zhenghao Peng",
+      "Liu, Yuxin",
+      "Bolei Zhou"
+    ],
+    "doi": "10.48550/arxiv.2506.23316",
+    "file": "openalex_1048550_arxiv250623316_SceneStreamer_Continuous_Scenario_Generation_as_Next_Token.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416526514",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MoST: Multi-modality Scene Tokenization for Motion Prediction",
+    "year": 2024,
+    "authors": [
+      "Norman Mu",
+      "Jingwei Ji",
+      "Zhenpei Yang",
+      "Nate Harada",
+      "Haotian Tang",
+      "Kan Chen",
+      "Charles R. Qi",
+      "Runzhou Ge",
+      "Kratarth Goel",
+      "Zoey Yang",
+      "Scott M. Ettinger",
+      "Rami Al‐Rfou",
+      "Dragomir Anguelov",
+      "Yin Zhou"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01420",
+    "file": "openalex_101109_cvpr52733202401420_MoST_Multi-modality_Scene_Tokenization_for_Motion_Predi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402772377",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion",
+    "year": 2023,
+    "authors": [
+      "Chiyu Max Jiang",
+      "Andre Cornman",
+      "Cheolho Park",
+      "Benjamin Sapp",
+      "Yin Zhou",
+      "Dragomir Anguelov"
+    ],
+    "doi": "10.1109/cvpr52729.2023.00930",
+    "file": "openalex_101109_cvpr52729202300930_MotionDiffuser_Controllable_Multi-Agent_Motion_Predicti.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4386076407",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MTR++: Multi-Agent Motion Prediction With Symmetric Scene Modeling and Guided Intention Querying",
+    "year": 2024,
+    "authors": [
+      "Shaoshuai Shi",
+      "Li Jiang",
+      "Dengxin Dai",
+      "Bernt Schiele"
+    ],
+    "doi": "10.1109/tpami.2024.3352811",
+    "file": "openalex_101109_tpami20243352811_MTR_Multi-Agent_Motion_Prediction_With_Symmetric_Scene_Mo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4390788068",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Categorical Traffic Transformer: Interpretable and Diverse Behavior Prediction with Tokenized Latent",
+    "year": 2025,
+    "authors": [
+      "Yuxiao Chen",
+      "Sander Tonkens",
+      "Marco Pavone"
+    ],
+    "doi": "10.1109/icra55743.2025.11128234",
+    "file": "openalex_101109_icra55743202511128234_Categorical_Traffic_Transformer_Interpretable_and_Di.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413947024",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models",
+    "year": 2025,
+    "authors": [
+      "Zhejun Zhang",
+      "Péter Karkus",
+      "Maximilian Igl",
+      "Wenhao Ding",
+      "Yuxiao Chen",
+      "Boris Ivanovic",
+      "Marco Pavone"
+    ],
+    "doi": "10.1109/cvpr52734.2025.00510",
+    "file": "openalex_101109_cvpr52734202500510_Closed-Loop_Supervised_Fine-Tuning_of_Tokenized_Traffic.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413145140",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SIMPL: A Simple and Efficient Multi-Agent Motion Prediction Baseline for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Lu Zhang",
+      "Peiliang Li",
+      "Sikang Liu",
+      "Shaojie Shen"
+    ],
+    "doi": "10.1109/lra.2024.3370039",
+    "file": "openalex_101109_lra20243370039_SIMPL_A_Simple_and_Efficient_Multi-Agent_Motion_Prediction_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4392207805",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MotionLM: Multi-Agent Motion Forecasting as Language Modeling",
+    "year": 2023,
+    "authors": [
+      "Ari Seff",
+      "Brian Cera",
+      "Dian Chen",
+      "Mason Ng",
+      "Aurick Zhou",
+      "Nigamaa Nayakanti",
+      "Khaled S. Refaat",
+      "Rami Al‐Rfou",
+      "Benjamin Sapp"
+    ],
+    "doi": "10.1109/iccv51070.2023.00788",
+    "file": "openalex_101109_iccv51070202300788_MotionLM_Multi-Agent_Motion_Forecasting_as_Language_Mod.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4390872108",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction",
+    "year": 2024,
+    "authors": [
+      "Zikang Zhou",
+      "Haibo Hu",
+      "Xinhong Chen",
+      "Jianping Wang",
+      "Nan Guan",
+      "Kui Wu",
+      "Yung-Hui Li",
+      "Yu-Kai Huang",
+      "Chun Jason Xue"
+    ],
+    "doi": "10.52202/079017-2527",
+    "file": "openalex_1052202_079017-2527_BehaviorGPT_Smart_Agent_Simulation_for_Autonomous_Driving_wit.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415797002",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Query-Informed Multi-Agent Motion Prediction",
+    "year": 2023,
+    "authors": [
+      "Chong Guo",
+      "Shouyi Fan",
+      "Chaoyi Chen",
+      "Wenbo Zhao",
+      "Jiawei Wang",
+      "Yao Zhang",
+      "Yanhong Chen"
+    ],
+    "doi": "10.3390/s24010009",
+    "file": "openalex_103390_s24010009_Query-Informed_Multi-Agent_Motion_Prediction.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4389950797",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Learning Rollout from Sampling: An R1-Style Tokenized Traffic Simulation Model",
+    "year": 2026,
+    "authors": [
+      "Ziyan Wang",
+      "Peng Chen",
+      "Ding Li",
+      "Chiwei Li",
+      "Qichao Zhang",
+      "Zhongpu Xia",
+      "Guizhen Yu"
+    ],
+    "doi": "10.1109/lra.2026.3678842",
+    "file": "openalex_101109_lra20263678842_Learning_Rollout_from_Sampling_An_R1-Style_Tokenized_Traffi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7143351333",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Multimodal Motion Prediction with Stacked Transformers",
+    "year": 2021,
+    "authors": [
+      "Yicheng Liu",
+      "Jinghuai Zhang",
+      "Liangji Fang",
+      "Qinhong Jiang",
+      "Bolei Zhou"
+    ],
+    "doi": "10.1109/cvpr46437.2021.00749",
+    "file": "openalex_101109_cvpr46437202100749_Multimodal_Motion_Prediction_with_Stacked_Transformers.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3169575318",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation",
+    "year": 2025,
+    "authors": [
+      "Yuxin Liu",
+      "Zhenghao Peng",
+      "Xuanhao Cui",
+      "Bolei Zhou"
+    ],
+    "doi": "10.52202/085713-1849",
+    "file": "openalex_1052202_085713-1849_Adv-BMT_Bidirectional_Motion_Transformer_for_Safety-Critical_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417308312",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Language Conditioned Traffic Generation",
+    "year": 2023,
+    "authors": [
+      "Shuhan Tan",
+      "Boris Ivanovic",
+      "Xinshuo Weng",
+      "Marco Pavone",
+      "Philipp Krähenbühl"
+    ],
+    "doi": "10.48550/arxiv.2307.07947",
+    "file": "openalex_1048550_arxiv230707947_Language_Conditioned_Traffic_Generation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4384644126",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments",
+    "year": 2025,
+    "authors": [
+      "Zhiyu Huang",
+      "Zewei Zhou",
+      "Tianhui Cai",
+      "Yun Zhang",
+      "Jiaqi Ma"
+    ],
+    "doi": "10.48550/arxiv.2511.17496",
+    "file": "openalex_1048550_arxiv251117496_MDG_Masked_Denoising_Generation_for_Multi-Agent_Behavior_M.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417286686",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Versatile Behavior Diffusion for Generalized Traffic Agent Simulation",
+    "year": 2026,
+    "authors": [
+      "Zhiyu Huang",
+      "Zixu Zhang",
+      "Ameya Vaidya",
+      "Yuxiao Chen",
+      "Jaime F. Fisac",
+      "Chen Lv"
+    ],
+    "doi": "10.1109/tits.2026.3662886",
+    "file": "openalex_101109_tits20263662886_Versatile_Behavior_Diffusion_for_Generalized_Traffic_Agent.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7131827335",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "TrajTok: What makes for a good trajectory tokenizer in behavior generation?",
+    "year": 2026,
+    "authors": [
+      "Zhiyuan Zhang",
+      "Xiaosong Jia",
+      "Guanyu Chen",
+      "Qifeng Li",
+      "Zuxuan Wu",
+      "Yu-Gang Jiang",
+      "Junchi Yan"
+    ],
+    "doi": "",
+    "file": "openalex_W7236521105_TrajTok_What_makes_for_a_good_trajectory_tokenizer_in_behavior_genera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7236521105",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Video-LaVIT: Unified Video-Language Pre-training with Decoupled Visual-Motional Tokenization",
+    "year": 2024,
+    "authors": [
+      "Jin, Yang",
+      "Zhicheng Sun",
+      "Kun Xu",
+      "Kun Xu",
+      "Liwei Chen",
+      "Hao Jiang",
+      "Quzhe Huang",
+      "Chengru Song",
+      "Yuliang Liu",
+      "Di Zhang",
+      "Yang Song",
+      "Kun Gai",
+      "Yadong Mu"
+    ],
+    "doi": "10.48550/arxiv.2402.03161",
+    "file": "openalex_1048550_arxiv240203161_Video-LaVIT_Unified_Video-Language_Pre-training_with_Decou.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4391670505",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "EP-Diffuser: An Efficient Diffusion Model for Traffic Scene Generation and Prediction via Polynomial Representations",
+    "year": 2025,
+    "authors": [
+      "Yue Yao",
+      "Mohamed-Khalil Bouzidi",
+      "Daniel Goehring",
+      "Joerg Reichardt"
+    ],
+    "doi": "10.1109/lra.2025.3595042",
+    "file": "openalex_101109_lra20253595042_EP-Diffuser_An_Efficient_Diffusion_Model_for_Traffic_Scene_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4412836772",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ModeSeq: Taming Sparse Multimodal Motion Prediction with Sequential Mode Modeling",
+    "year": 2025,
+    "authors": [
+      "Zikang Zhou",
+      "Hengjian Zhou",
+      "Haibo Hu",
+      "Zihao Wen",
+      "Jianping Wang",
+      "Yung‐Hui Li",
+      "Yu-Kai Huang"
+    ],
+    "doi": "10.1109/cvpr52734.2025.00158",
+    "file": "openalex_101109_cvpr52734202500158_ModeSeq_Taming_Sparse_Multimodal_Motion_Prediction_with.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413144409",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "AutoWorld: Learning Multi-Agent Traffic Simulation with Self-Supervised World Models",
+    "year": 2026,
+    "authors": [
+      "Mozhgan Pourkeshavarz",
+      "Tianran Liu",
+      "Nicholas Rhinehart"
+    ],
+    "doi": "10.48550/arxiv.2603.28963",
+    "file": "openalex_1048550_arxiv260328963_AutoWorld_Learning_Multi-Agent_Traffic_Simulation_with_Sel.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7147413225",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Next Token Prediction Towards Multimodal Intelligence: A Comprehensive Survey",
+    "year": 2024,
+    "authors": [
+      "Liang Chen",
+      "Zekun Wang",
+      "Shuhuai Ren",
+      "Lei Li",
+      "Haozhe Zhao",
+      "Yunshui Li",
+      "Zefan Cai",
+      "Hongcheng Guo",
+      "Lei Zhang",
+      "Yizhe Xiong",
+      "Yichi Zhang",
+      "Ruoyu Wu",
+      "Qingxiu Dong",
+      "Ge Zhang",
+      "Jian Yang",
+      "Lingwei Meng",
+      "Shujie Hu",
+      "Yulong Chen",
+      "Junyang Lin",
+      "Shuai Bai"
+    ],
+    "doi": "",
+    "file": "arxiv_241218619v2_Next_Token_Prediction_Towards_Multimodal_Intelligence_A_Comprehensive_Su.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.18619v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Motion-Agent: A Conversational Framework for Human Motion Generation with LLMs",
+    "year": 2024,
+    "authors": [
+      "Qi Wu",
+      "Yubo Zhao",
+      "Yifan Wang",
+      "Xinhang Liu",
+      "Yu-Wing Tai",
+      "Chi-Keung Tang"
+    ],
+    "doi": "",
+    "file": "arxiv_240517013v3_Motion-Agent_A_Conversational_Framework_for_Human_Motion_Generation_with.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2405.17013v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models",
+    "year": 2021,
+    "authors": [
+      "Lyuyi Zhu",
+      "Kairui Feng",
+      "Ziyuan Pu",
+      "Wei Ma"
+    ],
+    "doi": "",
+    "file": "arxiv_210409369v1_Adversarial_Diffusion_Attacks_on_Graph-based_Traffic_Prediction_Models.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2104.09369v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MotionCNN: A Strong Baseline for Motion Prediction in Autonomous Driving",
+    "year": 2022,
+    "authors": [
+      "Stepan Konev",
+      "Kirill Brodt",
+      "Artsiom Sanakoyeu"
+    ],
+    "doi": "",
+    "file": "arxiv_220602163v1_MotionCNN_A_Strong_Baseline_for_Motion_Prediction_in_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2206.02163v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Collective traffic of agents that remember",
+    "year": 2023,
+    "authors": [
+      "Danny Raj M",
+      "Arvind Nayak"
+    ],
+    "doi": "",
+    "file": "arxiv_230203253v1_Collective_traffic_of_agents_that_remember.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2302.03253v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Next Patch Prediction for Autoregressive Visual Generation",
+    "year": 2024,
+    "authors": [
+      "Yatian Pang",
+      "Peng Jin",
+      "Shuo Yang",
+      "Bin Lin",
+      "Bin Zhu",
+      "Zhenyu Tang",
+      "Liuhan Chen",
+      "Francis E. H. Tay",
+      "Ser-Nam Lim",
+      "Harry Yang",
+      "Li Yuan"
+    ],
+    "doi": "",
+    "file": "arxiv_241215321v3_Next_Patch_Prediction_for_Autoregressive_Visual_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.15321v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MTR-A: 1st Place Solution for 2022 Waymo Open Dataset Challenge -- Motion Prediction",
+    "year": 2022,
+    "authors": [
+      "Shaoshuai Shi",
+      "Li Jiang",
+      "Dengxin Dai",
+      "Bernt Schiele"
+    ],
+    "doi": "",
+    "file": "arxiv_220910033v1_MTR-A_1st_Place_Solution_for_2022_Waymo_Open_Dataset_Challenge_--_Motion.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2209.10033v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
+    "year": 2026,
+    "authors": [
+      "Jie Zhu",
+      "Hanghang Ma",
+      "Jia Wang",
+      "Yayong Guan",
+      "Yanbing Zeng",
+      "Lishuai Gao",
+      "Junqiang Wu",
+      "Jie Hu",
+      "Leye Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_260304980v1_A_Simple_Baseline_for_Unifying_Understanding_Generation_and_Editing_via_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2603.04980v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Situational Adaptive Motion Prediction for Firefighting Squads in Indoor Search and Rescue",
+    "year": 2023,
+    "authors": [
+      "Nils Mandischer",
+      "Frederik Schicks",
+      "Burkhard Corves"
+    ],
+    "doi": "",
+    "file": "arxiv_230602705v1_Situational_Adaptive_Motion_Prediction_for_Firefighting_Squads_in_Indoor.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2306.02705v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Spatio-Temporal Branching for Motion Prediction using Motion Increments",
+    "year": 2023,
+    "authors": [
+      "Jiexin Wang",
+      "Yujie Zhou",
+      "Wenwen Qiang",
+      "Ying Ba",
+      "Bing Su",
+      "Ji-Rong Wen"
+    ],
+    "doi": "10.1145/3581783.3612330",
+    "file": "arxiv_101145_35817833612330_Spatio-Temporal_Branching_for_Motion_Prediction_using_Motion_I.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2308.01097v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+    "year": 2026,
+    "authors": [
+      " Meituan LongCat Team",
+      "Bin Xiao",
+      "Chao Wang",
+      "Chengjiang Li",
+      "Chi Zhang",
+      "Chong Peng",
+      "Hang Yu",
+      "Hao Yang",
+      "Haonan Yan",
+      "Haoze Sun",
+      "Haozhe Zhao",
+      "Hong Liu",
+      "Hui Su",
+      "Jiaqi Zhang",
+      "Jiawei Wang",
+      "Jing Li",
+      "Kefeng Zhang",
+      "Manyuan Zhang",
+      "Minhao Jing",
+      "Peng Pei"
+    ],
+    "doi": "",
+    "file": "arxiv_260327538v1_LongCat-Next_Lexicalizing_Modalities_as_Discrete_Tokens.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2603.27538v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Using Causality for Enhanced Prediction of Web Traffic Time Series",
+    "year": 2025,
+    "authors": [
+      "Chang Tian",
+      "Mingzhe Xing",
+      "Zenglin Shi",
+      "Matthew B. Blaschko",
+      "Yinliang Yue",
+      "Marie-Francine Moens"
+    ],
+    "doi": "",
+    "file": "arxiv_250200612v2_Using_Causality_for_Enhanced_Prediction_of_Web_Traffic_Time_Series.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.00612v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ScaleMoGen: Autoregressive Next-Scale Prediction for Human Motion Generation",
+    "year": 2026,
+    "authors": [
+      "Inwoo Hwang",
+      "Hojun Jang",
+      "Bing Zhou",
+      "Jian Wang",
+      "Young Min Kim",
+      "Chuan Guo"
+    ],
+    "doi": "",
+    "file": "arxiv_260511704v2_ScaleMoGen_Autoregressive_Next-Scale_Prediction_for_Human_Motion_Generat.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.11704v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MoCLIP: Motion-Aware Fine-Tuning and Distillation of CLIP for Human Motion Generation",
+    "year": 2025,
+    "authors": [
+      "Gabriel Maldonado",
+      "Armin Danesh Pazho",
+      "Ghazal Alinezhad Noghre",
+      "Vinit Katariya",
+      "Hamed Tabkhi"
+    ],
+    "doi": "",
+    "file": "arxiv_250510810v1_MoCLIP_Motion-Aware_Fine-Tuning_and_Distillation_of_CLIP_for_Human_Motio.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.10810v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Weakly and Self-Supervised Class-Agnostic Motion Prediction for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Ruibo Li",
+      "Hanyu Shi",
+      "Zhe Wang",
+      "Guosheng Lin"
+    ],
+    "doi": "10.1109/tpami.2025.3604036",
+    "file": "arxiv_101109_tpami20253604036_Weakly_and_Self-Supervised_Class-Agnostic_Motion_Prediction_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.13116v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "The pitfalls of next-token prediction",
+    "year": 2024,
+    "authors": [
+      "Gregor Bachmann",
+      "Vaishnavh Nagarajan"
+    ],
+    "doi": "",
+    "file": "arxiv_240306963v3_The_pitfalls_of_next-token_prediction.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.06963v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Survey of Multi-Agent Deep Reinforcement Learning with Communication",
+    "year": 2022,
+    "authors": [
+      "Changxi Zhu",
+      "Mehdi Dastani",
+      "Shihan Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_220308975v2_A_Survey_of_Multi-Agent_Deep_Reinforcement_Learning_with_Communication.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2203.08975v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AdvMT: Adversarial Motion Transformer for Long-term Human Motion Prediction",
+    "year": 2024,
+    "authors": [
+      "Sarmad Idrees",
+      "Seokman Sohn",
+      "Jongeun Choi"
+    ],
+    "doi": "10.1007/s12541-026-01556-y",
+    "file": "arxiv_101007_s12541-026-01556-y_AdvMT_Adversarial_Motion_Transformer_for_Long-term_Human_M.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2401.05018v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "On the (Intuitionistic) Logic of Next-Token Prediction",
+    "year": 2026,
+    "authors": [
+      "Paul Tarau"
+    ],
+    "doi": "10.4204/eptcs.450.4",
+    "file": "arxiv_104204_eptcs4504_On_the_Intuitionistic_Logic_of_Next-Token_Prediction.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2608.08145v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Human Motion Video Generation: A Survey",
+    "year": 2025,
+    "authors": [
+      "Haiwei Xue",
+      "Xiangyang Luo",
+      "Zhanghao Hu",
+      "Xin Zhang",
+      "Xunzhi Xiang",
+      "Yuqin Dai",
+      "Jianzhuang Liu",
+      "Zhensong Zhang",
+      "Minglei Li",
+      "Jian Yang",
+      "Fei Ma",
+      "Zhiyong Wu",
+      "Changpeng Yang",
+      "Zonghong Dai",
+      "Fei Richard Yu"
+    ],
+    "doi": "10.1109/tpami.2025.3594034",
+    "file": "arxiv_101109_tpami20253594034_Human_Motion_Video_Generation_A_Survey.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.03883v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "RACH Traffic Prediction in Massive Machine Type Communications",
+    "year": 2024,
+    "authors": [
+      "Hossein Mehri",
+      "Hao Chen",
+      "Hani Mehrpouyan"
+    ],
+    "doi": "10.1109/tmlcn.2025.3542760",
+    "file": "arxiv_101109_tmlcn20253542760_RACH_Traffic_Prediction_in_Massive_Machine_Type_Communicatio.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2405.05235v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Computational Tradeoffs in Image Synthesis: Diffusion, Masked-Token, and Next-Token Prediction",
+    "year": 2024,
+    "authors": [
+      "Maciej Kilian",
+      "Varun Jampani",
+      "Luke Zettlemoyer"
+    ],
+    "doi": "",
+    "file": "arxiv_240513218v2_Computational_Tradeoffs_in_Image_Synthesis_Diffusion_Masked-Token_and_Ne.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2405.13218v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "QCNeXt: A Next-Generation Framework For Joint Multi-Agent Trajectory Prediction",
+    "year": 2023,
+    "authors": [
+      "Zikang Zhou",
+      "Zihao Wen",
+      "Jianping Wang",
+      "Yung-Hui Li",
+      "Yu-Kai Huang"
+    ],
+    "doi": "",
+    "file": "arxiv_230610508v1_QCNeXt_A_Next-Generation_Framework_For_Joint_Multi-Agent_Trajectory_Pred.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2306.10508v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

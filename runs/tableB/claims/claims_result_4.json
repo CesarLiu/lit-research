@@ -1,0 +1,62 @@
+[
+ {
+  "id": 40,
+  "verdict": "NOT-CHECKABLE",
+  "wrong_citation": false,
+  "issue": "selection.txt confirms 34 papers chosen from abstracts, but that this choice 'partly' explains safety-critical dominance is the author's interpretation (selection aim was mechanism spread, not safety), which the table cannot confirm."
+ },
+ {
+  "id": 41,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "[14] 'one agent' is a count of agents, not objectives, and its control_signal lists sketch, latent code and language; [11] control_signal has three tilted reward components; 'usually' is not counted from the rows (e.g. [9] four channels, [15] six STL rules)."
+ },
+ {
+  "id": 42,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ },
+ {
+  "id": 43,
+  "verdict": "NOT-CHECKABLE",
+  "wrong_citation": false,
+  "issue": "Statement of the author's own approach (no ranking); the table cannot confirm or deny it."
+ },
+ {
+  "id": 44,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ },
+ {
+  "id": 45,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "No controllability benchmark appears in the rows ([1] stated_limitations notes none is accepted), but 'each paper defines its own' is overstated: datasets show [6] and [32] both use SafeBench, and [18]/[26] share the Adv-Ego collision metric with [25] as a baseline."
+ },
+ {
+  "id": 46,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "[15] and [27] stated_limitations say vehicles only, but [4] says only the adversarial agents are vehicles (no pedestrians or cyclists), which is narrower than the whole model covering vehicles only."
+ },
+ {
+  "id": 47,
+  "verdict": "SUPPORTED",
+  "wrong_citation": false,
+  "issue": ""
+ },
+ {
+  "id": 48,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "Uncited; stated_limitations of [10] and [19] support dependence on LLM-written cost/loss code, but not all language control works that way ([14] trains a text encoder adapter, [32] outputs text descriptions, [6] retrieves Scenic snippets)."
+ },
+ {
+  "id": 49,
+  "verdict": "PARTIAL",
+  "wrong_citation": false,
+  "issue": "[9] control_mechanism is a return-inferred behaviour latent with classifier-free guidance, not reward tilting; and [11] stated_limitations also list inference latency and imitation drift, so 'the open items stated' is incomplete."
+ }
+]

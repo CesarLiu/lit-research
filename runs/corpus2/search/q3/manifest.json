@@ -1,0 +1,796 @@
+[
+  {
+    "title": "Language-Guided Safety-Critical Mixed-Traffic Scenario Generation for Closed-Loop Automated Driving Validation",
+    "year": 2026,
+    "authors": [
+      "Hua Yao",
+      "Zhongning Wang",
+      "Chenfei Hou",
+      "Jicheng Chen",
+      "Guo Zhou",
+      "Hui Zhang"
+    ],
+    "doi": "10.1109/tits.2026.3742522",
+    "file": "openalex_101109_tits20263742522_Language-Guided_Safety-Critical_Mixed-Traffic_Scenario_Gen.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7223392206",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ChatSUMO: Large Language Model for Automating Traffic Scenario Generation in Simulation of Urban MObility",
+    "year": 2024,
+    "authors": [
+      "Shuyang Li",
+      "Talha Azfar",
+      "Ruimin Ke"
+    ],
+    "doi": "10.1109/tiv.2024.3508471",
+    "file": "openalex_101109_tiv20243508471_ChatSUMO_Large_Language_Model_for_Automating_Traffic_Scenar.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4404795626",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios",
+    "year": 2024,
+    "authors": [
+      "Wenhao Ding",
+      "Yulong Cao",
+      "Ding Xuan Zhao",
+      "Chaowei Xiao",
+      "Marco Pavone"
+    ],
+    "doi": "10.1007/978-3-031-73033-7_6",
+    "file": "openalex_101007_978-3-031-73033-7_6_RealGen_Retrieval_Augmented_Generation_for_Controllabl.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403906447",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Agentic traffic intelligence: Augmented human-in-the-loop scenario generation for microscopic traffic simulation",
+    "year": 2026,
+    "authors": [
+      "Xiangyong Luo",
+      "Guanhao Xu",
+      "Abhilasha Saroj",
+      "Jinghui Yuan",
+      "Parth Kadav",
+      "Yunli Shao",
+      "Chieh Ross Wang"
+    ],
+    "doi": "10.1016/j.ait.2026.100057",
+    "file": "openalex_101016_jait2026100057_Agentic_traffic_intelligence_Augmented_human-in-the-loop_sc.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415757161",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Zhi Tu",
+      "Le Niu",
+      "Tianyi Zhang"
+    ],
+    "doi": "10.48550/arxiv.2606.29097",
+    "file": "openalex_1048550_arxiv260629097_TrafficAlign_Aligning_Large_Language_Models_for_Traffic_Sc.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7166670891",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios",
+    "year": 2023,
+    "authors": [
+      "Lan Feng",
+      "Quanyi Li",
+      "Zhenghao Peng",
+      "Shuhan Tan",
+      "Bolei Zhou"
+    ],
+    "doi": "10.1109/icra48891.2023.10160296",
+    "file": "openalex_101109_icra48891202310160296_TrafficGen_Learning_to_Generate_Diverse_and_Realisti.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4383097675",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Direct Preference Optimization-Enhanced Multi-Guided Diffusion Model for Traffic Scenario Generation",
+    "year": 2025,
+    "authors": [
+      "S Yu",
+      "K. Kim",
+      "Kim, Daejung",
+      "Han, Haewook",
+      "Jinhan Lee"
+    ],
+    "doi": "10.48550/arxiv.2502.12178",
+    "file": "openalex_1048550_arxiv250212178_Direct_Preference_Optimization-Enhanced_Multi-Guided_Diffu.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4407759124",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Semantic Risk Prior Guided Conditional Diffusion for Safety-Critical Traffic Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Chengju Sun",
+      "Tongcheng Gu",
+      "Dongwei Xu",
+      "Haifeng Guo",
+      "Tieming Chen",
+      "Akhylbek Kurishbayev",
+      "Duman Imanmadi"
+    ],
+    "doi": "10.2139/ssrn.7608004",
+    "file": "openalex_102139_ssrn7608004_Semantic_Risk_Prior_Guided_Conditional_Diffusion_for_Safety-Cr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7221589258",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "AGENTS-LLM: Augmentative GENeration of Challenging Traffic Scenarios with an Agentic LLM Framework",
+    "year": 2025,
+    "authors": [
+      "Yu Yao",
+      "Salil Bhatnagar",
+      "Markus Mazzola",
+      "Vasileios Belagiannis",
+      "Igor Gilitschenski",
+      "Luigi Palmieri",
+      "Simon Razniewski",
+      "Marcel Hallgarten"
+    ],
+    "doi": "10.1109/iros60139.2025.11246348",
+    "file": "openalex_101109_iros60139202511246348_AGENTS-LLM_Augmentative_GENeration_of_Challenging_Tr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416750974",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Multi-modal Traffic Scenario Generation for Autonomous Driving System Testing",
+    "year": 2025,
+    "authors": [
+      "Zhi Tu",
+      "Liangkun Niu",
+      "Wei Fan",
+      "Tianyi Zhang"
+    ],
+    "doi": "10.1145/3729348",
+    "file": "openalex_101145_3729348_Multi-modal_Traffic_Scenario_Generation_for_Autonomous_Driving_Sys.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4411449700",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Scenic: a language for scenario specification and scene generation",
+    "year": 2019,
+    "authors": [
+      "Daniel J. Fremont",
+      "Tommaso Dreossi",
+      "Shromona Ghosh",
+      "Xiangyu Yue",
+      "Alberto Luigi Sangiovanni-Vincentelli",
+      "Sanjit Arunkumar Seshia"
+    ],
+    "doi": "10.1145/3314221.3314633",
+    "file": "openalex_101145_33142213314633_Scenic_a_language_for_scenario_specification_and_scene_gene.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2952402617",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation",
+    "year": 2025,
+    "authors": [
+      "Yuxin Liu",
+      "Zhenghao Peng",
+      "Xuanhao Cui",
+      "Bolei Zhou"
+    ],
+    "doi": "10.52202/085713-1849",
+    "file": "openalex_1052202_085713-1849_Adv-BMT_Bidirectional_Motion_Transformer_for_Safety-Critical_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417308312",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Scenic: a language for scenario specification and data generation",
+    "year": 2022,
+    "authors": [
+      "Daniel J. Fremont",
+      "Edward Kim",
+      "Tommaso Dreossi",
+      "Shromona Ghosh",
+      "Xiangyu Yue",
+      "Alberto Luigi Sangiovanni-Vincentelli",
+      "Sanjit Arunkumar Seshia"
+    ],
+    "doi": "10.1007/s10994-021-06120-5",
+    "file": "openalex_101007_s10994-021-06120-5_Scenic_a_language_for_scenario_specification_and_data_g.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4210496774",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Shubham Vaijanath Phoolari",
+      "Aleyna Kara",
+      "Christoph Lauer",
+      "Steven Peters"
+    ],
+    "doi": "10.48550/arxiv.2606.27123",
+    "file": "openalex_1048550_arxiv260627123_Proposal-Conditioned_Latent_Diffusion_for_Closed-Loop_Traf.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7166133763",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Language-Guided Traffic Simulation via Scene-Level Diffusion",
+    "year": 2023,
+    "authors": [
+      "Ziyuan Zhong",
+      "Davis Rempe",
+      "Yuxiao Chen",
+      "Boris Ivanovic",
+      "Yulong Cao",
+      "Danfei Xu",
+      "Marco Pavone",
+      "Baishakhi Ray"
+    ],
+    "doi": "10.48550/arxiv.2306.06344",
+    "file": "openalex_1048550_arxiv230606344_Language-Guided_Traffic_Simulation_via_Scene-Level_Diffusi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4380551436",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Jingzheng Li",
+      "Yufei Ge",
+      "Zhijun Chen",
+      "Qianren Mao",
+      "Zizhe Wang",
+      "Binhang Qi",
+      "Bing Li",
+      "Keyu Chen",
+      "Baochang Zhang",
+      "Xianglong Liu",
+      "Philip S Yu"
+    ],
+    "doi": "10.48550/arxiv.2607.18637",
+    "file": "openalex_1048550_arxiv260718637_End-to-end_Conditional_Diffusion_for_Realistic_and_Control.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7170034652",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Stochastic Modelling and Scenario Generation for Cloud Workload and Network Traffic in OR Models",
+    "year": 2021,
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ],
+    "doi": "10.62311/nesx/rp-m2-dec-2021",
+    "file": "openalex_1062311_nesx_rp-m2-dec-2021_Stochastic_Modelling_and_Scenario_Generation_for_Clou.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416745125",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Language-Driven Interactive Traffic Trajectory Generation",
+    "year": 2024,
+    "authors": [
+      "Junkai Xia",
+      "Chenxin Xu",
+      "Qingyao Xu",
+      "Yanfeng Wang",
+      "Siheng Chen"
+    ],
+    "doi": "10.52202/079017-2474",
+    "file": "openalex_1052202_079017-2474_Language-Driven_Interactive_Traffic_Trajectory_Generation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415796739",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Causal Composition Diffusion Model for Closed-loop Traffic Generation",
+    "year": 2025,
+    "authors": [
+      "Haohong Lin",
+      "Xin Huang",
+      "Tung Phan",
+      "David S. Hayden",
+      "Huan Zhang",
+      "Zhao Ding",
+      "Siddhartha S Srinivasa",
+      "Eric M. Wolff",
+      "Hongge Chen"
+    ],
+    "doi": "10.1109/cvpr52734.2025.02565",
+    "file": "openalex_101109_cvpr52734202502565_Causal_Composition_Diffusion_Model_for_Closed-loop_Traf.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413146049",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Decoupled Intelligence: A Multi-Agent LLM Framework for Controllable Traffic Scenario Generation in SUMO",
+    "year": 2026,
+    "authors": [
+      "Shuyang Li",
+      "Ruimin Ke"
+    ],
+    "doi": "10.48550/arxiv.2605.27685",
+    "file": "openalex_1048550_arxiv260527685_Decoupled_Intelligence_A_Multi-Agent_LLM_Framework_for_Con.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7162677108",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Automated and logically exhaustive generation of traffic scenarios at road junctions using a multi-level danger definition",
+    "year": 2026,
+    "authors": [
+      "Aren A. Babikian",
+      "Attila Ficsor",
+      "Oszkár Semeráth",
+      "Gunter Mussbacher",
+      "Dániel Varró"
+    ],
+    "doi": "10.1007/s10270-026-01372-y",
+    "file": "openalex_101007_s10270-026-01372-y_Automated_and_logically_exhaustive_generation_of_traffi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403345815",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LLM-Based Semantic Modeling and Cooperative Evolutionary Fuzzing for Traffic Violation Scenario Generation",
+    "year": 2025,
+    "authors": [
+      "Yangyang Liu",
+      "Xinyu Li",
+      "Yan Xiao",
+      "Mengya Zhang",
+      "Pengcheng Zhang"
+    ],
+    "doi": "10.1109/apsec66846.2025.00060",
+    "file": "openalex_101109_apsec66846202500060_LLM-Based_Semantic_Modeling_and_Cooperative_Evolutiona.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7131275488",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Versatile Behavior Diffusion for Generalized Traffic Agent Simulation",
+    "year": 2026,
+    "authors": [
+      "Zhiyu Huang",
+      "Zixu Zhang",
+      "Ameya Vaidya",
+      "Yuxiao Chen",
+      "Jaime F. Fisac",
+      "Chen Lv"
+    ],
+    "doi": "10.1109/tits.2026.3662886",
+    "file": "openalex_101109_tits20263662886_Versatile_Behavior_Diffusion_for_Generalized_Traffic_Agent.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7131827335",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ARISE – Adaptive Refinement and Iterative Scenario Engineering",
+    "year": 2026,
+    "authors": [
+      "Konstantin Poddubnyy",
+      "Igor Vozniak",
+      "Иван Бурмистров",
+      "Nils Lipp",
+      "Davit Hovhannisyan",
+      "Christian Müller",
+      "Philipp Slusallek"
+    ],
+    "doi": "10.1109/iv66570.2026.11623826",
+    "file": "openalex_101109_iv66570202611623826_ARISE__Adaptive_Refinement_and_Iterative_Scenario_Engi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7171871208",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions",
+    "year": 2026,
+    "authors": [
+      "Jiaguo Tian",
+      "Zhengbang Zhu",
+      "Shenyu Zhang",
+      "Li Xu",
+      "Bo Zheng",
+      "Xu Liu",
+      "Weijie Peng",
+      "Shizeng Yao",
+      "Weinan Zhang"
+    ],
+    "doi": "10.1007/s11704-026-51974-4",
+    "file": "openalex_101007_s11704-026-51974-4_SocialDriveGen_generating_diverse_traffic_scenarios_wit.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416960169",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "InTAS -- The Ingolstadt Traffic Scenario for SUMO",
+    "year": 2020,
+    "authors": [
+      "Silas C. Lobo",
+      "Stefan Neumeier",
+      "Evelio M. G. Fernandez",
+      "Christian Facchi"
+    ],
+    "doi": "",
+    "file": "arxiv_201111995v1_InTAS_--_The_Ingolstadt_Traffic_Scenario_for_SUMO.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2011.11995v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Language-Guided Music Recommendation for Video via Prompt Analogies",
+    "year": 2023,
+    "authors": [
+      "Daniel McKee",
+      "Justin Salamon",
+      "Josef Sivic",
+      "Bryan Russell"
+    ],
+    "doi": "",
+    "file": "arxiv_230609327v1_Language-Guided_Music_Recommendation_for_Video_via_Prompt_Analogies.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2306.09327v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "RACER: Rich Language-Guided Failure Recovery Policies for Imitation Learning",
+    "year": 2024,
+    "authors": [
+      "Yinpei Dai",
+      "Jayjun Lee",
+      "Nima Fazeli",
+      "Joyce Chai"
+    ],
+    "doi": "",
+    "file": "arxiv_240914674v1_RACER_Rich_Language-Guided_Failure_Recovery_Policies_for_Imitation_Learn.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2409.14674v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Reusable Templates and Guides For Documenting Datasets and Models for Natural Language Processing and Generation: A Case Study of the HuggingFace and GEM Data and Model Cards",
+    "year": 2021,
+    "authors": [
+      "Angelina McMillan-Major",
+      "Salomey Osei",
+      "Juan Diego Rodriguez",
+      "Pawan Sasanka Ammanamanchi",
+      "Sebastian Gehrmann",
+      "Yacine Jernite"
+    ],
+    "doi": "10.18653/v1/2021.gem-1.11",
+    "file": "arxiv_1018653_v1_2021gem-111_Reusable_Templates_and_Guides_For_Documenting_Datasets_and_Mo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2108.07374v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Visual Question Generation in Bengali",
+    "year": 2023,
+    "authors": [
+      "Mahmud Hasan",
+      "Labiba Islam",
+      "Jannatul Ferdous Ruma",
+      "Tasmiah Tahsin Mayeesha",
+      "Rashedur M. Rahman"
+    ],
+    "doi": "",
+    "file": "arxiv_231008187v1_Visual_Question_Generation_in_Bengali.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2310.08187v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Image Classification using CNN for Traffic Signs in Pakistan",
+    "year": 2021,
+    "authors": [
+      "Abdul Azeem Sikander",
+      "Hamza Ali"
+    ],
+    "doi": "",
+    "file": "arxiv_210210130v1_Image_Classification_using_CNN_for_Traffic_Signs_in_Pakistan.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2102.10130v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Using Causality for Enhanced Prediction of Web Traffic Time Series",
+    "year": 2025,
+    "authors": [
+      "Chang Tian",
+      "Mingzhe Xing",
+      "Zenglin Shi",
+      "Matthew B. Blaschko",
+      "Yinliang Yue",
+      "Marie-Francine Moens"
+    ],
+    "doi": "",
+    "file": "arxiv_250200612v2_Using_Causality_for_Enhanced_Prediction_of_Web_Traffic_Time_Series.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.00612v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AI-Driven Climate Policy Scenario Generation for Sub-Saharan Africa",
+    "year": 2025,
+    "authors": [
+      "Rafiu Adekoya Badekale",
+      "Adewale Akinfaderin"
+    ],
+    "doi": "",
+    "file": "arxiv_250518694v1_AI-Driven_Climate_Policy_Scenario_Generation_for_Sub-Saharan_Africa.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.18694v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios with AJAN",
+    "year": 2025,
+    "authors": [
+      "Leonard Frank Neis",
+      "Andre Antakli",
+      "Matthias Klusch"
+    ],
+    "doi": "",
+    "file": "arxiv_250821411v1_CARJAN_Agent-Based_Generation_and_Simulation_of_Traffic_Scenarios_with_A.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.21411v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FFPDG: Fast, Fair and Private Data Generation",
+    "year": 2023,
+    "authors": [
+      "Weijie Xu",
+      "Jinjin Zhao",
+      "Francis Iannacci",
+      "Bo Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_230700161v1_FFPDG_Fast_Fair_and_Private_Data_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2307.00161v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark",
+    "year": 2026,
+    "authors": [
+      "Longgang Zhang",
+      "Xiaowei Fu",
+      "Fuxiang Huang",
+      "Lei Zhang"
+    ],
+    "doi": "",
+    "file": "arxiv_260408140v1_Multimodal_Reasoning_with_LLM_for_Encrypted_Traffic_Interpretation_A_Ben.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2604.08140v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Traffic control using intelligent timing of traffic lights with reinforcement learning technique and real-time processing of surveillance camera images",
+    "year": 2024,
+    "authors": [
+      "Mahdi Jamebozorg",
+      "Mohsen Hami",
+      "Sajjad Deh Deh Jani"
+    ],
+    "doi": "",
+    "file": "arxiv_240513256v1_Traffic_control_using_intelligent_timing_of_traffic_lights_with_reinforc.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2405.13256v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A traffic incident management framework for vehicular ad hoc networks",
+    "year": 2026,
+    "authors": [
+      "Rezvi Shahariar",
+      "Chris Phillips"
+    ],
+    "doi": "10.5121/ijwmn.2025.17202",
+    "file": "arxiv_105121_ijwmn202517202_A_traffic_incident_management_framework_for_vehicular_ad_hoc_n.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.18208v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Learning to Control and Coordinate Mixed Traffic Through Robot Vehicles at Complex and Unsignalized Intersections",
+    "year": 2023,
+    "authors": [
+      "Dawei Wang",
+      "Weizi Li",
+      "Lei Zhu",
+      "Jia Pan"
+    ],
+    "doi": "10.1177/02783649241284069",
+    "file": "arxiv_101177_02783649241284069_Learning_to_Control_and_Coordinate_Mixed_Traffic_Through_Ro.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2301.05294v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models",
+    "year": 2021,
+    "authors": [
+      "Lyuyi Zhu",
+      "Kairui Feng",
+      "Ziyuan Pu",
+      "Wei Ma"
+    ],
+    "doi": "",
+    "file": "arxiv_210409369v1_Adversarial_Diffusion_Attacks_on_Graph-based_Traffic_Prediction_Models.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2104.09369v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ASTM :Autonomous Smart Traffic Management System Using Artificial Intelligence CNN and LSTM",
+    "year": 2024,
+    "authors": [
+      "Christofel Rio Goenawan"
+    ],
+    "doi": "",
+    "file": "arxiv_241010929v7_ASTM_Autonomous_Smart_Traffic_Management_System_Using_Artificial_Intelli.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2410.10929v7",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A First Look at Class Incremental Learning in Deep Learning Mobile Traffic Classification",
+    "year": 2021,
+    "authors": [
+      "Giampaolo Bovenzi",
+      "Lixuan Yang",
+      "Alessandro Finamore",
+      "Giuseppe Aceto",
+      "Domenico Ciuonzo",
+      "Antonio Pescapè",
+      "Dario Rossi"
+    ],
+    "doi": "",
+    "file": "arxiv_210704464v1_A_First_Look_at_Class_Incremental_Learning_in_Deep_Learning_Mobile_Traff.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2107.04464v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "VLM-Guided Adaptive Negative Prompting for Creative Generation",
+    "year": 2025,
+    "authors": [
+      "Shelly Golan",
+      "Yotam Nitzan",
+      "Zongze Wu",
+      "Or Patashnik"
+    ],
+    "doi": "",
+    "file": "arxiv_251010715v1_VLM-Guided_Adaptive_Negative_Prompting_for_Creative_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.10715v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generating Useful Accident-Prone Driving Scenarios via a Learned Traffic Prior",
+    "year": 2021,
+    "authors": [
+      "Davis Rempe",
+      "Jonah Philion",
+      "Leonidas J. Guibas",
+      "Sanja Fidler",
+      "Or Litany"
+    ],
+    "doi": "",
+    "file": "arxiv_211205077v2_Generating_Useful_Accident-Prone_Driving_Scenarios_via_a_Learned_Traffic.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2112.05077v2",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

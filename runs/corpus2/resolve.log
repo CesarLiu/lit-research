@@ -1,0 +1,742 @@
+resolve_oa: no --email/UNPAYWALL_EMAIL — skipping Unpaywall, the rest of the chain still runs keyless.
+[1/369] Controllable Realistic Simulation and Video Generation for A
+   ✗ no open copy found
+[2/369] Learning Interpretable, High-Performing Policies for Autonom
+   ✓ pdf via openalex  (4251 KB)
+[3/369] Scenario Dreamer: Vectorized Latent Diffusion for Generating
+   ✓ pdf via openalex  (14772 KB)
+[4/369] Evaluation Is All You Need for Multi-Modal Autonomous Drivin
+   ✓ pdf via openalex  (38842 KB)
+[5/369] Model-free Learning and Interaction-aware Control for Safe A
+   ✗ DOI is not registered with Crossref (openalex: HTTP 403)
+[6/369] Robobo SmartCity: An Autonomous Driving Model for Computatio
+   ✗ no open copy found
+[7/369] Autonomous mining through cooperative driving and operations
+   ✓ txt via europepmc  (47 KB)
+[8/369] Multi-level traffic-responsive tilt camera surveillance thro
+   ✓ pdf via openalex  (22037 KB)
+[9/369] CtRL-Sim: Reactive and Controllable Driving Agents with Offl
+   ✓ pdf via openalex  (7082 KB)
+[10/369] Anytime rulebook-aware nonlinear MPC for autonomous driving 
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[11/369] VESPA: Towards un(Human)supervised Open-World Pointcloud Lab
+   ✓ pdf via openalex  (2614 KB)
+[12/369] Driving Policy Transfer via Modularity and Abstraction
+   ✓ pdf via openalex  (7673 KB)
+[13/369] Language-Guided Controllable Traffic Scenario Generation for
+   ✗ no open copy found (openalex: HTTP 403)
+[14/369] TrafficDiff: diffusion model based adversarial traffic scena
+   ✗ no open copy found
+[15/369] Grid-Centric Traffic Scenario Perception for Autonomous Driv
+   ✗ no open copy found
+[16/369] Controllable and Realistic Safety-critical Scenario Generati
+   ✗ no open copy found
+[17/369] TARGET: Traffic Rule-based Test Generation for Autonomous Dr
+   ✗ no open copy found
+[18/369] Guided Latent Spaces for Controllable Multi-Scenario Generat
+   ✓ pdf via openalex  (346 KB)
+[19/369] LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Gen
+   ✗ no open copy found
+[20/369] Research on Specific Scenario Generation Methods for Autonom
+   ✗ no open copy found (openalex: HTTP 403)
+[21/369] Multi-modal Traffic Scenario Generation for Autonomous Drivi
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[22/369] Towards Lawful Autonomous Driving: Deriving Scenario-Aware D
+   ✓ pdf via openalex  (1826 KB)
+[23/369] Scenario Diffusion: Controllable Driving Scenario Generation
+   ✓ pdf via openalex  (7841 KB)
+[24/369] DragTraffic: Interactive and Controllable Traffic Scene Gene
+   ✓ pdf via openalex  (1039 KB)
+[25/369] Optimization of traffic light scenario algorithms for Apollo
+   ✗ no open copy found
+[26/369] Controllable risk scenario generation from human crash data 
+   ✗ no open copy found (openalex: HTTP 403)
+[27/369] CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driv
+   ✓ pdf via arxiv  (6452 KB)
+[28/369] DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Dr
+   ✓ pdf via arxiv  (19526 KB)
+[29/369] DualAD: Dual-Layer Planning for Reasoning in Autonomous Driv
+   ✓ pdf via arxiv  (4286 KB)
+[30/369] Multi-modal Trajectory Prediction for Autonomous Driving wit
+   ✓ pdf via arxiv  (3017 KB)
+[31/369] Multi-agent Reinforcement Learning for Cooperative Lane Chan
+   ✓ pdf via arxiv  (1281 KB)
+[32/369] Offline Reinforcement Learning for Autonomous Driving with S
+   ✓ pdf via arxiv  (1526 KB)
+[33/369] Multi-task Learning with Attention for End-to-end Autonomous
+   ✓ pdf via arxiv  (1349 KB)
+[34/369] 3D Point Cloud Processing and Learning for Autonomous Drivin
+   ✓ pdf via arxiv  (7782 KB)
+[35/369] TaCarla: A comprehensive benchmarking dataset for end-to-end
+   ✓ pdf via arxiv  (36604 KB)
+[36/369] Self-Driving like a Human driver instead of a Robocar: Perso
+   ✓ pdf via arxiv  (1818 KB)
+[37/369] Jam-avoiding adaptive cruise control (ACC) and its impact on
+   ✗ no open copy found (arxiv: HTTP 404; search-hit: HTTP 404)
+[38/369] Proposal-Conditioned Latent Diffusion for Closed-Loop Traffi
+   ✓ pdf via openalex  (5138 KB)
+[39/369] End-to-end Conditional Diffusion for Realistic and Controlla
+   ✓ pdf via openalex  (2475 KB)
+[40/369] Direct Preference Optimization-Enhanced Multi-Guided Diffusi
+   ✓ pdf via openalex  (1343 KB)
+[41/369] Semantic Risk Prior Guided Conditional Diffusion for Safety-
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[42/369] Top-down Traffic Scenario Generation via Joint Initial-Goal 
+   ✓ pdf via openalex  (2864 KB)
+[43/369] From Traffic Semantics to Collision Anchors: Reorienting Dif
+   ✗ no open copy found
+[44/369] Versatile Behavior Diffusion for Generalized Traffic Agent S
+   ✓ pdf via openalex  (6623 KB)
+[45/369] RealGen: Retrieval Augmented Generation for Controllable Tra
+   ✓ pdf via openalex  (4787 KB)
+[46/369] Causal Composition Diffusion Model for Closed-loop Traffic G
+   ✓ pdf via openalex  (10050 KB)
+[47/369] Automatic Marine Traffic Generation with Diffusion Models
+   ✗ no open copy found
+[48/369] Semantic-Level Conflict Traffic Scenario Generation via Spat
+   ✗ no open copy found
+[49/369] ChatSUMO: Large Language Model for Automating Traffic Scenar
+   ✓ pdf via openalex  (2765 KB)
+[50/369] Diffusion–Attention Traffic Generation: Traffic Generation B
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[51/369] Guided Conditional Diffusion for Controllable Traffic Simula
+   ✓ pdf via openalex  (1584 KB)
+[52/369] Wcdt: World-Centric Diffusion Transformer for Traffic Scene 
+   ✓ pdf via openalex  (6292 KB)
+[53/369] Rolling Ahead Diffusion for Traffic Scene Simulation
+   ✓ pdf via openalex  (2956 KB)
+[54/369] RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario
+   ✓ pdf via openalex  (5862 KB)
+[55/369] ChatTraffic: Text-to-Traffic Generation via Diffusion Model
+   ✓ pdf via openalex  (17265 KB)
+[56/369] DRIFT: Risk-Constrained Diffusion with Imitation Priors for 
+   ✓ pdf via openalex  (2510 KB)
+[57/369] DriveGen: Towards Infinite Diverse Traffic Scenarios with La
+   ✗ no open copy found
+[58/369] Diffusion model-based background traffic generation for powe
+   ✗ DOI is not registered with Crossref
+[59/369] Safety-Critical Traffic Simulation with Guided Latent Diffus
+   ✓ pdf via openalex  (1245 KB)
+[60/369] Adversarial Diffusion Attacks on Graph-based Traffic Predict
+   ✓ pdf via arxiv  (8651 KB)
+[61/369] InTAS -- The Ingolstadt Traffic Scenario for SUMO
+   ✓ pdf via arxiv  (6446 KB)
+[62/369] Image is All You Need to Empower Large-scale Diffusion Model
+   ✓ pdf via arxiv  (22995 KB)
+[63/369] Using Causality for Enhanced Prediction of Web Traffic Time 
+   ✓ pdf via arxiv  (5087 KB)
+[64/369] AI-Driven Climate Policy Scenario Generation for Sub-Saharan
+   ✓ pdf via arxiv  (207 KB)
+[65/369] CARJAN: Agent-Based Generation and Simulation of Traffic Sce
+   ✓ pdf via arxiv  (2494 KB)
+[66/369] TrafficAlign: Aligning Large Language Models for Traffic Sce
+   ✓ pdf via openalex  (8706 KB)
+[67/369] TrafficGen: Learning to Generate Diverse and Realistic Traff
+   ✓ pdf via openalex  (3834 KB)
+[68/369] Multimodal Reasoning with LLM for Encrypted Traffic Interpre
+   ✓ pdf via arxiv  (1627 KB)
+[69/369] CAT: Closed-loop Adversarial Training for Safe End-to-End Dr
+   ✓ pdf via openalex  (3610 KB)
+[70/369] LMDrive: Closed-Loop End-to-End Driving with Large Language 
+   ✓ pdf via openalex  (6315 KB)
+[71/369] Module-wise Adaptive Adversarial Training for End-to-end Aut
+   ✓ pdf via openalex  (4009 KB)
+[72/369] Adversarial Driving: Attacking End-to-End Autonomous Driving
+   ✓ pdf via openalex  (2206 KB)
+[73/369] Driving in Corner Case: A Real-World Adversarial Closed-Loop
+   ✓ pdf via openalex  (5849 KB)
+[74/369] End-to-End Autonomous Driving: Challenges and Frontiers
+   ✗ no open copy found
+[75/369] Simple Physical Adversarial Examples against End-to-End Auto
+   ✓ pdf via openalex  (996 KB)
+[76/369] DiffusionDrive: Truncated Diffusion Model for End-to-End Aut
+   ✓ pdf via openalex  (25752 KB)
+[77/369] Model-Based Policy Adaptation for Closed-Loop End-to-end Aut
+   ✓ pdf via openalex  (37159 KB)
+[78/369] CLOVER: Closed-Loop Value Estimation and Ranking for End-to-
+   ✓ pdf via openalex  (19713 KB)
+[79/369] LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Gen
+   ✓ pdf via openalex  (2765 KB)
+[80/369] Beyond Behavior Cloning in Autonomous Driving: a Survey of C
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[81/369] MDrive: Benchmarking Closed-Loop Cooperative Driving for End
+   ✓ pdf via openalex  (7743 KB)
+[82/369] Decoupling Representation Robustness and Behavioral Robustne
+   ✗ no open copy found
+[83/369] Centaur: Robust End-to-End Autonomous Driving with Test-Time
+   ✓ pdf via openalex  (9685 KB)
+[84/369] Adversarial Flow Matching for Imperceptible Attacks on End-t
+   ✓ pdf via openalex  (21745 KB)
+[85/369] Scaling Self-Play for End-to-End Driving
+   ✓ pdf via openalex  (9458 KB)
+[86/369] Post-Training in End-to-End Autonomous Driving
+   ✓ pdf via openalex  (1082 KB)
+[87/369] Pseudo-Expert Regularized Offline RL for End-to-End Autonomo
+   ✓ pdf via openalex  (6038 KB)
+[88/369] PerlAD: Towards Enhanced Closed-Loop End-to-End Autonomous D
+   ✓ pdf via openalex  (7520 KB)
+[89/369] Reinforcement Learning Methods for Autonomous Driving: A Sur
+   ✓ pdf via openalex  (642 KB)
+[90/369] Orion: A Holistic End-To-End Autonomous Driving Framework by
+   ✓ pdf via openalex  (1118 KB)
+[91/369] Prompt-Driven Domain Adaptation for End-to-End Autonomous Dr
+   ✓ pdf via openalex  (1089 KB)
+[92/369] FocalAD: Local Motion Planning for End-to-End Autonomous Dri
+   ✓ pdf via openalex  (2639 KB)
+[93/369] Data Scaling Laws for End-to-End Autonomous Driving
+   ✓ pdf via arxiv  (1834 KB)
+[94/369] Generalized Trajectory Scoring for End-to-end Multimodal Pla
+   ✓ pdf via arxiv  (1633 KB)
+[95/369] Semi-supervised Semantics-guided Adversarial Training for Tr
+   ✓ pdf via arxiv  (919 KB)
+[96/369] CLEAR: Closed-Loop Reinforcement Learning at Scale for End-t
+   ✓ pdf via arxiv  (3290 KB)
+[97/369] Closed-Loop Aware Planning via Imitation-Free Speed Scoring 
+   ✓ pdf via arxiv  (1255 KB)
+[98/369] LeGo-Drive: Language-enhanced Goal-oriented Closed-Loop End-
+   ✓ pdf via arxiv  (13429 KB)
+[99/369] SceneDM: Scene-level Multi-agent Trajectory Generation with 
+   ✓ pdf via openalex  (1963 KB)
+[100/369] Scene Transformer: A unified architecture for predicting mul
+   ✓ pdf via openalex  (1418 KB)
+[101/369] Sports-Traj: A Unified Trajectory Generation Model for Multi
+   ✓ pdf via openalex  (1410 KB)
+[102/369] Multi-Agent Formation Navigation Using Diffusion-Based Traje
+   ✓ pdf via openalex  (3834 KB)
+[103/369] QCNeXt: A Next-Generation Framework For Joint Multi-Agent Tr
+   ✓ pdf via openalex  (270 KB)
+[104/369] The Trajectron: Probabilistic Multi-Agent Trajectory Modelin
+   ✓ pdf via openalex  (3355 KB)
+[105/369] MATRIX: Multi-Agent Trajectory Generation with Diverse Conte
+   ✓ pdf via openalex  (5877 KB)
+[106/369] Multi-Agent Trajectory Prediction with Scalable Diffusion Tr
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[107/369] THOMAS: Trajectory Heatmap Output with learned Multi-Agent S
+   ✓ pdf via openalex  (2974 KB)
+[108/369] TransDiffuser: Diverse Trajectory Generation with Decorrelat
+   ✓ pdf via openalex  (2808 KB)
+[109/369] GoalFlow: Goal-Driven Flow Matching for Multimodal Trajector
+   ✓ pdf via openalex  (5612 KB)
+[110/369] EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic 
+   ✓ pdf via openalex  (7904 KB)
+[111/369] MTR++: Multi-Agent Motion Prediction With Symmetric Scene Mo
+   ✓ pdf via openalex  (3838 KB)
+[112/369] FantasyHSI: Video-Generation-Centric 4D Human Synthesis in A
+   ✗ no open copy found
+[113/369] JointDiff: Bridging Continuous and Discrete in Multi-Agent T
+   ✓ pdf via openalex  (3002 KB)
+[114/369] Human trajectory prediction and generation using LSTM models
+   ✗ no open copy found
+[115/369] Vehicle trajectory prediction and generation using LSTM mode
+   ✗ no open copy found
+[116/369] Scene compliant spatio-temporal multi-modal multi-agent long
+   ✗ no open copy found (openalex: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>; search-hit: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>)
+[117/369] SceneDM: Consistent Diffusion Models for Coherent Multi-agen
+   ✗ no open copy found
+[118/369] Trajectory Generation by Chance-Constrained Nonlinear MPC Wi
+   ✓ pdf via openalex  (5547 KB)
+[119/369] SAGE: Scalable Agentic 3D Scene Generation for Embodied AI
+   ✓ pdf via openalex  (26520 KB)
+[120/369] LaPred: Lane-Aware Prediction of Multi-Modal Future Trajecto
+   ✓ pdf via openalex  (714 KB)
+[121/369] From Model-Based Screening to Data-Driven Surrogates: A Mult
+   ✓ pdf via arxiv  (4638 KB)
+[122/369] MORPH: Self-Organising Multi-Robot Task Allocation via Neuro
+   ✓ pdf via openalex  (1987 KB)
+[123/369] Learning the Value Systems of Agents with Preference-based a
+   ✓ pdf via arxiv  (1602 KB)
+[124/369] Energy-Optimal Multi-Agent Navigation as a Strategic-Form Ga
+   ✓ pdf via arxiv  (287 KB)
+[125/369] Agent-Temporal Attention for Reward Redistribution in Episod
+   ✓ pdf via arxiv  (1462 KB)
+[126/369] Deep Reinforcement Learning for Multi-Agent Interaction
+   ✓ pdf via arxiv  (111 KB)
+[127/369] GAIA-2: A Controllable Multi-View Generative World Model for
+   ✓ pdf via openalex  (28691 KB)
+[128/369] Conditional Generative Models for Dynamic Trajectory Generat
+   ✓ txt via europepmc  (33 KB)
+[129/369] GAIA-1: A Generative World Model for Autonomous Driving
+   ✓ pdf via openalex  (16036 KB)
+[130/369] GenAD: Generative End-to-End Autonomous Driving
+   ✓ pdf via openalex  (26749 KB)
+[131/369] A generative car-following model conditioned on driving styl
+   ✓ pdf via openalex  (1755 KB)
+[132/369] SLEDGE: Synthesizing Driving Environments with Generative Mo
+   ✓ pdf via openalex  (4456 KB)
+[133/369] A generative model for inorganic materials design
+   ✓ txt via europepmc  (44 KB)
+[134/369] LidarDM: Generative LiDAR Simulation in a Generated World
+   ✓ pdf via openalex  (4208 KB)
+[135/369] Modeling Human Driving Behavior Through Generative Adversari
+   ✓ pdf via openalex  (984 KB)
+[136/369] A Survey of World Models for Autonomous Driving
+   ✓ pdf via openalex  (3543 KB)
+[137/369] Generative and Spatial Modelling for Autonomous Driving unde
+   ✓ pdf via search-hit  (43443 KB)
+[138/369] MUVO: A Multimodal Generative World Model for Autonomous Dri
+   ✓ pdf via openalex  (1647 KB)
+[139/369] Generative Adversarial Networks Based Scene Generation on In
+   ✓ pdf via openalex  (713 KB)
+[140/369] Generative Predictive Control Model for Autonomous Driving C
+   ✗ no open copy found
+[141/369] A Digital Twin Framework for Metamorphic Testing of Autonomo
+   ✓ pdf via openalex  (1442 KB)
+[142/369] Hierarchical Generative Adversarial Imitation Learning With 
+   ✓ pdf via openalex  (3338 KB)
+[143/369] Driving in the Occupancy World: Vision-Centric 4D Occupancy 
+   ✓ pdf via openalex  (8277 KB)
+[144/369] ReconDreamer++: Harmonizing Generative and Reconstructive Mo
+   ✓ pdf via openalex  (17857 KB)
+[145/369] Generative Diffusion Pipelines for Rare and Extreme Driving 
+   ✓ pdf via search-hit  (193 KB)
+[146/369] Generative AI for Autonomous Driving: Frontiers and Opportun
+   ✗ no open copy found (openalex: HTTP 403)
+[147/369] FreeGen: Feed-Forward Reconstruction-Generation Co-Training 
+   ✓ pdf via arxiv  (5571 KB)
+[148/369] Generating Driving Scenes with Diffusion
+   ✓ pdf via openalex  (5978 KB)
+[149/369] Functional near-infrared spectroscopy (fNIRS) and Eye tracki
+   ✓ pdf via arxiv  (874 KB)
+[150/369] DriveWorld3D Evidence Constrained 3D World Modeling and Gene
+   ✓ pdf via arxiv  (1231 KB)
+[151/369] Risk-Controllable Multi-View Diffusion for Driving Scenario 
+   ✓ pdf via arxiv  (14144 KB)
+[152/369] XCoT-VLA: Executable Chain-of-Thought for Vision-Language-Ac
+   ✓ pdf via arxiv  (5240 KB)
+[153/369] VaViM and VaVAM: Autonomous Driving through Video Generative
+   ✓ pdf via arxiv  (21869 KB)
+[154/369] PseudoProp: Robust Pseudo-Label Generation for Semi-Supervis
+   ✓ pdf via arxiv  (11572 KB)
+[155/369] A*3D Dataset: Towards Autonomous Driving in Challenging Envi
+   ✓ pdf via arxiv  (3276 KB)
+[156/369] DiffScene: Diffusion-Based Safety-Critical Scenario Generati
+   ✓ pdf via openalex  (267 KB)
+[157/369] ChatScene: Knowledge-Enabled Safety-Critical Scenario Genera
+   ✓ pdf via openalex  (1048 KB)
+[158/369] Multimodal Safety-Critical Scenarios Generation for Decision
+   ✓ pdf via openalex  (3858 KB)
+[159/369] Diversifying Latent Flows for Safety-Critical Scenarios Gene
+   ✗ no open copy found
+[160/369] Safety-Critical Scenario Generation Via Reinforcement Learni
+   ✓ pdf via openalex  (822 KB)
+[161/369] Adversarial Safety-Critical Scenario Generation Using Natura
+   ✓ pdf via openalex  (6914 KB)
+[162/369] GOOSE: Goal-Conditioned Reinforcement Learning for Safety-Cr
+   ✓ pdf via openalex  (1657 KB)
+[163/369] Safety-Critical Scenario Generation by Causal Influence Dete
+   ✗ no open copy found
+[164/369] Safety Evaluation of Autonomous Driving Based on Safety-Crit
+   ✗ no open copy found
+[165/369] CCFM: Collision-Constrained Flow Matching for Safety-Critica
+   ✓ pdf via openalex  (5015 KB)
+[166/369] Collision Snapshot Guided Time-Reversed Safety-Critical Scen
+   ✓ pdf via openalex  (3546 KB)
+[167/369] A Survey on Large Model-based Safety-critical Scenario Gener
+   ✗ no open copy found
+[168/369] AdvSce: safety-critical scenario generation for testing auto
+   ✗ no open copy found
+[169/369] Safety-critical scenario generation for automated testing of
+   ✓ pdf via openalex  (1104 KB)
+[170/369] Diversifying Latent Flows for Safety-Critical Scenarios Gene
+   ✗ no open copy found
+[171/369] AnchorDrive: LLM Scenario Rollout with Anchor-Guided Diffusi
+   ✓ pdf via openalex  (3429 KB)
+[172/369] Reactive safety-critical scenario generation for autonomous 
+   ✗ no open copy found
+[173/369] Any2Critical: Safety-Critical Scenario Generation from Arbit
+   ✗ no open copy found
+[174/369] AuthSim: Toward Authentic and Effective Safety-Critical Scen
+   ✓ pdf via openalex  (1617 KB)
+[175/369] Bridging Data-Driven and Knowledge-Driven Approaches for Saf
+   ✓ pdf via openalex  (1241 KB)
+[176/369] SaFeR: Safety-Critical Scenario Generation for Autonomous Dr
+   ✓ pdf via openalex  (3804 KB)
+[177/369] Generative AI-based Safety Evaluation Framework for Autonomo
+   ✗ no open copy found
+[178/369] Conditional Flow-VAE for Safety-Critical Traffic Scenario Ge
+   ✓ pdf via arxiv  (1582 KB)
+[179/369] From Words to Collisions: LLM-Guided Evaluation and Adversar
+   ✓ pdf via openalex  (3100 KB)
+[180/369] A Survey on Safety-Critical Driving Scenario Generation -- A
+   ✓ pdf via openalex  (2111 KB)
+[181/369] CausalAF: Causal Autoregressive Flow for Safety-Critical Dri
+   ✓ pdf via arxiv  (1410 KB)
+[182/369] VLM as Strategist: Adaptive Generation of Safety-critical Te
+   ✓ pdf via openalex  (4939 KB)
+[183/369] AdvSim: Generating Safety-Critical Scenarios for Self-Drivin
+   ✓ pdf via openalex  (24280 KB)
+[184/369] Learning to Collide: An Adaptive Safety-Critical Scenarios G
+   ✓ pdf via arxiv  (3070 KB)
+[185/369] AuthSim: Towards Authentic and Effective Safety-critical Sce
+   ✓ pdf via arxiv  (1617 KB)
+[186/369] ReGentS: Real-World Safety-Critical Driving Scenario Generat
+   ✓ pdf via arxiv  (1709 KB)
+[187/369] FREA: Feasibility-Guided Generation of Safety-Critical Scena
+   ✓ pdf via arxiv  (11455 KB)
+[188/369] Towards Benchmarking and Assessing the Safety and Robustness
+   ✓ pdf via arxiv  (43029 KB)
+[189/369] SG-CADVLM: A Context-Aware Decoding Powered Vision Language 
+   ✓ pdf via arxiv  (6206 KB)
+[190/369] Adversarial Generation and Collaborative Evolution of Safety
+   ✓ pdf via openalex  (2379 KB)
+[191/369] Generating Realistic Safety-Critical Scenarios for Vehicle-P
+   ✓ pdf via arxiv  (3775 KB)
+[192/369] DeepMF: Deep Motion Factorization for Closed-Loop Safety-Cri
+   ✓ pdf via arxiv  (1370 KB)
+[193/369] KING: Generating Safety-Critical Driving Scenarios for Robus
+   ✓ pdf via arxiv  (14347 KB)
+[194/369] RIFT: Group-Relative RL Fine-Tuning for Realistic and Contro
+   ✓ pdf via openalex  (26267 KB)
+[195/369] ECoSim: Data Efficient Fine-Tuning for Controllable Traffic 
+   ✓ pdf via openalex  (8654 KB)
+[196/369] Controllable Traffic Simulation through LLM-Guided Hierarchi
+   ✓ pdf via openalex  (1059 KB)
+[197/369] CBLab: Supporting the Training of Large-scale Traffic Contro
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[198/369] Vehicle-In-The-Loop (VIL) and Scenario-In-The-Loop (SCIL) Au
+   ✓ pdf via openalex  (497 KB)
+[199/369] Traffic control algorithms for mixed vehicle traffic – A sim
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[200/369] Controllable Latent Diffusion for Traffic Simulation
+   ✓ pdf via openalex  (631 KB)
+[201/369] Task and Interaction Regulation in Controlling a Traffic Sim
+   ✗ no open copy found
+[202/369] Simulation and Research of Urban Intelligent Traffic Light C
+   ✓ pdf via openalex  (610 KB)
+[203/369] Towards Discrete-Event, Aggregating, and Relational Control 
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[204/369] PredictionNet: Real-Time Joint Probabilistic Traffic Predict
+   ✓ pdf via openalex  (1677 KB)
+[205/369] Modelling and Simulation of Traffic Light Control
+   ✓ pdf via openalex  (980 KB)
+[206/369] Enhancing Traffic Control Strategies through Dynamic Simulat
+   ✗ no open copy found
+[207/369] Stochastic Control Behavior of the Balancing Rider for Cycli
+   ✓ pdf via search-hit  (23329 KB)
+[208/369] Simulation Based On Traffic Light Control System By Using Su
+   ✗ no open copy found
+[209/369] Smart AI-Based Traffic Light Control System Using YOLO and S
+   ✓ pdf via search-hit  (1012 KB)
+[210/369] Simulations of road traffic at light-controlled intersection
+   ✗ no open copy found
+[211/369] Spatio‐temporal Keyframe Control of Traffic Simulation using
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[212/369] Web-Based Visualization and Control of Traffic Simulation
+   ✗ no open copy found
+[213/369] Evaluation of the effectiveness of traffic control algorithm
+   ✓ pdf via openalex  (1192 KB)
+[214/369] Integrating Ethics into Simulation-Driven Engineering Educat
+   ✓ pdf via openalex  (649 KB)
+[215/369] SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation wit
+   ✓ pdf via openalex  (5149 KB)
+[216/369] Research on integrated simulation platform for urban traffic
+   ✓ txt via europepmc  (28 KB)
+[217/369] Learning to Control and Coordinate Mixed Traffic Through Rob
+   ✓ pdf via arxiv  (3834 KB)
+[218/369] Traffic control using intelligent timing of traffic lights w
+   ✓ pdf via arxiv  (773 KB)
+[219/369] Large-scale Regional Traffic Signal Control Based on Single-
+   ✗ no open copy found (arxiv: HTTP 404; search-hit: HTTP 404)
+[220/369] LCSim: A Large-Scale Controllable Traffic Simulator
+   ✓ pdf via arxiv  (8718 KB)
+[221/369] Robust Single-Agent Reinforcement Learning for Regional Traf
+   ✗ no open copy found (arxiv: HTTP 404; search-hit: HTTP 404)
+[222/369] Ad Hoc HLA Simulation Model Derived From a Model-Based Traff
+   ✓ pdf via arxiv  (2190 KB)
+[223/369] Single-agent Reinforcement Learning Model for Regional Adapt
+   ✗ no open copy found (arxiv: HTTP 404; search-hit: HTTP 404)
+[224/369] Timing Sensitivity in Actuated Traffic Signal Control: A sim
+   ✓ pdf via arxiv  (419 KB)
+[225/369] ASTM :Autonomous Smart Traffic Management System Using Artif
+   ✓ pdf via arxiv  (1943 KB)
+[226/369] Purpose in the Machine: Do Traffic Simulators Produce Distri
+   ✓ pdf via openalex  (379 KB)
+[227/369] A traffic incident management framework for vehicular ad hoc
+   ✓ pdf via openalex  (1855 KB)
+[228/369] Simulating the social influence in transport mode choices
+   ✓ pdf via openalex  (811 KB)
+[229/369] Language-Guided Safety-Critical Mixed-Traffic Scenario Gener
+   ✗ no open copy found (openalex: HTTP 403)
+[230/369] Agentic traffic intelligence: Augmented human-in-the-loop sc
+   ✗ no open copy found (openalex: HTTP 403)
+[231/369] AGENTS-LLM: Augmentative GENeration of Challenging Traffic S
+   ✓ pdf via openalex  (453 KB)
+[232/369] Scenic: a language for scenario specification and scene gene
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[233/369] Adv-BMT: Bidirectional Motion Transformer for Safety-Critica
+   ✓ pdf via openalex  (21297 KB)
+[234/369] Scenic: a language for scenario specification and data gener
+   ✗ no open copy found
+[235/369] Language-Guided Traffic Simulation via Scene-Level Diffusion
+   ✓ pdf via openalex  (3786 KB)
+[236/369] Stochastic Modelling and Scenario Generation for Cloud Workl
+   ✗ no open copy found (openalex: InvalidURL: URL can't contain control characters. '/file-download/1532555/Download Full-Text Research Paper  PDF Pp 26-50-d2.pdf' (found at least ' '); search-hit: InvalidURL: URL can't contain control characters. '/file-download/1532555/Download Full-Text Research Paper  PDF Pp 26-50-d2.pdf' (found at least ' '))
+[237/369] Language-Driven Interactive Traffic Trajectory Generation
+   ✓ pdf via openalex  (6155 KB)
+[238/369] Decoupled Intelligence: A Multi-Agent LLM Framework for Cont
+   ✓ pdf via openalex  (993 KB)
+[239/369] Automated and logically exhaustive generation of traffic sce
+   ✓ pdf via openalex  (7755 KB)
+[240/369] LLM-Based Semantic Modeling and Cooperative Evolutionary Fuz
+   ✓ pdf via openalex  (1042 KB)
+[241/369] ARISE – Adaptive Refinement and Iterative Scenario Engineeri
+   ✓ pdf via openalex  (1083 KB)
+[242/369] SocialDriveGen: generating diverse traffic scenarios with co
+   ✓ pdf via openalex  (965 KB)
+[243/369] RACER: Rich Language-Guided Failure Recovery Policies for Im
+   ✓ pdf via arxiv  (2534 KB)
+[244/369] Visual Question Generation in Bengali
+   ✓ pdf via arxiv  (9326 KB)
+[245/369] Generating Useful Accident-Prone Driving Scenarios via a Lea
+   ✓ pdf via arxiv  (5965 KB)
+[246/369] PhysCrit: Physically Feasible Safety-Critical Scenario Gener
+   ✗ no open copy found (openalex: HTTP 403)
+[247/369] Interactive Adversarial Scenario Generation for Autonomous D
+   ✗ no open copy found
+[248/369] LD-scene: LLM-guided diffusion for controllable generation o
+   ✓ pdf via openalex  (3499 KB)
+[249/369] Generation of Driving Scenario Trajectories with Generative 
+   ✗ no open copy found
+[250/369] SafeBench: A Benchmarking Platform for Safety Evaluation of 
+   ✓ pdf via openalex  (15005 KB)
+[251/369] Seeking to Collide: Online Safety-Critical Scenario Generati
+   ✓ pdf via openalex  (2711 KB)
+[252/369] Language-Guided Reinforcement Learning for the Adversarial S
+   ✗ no open copy found
+[253/369] RCG: Safety-Critical Scenario Generation for Robust Autonomo
+   ✓ pdf via openalex  (29862 KB)
+[254/369] Adversarial Attack and Defense of YOLO Detectors in Autonomo
+   ✓ pdf via openalex  (2359 KB)
+[255/369] ScenePilot: Controllable Boundary-Driven Critical Scenario G
+   ✓ pdf via openalex  (7925 KB)
+[256/369] GCE3S:A Method for Generating Safety-critical Scenarios in A
+   ✗ DOI is not registered with Crossref (openalex: HTTP 403)
+[257/369] Foundation Models in Autonomous Driving: A Survey on Scenari
+   ✗ no open copy found
+[258/369] Adversarial Sensor Attack on LiDAR-based Perception in Auton
+   ✓ pdf via openalex  (2186 KB)
+[259/369] Safety2Drive: Safety-Critical Scenario Benchmark for the Eva
+   ✓ pdf via openalex  (5800 KB)
+[260/369] AdvDiffuser: Generating Adversarial Safety-Critical Driving 
+   ✓ pdf via arxiv  (661 KB)
+[261/369] Selective Communication for Cooperative Perception in End-to
+   ✓ pdf via arxiv  (8787 KB)
+[262/369] aiMotive Dataset: A Multimodal Dataset for Robust Autonomous
+   ✓ pdf via arxiv  (7834 KB)
+[263/369] Exploring the Boundaries: Thorough Software Testing for Safe
+   ✓ pdf via arxiv  (407 KB)
+[264/369] Heter-Sim: Heterogeneous Multi-Agent Systems Simulation by I
+   ✓ pdf via openalex  (2692 KB)
+[265/369] TrafficSim: Learning to Simulate Realistic Multi-Agent Behav
+   ✓ pdf via openalex  (9660 KB)
+[266/369] V2X-Sim: Multi-Agent Collaborative Perception Dataset and Be
+   ✓ pdf via openalex  (1849 KB)
+[267/369] The Waymo Open Sim Agents Challenge
+   ✓ pdf via openalex  (1822 KB)
+[268/369] Sim-Stu: A Multi-Agent System for Simulating Learning Proces
+   ✗ no open copy found
+[269/369] Building reliable sim driving agents by scaling self-play
+   ✓ pdf via openalex  (4218 KB)
+[270/369] Crowd Panic Behavior Simulation Using Multi-Agent Modeling
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[271/369] MDG: Masked Denoising Generation for Multi-Agent Behavior Mo
+   ✓ pdf via search-hit  (12073 KB)
+[272/369] A Modular Interface for Multi-Agent Marine Autonomy Simulati
+   ✗ no open copy found
+[273/369] Controllable Sim Agents with Behavior Latents
+   ✓ pdf via openalex  (5773 KB)
+[274/369] Advancing Multi-agent Traffic Simulation via R1-Style Reinfo
+   ✓ pdf via search-hit  (32366 KB)
+[275/369] TrajGen: Generating Realistic and Diverse Trajectories With 
+   ✓ pdf via openalex  (4947 KB)
+[276/369] DecompGAIL: Learning Realistic Traffic Behaviors with Decomp
+   ✓ pdf via openalex  (2121 KB)
+[277/369] The Traitors: Deception and Trust in Multi-Agent Language Mo
+   ✓ pdf via openalex  (384 KB)
+[278/369] War and Peace (WarAgent): Large Language Model-based Multi-A
+   ✓ pdf via openalex  (6535 KB)
+[279/369] Causal Explanations for Sequential Decision-Making in Multi-
+   ✓ pdf via arxiv  (3569 KB)
+[280/369] Off-the-Grid MARL: Datasets with Baselines for Offline Multi
+   ✓ pdf via arxiv  (2835 KB)
+[281/369] Massive Multi-Agent Data-Driven Simulations of the GitHub Ec
+   ✓ pdf via openalex  (428 KB)
+[282/369] Fast Agent-Based Simulation Framework with Applications to R
+   ✓ pdf via arxiv  (614 KB)
+[283/369] Multi-Agent Robotic Control with Onboard Vision-Language Mod
+   ✓ pdf via arxiv  (1189 KB)
+[284/369] DrivingDiffusion: Layout-Guided multi-view driving scene vid
+   ✓ pdf via openalex  (5562 KB)
+[285/369] BEVWorld: A Multimodal World Simulator for Autonomous Drivin
+   ✓ pdf via openalex  (25660 KB)
+[286/369] 3D Layout-Guided Autonomous Driving Scene Generation
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[287/369] WoVoGen: World Volume-Aware Diffusion for Controllable Multi
+   ✓ pdf via openalex  (17255 KB)
+[288/369] WorldSplat: Gaussian-Centric Feed-Forward 4D Scene Generatio
+   ✓ pdf via openalex  (9648 KB)
+[289/369] Align Your Latents: High-Resolution Video Synthesis with Lat
+   ✓ pdf via openalex  (11778 KB)
+[290/369] LDFA: Latent Diffusion Face Anonymization for Self-driving A
+   ✓ pdf via openalex  (11507 KB)
+[291/369] Glad: A Streaming Scene Generator for Autonomous Driving
+   ✗ DOI is not registered with Crossref
+[292/369] LION: Latent Point Diffusion Models for 3D Shape Generation
+   ✓ pdf via openalex  (14477 KB)
+[293/369] UniScene: Unified Occupancy-centric Driving Scene Generation
+   ✓ pdf via openalex  (39979 KB)
+[294/369] Genesis: Multimodal Driving Scene Generation with Spatio-Tem
+   ✓ pdf via openalex  (49246 KB)
+[295/369] Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug 
+   ✓ pdf via arxiv  (15411 KB)
+[296/369] Text-driven Visual Synthesis with Latent Diffusion Prior
+   ✓ pdf via arxiv  (38766 KB)
+[297/369] Blended Latent Diffusion
+   ✓ pdf via arxiv  (17539 KB)
+[298/369] 3D Scene Generation: A Survey
+   ✓ pdf via openalex  (2139 KB)
+[299/369] Controllable 3D Outdoor Scene Generation via Scene Graphs
+   ✓ pdf via arxiv  (10233 KB)
+[300/369] Latent-Reframe: Enabling Camera Control for Video Diffusion 
+   ✓ pdf via arxiv  (13752 KB)
+[301/369] Recent Advances in 3D Object and Scene Generation: A Survey
+   ✓ pdf via arxiv  (22056 KB)
+[302/369] Offline Reinforcement Learning for Road Traffic Control
+   ✓ pdf via openalex  (2283 KB)
+[303/369] Reward Reports for Reinforcement Learning
+   ✓ pdf via openalex  (16491 KB)
+[304/369] Goal-Conditioned Data Augmentation for Offline Reinforcement
+   ✗ DOI is not registered with Crossref
+[305/369] Data-driven energy management for electric vehicles using of
+   ✓ txt via europepmc  (76 KB)
+[306/369] NetworkGym: Reinforcement Learning Environments for Multi-Ac
+   ✓ pdf via openalex  (654 KB)
+[307/369] Multi-Agent Deep Reinforcement Learning for Large-Scale Traf
+   ✓ pdf via openalex  (3223 KB)
+[308/369] OffLight: An Offline Multi-Agent Reinforcement Learning Fram
+   ✓ pdf via openalex  (2030 KB)
+[309/369] UMBRELLA: Uncertainty-Aware Model-Based Offline Reinforcemen
+   ✓ pdf via openalex  (3089 KB)
+[310/369] Traffic Signal Control via Reinforcement Learning: A Review 
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[311/369] RLFTSim: Realistic and Controllable Multi-Agent Traffic Simu
+   ✓ pdf via openalex  (2241 KB)
+[312/369] F1tenth Autonomous Racing With Offline Reinforcement Learnin
+   ✓ pdf via openalex  (8606 KB)
+[313/369] Learning to Control Autonomous Fleets from Observation via O
+   ✓ pdf via openalex  (784 KB)
+[314/369] Towards Data-Driven Offline Simulations for Online Reinforce
+   ✓ pdf via arxiv  (12977 KB)
+[315/369] GOPlan: Goal-conditioned Offline Reinforcement Learning by P
+   ✓ pdf via arxiv  (2915 KB)
+[316/369] Offline Learning from Demonstrations and Unlabeled Experienc
+   ✓ pdf via arxiv  (2054 KB)
+[317/369] TROFI: Trajectory-Ranked Offline Inverse Reinforcement Learn
+   ✓ pdf via arxiv  (2540 KB)
+[318/369] SMART: Scalable Multi-agent Real-time Motion Generation via 
+   ✓ pdf via openalex  (4041 KB)
+[319/369] Trajeglish: Traffic Modeling as Next-Token Prediction
+   ✓ pdf via openalex  (2943 KB)
+[320/369] Long-Term Traffic Simulation with Interleaved Autoregressive
+   ✓ pdf via openalex  (37854 KB)
+[321/369] Diffusion Forcing: Next-token Prediction Meets Full-Sequence
+   ✓ pdf via openalex  (18491 KB)
+[322/369] SceneStreamer: Continuous Scenario Generation as Next Token 
+   ✗ DOI is not registered with Crossref
+[323/369] MoST: Multi-modality Scene Tokenization for Motion Predictio
+   ✓ pdf via openalex  (6027 KB)
+[324/369] MotionDiffuser: Controllable Multi-Agent Motion Prediction U
+   ✓ pdf via openalex  (3006 KB)
+[325/369] Categorical Traffic Transformer: Interpretable and Diverse B
+   ✓ pdf via openalex  (3513 KB)
+[326/369] Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Mode
+   ✓ pdf via openalex  (2159 KB)
+[327/369] SIMPL: A Simple and Efficient Multi-Agent Motion Prediction 
+   ✓ pdf via openalex  (2404 KB)
+[328/369] MotionLM: Multi-Agent Motion Forecasting as Language Modelin
+   ✓ pdf via openalex  (1578 KB)
+[329/369] BehaviorGPT: Smart Agent Simulation for Autonomous Driving w
+   ✓ pdf via openalex  (2524 KB)
+[330/369] Query-Informed Multi-Agent Motion Prediction
+   ✓ txt via europepmc  (46 KB)
+[331/369] Learning Rollout from Sampling: An R1-Style Tokenized Traffi
+   ✓ pdf via openalex  (5253 KB)
+[332/369] Multimodal Motion Prediction with Stacked Transformers
+   ✓ pdf via openalex  (3665 KB)
+[333/369] Language Conditioned Traffic Generation
+   ✓ pdf via openalex  (10490 KB)
+[334/369] TrajTok: What makes for a good trajectory tokenizer in behav
+   ✓ pdf via search-hit  (5847 KB)
+[335/369] EP-Diffuser: An Efficient Diffusion Model for Traffic Scene 
+   ✓ pdf via openalex  (682 KB)
+[336/369] ModeSeq: Taming Sparse Multimodal Motion Prediction with Seq
+   ✓ pdf via openalex  (1584 KB)
+[337/369] AutoWorld: Learning Multi-Agent Traffic Simulation with Self
+   ✓ pdf via openalex  (10373 KB)
+[338/369] MotionCNN: A Strong Baseline for Motion Prediction in Autono
+   ✓ pdf via arxiv  (622 KB)
+[339/369] Collective traffic of agents that remember
+   ✓ pdf via arxiv  (1954 KB)
+[340/369] MTR-A: 1st Place Solution for 2022 Waymo Open Dataset Challe
+   ✓ pdf via arxiv  (230 KB)
+[341/369] LongCat-Next: Lexicalizing Modalities as Discrete Tokens
+   ✓ pdf via arxiv  (17543 KB)
+[342/369] ScaleMoGen: Autoregressive Next-Scale Prediction for Human M
+   ✓ pdf via arxiv  (3592 KB)
+[343/369] Weakly and Self-Supervised Class-Agnostic Motion Prediction 
+   ✓ pdf via openalex  (8001 KB)
+[344/369] AdvMT: Adversarial Motion Transformer for Long-term Human Mo
+   ✓ pdf via openalex  (1570 KB)
+[345/369] Human Motion Video Generation: A Survey
+   ✓ pdf via arxiv  (5977 KB)
+[346/369] RACH Traffic Prediction in Massive Machine Type Communicatio
+   ✓ pdf via arxiv  (1223 KB)
+[347/369] Visual Traffic Knowledge Graph Generation from Scene Images
+   ✗ no open copy found
+[348/369] T 2 SG: Traffic Topology Scene Graph for Topology Reasoning 
+   ✓ pdf via openalex  (1808 KB)
+[349/369] Traffic Scene Representation and Encoding With Graph Structu
+   ✗ no open copy found
+[350/369] Towards Traffic Scene Description: The Semantic Scene Graph
+   ✓ pdf via openalex  (502 KB)
+[351/369] SparScene: Efficient Traffic Scene Representation via Sparse
+   ✗ no open copy found
+[352/369] Hazard-Aware Traffic Scene Graph Generation
+   ✓ pdf via openalex  (4335 KB)
+[353/369] Fine-Grained Traffic Inference from Road to Lane via Spatio-
+   ✗ no open copy found (openalex: HTTP 403; search-hit: HTTP 403)
+[354/369] Lane Graph Estimation for Scene Understanding in Urban Drivi
+   ✓ pdf via openalex  (8589 KB)
+[355/369] nuScenes Knowledge Graph - A comprehensive semantic represen
+   ✓ pdf via openalex  (1407 KB)
+[356/369] Driving Through Graphs: a Bipartite Graph for Traffic Scene 
+   ✓ pdf via openalex  (1616 KB)
+[357/369] Relation-based Motion Prediction using Traffic Scene Graphs
+   ✓ pdf via openalex  (506 KB)
+[358/369] Graph-based topology reasoning for driving scenes
+   ✗ no open copy found
+[359/369] STGT-Gen: Spatio-Temporal Graph Transformer for Multi-Vehicl
+   ✗ no open copy found
+[360/369] SceneGen: Learning to Generate Realistic Traffic Scenes
+   ✓ pdf via openalex  (14385 KB)
+[361/369] Traffic Scene Similarity: a Graph-based Contrastive Learning
+   ✓ pdf via openalex  (876 KB)
+[362/369] Enhancing Vision-Language Models with Scene Graphs for Traff
+   ✓ pdf via openalex  (4538 KB)
+[363/369] SemanticFormer: Holistic and Semantic Traffic Scene Represen
+   ✓ pdf via openalex  (7521 KB)
+[364/369] Self Supervised Clustering of Traffic Scenes using Graph Rep
+   ✓ pdf via openalex  (2750 KB)
+[365/369] Query by Example: Semantic Traffic Scene Retrieval Using LLM
+   ✗ no open copy found (openalex: HTTP 403)
+[366/369] Geometry-Guided Representations for Coherent Lane and Traffi
+   ✗ no open copy found (openalex: HTTP 403)
+[367/369] LANe: Lighting-Aware Neural Fields for Compositional Scene S
+   ✓ pdf via arxiv  (25850 KB)
+[368/369] Geometric 2D Scene Graph Generation
+   ✓ pdf via arxiv  (1880 KB)
+[369/369] Agnostic Lane Detection
+   ✓ pdf via arxiv  (745 KB)
+
+resolve_oa: 288/369 open (282 PDF, 6 full-text XML→txt), 70 closed, 6 DOI(s) unknown to Crossref, 5 errored, 0 skipped
+  files + oa_report.json in runs\corpus2\fulltext

@@ -1,0 +1,13 @@
+{
+ "id": "smart_scalable_multi_agent_real_time_motion_genera",
+ "title": "SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction",
+ "control_family": "none/uncontrolled",
+ "control_signal": {"value": "No user-steerable signal; model conditions on previous motion tokens, other agents' tokens and encoded road tokens. Top-5 token sampling is used to balance realism and diversity.", "pages": "4-5, 14"},
+ "control_mechanism": {"value": "Decoder-only Transformer with temporal, agent-agent and agent-map attention predicts next motion token; no steering mechanism described.", "pages": "4-6"},
+ "base_model": {"value": "GPT-style decoder-only Transformer over discrete tokens (k-disks vocabulary): RoadNet road-token encoder and factorized MotionNet decoder, with road-vector next-token prediction task; sizes 1M to 101M parameters.", "pages": "2, 4-6, 14"},
+ "datasets": {"value": "Waymo Open Motion Dataset (WOMD), NuPlan, and a proprietary dataset; over 1 billion motion tokens collected; zero-shot test trains on NuPlan only and evaluates on WOMD.", "pages": "1, 6, 15"},
+ "metrics": {"value": "WOSAC realism meta metric with kinematic, interactive and map-based components, plus minADE. SMART 7M on 2023 benchmark: realism 0.6587, kinematic 0.4190, interactive 0.8014, map 0.8523, minADE 1.7453.", "pages": "7"},
+ "controllability_evidence": {"value": "not stated in packet; no controllability experiment. Zero-shot score of 0.72 on Sim Agents challenge when trained only on NuPlan is a generalization result.", "pages": "1"},
+ "stated_limitations": {"value": "Simple token vocabulary; scalability tested only up to 100 million parameters due to data size; many hyperparameter ablations remain; transfer to planning and prediction tasks still to be verified.", "pages": "10"},
+ "notes": "Not a controllable-generation paper; it is a scalable realistic sim-agents model."
+}

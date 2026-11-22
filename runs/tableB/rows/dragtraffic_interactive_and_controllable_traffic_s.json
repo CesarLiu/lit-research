@@ -1,0 +1,13 @@
+{
+ "id": "dragtraffic_interactive_and_controllable_traffic_s",
+ "title": "DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "User-specified context per agent: vehicle type, length and width, start position/speed/orientation, target position/speed/orientation, set by dragging or typing; can be taken from the dataset instead.", "pages": "3-4"},
+ "control_mechanism": {"value": "Context is fed into the diffusion denoiser via cross-attention; an MLP encodes the 8-dim condition and concatenates it with state and lane encoders in the initializer regression model. No guidance loss.", "pages": "1, 4-5, 6-7"},
+ "base_model": {"value": "MultiPath++ regression model gives initial trajectory; conditional U-Net diffusion refines it (5 denoising steps); mixture-of-experts gate selects a model per agent type.", "pages": "3, 4-5"},
+ "datasets": {"value": "Waymo Open Dataset (about 70,000 scenarios) cut into 6-second clips; ego-, cyclist-, pedestrian-centered subsets of 49,884, 29,046 and 9,344 cases; 80/10/10 split.", "pages": "4"},
+ "metrics": {"value": "Scenario collision rate (SCR); open-loop MinADE6, MinFDE6, heading error, speed error.", "pages": "4"},
+ "controllability_evidence": {"value": "Interaction reasoning: SCR at 9s rollout is 3.33% for DragTraffic with condition vs 13.59% for TrafficGen mixture training. Qualitative scene editing: setting agent 1's target condition removes its freezing.", "pages": "5-6, 6"},
+ "stated_limitations": {"value": "Future work: post-processing or sampling so actions obey dynamic constraints; multi-round generation with human feedback. Weak on the cyclist subset, possibly due to few cyclists.", "pages": "5-6, 6-7"},
+ "notes": "Controllability evidence is mostly qualitative figures; no quantitative condition-adherence metric in the packet."
+}

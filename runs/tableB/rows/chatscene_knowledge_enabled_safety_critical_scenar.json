@@ -1,0 +1,13 @@
+{
+ "id": "chatscene_knowledge_enabled_safety_critical_scenar",
+ "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "Unstructured natural-language scenario description (human- or LLM-written), split into adversarial behavior, road geometry and relative spawn position.", "pages": "1, 4, 12"},
+ "control_mechanism": {"value": "LLM decomposes text with few-shot prompts; sentence embeddings retrieve matching Scenic code snippets from a database; snippets are assembled into a Scenic program and run in CARLA, with Scenic parameters adversarially optimized.", "pages": "1, 3, 4"},
+ "base_model": {"value": "GPT-4 as the LLM agent, a retrieval database of description-code pairs, Scenic language, CARLA simulator; SAC-trained RL ego vehicles in Safebench.", "pages": "1, 4, 6-7, 12"},
+ "datasets": {"value": "Safebench with eight CARLA Challenge base scenarios; self-built Scenic snippet database from LLM-generated, manually checked pairs.", "pages": "2-3, 12"},
+ "metrics": {"value": "Collision rate, overall score (aggregating safety, functionality, etiquette levels), and ADE as scenario diversity measure.", "pages": "6-7"},
+ "controllability_evidence": {"value": "Generated scenes raise collision rate by 15 % over the strongest baselines; adversarial fine-tuning of ego gives 51 % lower collision rate than original and a further 9 % over SOTA.", "pages": "1, 7, 8"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Controllability is by text fidelity to executable Scenic code; no direct text-to-code accuracy metric appears in packet, evidence is adversarial strength instead."
+}

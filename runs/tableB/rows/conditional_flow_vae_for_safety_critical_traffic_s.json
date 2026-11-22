@@ -1,0 +1,13 @@
+{
+ "id": "conditional_flow_vae_for_safety_critical_traffic_s",
+ "title": "Conditional Flow-VAE for Safety-Critical Traffic Scenario Generation",
+ "control_family": "latent-space control",
+ "control_signal": {"value": "Difficulty/maneuver label (nominal, intermediate, challenging) from automatically generated heuristic labels, plus the number of flow timesteps used at inference.", "pages": "1-2, 7-8"},
+ "control_mechanism": {"value": "A conditional flow-matching transformer transports frozen CVAE prior latents from the nominal to the safety-critical distribution; the label conditions the flow model, and decoding intermediate flow steps gives partial criticality.", "pages": "3-4, 7-8"},
+ "base_model": {"value": "Conditional VAE (per-actor latents) plus a flow-matching transformer; shared transformer backbone with actor-map, actor-actor and actor-time attention; decoder predicts steering and acceleration.", "pages": "3-4"},
+ "datasets": {"value": "In-house self-driving dataset, about 20,000 20 s scenarios (highway and urban): about 10,000 real logs, 10,000 simulated safety-critical, plus about 500 mined real safety-critical snippets; 20% of real safety-critical held out.", "pages": "6"},
+ "metrics": {"value": "Realism: distribution JSD (speed, acceleration, jerk), displacement error. Criticality/safety: minSTTC, near-miss rate (minSTTC under 3 s), scenario collision rate.", "pages": "6-7"},
+ "controllability_evidence": {"value": "Table IV: from nominal to challenging label, minSTTC falls from 3.263 to 1.967 and near-miss rate rises from 0.281 to 0.500; more flow timesteps gives more safety-critical rollouts.", "pages": "7-8"},
+ "stated_limitations": {"value": "Real data curation and synthetic generation are proof-of-concept; sim-to-real fidelity could improve (friction); control is over degree of criticality, not the specific maneuver, left to future work.", "pages": "8"},
+ "notes": "Control is mainly via latent flow transport; the label conditioning is a trained-in input, so could also be read as conditioning inputs. Near-miss unit is shown as fraction in Table IV but as percent in Table II."
+}

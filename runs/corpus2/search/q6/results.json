@@ -1,0 +1,1320 @@
+{
+  "query": "driving scene generation latent diffusion",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 47,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4387634829",
+      "doi": "10.48550/arxiv.2310.07771",
+      "title": "DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model",
+      "abstract": "With the increasing popularity of autonomous driving based on the powerful and unified bird's-eye-view (BEV) representation, a demand for high-quality and large-scale multi-view video data with accurate annotation is urgently required. However, such large-scale multi-view data is hard to obtain due to expensive collection and annotation costs. To alleviate the problem, we propose a spatial-temporal consistent diffusion framework DrivingDiffusion, to generate realistic multi-view videos controlled by 3D layout. There are three challenges when synthesizing multi-view videos given a 3D layout: How to keep 1) cross-view consistency and 2) cross-frame consistency? 3) How to guarantee the quality of the generated instances? Our DrivingDiffusion solves the problem by cascading the multi-view single-frame image generation step, the single-view video generation step shared by multiple cameras, and post-processing that can handle long video generation. In the multi-view model, the consistency of multi-view images is ensured by information exchange between adjacent cameras. In the temporal model, we mainly query the information that needs attention in subsequent frame generation from the multi-view images of the first frame. We also introduce the local prompt to effectively improve the quality of generated instances. In post-processing, we further enhance the cross-view consistency of subsequent frames and extend the video length by employing temporal sliding window algorithm. Without any extra cost, our model can generate large-scale realistic multi-camera driving videos in complex urban scenes, fueling the downstream driving tasks. The code will be made publicly available.",
+      "year": 2023,
+      "authors": [
+        "Xiaofan Li",
+        "Yifu Zhang",
+        "Xiaoqing Ye"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 89,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2310.07771",
+      "url": "https://openalex.org/W4387634829",
+      "key": "openalex_1048550_arxiv231007771_DrivingDiffusion_Layout-Guided_multi-view_driving_scene_vi",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv231007771_DrivingDiffusion_Layout-Guided_multi-view_driving_scene_vi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4378942459",
+      "doi": "10.48550/arxiv.2305.18452",
+      "title": "Generating Driving Scenes with Diffusion",
+      "abstract": "In this paper we describe a learned method of traffic scene generation designed to simulate the output of the perception system of a self-driving car. In our \"Scene Diffusion\" system, inspired by latent diffusion, we use a novel combination of diffusion and object detection to directly create realistic and physically plausible arrangements of discrete bounding boxes for agents. We show that our scene generation model is able to adapt to different regions in the US, producing scenarios that capture the intricacies of each region.",
+      "year": 2023,
+      "authors": [
+        "Ethan Pronovost",
+        "Wang, Kai",
+        "Nick Roy"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 26,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2305.18452",
+      "url": "https://openalex.org/W4378942459",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv230518452_Generating_Driving_Scenes_with_Diffusion",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv230518452_Generating_Driving_Scenes_with_Diffusion.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4386076371",
+      "doi": "10.1109/cvpr52729.2023.00821",
+      "title": "NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models",
+      "abstract": "Automatically generating high-quality real world 3D scenes is of enormous interest for applications such as virtual reality and robotics simulation. Towards this goal, we introduce NeuralField-LDM, a generative model capable of synthesizing complex 3D environments. We leverage Latent Diffusion Models that have been successfully utilized for efficient high-quality 2D content creation. We first train a scene auto-encoder to express a set of image and pose pairs as a neural field, represented as density and feature voxel grids that can be projected to produce novel views of the scene. To further compress this representation, we train a latent-autoencoder that maps the voxel grids to a set of latent representations. A hierarchical diffusion model is then fit to the latents to complete the scene generation pipeline. We achieve a substantial improvement over existing state-of-the-art scene generation models. Additionally, we show how NeuralField-LDM can be used for a variety of 3D content creation applications, including conditional scene generation, scene inpainting and scene style manipulation.",
+      "year": 2023,
+      "authors": [
+        "Seung Wook Kim",
+        "Bradley Brown",
+        "Kangxue Yin",
+        "Karsten Kreis",
+        "Katja Schwarz",
+        "Daiqing Li",
+        "Robin Rombach",
+        "Antonio B. Torralba",
+        "Sanja Fidler"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 119,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2304.09787",
+      "url": "https://openalex.org/W4386076371",
+      "also_doi": [],
+      "key": "openalex_101109_cvpr52729202300821_NeuralField-LDM_Scene_Generation_with_Hierarchical_Late",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52729202300821_NeuralField-LDM_Scene_Generation_with_Hierarchical_Late.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413241602",
+      "doi": "10.1016/j.trc.2026.105694",
+      "title": "LD-scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Mingxing Peng",
+        "Yuting Xie",
+        "Xusen Guo",
+        "Ruoyu Yao",
+        "Hai Yang",
+        "Jun Ma"
+      ],
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "cited_by": 30,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.11247",
+      "url": "https://openalex.org/W4413241602",
+      "key": "openalex_101016_jtrc2026105694_LD-scene_LLM-guided_diffusion_for_controllable_generation_o",
+      "file_kind": "txt",
+      "file": "openalex_101016_jtrc2026105694_LD-scene_LLM-guided_diffusion_for_controllable_generation_o.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144722",
+      "doi": "10.1109/cvpr52734.2025.01604",
+      "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+      "abstract": "We introduce Scenario Dreamer, a fully data-driven generative simulator for autonomous vehicle planning that generates both the initial traffic scene—comprising a lane graph and agent bounding boxes—and closed-loop agent behaviours. Existing methods for generating driving simulation environments encode the initial traffic scene as a rasterized image and, as such, require parameter-heavy networks that perform unnecessary computation due to many empty pixels in the rasterized scene. Moreover, we find that existing methods that employ rule-based agent behaviours lack diversity and realism. Scenario Dreamer instead employs a novel vectorized latent diffusion model for initial scene generation that directly operates on the vectorized scene elements and an autoregressive Transformer for data-driven agent behaviour simulation. Scenario Dreamer additionally supports scene extrapolation via diffusion inpainting, enabling the generation of unbounded simulation environments. Extensive experiments show that Scenario Dreamer outperforms existing generative simulators in realism and efficiency: the vectorized scene-generation base model achieves superior generation quality with around 2× fewer parameters, 6× lower generation latency, and 10× fewer GPU training hours compared to the strongest baseline. We confirm its practical utility by showing that reinforcement learning planning agents are more challenged in Scenario Dreamer environments than traditional non-generative simulation environments, especially on long and adversarial driving environments.",
+      "year": 2025,
+      "authors": [
+        "Luke Rowe",
+        "Roger Girgis",
+        "Anthony Gosselin",
+        "Liam Paull",
+        "Christopher Pal",
+        "Felix Heide"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 53,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.22496",
+      "url": "https://openalex.org/W4413144722",
+      "key": "openalex_101109_cvpr52734202501604_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Genera",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202501604_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Genera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413945198",
+      "doi": "10.1109/icra55743.2025.11127600",
+      "title": "Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation",
+      "abstract": "In this paper, we introduce a novel approach for autonomous driving trajectory generation by harnessing the complementary strengths of diffusion probabilistic models (a.k.a., diffusion models) and transformers. Our proposed framework, termed the “World-centric Diffusion Transformer” (WcDT), optimizes the entire trajectory generation process, from feature extraction to model inference. To enhance the scene diversity and stochasticity, the historical trajectory data is first preprocessed into “Agent Move Statement” and encoded into latent space using Denoising Diffusion Probabilistic Models (DDPM) enhanced with Diffusion with Transformer (DiT) blocks. Then, the latent features, historical trajectories, HD map features, and historical traffic signal information are fused with various transformer-based encoders that is used to enhance the interaction of agents with other elements in the traffic scene. The encoded traffic scenes are then decoded by a trajectory decoder to generate multimodal future trajectories. Comprehensive experimental results show that the proposed approach exhibits superior performance in generating both realistic and diverse trajectories, showing its potential for integration into automatic driving simulation systems. Our code is available at https://github.com/yangchen1997/WcDT.",
+      "year": 2025,
+      "authors": [
+        "Yang Chen",
+        "Yangfan He",
+        "Aaron Xuxiang Tian",
+        "Dong Chen",
+        "Jianhui Wang",
+        "Tianyu Shi",
+        "Arsalan Heydarian",
+        "Pei Liu"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 53,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.02082",
+      "url": "https://openalex.org/W4413945198",
+      "key": "openalex_101109_icra55743202511127600_Wcdt_World-Centric_Diffusion_Transformer_for_Traffic",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra55743202511127600_Wcdt_World-Centric_Diffusion_Transformer_for_Traffic.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4309800375",
+      "doi": "10.48550/arxiv.2211.11018",
+      "title": "MagicVideo: Efficient Video Generation With Latent Diffusion Models",
+      "abstract": "We present an efficient text-to-video generation framework based on latent diffusion models, termed MagicVideo. MagicVideo can generate smooth video clips that are concordant with the given text descriptions. Due to a novel and efficient 3D U-Net design and modeling video distributions in a low-dimensional space, MagicVideo can synthesize video clips with 256x256 spatial resolution on a single GPU card, which takes around 64x fewer computations than the Video Diffusion Models (VDM) in terms of FLOPs. In specific, unlike existing works that directly train video models in the RGB space, we use a pre-trained VAE to map video clips into a low-dimensional latent space and learn the distribution of videos' latent codes via a diffusion model. Besides, we introduce two new designs to adapt the U-Net denoiser trained on image tasks to video data: a frame-wise lightweight adaptor for the image-to-video distribution adjustment and a directed temporal attention module to capture temporal dependencies across frames. Thus, we can exploit the informative weights of convolution operators from a text-to-image model for accelerating video training. To ameliorate the pixel dithering in the generated videos, we also propose a novel VideoVAE auto-encoder for better RGB reconstruction. We conduct extensive experiments and demonstrate that MagicVideo can generate high-quality video clips with either realistic or imaginary content. Refer to \\url{https://magicvideo.github.io/#} for more examples.",
+      "year": 2022,
+      "authors": [
+        "Daquan Zhou",
+        "Weimin Wang",
+        "Hanshu Yan",
+        "Lv, Weiwei",
+        "Yizhe Zhu",
+        "Jiashi Feng"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 618,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2211.11018",
+      "url": "https://openalex.org/W4309800375",
+      "key": "openalex_1048550_arxiv221111018_MagicVideo_Efficient_Video_Generation_With_Latent_Diffusio",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv221111018_MagicVideo_Efficient_Video_Generation_With_Latent_Diffusio.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4400481099",
+      "doi": "10.48550/arxiv.2407.05679",
+      "title": "BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents",
+      "abstract": "World models have attracted increasing attention in autonomous driving for their ability to forecast potential future scenarios. In this paper, we propose BEVWorld, a novel framework that transforms multimodal sensor inputs into a unified and compact Bird's Eye View (BEV) latent space for holistic environment modeling. The proposed world model consists of two main components: a multi-modal tokenizer and a latent BEV sequence diffusion model. The multi-modal tokenizer first encodes heterogeneous sensory data, and its decoder reconstructs the latent BEV tokens into LiDAR and surround-view image observations via ray-casting rendering in a self-supervised manner. This enables joint modeling and bidirectional encoding-decoding of panoramic imagery and point cloud data within a shared spatial representation. On top of this, the latent BEV sequence diffusion model performs temporally consistent forecasting of future scenes, conditioned on high-level action tokens, enabling scene-level reasoning over time. Extensive experiments demonstrate the effectiveness of BEVWorld on autonomous driving benchmarks, showcasing its capability in realistic future scene generation and its benefits for downstream tasks such as perception and motion prediction.",
+      "year": 2024,
+      "authors": [
+        "Yumeng Zhang",
+        "Shi Gong",
+        "Kaixin Xiong",
+        "Xiaoqing Ye",
+        "Li, Xiaofan",
+        "Xiao Tan",
+        "Wang, Fan",
+        "Jizhou Huang",
+        "Hua Ming Wu",
+        "Haifeng Wang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 73,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2407.05679",
+      "url": "https://openalex.org/W4400481099",
+      "key": "openalex_1048550_arxiv240705679_BEVWorld_A_Multimodal_World_Simulator_for_Autonomous_Drivi",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240705679_BEVWorld_A_Multimodal_World_Simulator_for_Autonomous_Drivi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7133197891",
+      "doi": "10.52202/075280-3014",
+      "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion",
+      "abstract": "Automated creation of synthetic traffic scenarios is a key part of validating the safety of autonomous vehicles (AVs). In this paper, we propose Scenario Diffusion, a novel diffusion-based architecture for generating traffic scenarios that enables controllable scenario generation. We combine latent diffusion, object detection and trajectory regression to generate distributions of synthetic agent poses, orientations and trajectories simultaneously. To provide additional control over the generated scenario, this distribution is conditioned on a map and sets of tokens describing the desired scenario. We show that our approach has sufficient expressive capacity to model diverse traffic patterns and generalizes to different geographical regions.",
+      "year": 2023,
+      "authors": [
+        "Ethan Pronovost",
+        "Meghana Reddy Ganesina",
+        "Noureldin Hendy",
+        "Zeyu Wang",
+        "Andres Morales",
+        "Kai Wang",
+        "Nick Roy"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 104,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7133197891",
+      "key": "openalex_1052202_075280-3014_Scenario_Diffusion_Controllable_Driving_Scenario_Generation_W",
+      "file_kind": "txt",
+      "file": "openalex_1052202_075280-3014_Scenario_Diffusion_Controllable_Driving_Scenario_Generation_W.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7151102241",
+      "doi": "10.1051/itmconf/20268404011",
+      "title": "3D Layout-Guided Autonomous Driving Scene Generation",
+      "abstract": "Improving the robustness of autonomous driving perception models relies on large-scale, diverse scenario data. However, real-world road data has challenges such as high collection costs, scarcity of extreme scenarios, and complexity in multi-view labeling. Generative AI scene synthesis technology has emerged as a key solution, with diffusion models gradually replacing GAN models as the mainstream. This paper provides a systematic review of autonomous driving scene synthesis technology, outlining the evolution of the technology, clarifying the core features and logic of different generations; it focuses on analyzing the representative solution DrivingDiffusion, the first video generation framework to achieve “3D layout controllability, multi-view coordination, and temporal coherence,” dissecting its architecture and core module design based on latent diffusion models (LDM). It further compares the performance of diffusion-based methods with traditional GAN-based approaches across key metrics like scene fidelity and label consistency. Moreover, it extracts the key issues and challenges in the current field; finally, it looks forward to future development directions, providing a reference for subsequent research on related virtual data generation.",
+      "year": 2026,
+      "authors": [
+        "Yu Liu"
+      ],
+      "venue": "ITM Web of Conferences",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://www.itm-conferences.org/articles/itmconf/pdf/2026/04/itmconf_atcids2026_04011.pdf",
+      "url": "https://openalex.org/W7151102241",
+      "also_doi": [
+        "10.1051/itmconf/20268404011/pdf"
+      ],
+      "key": "openalex_101051_itmconf_20268404011_3D_Layout-Guided_Autonomous_Driving_Scene_Generation",
+      "file_kind": "txt",
+      "file": "openalex_101051_itmconf_20268404011_3D_Layout-Guided_Autonomous_Driving_Scene_Generation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403759442",
+      "doi": "10.1007/978-3-031-72989-8_19",
+      "title": "WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Jiachen Lu",
+        "Ze Huang",
+        "Zeyu Yang",
+        "Jiahui Zhang",
+        "Li Zhang"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 134,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.02934",
+      "url": "https://openalex.org/W4403759442",
+      "key": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415332459",
+      "doi": "10.48550/arxiv.2509.23402",
+      "title": "WorldSplat: Gaussian-Centric Feed-Forward 4D Scene Generation for Autonomous Driving",
+      "abstract": "Recent advances in driving-scene generation and reconstruction have demonstrated significant potential for enhancing autonomous driving systems by producing scalable and controllable training data. Existing generation methods primarily focus on synthesizing diverse and high-fidelity driving videos; however, due to limited 3D consistency and sparse viewpoint coverage, they struggle to support convenient and high-quality novel-view synthesis (NVS). Conversely, recent 3D/4D reconstruction approaches have significantly improved NVS for real-world driving scenes, yet inherently lack generative capabilities. To overcome this dilemma between scene generation and reconstruction, we propose WorldSplat, a novel feed-forward framework for 4D driving-scene generation. Our approach effectively generates consistent multi-track videos through two key steps: (i) We introduce a 4D-aware latent diffusion model integrating multi-modal information to produce pixel-aligned 4D Gaussians in a feed-forward manner. (ii) Subsequently, we refine the novel view videos rendered from these Gaussians using a enhanced video diffusion model. Extensive experiments conducted on benchmark datasets demonstrate that WorldSplat effectively generates high-fidelity, temporally and spatially consistent multi-track novel view driving videos. Project: https://wm-research.github.io/worldsplat/",
+      "year": 2026,
+      "authors": [
+        "Zhu, Ziyue",
+        "Zhanqian Wu",
+        "Zhenxin Zhu",
+        "Lijun Zhou",
+        "Haiyang Sun",
+        "Wan, Bing",
+        "Kun Ma",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Jin Xie",
+        "Jian Ming Yang"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 14,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/6fa4a1def9d60b5bf6078e13c900c45c-Paper-Conference.pdf",
+      "url": "https://openalex.org/W4415332459",
+      "key": "openalex_1048550_arxiv250923402_WorldSplat_Gaussian-Centric_Feed-Forward_4D_Scene_Generati",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250923402_WorldSplat_Gaussian-Centric_Feed-Forward_4D_Scene_Generati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4386071957",
+      "doi": "10.1109/cvpr52729.2023.02161",
+      "title": "Align Your Latents: High-Resolution Video Synthesis with Latent Diffusion Models",
+      "abstract": "Latent Diffusion Models (LDMs) enable high-quality image synthesis while avoiding excessive compute demands by training a diffusion model in a compressed lower-dimensional latent space. Here, we apply the LDM paradigm to high-resolution video generation, a particularly resource-intensive task. We first pre-train an LDM on images only; then, we turn the image generator into a video generator by introducing a temporal dimension to the latent space diffusion model and finetuning on encoded image sequences, i.e., videos. Similarly, we temporally align diffusion model upsamplers, turning them into temporally consistent video super resolution models. We focus on two relevant real-world applications: Simulation of in-the-wild driving data and creative content creation with text-to-video modeling. In particular, we validate our Video LDM on real driving videos of resolution$512 \\times 1024$, achieving state-of-the-art performance. Furthermore, our approach can easily leverage off-the-shelf pretrained image LDMs, as we only need to train a temporal alignment model in that case. Doing so, we turn the publicly available, state-of-the-art text-to-image LDM Stable Diffusion into an efficient and expressive text-to-video model with resolution up to$1280 \\times 2048$. We show that the temporal layers trained in this way generalize to different finetuned text-to-image LDMs. Utilizing this property, we show the first results for personalized text-to-video generation, opening exciting directions for future content creation. Project page: https://nv-tlabs.github.io/VideoLDM/",
+      "year": 2023,
+      "authors": [
+        "Andreas Blattmann",
+        "Robin Rombach",
+        "Huan Ling",
+        "Tim Dockhorn",
+        "Seung Wook Kim",
+        "Sanja Fidler",
+        "Karsten Kreis"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 2105,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2304.08818",
+      "url": "https://openalex.org/W4386071957",
+      "key": "openalex_101109_cvpr52729202302161_Align_Your_Latents_High-Resolution_Video_Synthesis_with",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52729202302161_Align_Your_Latents_High-Resolution_Video_Synthesis_with.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144336",
+      "doi": "10.1109/cvpr52734.2025.00272",
+      "title": "Prometheus: 3D-Aware Latent Diffusion Models for Feed-Forward Text-to-3D Scene Generation",
+      "abstract": "In this work, we introduce Prometheus, a 3D-aware latent diffusion model for text-to-3D generation at both object and scene levels in seconds. We formulate 3D scene generation as multi-view, feed-forward, pixel-aligned 3D Gaussian generation within the latent diffusion paradigm. To ensure generalizability, we build our model upon pretrained text-to-image generation model with only minimal adjustments, and further train it using a large number of images from both single-view and multi-view datasets. Furthermore, we introduce an RGB-D latent space into 3D Gaussian generation to disentangle appearance and geometry information, enabling efficient feed-forward generation of 3D Gaussians with better fidelity and geometry. Extensive experimental results demonstrate the effectiveness of our method in both feed-forward 3D Gaussian reconstruction and text-to-3D generation. Project page: Prometheus.",
+      "year": 2025,
+      "authors": [
+        "Yuanbo Yang",
+        "Jiahao Shao",
+        "Xinyang Li",
+        "Yujun Shen",
+        "Andreas Geiger",
+        "Yiyi Liao"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 53,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.21117",
+      "url": "https://openalex.org/W4413144336",
+      "key": "openalex_101109_cvpr52734202500272_Prometheus_3D-Aware_Latent_Diffusion_Models_for_Feed-Fo",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202500272_Prometheus_3D-Aware_Latent_Diffusion_Models_for_Feed-Fo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416159046",
+      "doi": "10.1007/978-981-95-4097-6_14",
+      "title": "Augmentation of LiDAR Scenes with Adverse Weather Conditions Using Latent Diffusion Models",
+      "abstract": "",
+      "year": 2025,
+      "authors": [
+        "Andrea Matteazzi",
+        "Matthew Arnold",
+        "Dietmar Tutsch"
+      ],
+      "venue": "Communications in computer and information science",
+      "cited_by": 1,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4416159046",
+      "key": "openalex_101007_978-981-95-4097-6_14_Augmentation_of_LiDAR_Scenes_with_Adverse_Weather_Con",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-981-95-4097-6_14_Augmentation_of_LiDAR_Scenes_with_Adverse_Weather_Con.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4386075980",
+      "doi": "10.1109/cvpr52729.2023.01607",
+      "title": "Diffusion-based Generation, Optimization, and Planning in 3D Scenes",
+      "abstract": "We introduce the SceneDiffuser, a conditional generative model for 3D scene understanding. SceneDiffuser provides a unified model for solving scene-conditioned generation, optimization, and planning. In contrast to prior work, SceneDiffuser is intrinsically scene-aware, physics-based, and goal-oriented. With an iterative sampling strategy, SceneDiffuser jointly formulates the scene-aware generation, physics-based optimization, and goal-oriented planning via a diffusion-based denoising process in a fully differentiable fashion. Such a design alleviates the discrepancies among different modules and the posterior collapse of previous scene-conditioned generative models. We evaluate the SceneDiffuser on various 3D scene understanding tasks, including human pose and motion generation, dexterous grasp generation, path planning for 3D navigation, and motion planning for robot arms. The results show significant improvements compared with previous models, demonstrating the tremendous potential of the SceneDiffuser for the broad community of 3D scene understanding.",
+      "year": 2023,
+      "authors": [
+        "Siyuan Huang",
+        "Zan Wang",
+        "Puhao Li",
+        "Baoxiong Jia",
+        "Tengyu Liu",
+        "Yixin Zhu",
+        "Wei Liang",
+        "Song Chun Zhu"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 392,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2301.06015",
+      "url": "https://openalex.org/W4386075980",
+      "key": "openalex_101109_cvpr52729202301607_Diffusion-based_Generation_Optimization_and_Planning_in",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52729202301607_Diffusion-based_Generation_Optimization_and_Planning_in.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4385800797",
+      "doi": "10.1109/cvprw59228.2023.00322",
+      "title": "LDFA: Latent Diffusion Face Anonymization for Self-driving Applications",
+      "abstract": "In order to protect vulnerable road users (VRUs), such as pedestrians or cyclists, it is essential that intelligent transportation systems (ITS) accurately identify them. Therefore, datasets used to train perception models of ITS must contain a significant number of vulnerable road users. However, data protection regulations require that individuals are anonymized in such datasets. In this work, we introduce a novel deep learning-based pipeline for face anonymization in the context of ITS. In contrast to related methods, we do not use generative adversarial networks (GANs) but build upon recent advances in diffusion models. We propose a two-stage method, which contains a face detection model followed by a latent diffusion model to generate realistic face in-paintings. To demonstrate the versatility of anonymized images, we train segmentation methods on anonymized data and evaluate them on non-anonymized data. Our experiments reveal that our pipeline is better suited to anonymize data for segmentation than naive methods and performes comparably with recent GAN-based methods. Moreover, face detectors achieve higher mAP scores for faces anonymized by our method compared to naive or recent GAN-based methods. Code is available at https://github.com/KITMRT/latent_diffusion_face_anonymization.",
+      "year": 2023,
+      "authors": [
+        "Marvin Klemp",
+        "Kevin Rösch",
+        "Royden Wagner",
+        "Jannik Quehl",
+        "Martin Lauer"
+      ],
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "cited_by": 64,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2302.08931",
+      "url": "https://openalex.org/W4385800797",
+      "key": "openalex_101109_cvprw59228202300322_LDFA_Latent_Diffusion_Face_Anonymization_for_Self-driv",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvprw59228202300322_LDFA_Latent_Diffusion_Face_Anonymization_for_Self-driv.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415080777",
+      "doi": "10.48550/arxiv.2503.00045",
+      "title": "Glad: A Streaming Scene Generator for Autonomous Driving",
+      "abstract": "The generation and simulation of diverse real-world scenes have significant application value in the field of autonomous driving, especially for the corner cases. Recently, researchers have explored employing neural radiance fields or diffusion models to generate novel views or synthetic data under driving scenes. However, these approaches suffer from unseen scenes or restricted video length, thus lacking sufficient adaptability for data generation and simulation. To address these issues, we propose a simple yet effective framework, named Glad, to generate video data in a frame-by-frame style. To ensure the temporal consistency of synthetic video, we introduce a latent variable propagation module, which views the latent features of previous frame as noise prior and injects it into the latent features of current frame. In addition, we design a streaming data sampler to orderly sample the original image in a video clip at continuous iterations. Given the reference frame, our Glad can be viewed as a streaming simulator by generating the videos for specific scenes. Extensive experiments are performed on the widely-used nuScenes dataset. Experimental results demonstrate that our proposed Glad achieves promising performance, serving as a strong baseline for online video generation. We will release the source code and models publicly.",
+      "year": 2025,
+      "authors": [
+        "Xie, Bin",
+        "Liu, Yingfei",
+        "Tiancai Wang",
+        "Jiale Cao",
+        "Xiangyu Zhang"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 33,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415080777",
+      "key": "openalex_1048550_arxiv250300045_Glad_A_Streaming_Scene_Generator_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250300045_Glad_A_Streaming_Scene_Generator_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402703082",
+      "doi": "10.1109/cvpr52733.2024.01396",
+      "title": "Towards Realistic Scene Generation with LiDAR Diffusion Models",
+      "abstract": "Diffusion models (DMs) excel in photorealistic image synthesis, but their adaptation to LiDAR scene generation poses a substantial hurdle. This is primarily because DMs operating in the point space struggle to preserve the curve-like patterns and 3D geometry of LiDAR scenes, which consumes much of their representation power. In this paper, we propose LiDAR Diffusion Models (LiDMs) to generate LiDAR-realistic scenes from a latent space tailored to capture the realism of LiDAR scenes by incorporating geometric priors into the learning pipeline. Our method targets three major desiderata: pattern realism, geometry realism, and object realism. Specifically, we introduce curve-wise compression to simulate real-world LiDAR patterns, point-wise coordinate supervision to learn scene geometry, and patch-wise encoding for a full 3D object context. With these three core designs, our method achieves competitive performance on unconditional LiDAR generation in 64-beam scenario and state of the art on conditional LiDAR generation, while maintaining high efficiency compared to point-based DMs (up to 107× faster). Further-more, by compressing LiDAR scenes into a latent space, we enable the controllability of DMs with various conditions such as semantic maps, camera views, and text prompts. Our code and pretrained weights are available at htt ps: //github.com/hancyran/LiDAR-Diffusion.",
+      "year": 2024,
+      "authors": [
+        "Haoxi Ran",
+        "Vitor Guizilini",
+        "Yue Wang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 116,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.00815",
+      "url": "https://openalex.org/W4402703082",
+      "key": "openalex_101109_cvpr52733202401396_Towards_Realistic_Scene_Generation_with_LiDAR_Diffusion",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202401396_Towards_Realistic_Scene_Generation_with_LiDAR_Diffusion.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7133220370",
+      "doi": "10.52202/068431-0728",
+      "title": "LION: Latent Point Diffusion Models for 3D Shape Generation",
+      "abstract": "Denoising diffusion models (DDMs) have shown promising results in 3D point cloud synthesis. To advance 3D DDMs and make them useful for digital artists, we require (i) high generation quality, (ii) flexibility for manipulation and applications such as conditional synthesis and shape interpolation, and (iii) the ability to output smooth surfaces or meshes. To this end, we introduce the hierarchical Latent Point Diffusion Model (LION) for 3D shape generation. LION is set up as a variational autoencoder (VAE) with a hierarchical latent space that combines a global shape latent representation with a point-structured latent space. For generation, we train two hierarchical DDMs in these latent spaces. The hierarchical VAE approach boosts performance compared to DDMs that operate on point clouds directly, while the point-structured latents are still ideally suited for DDM-based modeling. Experimentally, LION achieves state-of-the-art generation performance on multiple ShapeNet benchmarks. Furthermore, our VAE framework allows us to easily use LION for different relevant tasks: LION excels at multimodal shape denoising and voxel-conditioned synthesis, and it can be adapted for text- and image-driven 3D generation. We also demonstrate shape autoencoding and latent shape interpolation, and we augment LION with modern surface reconstruction techniques to generate smooth 3D meshes. We hope that LION provides a powerful tool for artists working with 3D shapes due to its high-quality generation, flexibility, and surface reconstruction. Project page and code: https://nv-tlabs.github.io/LION.",
+      "year": 2022,
+      "authors": [
+        "Xiaohui Zeng",
+        "Arash Vahdat",
+        "Francis Williams",
+        "Žan Gojčič",
+        "Or Litany",
+        "Sanja Fidler",
+        "Karsten Kreis"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 747,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7133220370",
+      "key": "openalex_1052202_068431-0728_LION_Latent_Point_Diffusion_Models_for_3D_Shape_Generation",
+      "file_kind": "txt",
+      "file": "openalex_1052202_068431-0728_LION_Latent_Point_Diffusion_Models_for_3D_Shape_Generation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7167216484",
+      "doi": "10.1007/978-3-032-37467-7_6",
+      "title": "MapDreamer: Aerial Imagery Conditioned Latent Diffusion for Lane-Level Map Generation",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Julian Brandes",
+        "Philipp Crocoll",
+        "Wolfram Burgard"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.01370",
+      "url": "https://openalex.org/W7167216484",
+      "key": "openalex_101007_978-3-032-37467-7_6_MapDreamer_Aerial_Imagery_Conditioned_Latent_Diffusion",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-032-37467-7_6_MapDreamer_Aerial_Imagery_Conditioned_Latent_Diffusion.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4312933868",
+      "doi": "10.1109/cvpr52688.2022.01042",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "abstract": "By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models (DMs) achieve state-of-the-art synthesis results on image data and beyond. Additionally, their formulation allows for a guiding mechanism to control the image generation process without retraining. However, since these models typically operate directly in pixel space, optimization of powerful DMs often consumes hundreds of GPU days and inference is expensive due to sequential evaluations. To enable DM training on limited computational resources while retaining their quality and flexibility, we apply them in the latent space of powerful pretrained autoencoders. In contrast to previous work, training diffusion models on such a representation allows for the first time to reach a near-optimal point between complexity reduction and detail preservation, greatly boosting visual fidelity. By introducing cross-attention layers into the model architecture, we turn diffusion models into powerful and flexible generators for general conditioning inputs such as text or bounding boxes and high-resolution synthesis becomes possible in a convolutional manner. Our latent diffusion models (LDMs) achieve new state of the art scores for image inpainting and class-conditional image synthesis and highly competitive performance on various tasks, including unconditional image generation, text-to-image synthesis, and super-resolution, while significantly reducing computational requirements compared to pixel-based DMs.",
+      "year": 2022,
+      "authors": [
+        "Robin Rombach",
+        "Andreas Blattmann",
+        "Dominik Lorenz",
+        "Patrick Esser",
+        "Björn Ommer"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 37545,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2112.10752",
+      "url": "https://openalex.org/W4312933868",
+      "key": "openalex_101109_cvpr52688202201042_High-Resolution_Image_Synthesis_with_Latent_Diffusion_M",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52688202201042_High-Resolution_Image_Synthesis_with_Latent_Diffusion_M.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144960",
+      "doi": "10.1109/cvpr52734.2025.01118",
+      "title": "UniScene: Unified Occupancy-centric Driving Scene Generation",
+      "abstract": "Generating high-fidelity, controllable, and annotated training data is critical for autonomous driving. Existing methods typically generate a single data form directly from a coarse scene layout, which not only fails to output rich data forms required for diverse downstream tasks but also struggles to model the direct layout-to-data distribution. In this paper, we introduce UniScene, the first unified framework for generating three key data forms — semantic occupancy, video, and LiDAR — in driving scenes. UniScene employs a progressive generation process that decomposes the complex task of scene generation into two hierarchical steps: (a) first generating semantic occupancy from a customized scene layout as a meta scene representation rich in both semantic and geometric information, and then (b) conditioned on occupancy, generating video and LiDAR data, respectively, with two novel transfer strategies of Gaussian-based Joint Rendering and Prior-guided Sparse Modeling. This occupancy-centric approach reduces the generation burden, especially for intricate scenes, while providing detailed intermediate representations for the subsequent generation stages. Extensive experiments demonstrate that UniScene outperforms previous SOTAs in the occupancy, video, and LiDAR generation, which also indeed benefits downstream driving tasks. The Project is available at https://arlo0o.github.io/uniscene/.",
+      "year": 2025,
+      "authors": [
+        "Bohan Li",
+        "J. Guo",
+        "Hongsi Liu",
+        "Yingshuang Zou",
+        "Yikang Ding",
+        "Xiwu Chen",
+        "Hu Zhu",
+        "Feiyang Tan",
+        "Chi Zhang",
+        "Tiancai Wang",
+        "Shuchang Zhou",
+        "Li Zhang",
+        "Xiaojuan Qi",
+        "Hao Zhao",
+        "Mu Yang",
+        "Wenjun Zeng",
+        "Xin Jin"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 152,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.05435",
+      "url": "https://openalex.org/W4413144960",
+      "key": "openalex_101109_cvpr52734202501118_UniScene_Unified_Occupancy-centric_Driving_Scene_Genera",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202501118_UniScene_Unified_Occupancy-centric_Driving_Scene_Genera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417307772",
+      "doi": "10.52202/085713-2021",
+      "title": "Genesis: Multimodal Driving Scene Generation with Spatio-Temporal and Cross-Modal Consistency",
+      "abstract": "We present Genesis, a unified framework for joint generation of multi-view driving videos and LiDAR sequences with spatio-temporal and cross-modal consistency. Genesis employs a two-stage architecture that integrates a DiT-based video diffusion model with 3D-VAE encoding, and a BEV-aware LiDAR generator with NeRF-based rendering and adaptive sampling. Both modalities are directly coupled through a shared latent space, enabling coherent evolution across visual and geometric domains. To guide the generation with structured semantics, we introduce DataCrafter, a captioning module built on vision-language models that provides scene-level and instance-level supervision. Extensive experiments on the nuScenes benchmark demonstrate that Genesis achieves state-of-the-art performance across video and LiDAR metrics (FVD 16.95, FID 4.24, Chamfer 0.611), and benefits downstream tasks including segmentation and 3D detection, validating the semantic fidelity and practical utility of the generated data.",
+      "year": 2025,
+      "authors": [
+        "Xiangyu Guo",
+        "Zhanqian Wu",
+        "Kaixin Xiong",
+        "Ziyang Xu",
+        "Lijun Zhou",
+        "Gangwei Xu",
+        "Shaoqing Xu",
+        "Haiyang Sun",
+        "Bing Wang",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 34,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4417307772",
+      "key": "openalex_1052202_085713-2021_Genesis_Multimodal_Driving_Scene_Generation_with_Spatio-Tempo",
+      "file_kind": "txt",
+      "file": "openalex_1052202_085713-2021_Genesis_Multimodal_Driving_Scene_Generation_with_Spatio-Tempo.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.04830v1",
+      "doi": "",
+      "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+      "abstract": "Closed-loop simulation and scalable pre-training for autonomous driving require synthesizing free-viewpoint driving scenes. However, existing datasets and generative pipelines rarely provide consistent off-trajectory observations, limiting large-scale evaluation and training. While recent generative models demonstrate strong visual realism, they struggle to jointly achieve interpolation consistency and extrapolation realism without per-scene optimization. To address this, we propose FreeGen, a feed-forward reconstruction-generation co-training framework for free-viewpoint driving scene synthesis. The reconstruction model provides stable geometric representations to ensure interpolation consistency, while the generation model performs geometry-aware enhancement to improve realism at unseen viewpoints. Through co-training, generative priors are distilled into the reconstruction model to improve off-trajectory rendering, and the refined geometry in turn offers stronger structural guidance for generation. Experiments demonstrate that FreeGen achieves state-of-the-art performance for free-viewpoint driving scene synthesis.",
+      "year": 2025,
+      "authors": [
+        "Shijie Chen",
+        "Peixi Peng"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.04830v1",
+      "url": "http://arxiv.org/abs/2512.04830v1",
+      "key": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View",
+      "file_kind": "txt",
+      "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2603.29727v2",
+      "doi": "",
+      "title": "Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design",
+      "abstract": "Drug discovery relies on iterative expert workflows that are slow to parallelize and difficult to scale. Here we introduce Latent-Y, an AI agent that autonomously executes complete antibody design campaigns from text prompts, covering literature review, target analysis, epitope identification, candidate design, computational validation, and selection of lab-ready sequences. Latent-Y is integrated into the Latent Labs Platform, where it operates in the same environment as drug-discovery experts with access to bioinformatics tools, biological databases, and scientific literature. The agent can run fully autonomously end-to-end, or collaboratively, where researchers review progress, provide feedback, and direct subsequent steps. Candidate antibodies are generated using Latent-X2, our frontier generative model for drug-like antibody design. We demonstrate the agent's capability across three distinct campaign types: epitope discovery guided by therapeutic specifications, cross-species binder design, and autonomous design from a scientific publication targeting human transferrin receptor for blood-brain barrier crossing. Across nine targets, Latent-Y produced lab-confirmed nanobody binders against six, achieving a 67% target-level success rate with binding affinities reaching the single-digit nanomolar range, without human filtering or intervention. In user studies, experts working with Latent-Y completed design campaigns 56 times faster than independent expert time estimates, compressing weeks of work into hours. Because Latent-X2 is a general-purpose atomic-level model for biologics design, the same agent architecture naturally extends to macrocyclic peptide and mini-binder design campaigns, broadening autonomous discovery across therapeutic modalities. Latent-Y is available to selected partners at https://platform.latentlabs.com.",
+      "year": 2026,
+      "authors": [
+        " Latent Labs Team",
+        "Sebastian M. Schmon",
+        "Daniella Pretorius",
+        "Simon Mathis",
+        "Rebecca Bartke-Croughan",
+        "Aishaini Puvanendran",
+        "James Vuckovic",
+        "Henry Kenlay",
+        "Mária Vlachynská",
+        "Alex Bridgland",
+        "Ivan Grishin",
+        "Sven Over",
+        "David Li",
+        "Bridget Li",
+        "Jonathan Crabbé",
+        "Agrin Hilmkil",
+        "Alexander W. R. Nelson",
+        "David Yuan",
+        "Annette Obika",
+        "Simon A. A. Kohl"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.29727v2",
+      "url": "http://arxiv.org/abs/2603.29727v2",
+      "key": "arxiv_260329727v2_Latent-Y_A_Lab-Validated_Autonomous_Agent_for_De_Novo_Drug_Design",
+      "file_kind": "txt",
+      "file": "arxiv_260329727v2_Latent-Y_A_Lab-Validated_Autonomous_Agent_for_De_Novo_Drug_Design.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2507.19375v1",
+      "doi": "",
+      "title": "Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design",
+      "abstract": "Traditional drug discovery relies on rounds of screening millions of candidate molecules with low success rates, making drug discovery time and resource intensive. To overcome this screening bottleneck, we introduce Latent-X, an all-atom protein design model that enables a new paradigm of precision AI design. Given a target protein epitope, Latent-X jointly generates the all atom structure and sequence of the protein binder and target, directly modelling the non-covalent interactions essential for specific binding. We demonstrate its efficacy across two therapeutically relevant modalities through extensive wet lab experiments, testing as few as 30-100 designs per target. For macrocyclic peptides, Latent-X achieves experimental hit rates exceeding 90% on all evaluated benchmark targets. For mini-binders, it consistently produces potent candidates against all evaluated benchmark targets, with binding affinities reaching the low nanomolar and picomolar range - comparable to those of approved therapeutics - whilst also being highly specific in mammalian display. In direct comparisons with the state-of-the-art models AlphaProteo, RFdiffusion and RFpeptides under identical conditions demonstrates, Latent-X generates binders with higher hit rates and better binding affinities, and uniquely creates structurally diverse binders, including complex beta-sheet folds. Its end-to-end process is an order of magnitude faster than existing multi-step computational pipelines. By drastically improving the efficiency and success rate of de novo design, Latent-X represents a significant advance towards push-button biologics discovery and a valuable tool for protein engineers. Latent-X is available at https://platform.latentlabs.com, enabling users to reliably generate de novo binders without AI infrastructure or coding.",
+      "year": 2025,
+      "authors": [
+        " Latent Labs Team",
+        "Alex Bridgland",
+        "Jonathan Crabbé",
+        "Henry Kenlay",
+        "Daniella Pretorius",
+        "Sebastian M. Schmon",
+        "Agrin Hilmkil",
+        "Rebecca Bartke-Croughan",
+        "Robin Rombach",
+        "Michael Flashman",
+        "Tomas Matteson",
+        "Simon Mathis",
+        "Alexander W. R. Nelson",
+        "David Yuan",
+        "Annette Obika",
+        "Simon A. A. Kohl"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2507.19375v1",
+      "url": "http://arxiv.org/abs/2507.19375v1",
+      "key": "arxiv_250719375v1_Latent-X_An_Atom-level_Frontier_Model_for_De_Novo_Protein_Binder_Design",
+      "file_kind": "txt",
+      "file": "arxiv_250719375v1_Latent-X_An_Atom-level_Frontier_Model_for_De_Novo_Protein_Binder_Design.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.14981v4",
+      "doi": "",
+      "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+      "abstract": "Creating high-fidelity 3D models of indoor environments is essential for applications in design, virtual reality, and robotics. However, manual 3D modeling remains time-consuming and labor-intensive. While recent advances in generative AI have enabled automated scene synthesis, existing methods often face challenges in balancing visual quality, diversity, semantic consistency, and user control. A major bottleneck is the lack of a large-scale, high-quality dataset tailored to this task. To address this gap, we introduce a comprehensive synthetic dataset, featuring 12,328 structured annotated scenes with 57,431 rooms, and 4.7M photorealistic 2D renderings. Leveraging this dataset, we present SpatialGen, a novel multi-view multi-modal diffusion model that generates realistic and semantically consistent 3D indoor scenes. Given a 3D layout and a reference image (derived from a text prompt), our model synthesizes appearance (color image), geometry (scene coordinate map), and semantic (semantic segmentation map) from arbitrary viewpoints, while preserving spatial consistency across modalities. SpatialGen consistently generates superior results to previous methods in our experiments. We are open-sourcing our data and models to empower the community and advance the field of indoor scene understanding and generation.",
+      "year": 2025,
+      "authors": [
+        "Chuan Fang",
+        "Heng Li",
+        "Yixun Liang",
+        "Jia Zheng",
+        "Yongsen Mao",
+        "Yuan Liu",
+        "Rui Tang",
+        "Zihan Zhou",
+        "Ping Tan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.14981v4",
+      "url": "http://arxiv.org/abs/2509.14981v4",
+      "key": "arxiv_250914981v4_SPATIALGEN_Layout-guided_3D_Indoor_Scene_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_250914981v4_SPATIALGEN_Layout-guided_3D_Indoor_Scene_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.20263v1",
+      "doi": "",
+      "title": "Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2",
+      "abstract": "Drug discovery has long sought computational systems capable of designing drug-like molecules directly: developable and non-immunogenic from the start. Here we introduce Latent-X2, a frontier generative model that achieves this goal through zero-shot design of antibodies with strong binding affinities, drug-like properties, and, for the first time for any de novo generated antibody, confirmed low immunogenicity in human donor panels. Latent-X2 is an all-atom model conditioned on target structure, epitope specification, and optional antibody framework, jointly generating sequences and structures while modelling the bound complex. Testing only 4 to 24 designs per target in each modality, we successfully generated VHH and scFv antibodies against 9 of 18 evaluated targets, achieving a 50% target-level success rate with picomolar to nanomolar binding affinities. Designed molecules exhibit developability profiles that match or exceed those of approved antibody therapeutics, including expression yield, aggregation propensity, polyreactivity, hydrophobicity, and thermal stability, without optimization, filtering, or selection. In the first immunogenicity assessment of any AI-generated antibody, representative de novo VHH binders targeting TNFL9 exhibit both potent target engagement and low immunogenicity across T-cell proliferation and cytokine release assays. The model generalizes beyond antibodies: against K-Ras, long considered undruggable, we generated macrocyclic peptide binders competitive with trillion-scale mRNA display screens. These properties emerge directly from the model, demonstrating the therapeutic viability of zero-shot molecular design, now available without AI infrastructure or coding expertise at https://platform.latentlabs.com.",
+      "year": 2025,
+      "authors": [
+        " Latent Labs Team",
+        "Henry Kenlay",
+        "Daniella Pretorius",
+        "Jonathan Crabbé",
+        "Alex Bridgland",
+        "Sebastian M. Schmon",
+        "Agrin Hilmkil",
+        "James Vuckovic",
+        "Simon Mathis",
+        "Tomas Matteson",
+        "Rebecca Bartke-Croughan",
+        "Amir Motmaen",
+        "Robin Rombach",
+        "Mária Vlachynská",
+        "Alexander W. R. Nelson",
+        "David Yuan",
+        "Annette Obika",
+        "Simon A. A. Kohl"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.20263v1",
+      "url": "http://arxiv.org/abs/2512.20263v1",
+      "key": "arxiv_251220263v1_Drug-like_antibodies_with_low_immunogenicity_in_human_panels_designed_wi",
+      "file_kind": "txt",
+      "file": "arxiv_251220263v1_Drug-like_antibodies_with_low_immunogenicity_in_human_panels_designed_wi.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2302.08510v2",
+      "doi": "",
+      "title": "Text-driven Visual Synthesis with Latent Diffusion Prior",
+      "abstract": "There has been tremendous progress in large-scale text-to-image synthesis driven by diffusion models enabling versatile downstream applications such as 3D object synthesis from texts, image editing, and customized generation. We present a generic approach using latent diffusion models as powerful image priors for various visual synthesis tasks. Existing methods that utilize such priors fail to use these models' full capabilities. To improve this, our core ideas are 1) a feature matching loss between features from different layers of the decoder to provide detailed guidance and 2) a KL divergence loss to regularize the predicted latent features and stabilize the training. We demonstrate the efficacy of our approach on three different applications, text-to-3D, StyleGAN adaptation, and layered image editing. Extensive results show our method compares favorably against baselines.",
+      "year": 2023,
+      "authors": [
+        "Ting-Hsuan Liao",
+        "Songwei Ge",
+        "Yiran Xu",
+        "Yao-Chih Lee",
+        "Badour AlBahar",
+        "Jia-Bin Huang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2302.08510v2",
+      "url": "http://arxiv.org/abs/2302.08510v2",
+      "key": "arxiv_230208510v2_Text-driven_Visual_Synthesis_with_Latent_Diffusion_Prior",
+      "file_kind": "txt",
+      "file": "arxiv_230208510v2_Text-driven_Visual_Synthesis_with_Latent_Diffusion_Prior.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2206.02779v2",
+      "doi": "10.1145/3592450",
+      "title": "Blended Latent Diffusion",
+      "abstract": "The tremendous progress in neural image generation, coupled with the emergence of seemingly omnipotent vision-language models has finally enabled text-based interfaces for creating and editing images. Handling generic images requires a diverse underlying generative model, hence the latest works utilize diffusion models, which were shown to surpass GANs in terms of diversity. One major drawback of diffusion models, however, is their relatively slow inference time. In this paper, we present an accelerated solution to the task of local text-driven editing of generic images, where the desired edits are confined to a user-provided mask. Our solution leverages a recent text-to-image Latent Diffusion Model (LDM), which speeds up diffusion by operating in a lower-dimensional latent space. We first convert the LDM into a local image editor by incorporating Blended Diffusion into it. Next we propose an optimization-based solution for the inherent inability of this LDM to accurately reconstruct images. Finally, we address the scenario of performing local edits using thin masks. We evaluate our method against the available baselines both qualitatively and quantitatively and demonstrate that in addition to being faster, our method achieves better precision than the baselines while mitigating some of their artifacts.",
+      "year": 2022,
+      "authors": [
+        "Omri Avrahami",
+        "Ohad Fried",
+        "Dani Lischinski"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2206.02779v2",
+      "url": "http://arxiv.org/abs/2206.02779v2",
+      "key": "arxiv_101145_3592450_Blended_Latent_Diffusion",
+      "file_kind": "txt",
+      "file": "arxiv_101145_3592450_Blended_Latent_Diffusion.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.10294v1",
+      "doi": "",
+      "title": "Coherent 3D Scene Diffusion From a Single RGB Image",
+      "abstract": "We present a novel diffusion-based approach for coherent 3D scene reconstruction from a single RGB image. Our method utilizes an image-conditioned 3D scene diffusion model to simultaneously denoise the 3D poses and geometries of all objects within the scene. Motivated by the ill-posed nature of the task and to obtain consistent scene reconstruction results, we learn a generative scene prior by conditioning on all scene objects simultaneously to capture the scene context and by allowing the model to learn inter-object relationships throughout the diffusion process. We further propose an efficient surface alignment loss to facilitate training even in the absence of full ground-truth annotation, which is common in publicly available datasets. This loss leverages an expressive shape representation, which enables direct point sampling from intermediate shape predictions. By framing the task of single RGB image 3D scene reconstruction as a conditional diffusion process, our approach surpasses current state-of-the-art methods, achieving a 12.04% improvement in AP3D on SUN RGB-D and a 13.43% increase in F-Score on Pix3D.",
+      "year": 2024,
+      "authors": [
+        "Manuel Dahnert",
+        "Angela Dai",
+        "Norman Müller",
+        "Matthias Nießner"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.10294v1",
+      "url": "http://arxiv.org/abs/2412.10294v1",
+      "key": "arxiv_241210294v1_Coherent_3D_Scene_Diffusion_From_a_Single_RGB_Image",
+      "file_kind": "txt",
+      "file": "arxiv_241210294v1_Coherent_3D_Scene_Diffusion_From_a_Single_RGB_Image.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2402.06079v2",
+      "doi": "",
+      "title": "DiscDiff: Latent Diffusion Model for DNA Sequence Generation",
+      "abstract": "This paper introduces a novel framework for DNA sequence generation, comprising two key components: DiscDiff, a Latent Diffusion Model (LDM) tailored for generating discrete DNA sequences, and Absorb-Escape, a post-training algorithm designed to refine these sequences. Absorb-Escape enhances the realism of the generated sequences by correcting `round errors' inherent in the conversion process between latent and input spaces. Our approach not only sets new standards in DNA sequence generation but also demonstrates superior performance over existing diffusion models, in generating both short and long DNA sequences. Additionally, we introduce EPD-GenDNA, the first comprehensive, multi-species dataset for DNA generation, encompassing 160,000 unique sequences from 15 species. We hope this study will advance the generative modelling of DNA, with potential implications for gene therapy and protein production.",
+      "year": 2024,
+      "authors": [
+        "Zehui Li",
+        "Yuhao Ni",
+        "William A V Beardall",
+        "Guoxuan Xia",
+        "Akashaditya Das",
+        "Guy-Bart Stan",
+        "Yiren Zhao"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2402.06079v2",
+      "url": "http://arxiv.org/abs/2402.06079v2",
+      "key": "arxiv_240206079v2_DiscDiff_Latent_Diffusion_Model_for_DNA_Sequence_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_240206079v2_DiscDiff_Latent_Diffusion_Model_for_DNA_Sequence_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.05474v2",
+      "doi": "10.1007/s11263-026-02999-6",
+      "title": "3D Scene Generation: A Survey",
+      "abstract": "3D scene generation seeks to synthesize spatially structured, semantically meaningful, and photorealistic environments for applications such as immersive media, robotics, autonomous driving, and embodied AI. Early methods based on procedural rules offered scalability but limited diversity. Recent advances in deep generative models (e.g., GANs, diffusion models) and 3D representations (e.g., NeRF, 3D Gaussians) have enabled the learning of real-world scene distributions, improving fidelity, diversity, and view consistency. Recent advances like diffusion models bridge 3D scene synthesis and photorealism by reframing generation as image or video synthesis problems. This survey provides a systematic overview of state-of-the-art approaches, organizing them into four paradigms: procedural generation, neural 3D-based generation, image-based generation, and video-based generation. We analyze their technical foundations, trade-offs, and representative results, and review commonly used datasets, evaluation protocols, and downstream applications. We conclude by discussing key challenges in generation capacity, 3D representation, data and annotations, and evaluation, and outline promising directions including higher fidelity, physics-aware and interactive generation, and unified perception-generation models. This review organizes recent advances in 3D scene generation and highlights promising directions at the intersection of generative AI, 3D vision, and embodied intelligence. To track ongoing developments, we maintain an up-to-date project page: https://github.com/hzxie/Awesome-3D-Scene-Generation.",
+      "year": 2025,
+      "authors": [
+        "Haozhe Xie",
+        "Beichen Wen",
+        "Zhaoxi Chen",
+        "Fangzhou Hong",
+        "Ziwei Liu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.05474v2",
+      "url": "http://arxiv.org/abs/2505.05474v2",
+      "key": "arxiv_101007_s11263-026-02999-6_3D_Scene_Generation_A_Survey",
+      "file_kind": "txt",
+      "file": "arxiv_101007_s11263-026-02999-6_3D_Scene_Generation_A_Survey.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2401.10227v2",
+      "doi": "",
+      "title": "A Simple Latent Diffusion Approach for Panoptic Segmentation and Mask Inpainting",
+      "abstract": "Panoptic and instance segmentation networks are often trained with specialized object detection modules, complex loss functions, and ad-hoc post-processing steps to manage the permutation-invariance of the instance masks. This work builds upon Stable Diffusion and proposes a latent diffusion approach for panoptic segmentation, resulting in a simple architecture that omits these complexities. Our training consists of two steps: (1) training a shallow autoencoder to project the segmentation masks to latent space; (2) training a diffusion model to allow image-conditioned sampling in latent space. This generative approach unlocks the exploration of mask completion or inpainting. The experimental validation on COCO and ADE20k yields strong segmentation results. Finally, we demonstrate our model's adaptability to multi-tasking by introducing learnable task embeddings.",
+      "year": 2024,
+      "authors": [
+        "Wouter Van Gansbeke",
+        "Bert De Brabandere"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2401.10227v2",
+      "url": "http://arxiv.org/abs/2401.10227v2",
+      "key": "arxiv_240110227v2_A_Simple_Latent_Diffusion_Approach_for_Panoptic_Segmentation_and_Mask_In",
+      "file_kind": "txt",
+      "file": "arxiv_240110227v2_A_Simple_Latent_Diffusion_Approach_for_Panoptic_Segmentation_and_Mask_In.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2304.08477v2",
+      "doi": "",
+      "title": "Latent-Shift: Latent Diffusion with Temporal Shift for Efficient Text-to-Video Generation",
+      "abstract": "We propose Latent-Shift -- an efficient text-to-video generation method based on a pretrained text-to-image generation model that consists of an autoencoder and a U-Net diffusion model. Learning a video diffusion model in the latent space is much more efficient than in the pixel space. The latter is often limited to first generating a low-resolution video followed by a sequence of frame interpolation and super-resolution models, which makes the entire pipeline very complex and computationally expensive. To extend a U-Net from image generation to video generation, prior work proposes to add additional modules like 1D temporal convolution and/or temporal attention layers. In contrast, we propose a parameter-free temporal shift module that can leverage the spatial U-Net as is for video generation. We achieve this by shifting two portions of the feature map channels forward and backward along the temporal dimension. The shifted features of the current frame thus receive the features from the previous and the subsequent frames, enabling motion learning without additional parameters. We show that Latent-Shift achieves comparable or better results while being significantly more efficient. Moreover, Latent-Shift can generate images despite being finetuned for T2V generation.",
+      "year": 2023,
+      "authors": [
+        "Jie An",
+        "Songyang Zhang",
+        "Harry Yang",
+        "Sonal Gupta",
+        "Jia-Bin Huang",
+        "Jiebo Luo",
+        "Xi Yin"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2304.08477v2",
+      "url": "http://arxiv.org/abs/2304.08477v2",
+      "key": "arxiv_230408477v2_Latent-Shift_Latent_Diffusion_with_Temporal_Shift_for_Efficient_Text-to-",
+      "file_kind": "txt",
+      "file": "arxiv_230408477v2_Latent-Shift_Latent_Diffusion_with_Temporal_Shift_for_Efficient_Text-to-.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2404.04544v1",
+      "doi": "",
+      "title": "BeyondScene: Higher-Resolution Human-Centric Scene Generation With Pretrained Diffusion",
+      "abstract": "Generating higher-resolution human-centric scenes with details and controls remains a challenge for existing text-to-image diffusion models. This challenge stems from limited training image size, text encoder capacity (limited tokens), and the inherent difficulty of generating complex scenes involving multiple humans. While current methods attempted to address training size limit only, they often yielded human-centric scenes with severe artifacts. We propose BeyondScene, a novel framework that overcomes prior limitations, generating exquisite higher-resolution (over 8K) human-centric scenes with exceptional text-image correspondence and naturalness using existing pretrained diffusion models. BeyondScene employs a staged and hierarchical approach to initially generate a detailed base image focusing on crucial elements in instance creation for multiple humans and detailed descriptions beyond token limit of diffusion model, and then to seamlessly convert the base image to a higher-resolution output, exceeding training image size and incorporating details aware of text and instances via our novel instance-aware hierarchical enlargement process that consists of our proposed high-frequency injected forward diffusion and adaptive joint diffusion. BeyondScene surpasses existing methods in terms of correspondence with detailed text descriptions and naturalness, paving the way for advanced applications in higher-resolution human-centric scene creation beyond the capacity of pretrained diffusion models without costly retraining. Project page: https://janeyeon.github.io/beyond-scene.",
+      "year": 2024,
+      "authors": [
+        "Gwanghyun Kim",
+        "Hayeon Kim",
+        "Hoigi Seo",
+        "Dong Un Kang",
+        "Se Young Chun"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.04544v1",
+      "url": "http://arxiv.org/abs/2404.04544v1",
+      "key": "arxiv_240404544v1_BeyondScene_Higher-Resolution_Human-Centric_Scene_Generation_With_Pretra",
+      "file_kind": "txt",
+      "file": "arxiv_240404544v1_BeyondScene_Higher-Resolution_Human-Centric_Scene_Generation_With_Pretra.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.07152v1",
+      "doi": "",
+      "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+      "abstract": "Three-dimensional scene generation is crucial in computer vision, with applications spanning autonomous driving, gaming and the metaverse. Current methods either lack user control or rely on imprecise, non-intuitive conditions. In this work, we propose a method that uses, scene graphs, an accessible, user friendly control format to generate outdoor 3D scenes. We develop an interactive system that transforms a sparse scene graph into a dense BEV (Bird's Eye View) Embedding Map, which guides a conditional diffusion model to generate 3D scenes that match the scene graph description. During inference, users can easily create or modify scene graphs to generate large-scale outdoor scenes. We create a large-scale dataset with paired scene graphs and 3D semantic scenes to train the BEV embedding and diffusion models. Experimental results show that our approach consistently produces high-quality 3D urban scenes closely aligned with the input scene graphs. To the best of our knowledge, this is the first approach to generate 3D outdoor scenes conditioned on scene graphs.",
+      "year": 2025,
+      "authors": [
+        "Yuheng Liu",
+        "Xinke Li",
+        "Yuning Zhang",
+        "Lu Qi",
+        "Xin Li",
+        "Wenping Wang",
+        "Chongshou Li",
+        "Xueting Li",
+        "Ming-Hsuan Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.07152v1",
+      "url": "http://arxiv.org/abs/2503.07152v1",
+      "key": "arxiv_250307152v1_Controllable_3D_Outdoor_Scene_Generation_via_Scene_Graphs",
+      "file_kind": "txt",
+      "file": "arxiv_250307152v1_Controllable_3D_Outdoor_Scene_Generation_via_Scene_Graphs.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2306.05720v2",
+      "doi": "",
+      "title": "Beyond Surface Statistics: Scene Representations in a Latent Diffusion Model",
+      "abstract": "Latent diffusion models (LDMs) exhibit an impressive ability to produce realistic images, yet the inner workings of these models remain mysterious. Even when trained purely on images without explicit depth information, they typically output coherent pictures of 3D scenes. In this work, we investigate a basic interpretability question: does an LDM create and use an internal representation of simple scene geometry? Using linear probes, we find evidence that the internal activations of the LDM encode linear representations of both 3D depth data and a salient-object / background distinction. These representations appear surprisingly early in the denoising process$-$well before a human can easily make sense of the noisy images. Intervention experiments further indicate these representations play a causal role in image synthesis, and may be used for simple high-level editing of an LDM's output. Project page: https://yc015.github.io/scene-representation-diffusion-model/",
+      "year": 2023,
+      "authors": [
+        "Yida Chen",
+        "Fernanda Viégas",
+        "Martin Wattenberg"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.05720v2",
+      "url": "http://arxiv.org/abs/2306.05720v2",
+      "key": "arxiv_230605720v2_Beyond_Surface_Statistics_Scene_Representations_in_a_Latent_Diffusion_Mo",
+      "file_kind": "txt",
+      "file": "arxiv_230605720v2_Beyond_Surface_Statistics_Scene_Representations_in_a_Latent_Diffusion_Mo.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.06029v1",
+      "doi": "",
+      "title": "Latent-Reframe: Enabling Camera Control for Video Diffusion Model without Training",
+      "abstract": "Precise camera pose control is crucial for video generation with diffusion models. Existing methods require fine-tuning with additional datasets containing paired videos and camera pose annotations, which are both data-intensive and computationally costly, and can disrupt the pre-trained model distribution. We introduce Latent-Reframe, which enables camera control in a pre-trained video diffusion model without fine-tuning. Unlike existing methods, Latent-Reframe operates during the sampling stage, maintaining efficiency while preserving the original model distribution. Our approach reframes the latent code of video frames to align with the input camera trajectory through time-aware point clouds. Latent code inpainting and harmonization then refine the model latent space, ensuring high-quality video generation. Experimental results demonstrate that Latent-Reframe achieves comparable or superior camera control precision and video quality to training-based methods, without the need for fine-tuning on additional datasets.",
+      "year": 2024,
+      "authors": [
+        "Zhenghong Zhou",
+        "Jie An",
+        "Jiebo Luo"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.06029v1",
+      "url": "http://arxiv.org/abs/2412.06029v1",
+      "key": "arxiv_241206029v1_Latent-Reframe_Enabling_Camera_Control_for_Video_Diffusion_Model_without",
+      "file_kind": "txt",
+      "file": "arxiv_241206029v1_Latent-Reframe_Enabling_Camera_Control_for_Video_Diffusion_Model_without.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2311.12085v2",
+      "doi": "",
+      "title": "Pyramid Diffusion for Fine 3D Large Scene Generation",
+      "abstract": "Diffusion models have shown remarkable results in generating 2D images and small-scale 3D objects. However, their application to the synthesis of large-scale 3D scenes has been rarely explored. This is mainly due to the inherent complexity and bulky size of 3D scenery data, particularly outdoor scenes, and the limited availability of comprehensive real-world datasets, which makes training a stable scene diffusion model challenging. In this work, we explore how to effectively generate large-scale 3D scenes using the coarse-to-fine paradigm. We introduce a framework, the Pyramid Discrete Diffusion model (PDD), which employs scale-varied diffusion models to progressively generate high-quality outdoor scenes. Experimental results of PDD demonstrate our successful exploration in generating 3D scenes both unconditionally and conditionally. We further showcase the data compatibility of the PDD model, due to its multi-scale architecture: a PDD model trained on one dataset can be easily fine-tuned with another dataset. Code is available at https://github.com/yuhengliu02/pyramid-discrete-diffusion.",
+      "year": 2023,
+      "authors": [
+        "Yuheng Liu",
+        "Xinke Li",
+        "Xueting Li",
+        "Lu Qi",
+        "Chongshou Li",
+        "Ming-Hsuan Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.12085v2",
+      "url": "http://arxiv.org/abs/2311.12085v2",
+      "key": "arxiv_231112085v2_Pyramid_Diffusion_for_Fine_3D_Large_Scene_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_231112085v2_Pyramid_Diffusion_for_Fine_3D_Large_Scene_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2409.08215v2",
+      "doi": "",
+      "title": "LT3SD: Latent Trees for 3D Scene Diffusion",
+      "abstract": "We present LT3SD, a novel latent diffusion model for large-scale 3D scene generation. Recent advances in diffusion models have shown impressive results in 3D object generation, but are limited in spatial extent and quality when extended to 3D scenes. To generate complex and diverse 3D scene structures, we introduce a latent tree representation to effectively encode both lower-frequency geometry and higher-frequency detail in a coarse-to-fine hierarchy. We can then learn a generative diffusion process in this latent 3D scene space, modeling the latent components of a scene at each resolution level. To synthesize large-scale scenes with varying sizes, we train our diffusion model on scene patches and synthesize arbitrary-sized output 3D scenes through shared diffusion generation across multiple scene patches. Through extensive experiments, we demonstrate the efficacy and benefits of LT3SD for large-scale, high-quality unconditional 3D scene generation and for probabilistic completion for partial scene observations.",
+      "year": 2024,
+      "authors": [
+        "Quan Meng",
+        "Lei Li",
+        "Matthias Nießner",
+        "Angela Dai"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.08215v2",
+      "url": "http://arxiv.org/abs/2409.08215v2",
+      "key": "arxiv_240908215v2_LT3SD_Latent_Trees_for_3D_Scene_Diffusion",
+      "file_kind": "txt",
+      "file": "arxiv_240908215v2_LT3SD_Latent_Trees_for_3D_Scene_Diffusion.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2312.04410v1",
+      "doi": "",
+      "title": "Smooth Diffusion: Crafting Smooth Latent Spaces in Diffusion Models",
+      "abstract": "Recently, diffusion models have made remarkable progress in text-to-image (T2I) generation, synthesizing images with high fidelity and diverse contents. Despite this advancement, latent space smoothness within diffusion models remains largely unexplored. Smooth latent spaces ensure that a perturbation on an input latent corresponds to a steady change in the output image. This property proves beneficial in downstream tasks, including image interpolation, inversion, and editing. In this work, we expose the non-smoothness of diffusion latent spaces by observing noticeable visual fluctuations resulting from minor latent variations. To tackle this issue, we propose Smooth Diffusion, a new category of diffusion models that can be simultaneously high-performing and smooth. Specifically, we introduce Step-wise Variation Regularization to enforce the proportion between the variations of an arbitrary input latent and that of the output image is a constant at any diffusion training step. In addition, we devise an interpolation standard deviation (ISTD) metric to effectively assess the latent space smoothness of a diffusion model. Extensive quantitative and qualitative experiments demonstrate that Smooth Diffusion stands out as a more desirable solution not only in T2I generation but also across various downstream tasks. Smooth Diffusion is implemented as a plug-and-play Smooth-LoRA to work with various community models. Code is available at https://github.com/SHI-Labs/Smooth-Diffusion.",
+      "year": 2023,
+      "authors": [
+        "Jiayi Guo",
+        "Xingqian Xu",
+        "Yifan Pu",
+        "Zanlin Ni",
+        "Chaofei Wang",
+        "Manushree Vasu",
+        "Shiji Song",
+        "Gao Huang",
+        "Humphrey Shi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.04410v1",
+      "url": "http://arxiv.org/abs/2312.04410v1",
+      "key": "arxiv_231204410v1_Smooth_Diffusion_Crafting_Smooth_Latent_Spaces_in_Diffusion_Models",
+      "file_kind": "txt",
+      "file": "arxiv_231204410v1_Smooth_Diffusion_Crafting_Smooth_Latent_Spaces_in_Diffusion_Models.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2408.14819v1",
+      "doi": "",
+      "title": "Build-A-Scene: Interactive 3D Layout Control for Diffusion-Based Image Generation",
+      "abstract": "We propose a diffusion-based approach for Text-to-Image (T2I) generation with interactive 3D layout control. Layout control has been widely studied to alleviate the shortcomings of T2I diffusion models in understanding objects' placement and relationships from text descriptions. Nevertheless, existing approaches for layout control are limited to 2D layouts, require the user to provide a static layout beforehand, and fail to preserve generated images under layout changes. This makes these approaches unsuitable for applications that require 3D object-wise control and iterative refinements, e.g., interior design and complex scene generation. To this end, we leverage the recent advancements in depth-conditioned T2I models and propose a novel approach for interactive 3D layout control. We replace the traditional 2D boxes used in layout control with 3D boxes. Furthermore, we revamp the T2I task as a multi-stage generation process, where at each stage, the user can insert, change, and move an object in 3D while preserving objects from earlier stages. We achieve this through our proposed Dynamic Self-Attention (DSA) module and the consistent 3D object translation strategy. Experiments show that our approach can generate complicated scenes based on 3D layouts, boosting the object generation success rate over the standard depth-conditioned T2I methods by 2x. Moreover, it outperforms other methods in comparison in preserving objects under layout changes. Project Page: \\url{https://abdo-eldesokey.github.io/build-a-scene/}",
+      "year": 2024,
+      "authors": [
+        "Abdelrahman Eldesokey",
+        "Peter Wonka"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.14819v1",
+      "url": "http://arxiv.org/abs/2408.14819v1",
+      "key": "arxiv_240814819v1_Build-A-Scene_Interactive_3D_Layout_Control_for_Diffusion-Based_Image_Ge",
+      "file_kind": "txt",
+      "file": "arxiv_240814819v1_Build-A-Scene_Interactive_3D_Layout_Control_for_Diffusion-Based_Image_Ge.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2504.11734v2",
+      "doi": "",
+      "title": "Recent Advances in 3D Object and Scene Generation: A Survey",
+      "abstract": "In recent years, the demand for 3D content has grown exponentially with the intelligent upgrade of interactive media, extended reality (XR), and Metaverse industries. In order to overcome the limitations of traditional manual modeling approaches, such as labor-intensive workflows and prolonged production cycles, revolutionary advances have been achieved through the convergence of novel 3D representation paradigms and artificial intelligence generative technologies. In this survey, we conduct a systematic review of the cutting-edge achievements in static 3D object and scene generation, as well as establish a comprehensive technical framework through systematic categorization. We start our analysis with mainstream 3D object representations. Subsequently, we delve into the technical pathways of 3D object generation based on four mainstream deep generative models: Variational Autoencoders, Generative Adversarial Networks, Autoregressive Models, and Diffusion Models. Regarding scene generation, we focus on three dominant paradigms: layout-guided generation, lifting based on 2D priors, and rule-driven modeling. Finally, we critically examine persistent challenges in 3D generation and propose potential research directions for future investigation. This survey aims to provide readers with a structured understanding of state-of-the-art 3D generation technologies while inspiring researchers to undertake more exploration in this domain.",
+      "year": 2025,
+      "authors": [
+        "Xiang Tang",
+        "Ruotong Li",
+        "Xiaopeng Fan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2504.11734v2",
+      "url": "http://arxiv.org/abs/2504.11734v2",
+      "key": "arxiv_250411734v2_Recent_Advances_in_3D_Object_and_Scene_Generation_A_Survey",
+      "file_kind": "txt",
+      "file": "arxiv_250411734v2_Recent_Advances_in_3D_Object_and_Scene_Generation_A_Survey.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.01801v2",
+      "doi": "",
+      "title": "SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation",
+      "abstract": "We present SceneFactor, a diffusion-based approach for large-scale 3D scene generation that enables controllable generation and effortless editing. SceneFactor enables text-guided 3D scene synthesis through our factored diffusion formulation, leveraging latent semantic and geometric manifolds for generation of arbitrary-sized 3D scenes. While text input enables easy, controllable generation, text guidance remains imprecise for intuitive, localized editing and manipulation of the generated 3D scenes. Our factored semantic diffusion generates a proxy semantic space composed of semantic 3D boxes that enables controllable editing of generated scenes by adding, removing, changing the size of the semantic 3D proxy boxes that guides high-fidelity, consistent 3D geometric editing. Extensive experiments demonstrate that our approach enables high-fidelity 3D scene synthesis with effective controllable editing through our factored diffusion approach.",
+      "year": 2024,
+      "authors": [
+        "Alexey Bokhovkin",
+        "Quan Meng",
+        "Shubham Tulsiani",
+        "Angela Dai"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.01801v2",
+      "url": "http://arxiv.org/abs/2412.01801v2",
+      "key": "arxiv_241201801v2_SceneFactor_Factored_Latent_3D_Diffusion_for_Controllable_3D_Scene_Gener",
+      "file_kind": "txt",
+      "file": "arxiv_241201801v2_SceneFactor_Factored_Latent_3D_Diffusion_for_Controllable_3D_Scene_Gener.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.04831v2",
+      "doi": "",
+      "title": "Steerable Scene Generation with Post Training and Inference-Time Search",
+      "abstract": "Training robots in simulation requires diverse 3D scenes that reflect the specific challenges of downstream tasks. However, scenes that satisfy strict task requirements, such as high-clutter environments with plausible spatial arrangement, are rare and costly to curate manually. Instead, we generate large-scale scene data using procedural models that approximate realistic environments for robotic manipulation, and adapt it to task-specific goals. We do this by training a unified diffusion-based generative model that predicts which objects to place from a fixed asset library, along with their SE(3) poses. This model serves as a flexible scene prior that can be adapted using reinforcement learning-based post training, conditional generation, or inference-time search, steering generation toward downstream objectives even when they differ from the original data distribution. Our method enables goal-directed scene synthesis that respects physical feasibility and scales across scene types. We introduce a novel MCTS-based inference-time search strategy for diffusion models, enforce feasibility via projection and simulation, and release a dataset of over 44 million SE(3) scenes spanning five diverse environments. Website with videos, code, data, and model weights: https://steerable-scene-generation.github.io/",
+      "year": 2025,
+      "authors": [
+        "Nicholas Pfaff",
+        "Hongkai Dai",
+        "Sergey Zakharov",
+        "Shun Iwase",
+        "Russ Tedrake"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.04831v2",
+      "url": "http://arxiv.org/abs/2505.04831v2",
+      "key": "arxiv_250504831v2_Steerable_Scene_Generation_with_Post_Training_and_Inference-Time_Search",
+      "file_kind": "txt",
+      "file": "arxiv_250504831v2_Steerable_Scene_Generation_with_Post_Training_and_Inference-Time_Search.txt"
+    }
+  ]
+}

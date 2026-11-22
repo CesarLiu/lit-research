@@ -1,0 +1,10 @@
+# real, Crossref-registered
+10.1038/nature14236
+# real arXiv-only paper (DataCite DOI, not Crossref)
+10.48550/arXiv.1706.03762
+# arXiv title only
+Attention Is All You Need
+# plausible invention
+CtRL-Sim++: Hierarchical Diffusion Reward Tilting for Closed-Loop Scenario Generation
+# retracted
+10.1016/S0140-6736(97)11096-0

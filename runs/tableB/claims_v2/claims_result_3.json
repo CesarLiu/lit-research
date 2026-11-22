@@ -1,0 +1,15 @@
+[
+ {"id": 27, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 28, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 29, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 30, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 31, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 32, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Count of 4 of 5 language/LLM-driven papers using a symbolic artefact checks out (TrafficAlign outputs text descriptions), but only one of [19]'s three stated_limitations (wrong loss code) sits in the generated code; heavy-map commands and the 1-minute runtime do not, so 'the stated failures of [19] sit there' overgeneralises."},
+ {"id": 33, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 34, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 35, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 36, "verdict": "PARTIAL", "wrong_citation": false, "issue": "The notes say only that no text-to-code accuracy metric appears in the packet; the sentence drops the 'in packet' qualifier and states as fact that the paper is not evaluated by text fidelity."},
+ {"id": 37, "verdict": "PARTIAL", "wrong_citation": false, "issue": "In controllability_evidence, 0.226 and 0.136 are overall failure rates (collision or off-road) under the no-collision and no-off-road rewards; labelling them '(collision)' and '(off-road)' reads as per-type rates, which the notes flag as ambiguous."},
+ {"id": 38, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 39, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""}
+]

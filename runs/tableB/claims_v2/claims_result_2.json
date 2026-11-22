@@ -1,0 +1,15 @@
+[
+ {"id": 14, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Recount gives 9 rows with control_family 'inference-time guidance' (8 gradient, SocialDriveGen [30] gradient-free), but control_mechanism of three language/LLM-driven rows (CTG++, LLM-guided hierarchical reasoning, LD-Scene) and the Top-down infilling row also steer diffusion sampling by gradient guidance, so 'nine papers' is the family count, not all papers doing this."},
+ {"id": 15, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 16, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 17, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 18, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 19, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 20, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 21, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 22, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 23, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 24, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 25, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Row notes say no condition-adherence metric 'in the packet', a qualifier the sentence drops; metrics field also lists open-loop MinADE6, MinFDE6, heading and speed error, so SCR is not shown to be its only quantitative comparison."},
+ {"id": 26, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""}
+]

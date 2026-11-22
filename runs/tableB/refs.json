@@ -1,0 +1,342 @@
+[
+ {
+  "n": 1,
+  "id": "advdiffuser_generating_adversarial_safety_critical",
+  "short": "AdvDiffuser",
+  "title": "AdvDiffuser: Generating Adversarial Safety-Critical Driving Scenarios via Guided Diffusion",
+  "first": "Xie et al.",
+  "year": 2024,
+  "doi": "",
+  "venue": "arXiv"
+ },
+ {
+  "n": 2,
+  "id": "advsim_generating_safety_critical_scenarios_for_se",
+  "short": "AdvSim",
+  "title": "AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles",
+  "first": "Wang et al.",
+  "year": 2021,
+  "doi": "10.1109/cvpr46437.2021.00978",
+  "venue": "arXiv"
+ },
+ {
+  "n": 3,
+  "id": "behaviorgpt_smart_agent_simulation_for_autonomous",
+  "short": "BehaviorGPT",
+  "title": "BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction",
+  "first": "Zhou et al.",
+  "year": 2024,
+  "doi": "10.52202/079017-2527",
+  "venue": "neural information processing systems"
+ },
+ {
+  "n": 4,
+  "id": "cat_closed_loop_adversarial_training_for_safe_end",
+  "short": "CAT",
+  "title": "CAT: Closed-loop Adversarial Training for Safe End-to-End Driving",
+  "first": "Zhang et al.",
+  "year": 2023,
+  "doi": "10.48550/arxiv.2310.12432",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 5,
+  "id": "causal_composition_diffusion_model_for_closed_loop",
+  "short": "Causal Composition Diffusion Model for C",
+  "title": "Causal Composition Diffusion Model for Closed-loop Traffic Generation",
+  "first": "Lin et al.",
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.02565",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings"
+ },
+ {
+  "n": 6,
+  "id": "chatscene_knowledge_enabled_safety_critical_scenar",
+  "short": "ChatScene",
+  "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles",
+  "first": "Zhang et al.",
+  "year": 2024,
+  "doi": "10.1109/cvpr52733.2024.01464",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings"
+ },
+ {
+  "n": 7,
+  "id": "conditional_flow_vae_for_safety_critical_traffic_s",
+  "short": "Conditional Flow-VAE for Safety-Critical",
+  "title": "Conditional Flow-VAE for Safety-Critical Traffic Scenario Generation",
+  "first": "Gong et al.",
+  "year": 2026,
+  "doi": "",
+  "venue": "arXiv"
+ },
+ {
+  "n": 8,
+  "id": "controllable_latent_diffusion_for_traffic_simulati",
+  "short": "Controllable Latent Diffusion for Traffi",
+  "title": "Controllable Latent Diffusion for Traffic Simulation",
+  "first": "Yizhuo et al.",
+  "year": 2025,
+  "doi": "10.48550/arxiv.2503.11771",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 9,
+  "id": "controllable_sim_agents_with_behavior_latents",
+  "short": "Controllable Sim Agents with Behavior La",
+  "title": "Controllable Sim Agents with Behavior Latents",
+  "first": "Lu et al.",
+  "year": 2026,
+  "doi": "10.48550/arxiv.2607.02496",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 10,
+  "id": "controllable_traffic_simulation_through_llm_guided",
+  "short": "Controllable Traffic Simulation through ",
+  "title": "Controllable Traffic Simulation through LLM-Guided Hierarchical Reasoning and Refinement",
+  "first": "Liu et al.",
+  "year": 2025,
+  "doi": "10.1109/iros60139.2025.11247747",
+  "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+ },
+ {
+  "n": 11,
+  "id": "ctrl_sim_reactive_and_controllable_driving_agents",
+  "short": "CtRL-Sim",
+  "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning",
+  "first": "Luke et al.",
+  "year": 2024,
+  "doi": "10.48550/arxiv.2403.19918",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 12,
+  "id": "diffscene_diffusion_based_safety_critical_scenario",
+  "short": "DiffScene",
+  "title": "DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles",
+  "first": "Xu et al.",
+  "year": 2025,
+  "doi": "10.1609/aaai.v39i8.32951",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence"
+ },
+ {
+  "n": 13,
+  "id": "dragtraffic_interactive_and_controllable_traffic_s",
+  "short": "DragTraffic",
+  "title": "DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving",
+  "first": "Wang et al.",
+  "year": 2024,
+  "doi": "10.1109/iros58592.2024.10801623",
+  "venue": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+ },
+ {
+  "n": 14,
+  "id": "ecosim_data_efficient_fine_tuning_for_controllable",
+  "short": "ECoSim",
+  "title": "ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation",
+  "first": "Chen et al.",
+  "year": 2026,
+  "doi": "10.1007/978-3-032-37196-6_2",
+  "venue": "Lecture notes in computer science"
+ },
+ {
+  "n": 15,
+  "id": "guided_conditional_diffusion_for_controllable_traf",
+  "short": "Guided Conditional Diffusion for Control",
+  "title": "Guided Conditional Diffusion for Controllable Traffic Simulation",
+  "first": "Zhong et al.",
+  "year": 2023,
+  "doi": "10.1109/icra48891.2023.10161463",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings"
+ },
+ {
+  "n": 16,
+  "id": "guided_latent_spaces_for_controllable_multi_scenar",
+  "short": "Guided Latent Spaces for Controllable Mu",
+  "title": "Guided Latent Spaces for Controllable Multi-Scenario Generation in Autonomous Driving (Student Abstract)",
+  "first": "Mammen et al.",
+  "year": 2026,
+  "doi": "10.1609/aaai.v40i48.42251",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence"
+ },
+ {
+  "n": 17,
+  "id": "king_generating_safety_critical_driving_scenarios",
+  "short": "KING",
+  "title": "KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients",
+  "first": "Hanselmann et al.",
+  "year": 2022,
+  "doi": "",
+  "venue": "arXiv"
+ },
+ {
+  "n": 18,
+  "id": "ld_scene_llm_guided_diffusion_for_controllable_gen",
+  "short": "LD-Scene",
+  "title": "LD-scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios",
+  "first": "Peng et al.",
+  "year": 2026,
+  "doi": "10.1016/j.trc.2026.105694",
+  "venue": "Transportation Research Part C Emerging Technologies"
+ },
+ {
+  "n": 19,
+  "id": "language_guided_traffic_simulation_via_scene_level",
+  "short": "Language-Guided Traffic Simulation via S",
+  "title": "Language-Guided Traffic Simulation via Scene-Level Diffusion",
+  "first": "Zhong et al.",
+  "year": 2023,
+  "doi": "10.48550/arxiv.2306.06344",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 20,
+  "id": "proposal_conditioned_latent_diffusion_for_closed_l",
+  "short": "Proposal-Conditioned Latent Diffusion fo",
+  "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation",
+  "first": "Phoolari et al.",
+  "year": 2026,
+  "doi": "10.48550/arxiv.2606.27123",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 21,
+  "id": "rlftsim_realistic_and_controllable_multi_agent_tra",
+  "short": "RLFTSim",
+  "title": "RLFTSim: Realistic and Controllable Multi-Agent Traffic Simulation via Reinforcement Learning Fine-Tuning",
+  "first": "Ahmadi et al.",
+  "year": 2026,
+  "doi": "10.48550/arxiv.2605.19033",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 22,
+  "id": "realgen_retrieval_augmented_generation_for_control",
+  "short": "RealGen",
+  "title": "RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios",
+  "first": "Ding et al.",
+  "year": 2024,
+  "doi": "10.1007/978-3-031-73033-7_6",
+  "venue": "Lecture notes in computer science"
+ },
+ {
+  "n": 23,
+  "id": "rolling_ahead_diffusion_for_traffic_scene_simulati",
+  "short": "Rolling Ahead Diffusion for Traffic Scen",
+  "title": "Rolling Ahead Diffusion for Traffic Scene Simulation",
+  "first": "Liu et al.",
+  "year": 2025,
+  "doi": "10.48550/arxiv.2502.09587",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 24,
+  "id": "smart_scalable_multi_agent_real_time_motion_genera",
+  "short": "SMART",
+  "title": "SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction",
+  "first": "Wu et al.",
+  "year": 2024,
+  "doi": "10.52202/079017-3622",
+  "venue": "neural information processing systems"
+ },
+ {
+  "n": 25,
+  "id": "safe_sim_safety_critical_closed_loop_traffic_simul",
+  "short": "Safe-Sim",
+  "title": "SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries",
+  "first": "Chang et al.",
+  "year": 2024,
+  "doi": "10.1007/978-3-031-72664-4_14",
+  "venue": "Lecture notes in computer science"
+ },
+ {
+  "n": 26,
+  "id": "safety_critical_traffic_simulation_with_guided_lat",
+  "short": "Safety-Critical Traffic Simulation with ",
+  "title": "Safety-Critical Traffic Simulation with Guided Latent Diffusion Model",
+  "first": "Peng et al.",
+  "year": 2025,
+  "doi": "10.1109/itsc60802.2025.11423275",
+  "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)"
+ },
+ {
+  "n": 27,
+  "id": "scenario_diffusion_controllable_driving_scenario_g",
+  "short": "Scenario Diffusion",
+  "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion",
+  "first": "Pronovost et al.",
+  "year": 2023,
+  "doi": "10.52202/075280-3014",
+  "venue": "Advances in Neural Information Processing Systems 36"
+ },
+ {
+  "n": 28,
+  "id": "scenario_dreamer_vectorized_latent_diffusion_for_g",
+  "short": "Scenario Dreamer",
+  "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+  "first": "Rowe et al.",
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.01604",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings"
+ },
+ {
+  "n": 29,
+  "id": "scenedm_scene_level_multi_agent_trajectory_generat",
+  "short": "SceneDM",
+  "title": "SceneDM: Scene-level Multi-agent Trajectory Generation with Consistent Diffusion Models",
+  "first": "Guo et al.",
+  "year": 2023,
+  "doi": "10.48550/arxiv.2311.15736",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 30,
+  "id": "socialdrivegen_generating_diverse_traffic_scenario",
+  "short": "SocialDriveGen",
+  "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions",
+  "first": "Tian et al.",
+  "year": 2026,
+  "doi": "10.1007/s11704-026-51974-4",
+  "venue": "Frontiers of Computer Science"
+ },
+ {
+  "n": 31,
+  "id": "top_down_traffic_scenario_generation_via_joint_ini",
+  "short": "Top-down Traffic Scenario Generation via",
+  "title": "Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion and Trajectory Infilling",
+  "first": "Lee et al.",
+  "year": 2026,
+  "doi": "10.48550/arxiv.2608.11407",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "n": 32,
+  "id": "trafficalign_aligning_large_language_models_for_tr",
+  "short": "TrafficAlign",
+  "title": "TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation",
+  "first": "Tu et al.",
+  "year": 2026,
+  "doi": "10.48550/arxiv.2606.29097",
+  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2026, pp. 39744-39754"
+ },
+ {
+  "n": 33,
+  "id": "trajeglish_traffic_modeling_as_next_token_predicti",
+  "short": "Trajeglish",
+  "title": "Trajeglish: Traffic Modeling as Next-Token Prediction",
+  "first": "Philion et al.",
+  "year": 2024,
+  "doi": "10.48550/arxiv.2312.04535",
+  "venue": "International Conference on Learning Representations"
+ },
+ {
+  "n": 34,
+  "id": "versatile_behavior_diffusion_for_generalized_traff",
+  "short": "Versatile Behavior Diffusion for General",
+  "title": "Versatile Behavior Diffusion for Generalized Traffic Agent Simulation",
+  "first": "Huang et al.",
+  "year": 2026,
+  "doi": "10.1109/tits.2026.3662886",
+  "venue": "IEEE Transactions on Intelligent Transportation Systems"
+ }
+]

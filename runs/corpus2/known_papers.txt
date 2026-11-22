@@ -1,0 +1,17 @@
+# Titles recalled from memory (and the DragTraffic reference list); used only as a recall probe.
+Trajeglish: Traffic Modeling as Next-Token Prediction
+Guided Conditional Diffusion for Controllable Traffic Simulation
+Language-Guided Traffic Simulation via Scene-Level Diffusion
+SceneDM: Scene-level Multi-agent Trajectory Generation with Consistent Diffusion Models
+MotionDiffuser: Controllable Multi-Agent Motion Prediction using Diffusion
+TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios
+SceneGen: Learning to Generate Realistic Traffic Scenes
+The Waymo Open Sim Agents Challenge
+CAT: Closed-loop Adversarial Training for Safe End-to-End Driving
+SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic
+DriveSceneGen: Generating Diverse and Realistic Driving Scenarios from Scratch
+BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction
+SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction
+CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning
+Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments
+Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion

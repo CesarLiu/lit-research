@@ -1,0 +1,70 @@
+? WEAK MATCH  Xie, Guo, Wang et al. (2024). AdvDiffuser: Generating Advers
+              closest: Xie et al. (2024) AdvDiffuser: Generating Adversarial Safety-Critical Driving Scenarios vi… — 2024 IEEE/RSJ International Conference o (overlap 59%)
+✓ CONFIRMED   Wang et al. (2021) AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles — 2021 IEEE/CVF Conference on Computer Vis
+              https://doi.org/10.1109/cvpr46437.2021.00978
+✓ CONFIRMED   Zhou et al. (2024) BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Pat… — Advances in Neural Information Processin
+              https://doi.org/10.52202/079017-2527
+✓ CONFIRMED   Zhang et al. (2023) CAT: Closed-loop Adversarial Training for Safe End-to-End Driving — arXiv
+              https://doi.org/10.48550/arXiv.2310.12432
+✓ CONFIRMED   Lin et al. (2025) Causal Composition Diffusion Model for Closed-loop Traffic Generation — 2025 IEEE/CVF Conference on Computer Vis
+              https://doi.org/10.1109/cvpr52734.2025.02565
+✓ CONFIRMED   Zhang et al. (2024) ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Aut… — 2024 IEEE/CVF Conference on Computer Vis
+              https://doi.org/10.1109/cvpr52733.2024.01464
+? WEAK MATCH  Gong, Zhang, Zhang et al. (2026). Conditional Flow-VAE for S
+              closest: Gong et al. (2026) Conditional Flow-VAE for Safety-Critical Traffic Scenario Generation — 2026 IEEE International Conference on Ro (overlap 60%)
+✓ CONFIRMED   Xiao et al. (2025) Controllable Latent Diffusion for Traffic Simulation — arXiv
+              https://doi.org/10.48550/arXiv.2503.11771
+✓ CONFIRMED   Lu et al. (2026) Controllable Sim Agents with Behavior Latents — arXiv
+              https://doi.org/10.48550/arXiv.2607.02496
+✓ CONFIRMED   Liu et al. (2025) Controllable Traffic Simulation through LLM-Guided Hierarchical Reasonin… — 2025 IEEE/RSJ International Conference o
+              https://doi.org/10.1109/iros60139.2025.11247747
+✓ CONFIRMED   Rowe et al. (2024) CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforc… — arXiv
+              https://doi.org/10.48550/arXiv.2403.19918
+✓ CONFIRMED   Xu et al. (2025) DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Auton… — Proceedings of the AAAI Conference on Ar
+              https://doi.org/10.1609/aaai.v39i8.32951
+✓ CONFIRMED   Wang et al. (2024) DragTraffic: Interactive and Controllable Traffic Scene Generation for A… — 2024 IEEE/RSJ International Conference o
+              https://doi.org/10.1109/iros58592.2024.10801623
+✓ CONFIRMED   Chen et al. (2026) ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation — Lecture Notes in Computer Science
+              https://doi.org/10.1007/978-3-032-37196-6_2
+✓ CONFIRMED   Zhong et al. (2023) Guided Conditional Diffusion for Controllable Traffic Simulation — 2023 IEEE International Conference on Ro
+              https://doi.org/10.1109/icra48891.2023.10161463
+✓ CONFIRMED   Mammen et al. (2026) Guided Latent Spaces for Controllable Multi-Scenario Generation in Auton… — Proceedings of the AAAI Conference on Ar
+              https://doi.org/10.1609/aaai.v40i48.42251
+? WEAK MATCH  Hanselmann, Renz, Chitta et al. (2022). KING: Generating Saf
+              closest: Hanselmann et al. (2022) KING: Generating Safety-Critical Driving Scenarios for Robust Imitation … — Lecture Notes in Computer Science (overlap 63%)
+✓ CONFIRMED   Peng et al. (2026) LD-scene: LLM-guided diffusion for controllable generation of adversaria… — Transportation Research Part C: Emerging
+              https://doi.org/10.1016/j.trc.2026.105694
+✓ CONFIRMED   Zhong et al. (2023) Language-Guided Traffic Simulation via Scene-Level Diffusion — arXiv
+              https://doi.org/10.48550/arXiv.2306.06344
+✓ CONFIRMED   Phoolari et al. (2026) Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario G… — arXiv
+              https://doi.org/10.48550/arXiv.2606.27123
+✓ CONFIRMED   Ahmadi et al. (2026) RLFTSim: Realistic and Controllable Multi-Agent Traffic Simulation via R… — arXiv
+              https://doi.org/10.48550/arXiv.2605.19033
+✓ CONFIRMED   Ding et al. (2024) RealGen: Retrieval Augmented Generation for Controllable Traffic Scenari… — Lecture Notes in Computer Science
+              https://doi.org/10.1007/978-3-031-73033-7_6
+✓ CONFIRMED   Liu et al. (2025) Rolling Ahead Diffusion for Traffic Scene Simulation — arXiv
+              https://doi.org/10.48550/arXiv.2502.09587
+✓ CONFIRMED   Wu et al. (2024) SMART: Scalable Multi-agent Real-time Motion Generation via Next-token P… — Advances in Neural Information Processin
+              https://doi.org/10.52202/079017-3622
+✓ CONFIRMED   Chang et al. (2024) SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-… — Lecture Notes in Computer Science
+              https://doi.org/10.1007/978-3-031-72664-4_14
+✓ CONFIRMED   Peng et al. (2025) Safety-Critical Traffic Simulation with Guided Latent Diffusion Model — 2025 IEEE 28th International Conference 
+              https://doi.org/10.1109/itsc60802.2025.11423275
+✓ CONFIRMED   Pronovost et al. (2023) Scenario Diffusion: Controllable Driving Scenario Generation With Diffus… — Advances in Neural Information Processin
+              https://doi.org/10.52202/075280-3014
+✓ CONFIRMED   Rowe et al. (2025) Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Sim… — 2025 IEEE/CVF Conference on Computer Vis
+              https://doi.org/10.1109/cvpr52734.2025.01604
+✓ CONFIRMED   Guo et al. (2023) SceneDM: Scene-level Multi-agent Trajectory Generation with Consistent D… — arXiv
+              https://doi.org/10.48550/arXiv.2311.15736
+✓ CONFIRMED   Tian et al. (2026) SocialDriveGen: generating diverse traffic scenarios with controllable s… — Frontiers of Computer Science
+              https://doi.org/10.1007/s11704-026-51974-4
+✓ CONFIRMED   Lee et al. (2026) Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion an… — arXiv
+              https://doi.org/10.48550/arXiv.2608.11407
+✓ CONFIRMED   Tu et al. (2026) TrafficAlign: Aligning Large Language Models for Traffic Scenario Genera… — arXiv
+              https://doi.org/10.48550/arXiv.2606.29097
+✓ CONFIRMED   Philion et al. (2023) Trajeglish: Traffic Modeling as Next-Token Prediction — arXiv
+              https://doi.org/10.48550/arXiv.2312.04535
+✓ CONFIRMED   Huang et al. (2026) Versatile Behavior Diffusion for Generalized Traffic Agent Simulation — IEEE Transactions on Intelligent Transpo
+              https://doi.org/10.1109/tits.2026.3662886
+
+confirmed=31  title-only=0  not-found=0  mismatch=3  retracted=0

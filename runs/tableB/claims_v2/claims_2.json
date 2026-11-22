@@ -1,0 +1,231 @@
+[
+ {
+  "id": 14,
+  "section": "3.1 Guidance gives a dial, at a price in realism",
+  "text": "Nine papers steer a trained diffusion generator by guidance at sampling time: eight with a gradient and [30] with a gradient-free search.",
+  "cited": [
+   30
+  ],
+  "previous_sentence": "",
+  "papers": [
+   {
+    "n": 30,
+    "row_file": "rows/socialdrivegen_generating_diverse_traffic_scenario.json",
+    "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 15,
+  "section": "3.1 Guidance gives a dial, at a price in realism",
+  "text": "The dial is shown with numbers in [25], [20] and [30], and as a trend in [12].",
+  "cited": [
+   12,
+   20,
+   25,
+   30
+  ],
+  "previous_sentence": "Nine papers steer a trained diffusion generator by guidance at sampling time: eight with a gradient and [30] with a gradient-free search.",
+  "papers": [
+   {
+    "n": 12,
+    "row_file": "rows/diffscene_diffusion_based_safety_critical_scenario.json",
+    "title": "DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles"
+   },
+   {
+    "n": 20,
+    "row_file": "rows/proposal_conditioned_latent_diffusion_for_closed_l.json",
+    "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation"
+   },
+   {
+    "n": 25,
+    "row_file": "rows/safe_sim_safety_critical_closed_loop_traffic_simul.json",
+    "title": "SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries"
+   },
+   {
+    "n": 30,
+    "row_file": "rows/socialdrivegen_generating_diverse_traffic_scenario.json",
+    "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 16,
+  "section": "3.1 Guidance gives a dial, at a price in realism",
+  "text": "In [25], raising the TTC cost weight from 0.0 to 1.0 to 2.0 raises the collision rate from 48.2 to 53.6 to 60.7 %.",
+  "cited": [
+   25
+  ],
+  "previous_sentence": "The dial is shown with numbers in [25], [20] and [30], and as a trend in [12].",
+  "papers": [
+   {
+    "n": 25,
+    "row_file": "rows/safe_sim_safety_critical_closed_loop_traffic_simul.json",
+    "title": "SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 17,
+  "section": "3.1 Guidance gives a dial, at a price in realism",
+  "text": "In [20], raising the pursuit weight from 10 to 60 together with the step size from 0.05 to 0.10 lifts the ego-adversary collision rate from 18.9 % to 47.8 %, so the rise cannot be credited to the weight alone.",
+  "cited": [
+   20
+  ],
+  "previous_sentence": "In [25], raising the TTC cost weight from 0.0 to 1.0 to 2.0 raises the collision rate from 48.2 to 53.6 to 60.7 %.",
+  "papers": [
+   {
+    "n": 20,
+    "row_file": "rows/proposal_conditioned_latent_diffusion_for_closed_l.json",
+    "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 18,
+  "section": "3.1 Guidance gives a dial, at a price in realism",
+  "text": "In [30], lowering the social-constraint weight lambda from 1.0 to 0.3 raises the extrinsic reward by 86.49 %.",
+  "cited": [
+   30
+  ],
+  "previous_sentence": "In [20], raising the pursuit weight from 10 to 60 together with the step size from 0.05 to 0.10 lifts the ego-adversary collision rate from 18.9 % to 47.8 %, so the rise cannot be credited to the weight alone.",
+  "papers": [
+   {
+    "n": 30,
+    "row_file": "rows/socialdrivegen_generating_diverse_traffic_scenario.json",
+    "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 19,
+  "section": "3.1 Guidance gives a dial, at a price in realism",
+  "text": "In [12], the collision rate rises as the number of guided optimisation steps goes from 0 to 30, while naturalness metrics worsen.",
+  "cited": [
+   12
+  ],
+  "previous_sentence": "In [30], lowering the social-constraint weight lambda from 1.0 to 0.3 raises the extrinsic reward by 86.49 %.",
+  "papers": [
+   {
+    "n": 12,
+    "row_file": "rows/diffscene_diffusion_based_safety_critical_scenario.json",
+    "title": "DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 20,
+  "section": "3.1 Guidance gives a dial, at a price in realism",
+  "text": "The price is stated in several rows.",
+  "cited": [],
+  "previous_sentence": "In [12], the collision rate rises as the number of guided optimisation steps goes from 0 to 30, while naturalness metrics worsen.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 21,
+  "section": "3.1 Guidance gives a dial, at a price in realism",
+  "text": "Realism worsens slightly as the TTC weight rises in [25] (0.76 to 0.81, lower is better), and in [20] it worsens from 0.53 to 0.66 when the pursuit weight and step size are raised together.",
+  "cited": [
+   20,
+   25
+  ],
+  "previous_sentence": "The price is stated in several rows.",
+  "papers": [
+   {
+    "n": 20,
+    "row_file": "rows/proposal_conditioned_latent_diffusion_for_closed_l.json",
+    "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation"
+   },
+   {
+    "n": 25,
+    "row_file": "rows/safe_sim_safety_critical_closed_loop_traffic_simul.json",
+    "title": "SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 22,
+  "section": "3.1 Guidance gives a dial, at a price in realism",
+  "text": "[20] also says guidance depends on differentiable, calibrated objectives, can degrade other fidelity metrics, adds compute and is sensitive to step size and weights.",
+  "cited": [
+   20
+  ],
+  "previous_sentence": "Realism worsens slightly as the TTC weight rises in [25] (0.76 to 0.81, lower is better), and in [20] it worsens from 0.53 to 0.66 when the pursuit weight and step size are raised together.",
+  "papers": [
+   {
+    "n": 20,
+    "row_file": "rows/proposal_conditioned_latent_diffusion_for_closed_l.json",
+    "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 23,
+  "section": "3.2 Trained-in conditioning can be tested directly, but only for what was trained",
+  "text": "[27] shows control of density: the agent-token match rate stays at 0.97 from 0 to 50 % masking, while the number of additionally generated agents rises from 0.4 to 12.6 as the mask probability rises.",
+  "cited": [
+   27
+  ],
+  "previous_sentence": "",
+  "papers": [
+   {
+    "n": 27,
+    "row_file": "rows/scenario_diffusion_controllable_driving_scenario_g.json",
+    "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 24,
+  "section": "3.2 Trained-in conditioning can be tested directly, but only for what was trained",
+  "text": "The paper varies the mask probability and infers from these counts that the global token controls density.",
+  "cited": [],
+  "previous_sentence": "[27] shows control of density: the agent-token match rate stays at 0.97 from 0 to 50 % masking, while the number of additionally generated agents rises from 0.4 to 12.6 as the mask probability rises.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 25,
+  "section": "3.2 Trained-in conditioning can be tested directly, but only for what was trained",
+  "text": "[13] is mostly qualitative; its quantitative comparison (scenario collision rate 3.33 % against 13.59 % for a baseline) concerns interaction reasoning, and no condition-adherence metric is reported.",
+  "cited": [
+   13
+  ],
+  "previous_sentence": "The paper varies the mask probability and infers from these counts that the global token controls density.",
+  "papers": [
+   {
+    "n": 13,
+    "row_file": "rows/dragtraffic_interactive_and_controllable_traffic_s.json",
+    "title": "DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 26,
+  "section": "3.2 Trained-in conditioning can be tested directly, but only for what was trained",
+  "text": "[14] reports up to 83 % lower control error but evaluates with controls derived from ground-truth trajectories, and states that it controls a single agent and may favour control satisfaction over safe interaction.",
+  "cited": [
+   14
+  ],
+  "previous_sentence": "[13] is mostly qualitative; its quantitative comparison (scenario collision rate 3.33 % against 13.59 % for a baseline) concerns interaction reasoning, and no condition-adherence metric is reported.",
+  "papers": [
+   {
+    "n": 14,
+    "row_file": "rows/ecosim_data_efficient_fine_tuning_for_controllable.json",
+    "title": "ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation"
+   }
+  ],
+  "flags": []
+ }
+]

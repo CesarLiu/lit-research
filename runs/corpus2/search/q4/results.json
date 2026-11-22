@@ -1,0 +1,1157 @@
+{
+  "query": "adversarial safety-critical scenario generation autonomous driving",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 41,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7168400168",
+      "doi": "10.2139/ssrn.7121433",
+      "title": "PhysCrit: Physically Feasible Safety-Critical Scenario Generation for Robust Autonomous Driving through Constrained Adversarial Optimization",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Seheon Ha",
+        "Jahyun Koo",
+        "Youngki Kim",
+        "Yuseung Na",
+        "Paulo Resende",
+        "Thomas Heitzmann",
+        "Kichun Jo"
+      ],
+      "venue": "SSRN Electronic Journal",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7168400168",
+      "key": "openalex_102139_ssrn7121433_PhysCrit_Physically_Feasible_Safety-Critical_Scenario_Generati",
+      "file_kind": "txt",
+      "file": "openalex_102139_ssrn7121433_PhysCrit_Physically_Feasible_Safety-Critical_Scenario_Generati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4361861254",
+      "doi": "10.1109/tits.2023.3259322",
+      "title": "A Survey on Safety-Critical Driving Scenario Generation—A Methodological Perspective",
+      "abstract": "Autonomous driving systems have witnessed significant development during the past years thanks to the advance in machine learning-enabled sensing and decision-making algorithms. One critical challenge for their massive deployment in the real world is their safety evaluation. Most existing driving systems are still trained and evaluated on naturalistic scenarios collected from daily life or heuristically-generated adversarial ones. However, the large population of cars, in general, leads to an extremely low collision rate, indicating that safety-critical scenarios are rare in the collected real-world data. Thus, methods to artificially generate scenarios become crucial to measure the risk and reduce the cost. In this survey, we focus on the algorithms of safety-critical scenario generation in autonomous driving. We first provide a comprehensive taxonomy of existing algorithms by dividing them into three categories: data-driven generation, adversarial generation, and knowledge-based generation. Then, we discuss useful tools for scenario generation, including simulation platforms and packages. Finally, we extend our discussion to five main challenges of current works– fidelity, efficiency, diversity, transferability, controllability– and research opportunities lighted up by these challenges.",
+      "year": 2023,
+      "authors": [
+        "Wenhao Ding",
+        "Chejian Xu",
+        "Mansur Arief",
+        "Haohong Lin",
+        "Bo Li",
+        "Ding Xuan Zhao"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 437,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2202.02215",
+      "url": "https://openalex.org/W4361861254",
+      "also_doi": [],
+      "key": "openalex_101109_tits20233259322_A_Survey_on_Safety-Critical_Driving_Scenario_GenerationA_M",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20233259322_A_Survey_on_Safety-Critical_Driving_Scenario_GenerationA_M.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4388936562",
+      "doi": "10.1109/tiv.2023.3335862",
+      "title": "Adversarial Safety-Critical Scenario Generation Using Naturalistic Human Driving Priors",
+      "abstract": "Evaluating the decision-making system is indispensable in developing autonomous vehicles, while realistic and challenging safety-critical test scenarios play a crucial role. Obtaining these scenarios is non-trivial, thanks to the long-tailed distribution, sparsity, and rarity in real-world data sets. To tackle this problem, in this paper, we introduce a natural adversarial scenario generation solution using naturalistic human driving priors and reinforcement learning techniques. By doing this, we can obtain large-scale test scenarios that are both diverse and realistic. Specifically, we build a simulation environment that mimics natural traffic interaction scenarios. Informed by this environment, we implement a two-stage procedure. The first stage incorporates conventional rule-based models, e.g., IDM (Intelligent Driver Model) and MOBIL (Minimizing Overall Braking Induced by Lane changes) model, to coarsely and discretely capture and calibrate key control parameters from the real-world dataset. Next, we leverage GAIL (Generative Adversarial Imitation Learning) to represent driver behaviors continuously. The derived GAIL can be further used to design a PPO (Proximal Policy Optimization)-based actor-critic network framework to fine-tune the reward function, and then optimize our natural adversarial scenario generation solution. Extensive experiments have been conducted in two popular datasets, NGSIM and INTERACTION. Essential traffic parameters were measured in comparison with the baseline model, e.g., the collision rate, accelerations, steering, and the number of lane changes. Our findings demonstrate that the proposed model can generate realistic safety-critical test scenarios covering both naturalness and adversariality with an advanced 44% efficiency gain over the baseline model, which can be a cornerstone for the development of autonomous vehicles.",
+      "year": 2023,
+      "authors": [
+        "Kunkun Hao",
+        "Wen Quan Cui",
+        "Yonggang Luo",
+        "Lecheng Xie",
+        "Yuqiao Bai",
+        "Jucheng Yang",
+        "Songyang Yan",
+        "Yuxi Pan",
+        "Zijiang Yang"
+      ],
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "cited_by": 66,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.03200",
+      "url": "https://openalex.org/W4388936562",
+      "key": "openalex_101109_tiv20233335862_Adversarial_Safety-Critical_Scenario_Generation_Using_Natur",
+      "file_kind": "txt",
+      "file": "openalex_101109_tiv20233335862_Adversarial_Safety-Critical_Scenario_Generation_Using_Natur.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4409366385",
+      "doi": "10.1609/aaai.v39i8.32951",
+      "title": "DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles",
+      "abstract": "The field of Autonomous Driving (AD) has witnessed significant progress in recent years. Among the various challenges faced, the safety evaluation of autonomous vehicles (AVs) stands out as a critical concern. Traditional evaluation methods are both costly and inefficient, often requiring extensive driving mileage in order to encounter rare safety-critical scenarios, which are distributed on the long tail of the complex real-world driving landscape. In this paper, we propose a unified approach, Diffusion-Based Safety-Critical Scenario Generation (DiffScene), to generate high-quality safety-critical scenarios which are both realistic and safety-critical for efficient AV evaluation. In particular, we propose a diffusion-based generation framework, leveraging the power of approximating the distribution of low-density spaces for diffusion models. We design several adversarial optimization objectives to guide the diffusion generation under predefined adversarial budgets. These objectives, such as safety-based objective, functionality-based objective, and constraint-based objective, ensure the generation of safety-critical scenarios while adhering to specific constraints. Extensive experimentation has been conducted to validate the efficacy of our approach. Compared with 6 SOTA baselines, DiffScene generates scenarios that are (1) more safety-critical under 3 metrics, (2) more realistic under 5 distance functions, and (3) more transferable to different AV algorithms. In addition, we demonstrate that training AV algorithms with scenarios generated by DiffScene leads to significantly higher performance in terms of the safety-critical metrics compared to baselines. These findings highlight the potential of DiffScene in addressing the challenges of AV safety evaluation, paving the way for safer AV development.",
+      "year": 2025,
+      "authors": [
+        "Chejian Xu",
+        "Aleksandr Petiushko",
+        "Zhao Ding",
+        "Bo Li"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 120,
+      "is_oa": true,
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/32951/35106",
+      "url": "https://openalex.org/W4409366385",
+      "key": "openalex_101609_aaaiv39i832951_DiffScene_Diffusion-Based_Safety-Critical_Scenario_Generati",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv39i832951_DiffScene_Diffusion-Based_Safety-Critical_Scenario_Generati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7136765536",
+      "doi": "10.1109/itsc60802.2025.11423840",
+      "title": "Interactive Adversarial Scenario Generation for Autonomous Driving: A Continual Learning Framework with Safety Constraints",
+      "abstract": "Safety-critical scenarios are of significant value for testing and validating autonomous vehicles (AVs). However, their long-tailed distributions in real-world environments make efficient data collection challenging. Data-driven methods for targeted generation of challenging testing scenarios offer a promising solution, but adversarial approaches that solely focus on maximizing adversarial interactions often lead to inevitable collisions, leaving no space for the AV to make decisions. To address this challenge, we propose Constrained-Adversarial Policy Optimization (CAPO), an interactive scenario generation method that incorporates adversarial rationality. CAPO is built on a twophase continual learning framework. In Phase I, multi-agent reinforcement learning (MARL) with safety-constraint function (SCF) is utilized to train agents to interact safely and accomplish driving tasks. In the Phase II, an AV expert is introduced to scenarios which are generated by adversarial agents considering the AV's minimum safety constraint. These generated scenarios are adversarial yet solvable for the AV expert. Through open-loop and closed-loop tests, CAPO demonstrates its ability to produce more solvable and safety-critical scenarios, while significantly reducing unrealistic adversarial cases and unavoidable collisions.",
+      "year": 2025,
+      "authors": [
+        "Jialin Fan",
+        "Ying Ni",
+        "Yuhang Chen",
+        "Site Li",
+        "Jian Sun",
+        "Jian Sun"
+      ],
+      "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+      "cited_by": 2,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7136765536",
+      "key": "openalex_101109_itsc60802202511423840_Interactive_Adversarial_Scenario_Generation_for_Auto",
+      "file_kind": "txt",
+      "file": "openalex_101109_itsc60802202511423840_Interactive_Adversarial_Scenario_Generation_for_Auto.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7138919818",
+      "doi": "10.1609/aaai.v40i45.41238",
+      "title": "Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles",
+      "abstract": "The generation of safety-critical scenarios in simulation has become increasingly crucial for safety evaluation in autonomous vehicles (AV) prior to road deployment in society. However, current approaches largely rely on predefined threat patterns or rule-based strategies, which limit their ability to expose diverse and unforeseen failure modes. To overcome these, we propose ScenGE, a framework that can generate plentiful safety-critical scenarios by reasoning novel adversarial cases and then amplifying them with complex traffic flows. Given a simple prompt of a benign scene, it first performs Meta-Scenario Generation, where a large language model (LLM), grounded in structured driving knowledge (e.g., traffic regulations, real-world accident records), infers an adversarial agent whose behavior poses a threat that is both plausible and deliberately challenging. This meta-scenario is then specified in executable code for precise in-simulator control. Subsequently, Complex Scenario Evolution uses background vehicles to amplify the core threat introduced by Meta-Scenario. It builds an adversarial collaborator graph to identify key agent trajectories for optimization. These perturbations are designed to simultaneously reduce the ego vehicle's maneuvering space and create critical occlusions. Extensive experiments conducted on multiple reinforcement learning (RL) based AV models show that ScenGE uncovers more severe collision cases (+31.96%) on average than SoTA baselines. Additionally, our ScenGE can be applied to large model based AV systems and deployed on different simulators; we further observe that adversarial training on our scenarios improves the model robustness. We hope our paper can build up a critical step towards building public trust and ensuring their safe deployment.",
+      "year": 2026,
+      "authors": [
+        "Jianxing Liu",
+        "Yongkang Guo",
+        "Fangzhi Zhong",
+        "Tianyuan Zhang",
+        "Zonglei Jing",
+        "Siyuan Liang",
+        "Jiakai Wang",
+        "Mingchuan Zhang",
+        "Aishan Liu",
+        "Xianglong Liu"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 15,
+      "is_oa": true,
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/41238/45199",
+      "url": "https://openalex.org/W7138919818",
+      "also_doi": [],
+      "key": "openalex_101609_aaaiv40i4541238_Adversarial_Generation_and_Collaborative_Evolution_of_Safe",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv40i4541238_Adversarial_Generation_and_Collaborative_Evolution_of_Safe.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4411550852",
+      "doi": "10.1109/tits.2025.3578383",
+      "title": "LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models",
+      "abstract": "Ensuring and improving the safety of autonomous driving systems (ADS) is crucial for deployment of highly automated vehicles, especially in safety-critical events. To address the rarity issue, adversarial scenario generation methods are developed, in which behaviors of traffic participants are manipulated to induce safety-critical events. However, existing methods still face two limitations. First, identification of the adversarial participant directly impacts the effectiveness of the generation. However, complexity of real-world scenarios, with numerous participants and diverse behaviors, makes identification challenging. Second, potential of generated safety-critical scenarios to continuously improve ADS performance remains underexplored. To address these issues, we propose LLM-attacker: a closed-loop adversarial scenario generation framework leveraging large language models (LLMs). Specifically, multiple LLM agents are designed and coordinated to identify optimal attackers. Then, the trajectories of attackers are optimized to generate adversarial scenarios. These scenarios are iteratively refined based on the performance of ADS, forming a feedback loop to improve ADS. Experimental results show that LLM-attacker can create more dangerous scenarios than other methods, and the ADS trained with it achieves a collision rate half that of training with normal scenarios. This indicates the ability of LLM-attacker to test and enhance the safety and robustness of ADS. The framework’s closed-loop design enables continuous scenario evolution compliant with regulatory standards, supporting both safety assurance and policy verification for ADS. Video demonstrations are provided at: https://drive.google.com/file/d/15rROV_ 8LUcc2jXSuSNBHVOHMCFKSn__B/view",
+      "year": 2025,
+      "authors": [
+        "Yuewen Mei",
+        "Tong Nie",
+        "Jian Sun",
+        "Ye Tian"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 77,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.15850",
+      "url": "https://openalex.org/W4411550852",
+      "key": "openalex_101109_tits20253578383_LLM-Attacker_Enhancing_Closed-Loop_Adversarial_Scenario_Ge",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20253578383_LLM-Attacker_Enhancing_Closed-Loop_Adversarial_Scenario_Ge.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4413241602",
+      "doi": "10.1016/j.trc.2026.105694",
+      "title": "LD-scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios",
+      "abstract": "Ensuring the safety and robustness of autonomous driving systems necessitates a comprehensive evaluation in safety-critical scenarios. However, these safety-critical scenarios are rare and difficult to collect from real-world driving data, posing significant challenges to effectively assessing the performance of autonomous vehicles. Typical existing methods often suffer from limited controllability and lack user-friendliness, as extensive expert knowledge is essentially required. To address these challenges, we propose LD-Scene, a novel framework that integrates Large Language Models (LLMs) with Latent Diffusion Models (LDMs) for user-controllable adversarial scenario generation through natural language. Our approach comprises an LDM that captures realistic driving trajectory distributions and an LLM-based guidance module that translates user queries into adversarial loss functions, facilitating the generation of scenarios aligned with user queries. The guidance module integrates an LLM-based Chain-of-Thought (CoT) code generator and an LLM-based code debugger, enhancing the controllability and robustness in generating guidance functions. Extensive experiments conducted on the nuScenes dataset demonstrate that LD-Scene achieves state-of-the-art performance in generating realistic, diverse, and effective adversarial scenarios. Furthermore, our framework provides fine-grained control over adversarial behaviors, thereby facilitating more effective testing tailored to specific driving scenarios.",
+      "year": 2026,
+      "authors": [
+        "Mingxing Peng",
+        "Yuting Xie",
+        "Xusen Guo",
+        "Ruoyu Yao",
+        "Hai Yang",
+        "Jun Ma"
+      ],
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "cited_by": 30,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.11247",
+      "url": "https://openalex.org/W4413241602",
+      "also_doi": [],
+      "key": "openalex_101016_jtrc2026105694_LD-scene_LLM-guided_diffusion_for_controllable_generation_o",
+      "file_kind": "txt",
+      "file": "openalex_101016_jtrc2026105694_LD-scene_LLM-guided_diffusion_for_controllable_generation_o.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413553311",
+      "doi": "10.1109/tits.2025.3586608",
+      "title": "AuthSim: Toward Authentic and Effective Safety-Critical Scenario Generation for Autonomous Driving Tests",
+      "abstract": "The generation of adversarial safety-critical scenarios is essential for rigorously evaluating autonomous driving systems, enabling the identification of vulnerabilities and enhancement of system robustness. However, existing methodologies predominantly focus on extreme, unconstrained collision scenarios in which non-player character (NPC) vehicles exhibit unrealistic adversarial behaviors toward the ego vehicle. While such scenarios serve as stress tests, their practical utility is limited due to two key factors: 1) these extreme events are statistically rare in real-world traffic and frequently involve collisions that are physically unavoidable, irrespective of the autonomous vehicle’s decision-making capabilities; and 2) NPC behaviors in these scenarios are often intentionally aggressive (e.g., deliberate rear-end collisions), resulting in liability attribution that predominantly lies with the NPCs rather than exposing meaningful system limitations. Recent efforts to enhance scenario plausibility rely extensively on large-scale real-world traffic datasets, introducing significant computational costs and scalability constraints. To overcome these limitations, we propose a three-layer relative safety region model that partitions the driving environment into zones of varying risk levels. This partitioning increases the likelihood that NPC vehicles will interact within relative safety boundary regions, thus enabling the generation of more realistic and contextually relevant adversarial scenarios without the need for extensive real-world traffic data. We introduce AuthSim, a platform that integrates this safety model with reinforcement learning (RL) to generate both authentic and effective safety-critical scenarios. AuthSim is the first comprehensive approach to address both the authenticity and effectiveness of autonomous driving test scenarios without relying on large-scale traffic data. Empirical results demonstrate that AuthSim outperforms existing methods, achieving a 5.25% improvement in average cut-in distance and a 11.94% increase in average collision interval time compared with the state-of-the-art (SOTA) results, all while maintaining superior efficiency in scenario generation. These findings highlight the potential of AuthSim to produce high-fidelity and efficient test cases for the rigorous evaluation of autonomous driving systems.",
+      "year": 2025,
+      "authors": [
+        "Yukuan Yang",
+        "Xucheng Lu",
+        "Zhili Zhang",
+        "Zepeng Wu",
+        "Guoqi Li",
+        "Lingzhong Meng",
+        "Zhiming Ding",
+        "Yunzhi Xue"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 9,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.21100",
+      "url": "https://openalex.org/W4413553311",
+      "key": "openalex_101109_tits20253586608_AuthSim_Toward_Authentic_and_Effective_Safety-Critical_Sce",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20253586608_AuthSim_Toward_Authentic_and_Effective_Safety-Critical_Sce.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3117307549",
+      "doi": "10.1109/itsc45102.2020.9294362",
+      "title": "Generation of Driving Scenario Trajectories with Generative Adversarial Networks",
+      "abstract": "The future of transportation is tightly connected to Autonomous Driving (AD). While a lot of progress has been made in recent years, there are still obstacles to overcome. One of the most critical issues is the safety verification of AD. A scenario-based verification approach that shifts tests from the fields to a virtual environment seems like a sophisticated approach to tackle the safety verification as tests need to be revised whenever changes are made to the AD. However, collecting and labelling data that can be used to construct scenarios is expensive and time-consuming to compute. In this work, we propose a unified framework for trajectory generation and validation in a consistent and principled way. We first explore methods to generate artificial trajectories that resemble the previously captured ones. More specifically, we consider two architectures based on Generative Adversarial Networks (GANs): recurrent GANs and a recurrent Autoencoder in combination with GANs. Moreover, we investigate the use of different metrics to evaluate the quality of generated trajectories which is a nontrivial task.",
+      "year": 2020,
+      "authors": [
+        "Andreas Demetriou",
+        "Henrik Allsvag",
+        "Sadegh Rahrovani",
+        "Morteza Haghir Chehreghani"
+      ],
+      "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+      "cited_by": 38,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W3117307549",
+      "key": "openalex_101109_itsc4510220209294362_Generation_of_Driving_Scenario_Trajectories_with_Gene",
+      "file_kind": "txt",
+      "file": "openalex_101109_itsc4510220209294362_Generation_of_Driving_Scenario_Trajectories_with_Gene.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7133222348",
+      "doi": "10.52202/068431-1861",
+      "title": "SafeBench: A Benchmarking Platform for Safety Evaluation of Autonomous Vehicles",
+      "abstract": "As shown by recent studies, machine intelligence-enabled systems are vulnerable to test cases resulting from either adversarial manipulation or natural distribution shifts. This has raised great concerns about deploying machine learning algorithms for real-world applications, especially in safety-critical domains such as autonomous driving (AD). On the other hand, traditional AD testing on naturalistic scenarios requires hundreds of millions of driving miles due to the high dimensionality and rareness of the safety-critical scenarios in the real world. As a result, several approaches for autonomous driving evaluation have been explored, which are usually, however, based on different simulation platforms, types of safety-critical scenarios, scenario generation algorithms, and driving route variations. Thus, despite a large amount of effort in autonomous driving testing, it is still challenging to compare and understand the effectiveness and efficiency of different testing scenario generation algorithms and testing mechanisms under similar conditions. In this paper, we aim to provide the first unified platform SafeBench to integrate different types of safety-critical testing scenarios, scenario generation algorithms, and other variations such as driving routes and environments. Meanwhile, we implement 4 deep reinforcement learning-based AD algorithms with 4 types of input (e.g., bird's-eye view, camera) to perform fair comparisons on SafeBench. We find our generated testing scenarios are indeed more challenging and observe the trade-off between the performance of AD agents under benign and safety-critical testing scenarios. We believe our unified platform SafeBench for large-scale and effective autonomous driving testing will motivate the development of new testing scenario generation and safe AD algorithms. SafeBench is available at https://safebench.github.io.",
+      "year": 2022,
+      "authors": [
+        "Chejian Xu",
+        "Wenhao Ding",
+        "Weijie Lyu",
+        "Zuxin Liu",
+        "Shuai Wang",
+        "Yihan He",
+        "Hanjiang Hu",
+        "Ding Zhao",
+        "Bo Li"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 157,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7133222348",
+      "key": "openalex_1052202_068431-1861_SafeBench_A_Benchmarking_Platform_for_Safety_Evaluation_of_Au",
+      "file_kind": "txt",
+      "file": "openalex_1052202_068431-1861_SafeBench_A_Benchmarking_Platform_for_Safety_Evaluation_of_Au.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7136903320",
+      "doi": "10.1109/itsc60802.2025.11423486",
+      "title": "From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios",
+      "abstract": "Ensuring the safety of autonomous vehicles requires virtual scenario-based testing, which depends on the robust evaluation and generation of safety-critical scenarios. So far, researchers have used scenario-based testing frameworks that rely heavily on handcrafted scenarios as safety metrics. To reduce the effort of human interpretation and overcome the limited scalability of these approaches, we combine Large Language Models (LLMs) with structured scenario parsing and prompt engineering to automatically evaluate and generate safety-critical driving scenarios. We introduce Cartesian and Ego-centric prompt strategies for scenario evaluation, and an adversarial generation module that modifies trajectories of risk-inducing vehicles (ego-attackers) to create critical scenarios. We validate our approach using a 2D simulation framework and multiple pre-trained LLMs. The results show that the evaluation module effectively detects collision scenarios and infers scenario safety. Meanwhile, the new generation module identifies high-risk agents and synthesizes realistic, safety-critical scenarios. We conclude that an LLM equipped with domain-informed prompting techniques can effectively evaluate and generate safety-critical driving scenarios, reducing dependence on handcrafted metrics. We release our open-source code and scenarios at: https://github.com/TUM-AVS/From-Words-to-Collisions.",
+      "year": 2025,
+      "authors": [
+        "Yuan Gao",
+        "Mattia Piccinini",
+        "Korbinian Moller",
+        "Amr Alanwar",
+        "Johannes Betz"
+      ],
+      "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+      "cited_by": 23,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.02145",
+      "url": "https://openalex.org/W7136903320",
+      "also_doi": [],
+      "key": "openalex_101109_itsc60802202511423486_From_Words_to_Collisions_LLM-Guided_Evaluation_and_A",
+      "file_kind": "txt",
+      "file": "openalex_101109_itsc60802202511423486_From_Words_to_Collisions_LLM-Guided_Evaluation_and_A.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7136391790",
+      "doi": "10.1109/itsc60802.2025.11423790",
+      "title": "Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models",
+      "abstract": "Simulation-based testing is crucial for validating autonomous vehicles (AVs), yet existing scenario generation methods either overfit to common driving patterns or operate in an offline, non-interactive manner that fails to expose rare, safety-critical corner cases. In this paper, we introduce an online, retrieval-augmented Large Language Models (LLMs) framework for generating safety-critical driving scenarios. Our method first employs an LLM-based behavior analyzer to infer the most dangerous intent of the background vehicle from the observed state, then queries additional LLM agents to synthesize feasible adversarial trajectories. To mitigate catastrophic forgetting and accelerate adaptation, we augment the framework with a dynamic memorization and retrieval bank of intent-planner pairs, automatically expanding its behavioral library when novel intents arise. Evaluations using the Waymo Open Motion Dataset demonstrate that our model reduces the mean minimum time-to-collision from 1.62 to 1.08 s and incurs a 75 % collision rate, substantially outperforming baselines.",
+      "year": 2025,
+      "authors": [
+        "Yuewen Mei",
+        "Tong Nie",
+        "Jian Sun",
+        "Ye Tian"
+      ],
+      "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+      "cited_by": 24,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.00972",
+      "url": "https://openalex.org/W7136391790",
+      "key": "openalex_101109_itsc60802202511423790_Seeking_to_Collide_Online_Safety-Critical_Scenario_G",
+      "file_kind": "txt",
+      "file": "openalex_101109_itsc60802202511423790_Seeking_to_Collide_Online_Safety-Critical_Scenario_G.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7214116835",
+      "doi": "10.1109/tvt.2026.3735827",
+      "title": "Language-Guided Reinforcement Learning for the Adversarial Scenario Synthesis in Autonomous Driving Simulation",
+      "abstract": "Generating safety-critical scenarios that can expose system limits is crucial for the safety verification of autonomous driving, yet such scenarios are scarce and costly to obtain in the real world. Data-driven and knowledge-based methods have been widely applied in scenario generation for simulation testing, while the proposal of LLM provides a new paradigm. With the powerful semantic understanding and generation capabilities, LLM mitigate the blindness of data-driven approaches and eliminate the extensive manual effort required by purely rulebased methods. We proposes a safety-critical scenario generation method based on LLM guided reinforcement learning. Using LLM to transform natural language described scenarios and reward function codes guiding intelligent agents, thereby generating diverse scenarios that are consistent with the description. In the training process of RL, intrinsic hindsight rewards are given to key state chains with adversarial behavior, enhancing the key states that can transition to potential adversarial behavior, achieving task completion while improving scenario adversarial performance. The experimental results show that the scenario generated by the proposed method is highly consistent with the code generated by LLM and language description intention, and shows adversary on the tested vehicle, creating conditions for active detection of the safety boundary.",
+      "year": 2026,
+      "authors": [
+        "Yilong Ren",
+        "Tingjia Zhu",
+        "Yilin Zhong",
+        "Xuan Cai",
+        "Jinxiang Fang",
+        "Xuesong Bai",
+        "Haiyang Yu"
+      ],
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "cited_by": 0,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7214116835",
+      "key": "openalex_101109_tvt20263735827_Language-Guided_Reinforcement_Learning_for_the_Adversarial_",
+      "file_kind": "txt",
+      "file": "openalex_101109_tvt20263735827_Language-Guided_Reinforcement_Learning_for_the_Adversarial_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4414943224",
+      "doi": "10.48550/arxiv.2507.10749",
+      "title": "RCG: Safety-Critical Scenario Generation for Robust Autonomous Driving via Real-World Crash Grounding",
+      "abstract": "Safety-critical scenarios are essential for training and evaluating autonomous driving (AD) systems, yet remain extremely rare in real-world driving datasets. To address this, we propose Real-world Crash Grounding (RCG), a scenario generation framework that integrates crash-informed semantics into adversarial perturbation pipelines. We construct a safety-aware behavior representation through contrastive pre-training on large-scale driving logs, followed by fine-tuning on a small, crash-rich dataset with approximate trajectory annotations extracted from video. This embedding captures semantic structure aligned with real-world accident behaviors and supports selection of adversary trajectories that are both high-risk and behaviorally realistic. We incorporate the resulting selection mechanism into two prior scenario generation pipelines, replacing their handcrafted scoring objectives with an embedding-based criterion. Experimental results show that ego agents trained against these generated scenarios achieve consistently higher downstream success rates, with an average improvement of 9.2% across seven evaluation settings. Qualitative and quantitative analyses further demonstrate that our approach produces more plausible and nuanced adversary behaviors, enabling more effective and realistic stress testing of AD systems. Code and tools will be released publicly.",
+      "year": 2025,
+      "authors": [
+        "Benjamin Stoler",
+        "Yang, Juliet",
+        "Jonathan Francis",
+        "Jean Oh"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 7,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2507.10749",
+      "url": "https://openalex.org/W4414943224",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv250710749_RCG_Safety-Critical_Scenario_Generation_for_Robust_Autonom",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250710749_RCG_Safety-Critical_Scenario_Generation_for_Robust_Autonom.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4225463226",
+      "doi": "10.1109/iv51971.2022.9827222",
+      "title": "Adversarial Attack and Defense of YOLO Detectors in Autonomous Driving Scenarios",
+      "abstract": "Visual detection is a key task in autonomous driving, and it serves as a crucial foundation for self-driving planning and control. Deep neural networks have achieved promising results in various visual tasks, but they are known to be vulnerable to adversarial attacks. A comprehensive understanding of deep visual detectors’ vulnerability is required before people can improve their robustness. However, only a few adversarial attack/defense works have focused on object detection, and most of them employed only classification and/or localization losses, ignoring the objectness aspect. In this paper, we identify a serious objectness-related adversarial vulnerability in YOLO detectors and present an effective attack strategy targeting the objectness aspect of visual detection in autonomous vehicles. Furthermore, to address such vulnerability, we propose a new objectness-aware adversarial training approach for visual detection. Experiments show that the proposed attack targeting the objectness aspect is 45.17% and 43.50% more effective than those generated from classification and/or localization losses on the KITTI and COCO_traffic datasets, respectively. Also, the proposed adversarial defense approach can improve the detectors’ robustness against objectness-oriented attacks by up to 21% and 12% mAP on KITTI and COCO_traffic, respectively.",
+      "year": 2022,
+      "authors": [
+        "Jung Im Choi",
+        "Qing Tian"
+      ],
+      "venue": "IEEE Intelligent Vehicles Symposium",
+      "cited_by": 84,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2202.04781",
+      "url": "https://openalex.org/W4225463226",
+      "key": "openalex_101109_iv5197120229827222_Adversarial_Attack_and_Defense_of_YOLO_Detectors_in_Aut",
+      "file_kind": "txt",
+      "file": "openalex_101109_iv5197120229827222_Adversarial_Attack_and_Defense_of_YOLO_Detectors_in_Aut.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7133602009",
+      "doi": "10.48550/arxiv.2603.04071",
+      "title": "SaFeR: Safety-Critical Scenario Generation for Autonomous Driving Test via Feasibility-Constrained Token Resampling",
+      "abstract": "Safety-critical scenario generation is crucial for evaluating autonomous driving systems. However, existing approaches often struggle to balance three conflicting objectives: adversarial criticality, physical feasibility, and behavioral realism. To bridge this gap, we propose SaFeR: safety-critical scenario generation for autonomous driving test via feasibility-constrained token resampling. We first formulate traffic generation as a discrete next token prediction problem, employing a Transformer-based model as a realism prior to capture naturalistic driving distributions. To capture complex interactions while effectively mitigating attention noise, we propose a novel differential attention mechanism within the realism prior. Building on this prior, SaFeR implements a novel resampling strategy that induces adversarial behaviors within a high-probability trust region to maintain naturalism, while enforcing a feasibility constraint derived from the Largest Feasible Region (LFR). By approximating the LFR via offline reinforcement learning, SaFeR effectively prevents the generation of theoretically inevitable collisions. Closed-loop experiments on the Waymo Open Motion Dataset and nuPlan demonstrate that SaFeR significantly outperforms state-of-the-art baselines, achieving a higher solution rate and superior kinematic realism while maintaining strong adversarial effectiveness.",
+      "year": 2026,
+      "authors": [
+        "Jinlong Cui",
+        "Fenghua Liang",
+        "Guo Yang",
+        "Chengcheng Tang",
+        "Jianxun Cui"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 6,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.04071",
+      "url": "https://openalex.org/W7133602009",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv260304071_SaFeR_Safety-Critical_Scenario_Generation_for_Autonomous_D",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260304071_SaFeR_Safety-Critical_Scenario_Generation_for_Autonomous_D.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402727068",
+      "doi": "10.1109/cvpr52733.2024.01464",
+      "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles",
+      "abstract": "We present ChatScene, a Large Language Model (LLM)-based agent that leverages the capabilities of LLMs to gener-ate safety-critical scenarios for autonomous vehicles. Given unstructured language instructions, the agent first generates textually described traffic scenarios using LLMs. These scenario descriptions are subsequently broken down into several sub-descriptions for specified details such as behaviors and locations of vehicles. The agent then distinctively transforms the textually described sub-scenarios into domain-specific languages, which then generate actual code for prediction and control in simulators, facilitating the creation of diverse and complex scenarios within the CARLA simulation environment. A key part of our agent is a comprehensive knowledge retrieval component, which efficiently translates specific textual descriptions into corresponding domain-specific code snippets by training a knowledge database containing the scenario description and code pairs. Extensive experimental results underscore the efficacy of ChatScene in improving the safety of autonomous vehicles. For instance, the scenarios generated by ChatScene show a 15% increase in collision rates compared to state-of-the-art baselines when tested against different reinforcement learning-based ego vehicles. Furthermore, we show that by using our generated safety-critical scenarios to fine-tune different RL-based autonomous driving models, they can achieve a 9% reduction in collision rates, surpassing current SOTA methods. ChatScene effectively bridges the gap between textual descriptions of traffic scenarios and practical CARLA simulations, providing a unified way to conveniently generate safety-critical scenarios for safety testing and improvement for AVs. The code is available at https://github.com/javyduck/ChatScene.",
+      "year": 2024,
+      "authors": [
+        "Jiawei Zhang",
+        "Chejian Xu",
+        "Bo Li"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 234,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.14062",
+      "url": "https://openalex.org/W4402727068",
+      "key": "openalex_101109_cvpr52733202401464_ChatScene_Knowledge-Enabled_Safety-Critical_Scenario_Ge",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202401464_ChatScene_Knowledge-Enabled_Safety-Critical_Scenario_Ge.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7162031814",
+      "doi": "10.48550/arxiv.2605.21168",
+      "title": "ScenePilot: Controllable Boundary-Driven Critical Scenario Generation for Autonomous Driving",
+      "abstract": "Safety-critical scenarios are central to evaluating autonomous driving systems, yet their rarity in naturalistic logs makes simulation-based stress testing indispensable. Most scenario generation methods treat surrounding agents as adversaries, but they either (i) induce failures without explicitly modeling vehicle-road physical limits, yielding visually extreme yet physically unsolvable crashes, or (ii) enforce physical feasibility or policy feasibility in isolation, which can over-focus on aggressive maneuvers or remain tied to a controller-dependent capability boundary. We propose ScenePilot, a feasibility-guided, boundary-driven framework that targets the boundary band: scenarios that are physically solvable in principle yet still cause the deployed autonomy stack to fail. We formulate generation as constrained multi-objective reinforcement learning, combining an RSS-derived physical-feasibility score $σ$ with an online-learned AV-risk predictor $Φ$, and introduce step-level feasibility-aware shielding to keep exploration near the feasibility boundary while avoiding infeasible artifacts. Experiments on SafeBench with multiple planners show that ScenePilot yields substantially higher collision rates (+6.2 percentage points) while preserving physical validity, and that adversarial fine-tuning on these boundary-band scenarios consistently reduces downstream crash rates. The code is available at https://github.com/QiyuRuan/ScenePilot.",
+      "year": 2026,
+      "authors": [
+        "Qiyu Ruan",
+        "Yuxuan Wang",
+        "He Li",
+        "Zhenning Li",
+        "Cheng-zhong Xu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.21168",
+      "url": "https://openalex.org/W7162031814",
+      "key": "openalex_1048550_arxiv260521168_ScenePilot_Controllable_Boundary-Driven_Critical_Scenario_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260521168_ScenePilot_Controllable_Boundary-Driven_Critical_Scenario_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7124447137",
+      "doi": "10.11896/jsjkx.240800030",
+      "title": "GCE3S:A Method for Generating Safety-critical Scenarios in Autonomous Driving Based on Evolutionary Search",
+      "abstract": "The rapid development of automated driving technology has brought great potential for transforming mobility,but automated driving technology,as safety-critical software,will lead to huge losses due to safety violations of self-driving vehicles in real traffic environments.In order to ensure that autonomous driving systems can operate safely in various complex traffic environments,autonomous driving systems must be fully tested before being deployed on real roads.Due to the complexity and high dimensionality of the autonomous driving test scenario space,existing safety critical scenario generation methods suffer from high cost and low efficiency.Therefore,this paper proposes an evolutionary search-based safety-critical scenario generation method for autonomous driving－GCE3S.GCE3S constructs safety-critical scenarios with adversarial nature by mapping the obstacles and their attributes in the scenario to the chromosome structure of genetic composition,thus perturbing the obstacles(vehicles,weather,pedestrians,etc.) in a more detailed manner and guiding the evolutionary search algorithms through multiple objective functions to generate diverse safety critical scenarios.In addition,the GCE3S is experimentally evaluated in the simulated environments of Baidu Apollo,an industrial-grade autonomous driving system,and LGSVL.The experimental results show that the number of safety-critical scenarios generated by GCE3S improve by 20.4% and the generated safety-critical scenarios increase by 20% in terms of diversity in the same amount of time as compared to the best baseline MOSAT method.",
+      "year": 2025,
+      "authors": [
+        "SUN Lele, HUANG Song, ZHENG Changyou, XIA Chunyan, YANG Zhen",
+        "HUANG Song",
+        "ZHENG Changyou",
+        "Chunyan Xia",
+        "Yang Zhen"
+      ],
+      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "cited_by": 0,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7124447137",
+      "key": "openalex_1011896_jsjkx240800030_GCE3SA_Method_for_Generating_Safety-critical_Scenarios_in_",
+      "file_kind": "txt",
+      "file": "openalex_1011896_jsjkx240800030_GCE3SA_Method_for_Generating_Safety-critical_Scenarios_in_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W3179442871",
+      "doi": "10.1109/cvpr46437.2021.00978",
+      "title": "AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles",
+      "abstract": "As self-driving systems become better, simulating scenarios where the autonomy stack may fail becomes more important. Traditionally, those scenarios are generated for a few scenes with respect to the planning module that takes ground-truth actor states as input. This does not scale and cannot identify all possible autonomy failures, such as perception failures due to occlusion. In this paper, we propose AdvSim, an adversarial framework to generate safety-critical scenarios for any LiDAR-based autonomy system. Given an initial traffic scenario, AdvSim modifies the actors’ trajectories in a physically plausible manner and updates the LiDAR sensor data to match the perturbed world. Importantly, by simulating directly from sensor data, we obtain adversarial scenarios that are safety-critical for the full autonomy stack. Our experiments show that our approach is general and can identify thousands of semantically meaningful safety-critical scenarios for a wide range of modern self-driving systems. Furthermore, we show that the robustness and safety of these systems can be further improved by training them with scenarios generated by AdvSim.",
+      "year": 2021,
+      "authors": [
+        "Jingkang Wang",
+        "Ava Pun",
+        "James Tu",
+        "Sivabalan Manivasagam",
+        "Abbas Sadat",
+        "Sergio Casas",
+        "Mengye Ren",
+        "Raquel Urtasun"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 322,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2101.06549",
+      "url": "https://openalex.org/W3179442871",
+      "also_doi": [],
+      "key": "openalex_101109_cvpr46437202100978_AdvSim_Generating_Safety-Critical_Scenarios_for_Self-Dr",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr46437202100978_AdvSim_Generating_Safety-Critical_Scenarios_for_Self-Dr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4414883216",
+      "doi": "10.1007/s10044-025-01561-3",
+      "title": "TrafficDiff: diffusion model based adversarial traffic scenario controllable generation for autonomous driving robust evaluation",
+      "abstract": "",
+      "year": 2025,
+      "authors": [
+        "Xuesong Bai",
+        "Hongbo Li",
+        "Peng Dong",
+        "Changhang Tian",
+        "Yang Fei",
+        "Jinchuan Zhang",
+        "Yilong Ren",
+        "Aoyong Li"
+      ],
+      "venue": "Pattern Analysis and Applications",
+      "cited_by": 4,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4414883216",
+      "key": "openalex_101007_s10044-025-01561-3_TrafficDiff_diffusion_model_based_adversarial_traffic_s",
+      "file_kind": "txt",
+      "file": "openalex_101007_s10044-025-01561-3_TrafficDiff_diffusion_model_based_adversarial_traffic_s.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415068890",
+      "doi": "10.1109/ojits.2026.3660686",
+      "title": "Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis",
+      "abstract": "Ensuring the safety of autonomous vehicles in real-world environments requires handling a wide spectrum of diverse and rare driving scenarios. Scenario-based testing addresses this need by offering a scalable and controlled approach to develop and validate autonomous driving systems. However, traditional scenario generation methods relying on rule-based logic, knowledge-driven models, or data-driven synthesis often yield limited diversity and unrealistic cases. With the emergence of foundation models, which represent a new generation of pre-trained, general-purpose Artificial Intelligence (AI) models, developers can process heterogeneous inputs (e.g., natural language, sensor data, maps, and control actions), enabling the synthesis, interpretation, analysis of complex driving scenarios. In this paper, we review the use of foundation models for scenario generation and scenario analysis in autonomous driving. Our survey presents a unified taxonomy that includes large language models, vision language models, multimodal large language models, diffusion models, and world models for the generation and analysis of autonomous driving scenarios, outlining their fundamental principles, applications, and corresponding evaluation metrics. In addition, we review the methodologies, open-source datasets, simulation platforms, and benchmark challenges. Finally, the survey concludes by highlighting the open challenges, research questions and promising future directions in applying foundation models to scenario generation and analysis in autonomous driving. All reviewed papers are listed in a continuously maintained repository, which is publicly available and updated with new research: GitHub.com/TUM-AVS/FM-for-Scenario-Generation-Analysis.",
+      "year": 2026,
+      "authors": [
+        "Yuan Gao",
+        "Mattia Piccinini",
+        "Yuchen Zhang",
+        "Dingrui Wang",
+        "Korbinian Moller",
+        "Roberto Brusnicki",
+        "Baha Zarrouki",
+        "Alessio Gambi",
+        "Jan Frederik Totz",
+        "Kai Storms",
+        "Steven Peters",
+        "Andrea Stocco",
+        "Bassam Alrifaee",
+        "Marco Pavone",
+        "Johannes Betz"
+      ],
+      "venue": "IEEE Open Journal of Intelligent Transportation Systems",
+      "cited_by": 99,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415068890",
+      "key": "openalex_101109_ojits20263660686_Foundation_Models_in_Autonomous_Driving_A_Survey_on_Scena",
+      "file_kind": "txt",
+      "file": "openalex_101109_ojits20263660686_Foundation_Models_in_Autonomous_Driving_A_Survey_on_Scena.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W2959364614",
+      "doi": "10.1145/3319535.3339815",
+      "title": "Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving",
+      "abstract": "In Autonomous Vehicles (AVs), one fundamental pillar is perception,which leverages sensors like cameras and LiDARs (Light Detection and Ranging) to understand the driving environment. Due to its direct impact on road safety, multiple prior efforts have been made to study its the security of perception systems. In contrast to prior work that concentrates on camera-based perception, in this work we perform the first security study of LiDAR-based perception in AV settings, which is highly important but unexplored. We consider LiDAR spoofing attacks as the threat model and set the attack goal as spoofing obstacles close to the front of a victim AV. We find that blindly applying LiDAR spoofing is insufficient to achieve this goal due to the machine learning-based object detection process.Thus, we then explore the possibility of strategically controlling the spoofed attack to fool the machine learning model. We formulate this task as an optimization problem and design modeling methods for the input perturbation function and the objective function.We also identify the inherent limitations of directly solving the problem using optimization and design an algorithm that combines optimization and global sampling, which improves the attack success rates to around 75%. As a case study to understand the attack impact at the AV driving decision level, we construct and evaluate two attack scenarios that may damage road safety and mobility.We also discuss defense directions at the AV system, sensor, and machine learning model levels.",
+      "year": 2019,
+      "authors": [
+        "Yulong Cao",
+        "Chaowei Xiao",
+        "Benjamin Cyr",
+        "Yimeng Zhou",
+        "Won Park",
+        "Sara Rampazzi",
+        "Qi Alfred Chen",
+        "Kevin E. Fu",
+        "Z. Morley Mao"
+      ],
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "cited_by": 769,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1907.06826",
+      "url": "https://openalex.org/W2959364614",
+      "key": "openalex_101145_33195353339815_Adversarial_Sensor_Attack_on_LiDAR-based_Perception_in_Auto",
+      "file_kind": "txt",
+      "file": "openalex_101145_33195353339815_Adversarial_Sensor_Attack_on_LiDAR-based_Perception_in_Auto.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4415020693",
+      "doi": "10.48550/arxiv.2505.13872",
+      "title": "Safety2Drive: Safety-Critical Scenario Benchmark for the Evaluation of Autonomous Driving",
+      "abstract": "Autonomous Driving (AD) systems demand the high levels of safety assurance. Despite significant advancements in AD demonstrated on open-source benchmarks like Longest6 and Bench2Drive, existing datasets still lack regulatory-compliant scenario libraries for closed-loop testing to comprehensively evaluate the functional safety of AD. Meanwhile, real-world AD accidents are underrepresented in current driving datasets. This scarcity leads to inadequate evaluation of AD performance, posing risks to safety validation and practical deployment. To address these challenges, we propose Safety2Drive, a safety-critical scenario library designed to evaluate AD systems. Safety2Drive offers three key contributions. (1) Safety2Drive comprehensively covers the test items required by standard regulations and contains 70 AD function test items. (2) Safety2Drive supports the safety-critical scenario generalization. It has the ability to inject safety threats such as natural environment corruptions and adversarial attacks cross camera and LiDAR sensors. (3) Safety2Drive supports multi-dimensional evaluation. In addition to the evaluation of AD systems, it also supports the evaluation of various perception tasks, such as object detection and lane detection. Safety2Drive provides a paradigm from scenario construction to validation, establishing a standardized test framework for the safe deployment of AD.",
+      "year": 2025,
+      "authors": [
+        "J. Jenny Li",
+        "Tiancheng Wang",
+        "Xingyu Peng",
+        "Chen, Jiacheng",
+        "Zhijun Chen",
+        "Bing Li",
+        "Xianglong Liu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 4,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.13872",
+      "url": "https://openalex.org/W4415020693",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv250513872_Safety2Drive_Safety-Critical_Scenario_Benchmark_for_the_Ev",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250513872_Safety2Drive_Safety-Critical_Scenario_Benchmark_for_the_Ev.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.23708v2",
+      "doi": "",
+      "title": "Towards Benchmarking and Assessing the Safety and Robustness of Autonomous Driving on Safety-critical Scenarios",
+      "abstract": "Autonomous driving has made significant progress in both academia and industry, including performance improvements in perception task and the development of end-to-end autonomous driving systems. However, the safety and robustness assessment of autonomous driving has not received sufficient attention. Current evaluations of autonomous driving are typically conducted in natural driving scenarios. However, many accidents often occur in edge cases, also known as safety-critical scenarios. These safety-critical scenarios are difficult to collect, and there is currently no clear definition of what constitutes a safety-critical scenario. In this work, we explore the safety and robustness of autonomous driving in safety-critical scenarios. First, we provide a definition of safety-critical scenarios, including static traffic scenarios such as adversarial attack scenarios and natural distribution shifts, as well as dynamic traffic scenarios such as accident scenarios. Then, we develop an autonomous driving safety testing platform to comprehensively evaluate autonomous driving systems, encompassing not only the assessment of perception modules but also system-level evaluations. Our work systematically constructs a safety verification process for autonomous driving, providing technical support for the industry to establish standardized test framework and reduce risks in real-world road deployment.",
+      "year": 2025,
+      "authors": [
+        "Jingzheng Li",
+        "Xianglong Liu",
+        "Shikui Wei",
+        "Zhijun Chen",
+        "Bing Li",
+        "Qing Guo",
+        "Xianqi Yang",
+        "Yanjun Pu",
+        "Jiakai Wang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.23708v2",
+      "url": "http://arxiv.org/abs/2503.23708v2",
+      "key": "arxiv_250323708v2_Towards_Benchmarking_and_Assessing_the_Safety_and_Robustness_of_Autonomo",
+      "file_kind": "txt",
+      "file": "arxiv_250323708v2_Towards_Benchmarking_and_Assessing_the_Safety_and_Robustness_of_Autonomo.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.21581v4",
+      "doi": "",
+      "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+      "abstract": "While end-to-end autonomous driving has advanced significantly, prevailing methods remain fundamentally misaligned with human cognitive principles in both perception and planning. In this paper, we propose CogAD, a novel end-to-end autonomous driving model that emulates the hierarchical cognition mechanisms of human drivers. CogAD implements dual hierarchical mechanisms: global-to-local context processing for human-like perception and intent-conditioned multi-mode trajectory generation for cognitively-inspired planning. The proposed method demonstrates three principal advantages: comprehensive environmental understanding through hierarchical perception, robust planning exploration enabled by multi-level planning, and diverse yet reasonable multi-modal trajectory generation facilitated by dual-level uncertainty modeling. Extensive experiments on nuScenes and Bench2Drive demonstrate that CogAD achieves state-of-the-art performance in end-to-end planning, exhibiting particular superiority in long-tail scenarios and robust generalization to complex real-world driving conditions.",
+      "year": 2025,
+      "authors": [
+        "Zhennan Wang",
+        "Jianing Teng",
+        "Canqun Xiang",
+        "Kangliang Chen",
+        "Xing Pan",
+        "Lu Deng",
+        "Weihao Gu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.21581v4",
+      "url": "http://arxiv.org/abs/2505.21581v4",
+      "key": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2409.18053v3",
+      "doi": "",
+      "title": "DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving",
+      "abstract": "We present a novel autonomous driving framework, DualAD, designed to imitate human reasoning during driving. DualAD comprises two layers: a rule-based motion planner at the bottom layer that handles routine driving tasks requiring minimal reasoning, and an upper layer featuring a rule-based text encoder that converts driving scenarios from absolute states into text description. This text is then processed by a large language model (LLM) to make driving decisions. The upper layer intervenes in the bottom layer's decisions when potential danger is detected, mimicking human reasoning in critical situations. Closed-loop experiments demonstrate that DualAD, using a zero-shot pre-trained model, significantly outperforms rule-based motion planners that lack reasoning abilities. Our experiments also highlight the effectiveness of the text encoder, which considerably enhances the model's scenario understanding. Additionally, the integrated DualAD model improves with stronger LLMs, indicating the framework's potential for further enhancement. Code and benchmarks are available at github.com/TUM-AVS/DualAD.",
+      "year": 2024,
+      "authors": [
+        "Dingrui Wang",
+        "Marc Kaufeld",
+        "Johannes Betz"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.18053v3",
+      "url": "http://arxiv.org/abs/2409.18053v3",
+      "key": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2410.08453v1",
+      "doi": "",
+      "title": "AdvDiffuser: Generating Adversarial Safety-Critical Driving Scenarios via Guided Diffusion",
+      "abstract": "Safety-critical scenarios are infrequent in natural driving environments but hold significant importance for the training and testing of autonomous driving systems. The prevailing approach involves generating safety-critical scenarios automatically in simulation by introducing adversarial adjustments to natural environments. These adjustments are often tailored to specific tested systems, thereby disregarding their transferability across different systems. In this paper, we propose AdvDiffuser, an adversarial framework for generating safety-critical driving scenarios through guided diffusion. By incorporating a diffusion model to capture plausible collective behaviors of background vehicles and a lightweight guide model to effectively handle adversarial scenarios, AdvDiffuser facilitates transferability. Experimental results on the nuScenes dataset demonstrate that AdvDiffuser, trained on offline driving logs, can be applied to various tested systems with minimal warm-up episode data and outperform other existing methods in terms of realism, diversity, and adversarial performance.",
+      "year": 2024,
+      "authors": [
+        "Yuting Xie",
+        "Xianda Guo",
+        "Cong Wang",
+        "Kunhua Liu",
+        "Long Chen"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2410.08453v1",
+      "url": "http://arxiv.org/abs/2410.08453v1",
+      "key": "arxiv_241008453v1_AdvDiffuser_Generating_Adversarial_Safety-Critical_Driving_Scenarios_via",
+      "file_kind": "txt",
+      "file": "arxiv_241008453v1_AdvDiffuser_Generating_Adversarial_Safety-Critical_Driving_Scenarios_via.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2011.08729v3",
+      "doi": "10.1201/9781003048381",
+      "title": "Control Strategies for Autonomous Vehicles",
+      "abstract": "This chapter focuses on the self-driving technology from a control perspective and investigates the control strategies used in autonomous vehicles and advanced driver-assistance systems from both theoretical and practical viewpoints. First, we introduce the self-driving technology as a whole, including perception, planning and control techniques required for accomplishing the challenging task of autonomous driving. We then dwell upon each of these operations to explain their role in the autonomous system architecture, with a prime focus on control strategies. The core portion of this chapter commences with detailed mathematical modeling of autonomous vehicles followed by a comprehensive discussion on control strategies. The chapter covers longitudinal as well as lateral control strategies for autonomous vehicles with coupled and de-coupled control schemes. We as well discuss some of the machine learning techniques applied to autonomous vehicle control task. Finally, we briefly summarize some of the research works that our team has carried out at the Autonomous Systems Lab and conclude the chapter with a few thoughtful remarks.",
+      "year": 2020,
+      "authors": [
+        "Chinmay Vilas Samak",
+        "Tanmay Vilas Samak",
+        "Sivanathan Kandhasamy"
+      ],
+      "venue": "Autonomous Driving and Advanced Driver-Assistance Systems (ADAS): Applications, Development, Legal Issues, and Testing (1st ed.). CRC Press, 2021",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2011.08729v3",
+      "url": "http://arxiv.org/abs/2011.08729v3",
+      "key": "arxiv_101201_9781003048381_Control_Strategies_for_Autonomous_Vehicles",
+      "file_kind": "txt",
+      "file": "arxiv_101201_9781003048381_Control_Strategies_for_Autonomous_Vehicles.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2502.21100v1",
+      "doi": "",
+      "title": "AuthSim: Towards Authentic and Effective Safety-critical Scenario Generation for Autonomous Driving Tests",
+      "abstract": "Generating adversarial safety-critical scenarios is a pivotal method for testing autonomous driving systems, as it identifies potential weaknesses and enhances system robustness and reliability. However, existing approaches predominantly emphasize unrestricted collision scenarios, prompting non-player character (NPC) vehicles to attack the ego vehicle indiscriminately. These works overlook these scenarios' authenticity, rationality, and relevance, resulting in numerous extreme, contrived, and largely unrealistic collision events involving aggressive NPC vehicles. To rectify this issue, we propose a three-layer relative safety region model, which partitions the area based on danger levels and increases the likelihood of NPC vehicles entering relative boundary regions. This model directs NPC vehicles to engage in adversarial actions within relatively safe boundary regions, thereby augmenting the scenarios' authenticity. We introduce AuthSim, a comprehensive platform for generating authentic and effective safety-critical scenarios by integrating the three-layer relative safety region model with reinforcement learning. To our knowledge, this is the first attempt to address the authenticity and effectiveness of autonomous driving system test scenarios comprehensively. Extensive experiments demonstrate that AuthSim outperforms existing methods in generating effective safety-critical scenarios. Notably, AuthSim achieves a 5.25% improvement in average cut-in distance and a 27.12% enhancement in average collision interval time, while maintaining higher efficiency in generating effective safety-critical scenarios compared to existing methods. This underscores its significant advantage in producing authentic scenarios over current methodologies.",
+      "year": 2025,
+      "authors": [
+        "Yukuan Yang",
+        "Xucheng Lu",
+        "Zhili Zhang",
+        "Zepeng Wu",
+        "Guoqi Li",
+        "Lingzhong Meng",
+        "Yunzhi Xue"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.21100v1",
+      "url": "http://arxiv.org/abs/2502.21100v1",
+      "key": "arxiv_250221100v1_AuthSim_Towards_Authentic_and_Effective_Safety-critical_Scenario_Generat",
+      "file_kind": "txt",
+      "file": "arxiv_250221100v1_AuthSim_Towards_Authentic_and_Effective_Safety-critical_Scenario_Generat.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2003.00601v1",
+      "doi": "",
+      "title": "3D Point Cloud Processing and Learning for Autonomous Driving",
+      "abstract": "We present a review of 3D point cloud processing and learning for autonomous driving. As one of the most important sensors in autonomous vehicles, light detection and ranging (LiDAR) sensors collect 3D point clouds that precisely record the external surfaces of objects and scenes. The tools for 3D point cloud processing and learning are critical to the map creation, localization, and perception modules in an autonomous vehicle. While much attention has been paid to data collected from cameras, such as images and videos, an increasing number of researchers have recognized the importance and significance of LiDAR in autonomous driving and have proposed processing and learning algorithms to exploit 3D point clouds. We review the recent progress in this research area and summarize what has been tried and what is needed for practical and safe autonomous vehicles. We also offer perspectives on open issues that are needed to be solved in the future.",
+      "year": 2020,
+      "authors": [
+        "Siheng Chen",
+        "Baoan Liu",
+        "Chen Feng",
+        "Carlos Vallespi-Gonzalez",
+        "Carl Wellington"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2003.00601v1",
+      "url": "http://arxiv.org/abs/2003.00601v1",
+      "key": "arxiv_200300601v1_3D_Point_Cloud_Processing_and_Learning_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_200300601v1_3D_Point_Cloud_Processing_and_Learning_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.23922v1",
+      "doi": "",
+      "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+      "abstract": "Closed-loop evaluation is increasingly critical for end-to-end autonomous driving. Current closed-loop benchmarks using the CARLA simulator rely on manually configured traffic scenarios, which can diverge from real-world conditions, limiting their ability to reflect actual driving performance. To address these limitations, we introduce a simple yet challenging closed-loop evaluation framework that closely integrates real-world driving scenarios into the CARLA simulator with infrastructure cooperation. Our approach involves extracting 800 dynamic traffic scenarios selected from a comprehensive 100-hour video dataset captured by high-mounted infrastructure sensors, and creating static digital twin assets for 15 real-world intersections with consistent visual appearance. These digital twins accurately replicate the traffic and environmental characteristics of their real-world counterparts, enabling more realistic simulations in CARLA. This evaluation is challenging due to the diversity of driving behaviors, locations, weather conditions, and times of day at complex urban intersections. In addition, we provide a comprehensive closed-loop benchmark for evaluating end-to-end autonomous driving models. Project URL: \\href{https://github.com/AIR-THU/DriveE2E}{https://github.com/AIR-THU/DriveE2E}.",
+      "year": 2025,
+      "authors": [
+        "Haibao Yu",
+        "Wenxian Yang",
+        "Ruiyang Hao",
+        "Chuanye Wang",
+        "Jiaru Zhong",
+        "Ping Luo",
+        "Zaiqing Nie"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.23922v1",
+      "url": "http://arxiv.org/abs/2509.23922v1",
+      "key": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through",
+      "file_kind": "txt",
+      "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2305.17181v1",
+      "doi": "",
+      "title": "Selective Communication for Cooperative Perception in End-to-End Autonomous Driving",
+      "abstract": "The reliability of current autonomous driving systems is often jeopardized in situations when the vehicle's field-of-view is limited by nearby occluding objects. To mitigate this problem, vehicle-to-vehicle communication to share sensor information among multiple autonomous driving vehicles has been proposed. However, to enable timely processing and use of shared sensor data, it is necessary to constrain communication bandwidth, and prior work has done so by restricting the number of other cooperative vehicles and randomly selecting the subset of vehicles to exchange information with from all those that are within communication range. Although simple and cost effective from a communication perspective, this selection approach suffers from its susceptibility to missing those vehicles that possess the perception information most critical to navigation planning. Inspired by recent multi-agent path finding research, we propose a novel selective communication algorithm for cooperative perception to address this shortcoming. Implemented with a lightweight perception network and a previously developed control network, our algorithm is shown to produce higher success rates than a random selection approach on previously studied safety-critical driving scenario simulations, with minimal additional communication overhead.",
+      "year": 2023,
+      "authors": [
+        "Hsu-kuang Chiu",
+        "Stephen F. Smith"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2305.17181v1",
+      "url": "http://arxiv.org/abs/2305.17181v1",
+      "key": "arxiv_230517181v1_Selective_Communication_for_Cooperative_Perception_in_End-to-End_Autonom",
+      "file_kind": "txt",
+      "file": "arxiv_230517181v1_Selective_Communication_for_Cooperative_Perception_in_End-to-End_Autonom.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "1911.01054v2",
+      "doi": "",
+      "title": "SoildNet: Soiling Degradation Detection in Autonomous Driving",
+      "abstract": "In the field of autonomous driving, camera sensors are extremely prone to soiling because they are located outside of the car and interact with environmental sources of soiling such as rain drops, snow, dust, sand, mud and so on. This can lead to either partial or complete vision degradation. Hence detecting such decay in vision is very important for safety and overall to preserve the functionality of the \"autonomous\" components in autonomous driving. The contribution of this work involves: 1) Designing a Deep Convolutional Neural Network (DCNN) based baseline network, 2) Exploiting several network remodelling techniques such as employing static and dynamic group convolution, channel reordering to compress the baseline architecture and make it suitable for low power embedded systems with nearly 1 TOPS, 3) Comparing various result metrics of all interim networks dedicated for soiling degradation detection at tile level of size 64 x 64 on input resolution 1280 x 768. The compressed network, is called SoildNet (Sand, snOw, raIn/dIrt, oiL, Dust/muD) that uses only 9.72% trainable parameters of the base network and reduces the model size by more than 7 times with no loss in accuracy",
+      "year": 2019,
+      "authors": [
+        "Arindam Das"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1911.01054v2",
+      "url": "http://arxiv.org/abs/1911.01054v2",
+      "key": "arxiv_191101054v2_SoildNet_Soiling_Degradation_Detection_in_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_191101054v2_SoildNet_Soiling_Degradation_Detection_in_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2103.16273v1",
+      "doi": "",
+      "title": "Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network",
+      "abstract": "Predicting future trajectories of surrounding obstacles is a crucial task for autonomous driving cars to achieve a high degree of road safety. There are several challenges in trajectory prediction in real-world traffic scenarios, including obeying traffic rules, dealing with social interactions, handling traffic of multi-class movement, and predicting multi-modal trajectories with probability. Inspired by people's natural habit of navigating traffic with attention to their goals and surroundings, this paper presents a unique dynamic graph attention network to solve all those challenges. The network is designed to model the dynamic social interactions among agents and conform to traffic rules with a semantic map. By extending the anchor-based method to multiple types of agents, the proposed method can predict multi-modal trajectories with probabilities for multi-class movements using a single model. We validate our approach on the proprietary autonomous driving dataset for the logistic delivery scenario and two publicly available datasets. The results show that our method outperforms state-of-the-art techniques and demonstrates the potential for trajectory prediction in real-world traffic.",
+      "year": 2021,
+      "authors": [
+        "Bo Dong",
+        "Hao Liu",
+        "Yu Bai",
+        "Jinbiao Lin",
+        "Zhuoran Xu",
+        "Xinyu Xu",
+        "Qi Kong"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2103.16273v1",
+      "url": "http://arxiv.org/abs/2103.16273v1",
+      "key": "arxiv_210316273v1_Multi-modal_Trajectory_Prediction_for_Autonomous_Driving_with_Semantic_M",
+      "file_kind": "txt",
+      "file": "arxiv_210316273v1_Multi-modal_Trajectory_Prediction_for_Autonomous_Driving_with_Semantic_M.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.23499v4",
+      "doi": "",
+      "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+      "abstract": "Collecting a high-quality dataset is a critical task that demands meticulous attention to detail, as overlooking certain aspects can render the entire dataset unusable. Autonomous driving challenges remain a prominent area of research, requiring further exploration to enhance the perception and planning performance of vehicles. However, existing datasets are often incomplete. For instance, datasets that include perception information generally lack planning data, while planning datasets typically consist of extensive driving sequences where the ego vehicle predominantly drives forward, offering limited behavioral diversity. In addition, many real datasets struggle to evaluate their models, especially for planning tasks, since they lack a proper closed-loop evaluation setup. The CARLA Leaderboard 2.0 challenge, which provides a diverse set of scenarios to address the long-tail problem in autonomous driving, has emerged as a valuable alternative platform for developing perception and planning models in both open-loop and closed-loop evaluation setups. Nevertheless, existing datasets collected on this platform present certain limitations. Some datasets appear to be tailored primarily for limited sensor configuration, with particular sensor configurations. To support end-to-end autonomous driving research, we have collected a new dataset comprising over 2.85 million frames using the CARLA simulation environment for the diverse Leaderboard 2.0 challenge scenarios. Our dataset is designed not only for planning tasks but also supports dynamic object detection, lane divider detection, centerline detection, traffic light recognition, prediction tasks and visual language action models . Furthermore, we demonstrate its versatility by training various models using our dataset. Moreover, we also provide numerical rarity scores to understand how rarely the current state occurs in the dataset.",
+      "year": 2026,
+      "authors": [
+        "Tugrul Gorgulu",
+        "Atakan Dag",
+        "M. Esat Kalfaoglu",
+        "Halil Ibrahim Kuru",
+        "Baris Can Cam",
+        "Halil Ibrahim Ozturk",
+        "Ozsel Kilinc"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.23499v4",
+      "url": "http://arxiv.org/abs/2602.23499v4",
+      "key": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d",
+      "file_kind": "txt",
+      "file": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2312.06351v1",
+      "doi": "",
+      "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+      "abstract": "Various methods have been proposed for utilizing Large Language Models (LLMs) in autonomous driving. One strategy of using LLMs for autonomous driving involves inputting surrounding objects as text prompts to the LLMs, along with their coordinate and velocity information, and then outputting the subsequent movements of the vehicle. When using LLMs for such purposes, capabilities such as spatial recognition and planning are essential. In particular, two foundational capabilities are required: (1) spatial-aware decision making, which is the ability to recognize space from coordinate information and make decisions to avoid collisions, and (2) the ability to adhere to traffic rules. However, quantitative research has not been conducted on how accurately different types of LLMs can handle these problems. In this study, we quantitatively evaluated these two abilities of LLMs in the context of autonomous driving. Furthermore, to conduct a Proof of Concept (POC) for the feasibility of implementing these abilities in actual vehicles, we developed a system that uses LLMs to drive a vehicle.",
+      "year": 2023,
+      "authors": [
+        "Kotaro Tanahashi",
+        "Yuichi Inoue",
+        "Yu Yamaguchi",
+        "Hidetatsu Yaginuma",
+        "Daiki Shiotsuka",
+        "Hiroyuki Shimatani",
+        "Kohei Iwamasa",
+        "Yoshiaki Inoue",
+        "Takafumi Yamaguchi",
+        "Koki Igari",
+        "Tsukasa Horinouchi",
+        "Kento Tokuhiro",
+        "Yugo Tokuchi",
+        "Shunsuke Aoki"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.06351v1",
+      "url": "http://arxiv.org/abs/2312.06351v1",
+      "key": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr",
+      "file_kind": "txt",
+      "file": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2211.09445v3",
+      "doi": "",
+      "title": "aiMotive Dataset: A Multimodal Dataset for Robust Autonomous Driving with Long-Range Perception",
+      "abstract": "Autonomous driving is a popular research area within the computer vision research community. Since autonomous vehicles are highly safety-critical, ensuring robustness is essential for real-world deployment. While several public multimodal datasets are accessible, they mainly comprise two sensor modalities (camera, LiDAR) which are not well suited for adverse weather. In addition, they lack far-range annotations, making it harder to train neural networks that are the base of a highway assistant function of an autonomous vehicle. Therefore, we introduce a multimodal dataset for robust autonomous driving with long-range perception. The dataset consists of 176 scenes with synchronized and calibrated LiDAR, camera, and radar sensors covering a 360-degree field of view. The collected data was captured in highway, urban, and suburban areas during daytime, night, and rain and is annotated with 3D bounding boxes with consistent identifiers across frames. Furthermore, we trained unimodal and multimodal baseline models for 3D object detection. Data are available at \\url{https://github.com/aimotive/aimotive_dataset}.",
+      "year": 2022,
+      "authors": [
+        "Tamás Matuszka",
+        "Iván Barton",
+        "Ádám Butykai",
+        "Péter Hajas",
+        "Dávid Kiss",
+        "Domonkos Kovács",
+        "Sándor Kunsági-Máté",
+        "Péter Lengyel",
+        "Gábor Németh",
+        "Levente Pető",
+        "Dezső Ribli",
+        "Dávid Szeghy",
+        "Szabolcs Vajna",
+        "Bálint Varga"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2211.09445v3",
+      "url": "http://arxiv.org/abs/2211.09445v3",
+      "key": "arxiv_221109445v3_aiMotive_Dataset_A_Multimodal_Dataset_for_Robust_Autonomous_Driving_with",
+      "file_kind": "txt",
+      "file": "arxiv_221109445v3_aiMotive_Dataset_A_Multimodal_Dataset_for_Robust_Autonomous_Driving_with.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2001.03908v2",
+      "doi": "",
+      "title": "Self-Driving like a Human driver instead of a Robocar: Personalized comfortable driving experience for autonomous vehicles",
+      "abstract": "This paper issues an integrated control system of self-driving autonomous vehicles based on the personal driving preference to provide personalized comfortable driving experience to autonomous vehicle users. We propose an Occupant's Preference Metric (OPM) which is defining a preferred lateral and longitudinal acceleration region with maximum allowable jerk for users. Moreover, we propose a vehicle controller based on control parameters enabling integrated lateral and longitudinal control via preference-aware maneuvering of autonomous vehicles. The proposed system not only provides the criteria for the occupant's driving preference, but also provides a personalized autonomous self-driving style like a human driver instead of a Robocar. The simulation and experimental results demonstrated that the proposed system can maneuver the self-driving vehicle like a human driver by tracking the specified criterion of admissible acceleration and jerk.",
+      "year": 2020,
+      "authors": [
+        "Il Bae",
+        "Jaeyoung Moon",
+        "Junekyo Jhung",
+        "Ho Suk",
+        "Taewoo Kim",
+        "Hyungbin Park",
+        "Jaekwang Cha",
+        "Jinhyuk Kim",
+        "Dohyun Kim",
+        "Shiho Kim"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2001.03908v2",
+      "url": "http://arxiv.org/abs/2001.03908v2",
+      "key": "arxiv_200103908v2_Self-Driving_like_a_Human_driver_instead_of_a_Robocar_Personalized_comfo",
+      "file_kind": "txt",
+      "file": "arxiv_200103908v2_Self-Driving_like_a_Human_driver_instead_of_a_Robocar_Personalized_comfo.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2306.01898v1",
+      "doi": "",
+      "title": "Exploring the Boundaries: Thorough Software Testing for Safety-Critical Driving Scenarios Based on Kinematics in the Context of Autonomous Driving",
+      "abstract": "This scientific publication focuses on the efficient application of boundary value analysis in the testing of corner cases for kinematic-based safety-critical driving scenarios within the domain of autonomous driving. Corner cases, which represent infrequent and crucial situations, present notable obstacles to the reliability and safety of autonomous driving systems. This paper emphasizes the significance of employing boundary value analysis, a systematic technique for identifying critical boundaries and values, to achieve comprehensive testing coverage. By identifying and testing extreme and boundary conditions, such as minimum distances, this publication aims to improve the performance and robustness of autonomous driving systems in safety-critical scenarios. The insights and methodologies presented in this paper can serve as a guide for researchers, developers, and regulators in effectively addressing the challenges posed by corner cases and ensuring the reliability and safety of autonomous driving systems under real-world driving conditions.",
+      "year": 2023,
+      "authors": [
+        "Nico Schick"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.01898v1",
+      "url": "http://arxiv.org/abs/2306.01898v1",
+      "key": "arxiv_230601898v1_Exploring_the_Boundaries_Thorough_Software_Testing_for_Safety-Critical_D",
+      "file_kind": "txt",
+      "file": "arxiv_230601898v1_Exploring_the_Boundaries_Thorough_Software_Testing_for_Safety-Critical_D.txt"
+    }
+  ]
+}

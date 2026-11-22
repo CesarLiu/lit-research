@@ -1,0 +1,13 @@
+{
+ "id": "trafficalign_aligning_large_language_models_for_tr",
+ "title": "TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "Choice of target region (one aligned LLM per region) and a prompt to the aligned LLM, which outputs natural-language traffic scenario descriptions; no fine-grained user steering shown in packet.", "pages": "3-4, 6"},
+ "control_mechanism": {"value": "Supervised fine-tuning with LoRA on scenario descriptions synthesized from driving videos by a multimodal LLM and validated via a DSL checker; the aligned LLM is then prompted to generate descriptions.", "pages": "1, 3-4"},
+ "base_model": {"value": "Llama-3.2-3B-Instruct as generator (LoRA SFT); GPT-4.1 nano as video-frame scenario extractor; scenarios executed as CARLA simulations in SafeBench.", "pages": "2-4"},
+ "datasets": {"value": "261 first-person YouTube driving videos across six regions (Los Angeles, New York City, Yosemite, Yellowstone, small town in Pennsylvania, Switzerland); SafeBench platform with PPO, SAC, TD3 ego models.", "pages": "3, 6"},
+ "metrics": {"value": "SafeBench metrics (10 or 11): collision rate, overall score, traffic-signal adherence, route metrics, smoothness; qualitative UMAP overlap of scenario-description embeddings with real-world scenarios.", "pages": "6-8"},
+ "controllability_evidence": {"value": "Alignment, not steering: scenarios raise collision rate by 2.7%-10.8% over the best baseline; fine-tuning driving models on them cuts collision rate 21.0%-36.1%; UMAP shows overlap with real-world clusters unlike unaligned LLMs.", "pages": "6-8"},
+ "stated_limitations": {"value": "Uniform frame sampling may miss rare events; extractor uses a single frame per scenario and may lose temporal cues about actor behaviour.", "pages": "8-9"},
+ "notes": "Primarily about aligning an LLM to regional traffic distributions for AV testing, not fine-grained controllable generation. Output is text descriptions, not trajectories."
+}

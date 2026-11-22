@@ -1,0 +1,889 @@
+[
+  {
+    "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning",
+    "year": 2024,
+    "authors": [
+      "Rowe, Luke",
+      "Roger Girgis",
+      "Anthony Gosselin",
+      "Bruno Carrez",
+      "Florian Golemo",
+      "Felix Heide",
+      "Liam Paull",
+      "Christopher Pal"
+    ],
+    "doi": "10.48550/arxiv.2403.19918",
+    "file": "openalex_1048550_arxiv240319918_CtRL-Sim_Reactive_and_Controllable_Driving_Agents_with_Off.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4393399233",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Offline Reinforcement Learning for Road Traffic Control",
+    "year": 2022,
+    "authors": [
+      "Mayuresh Kunjir",
+      "Sanjay Chawla"
+    ],
+    "doi": "10.48550/arxiv.2201.02381",
+    "file": "openalex_1048550_arxiv220102381_Offline_Reinforcement_Learning_for_Road_Traffic_Control.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4226427877",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems",
+    "year": 2023,
+    "authors": [
+      "Rafael Figueiredo Prudencio",
+      "Marcos R. O. A. Máximo",
+      "Esther Luna Colombini"
+    ],
+    "doi": "10.1109/tnnls.2023.3250269",
+    "file": "openalex_101109_tnnls20233250269_A_Survey_on_Offline_Reinforcement_Learning_Taxonomy_Revie.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4360584316",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Constrained Decision Transformer for Offline Safe Reinforcement Learning",
+    "year": 2023,
+    "authors": [
+      "Zuxin Liu",
+      "Guo, Zijian",
+      "Yihang Yao",
+      "Zhepeng Cen",
+      "Wenhao Yu",
+      "Tingnan Zhang",
+      "Ding Xuan Zhao"
+    ],
+    "doi": "10.48550/arxiv.2302.07351",
+    "file": "openalex_1048550_arxiv230207351_Constrained_Decision_Transformer_for_Offline_Safe_Reinforc.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4321161785",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Diagnosing Reinforcement Learning for Traffic Signal Control",
+    "year": 2019,
+    "authors": [
+      "Guanjie Zheng",
+      "Xinshi Zang",
+      "Nan Xu",
+      "Hua Wei",
+      "Zhengyao Yu",
+      "Vikash V. Gayah",
+      "Kai Meng Xu",
+      "Zhenhui Li"
+    ],
+    "doi": "10.48550/arxiv.1905.04716",
+    "file": "openalex_1048550_arxiv190504716_Diagnosing_Reinforcement_Learning_for_Traffic_Signal_Contr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2944633916",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Reward Reports for Reinforcement Learning",
+    "year": 2023,
+    "authors": [
+      "Thomas Krendl Gilbert",
+      "Nathan Lambert",
+      "Sarah Dean",
+      "Tom Zick",
+      "Aaron Snoswell",
+      "S Mehta"
+    ],
+    "doi": "10.1145/3600211.3604698",
+    "file": "openalex_101145_36002113604698_Reward_Reports_for_Reinforcement_Learning.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4386242333",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Goal-Conditioned Data Augmentation for Offline Reinforcement Learning",
+    "year": 2025,
+    "authors": [
+      "Xingshuai Huang",
+      "Di Wu",
+      "Benoît Boulet"
+    ],
+    "doi": "10.48550/arxiv.2412.20519",
+    "file": "openalex_1048550_arxiv241220519_Goal-Conditioned_Data_Augmentation_for_Offline_Reinforceme.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405956510",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Fully Data-Driven Approach for Realistic Traffic Signal Control Using Offline Reinforcement Learning",
+    "year": 2025,
+    "authors": [
+      "Jianxiong Li",
+      "Shichao Lin",
+      "Tianyu Shi",
+      "Chujie Tian",
+      "Yu Mei",
+      "Jian Song",
+      "Xianyuan Zhan",
+      "Ruimin Li"
+    ],
+    "doi": "10.1007/s42421-025-00139-z",
+    "file": "openalex_101007_s42421-025-00139-z_A_Fully_Data-Driven_Approach_for_Realistic_Traffic_Sign.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415816809",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Corruption-Robust Offline Reinforcement Learning",
+    "year": 2021,
+    "authors": [
+      "Xuezhou Zhang",
+      "Yiding Chen",
+      "Junwei Zhu",
+      "W. Sun"
+    ],
+    "doi": "10.48550/arxiv.2106.06630",
+    "file": "openalex_1048550_arxiv210606630_Corruption-Robust_Offline_Reinforcement_Learning.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3168988767",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Data-driven energy management for electric vehicles using offline reinforcement learning",
+    "year": 2025,
+    "authors": [
+      "Yong Wang",
+      "Jingda Wu",
+      "Hongwen He",
+      "Zhongbao Wei",
+      "Fengchun Sun"
+    ],
+    "doi": "10.1038/s41467-025-58192-9",
+    "file": "openalex_101038_s41467-025-58192-9_Data-driven_energy_management_for_electric_vehicles_usi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4408728166",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "NetworkGym: Reinforcement Learning Environments for Multi-Access Traffic Management in Network Simulation",
+    "year": 2024,
+    "authors": [
+      "Momin Haider",
+      "Ming Yin",
+      "Menglei Zhang",
+      "Arpit Gupta",
+      "Jing Zhu",
+      "Yu-Xiang Wang"
+    ],
+    "doi": "10.52202/079017-3385",
+    "file": "openalex_1052202_079017-3385_NetworkGym_Reinforcement_Learning_Environments_for_Multi-Acce.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415795968",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Multi-Agent Deep Reinforcement Learning for Large-Scale Traffic Signal Control",
+    "year": 2019,
+    "authors": [
+      "Tianshu Chu",
+      "Jie Wang",
+      "Lara Codecà",
+      "Zhaojian Li"
+    ],
+    "doi": "10.1109/tits.2019.2901791",
+    "file": "openalex_101109_tits20192901791_Multi-Agent_Deep_Reinforcement_Learning_for_Large-Scale_Tr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2915117209",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Offline Reinforcement Learning for Mobility Robustness Optimization",
+    "year": 2025,
+    "authors": [
+      "Pegah Alizadeh",
+      "Anastasios Giovanidis",
+      "Pradeepa Ramachandra",
+      "Vasileios Koutsoukis",
+      "Osama Arouk"
+    ],
+    "doi": "10.48550/arxiv.2506.22793",
+    "file": "openalex_1048550_arxiv250622793_Offline_Reinforcement_Learning_for_Mobility_Robustness_Opt.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416507484",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "CHAI: A CHatbot AI for Task-Oriented Dialogue with Offline Reinforcement Learning",
+    "year": 2022,
+    "authors": [
+      "Siddharth Shankar Verma",
+      "Justin Fu",
+      "Sherry Yang",
+      "Sergey Levine"
+    ],
+    "doi": "10.18653/v1/2022.naacl-main.332",
+    "file": "openalex_1018653_v1_2022naacl-main332_CHAI_A_CHatbot_AI_for_Task-Oriented_Dialogue_with_Of.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4287889738",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "OffLight: An Offline Multi-Agent Reinforcement Learning Framework for Traffic Signal Control",
+    "year": 2025,
+    "authors": [
+      "Rohit Bokade",
+      "Xiaoning Jin"
+    ],
+    "doi": "10.1109/case58245.2025.11163833",
+    "file": "openalex_101109_case58245202511163833_OffLight_An_Offline_Multi-Agent_Reinforcement_Learni.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414433432",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Beyond Hard Constraints: Budget-Conditioned Reachability for Safe Offline Reinforcement Learning",
+    "year": 2026,
+    "authors": [
+      "Janaka Chathuranga Brahmanage",
+      "Akshat Kumar"
+    ],
+    "doi": "10.1609/icaps.v36i1.42876",
+    "file": "openalex_101609_icapsv36i142876_Beyond_Hard_Constraints_Budget-Conditioned_Reachability_fo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7163874782",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Donsker-Varadhan policy matching for reward-free offline reinforcement learning",
+    "year": 2026,
+    "authors": [
+      "Quang Anh Đào"
+    ],
+    "doi": "10.14288/1.0456945",
+    "file": "openalex_1014288_10456945_Donsker-Varadhan_policy_matching_for_reward-free_offline_reinfor.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7222988950",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "UMBRELLA: Uncertainty-Aware Model-Based Offline Reinforcement Learning Leveraging Planning",
+    "year": 2021,
+    "authors": [
+      "Christopher Diehl",
+      "Timo Sievernich",
+      "Martin Krüger",
+      "Frank Hoffmann",
+      "Torsten Bertram"
+    ],
+    "doi": "10.48550/arxiv.2111.11097",
+    "file": "openalex_1048550_arxiv211111097_UMBRELLA_Uncertainty-Aware_Model-Based_Offline_Reinforceme.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3216078707",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Traffic Signal Control via Reinforcement Learning: A Review on Applications and Innovations",
+    "year": 2025,
+    "authors": [
+      "Panagiotis Michailidis",
+      "Iakovos Michailidis",
+      "Charalampos Rafail Lazaridis",
+      "Elias B. Kosmatopoulos"
+    ],
+    "doi": "10.3390/infrastructures10050114",
+    "file": "openalex_103390_infrastructures10050114_Traffic_Signal_Control_via_Reinforcement_Learning_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4410121475",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "RLFTSim: Realistic and Controllable Multi-Agent Traffic Simulation via Reinforcement Learning Fine-Tuning",
+    "year": 2026,
+    "authors": [
+      "Ehsan Ahmadi",
+      "Hunter Schofield",
+      "Behzad Khamidehi",
+      "Fazel Arasteh",
+      "Jinjun Shan",
+      "Lili Mou",
+      "Dongfeng Bai",
+      "Kasra Rezaee"
+    ],
+    "doi": "10.48550/arxiv.2605.19033",
+    "file": "openalex_1048550_arxiv260519033_RLFTSim_Realistic_and_Controllable_Multi-Agent_Traffic_Sim.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7161844387",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A survey on model-based reinforcement learning",
+    "year": 2024,
+    "authors": [
+      "Fan-Ming Luo",
+      "Tian Xu",
+      "Hang Lai",
+      "Xionghui Chen",
+      "Weinan Zhang",
+      "Yang Yu"
+    ],
+    "doi": "10.1007/s11432-022-3696-5",
+    "file": "openalex_101007_s11432-022-3696-5_A_survey_on_model-based_reinforcement_learning.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4391259941",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "F1tenth Autonomous Racing With Offline Reinforcement Learning Methods",
+    "year": 2024,
+    "authors": [
+      "Prajwal Koirala",
+      "Cody Harrison Fleming"
+    ],
+    "doi": "10.1109/itsc58415.2024.10920216",
+    "file": "openalex_101109_itsc58415202410920216_F1tenth_Autonomous_Racing_With_Offline_Reinforcement.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4408697163",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Learning to Control Autonomous Fleets from Observation via Offline Reinforcement Learning",
+    "year": 2024,
+    "authors": [
+      "Carolin Schmidt",
+      "Daniele Gammelli",
+      "Francisco C. Pereira",
+      "Filipe Rodrigues"
+    ],
+    "doi": "10.23919/ecc64448.2024.10590895",
+    "file": "openalex_1023919_ecc64448202410590895_Learning_to_Control_Autonomous_Fleets_from_Observati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4400947023",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Age of Semantics in Cooperative Communications: To Expedite Simulation Towards Real via Offline Reinforcement Learning",
+    "year": 2025,
+    "authors": [
+      "Xianfu Chen",
+      "Zhifeng Zhao",
+      "Shiwen Mao",
+      "Celimuge Wu",
+      "Honggang Zhang",
+      "Mehdi Bennis"
+    ],
+    "doi": "10.1109/tnse.2025.3558747",
+    "file": "openalex_101109_tnse20253558747_Age_of_Semantics_in_Cooperative_Communications_To_Expedite.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409249084",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks",
+    "year": 2022,
+    "authors": [
+      "Wu, Fan",
+      "Linyi Li",
+      "Chejian Xu",
+      "Zhang, Huan",
+      "Bhavya Kailkhura",
+      "Krishnaram Kenthapadi",
+      "Zhao, Ding",
+      "Bo 波 Li 李"
+    ],
+    "doi": "10.48550/arxiv.2203.08398",
+    "file": "openalex_1048550_arxiv220308398_COPA_Certifying_Robust_Policies_for_Offline_Reinforcement_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4221144608",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Semi-supervised reward learning for offline reinforcement learning",
+    "year": 2020,
+    "authors": [
+      "Ksenia Konyushkova",
+      "Konrad Zolna",
+      "Yusuf Aytar",
+      "Alexander Novikov",
+      "Scott Reed",
+      "Serkan Cabi",
+      "Nando de Freitas"
+    ],
+    "doi": "",
+    "file": "arxiv_201206899v1_Semi-supervised_reward_learning_for_offline_reinforcement_learning.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2012.06899v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Towards Data-Driven Offline Simulations for Online Reinforcement Learning",
+    "year": 2022,
+    "authors": [
+      "Shengpu Tang",
+      "Felipe Vieira Frujeri",
+      "Dipendra Misra",
+      "Alex Lamb",
+      "John Langford",
+      "Paul Mineiro",
+      "Sebastian Kochman"
+    ],
+    "doi": "",
+    "file": "arxiv_221107614v1_Towards_Data-Driven_Offline_Simulations_for_Online_Reinforcement_Learnin.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2211.07614v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "An Optimistic Perspective on Offline Reinforcement Learning",
+    "year": 2019,
+    "authors": [
+      "Rishabh Agarwal",
+      "Dale Schuurmans",
+      "Mohammad Norouzi"
+    ],
+    "doi": "",
+    "file": "arxiv_190704543v4_An_Optimistic_Perspective_on_Offline_Reinforcement_Learning.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/1907.04543v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "GOPlan: Goal-conditioned Offline Reinforcement Learning by Planning with Learned Models",
+    "year": 2023,
+    "authors": [
+      "Mianchu Wang",
+      "Rui Yang",
+      "Xi Chen",
+      "Hao Sun",
+      "Meng Fang",
+      "Giovanni Montana"
+    ],
+    "doi": "",
+    "file": "arxiv_231020025v3_GOPlan_Goal-conditioned_Offline_Reinforcement_Learning_by_Planning_with_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2310.20025v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Domain Generalization for Robust Model-Based Offline Reinforcement Learning",
+    "year": 2022,
+    "authors": [
+      "Alan Clark",
+      "Shoaib Ahmed Siddiqui",
+      "Robert Kirk",
+      "Usman Anwar",
+      "Stephen Chung",
+      "David Krueger"
+    ],
+    "doi": "",
+    "file": "arxiv_221114827v1_Domain_Generalization_for_Robust_Model-Based_Offline_Reinforcement_Learn.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2211.14827v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Offline Learning from Demonstrations and Unlabeled Experience",
+    "year": 2020,
+    "authors": [
+      "Konrad Zolna",
+      "Alexander Novikov",
+      "Ksenia Konyushkova",
+      "Caglar Gulcehre",
+      "Ziyu Wang",
+      "Yusuf Aytar",
+      "Misha Denil",
+      "Nando de Freitas",
+      "Scott Reed"
+    ],
+    "doi": "",
+    "file": "arxiv_201113885v1_Offline_Learning_from_Demonstrations_and_Unlabeled_Experience.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2011.13885v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Benchmarking Offline Reinforcement Learning Algorithms for E-Commerce Order Fraud Evaluation",
+    "year": 2022,
+    "authors": [
+      "Soysal Degirmenci",
+      "Chris Jones"
+    ],
+    "doi": "",
+    "file": "arxiv_221202620v1_Benchmarking_Offline_Reinforcement_Learning_Algorithms_for_E-Commerce_Or.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2212.02620v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Value Bonuses using Ensemble Errors for Exploration in Reinforcement Learning",
+    "year": 2026,
+    "authors": [
+      "Abdul Wahab",
+      "Raksha Kumaraswamy",
+      "Martha White"
+    ],
+    "doi": "",
+    "file": "arxiv_260212375v1_Value_Bonuses_using_Ensemble_Errors_for_Exploration_in_Reinforcement_Lea.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.12375v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "The Open Ant: A Robot Platform for Reinforcement Learning Research",
+    "year": 2026,
+    "authors": [
+      "Elena Sorina Lupu",
+      "Patrick Spieler",
+      "Khurram Javed",
+      "Kris De Asis",
+      "John D. Martin",
+      "Martha Steenstrup",
+      "Joseph Modayil"
+    ],
+    "doi": "",
+    "file": "arxiv_260718488v1_The_Open_Ant_A_Robot_Platform_for_Reinforcement_Learning_Research.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2607.18488v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Offline Reinforcement Learning Hands-On",
+    "year": 2020,
+    "authors": [
+      "Louis Monier",
+      "Jakub Kmec",
+      "Alexandre Laterre",
+      "Thomas Pierrot",
+      "Valentin Courgeau",
+      "Olivier Sigaud",
+      "Karim Beguir"
+    ],
+    "doi": "",
+    "file": "arxiv_201114379v1_Offline_Reinforcement_Learning_Hands-On.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2011.14379v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DmC: Nearest Neighbor Guidance Diffusion Model for Offline Cross-domain Reinforcement Learning",
+    "year": 2025,
+    "authors": [
+      "Linh Le Pham Van",
+      "Minh Hoang Nguyen",
+      "Duc Kieu",
+      "Hung Le",
+      "Hung The Tran",
+      "Sunil Gupta"
+    ],
+    "doi": "",
+    "file": "arxiv_250720499v2_DmC_Nearest_Neighbor_Guidance_Diffusion_Model_for_Offline_Cross-domain_R.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2507.20499v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Pessimistic Model Selection for Offline Deep Reinforcement Learning",
+    "year": 2021,
+    "authors": [
+      "Chao-Han Huck Yang",
+      "Zhengling Qi",
+      "Yifan Cui",
+      "Pin-Yu Chen"
+    ],
+    "doi": "",
+    "file": "arxiv_211114346v1_Pessimistic_Model_Selection_for_Offline_Deep_Reinforcement_Learning.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2111.14346v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Personalization for Web-based Services using Offline Reinforcement Learning",
+    "year": 2021,
+    "authors": [
+      "Pavlos Athanasios Apostolopoulos",
+      "Zehui Wang",
+      "Hanson Wang",
+      "Chad Zhou",
+      "Kittipat Virochsiri",
+      "Norm Zhou",
+      "Igor L. Markov"
+    ],
+    "doi": "",
+    "file": "arxiv_210205612v1_Personalization_for_Web-based_Services_using_Offline_Reinforcement_Learn.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2102.05612v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "UNIQ: Conformal Calibration for Adaptive Conservatism in Offline Reinforcement Learning",
+    "year": 2026,
+    "authors": [
+      "Aditya Upadhyay"
+    ],
+    "doi": "",
+    "file": "arxiv_260607592v1_UNIQ_Conformal_Calibration_for_Adaptive_Conservatism_in_Offline_Reinforc.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2606.07592v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TROFI: Trajectory-Ranked Offline Inverse Reinforcement Learning",
+    "year": 2025,
+    "authors": [
+      "Alessandro Sestini",
+      "Joakim Bergdahl",
+      "Konrad Tollmar",
+      "Andrew D. Bagdanov",
+      "Linus Gisslén"
+    ],
+    "doi": "",
+    "file": "arxiv_250622008v1_TROFI_Trajectory-Ranked_Offline_Inverse_Reinforcement_Learning.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.22008v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Reinforcement Learning with Stochastic Reward Machines",
+    "year": 2025,
+    "authors": [
+      "Jan Corazza",
+      "Ivan Gavran",
+      "Daniel Neider"
+    ],
+    "doi": "10.1609/aaai.v36i6.20594",
+    "file": "arxiv_101609_aaaiv36i620594_Reinforcement_Learning_with_Stochastic_Reward_Machines.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.14837v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Offline Reinforcement Learning from Datasets with Structured Non-Stationarity",
+    "year": 2024,
+    "authors": [
+      "Johannes Ackermann",
+      "Takayuki Osa",
+      "Masashi Sugiyama"
+    ],
+    "doi": "",
+    "file": "arxiv_240514114v2_Offline_Reinforcement_Learning_from_Datasets_with_Structured_Non-Station.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2405.14114v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Reward Shaping via Diffusion Process in Reinforcement Learning",
+    "year": 2023,
+    "authors": [
+      "Peeyush Kumar"
+    ],
+    "doi": "",
+    "file": "arxiv_230611885v1_Reward_Shaping_via_Diffusion_Process_in_Reinforcement_Learning.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2306.11885v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FairDICE: Fairness-Driven Offline Multi-Objective Reinforcement Learning",
+    "year": 2025,
+    "authors": [
+      "Woosung Kim",
+      "Jinho Lee",
+      "Jongmin Lee",
+      "Byung-Jun Lee"
+    ],
+    "doi": "",
+    "file": "arxiv_250608062v2_FairDICE_Fairness-Driven_Offline_Multi-Objective_Reinforcement_Learning.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.08062v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Tiered Reward: Designing Rewards for Specification and Fast Learning of Desired Behavior",
+    "year": 2022,
+    "authors": [
+      "Zhiyuan Zhou",
+      "Shreyas Sundara Raman",
+      "Henry Sowerby",
+      "Michael L. Littman"
+    ],
+    "doi": "",
+    "file": "arxiv_221203733v3_Tiered_Reward_Designing_Rewards_for_Specification_and_Fast_Learning_of_D.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2212.03733v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "From Sparse to Dense: Toddler-inspired Reward Transition in Goal-Oriented Reinforcement Learning",
+    "year": 2025,
+    "authors": [
+      "Junseok Park",
+      "Hyeonseo Yang",
+      "Min Whoo Lee",
+      "Won-Seok Choi",
+      "Minsu Lee",
+      "Byoung-Tak Zhang"
+    ],
+    "doi": "",
+    "file": "arxiv_250117842v1_From_Sparse_to_Dense_Toddler-inspired_Reward_Transition_in_Goal-Oriented.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2501.17842v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Semi-gradient DICE for Offline Constrained Reinforcement Learning",
+    "year": 2025,
+    "authors": [
+      "Woosung Kim",
+      "JunHo Seo",
+      "Jongmin Lee",
+      "Byung-Jun Lee"
+    ],
+    "doi": "",
+    "file": "arxiv_250608644v1_Semi-gradient_DICE_for_Offline_Constrained_Reinforcement_Learning.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.08644v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "From Reward Shaping to Q-Shaping: Achieving Unbiased Learning with LLM-Guided Knowledge",
+    "year": 2024,
+    "authors": [
+      "Xiefeng Wu"
+    ],
+    "doi": "",
+    "file": "arxiv_241001458v1_From_Reward_Shaping_to_Q-Shaping_Achieving_Unbiased_Learning_with_LLM-Gu.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2410.01458v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Offline Meta-level Model-based Reinforcement Learning Approach for Cold-Start Recommendation",
+    "year": 2020,
+    "authors": [
+      "Yanan Wang",
+      "Yong Ge",
+      "Li Li",
+      "Rui Chen",
+      "Tong Xu"
+    ],
+    "doi": "",
+    "file": "arxiv_201202476v1_Offline_Meta-level_Model-based_Reinforcement_Learning_Approach_for_Cold-.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2012.02476v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Robotic Manipulation Datasets for Offline Compositional Reinforcement Learning",
+    "year": 2023,
+    "authors": [
+      "Marcel Hussing",
+      "Jorge A. Mendez",
+      "Anisha Singrodia",
+      "Cassandra Kent",
+      "Eric Eaton"
+    ],
+    "doi": "",
+    "file": "arxiv_230707091v2_Robotic_Manipulation_Datasets_for_Offline_Compositional_Reinforcement_Le.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2307.07091v2",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+ "id": "ld_scene_llm_guided_diffusion_for_controllable_gen",
+ "title": "LD-Scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "Natural-language user query naming the adversarial vehicle, collision type and adversarial collision severity (weak/medium/strong adversarial level).", "pages": "4-5"},
+ "control_mechanism": {"value": "An LLM chain-of-thought code generator plus LLM debugger turn the query into a guidance loss function; the loss steers the latent denoising sampling at inference (inference-time guidance).", "pages": "1-2, 5"},
+ "base_model": {"value": "Latent diffusion model (U-Net denoiser) on a pretrained graph-based VAE from Strive with frozen encoders and autoregressive kinematic decoder; GPT-4o used for code generator and debugger.", "pages": "5-6, 10"},
+ "datasets": {"value": "nuScenes (train split for training, validation split for evaluation); 2 s past to predict 6 s future.", "pages": "9"},
+ "metrics": {"value": "Adv-Ego collision rate, Adv acceleration, adversary/other off-road rates, Adv-Other/Other-Ego/Other-Other collision rates, closed-loop Sim Time; TTC and lateral/longitudinal acceleration for adversarial level.", "pages": "9-10, 13-14"},
+ "controllability_evidence": {"value": "Table 1: Adv-Ego Coll 40.75% vs 27.81% for Safe-Sim. Adversarial level weak/medium/strong gives TTC 2.06/1.98/1.91 s and Adv Acc_lon 1.02/1.09/1.20 m/s2. Three query case studies (normal, high-speed, sharp-turn collision).", "pages": "10, 13-15"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Strong level collision rate (39.33%) is not above medium (40.75%); authors attribute this to missed collision timing in low-speed interactions. Limitations section not in packet."
+}

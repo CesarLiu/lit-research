@@ -1,0 +1,13 @@
+{
+ "id": "safety_critical_traffic_simulation_with_guided_lat",
+ "title": "Safety-Critical Traffic Simulation with Guided Latent Diffusion Model",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "Differentiable guidance objectives (adversarial ego-distance objective, vehicle-collision and map-collision avoidance objectives) plus the choice of which vehicle is adversarial; the adversarial agent is fixed to the vehicle closest to ego at the initial state.", "pages": "4-5"},
+ "control_mechanism": {"value": "Gradients of the guidance objectives perturb the denoising (DDIM) sampling of the latent; collision-avoidance gradient updates non-adversarial vehicles' latents, adversarial plus map terms update the adversarial vehicle's latent. A feasibility-based sample selection then ranks candidates.", "pages": "3-5"},
+ "base_model": {"value": "Latent diffusion model: pretrained graph-based VAE (following Strive) with GNN encoders and autoregressive decoder through a kinematic bicycle model; learnable U-Net denoiser conditioned on the prior (past plus map) latent; DDIM sampling.", "pages": "3-4"},
+ "datasets": {"value": "nuScenes (1,000 scenes, 20 s each); trained on training split, evaluated on validation split; 2 s past used to predict 6 s future.", "pages": "5"},
+ "metrics": {"value": "Adversariality: Adv-Ego Collision Rate, Adv Acceleration. Realism: Veh Coll, Env Coll, Adv/Other Offroad, pairwise collision rates. Diversity: FDD. Accuracy: ADE, FDE, minSFDE. Efficiency: inference time.", "pages": "5"},
+ "controllability_evidence": {"value": "Adv-Ego Collision Rate 38.17% versus AdvSim 24.72% and Strive 22.69%; adversarial-vehicle off-road 11.49%; inference 171.60 s versus 338.35 s and 609.72 s. Ablation: guidance raises adversariality over unguided model; replay gives near-zero.", "pages": "5-6"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Packet contains no explicit limitations section; the conclusion only mentions future work on LLMs or AI agents for controllability. Guidance gradient application is described on pages 4-5; guidance equations for Jbr/Jar are only partially visible."
+}

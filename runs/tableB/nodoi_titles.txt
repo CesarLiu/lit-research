@@ -1,0 +1,3 @@
+AdvDiffuser: Generating Adversarial Safety-Critical Driving Scenarios via Guided Diffusion
+Conditional Flow-VAE for Safety-Critical Traffic Scenario Generation
+KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients

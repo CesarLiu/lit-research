@@ -1,0 +1,1321 @@
+{
+  "query": "next-token prediction traffic agent motion generation",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 48,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4415795787",
+      "doi": "10.52202/079017-3622",
+      "title": "SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction",
+      "abstract": "Data-driven autonomous driving motion generation tasks are frequently impacted by the limitations of dataset size and the domain gap between datasets, which precludes their extensive application in real-world scenarios. To address this issue, we introduce SMART, a novel autonomous driving motion generation paradigm that models vectorized map and agent trajectory data into discrete sequence tokens. These tokens are then processed through a decoder-only transformer architecture to train for the next token prediction task across spatial-temporal series. This GPT-style method allows the model to learn the motion distribution in real driving scenarios. SMART achieves state-of-the-art performance across most of the metrics on the generative Sim Agents challenge, ranking 1st on the leaderboards of Waymo Open Motion Dataset (WOMD), demonstrating remarkable inference speed. Moreover, SMART represents the generative model in the autonomous driving motion domain, exhibiting zero-shot generalization capabilities: Using only the NuPlan dataset for training and WOMD for validation, SMART achieved a competitive score of 0.72 on the Sim Agents challenge. Lastly, we have collected over 1 billion motion tokens from multiple datasets, validating the model's scalability. These results suggest that SMART has initially emulated two important properties: scalability and zero-shot generalization, and preliminarily meets the needs of large-scale real-time simulation applications. We have released all the code to promote the exploration of models for motion generation in the autonomous driving field. The source code is available at https://github.com/rainmaker22/SMART.",
+      "year": 2024,
+      "authors": [
+        "Wei Wu",
+        "Xiaoxin Feng",
+        "Ziyan Gao",
+        "Yuheng Kan"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 149,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.15677v3",
+      "url": "https://openalex.org/W4415795787",
+      "also_doi": [],
+      "key": "openalex_1052202_079017-3622_SMART_Scalable_Multi-agent_Real-time_Motion_Generation_via_Ne",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-3622_SMART_Scalable_Multi-agent_Real-time_Motion_Generation_via_Ne.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4389500205",
+      "doi": "10.48550/arxiv.2312.04535",
+      "title": "Trajeglish: Traffic Modeling as Next-Token Prediction",
+      "abstract": "A longstanding challenge for self-driving development is simulating dynamic driving scenarios seeded from recorded driving logs. In pursuit of this functionality, we apply tools from discrete sequence modeling to model how vehicles, pedestrians and cyclists interact in driving scenarios. Using a simple data-driven tokenization scheme, we discretize trajectories to centimeter-level resolution using a small vocabulary. We then model the multi-agent sequence of discrete motion tokens with a GPT-like encoder-decoder that is autoregressive in time and takes into account intra-timestep interaction between agents. Scenarios sampled from our model exhibit state-of-the-art realism; our model tops the Waymo Sim Agents Benchmark, surpassing prior work along the realism meta metric by 3.3% and along the interaction metric by 9.9%. We ablate our modeling choices in full autonomy and partial autonomy settings, and show that the representations learned by our model can quickly be adapted to improve performance on nuScenes. We additionally evaluate the scalability of our model with respect to parameter count and dataset size, and use density estimates from our model to quantify the saliency of context length and intra-timestep interaction for the traffic modeling task.",
+      "year": 2024,
+      "authors": [
+        "Jonah Philion",
+        "Xue Bin Peng",
+        "Sanja Fidler"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 64,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e904695e77bd63fe167a25def6869ae5-Paper-Conference.pdf",
+      "url": "https://openalex.org/W4389500205",
+      "key": "openalex_1048550_arxiv231204535_Trajeglish_Traffic_Modeling_as_Next-Token_Prediction",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv231204535_Trajeglish_Traffic_Modeling_as_Next-Token_Prediction.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417095647",
+      "doi": "10.1109/iccv51701.2025.02347",
+      "title": "Long-Term Traffic Simulation with Interleaved Autoregressive Motion and Scenario Generation",
+      "abstract": "An ideal traffic simulator replicates the realistic long-term point-to-point trip that a self-driving system experiences during deployment. Prior models and benchmarks focus on closed-loop motion simulation for initial agents in a scene. This is problematic for long-term simulation. Agents enter and exit the scene as the ego vehicle enters new regions. We propose InfGen, a unified next-token prediction model that performs interleaved closed-loop motion simulation and scene generation. InfGen automatically switches between closed-loop motion simulation and scene generation mode. It enables stable long-term rollout simulation. InfGen performs at the state-of-the-art in short-term (9s) traffic simulation, and significantly outperforms all other methods in long-term (30s) simulation. The code and model of InfGen will be released at https://orangesodahub.github.io/InfGen",
+      "year": 2025,
+      "authors": [
+        "Xiuyu Yang",
+        "Shuhan Tan",
+        "Philipp Krähenbühl"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 7,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.17213",
+      "url": "https://openalex.org/W4417095647",
+      "key": "openalex_101109_iccv51701202502347_Long-Term_Traffic_Simulation_with_Interleaved_Autoregre",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502347_Long-Term_Traffic_Simulation_with_Interleaved_Autoregre.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415798523",
+      "doi": "10.52202/079017-0759",
+      "title": "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion",
+      "abstract": "This paper presents Diffusion Forcing, a new training paradigm where a diffusion model is trained to denoise a set of tokens with independent per-token noise levels. We apply Diffusion Forcing to sequence generative modeling by training a causal next-token prediction model to generate one or several future tokens without fully diffusing past ones. Our approach is shown to combine the strengths of next-token prediction models, such as variable-length generation, with the strengths of full-sequence diffusion models, such as the ability to guide sampling to desirable trajectories. Our method offers a range of additional capabilities, such as (1) rolling-out sequences of continuous tokens, such as video, with lengths past the training horizon, where baselines diverge and (2) new sampling and guiding schemes that uniquely profit from Diffusion Forcing's variable-horizon and causal architecture, and which lead to marked performance gains in decision-making and planning tasks. In addition to its empirical success, our method is proven to optimize a variational lower bound on the likelihoods of all subsequences of tokens drawn from the true joint distribution. Project website: https://boyuan.space/diffusion-forcing",
+      "year": 2024,
+      "authors": [
+        "Boyuan Chen",
+        "Diego Martí Monsó",
+        "Yilun Du",
+        "Max Simchowitz",
+        "Russ Tedrake",
+        "Vincent Sitzmann"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 890,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415798523",
+      "key": "openalex_1052202_079017-0759_Diffusion_Forcing_Next-token_Prediction_Meets_Full-Sequence_D",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-0759_Diffusion_Forcing_Next-token_Prediction_Meets_Full-Sequence_D.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416526514",
+      "doi": "10.48550/arxiv.2506.23316",
+      "title": "SceneStreamer: Continuous Scenario Generation as Next Token Group Prediction",
+      "abstract": "Realistic and interactive traffic simulation is essential for training and evaluating autonomous driving systems. However, most existing data-driven simulation methods rely on static initialization or log-replay data, limiting their ability to model dynamic, long-horizon scenarios with evolving agent populations. We propose SceneStreamer, a unified autoregressive framework for continuous scenario generation that represents the entire scene as a sequence of tokens, including traffic light signals, agent states, and motion vectors, and generates them step by step with a transformer model. This design enables SceneStreamer to continuously introduce and retire agents over an unbounded horizon, supporting realistic long-duration simulation. Experiments demonstrate that SceneStreamer produces realistic, diverse, and adaptive traffic behaviors. Furthermore, reinforcement learning policies trained in SceneStreamer-generated scenarios achieve superior robustness and generalization, validating its utility as a high-fidelity simulation environment for autonomous driving. More information is available at https://vail-ucla.github.io/scenestreamer/ .",
+      "year": 2026,
+      "authors": [
+        "Zhenghao Peng",
+        "Liu, Yuxin",
+        "Bolei Zhou"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 6,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4416526514",
+      "key": "openalex_1048550_arxiv250623316_SceneStreamer_Continuous_Scenario_Generation_as_Next_Token",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250623316_SceneStreamer_Continuous_Scenario_Generation_as_Next_Token.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402772377",
+      "doi": "10.1109/cvpr52733.2024.01420",
+      "title": "MoST: Multi-modality Scene Tokenization for Motion Prediction",
+      "abstract": "Many existing motion prediction approaches rely on symbolic perception outputs to generate agent trajectories, such as bounding boxes, road graph information and traffic lights. This symbolic representation is a high-level abstraction of the real world, which may render the motion prediction model vulnerable to perception errors (e.g., failures in detecting open-vocabulary obstacles) while missing salient information from the scene context (e.g., poor road conditions). An alternative paradigm is end-to-end learning from raw sensors. However, this approach suffers from the lack of interpretability and requires significantly more training resources. In this work, we propose tokenizing the visual world into a compact set of scene elements and then leveraging pre-trained image foundation models and LiDAR neural networks to encode all the scene elements in an open-vocabulary manner. The image foundation model enables our scene tokens to encode the general knowledge of the open world while the LiDAR neural network encodes geometry information. Our proposed representation can efficiently encode the multi-frame multi-modality observations with a few hundred tokens and is compatible with most transformer-based architectures. To evaluate our method, we have augmented Waymo Open Motion Dataset with camera embeddings. Experiments over Waymo Open Motion Dataset show that our approach leads to significant performance improvements over the state-of-the-art.",
+      "year": 2024,
+      "authors": [
+        "Norman Mu",
+        "Jingwei Ji",
+        "Zhenpei Yang",
+        "Nate Harada",
+        "Haotian Tang",
+        "Kan Chen",
+        "Charles R. Qi",
+        "Runzhou Ge",
+        "Kratarth Goel",
+        "Zoey Yang",
+        "Scott M. Ettinger",
+        "Rami Al‐Rfou",
+        "Dragomir Anguelov",
+        "Yin Zhou"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 27,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.19531",
+      "url": "https://openalex.org/W4402772377",
+      "key": "openalex_101109_cvpr52733202401420_MoST_Multi-modality_Scene_Tokenization_for_Motion_Predi",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202401420_MoST_Multi-modality_Scene_Tokenization_for_Motion_Predi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4386076407",
+      "doi": "10.1109/cvpr52729.2023.00930",
+      "title": "MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion",
+      "abstract": "We present MotionDiffuser, a diffusion based representation for the joint distribution of future trajectories over multiple agents. Such representation has several key advantages: first, our model learns a highly multimodal distribution that captures diverse future outcomes. Second, the simple predictor design requires only a single L2 loss training objective, and does not depend on trajectory anchors. Third, our model is capable of learning the joint distribution for the motion of multiple agents in a permutation-invariant manner. Furthermore, we utilize a compressed trajectory representation via PCA, which improves model performance and allows for efficient computation of the exact sample log probability. Subsequently, we propose a general constrained sampling framework that enables controlled trajectory sampling based on differentiable cost functions. This strategy enables a host of applications such as enforcing rules and physical priors, or creating tailored simulation scenarios. MotionDiffuser can be combined with existing backbone architectures to achieve top motion forecasting results. We obtain state-of-the-art results for multi-agent motion prediction on the Waymo Open Motion Dataset.",
+      "year": 2023,
+      "authors": [
+        "Chiyu Max Jiang",
+        "Andre Cornman",
+        "Cheolho Park",
+        "Benjamin Sapp",
+        "Yin Zhou",
+        "Dragomir Anguelov"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 404,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.03083",
+      "url": "https://openalex.org/W4386076407",
+      "key": "openalex_101109_cvpr52729202300930_MotionDiffuser_Controllable_Multi-Agent_Motion_Predicti",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52729202300930_MotionDiffuser_Controllable_Multi-Agent_Motion_Predicti.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4390788068",
+      "doi": "10.1109/tpami.2024.3352811",
+      "title": "MTR++: Multi-Agent Motion Prediction With Symmetric Scene Modeling and Guided Intention Querying",
+      "abstract": "Motion prediction is crucial for autonomous driving systems to understand complex driving scenarios and make informed decisions. However, this task is challenging due to the diverse behaviors of traffic participants and complex environmental contexts. In this paper, we propose Motion TRansformer (MTR) frameworks to address these challenges. The initial MTR framework utilizes a transformer encoder-decoder structure with learnable intention queries, enabling efficient and accurate prediction of future trajectories. By customizing intention queries for distinct motion modalities, MTR improves multimodal motion prediction while reducing reliance on dense goal candidates. The framework comprises two essential processes: global intention localization, identifying the agent's intent to enhance overall efficiency, and local movement refinement, adaptively refining predicted trajectories for improved accuracy. Moreover, we introduce an advanced MTR++ framework, extending the capability of MTR to simultaneously predict multimodal motion for multiple agents. MTR++ incorporates symmetric context modeling and mutually-guided intention querying modules to facilitate future behavior interaction among multiple agents, resulting in scene-compliant future trajectories. Extensive experimental results demonstrate that the MTR framework achieves state-of-the-art performance on the highly-competitive motion prediction benchmarks, while the MTR++ framework surpasses its precursor, exhibiting enhanced performance and efficiency in predicting accurate multimodal future trajectories for multiple agents.",
+      "year": 2024,
+      "authors": [
+        "Shaoshuai Shi",
+        "Li Jiang",
+        "Dengxin Dai",
+        "Bernt Schiele"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "cited_by": 325,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.17770",
+      "url": "https://openalex.org/W4390788068",
+      "also_doi": [],
+      "key": "openalex_101109_tpami20243352811_MTR_Multi-Agent_Motion_Prediction_With_Symmetric_Scene_Mo",
+      "file_kind": "txt",
+      "file": "openalex_101109_tpami20243352811_MTR_Multi-Agent_Motion_Prediction_With_Symmetric_Scene_Mo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413947024",
+      "doi": "10.1109/icra55743.2025.11128234",
+      "title": "Categorical Traffic Transformer: Interpretable and Diverse Behavior Prediction with Tokenized Latent",
+      "abstract": "Adept traffic models are critical to both real-time prediction/planning and closed-loop simulation for autonomous vehicles (AV). Key design objectives include accuracy, diverse multimodal behaviors, interpretability, and compatibility with other modules in the autonomy stack, e.g., the downstream planner. We present Categorical Traffic Transformer (CTT), a traffic model that outputs both continuous trajectory predictions and categorical predictions with clear semantic meanings (lane modes, homotopies, etc.). The most outstanding feature of CTT is its fully interpretable latent space, which enables direct supervision of the latent variables from the ground truth during training and avoids mode collapse completely. As a result, CTT can generate diverse behaviors conditioned on different semantic modes while significantly beating SOTA on prediction accuracy. In addition, CTT's ability to input and output tokens enables direct integration with semantic-heavy modules such as behavior planners and language models, bridging the tokenized representation and the continuous trajectory space.",
+      "year": 2025,
+      "authors": [
+        "Yuxiao Chen",
+        "Sander Tonkens",
+        "Marco Pavone"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 14,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.18307",
+      "url": "https://openalex.org/W4413947024",
+      "key": "openalex_101109_icra55743202511128234_Categorical_Traffic_Transformer_Interpretable_and_Di",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra55743202511128234_Categorical_Traffic_Transformer_Interpretable_and_Di.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413145140",
+      "doi": "10.1109/cvpr52734.2025.00510",
+      "title": "Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models",
+      "abstract": "Traffic simulation aims to learn a policy for traffic agents that, when unrolled in closed-loop, faithfully recovers the joint distribution of trajectories observed in the real world. Inspired by large language models, tokenized multi-agent policies have recently become the state-of-the-art in traffic simulation. However, they are typically trained through open-loop behavior cloning, and thus suffer from covariate shift when executed in closed-loop during simulation. In this work, we present Closest Among Top-K (CAT-K) rollouts, a simple yet effective closed-loop fine-tuning strategy to mitigate covariate shift. CAT-K fine-tuning only requires existing trajectory data, without reinforcement learning or generative adversarial imitation. Concretely, CAT-K fine-tuning enables a small 7M-parameter tokenized traffic simulation policy to outperform a 102M-parameter model from the same model family, achieving the top spot on the Waymo Sim Agent Challenge leaderboard at the time of submission. The code is available at https://github.com/NVlabs/catk.",
+      "year": 2025,
+      "authors": [
+        "Zhejun Zhang",
+        "Péter Karkus",
+        "Maximilian Igl",
+        "Wenhao Ding",
+        "Yuxiao Chen",
+        "Boris Ivanovic",
+        "Marco Pavone"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 70,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.05334",
+      "url": "https://openalex.org/W4413145140",
+      "key": "openalex_101109_cvpr52734202500510_Closed-Loop_Supervised_Fine-Tuning_of_Tokenized_Traffic",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202500510_Closed-Loop_Supervised_Fine-Tuning_of_Tokenized_Traffic.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4392207805",
+      "doi": "10.1109/lra.2024.3370039",
+      "title": "SIMPL: A Simple and Efficient Multi-Agent Motion Prediction Baseline for Autonomous Driving",
+      "abstract": "This letter presents aSimple and effIcientMotionPrediction baseLine (SIMPL) for autonomous vehicles. Unlike conventional agent-centric methods with high accuracy but repetitive computations and scene-centric methods with compromised accuracy and generalizability, SIMPL delivers real-time, accurate motion predictions for all relevant traffic participants. To achieve improvements in both accuracy and inference speed, we propose a compact and efficient global feature fusion module that performs directed message passing in a symmetric manner, enabling the network to forecast future motion for all road users in a single feed-forward pass and mitigating accuracy loss caused by viewpoint shifting. Additionally, we investigate the continuous trajectory parameterization using Bernstein basis polynomials in trajectory decoding, allowing evaluations of states and their higher-order derivatives at any desired time point, which is valuable for downstream planning tasks. As a strong baseline, SIMPL exhibits highly competitive performance on Argoverse 1 & 2 motion forecasting benchmarks compared with other state-of-the-art methods. Furthermore, its lightweight design and low inference latency make SIMPL highly extensible and promising for real-world onboard deployment.",
+      "year": 2024,
+      "authors": [
+        "Lu Zhang",
+        "Peiliang Li",
+        "Sikang Liu",
+        "Shaojie Shen"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "cited_by": 119,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2402.02519",
+      "url": "https://openalex.org/W4392207805",
+      "key": "openalex_101109_lra20243370039_SIMPL_A_Simple_and_Efficient_Multi-Agent_Motion_Prediction_",
+      "file_kind": "txt",
+      "file": "openalex_101109_lra20243370039_SIMPL_A_Simple_and_Efficient_Multi-Agent_Motion_Prediction_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4390872108",
+      "doi": "10.1109/iccv51070.2023.00788",
+      "title": "MotionLM: Multi-Agent Motion Forecasting as Language Modeling",
+      "abstract": "Reliable forecasting of the future behavior of road agents is a critical component to safe planning in autonomous vehicles. Here, we represent continuous trajectories as sequences of discrete motion tokens and cast multi-agent motion prediction as a language modeling task over this domain. Our model, MotionLM, provides several advantages: First, it does not require anchors or explicit latent variable optimization to learn multimodal distributions. Instead, we leverage a single standard language modeling objective, maximizing the average log probability over sequence tokens. Second, our approach bypasses post-hoc interaction heuristics where individual agent trajectory generation is conducted prior to interactive scoring. Instead, MotionLM produces joint distributions over interactive agent futures in a single autoregressive decoding process. In addition, the model’s sequential factorization enables temporally causal conditional rollouts. The proposed approach establishes new state-of-the-art performance for multi-agent motion prediction on the Waymo Open Motion Dataset, ranking 1ston the interactive challenge leaderboard.",
+      "year": 2023,
+      "authors": [
+        "Ari Seff",
+        "Brian Cera",
+        "Dian Chen",
+        "Mason Ng",
+        "Aurick Zhou",
+        "Nigamaa Nayakanti",
+        "Khaled S. Refaat",
+        "Rami Al‐Rfou",
+        "Benjamin Sapp"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 267,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2309.16534",
+      "url": "https://openalex.org/W4390872108",
+      "key": "openalex_101109_iccv51070202300788_MotionLM_Multi-Agent_Motion_Forecasting_as_Language_Mod",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51070202300788_MotionLM_Multi-Agent_Motion_Forecasting_as_Language_Mod.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415797002",
+      "doi": "10.52202/079017-2527",
+      "title": "BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction",
+      "abstract": "Simulating realistic behaviors of traffic agents is pivotal for efficiently validating the safety of autonomous driving systems. Existing data-driven simulators primarily use an encoder-decoder architecture to encode the historical trajectories before decoding the future. However, the heterogeneity between encoders and decoders complicates the models, and the manual separation of historical and future trajectories leads to low data utilization. Given these limitations, we propose BehaviorGPT, a homogeneous and fully autoregressive Transformer designed to simulate the sequential behavior of multiple agents. Crucially, our approach discards the traditional separation between \"history\" and \"future\" by modeling each time step as the \"current\" one for motion generation, leading to a simpler, more parameter- and data-efficient agent simulator. We further introduce the Next-Patch Prediction Paradigm (NP3) to mitigate the negative effects of autoregressive modeling, in which models are trained to reason at the patch level of trajectories and capture long-range spatial-temporal interactions. Despite having merely 3M model parameters, BehaviorGPT won first place in the 2024 Waymo Open Sim Agents Challenge with a realism score of 0.7473 and a minADE score of 1.4147, demonstrating its exceptional performance in traffic agent simulation.",
+      "year": 2024,
+      "authors": [
+        "Zikang Zhou",
+        "Haibo Hu",
+        "Xinhong Chen",
+        "Jianping Wang",
+        "Nan Guan",
+        "Kui Wu",
+        "Yung-Hui Li",
+        "Yu-Kai Huang",
+        "Chun Jason Xue"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 73,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415797002",
+      "key": "openalex_1052202_079017-2527_BehaviorGPT_Smart_Agent_Simulation_for_Autonomous_Driving_wit",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-2527_BehaviorGPT_Smart_Agent_Simulation_for_Autonomous_Driving_wit.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4389950797",
+      "doi": "10.3390/s24010009",
+      "title": "Query-Informed Multi-Agent Motion Prediction",
+      "abstract": "In a dynamic environment, autonomous driving vehicles require accurate decision-making and trajectory planning. To achieve this, autonomous vehicles need to understand their surrounding environment and predict the behavior and future trajectories of other traffic participants. In recent years, vectorization methods have dominated the field of motion prediction due to their ability to capture complex interactions in traffic scenes. However, existing research using vectorization methods for scene encoding often overlooks important physical information about vehicles, such as speed and heading angle, relying solely on displacement to represent the physical attributes of agents. This approach is insufficient for accurate trajectory prediction models. Additionally, agents' future trajectories can be diverse, such as proceeding straight or making left or right turns at intersections. Therefore, the output of trajectory prediction models should be multimodal to account for these variations. Existing research has used multiple regression heads to output future trajectories and confidence, but the results have been suboptimal. To address these issues, we propose QINET, a method for accurate multimodal trajectory prediction for all agents in a scene. In the scene encoding part, we enhance the feature attributes of agent vehicles to better represent the physical information of agents in the scene. Our scene representation also possesses rotational and spatial invariance. In the decoder part, we use cross-attention and induce the generation of multimodal future trajectories by employing a self-learned query matrix. Experimental results demonstrate that QINET achieves state-of-the-art performance on the Argoverse motion prediction benchmark and is capable of fast multimodal trajectory prediction for multiple agents.",
+      "year": 2023,
+      "authors": [
+        "Chong Guo",
+        "Shouyi Fan",
+        "Chaoyi Chen",
+        "Wenbo Zhao",
+        "Jiawei Wang",
+        "Yao Zhang",
+        "Yanhong Chen"
+      ],
+      "venue": "Sensors",
+      "cited_by": 4,
+      "is_oa": true,
+      "pdf_url": "https://www.mdpi.com/1424-8220/24/1/9/pdf?version=1703053190",
+      "url": "https://openalex.org/W4389950797",
+      "key": "openalex_103390_s24010009_Query-Informed_Multi-Agent_Motion_Prediction",
+      "file_kind": "txt",
+      "file": "openalex_103390_s24010009_Query-Informed_Multi-Agent_Motion_Prediction.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7143351333",
+      "doi": "10.1109/lra.2026.3678842",
+      "title": "Learning Rollout from Sampling: An R1-Style Tokenized Traffic Simulation Model",
+      "abstract": "Learning diverse and high-fidelity traffic simulations from human driving demonstrations is crucial for autonomous driving evaluation. The recent next-token prediction (NTP) paradigm, widely adopted in large language models (LLMs), has been applied to traffic simulation and achieves iterative improvements via supervised fine-tuning (SFT). However, such methods limit active exploration of potentially valuable motion tokens, particularly in suboptimal regions. Entropy patterns provide a promising perspective for enabling exploration driven by motion token uncertainty. Motivated by this insight, we propose a novel tokenized traffic simulation policy, R1Sim, which represents an initial attempt to explore reinforcement learning based on motion token entropy patterns, and systematically analyzes the impact of different motion tokens on simulation outcomes. Specifically, we introduce an entropy-guided adaptive sampling mechanism that focuses on previously overlooked motion tokens with high uncertainty yet high potential. We further optimize motion behaviors using Group Relative Policy Optimization (GRPO), guided by a safety-aware reward design. Overall, these components enable a balanced exploration–exploitation trade-off through diverse high-uncertainty sampling and group-wise comparative estimation, resulting in realistic, safe, and diverse multi-agent behaviors. Extensive experiments on the Waymo Sim Agent benchmark demonstrate that R1Sim achieves competitive performance compared to state-of-the-art methods.",
+      "year": 2026,
+      "authors": [
+        "Ziyan Wang",
+        "Peng Chen",
+        "Ding Li",
+        "Chiwei Li",
+        "Qichao Zhang",
+        "Zhongpu Xia",
+        "Guizhen Yu"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.24989",
+      "url": "https://openalex.org/W7143351333",
+      "key": "openalex_101109_lra20263678842_Learning_Rollout_from_Sampling_An_R1-Style_Tokenized_Traffi",
+      "file_kind": "txt",
+      "file": "openalex_101109_lra20263678842_Learning_Rollout_from_Sampling_An_R1-Style_Tokenized_Traffi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3169575318",
+      "doi": "10.1109/cvpr46437.2021.00749",
+      "title": "Multimodal Motion Prediction with Stacked Transformers",
+      "abstract": "Predicting multiple plausible future trajectories of the nearby vehicles is crucial for the safety of autonomous driving. Recent motion prediction approaches attempt to achieve such multimodal motion prediction by implicitly regularizing the feature or explicitly generating multiple candidate proposals. However, it remains challenging since the latent features may concentrate on the most frequent mode of the data while the proposal-based methods depend largely on the prior knowledge to generate and select the proposals. In this work, we propose a novel transformer framework for multimodal motion prediction, termed as mmTransformer. A novel network architecture based on stacked transformers is designed to model the multimodality at feature level with a set of fixed independent proposals. A region-based training strategy is then developed to induce the multimodality of the generated proposals. Experiments on Argoverse dataset show that the proposed model achieves the state-of-the-art performance on motion prediction, substantially improving the diversity and the accuracy of the predicted trajectories. Demo video and code are available at https://decisionforce.github.io/mmTransformer.",
+      "year": 2021,
+      "authors": [
+        "Yicheng Liu",
+        "Jinghuai Zhang",
+        "Liangji Fang",
+        "Qinhong Jiang",
+        "Bolei Zhou"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 641,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2103.11624",
+      "url": "https://openalex.org/W3169575318",
+      "key": "openalex_101109_cvpr46437202100749_Multimodal_Motion_Prediction_with_Stacked_Transformers",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr46437202100749_Multimodal_Motion_Prediction_with_Stacked_Transformers.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417308312",
+      "doi": "10.52202/085713-1849",
+      "title": "Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation",
+      "abstract": "Scenario-based testing is essential for validating the performance of autonomous driving (AD) systems. However, such testing is limited by the scarcity of long-tailed, safety-critical scenarios in existing datasets collected in the real world. To tackle the data issue, we propose the Adv-BMT framework, which augments real-world scenarios with diverse and realistic adversarial traffic interactions. The core component of Adv-BMT is a bidirectional motion transformer (BMT) model to perform inverse traffic motion predictions, which takes agent information in the last time step of the scenario as input, and reconstructs the traffic in the inverse of chronological order until the initial time step. The Adv-BMT framework is a two-staged pipeline: it first conducts adversarial initializations and then inverse motion predictions. Different from previous work, we do not need any collision data for pretraining, and are able to generate realistic and diverse collision interactions. Our experimental results validate the quality of generated collision scenarios by Adv-BMT: training in our augmented dataset would reduce episode collision rates by 20%. Demo and code are available at: https://metadriverse.github.io/adv-bmt/.",
+      "year": 2025,
+      "authors": [
+        "Yuxin Liu",
+        "Zhenghao Peng",
+        "Xuanhao Cui",
+        "Bolei Zhou"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 14,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4417308312",
+      "key": "openalex_1052202_085713-1849_Adv-BMT_Bidirectional_Motion_Transformer_for_Safety-Critical_",
+      "file_kind": "txt",
+      "file": "openalex_1052202_085713-1849_Adv-BMT_Bidirectional_Motion_Transformer_for_Safety-Critical_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4384644126",
+      "doi": "10.48550/arxiv.2307.07947",
+      "title": "Language Conditioned Traffic Generation",
+      "abstract": "Simulation forms the backbone of modern self-driving development. Simulators help develop, test, and improve driving systems without putting humans, vehicles, or their environment at risk. However, simulators face a major challenge: They rely on realistic, scalable, yet interesting content. While recent advances in rendering and scene reconstruction make great strides in creating static scene assets, modeling their layout, dynamics, and behaviors remains challenging. In this work, we turn to language as a source of supervision for dynamic traffic scene generation. Our model, LCTGen, combines a large language model with a transformer-based decoder architecture that selects likely map locations from a dataset of maps, and produces an initial traffic distribution, as well as the dynamics of each vehicle. LCTGen outperforms prior work in both unconditional and conditional traffic scene generation in terms of realism and fidelity. Code and video will be available at https://ariostgx.github.io/lctgen.",
+      "year": 2023,
+      "authors": [
+        "Shuhan Tan",
+        "Boris Ivanovic",
+        "Xinshuo Weng",
+        "Marco Pavone",
+        "Philipp Krähenbühl"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 98,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2307.07947",
+      "url": "https://openalex.org/W4384644126",
+      "key": "openalex_1048550_arxiv230707947_Language_Conditioned_Traffic_Generation",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv230707947_Language_Conditioned_Traffic_Generation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417286686",
+      "doi": "10.48550/arxiv.2511.17496",
+      "title": "MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments",
+      "abstract": "Modeling realistic and interactive multi-agent behavior is critical to autonomous driving and traffic simulation. However, existing diffusion and autoregressive approaches are limited by iterative sampling, sequential decoding, or task-specific designs, which hinder efficiency and reuse. We propose Masked Denoising Generation (MDG), a unified generative framework that reformulates multi-agent behavior modeling as the reconstruction of independently noised spatiotemporal tensors. Instead of relying on diffusion time steps or discrete tokenization, MDG applies continuous, per-agent and per-timestep noise masks that enable localized denoising and controllable trajectory generation in a single or few forward passes. This mask-driven formulation generalizes across open-loop prediction, closed-loop simulation, motion planning, and conditional generation within one model. Trained on large-scale real-world driving datasets, MDG achieves competitive closed-loop performance on the Waymo Sim Agents and nuPlan Planning benchmarks, while providing efficient, consistent, and controllable open-loop multi-agent trajectory generation. These results position MDG as a simple yet versatile paradigm for multi-agent behavior modeling.",
+      "year": 2025,
+      "authors": [
+        "Zhiyu Huang",
+        "Zewei Zhou",
+        "Tianhui Cai",
+        "Yun Zhang",
+        "Jiaqi Ma"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.17496",
+      "url": "https://openalex.org/W4417286686",
+      "key": "openalex_1048550_arxiv251117496_MDG_Masked_Denoising_Generation_for_Multi-Agent_Behavior_M",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv251117496_MDG_Masked_Denoising_Generation_for_Multi-Agent_Behavior_M.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7131827335",
+      "doi": "10.1109/tits.2026.3662886",
+      "title": "Versatile Behavior Diffusion for Generalized Traffic Agent Simulation",
+      "abstract": "Existing traffic simulation models often fall short in capturing the intricacies of real-world scenarios, particularly the interactive behaviors among multiple traffic participants, thereby limiting their utility in the evaluation and validation of autonomous driving systems. We introduce Versatile Behavior Diffusion (VBD), a novel traffic scenario generation framework based on diffusion generative models that synthesizes scene-consistent, realistic, and controllable multi-agent interactions. VBD achieves strong performance in closed-loop traffic simulation, generating scene-consistent agent behaviors that reflect complex agent interactions. A key capability of VBD is inference-time scenario editing through multi-step refinement, guided by behavior priors and model-based optimization objectives, enabling flexible and controllable behavior generation. Despite being trained on real-world traffic datasets with only normal conditions, we introduce conflict-prior and game-theoretic guidance approaches. These approaches enable the generation of interactive, customizable, or long-tail safety-critical scenarios, which are essential for comprehensive testing and validation of autonomous driving systems. Extensive experiments validate the effectiveness and versatility of VBD and highlight its promise as a foundational tool for advancing traffic simulation and autonomous vehicle development. Project website:https://sites.google.com/view/versatile-behavior-diffusion",
+      "year": 2026,
+      "authors": [
+        "Zhiyu Huang",
+        "Zixu Zhang",
+        "Ameya Vaidya",
+        "Yuxiao Chen",
+        "Jaime F. Fisac",
+        "Chen Lv"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 82,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.02524",
+      "url": "https://openalex.org/W7131827335",
+      "key": "openalex_101109_tits20263662886_Versatile_Behavior_Diffusion_for_Generalized_Traffic_Agent",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20263662886_Versatile_Behavior_Diffusion_for_Generalized_Traffic_Agent.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7236521105",
+      "doi": "",
+      "title": "TrajTok: What makes for a good trajectory tokenizer in behavior generation?",
+      "abstract": "Behavior generation in autonomous driving aims to simulate dynamic driving scenarios from recorded driving logs. A popular approach is to apply next-token-prediction with discrete trajectory tokenization. In this work, we explore what makes a good trajectory tokenizer from the perspective of logged data usage. We first analyze the four properties (coverage, utilization, symmetry and robustness) of vocabularies of data-driven and rule-based trajectory tokenizers and their impact on performance and generalization. Data-driven tokenizers often build vocabularies with better utilization but suffer from insufficient coverage and sensitivity to noise, while rule-based methods have better coverage but contain too many useless tokens. With these insights, we propose TrajTok, a trajectory tokenizer that combines the two methods with rule-based vocabulary candidate setup and data-driven filtering and selection processes. The tokenizer has balanced coverage and utilization as well as good symmetry and robustness. Furthermore, we propose a spatial-aware label smoothing method for the cross-entropy loss to better model the similarities between the trajectory tokens. Our method wins first place in the 2025 Waymo Open Sim Agents Challenge.",
+      "year": 2026,
+      "authors": [
+        "Zhiyuan Zhang",
+        "Xiaosong Jia",
+        "Guanyu Chen",
+        "Qifeng Li",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang",
+        "Junchi Yan"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/a97f8072e51a785434b2da3e9cbf5aae-Paper-Conference.pdf",
+      "url": "https://openalex.org/W7236521105",
+      "key": "openalex_W7236521105_TrajTok_What_makes_for_a_good_trajectory_tokenizer_in_behavior_genera",
+      "file_kind": "txt",
+      "file": "openalex_W7236521105_TrajTok_What_makes_for_a_good_trajectory_tokenizer_in_behavior_genera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4391670505",
+      "doi": "10.48550/arxiv.2402.03161",
+      "title": "Video-LaVIT: Unified Video-Language Pre-training with Decoupled Visual-Motional Tokenization",
+      "abstract": "In light of recent advances in multimodal Large Language Models (LLMs), there is increasing attention to scaling them from image-text data to more informative real-world videos. Compared to static images, video poses unique challenges for effective large-scale pre-training due to the modeling of its spatiotemporal dynamics. In this paper, we address such limitations in video-language pre-training with an efficient video decomposition that represents each video as keyframes and temporal motions. These are then adapted to an LLM using well-designed tokenizers that discretize visual and temporal information as a few tokens, thus enabling unified generative pre-training of videos, images, and text. At inference, the generated tokens from the LLM are carefully recovered to the original continuous pixel space to create various video content. Our proposed framework is both capable of comprehending and generating image and video content, as demonstrated by its competitive performance across 13 multimodal benchmarks in image and video understanding and generation. Our code and models are available at https://video-lavit.github.io.",
+      "year": 2024,
+      "authors": [
+        "Jin, Yang",
+        "Zhicheng Sun",
+        "Kun Xu",
+        "Kun Xu",
+        "Liwei Chen",
+        "Hao Jiang",
+        "Quzhe Huang",
+        "Chengru Song",
+        "Yuliang Liu",
+        "Di Zhang",
+        "Yang Song",
+        "Kun Gai",
+        "Yadong Mu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 125,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2402.03161",
+      "url": "https://openalex.org/W4391670505",
+      "key": "openalex_1048550_arxiv240203161_Video-LaVIT_Unified_Video-Language_Pre-training_with_Decou",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240203161_Video-LaVIT_Unified_Video-Language_Pre-training_with_Decou.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4412836772",
+      "doi": "10.1109/lra.2025.3595042",
+      "title": "EP-Diffuser: An Efficient Diffusion Model for Traffic Scene Generation and Prediction via Polynomial Representations",
+      "abstract": "As the prediction horizon increases, predicting the future evolution of traffic scenes becomes increasingly difficult due to the multi-modal nature of agent motion. Most state-of-the-art (SotA) prediction models primarily focus on forecasting the most likely future. However, for the safe operation of autonomous vehicles, it is equally important to cover the distribution for plausible motion alternatives. To address this, we introduce EP-Diffuser, a novel parameter-efficient diffusion-based generative model designed to capture the distribution of possible traffic scene evolutions. Conditioned on road layout and agent history, our model acts as a predictor and generates diverse, plausible scene continuations. We benchmark EP-Diffuser against two SotA models in terms of plausibility, diversity, and accuracy of predictions on the Argoverse 2 dataset. Despite its significantly smaller model size, our approach achieves both highly plausible and diverse traffic scene predictions with comparable accuracy. We further evaluate model generalization in an out-of-distribution (OoD) test setting using Waymo Open dataset and show superior robustness of our approach. The code and model checkpoints are available at:https://github.com/continental/EP-Diffuser.",
+      "year": 2025,
+      "authors": [
+        "Yue Yao",
+        "Mohamed-Khalil Bouzidi",
+        "Daniel Goehring",
+        "Joerg Reichardt"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "cited_by": 4,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2504.05422",
+      "url": "https://openalex.org/W4412836772",
+      "key": "openalex_101109_lra20253595042_EP-Diffuser_An_Efficient_Diffusion_Model_for_Traffic_Scene_",
+      "file_kind": "txt",
+      "file": "openalex_101109_lra20253595042_EP-Diffuser_An_Efficient_Diffusion_Model_for_Traffic_Scene_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144409",
+      "doi": "10.1109/cvpr52734.2025.00158",
+      "title": "ModeSeq: Taming Sparse Multimodal Motion Prediction with Sequential Mode Modeling",
+      "abstract": "Anticipating the multimodality of future events lays the foundation for safe autonomous driving. However, multimodal motion prediction for traffic agents has been clouded by the lack of multimodal ground truth. Existing works predominantly adopt the winner-take-all training strategy to tackle this challenge, yet still suffer from limited trajectory diversity and uncalibrated mode confidence. While some approaches address these limitations by generating excessive trajectory candidates, they necessitate a postprocessing stage to identify the most representative modes, a process lacking universal principles and compromising trajectory accuracy. We are thus motivated to introduce ModeSeq, a new multimodal prediction paradigm that models modes as sequences. Unlike the common practice of decoding multiple plausible trajectories in one shot, ModeSeq requires motion decoders to infer the next mode step by step, thereby more explicitly capturing the correlation between modes and significantly enhancing the ability to reason about multimodality. Leveraging the inductive bias of sequential mode prediction, we also propose the EarlyMatch-Take-All (EMTA) training strategy to diversify the trajectories further. Without relying on dense mode prediction or heuristic post-processing, ModeSeq considerably improves the diversity of multimodal output while attaining satisfactory trajectory accuracy, resulting in balanced performance on motion prediction benchmarks. Moreover, ModeSeq naturally emerges with the capability of mode extrapolation, which supports forecasting more behavior modes when the future is highly uncertain.",
+      "year": 2025,
+      "authors": [
+        "Zikang Zhou",
+        "Hengjian Zhou",
+        "Haibo Hu",
+        "Zihao Wen",
+        "Jianping Wang",
+        "Yung‐Hui Li",
+        "Yu-Kai Huang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 23,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2411.11911",
+      "url": "https://openalex.org/W4413144409",
+      "key": "openalex_101109_cvpr52734202500158_ModeSeq_Taming_Sparse_Multimodal_Motion_Prediction_with",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202500158_ModeSeq_Taming_Sparse_Multimodal_Motion_Prediction_with.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7147413225",
+      "doi": "10.48550/arxiv.2603.28963",
+      "title": "AutoWorld: Learning Multi-Agent Traffic Simulation with Self-Supervised World Models",
+      "abstract": "Simulation with realistic traffic agents is essential for validating autonomous driving systems. Existing data-driven simulators learn agent behavior from higher-level abstractions such as 3D bounding boxes and polylines, inferred by upstream perception pipelines. These lossy abstractions discard sensory context that directly shapes agent behavior, limiting the distributional realism that simulation aims to reproduce. To address this limitation, we propose AutoWorld, a traffic simulation framework that grounds agent behavior in raw sensor observations through a self-supervised world model trained on LiDAR occupancy data. Given world model samples, AutoWorld constructs a coarse-to-fine predictive scene context as input to a multi-agent motion generation model. Furthermore, we designed a motion-aware latent supervision objective that enriches AutoWorld's latent representation of scene dynamics. To better exploit this latent space during inference, AutoWorld employs a cascaded Determinantal Point Process framework to guide diversity-aware sampling across both the world model and motion model. Experiments on nuPlan and Waymo demonstrate that AutoWorld improves generation realism, with larger gains in partially observed scenarios where trajectory abstractions are most limited, reducing collision rates by 36%. AutoWorld also remains physically plausible under planner-controlled ego behavior and supports controllable, diverse safety-critical scenario generation.",
+      "year": 2026,
+      "authors": [
+        "Mozhgan Pourkeshavarz",
+        "Tianran Liu",
+        "Nicholas Rhinehart"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 6,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.28963",
+      "url": "https://openalex.org/W7147413225",
+      "key": "openalex_1048550_arxiv260328963_AutoWorld_Learning_Multi-Agent_Traffic_Simulation_with_Sel",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260328963_AutoWorld_Learning_Multi-Agent_Traffic_Simulation_with_Sel.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.18619v2",
+      "doi": "",
+      "title": "Next Token Prediction Towards Multimodal Intelligence: A Comprehensive Survey",
+      "abstract": "Building on the foundations of language modeling in natural language processing, Next Token Prediction (NTP) has evolved into a versatile training objective for machine learning tasks across various modalities, achieving considerable success. As Large Language Models (LLMs) have advanced to unify understanding and generation tasks within the textual modality, recent research has shown that tasks from different modalities can also be effectively encapsulated within the NTP framework, transforming the multimodal information into tokens and predict the next one given the context. This survey introduces a comprehensive taxonomy that unifies both understanding and generation within multimodal learning through the lens of NTP. The proposed taxonomy covers five key aspects: Multimodal tokenization, MMNTP model architectures, unified task representation, datasets \\& evaluation, and open challenges. This new taxonomy aims to aid researchers in their exploration of multimodal intelligence. An associated GitHub repository collecting the latest papers and repos is available at https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction",
+      "year": 2024,
+      "authors": [
+        "Liang Chen",
+        "Zekun Wang",
+        "Shuhuai Ren",
+        "Lei Li",
+        "Haozhe Zhao",
+        "Yunshui Li",
+        "Zefan Cai",
+        "Hongcheng Guo",
+        "Lei Zhang",
+        "Yizhe Xiong",
+        "Yichi Zhang",
+        "Ruoyu Wu",
+        "Qingxiu Dong",
+        "Ge Zhang",
+        "Jian Yang",
+        "Lingwei Meng",
+        "Shujie Hu",
+        "Yulong Chen",
+        "Junyang Lin",
+        "Shuai Bai"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.18619v2",
+      "url": "http://arxiv.org/abs/2412.18619v2",
+      "key": "arxiv_241218619v2_Next_Token_Prediction_Towards_Multimodal_Intelligence_A_Comprehensive_Su",
+      "file_kind": "txt",
+      "file": "arxiv_241218619v2_Next_Token_Prediction_Towards_Multimodal_Intelligence_A_Comprehensive_Su.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2405.17013v3",
+      "doi": "",
+      "title": "Motion-Agent: A Conversational Framework for Human Motion Generation with LLMs",
+      "abstract": "While previous approaches to 3D human motion generation have achieved notable success, they often rely on extensive training and are limited to specific tasks. To address these challenges, we introduce Motion-Agent, an efficient conversational framework designed for general human motion generation, editing, and understanding. Motion-Agent employs an open-source pre-trained language model to develop a generative agent, MotionLLM, that bridges the gap between motion and text. This is accomplished by encoding and quantizing motions into discrete tokens that align with the language model's vocabulary. With only 1--3\\% of the model's parameters fine-tuned using adapters, MotionLLM delivers performance on par with diffusion models and other transformer-based methods trained from scratch. By integrating MotionLLM with GPT-4 without additional training, Motion-Agent is able to generate highly complex motion sequences through multi-turn conversations, a capability that previous models have struggled to achieve. Motion-Agent supports a wide range of motion-language tasks, offering versatile capabilities for generating and customizing human motion through interactive conversational exchanges. Project page: https://knoxzhao.github.io/Motion-Agent",
+      "year": 2024,
+      "authors": [
+        "Qi Wu",
+        "Yubo Zhao",
+        "Yifan Wang",
+        "Xinhang Liu",
+        "Yu-Wing Tai",
+        "Chi-Keung Tang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.17013v3",
+      "url": "http://arxiv.org/abs/2405.17013v3",
+      "key": "arxiv_240517013v3_Motion-Agent_A_Conversational_Framework_for_Human_Motion_Generation_with",
+      "file_kind": "txt",
+      "file": "arxiv_240517013v3_Motion-Agent_A_Conversational_Framework_for_Human_Motion_Generation_with.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2104.09369v1",
+      "doi": "",
+      "title": "Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models",
+      "abstract": "Real-time traffic prediction models play a pivotal role in smart mobility systems and have been widely used in route guidance, emerging mobility services, and advanced traffic management systems. With the availability of massive traffic data, neural network-based deep learning methods, especially the graph convolutional networks (GCN) have demonstrated outstanding performance in mining spatio-temporal information and achieving high prediction accuracy. Recent studies reveal the vulnerability of GCN under adversarial attacks, while there is a lack of studies to understand the vulnerability issues of the GCN-based traffic prediction models. Given this, this paper proposes a new task -- diffusion attack, to study the robustness of GCN-based traffic prediction models. The diffusion attack aims to select and attack a small set of nodes to degrade the performance of the entire prediction model. To conduct the diffusion attack, we propose a novel attack algorithm, which consists of two major components: 1) approximating the gradient of the black-box prediction model with Simultaneous Perturbation Stochastic Approximation (SPSA); 2) adapting the knapsack greedy algorithm to select the attack nodes. The proposed algorithm is examined with three GCN-based traffic prediction models: St-Gcn, T-Gcn, and A3t-Gcn on two cities. The proposed algorithm demonstrates high efficiency in the adversarial attack tasks under various scenarios, and it can still generate adversarial samples under the drop regularization such as DropOut, DropNode, and DropEdge. The research outcomes could help to improve the robustness of the GCN-based traffic prediction models and better protect the smart mobility systems. Our code is available at https://github.com/LYZ98/Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models",
+      "year": 2021,
+      "authors": [
+        "Lyuyi Zhu",
+        "Kairui Feng",
+        "Ziyuan Pu",
+        "Wei Ma"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2104.09369v1",
+      "url": "http://arxiv.org/abs/2104.09369v1",
+      "key": "arxiv_210409369v1_Adversarial_Diffusion_Attacks_on_Graph-based_Traffic_Prediction_Models",
+      "file_kind": "txt",
+      "file": "arxiv_210409369v1_Adversarial_Diffusion_Attacks_on_Graph-based_Traffic_Prediction_Models.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2206.02163v1",
+      "doi": "",
+      "title": "MotionCNN: A Strong Baseline for Motion Prediction in Autonomous Driving",
+      "abstract": "To plan a safe and efficient route, an autonomous vehicle should anticipate future motions of other agents around it. Motion prediction is an extremely challenging task that recently gained significant attention within the research community. In this work, we present a simple and yet very strong baseline for multimodal motion prediction based purely on Convolutional Neural Networks. While being easy-to-implement, the proposed approach achieves competitive performance compared to the state-of-the-art methods and ranks 3rd on the 2021 Waymo Open Dataset Motion Prediction Challenge. Our source code is publicly available at GitHub",
+      "year": 2022,
+      "authors": [
+        "Stepan Konev",
+        "Kirill Brodt",
+        "Artsiom Sanakoyeu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2206.02163v1",
+      "url": "http://arxiv.org/abs/2206.02163v1",
+      "key": "arxiv_220602163v1_MotionCNN_A_Strong_Baseline_for_Motion_Prediction_in_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_220602163v1_MotionCNN_A_Strong_Baseline_for_Motion_Prediction_in_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2302.03253v1",
+      "doi": "",
+      "title": "Collective traffic of agents that remember",
+      "abstract": "Traffic and pedestrian systems consist of human collectives where agents are intelligent and capable of processing available information, to perform tactical manoeuvres that can potentially increase their movement efficiency. In this study, we introduce a social force model for agents that possess memory. Information of the agent's past affects the agent's instantaneous movement in order to swiftly take the agent towards its desired state. We show how the presence of memory is akin to an agent performing a proportional-integral control to achieve its desired state. The longer the agent remembers and the more impact the memory has on its motion, better is the movement of an isolated agent in terms of achieving its desired state. However, when in a collective, the interactions between the agents lead to non-monotonic effect of memory on the traffic dynamics. A group of agents with memory exiting through a narrow door exhibit more clogging with memory than without it. We also show that a very large amount of memory results in variation in the memory force experienced by agents in the system at any time, which reduces the propensity to form clogs and leads to efficient movement.",
+      "year": 2023,
+      "authors": [
+        "Danny Raj M",
+        "Arvind Nayak"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2302.03253v1",
+      "url": "http://arxiv.org/abs/2302.03253v1",
+      "key": "arxiv_230203253v1_Collective_traffic_of_agents_that_remember",
+      "file_kind": "txt",
+      "file": "arxiv_230203253v1_Collective_traffic_of_agents_that_remember.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.15321v3",
+      "doi": "",
+      "title": "Next Patch Prediction for Autoregressive Visual Generation",
+      "abstract": "Autoregressive models, built based on the Next Token Prediction (NTP) paradigm, show great potential in developing a unified framework that integrates both language and vision tasks. Pioneering works introduce NTP to autoregressive visual generation tasks. In this work, we rethink the NTP for autoregressive image generation and extend it to a novel Next Patch Prediction (NPP) paradigm. Our key idea is to group and aggregate image tokens into patch tokens with higher information density. By using patch tokens as a more compact input sequence, the autoregressive model is trained to predict the next patch, significantly reducing computational costs. To further exploit the natural hierarchical structure of image data, we propose a multi-scale coarse-to-fine patch grouping strategy. With this strategy, the training process begins with a large patch size and ends with vanilla NTP where the patch size is 1$\\times$1, thus maintaining the original inference process without modifications. Extensive experiments across a diverse range of model sizes demonstrate that NPP could reduce the training cost to around 0.6 times while improving image generation quality by up to 1.0 FID score on the ImageNet 256x256 generation benchmark. Notably, our method retains the original autoregressive model architecture without introducing additional trainable parameters or specifically designing a custom image tokenizer, offering a flexible and plug-and-play solution for enhancing autoregressive visual generation.",
+      "year": 2024,
+      "authors": [
+        "Yatian Pang",
+        "Peng Jin",
+        "Shuo Yang",
+        "Bin Lin",
+        "Bin Zhu",
+        "Zhenyu Tang",
+        "Liuhan Chen",
+        "Francis E. H. Tay",
+        "Ser-Nam Lim",
+        "Harry Yang",
+        "Li Yuan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.15321v3",
+      "url": "http://arxiv.org/abs/2412.15321v3",
+      "key": "arxiv_241215321v3_Next_Patch_Prediction_for_Autoregressive_Visual_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_241215321v3_Next_Patch_Prediction_for_Autoregressive_Visual_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2209.10033v1",
+      "doi": "",
+      "title": "MTR-A: 1st Place Solution for 2022 Waymo Open Dataset Challenge -- Motion Prediction",
+      "abstract": "In this report, we present the 1st place solution for motion prediction track in 2022 Waymo Open Dataset Challenges. We propose a novel Motion Transformer framework for multimodal motion prediction, which introduces a small set of novel motion query pairs for generating better multimodal future trajectories by jointly performing the intention localization and iterative motion refinement. A simple model ensemble strategy with non-maximum-suppression is adopted to further boost the final performance. Our approach achieves the 1st place on the motion prediction leaderboard of 2022 Waymo Open Dataset Challenges, outperforming other methods with remarkable margins. Code will be available at https://github.com/sshaoshuai/MTR.",
+      "year": 2022,
+      "authors": [
+        "Shaoshuai Shi",
+        "Li Jiang",
+        "Dengxin Dai",
+        "Bernt Schiele"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2209.10033v1",
+      "url": "http://arxiv.org/abs/2209.10033v1",
+      "key": "arxiv_220910033v1_MTR-A_1st_Place_Solution_for_2022_Waymo_Open_Dataset_Challenge_--_Motion",
+      "file_kind": "txt",
+      "file": "arxiv_220910033v1_MTR-A_1st_Place_Solution_for_2022_Waymo_Open_Dataset_Challenge_--_Motion.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2603.04980v1",
+      "doi": "",
+      "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
+      "abstract": "In this work, we introduce Wallaroo, a simple autoregressive baseline that leverages next-token prediction to unify multi-modal understanding, image generation, and editing at the same time. Moreover, Wallaroo supports multi-resolution image input and output, as well as bilingual support for both Chinese and English. We decouple the visual encoding into separate pathways and apply a four-stage training strategy to reshape the model's capabilities. Experiments are conducted on various benchmarks where Wallaroo produces competitive performance or exceeds other unified models, suggesting the great potential of autoregressive models in unifying multi-modality understanding and generation. Our code is available at https://github.com/JiePKU/Wallaroo.",
+      "year": 2026,
+      "authors": [
+        "Jie Zhu",
+        "Hanghang Ma",
+        "Jia Wang",
+        "Yayong Guan",
+        "Yanbing Zeng",
+        "Lishuai Gao",
+        "Junqiang Wu",
+        "Jie Hu",
+        "Leye Wang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.04980v1",
+      "url": "http://arxiv.org/abs/2603.04980v1",
+      "key": "arxiv_260304980v1_A_Simple_Baseline_for_Unifying_Understanding_Generation_and_Editing_via_",
+      "file_kind": "txt",
+      "file": "arxiv_260304980v1_A_Simple_Baseline_for_Unifying_Understanding_Generation_and_Editing_via_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2306.02705v1",
+      "doi": "",
+      "title": "Situational Adaptive Motion Prediction for Firefighting Squads in Indoor Search and Rescue",
+      "abstract": "Firefighting is a complex, yet low automated task. To mitigate ergonomic and safety related risks on the human operators, robots could be deployed in a collaborative approach. To allow human-robot teams in firefighting, important basics are missing. Amongst other aspects, the robot must predict the human motion as occlusion is ever-present. In this work, we propose a novel motion prediction pipeline for firefighters' squads in indoor search and rescue. The squad paths are generated with an optimal graph-based planning approach representing firefighters' tactics. Paths are generated per room which allows to dynamically adapt the path locally without global re-planning. The motion of singular agents is simulated using a modification of the headed social force model. We evaluate the pipeline for feasibility with a novel data set generated from real footage and show the computational efficiency.",
+      "year": 2023,
+      "authors": [
+        "Nils Mandischer",
+        "Frederik Schicks",
+        "Burkhard Corves"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.02705v1",
+      "url": "http://arxiv.org/abs/2306.02705v1",
+      "key": "arxiv_230602705v1_Situational_Adaptive_Motion_Prediction_for_Firefighting_Squads_in_Indoor",
+      "file_kind": "txt",
+      "file": "arxiv_230602705v1_Situational_Adaptive_Motion_Prediction_for_Firefighting_Squads_in_Indoor.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2308.01097v4",
+      "doi": "10.1145/3581783.3612330",
+      "title": "Spatio-Temporal Branching for Motion Prediction using Motion Increments",
+      "abstract": "Human motion prediction (HMP) has emerged as a popular research topic due to its diverse applications, but it remains a challenging task due to the stochastic and aperiodic nature of future poses. Traditional methods rely on hand-crafted features and machine learning techniques, which often struggle to model the complex dynamics of human motion. Recent deep learning-based methods have achieved success by learning spatio-temporal representations of motion, but these models often overlook the reliability of motion data. Additionally, the temporal and spatial dependencies of skeleton nodes are distinct. The temporal relationship captures motion information over time, while the spatial relationship describes body structure and the relationships between different nodes. In this paper, we propose a novel spatio-temporal branching network using incremental information for HMP, which decouples the learning of temporal-domain and spatial-domain features, extracts more motion information, and achieves complementary cross-domain knowledge learning through knowledge distillation. Our approach effectively reduces noise interference and provides more expressive information for characterizing motion by separately extracting temporal and spatial features. We evaluate our approach on standard HMP benchmarks and outperform state-of-the-art methods in terms of prediction accuracy.",
+      "year": 2023,
+      "authors": [
+        "Jiexin Wang",
+        "Yujie Zhou",
+        "Wenwen Qiang",
+        "Ying Ba",
+        "Bing Su",
+        "Ji-Rong Wen"
+      ],
+      "venue": "ACM MM 2023",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2308.01097v4",
+      "url": "http://arxiv.org/abs/2308.01097v4",
+      "key": "arxiv_101145_35817833612330_Spatio-Temporal_Branching_for_Motion_Prediction_using_Motion_I",
+      "file_kind": "txt",
+      "file": "arxiv_101145_35817833612330_Spatio-Temporal_Branching_for_Motion_Prediction_using_Motion_I.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2603.27538v1",
+      "doi": "",
+      "title": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+      "abstract": "The prevailing Next-Token Prediction (NTP) paradigm has driven the success of large language models through discrete autoregressive modeling. However, contemporary multimodal systems remain language-centric, often treating non-linguistic modalities as external attachments, leading to fragmented architectures and suboptimal integration. To transcend this limitation, we introduce Discrete Native Autoregressive (DiNA), a unified framework that represents multimodal information within a shared discrete space, enabling a consistent and principled autoregressive modeling across modalities. A key innovation is the Discrete Native Any-resolution Visual Transformer (dNaViT), which performs tokenization and de-tokenization at arbitrary resolutions, transforming continuous visual signals into hierarchical discrete tokens. Building on this foundation, we develop LongCat-Next, a native multimodal model that processes text, vision, and audio under a single autoregressive objective with minimal modality-specific design. As an industrial-strength foundation model, it excels at seeing, painting, and talking within a single framework, achieving strong performance across a wide range of multimodal benchmarks. In particular, LongCat-Next addresses the long-standing performance ceiling of discrete vision modeling on understanding tasks and provides a unified approach to effectively reconcile the conflict between understanding and generation. As an attempt toward native multimodality, we open-source the LongCat-Next and its tokenizers, hoping to foster further research and development in the community. GitHub: https://github.com/meituan-longcat/LongCat-Next",
+      "year": 2026,
+      "authors": [
+        " Meituan LongCat Team",
+        "Bin Xiao",
+        "Chao Wang",
+        "Chengjiang Li",
+        "Chi Zhang",
+        "Chong Peng",
+        "Hang Yu",
+        "Hao Yang",
+        "Haonan Yan",
+        "Haoze Sun",
+        "Haozhe Zhao",
+        "Hong Liu",
+        "Hui Su",
+        "Jiaqi Zhang",
+        "Jiawei Wang",
+        "Jing Li",
+        "Kefeng Zhang",
+        "Manyuan Zhang",
+        "Minhao Jing",
+        "Peng Pei"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.27538v1",
+      "url": "http://arxiv.org/abs/2603.27538v1",
+      "key": "arxiv_260327538v1_LongCat-Next_Lexicalizing_Modalities_as_Discrete_Tokens",
+      "file_kind": "txt",
+      "file": "arxiv_260327538v1_LongCat-Next_Lexicalizing_Modalities_as_Discrete_Tokens.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2502.00612v2",
+      "doi": "",
+      "title": "Using Causality for Enhanced Prediction of Web Traffic Time Series",
+      "abstract": "Predicting web service traffic has significant social value, as it can be applied to various practical scenarios, including but not limited to dynamic resource scaling, load balancing, system anomaly detection, service-level agreement compliance, and fraud detection. Web service traffic is characterized by frequent and drastic fluctuations over time and are influenced by heterogeneous web user behaviors, making accurate prediction a challenging task. Previous research has extensively explored statistical approaches, and neural networks to mine features from preceding service traffic time series for prediction. However, these methods have largely overlooked the causal relationships between services. Drawing inspiration from causality in ecological systems, we empirically recognize the causal relationships between web services. To leverage these relationships for improved web service traffic prediction, we propose an effective neural network module, CCMPlus, designed to extract causal relationship features across services. This module can be seamlessly integrated with existing time series models to consistently enhance the performance of web service traffic predictions. We theoretically justify that the causal correlation matrix generated by the CCMPlus module captures causal relationships among services. Empirical results on real-world datasets from Microsoft Azure, Alibaba Group, and Ant Group confirm that our method surpasses state-of-the-art approaches in Mean Squared Error (MSE) and Mean Absolute Error (MAE) for predicting service traffic time series. These findings highlight the efficacy of leveraging causal relationships for improved predictions.",
+      "year": 2025,
+      "authors": [
+        "Chang Tian",
+        "Mingzhe Xing",
+        "Zenglin Shi",
+        "Matthew B. Blaschko",
+        "Yinliang Yue",
+        "Marie-Francine Moens"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.00612v2",
+      "url": "http://arxiv.org/abs/2502.00612v2",
+      "key": "arxiv_250200612v2_Using_Causality_for_Enhanced_Prediction_of_Web_Traffic_Time_Series",
+      "file_kind": "txt",
+      "file": "arxiv_250200612v2_Using_Causality_for_Enhanced_Prediction_of_Web_Traffic_Time_Series.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.11704v2",
+      "doi": "",
+      "title": "ScaleMoGen: Autoregressive Next-Scale Prediction for Human Motion Generation",
+      "abstract": "We present ScaleMoGen, a scale-wise autoregressive framework for text-driven human motion generation. Unlike conventional autoregressive approaches that rely on standard next-token prediction, ScaleMoGen frames motion generation as a coarse-to-fine process. We quantize 3D motions into compositional discrete tokens across multiple skeletal-emporal scales of increasing granularity, learning to generate motion by autoregressively predicting next-scale token maps. To maintain structural integrity, our motion tokenizers and quantizers are explicitly designed so that discrete tokens at every scale strictly preserve the skeletal hierarchy. Additionally, we employ bitwise quantization and prediction, which efficiently scale up the tokenizer vocabulary to preserve motion details and stabilize optimization. Extensive experiments demonstrate that ScaleMoGen achieves state-of-the-art performance, establishing an FID of 0.030 (vs. 0.045 for MoMask) on HumanML3D and a CLIP Score of 0.693 (vs. 0.685 for MoMask++) on the SnapMoGen dataset. Furthermore, we demonstrate that our skeletal-temporal multi-scale representation naturally facilitates training-free, text-guided motion editing.",
+      "year": 2026,
+      "authors": [
+        "Inwoo Hwang",
+        "Hojun Jang",
+        "Bing Zhou",
+        "Jian Wang",
+        "Young Min Kim",
+        "Chuan Guo"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.11704v2",
+      "url": "http://arxiv.org/abs/2605.11704v2",
+      "key": "arxiv_260511704v2_ScaleMoGen_Autoregressive_Next-Scale_Prediction_for_Human_Motion_Generat",
+      "file_kind": "txt",
+      "file": "arxiv_260511704v2_ScaleMoGen_Autoregressive_Next-Scale_Prediction_for_Human_Motion_Generat.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.10810v1",
+      "doi": "",
+      "title": "MoCLIP: Motion-Aware Fine-Tuning and Distillation of CLIP for Human Motion Generation",
+      "abstract": "Human motion generation is essential for fields such as animation, robotics, and virtual reality, requiring models that effectively capture motion dynamics from text descriptions. Existing approaches often rely on Contrastive Language-Image Pretraining (CLIP)-based text encoders, but their training on text-image pairs constrains their ability to understand temporal and kinematic structures inherent in motion and motion generation. This work introduces MoCLIP, a fine-tuned CLIP model with an additional motion encoding head, trained on motion sequences using contrastive learning and tethering loss. By explicitly incorporating motion-aware representations, MoCLIP enhances motion fidelity while remaining compatible with existing CLIP-based pipelines and seamlessly integrating into various CLIP-based methods. Experiments demonstrate that MoCLIP improves Top-1, Top-2, and Top-3 accuracy while maintaining competitive FID, leading to improved text-to-motion alignment results. These results highlight MoCLIP's versatility and effectiveness, establishing it as a robust framework for enhancing motion generation.",
+      "year": 2025,
+      "authors": [
+        "Gabriel Maldonado",
+        "Armin Danesh Pazho",
+        "Ghazal Alinezhad Noghre",
+        "Vinit Katariya",
+        "Hamed Tabkhi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.10810v1",
+      "url": "http://arxiv.org/abs/2505.10810v1",
+      "key": "arxiv_250510810v1_MoCLIP_Motion-Aware_Fine-Tuning_and_Distillation_of_CLIP_for_Human_Motio",
+      "file_kind": "txt",
+      "file": "arxiv_250510810v1_MoCLIP_Motion-Aware_Fine-Tuning_and_Distillation_of_CLIP_for_Human_Motio.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.13116v1",
+      "doi": "10.1109/tpami.2025.3604036",
+      "title": "Weakly and Self-Supervised Class-Agnostic Motion Prediction for Autonomous Driving",
+      "abstract": "Understanding motion in dynamic environments is critical for autonomous driving, thereby motivating research on class-agnostic motion prediction. In this work, we investigate weakly and self-supervised class-agnostic motion prediction from LiDAR point clouds. Outdoor scenes typically consist of mobile foregrounds and static backgrounds, allowing motion understanding to be associated with scene parsing. Based on this observation, we propose a novel weakly supervised paradigm that replaces motion annotations with fully or partially annotated (1%, 0.1%) foreground/background masks for supervision. To this end, we develop a weakly supervised approach utilizing foreground/background cues to guide the self-supervised learning of motion prediction models. Since foreground motion generally occurs in non-ground regions, non-ground/ground masks can serve as an alternative to foreground/background masks, further reducing annotation effort. Leveraging non-ground/ground cues, we propose two additional approaches: a weakly supervised method requiring fewer (0.01%) foreground/background annotations, and a self-supervised method without annotations. Furthermore, we design a Robust Consistency-aware Chamfer Distance loss that incorporates multi-frame information and robust penalty functions to suppress outliers in self-supervised learning. Experiments show that our weakly and self-supervised models outperform existing self-supervised counterparts, and our weakly supervised models even rival some supervised ones. This demonstrates that our approaches effectively balance annotation effort and performance.",
+      "year": 2025,
+      "authors": [
+        "Ruibo Li",
+        "Hanyu Shi",
+        "Zhe Wang",
+        "Guosheng Lin"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.13116v1",
+      "url": "http://arxiv.org/abs/2509.13116v1",
+      "key": "arxiv_101109_tpami20253604036_Weakly_and_Self-Supervised_Class-Agnostic_Motion_Prediction_",
+      "file_kind": "txt",
+      "file": "arxiv_101109_tpami20253604036_Weakly_and_Self-Supervised_Class-Agnostic_Motion_Prediction_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.06963v3",
+      "doi": "",
+      "title": "The pitfalls of next-token prediction",
+      "abstract": "Can a mere next-token predictor faithfully model human intelligence? We crystallize this emerging concern and correct popular misconceptions surrounding it, and advocate a simple multi-token objective. As a starting point, we argue that the two often-conflated phases of next-token prediction -- autoregressive inference and teacher-forced training -- must be treated distinctly. The popular criticism that errors can compound during autoregressive inference, crucially assumes that teacher-forcing has learned an accurate next-token predictor. This assumption sidesteps a more deep-rooted problem we expose: in certain classes of tasks, teacher-forcing can simply fail to learn an accurate next-token predictor in the first place. We describe a general mechanism of how teacher-forcing can fail, and design a minimal planning task where both the Transformer and the Mamba architecture empirically fail in that manner -- remarkably, despite the task being straightforward to learn. Finally, we provide preliminary evidence that this failure can be resolved using _teacherless_ training, a simple modification using dummy tokens that predicts multiple tokens in advance. We hope this finding can ground future debates and inspire explorations beyond the next-token prediction paradigm. We make our code available under https://github.com/gregorbachmann/Next-Token-Failures",
+      "year": 2024,
+      "authors": [
+        "Gregor Bachmann",
+        "Vaishnavh Nagarajan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.06963v3",
+      "url": "http://arxiv.org/abs/2403.06963v3",
+      "key": "arxiv_240306963v3_The_pitfalls_of_next-token_prediction",
+      "file_kind": "txt",
+      "file": "arxiv_240306963v3_The_pitfalls_of_next-token_prediction.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2203.08975v2",
+      "doi": "",
+      "title": "A Survey of Multi-Agent Deep Reinforcement Learning with Communication",
+      "abstract": "Communication is an effective mechanism for coordinating the behaviors of multiple agents, broadening their views of the environment, and to support their collaborations. In the field of multi-agent deep reinforcement learning (MADRL), agents can improve the overall learning performance and achieve their objectives by communication. Agents can communicate various types of messages, either to all agents or to specific agent groups, or conditioned on specific constraints. With the growing body of research work in MADRL with communication (Comm-MADRL), there is a lack of a systematic and structural approach to distinguish and classify existing Comm-MADRL approaches. In this paper, we survey recent works in the Comm-MADRL field and consider various aspects of communication that can play a role in designing and developing multi-agent reinforcement learning systems. With these aspects in mind, we propose 9 dimensions along which Comm-MADRL approaches can be analyzed, developed, and compared. By projecting existing works into the multi-dimensional space, we discover interesting trends. We also propose some novel directions for designing future Comm-MADRL systems through exploring possible combinations of the dimensions.",
+      "year": 2022,
+      "authors": [
+        "Changxi Zhu",
+        "Mehdi Dastani",
+        "Shihan Wang"
+      ],
+      "venue": "Auton. Agents Multi Agent Syst. 38(1): 4 (2024)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2203.08975v2",
+      "url": "http://arxiv.org/abs/2203.08975v2",
+      "key": "arxiv_220308975v2_A_Survey_of_Multi-Agent_Deep_Reinforcement_Learning_with_Communication",
+      "file_kind": "txt",
+      "file": "arxiv_220308975v2_A_Survey_of_Multi-Agent_Deep_Reinforcement_Learning_with_Communication.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2401.05018v3",
+      "doi": "10.1007/s12541-026-01556-y",
+      "title": "AdvMT: Adversarial Motion Transformer for Long-term Human Motion Prediction",
+      "abstract": "Human motion prediction is a crucial capability for advanced robotic systems that interact with humans. In facilities with dynamic human-robot collaboration settings, robots must anticipate human movements to ensure safety, prevent collisions, and optimize cooperative tasks. Traditionally, motion forecasting is treated as a sequential modeling problem using historical pose data, but achieving long-term accuracy and physical realism remains challenging. We present Adversarial Motion Transformer (AdvMT), a novel approach that integrates a Transformer-based motion encoder with a temporal continuity discriminator to address these challenges. The Transformer captures rich spatio-temporal dependencies across human joints, while adversarial training with a continuity discriminator enforces smooth, natural motion trajectories that adhere to biomechanical constraints. Our training scheme includes a bone-length consistency term and adversarial loss to reduce common artifacts like pose freezing or unnatural transitions. In experiments on the Human3.6M motion dataset, AdvMT achieves state-of-the-art long-horizon prediction accuracy while also delivering robust short-term predictions. These improvements strengthen the prediction foundation for physical AI in manufacturing and human-robot collaboration, where anticipating human motion is a prerequisite for safe and efficient robot coordination.",
+      "year": 2024,
+      "authors": [
+        "Sarmad Idrees",
+        "Seokman Sohn",
+        "Jongeun Choi"
+      ],
+      "venue": "S. Idrees, S. Sohn, and J. Choi, AdvMT: Adversarial Motion Transformer for Long-term Human Motion Prediction, International Journal of Precision Engineering and Manufacturing, 2026",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2401.05018v3",
+      "url": "http://arxiv.org/abs/2401.05018v3",
+      "key": "arxiv_101007_s12541-026-01556-y_AdvMT_Adversarial_Motion_Transformer_for_Long-term_Human_M",
+      "file_kind": "txt",
+      "file": "arxiv_101007_s12541-026-01556-y_AdvMT_Adversarial_Motion_Transformer_for_Long-term_Human_M.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2608.08145v1",
+      "doi": "10.4204/eptcs.450.4",
+      "title": "On the (Intuitionistic) Logic of Next-Token Prediction",
+      "abstract": "We model in intuitionistic implicational logic the key enabler of today's GenerativeAI: the next-token prediction in autoregressive causal neural networks. In our framework, next-token prediction corresponds to modus ponens, and sequence processing becomes constructive proof extension under the Curry-Howard correspondence. Our Prolog-based specialized theorem provers validate fundamental properties of the neural models, among which relations between commutative vs. non-commutative sequencing and single-token vs. multi-token prediction choices. We derive a neural architecture equivalent to multiplicative RNNs that arises naturally from a proof-theoretic interpretation of next-token prediction as nested intuitionistic implication and position the model relative to transformers, state-space models and recursive LLMs.",
+      "year": 2026,
+      "authors": [
+        "Paul Tarau"
+      ],
+      "venue": "EPTCS 450, 2026, pp. 52-66",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.08145v1",
+      "url": "http://arxiv.org/abs/2608.08145v1",
+      "key": "arxiv_104204_eptcs4504_On_the_Intuitionistic_Logic_of_Next-Token_Prediction",
+      "file_kind": "txt",
+      "file": "arxiv_104204_eptcs4504_On_the_Intuitionistic_Logic_of_Next-Token_Prediction.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.03883v1",
+      "doi": "10.1109/tpami.2025.3594034",
+      "title": "Human Motion Video Generation: A Survey",
+      "abstract": "Human motion video generation has garnered significant research interest due to its broad applications, enabling innovations such as photorealistic singing heads or dynamic avatars that seamlessly dance to music. However, existing surveys in this field focus on individual methods, lacking a comprehensive overview of the entire generative process. This paper addresses this gap by providing an in-depth survey of human motion video generation, encompassing over ten sub-tasks, and detailing the five key phases of the generation process: input, motion planning, motion video generation, refinement, and output. Notably, this is the first survey that discusses the potential of large language models in enhancing human motion video generation. Our survey reviews the latest developments and technological trends in human motion video generation across three primary modalities: vision, text, and audio. By covering over two hundred papers, we offer a thorough overview of the field and highlight milestone works that have driven significant technological breakthroughs. Our goal for this survey is to unveil the prospects of human motion video generation and serve as a valuable resource for advancing the comprehensive applications of digital humans. A complete list of the models examined in this survey is available in Our Repository https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation.",
+      "year": 2025,
+      "authors": [
+        "Haiwei Xue",
+        "Xiangyang Luo",
+        "Zhanghao Hu",
+        "Xin Zhang",
+        "Xunzhi Xiang",
+        "Yuqin Dai",
+        "Jianzhuang Liu",
+        "Zhensong Zhang",
+        "Minglei Li",
+        "Jian Yang",
+        "Fei Ma",
+        "Zhiyong Wu",
+        "Changpeng Yang",
+        "Zonghong Dai",
+        "Fei Richard Yu"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 2025",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.03883v1",
+      "url": "http://arxiv.org/abs/2509.03883v1",
+      "key": "arxiv_101109_tpami20253594034_Human_Motion_Video_Generation_A_Survey",
+      "file_kind": "txt",
+      "file": "arxiv_101109_tpami20253594034_Human_Motion_Video_Generation_A_Survey.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2405.05235v2",
+      "doi": "10.1109/tmlcn.2025.3542760",
+      "title": "RACH Traffic Prediction in Massive Machine Type Communications",
+      "abstract": "Traffic pattern prediction has emerged as a promising approach for efficiently managing and mitigating the impacts of event-driven bursty traffic in massive machine-type communication (mMTC) networks. However, achieving accurate predictions of bursty traffic remains a non-trivial task due to the inherent randomness of events, and these challenges intensify within live network environments. Consequently, there is a compelling imperative to design a lightweight and agile framework capable of assimilating continuously collected data from the network and accurately forecasting bursty traffic in mMTC networks. This paper addresses these challenges by presenting a machine learning-based framework tailored for forecasting bursty traffic in multi-channel slotted ALOHA networks. The proposed machine learning network comprises long-term short-term memory (LSTM) and a DenseNet with feed-forward neural network (FFNN) layers, where the residual connections enhance the training ability of the machine learning network in capturing complicated patterns. Furthermore, we develop a new low-complexity online prediction algorithm that updates the states of the LSTM network by leveraging frequently collected data from the mMTC network. Simulation results and complexity analysis demonstrate the superiority of our proposed algorithm in terms of both accuracy and complexity, making it well-suited for time-critical live scenarios. We evaluate the performance of the proposed framework in a network with a single base station and thousands of devices organized into groups with distinct traffic-generating characteristics. Comprehensive evaluations and simulations indicate that our proposed machine learning approach achieves a remarkable $52\\%$ higher accuracy in long-term predictions compared to traditional methods, without imposing additional processing load on the system.",
+      "year": 2024,
+      "authors": [
+        "Hossein Mehri",
+        "Hao Chen",
+        "Hani Mehrpouyan"
+      ],
+      "venue": "H. Mehri, H. Mehrpouyan and H. Chen, \"RACH Traffic Prediction in Massive Machine Type Communications,\" in IEEE Transactions on Machine Learning in Communications and Networking, vol. 3, pp. 315-331, 2025",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.05235v2",
+      "url": "http://arxiv.org/abs/2405.05235v2",
+      "key": "arxiv_101109_tmlcn20253542760_RACH_Traffic_Prediction_in_Massive_Machine_Type_Communicatio",
+      "file_kind": "txt",
+      "file": "arxiv_101109_tmlcn20253542760_RACH_Traffic_Prediction_in_Massive_Machine_Type_Communicatio.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2405.13218v2",
+      "doi": "",
+      "title": "Computational Tradeoffs in Image Synthesis: Diffusion, Masked-Token, and Next-Token Prediction",
+      "abstract": "Nearly every recent image synthesis approach, including diffusion, masked-token prediction, and next-token prediction, uses a Transformer network architecture. Despite this common backbone, there has been no direct, compute controlled comparison of how these approaches affect performance and efficiency. We analyze the scalability of each approach through the lens of compute budget measured in FLOPs. We find that token prediction methods, led by next-token prediction, significantly outperform diffusion on prompt following. On image quality, while next-token prediction initially performs better, scaling trends suggest it is eventually matched by diffusion. We compare the inference compute efficiency of each approach and find that next token prediction is by far the most efficient. Based on our findings we recommend diffusion for applications targeting image quality and low latency; and next-token prediction when prompt following or throughput is more important.",
+      "year": 2024,
+      "authors": [
+        "Maciej Kilian",
+        "Varun Jampani",
+        "Luke Zettlemoyer"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.13218v2",
+      "url": "http://arxiv.org/abs/2405.13218v2",
+      "key": "arxiv_240513218v2_Computational_Tradeoffs_in_Image_Synthesis_Diffusion_Masked-Token_and_Ne",
+      "file_kind": "txt",
+      "file": "arxiv_240513218v2_Computational_Tradeoffs_in_Image_Synthesis_Diffusion_Masked-Token_and_Ne.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2306.10508v1",
+      "doi": "",
+      "title": "QCNeXt: A Next-Generation Framework For Joint Multi-Agent Trajectory Prediction",
+      "abstract": "Estimating the joint distribution of on-road agents' future trajectories is essential for autonomous driving. In this technical report, we propose a next-generation framework for joint multi-agent trajectory prediction called QCNeXt. First, we adopt the query-centric encoding paradigm for the task of joint multi-agent trajectory prediction. Powered by this encoding scheme, our scene encoder is equipped with permutation equivariance on the set elements, roto-translation invariance in the space dimension, and translation invariance in the time dimension. These invariance properties not only enable accurate multi-agent forecasting fundamentally but also empower the encoder with the capability of streaming processing. Second, we propose a multi-agent DETR-like decoder, which facilitates joint multi-agent trajectory prediction by modeling agents' interactions at future time steps. For the first time, we show that a joint prediction model can outperform marginal prediction models even on the marginal metrics, which opens up new research opportunities in trajectory prediction. Our approach ranks 1st on the Argoverse 2 multi-agent motion forecasting benchmark, winning the championship of the Argoverse Challenge at the CVPR 2023 Workshop on Autonomous Driving.",
+      "year": 2023,
+      "authors": [
+        "Zikang Zhou",
+        "Zihao Wen",
+        "Jianping Wang",
+        "Yung-Hui Li",
+        "Yu-Kai Huang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.10508v1",
+      "url": "http://arxiv.org/abs/2306.10508v1",
+      "key": "arxiv_230610508v1_QCNeXt_A_Next-Generation_Framework_For_Joint_Multi-Agent_Trajectory_Pred",
+      "file_kind": "txt",
+      "file": "arxiv_230610508v1_QCNeXt_A_Next-Generation_Framework_For_Joint_Multi-Agent_Trajectory_Pred.txt"
+    }
+  ]
+}

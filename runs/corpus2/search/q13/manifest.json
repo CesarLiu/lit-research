@@ -1,0 +1,767 @@
+[
+  {
+    "title": "DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles",
+    "year": 2025,
+    "authors": [
+      "Chejian Xu",
+      "Aleksandr Petiushko",
+      "Zhao Ding",
+      "Bo Li"
+    ],
+    "doi": "10.1609/aaai.v39i8.32951",
+    "file": "openalex_101609_aaaiv39i832951_DiffScene_Diffusion-Based_Safety-Critical_Scenario_Generati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409366385",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles",
+    "year": 2024,
+    "authors": [
+      "Jiawei Zhang",
+      "Chejian Xu",
+      "Bo Li"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01464",
+    "file": "openalex_101109_cvpr52733202401464_ChatScene_Knowledge-Enabled_Safety-Critical_Scenario_Ge.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402727068",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multimodal Safety-Critical Scenarios Generation for Decision-Making Algorithms Evaluation",
+    "year": 2021,
+    "authors": [
+      "Wenhao Ding",
+      "Baiming Chen",
+      "Bo Li",
+      "Kim Ji Eun",
+      "Ding Xuan Zhao"
+    ],
+    "doi": "10.1109/lra.2021.3058873",
+    "file": "openalex_101109_lra20213058873_Multimodal_Safety-Critical_Scenarios_Generation_for_Decisio.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3133465684",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Diversifying Latent Flows for Safety-Critical Scenarios Generation",
+    "year": 2024,
+    "authors": [
+      "Dingcheng Gao",
+      "Yanjun Qin",
+      "Xiaoming Tao",
+      "Jianhua Lü"
+    ],
+    "doi": "10.1109/itsc58415.2024.10919760",
+    "file": "openalex_101109_itsc58415202410919760_Diversifying_Latent_Flows_for_Safety-Critical_Scenar.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4408712608",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Safety-Critical Scenario Generation Via Reinforcement Learning Based Editing",
+    "year": 2024,
+    "authors": [
+      "Haolan Liu",
+      "Liangjun Zhang",
+      "Siva Kumar Sastry Hari",
+      "Jishen Zhao"
+    ],
+    "doi": "10.1109/icra57147.2024.10611555",
+    "file": "openalex_101109_icra57147202410611555_Safety-Critical_Scenario_Generation_Via_Reinforcemen.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4401417383",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Adversarial Safety-Critical Scenario Generation Using Naturalistic Human Driving Priors",
+    "year": 2023,
+    "authors": [
+      "Kunkun Hao",
+      "Wen Quan Cui",
+      "Yonggang Luo",
+      "Lecheng Xie",
+      "Yuqiao Bai",
+      "Jucheng Yang",
+      "Songyang Yan",
+      "Yuxi Pan",
+      "Zijiang Yang"
+    ],
+    "doi": "10.1109/tiv.2023.3335862",
+    "file": "openalex_101109_tiv20233335862_Adversarial_Safety-Critical_Scenario_Generation_Using_Natur.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4388936562",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "GOOSE: Goal-Conditioned Reinforcement Learning for Safety-Critical Scenario Generation",
+    "year": 2024,
+    "authors": [
+      "Joshua Ransiek",
+      "Johannes Plaum",
+      "Jacob Langner",
+      "Eric Sax"
+    ],
+    "doi": "10.1109/itsc58415.2024.10919498",
+    "file": "openalex_101109_itsc58415202410919498_GOOSE_Goal-Conditioned_Reinforcement_Learning_for_Sa.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4408700264",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Safety-Critical Scenario Generation by Causal Influence Detection",
+    "year": 2024,
+    "authors": [
+      "Yibing Yang",
+      "Chi Zhang",
+      "Linhai Xu",
+      "Shuangxun Ma",
+      "Li Li"
+    ],
+    "doi": "10.1109/itsc58415.2024.10920225",
+    "file": "openalex_101109_itsc58415202410920225_Safety-Critical_Scenario_Generation_by_Causal_Influe.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4408713048",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Safety Evaluation of Autonomous Driving Based on Safety-Critical Scenario Generation",
+    "year": 2024,
+    "authors": [
+      "Zhaoyi Wang",
+      "Xincheng Li",
+      "Shuo Yang",
+      "Shizhen Li",
+      "Jiatong Du",
+      "Xinyu Zhang",
+      "Yanjun Huang"
+    ],
+    "doi": "10.1109/itsc58415.2024.10920064",
+    "file": "openalex_101109_itsc58415202410920064_Safety_Evaluation_of_Autonomous_Driving_Based_on_Saf.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4408696626",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Ke Li",
+      "Kaidi Liang",
+      "Yuxin Ding",
+      "Debojyoti Biswas",
+      "Xianbiao Hu",
+      "Ruwen Qin"
+    ],
+    "doi": "10.1007/978-3-032-37490-5_5",
+    "file": "openalex_101007_978-3-032-37490-5_5_CCFM_Collision-Constrained_Flow_Matching_for_Safety-Cr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7167620098",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Collision Snapshot Guided Time-Reversed Safety-Critical Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Taehyung Kim",
+      "Jongeun Choi"
+    ],
+    "doi": "10.48550/arxiv.2609.06433",
+    "file": "openalex_1048550_arxiv260906433_Collision_Snapshot_Guided_Time-Reversed_Safety-Critical_Sc.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7212071464",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Survey on Large Model-based Safety-critical Scenario Generation for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Lingzhong Meng",
+      "Cancan Jiang",
+      "Zhidong Wang",
+      "Guang Yang",
+      "Hongyun Yu",
+      "Yuxi Ma"
+    ],
+    "doi": "10.1109/ijcnn69854.2026.11729569",
+    "file": "openalex_101109_ijcnn69854202611729569_A_Survey_on_Large_Model-based_Safety-critical_Scena.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7222939596",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "AdvSce: safety-critical scenario generation for testing autonomous driving systems",
+    "year": 2023,
+    "authors": [
+      "昌文 李",
+      "Rongjie Yan",
+      "健 张"
+    ],
+    "doi": "10.1360/ssi-2022-0317",
+    "file": "openalex_101360_ssi-2022-0317_AdvSce_safety-critical_scenario_generation_for_testing_auton.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4321603468",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Safety-critical scenario generation for automated testing of autonomous driving systems",
+    "year": 2026,
+    "authors": [
+      "Trung-Hieu Nguyen",
+      "Truong-Giang Vuong",
+      "Hong-Nam Duong",
+      "Son Nguyen",
+      "Vo Hieu Dinh",
+      "Toshiaki Aoki",
+      "Thu-Trang Nguyen"
+    ],
+    "doi": "10.1007/s10515-026-00631-y",
+    "file": "openalex_101007_s10515-026-00631-y_Safety-critical_scenario_generation_for_automated_testi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7161596288",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Diversifying Latent Flows for Safety-Critical Scenarios Generation With CARLA Simulator",
+    "year": 2025,
+    "authors": [
+      "Dingcheng Gao",
+      "Yanjun Qin",
+      "Xiaoming Tao",
+      "Jianhua Lü"
+    ],
+    "doi": "10.1109/tcsvt.2025.3576354",
+    "file": "openalex_101109_tcsvt20253576354_Diversifying_Latent_Flows_for_Safety-Critical_Scenarios_G.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4411019568",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "AnchorDrive: LLM Scenario Rollout with Anchor-Guided Diffusion Regeneration for Safety-Critical Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Zhulin Jiang",
+      "Zetao Li",
+      "Cheng Ming Wang",
+      "Ziwen Wang",
+      "Xiong Chen"
+    ],
+    "doi": "10.48550/arxiv.2603.02542",
+    "file": "openalex_1048550_arxiv260302542_AnchorDrive_LLM_Scenario_Rollout_with_Anchor-Guided_Diffus.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7133533706",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Reactive safety-critical scenario generation for autonomous driving via interaction-adaptive diffusion",
+    "year": 2026,
+    "authors": [
+      "佳磊 聂",
+      "Hengyang Sun",
+      "Chujun Xia",
+      "Jiaming Xing",
+      "Shuo Yang",
+      "Meng Li",
+      "Yanjun Huang"
+    ],
+    "doi": "10.1016/j.aap.2026.108793",
+    "file": "openalex_101016_jaap2026108793_Reactive_safety-critical_scenario_generation_for_autonomous.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7224484019",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Any2Critical: Safety-Critical Scenario Generation from Arbitrary Real-World Driving Contexts",
+    "year": 2026,
+    "authors": [
+      "Yao Huang",
+      "Yubo Chen",
+      "Ruochen Zhang",
+      "Yitong Sun",
+      "Shouwei Ruan",
+      "Zhenyu Wu",
+      "Yinpeng Dong",
+      "Xingxing Wei"
+    ],
+    "doi": "10.1609/aaai.v40i42.40861",
+    "file": "openalex_101609_aaaiv40i4240861_Any2Critical_Safety-Critical_Scenario_Generation_from_Arbi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7137951813",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "AuthSim: Toward Authentic and Effective Safety-Critical Scenario Generation for Autonomous Driving Tests",
+    "year": 2025,
+    "authors": [
+      "Yukuan Yang",
+      "Xucheng Lu",
+      "Zhili Zhang",
+      "Zepeng Wu",
+      "Guoqi Li",
+      "Lingzhong Meng",
+      "Zhiming Ding",
+      "Yunzhi Xue"
+    ],
+    "doi": "10.1109/tits.2025.3586608",
+    "file": "openalex_101109_tits20253586608_AuthSim_Toward_Authentic_and_Effective_Safety-Critical_Sce.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413553311",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Bridging Data-Driven and Knowledge-Driven Approaches for Safety-Critical Scenario Generation in Automated Vehicle Validation",
+    "year": 2023,
+    "authors": [
+      "Kunkun Hao",
+      "Lu Liu",
+      "Cui, Wen",
+      "Jianxing Zhang",
+      "Songyang Yan",
+      "Yuxi Pan",
+      "Zijiang Yang"
+    ],
+    "doi": "10.48550/arxiv.2311.10937",
+    "file": "openalex_1048550_arxiv231110937_Bridging_Data-Driven_and_Knowledge-Driven_Approaches_for_S.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4388890750",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Enhancing safety and generalization for autonomous driving : safety-critical scenario generation and vision-based resolution",
+    "year": 2024,
+    "authors": [
+      "Wang, Tianqi",
+      "王天奇"
+    ],
+    "doi": "",
+    "file": "openalex_W7113295532_Enhancing_safety_and_generalization_for_autonomous_driving__safety-cr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7113295532",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SaFeR: Safety-Critical Scenario Generation for Autonomous Driving Test via Feasibility-Constrained Token Resampling",
+    "year": 2026,
+    "authors": [
+      "Jinlong Cui",
+      "Fenghua Liang",
+      "Guo Yang",
+      "Chengcheng Tang",
+      "Jianxun Cui"
+    ],
+    "doi": "10.48550/arxiv.2603.04071",
+    "file": "openalex_1048550_arxiv260304071_SaFeR_Safety-Critical_Scenario_Generation_for_Autonomous_D.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7133602009",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Enhancing semantic and risk controllability in safety-critical scenario generation: An LLM-guided conditional diffusion method",
+    "year": 2026,
+    "authors": [
+      "Hao Meng",
+      "Yaqi Li",
+      "Ce Wang",
+      "Fangrong Chang",
+      "Pengpeng Xu",
+      "Chenguang Li"
+    ],
+    "doi": "10.1016/j.aap.2026.108648",
+    "file": "openalex_101016_jaap2026108648_Enhancing_semantic_and_risk_controllability_in_safety-criti.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7168034574",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generative AI-based Safety Evaluation Framework for Autonomous Racing System via Safety-critical Scenario Generation",
+    "year": 2025,
+    "authors": [
+      "Hyeonbin Lee",
+      "Sanghyeon Lee",
+      "Hyeongjoon Yang",
+      "Cheolhyeon Kwon"
+    ],
+    "doi": "10.5302/j.icros.2025.25.0053",
+    "file": "openalex_105302_jicros2025250053_Generative_AI-based_Safety_Evaluation_Framework_for_Auton.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4410474101",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Conditional Flow-VAE for Safety-Critical Traffic Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Zimu Gong",
+      "Brian Zhaoning Zhang",
+      "Chris Zhang",
+      "Kelvin Wong",
+      "Raquel Urtasun"
+    ],
+    "doi": "",
+    "file": "arxiv_260504366v1_Conditional_Flow-VAE_for_Safety-Critical_Traffic_Scenario_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.04366v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios",
+    "year": 2025,
+    "authors": [
+      "Yuan Gao",
+      "Mattia Piccinini",
+      "Korbinian Moller",
+      "Amr Alanwar",
+      "Johannes Betz"
+    ],
+    "doi": "",
+    "file": "arxiv_250202145v4_From_Words_to_Collisions_LLM-Guided_Evaluation_and_Adversarial_Generatio.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.02145v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Survey on Safety-Critical Driving Scenario Generation -- A Methodological Perspective",
+    "year": 2022,
+    "authors": [
+      "Wenhao Ding",
+      "Chejian Xu",
+      "Mansur Arief",
+      "Haohong Lin",
+      "Bo Li",
+      "Ding Zhao"
+    ],
+    "doi": "",
+    "file": "arxiv_220202215v6_A_Survey_on_Safety-Critical_Driving_Scenario_Generation_--_A_Methodologi.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2202.02215v6",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Jie Li",
+      "Qi Lan",
+      "Yining Tang",
+      "Yu Shen",
+      "Yi Zhou",
+      "Yuhao Wei",
+      "Guofa Li",
+      "Hao Sun"
+    ],
+    "doi": "",
+    "file": "arxiv_260606423v2_RiskFlow_Fast_and_Faithful_Safety-Critical_Traffic_Scenario_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2606.06423v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CausalAF: Causal Autoregressive Flow for Safety-Critical Driving Scenario Generation",
+    "year": 2021,
+    "authors": [
+      "Wenhao Ding",
+      "Haohong Lin",
+      "Bo Li",
+      "Ding Zhao"
+    ],
+    "doi": "",
+    "file": "arxiv_211013939v3_CausalAF_Causal_Autoregressive_Flow_for_Safety-Critical_Driving_Scenario.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2110.13939v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "VLM as Strategist: Adaptive Generation of Safety-critical Testing Scenarios via Guided Diffusion",
+    "year": 2025,
+    "authors": [
+      "Xinzheng Wu",
+      "Junyi Chen",
+      "Naiting Zhong",
+      "Yong Shen"
+    ],
+    "doi": "10.1016/j.aap.2026.108680",
+    "file": "arxiv_101016_jaap2026108680_VLM_as_Strategist_Adaptive_Generation_of_Safety-critical_Testi.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.02844v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles",
+    "year": 2021,
+    "authors": [
+      "Jingkang Wang",
+      "Ava Pun",
+      "James Tu",
+      "Sivabalan Manivasagam",
+      "Abbas Sadat",
+      "Sergio Casas",
+      "Mengye Ren",
+      "Raquel Urtasun"
+    ],
+    "doi": "",
+    "file": "arxiv_210106549v4_AdvSim_Generating_Safety-Critical_Scenarios_for_Self-Driving_Vehicles.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2101.06549v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Learning to Collide: An Adaptive Safety-Critical Scenarios Generating Method",
+    "year": 2020,
+    "authors": [
+      "Wenhao Ding",
+      "Baiming Chen",
+      "Minjun Xu",
+      "Ding Zhao"
+    ],
+    "doi": "",
+    "file": "arxiv_200301197v3_Learning_to_Collide_An_Adaptive_Safety-Critical_Scenarios_Generating_Met.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2003.01197v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AuthSim: Towards Authentic and Effective Safety-critical Scenario Generation for Autonomous Driving Tests",
+    "year": 2025,
+    "authors": [
+      "Yukuan Yang",
+      "Xucheng Lu",
+      "Zhili Zhang",
+      "Zepeng Wu",
+      "Guoqi Li",
+      "Lingzhong Meng",
+      "Yunzhi Xue"
+    ],
+    "doi": "",
+    "file": "arxiv_250221100v1_AuthSim_Towards_Authentic_and_Effective_Safety-critical_Scenario_Generat.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.21100v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ReGentS: Real-World Safety-Critical Driving Scenario Generation Made Stable",
+    "year": 2024,
+    "authors": [
+      "Yuan Yin",
+      "Pegah Khayatan",
+      "Éloi Zablocki",
+      "Alexandre Boulch",
+      "Matthieu Cord"
+    ],
+    "doi": "",
+    "file": "arxiv_240907830v1_ReGentS_Real-World_Safety-Critical_Driving_Scenario_Generation_Made_Stab.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2409.07830v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality",
+    "year": 2024,
+    "authors": [
+      "Keyu Chen",
+      "Yuheng Lei",
+      "Hao Cheng",
+      "Haoran Wu",
+      "Wenchao Sun",
+      "Sifa Zheng"
+    ],
+    "doi": "",
+    "file": "arxiv_240602983v3_FREA_Feasibility-Guided_Generation_of_Safety-Critical_Scenarios_with_Rea.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2406.02983v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Towards Benchmarking and Assessing the Safety and Robustness of Autonomous Driving on Safety-critical Scenarios",
+    "year": 2025,
+    "authors": [
+      "Jingzheng Li",
+      "Xianglong Liu",
+      "Shikui Wei",
+      "Zhijun Chen",
+      "Bing Li",
+      "Qing Guo",
+      "Xianqi Yang",
+      "Yanjun Pu",
+      "Jiakai Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_250323708v2_Towards_Benchmarking_and_Assessing_the_Safety_and_Robustness_of_Autonomo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.23708v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SG-CADVLM: A Context-Aware Decoding Powered Vision Language Model for Safety-Critical Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Hongyi Zhao",
+      "Shuo Wang",
+      "Qijie He",
+      "Ziyuan Pu"
+    ],
+    "doi": "",
+    "file": "arxiv_260118442v3_SG-CADVLM_A_Context-Aware_Decoding_Powered_Vision_Language_Model_for_Saf.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2601.18442v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles",
+    "year": 2025,
+    "authors": [
+      "Jiangfan Liu",
+      "Yongkang Guo",
+      "Fangzhi Zhong",
+      "Tianyuan Zhang",
+      "Zonglei Jing",
+      "Siyuan Liang",
+      "Jiakai Wang",
+      "Mingchuan Zhang",
+      "Aishan Liu",
+      "Xianglong Liu"
+    ],
+    "doi": "",
+    "file": "arxiv_250814527v2_Adversarial_Generation_and_Collaborative_Evolution_of_Safety-Critical_Sc.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.14527v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generating Realistic Safety-Critical Scenarios for Vehicle-Pedestrian Interactions",
+    "year": 2026,
+    "authors": [
+      "Qingwen Pu",
+      "Kun Xie",
+      "Yuan Zhu",
+      "Guocong Zhai"
+    ],
+    "doi": "",
+    "file": "arxiv_260517229v2_Generating_Realistic_Safety-Critical_Scenarios_for_Vehicle-Pedestrian_In.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.17229v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DeepMF: Deep Motion Factorization for Closed-Loop Safety-Critical Driving Scenario Simulation",
+    "year": 2024,
+    "authors": [
+      "Yizhe Li",
+      "Linrui Zhang",
+      "Xueqian Wang",
+      "Houde Liu",
+      "Bin Liang"
+    ],
+    "doi": "",
+    "file": "arxiv_241217487v1_DeepMF_Deep_Motion_Factorization_for_Closed-Loop_Safety-Critical_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.17487v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients",
+    "year": 2022,
+    "authors": [
+      "Niklas Hanselmann",
+      "Katrin Renz",
+      "Kashyap Chitta",
+      "Apratim Bhattacharyya",
+      "Andreas Geiger"
+    ],
+    "doi": "",
+    "file": "arxiv_220413683v1_KING_Generating_Safety-Critical_Driving_Scenarios_for_Robust_Imitation_v.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2204.13683v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

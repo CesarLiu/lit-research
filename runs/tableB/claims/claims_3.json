@@ -1,0 +1,277 @@
+[
+ {
+  "id": 27,
+  "section": "3.3 Reward tilting is a one-parameter control with a monotone response",
+  "text": "[28] reuses it as a behaviour model, with planner collision at 4.9 % for kappa = +10 and 11.9 % for kappa = -50.",
+  "cited": [
+   28
+  ],
+  "previous_sentence": "[11] tilts the return distribution with a coefficient between -25 and 25 and reports a relatively monotonic change in each metric; with the fine-tuned model at -25, collisions are 2.1 times and off-road violations 1.8 times those of the base model.",
+  "papers": [
+   {
+    "n": 28,
+    "row_file": "rows/scenario_dreamer_vectorized_latent_diffusion_for_g.json",
+    "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 28,
+  "section": "3.3 Reward tilting is a one-parameter control with a monotone response",
+  "text": "[11] states two limits: it controls behaviour but not initial placement, and extreme tilting (-50) gives erratic, implausible behaviour.",
+  "cited": [
+   11
+  ],
+  "previous_sentence": "[28] reuses it as a behaviour model, with planner collision at 4.9 % for kappa = +10 and 11.9 % for kappa = -50.",
+  "papers": [
+   {
+    "n": 11,
+    "row_file": "rows/ctrl_sim_reactive_and_controllable_driving_agents.json",
+    "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 29,
+  "section": "3.3 Reward tilting is a one-parameter control with a monotone response",
+  "text": "[9] generalises from one tilt per reward component to a behaviour latent over four reward channels, reports positive controllability on all four, and notes that map steering fails with physical off-road and lane-centre definitions of the reward and that its realism is mid-leaderboard, below non-controllable imitation models.",
+  "cited": [
+   9
+  ],
+  "previous_sentence": "[11] states two limits: it controls behaviour but not initial placement, and extreme tilting (-50) gives erratic, implausible behaviour.",
+  "papers": [
+   {
+    "n": 9,
+    "row_file": "rows/controllable_sim_agents_with_behavior_latents.json",
+    "title": "Controllable Sim Agents with Behavior Latents"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 30,
+  "section": "3.4 Language control is mediated by generated code, and that is where it fails",
+  "text": "Four of the five language papers pass the text through a symbolic artefact, and their stated failures sit there.",
+  "cited": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 31,
+  "section": "3.4 Language control is mediated by generated code, and that is where it fails",
+  "text": "[19] has GPT-4 write a loss that guides each denoising step; it cannot detect or repair a wrong loss, cannot handle commands that depend heavily on the map, and takes about a minute per scenario.",
+  "cited": [
+   19
+  ],
+  "previous_sentence": "Four of the five language papers pass the text through a symbolic artefact, and their stated failures sit there.",
+  "papers": [
+   {
+    "n": 19,
+    "row_file": "rows/language_guided_traffic_simulation_via_scene_level.json",
+    "title": "Language-Guided Traffic Simulation via Scene-Level Diffusion"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 32,
+  "section": "3.4 Language control is mediated by generated code, and that is where it fails",
+  "text": "[10] has a refinement module that struggles when the LLM's first reading of the scenario is fundamentally wrong.",
+  "cited": [
+   10
+  ],
+  "previous_sentence": "[19] has GPT-4 write a loss that guides each denoising step; it cannot detect or repair a wrong loss, cannot handle commands that depend heavily on the map, and takes about a minute per scenario.",
+  "papers": [
+   {
+    "n": 10,
+    "row_file": "rows/controllable_traffic_simulation_through_llm_guided.json",
+    "title": "Controllable Traffic Simulation through LLM-Guided Hierarchical Reasoning and Refinement"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 33,
+  "section": "3.4 Language control is mediated by generated code, and that is where it fails",
+  "text": "In [18] the \"strong\" adversarial level gives a collision rate of 39.33 %, no higher than \"medium\" at 40.75 %, which the authors attribute to missed collision timing.",
+  "cited": [
+   18
+  ],
+  "previous_sentence": "[10] has a refinement module that struggles when the LLM's first reading of the scenario is fundamentally wrong.",
+  "papers": [
+   {
+    "n": 18,
+    "row_file": "rows/ld_scene_llm_guided_diffusion_for_controllable_gen.json",
+    "title": "LD-scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 34,
+  "section": "3.4 Language control is mediated by generated code, and that is where it fails",
+  "text": "[6] controls through Scenic code and is evaluated by adversarial strength rather than by text fidelity.",
+  "cited": [
+   6
+  ],
+  "previous_sentence": "In [18] the \"strong\" adversarial level gives a collision rate of 39.33 %, no higher than \"medium\" at 40.75 %, which the authors attribute to missed collision timing.",
+  "papers": [
+   {
+    "n": 6,
+    "row_file": "rows/chatscene_knowledge_enabled_safety_critical_scenar.json",
+    "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 35,
+  "section": "3.5 Fine-tuning and latent control show narrow demonstrations",
+  "text": "[8] cuts failure rates to 0.226 (collision) and 0.136 (off-road) from 0.483 and 0.450 without guidance, but only those two rewards are demonstrated, so its notes call the control essentially constraint satisfaction.",
+  "cited": [
+   8
+  ],
+  "previous_sentence": "",
+  "papers": [
+   {
+    "n": 8,
+    "row_file": "rows/controllable_latent_diffusion_for_traffic_simulati.json",
+    "title": "Controllable Latent Diffusion for Traffic Simulation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 36,
+  "section": "3.5 Fine-tuning and latent control show narrow demonstrations",
+  "text": "[21] raises goal reach from 35.37 % to 50.00 % in one variant and states that its controllability is reasonable but imperfect.",
+  "cited": [
+   21
+  ],
+  "previous_sentence": "[8] cuts failure rates to 0.226 (collision) and 0.136 (off-road) from 0.483 and 0.450 without guidance, but only those two rewards are demonstrated, so its notes call the control essentially constraint satisfaction.",
+  "papers": [
+   {
+    "n": 21,
+    "row_file": "rows/rlftsim_realistic_and_controllable_multi_agent_tra.json",
+    "title": "RLFTSim: Realistic and Controllable Multi-Agent Traffic Simulation via Reinforcement Learning Fine-Tuning"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 37,
+  "section": "3.5 Fine-tuning and latent control show narrow demonstrations",
+  "text": "[16] is a two-page student abstract controlling a discrete class only.",
+  "cited": [
+   16
+  ],
+  "previous_sentence": "[21] raises goal reach from 35.37 % to 50.00 % in one variant and states that its controllability is reasonable but imperfect.",
+  "papers": [
+   {
+    "n": 16,
+    "row_file": "rows/guided_latent_spaces_for_controllable_multi_scenar.json",
+    "title": "Guided Latent Spaces for Controllable Multi-Scenario Generation in Autonomous Driving (Student Abstract)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 38,
+  "section": "3.5 Fine-tuning and latent control show narrow demonstrations",
+  "text": "[7] moves minSTTC from 3.263 to 1.967 and the near-miss rate from 0.281 to 0.500 between the nominal and challenging labels, and states that it controls the degree of criticality, not the specific manoeuvre.",
+  "cited": [
+   7
+  ],
+  "previous_sentence": "[16] is a two-page student abstract controlling a discrete class only.",
+  "papers": [
+   {
+    "n": 7,
+    "row_file": "rows/conditional_flow_vae_for_safety_critical_traffic_s.json",
+    "title": "Conditional Flow-VAE for Safety-Critical Traffic Scenario Generation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 39,
+  "section": "4. Cross-cutting observations",
+  "text": "**Safety-critical generation dominates the steered quantity.** At least 11 of the 30 papers with any control steer collisions or adversarial strength: [1] [2] [4] [6] [12] [17] [18] [20] [25] [26] [30].",
+  "cited": [
+   1,
+   2,
+   4,
+   6,
+   12,
+   17,
+   18,
+   20,
+   25,
+   26,
+   30
+  ],
+  "previous_sentence": "",
+  "papers": [
+   {
+    "n": 1,
+    "row_file": "rows/advdiffuser_generating_adversarial_safety_critical.json",
+    "title": "AdvDiffuser: Generating Adversarial Safety-Critical Driving Scenarios via Guided Diffusion"
+   },
+   {
+    "n": 2,
+    "row_file": "rows/advsim_generating_safety_critical_scenarios_for_se.json",
+    "title": "AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles"
+   },
+   {
+    "n": 4,
+    "row_file": "rows/cat_closed_loop_adversarial_training_for_safe_end.json",
+    "title": "CAT: Closed-loop Adversarial Training for Safe End-to-End Driving"
+   },
+   {
+    "n": 6,
+    "row_file": "rows/chatscene_knowledge_enabled_safety_critical_scenar.json",
+    "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles"
+   },
+   {
+    "n": 12,
+    "row_file": "rows/diffscene_diffusion_based_safety_critical_scenario.json",
+    "title": "DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles"
+   },
+   {
+    "n": 17,
+    "row_file": "rows/king_generating_safety_critical_driving_scenarios.json",
+    "title": "KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients"
+   },
+   {
+    "n": 18,
+    "row_file": "rows/ld_scene_llm_guided_diffusion_for_controllable_gen.json",
+    "title": "LD-scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios"
+   },
+   {
+    "n": 20,
+    "row_file": "rows/proposal_conditioned_latent_diffusion_for_closed_l.json",
+    "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation"
+   },
+   {
+    "n": 25,
+    "row_file": "rows/safe_sim_safety_critical_closed_loop_traffic_simul.json",
+    "title": "SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries"
+   },
+   {
+    "n": 26,
+    "row_file": "rows/safety_critical_traffic_simulation_with_guided_lat.json",
+    "title": "Safety-Critical Traffic Simulation with Guided Latent Diffusion Model"
+   },
+   {
+    "n": 30,
+    "row_file": "rows/socialdrivegen_generating_diverse_traffic_scenario.json",
+    "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions"
+   }
+  ],
+  "flags": []
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {"id": 27, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 28, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 29, "verdict": "PARTIAL", "wrong_citation": false, "issue": "The mid-leaderboard realism remark comes from the row's notes field (annotator comment), not stated_limitations, yet the sentence says the paper notes it; 'positive on all four' ignores that unconditional CSM diagonals are also positive on three channels (controllability_evidence), and the 'generalises from one tilt per component' lineage is not in this row."},
+ {"id": 30, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Count holds (5 language/LLM-driven rows in table.md; [19],[10],[18],[6] use code or Scenic), but stated failures sit in the code only for [19] and [10]; [18] and [6] have stated_limitations 'not stated in packet' and [18]'s strong-level anomaly is attributed to collision timing, not the code."},
+ {"id": 31, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 32, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 33, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Numbers match the notes field, but the sentence drops the qualifier that the missed collision timing occurs in low-speed interactions (notes)."},
+ {"id": 34, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 35, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Numbers and direction match controllability_evidence, but 'essentially constraint satisfaction' is the table annotator's notes-field judgement, presented as [8]'s own notes."},
+ {"id": 36, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 37, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 38, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 39, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""}
+]

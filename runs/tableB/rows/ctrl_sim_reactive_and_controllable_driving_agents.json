@@ -1,0 +1,13 @@
+{
+ "id": "ctrl_sim_reactive_and_controllable_driving_agents",
+ "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning",
+ "control_family": "reward/return conditioning",
+ "control_signal": {"value": "Exponential tilting coefficients kappa, one per factored reward component (goal reached, vehicle-vehicle collision, vehicle-road-edge collision), positive or negative.", "pages": "1-2, 4"},
+ "control_mechanism": {"value": "The model predicts a return-to-go distribution per agent; at sampling time that distribution is exponentially tilted by kappa, then actions are sampled conditioned on it. Optional fine-tuning on CAT collision scenes strengthens adversarial control.", "pages": "2, 4, 6"},
+ "base_model": {"value": "Return-conditioned multi-agent autoregressive encoder-decoder Transformer over tokenised actions and returns, with future-state prediction head; run in Nocturne extended with a Box2D physics engine.", "pages": "2, 4"},
+ "datasets": {"value": "Offline RL dataset built from Waymo Open Motion Dataset via Nocturne; 1000 random test scenes; fine-tuning on CAT-generated long-tail collision scenes.", "pages": "5-6"},
+ "metrics": {"value": "ADE, FDE, goal success rate, JSD, collision and offroad rate, generation time; controllability by goal success, collision and offroad rates matching the tilted reward axis.", "pages": "5"},
+ "controllability_evidence": {"value": "Tilting kappa from -25 to 25 gives a relatively monotonic change in each metric; at -25 the fine-tuned model produces 2.1x as many collisions and 1.8x as many offroad violations as the base model.", "pages": "6-7"},
+ "stated_limitations": {"value": "Inference latency may make large-scale RL training expensive; controls behaviour but not initial agent placement; extreme tilting (-50) gives erratic, implausible behaviour; imitation drift can push agents off road.", "pages": "8, 21-22"},
+ "notes": ""
+}

@@ -1,0 +1,818 @@
+[
+  {
+    "title": "Controllable Realistic Simulation and Video Generation for Autonomous Vehicles in Safety-Critical Scenarios",
+    "year": 2025,
+    "authors": [
+      "Anthony Gosselin"
+    ],
+    "doi": "",
+    "file": "openalex_W7128662720_Controllable_Realistic_Simulation_and_Video_Generation_for_Autonomous.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7128662720",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Learning Interpretable, High-Performing Policies for Autonomous Driving",
+    "year": 2022,
+    "authors": [
+      "Rohan Paleja",
+      "Yaru Niu",
+      "Andrew Silva",
+      "Chace Ritchie",
+      "Sugju Choi",
+      "Matthew Gombolay"
+    ],
+    "doi": "10.15607/rss.2022.xviii.068",
+    "file": "openalex_1015607_rss2022xviii068_Learning_Interpretable_High-Performing_Policies_for_Auton.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4283787646",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+    "year": 2025,
+    "authors": [
+      "Luke Rowe",
+      "Roger Girgis",
+      "Anthony Gosselin",
+      "Liam Paull",
+      "Christopher Pal",
+      "Felix Heide"
+    ],
+    "doi": "10.1109/cvpr52734.2025.01604",
+    "file": "openalex_101109_cvpr52734202501604_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Genera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413144722",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Evaluation Is All You Need for Multi-Modal Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Zeyu He",
+      "Shiqi Liu",
+      "Ke Chen",
+      "Yun Yan",
+      "Jinzi Wu",
+      "Dianqiao Lei",
+      "Sirui Wang",
+      "Peng Shurui",
+      "Tao Chen",
+      "Zhuo Huang",
+      "Yu Wu",
+      "Yadong Shao",
+      "Zhichao Li",
+      "Ke Sun",
+      "Yang Guan",
+      "Keqiang Li",
+      "Shengbo Eben Li"
+    ],
+    "doi": "10.48550/arxiv.2609.30818",
+    "file": "openalex_1048550_arxiv260930818_Evaluation_Is_All_You_Need_for_Multi-Modal_Autonomous_Driv.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7214655900",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Model-free Learning and Interaction-aware Control for Safe Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Kaiwen Liu"
+    ],
+    "doi": "10.7302/8441",
+    "file": "openalex_107302_8441_Model-free_Learning_and_Interaction-aware_Control_for_Safe_Autonomous.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4386978332",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Robobo SmartCity: An Autonomous Driving Model for Computational Intelligence Learning Through Educational Robotics",
+    "year": 2023,
+    "authors": [
+      "Martín Naya-Varela",
+      "Sara Guerreiro-Santalla",
+      "Tamara Baamonde",
+      "Francisco Bellas"
+    ],
+    "doi": "10.1109/tlt.2023.3244604",
+    "file": "openalex_101109_tlt20233244604_Robobo_SmartCity_An_Autonomous_Driving_Model_for_Computatio.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4321608661",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Autonomous mining through cooperative driving and operations enabled by parallel intelligence",
+    "year": 2024,
+    "authors": [
+      "Long Chen",
+      "Yuting Xie",
+      "Yuhang He",
+      "Yunfeng Ai",
+      "Bin Tian",
+      "Lingxi Li",
+      "Shirong Ge",
+      "Fei–Yue Wang"
+    ],
+    "doi": "10.1038/s44172-024-00220-5",
+    "file": "openalex_101038_s44172-024-00220-5_Autonomous_mining_through_cooperative_driving_and_opera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4399205229",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Multi-level traffic-responsive tilt camera surveillance through predictive correlated online learning",
+    "year": 2024,
+    "authors": [
+      "Tao Li",
+      "Zilin Bian",
+      "Haozhe Lei",
+      "Fan Zuo",
+      "Ya-Ting Carolyn Yang",
+      "Quanyan Zhu",
+      "Zhenning Li",
+      "Kaan M. A. Özbay"
+    ],
+    "doi": "10.1016/j.trc.2024.104804",
+    "file": "openalex_101016_jtrc2024104804_Multi-level_traffic-responsive_tilt_camera_surveillance_thr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4401574300",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "From manual to autonomous: the role of intelligent technologies in the driving and control of combine harvester",
+    "year": 2026,
+    "authors": [
+      "Yiheng Qian",
+      "Yu Zhang",
+      "Shuhao Fu",
+      "Kai Shan",
+      "Wenbin Zhang",
+      "Zhong Tang"
+    ],
+    "doi": "10.3389/fsufs.2026.1906757",
+    "file": "openalex_103389_fsufs20261906757_From_manual_to_autonomous_the_role_of_intelligent_technol.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7204457869",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning",
+    "year": 2024,
+    "authors": [
+      "Rowe, Luke",
+      "Roger Girgis",
+      "Anthony Gosselin",
+      "Bruno Carrez",
+      "Florian Golemo",
+      "Felix Heide",
+      "Liam Paull",
+      "Christopher Pal"
+    ],
+    "doi": "10.48550/arxiv.2403.19918",
+    "file": "openalex_1048550_arxiv240319918_CtRL-Sim_Reactive_and_Controllable_Driving_Agents_with_Off.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4393399233",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Anytime rulebook-aware nonlinear MPC for autonomous driving with priority-biased tiered slacks",
+    "year": 2026,
+    "authors": [
+      "Hadi Hajieghrary",
+      "Benedikt Walter",
+      "Chaitanya Shinde",
+      "Paul Schmitt",
+      "Miguel Hurtado"
+    ],
+    "doi": "10.1016/j.atres.2026.08.002",
+    "file": "openalex_101016_jatres202608002_Anytime_rulebook-aware_nonlinear_MPC_for_autonomous_drivin.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7208707055",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "VESPA: Towards un(Human)supervised Open-World Pointcloud Labeling for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Levente Tempfli",
+      "Esteban Rivera",
+      "Markus Lienkamp"
+    ],
+    "doi": "10.48550/arxiv.2507.20397",
+    "file": "openalex_1048550_arxiv250720397_VESPA_Towards_unHumansupervised_Open-World_Pointcloud_Labe.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417268929",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Driving Policy Transfer via Modularity and Abstraction",
+    "year": 2018,
+    "authors": [
+      "Müller, Matthias",
+      "Alexey Dosovitskiy",
+      "Bernard Ghanem",
+      "Vladlen Koltun"
+    ],
+    "doi": "10.48550/arxiv.1804.09364",
+    "file": "openalex_1048550_arxiv180409364_Driving_Policy_Transfer_via_Modularity_and_Abstraction.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2799017078",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Control Principles for Autonomous Communication Networks",
+    "year": 2023,
+    "authors": [
+      "Azza H. Ahmed"
+    ],
+    "doi": "",
+    "file": "openalex_W7236978130_Control_Principles_for_Autonomous_Communication_Networks.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7236978130",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A critical review of traffic signal control and a novel unified view of reinforcement learning and model predictive control approaches for adaptive traffic signal control",
+    "year": 2023,
+    "authors": [
+      "Xiaoyu Wang",
+      "Baher Abdulhai",
+      "Scott Sanner"
+    ],
+    "doi": "10.4337/9781803929545.00029",
+    "file": "openalex_104337_978180392954500029_A_critical_review_of_traffic_signal_control_and_a_novel.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4388271065",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Language-Guided Controllable Traffic Scenario Generation for Autonomous Vehicle Safety Validation",
+    "year": 2026,
+    "authors": [
+      "Hua Yao",
+      "Zhongning Wang",
+      "Chenfei Hou",
+      "Jicheng Chen",
+      "Guo Zhou",
+      "Hui Zhang"
+    ],
+    "doi": "10.2139/ssrn.6072140",
+    "file": "crossref_102139_ssrn6072140_Language-Guided_Controllable_Traffic_Scenario_Generation_for_A.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.2139/ssrn.6072140",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "TrafficDiff: diffusion model based adversarial traffic scenario controllable generation for autonomous driving robust evaluation",
+    "year": 2025,
+    "authors": [
+      "Xuesong Bai",
+      "Hongbo Li",
+      "Peng Dong",
+      "Changhang Tian",
+      "Yang Fei",
+      "Jinchuan Zhang",
+      "Yilong Ren",
+      "Aoyong Li"
+    ],
+    "doi": "10.1007/s10044-025-01561-3",
+    "file": "crossref_101007_s10044-025-01561-3_TrafficDiff_diffusion_model_based_adversarial_traffic_s.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.1007/s10044-025-01561-3",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Grid-Centric Traffic Scenario Perception for Autonomous Driving: A Comprehensive Review_supp1-3495045.pdf",
+    "year": null,
+    "authors": [
+      "Yining Shi"
+    ],
+    "doi": "10.1109/tnnls.2024.3495045/mm1",
+    "file": "crossref_101109_tnnls20243495045_mm1_Grid-Centric_Traffic_Scenario_Perception_for_Autonomo.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.1109/tnnls.2024.3495045/mm1",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Controllable and Realistic Safety-critical Scenario Generation for Autonomous Driving Based on Diffusion Models",
+    "year": 2025,
+    "authors": [
+      "Senyao Qiao",
+      "Yifei Wang",
+      "Hongqing Chu",
+      "Bingzhao Gao",
+      "Qiankun Yu"
+    ],
+    "doi": "10.1109/cac67268.2025.11486668",
+    "file": "crossref_101109_cac67268202511486668_Controllable_and_Realistic_Safety-critical_Scenario_G.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.1109/cac67268.2025.11486668",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "TARGET: Traffic Rule-based Test Generation for Autonomous Driving Systems_supp1-3569086.pdf",
+    "year": null,
+    "authors": [
+      "xi zheng"
+    ],
+    "doi": "10.1109/tse.2025.3569086/mm1",
+    "file": "crossref_101109_tse20253569086_mm1_TARGET_Traffic_Rule-based_Test_Generation_for_Autonomou.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.1109/tse.2025.3569086/mm1",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Uncovering Weaknesses in Autonomous Driving",
+    "year": null,
+    "authors": [
+      "Carlos O. Hernandez"
+    ],
+    "doi": "10.31979/etd.vqbt-kwk2",
+    "file": "crossref_1031979_etdvqbt-kwk2_Uncovering_Weaknesses_in_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.31979/etd.vqbt-kwk2",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Guided Latent Spaces for Controllable Multi-Scenario Generation in Autonomous Driving (Student Abstract)",
+    "year": 2026,
+    "authors": [
+      "Manasa Mariam Mammen",
+      "Zafer Kayatas",
+      "Stefan Wagner"
+    ],
+    "doi": "10.1609/aaai.v40i48.42251",
+    "file": "crossref_101609_aaaiv40i4842251_Guided_Latent_Spaces_for_Controllable_Multi-Scenario_Gener.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.1609/aaai.v40i48.42251",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models_supp1-3578383.mp4",
+    "year": null,
+    "authors": [
+      "Jian Sun"
+    ],
+    "doi": "10.1109/tits.2025.3578383/mm1",
+    "file": "crossref_101109_tits20253578383_mm1_LLM-Attacker_Enhancing_Closed-Loop_Adversarial_Scenari.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.1109/tits.2025.3578383/mm1",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Research on Specific Scenario Generation Methods for Autonomous Driving Simulation Tests",
+    "year": 2023,
+    "authors": [
+      "Ning Li",
+      "Lingshan Chen",
+      "Yongchao Huang"
+    ],
+    "doi": "10.20944/preprints202311.0426.v1",
+    "file": "crossref_1020944_preprints2023110426v1_Research_on_Specific_Scenario_Generation_Methods_fo.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.20944/preprints202311.0426.v1",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Multi-modal Traffic Scenario Generation for Autonomous Driving System Testing",
+    "year": 2025,
+    "authors": [
+      "Zhi Tu",
+      "Liangkun Niu",
+      "Wei Fan",
+      "Tianyi Zhang"
+    ],
+    "doi": "10.1145/3729348",
+    "file": "crossref_101145_3729348_Multi-modal_Traffic_Scenario_Generation_for_Autonomous_Driving_Sys.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.1145/3729348",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Towards Lawful Autonomous Driving: Deriving Scenario-Aware Driving Requirements from Traffic Laws",
+    "year": 2026,
+    "authors": [
+      "Bowen Jian",
+      "Rongjie Yu",
+      "Hong Wang",
+      "Liqiang Wang",
+      "Zihang Zou"
+    ],
+    "doi": "10.26599/commtr.2026.9640060",
+    "file": "crossref_1026599_commtr20269640060_Towards_Lawful_Autonomous_Driving_Deriving_Scenario-Awa.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.26599/commtr.2026.9640060",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion",
+    "year": 2023,
+    "authors": [
+      "Ethan Pronovost",
+      "Meghana Reddy Ganesina",
+      "Noureldin Hendy",
+      "Zeyu Wang",
+      "Andres Morales",
+      "Kai Wang",
+      "Nick Roy"
+    ],
+    "doi": "10.52202/075280-3014",
+    "file": "crossref_1052202_075280-3014_Scenario_Diffusion_Controllable_Driving_Scenario_Generation_W.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.52202/075280-3014",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Sheng Wang",
+      "Ge Sun",
+      "Fulong Ma",
+      "Tianshuai Hu",
+      "Qiang Qin",
+      "Yongkang Song",
+      "Lei Zhu",
+      "Junwei Liang"
+    ],
+    "doi": "10.1109/iros58592.2024.10801623",
+    "file": "crossref_101109_iros58592202410801623_DragTraffic_Interactive_and_Controllable_Traffic_Sce.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.1109/iros58592.2024.10801623",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Optimization of traffic light scenario algorithms for Apollo-based autonomous driving",
+    "year": 2026,
+    "authors": [
+      "Li He",
+      "Wenjian Feng"
+    ],
+    "doi": "10.1117/12.3102532",
+    "file": "crossref_101117_123102532_Optimization_of_traffic_light_scenario_algorithms_for_Apollo-bas.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.1117/12.3102532",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Controllable risk scenario generation from human crash data for autonomous vehicle testing",
+    "year": 2025,
+    "authors": [
+      "Qiujing Lu",
+      "Xuanhan Wang",
+      "Runze Yuan",
+      "Wei Lu",
+      "Xinyi Gong",
+      "Shuo Feng"
+    ],
+    "doi": "10.2139/ssrn.5734582",
+    "file": "crossref_102139_ssrn5734582_Controllable_risk_scenario_generation_from_human_crash_data_fo.txt",
+    "kind": "txt",
+    "url": "https://doi.org/10.2139/ssrn.5734582",
+    "sources": [
+      "crossref"
+    ]
+  },
+  {
+    "title": "Control Strategies for Autonomous Vehicles",
+    "year": 2020,
+    "authors": [
+      "Chinmay Vilas Samak",
+      "Tanmay Vilas Samak",
+      "Sivanathan Kandhasamy"
+    ],
+    "doi": "10.1201/9781003048381",
+    "file": "arxiv_101201_9781003048381_Control_Strategies_for_Autonomous_Vehicles.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2011.08729v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Zhennan Wang",
+      "Jianing Teng",
+      "Canqun Xiang",
+      "Kangliang Chen",
+      "Xing Pan",
+      "Lu Deng",
+      "Weihao Gu"
+    ],
+    "doi": "",
+    "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.21581v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+    "year": 2025,
+    "authors": [
+      "Haibao Yu",
+      "Wenxian Yang",
+      "Ruiyang Hao",
+      "Chuanye Wang",
+      "Jiaru Zhong",
+      "Ping Luo",
+      "Zaiqing Nie"
+    ],
+    "doi": "",
+    "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.23922v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Dingrui Wang",
+      "Marc Kaufeld",
+      "Johannes Betz"
+    ],
+    "doi": "",
+    "file": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2409.18053v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network",
+    "year": 2021,
+    "authors": [
+      "Bo Dong",
+      "Hao Liu",
+      "Yu Bai",
+      "Jinbiao Lin",
+      "Zhuoran Xu",
+      "Xinyu Xu",
+      "Qi Kong"
+    ],
+    "doi": "",
+    "file": "arxiv_210316273v1_Multi-modal_Trajectory_Prediction_for_Autonomous_Driving_with_Semantic_M.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2103.16273v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-agent Reinforcement Learning for Cooperative Lane Changing of Connected and Autonomous Vehicles in Mixed Traffic",
+    "year": 2021,
+    "authors": [
+      "Wei Zhou",
+      "Dong Chen",
+      "Jun Yan",
+      "Zhaojian Li",
+      "Huilin Yin",
+      "Wanchen Ge"
+    ],
+    "doi": "10.1007/s43684-022-00023-5",
+    "file": "arxiv_101007_s43684-022-00023-5_Multi-agent_Reinforcement_Learning_for_Cooperative_Lane_Ch.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2111.06318v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Offline Reinforcement Learning for Autonomous Driving with Safety and Exploration Enhancement",
+    "year": 2021,
+    "authors": [
+      "Tianyu Shi",
+      "Dong Chen",
+      "Kaian Chen",
+      "Zhaojian Li"
+    ],
+    "doi": "",
+    "file": "arxiv_211007067v2_Offline_Reinforcement_Learning_for_Autonomous_Driving_with_Safety_and_Ex.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2110.07067v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-task Learning with Attention for End-to-end Autonomous Driving",
+    "year": 2021,
+    "authors": [
+      "Keishi Ishihara",
+      "Anssi Kanervisto",
+      "Jun Miura",
+      "Ville Hautamäki"
+    ],
+    "doi": "",
+    "file": "arxiv_210410753v1_Multi-task_Learning_with_Attention_for_End-to-end_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2104.10753v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Kotaro Tanahashi",
+      "Yuichi Inoue",
+      "Yu Yamaguchi",
+      "Hidetatsu Yaginuma",
+      "Daiki Shiotsuka",
+      "Hiroyuki Shimatani",
+      "Kohei Iwamasa",
+      "Yoshiaki Inoue",
+      "Takafumi Yamaguchi",
+      "Koki Igari",
+      "Tsukasa Horinouchi",
+      "Kento Tokuhiro",
+      "Yugo Tokuchi",
+      "Shunsuke Aoki"
+    ],
+    "doi": "",
+    "file": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2312.06351v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "3D Point Cloud Processing and Learning for Autonomous Driving",
+    "year": 2020,
+    "authors": [
+      "Siheng Chen",
+      "Baoan Liu",
+      "Chen Feng",
+      "Carlos Vallespi-Gonzalez",
+      "Carl Wellington"
+    ],
+    "doi": "",
+    "file": "arxiv_200300601v1_3D_Point_Cloud_Processing_and_Learning_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2003.00601v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+    "year": 2026,
+    "authors": [
+      "Tugrul Gorgulu",
+      "Atakan Dag",
+      "M. Esat Kalfaoglu",
+      "Halil Ibrahim Kuru",
+      "Baris Can Cam",
+      "Halil Ibrahim Ozturk",
+      "Ozsel Kilinc"
+    ],
+    "doi": "",
+    "file": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.23499v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Self-Driving like a Human driver instead of a Robocar: Personalized comfortable driving experience for autonomous vehicles",
+    "year": 2020,
+    "authors": [
+      "Il Bae",
+      "Jaeyoung Moon",
+      "Junekyo Jhung",
+      "Ho Suk",
+      "Taewoo Kim",
+      "Hyungbin Park",
+      "Jaekwang Cha",
+      "Jinhyuk Kim",
+      "Dohyun Kim",
+      "Shiho Kim"
+    ],
+    "doi": "",
+    "file": "arxiv_200103908v2_Self-Driving_like_a_Human_driver_instead_of_a_Robocar_Personalized_comfo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2001.03908v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SoildNet: Soiling Degradation Detection in Autonomous Driving",
+    "year": 2019,
+    "authors": [
+      "Arindam Das"
+    ],
+    "doi": "",
+    "file": "arxiv_191101054v2_SoildNet_Soiling_Degradation_Detection_in_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/1911.01054v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Jam-avoiding adaptive cruise control (ACC) and its impact on traffic dynamics",
+    "year": 2006,
+    "authors": [
+      "Arne Kesting",
+      "Martin Treiber",
+      "Martin Schönhof",
+      "Florian Kranke",
+      "Dirk Helbing"
+    ],
+    "doi": "",
+    "file": "arxiv_0601096v1_Jam-avoiding_adaptive_cruise_control_ACC_and_its_impact_on_traffic_dynamic.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/physics/0601096v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ControlNeXt: Powerful and Efficient Control for Image and Video Generation",
+    "year": 2024,
+    "authors": [
+      "Bohao Peng",
+      "Jian Wang",
+      "Yuechen Zhang",
+      "Wenbo Li",
+      "Ming-Chang Yang",
+      "Jiaya Jia"
+    ],
+    "doi": "",
+    "file": "arxiv_240806070v3_ControlNeXt_Powerful_and_Efficient_Control_for_Image_and_Video_Generatio.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.06070v3",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

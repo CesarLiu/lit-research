@@ -1,0 +1,4 @@
+  1 [1. Scope] number_not_in_cited_rows 2019; number_not_in_cited_rows 288; number_not_in_cited_rows 371; no_citation :: The corpus is 371 papers on traffic scenario generation and simulation, found with OpenAle
+  2 [1. Scope] no_citation :: From those I chose 34 from their abstracts to cover different control mechanisms, and fill
+ 42 [4. Cross-cutting observation] no_citation :: This partly reflects how I chose the 34 from abstracts, so it describes this sample, not t
+ 51 [5. Gaps that the rows suppor] number_not_in_cited_rows 3.4 :: For the language papers that go through code or a loss function, reliability depends on wh

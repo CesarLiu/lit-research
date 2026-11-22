@@ -1,0 +1,806 @@
+[
+  {
+    "title": "PhysCrit: Physically Feasible Safety-Critical Scenario Generation for Robust Autonomous Driving through Constrained Adversarial Optimization",
+    "year": 2026,
+    "authors": [
+      "Seheon Ha",
+      "Jahyun Koo",
+      "Youngki Kim",
+      "Yuseung Na",
+      "Paulo Resende",
+      "Thomas Heitzmann",
+      "Kichun Jo"
+    ],
+    "doi": "10.2139/ssrn.7121433",
+    "file": "openalex_102139_ssrn7121433_PhysCrit_Physically_Feasible_Safety-Critical_Scenario_Generati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7168400168",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey on Safety-Critical Driving Scenario Generation—A Methodological Perspective",
+    "year": 2023,
+    "authors": [
+      "Wenhao Ding",
+      "Chejian Xu",
+      "Mansur Arief",
+      "Haohong Lin",
+      "Bo Li",
+      "Ding Xuan Zhao"
+    ],
+    "doi": "10.1109/tits.2023.3259322",
+    "file": "openalex_101109_tits20233259322_A_Survey_on_Safety-Critical_Driving_Scenario_GenerationA_M.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4361861254",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Adversarial Safety-Critical Scenario Generation Using Naturalistic Human Driving Priors",
+    "year": 2023,
+    "authors": [
+      "Kunkun Hao",
+      "Wen Quan Cui",
+      "Yonggang Luo",
+      "Lecheng Xie",
+      "Yuqiao Bai",
+      "Jucheng Yang",
+      "Songyang Yan",
+      "Yuxi Pan",
+      "Zijiang Yang"
+    ],
+    "doi": "10.1109/tiv.2023.3335862",
+    "file": "openalex_101109_tiv20233335862_Adversarial_Safety-Critical_Scenario_Generation_Using_Natur.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4388936562",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles",
+    "year": 2025,
+    "authors": [
+      "Chejian Xu",
+      "Aleksandr Petiushko",
+      "Zhao Ding",
+      "Bo Li"
+    ],
+    "doi": "10.1609/aaai.v39i8.32951",
+    "file": "openalex_101609_aaaiv39i832951_DiffScene_Diffusion-Based_Safety-Critical_Scenario_Generati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409366385",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Interactive Adversarial Scenario Generation for Autonomous Driving: A Continual Learning Framework with Safety Constraints",
+    "year": 2025,
+    "authors": [
+      "Jialin Fan",
+      "Ying Ni",
+      "Yuhang Chen",
+      "Site Li",
+      "Jian Sun",
+      "Jian Sun"
+    ],
+    "doi": "10.1109/itsc60802.2025.11423840",
+    "file": "openalex_101109_itsc60802202511423840_Interactive_Adversarial_Scenario_Generation_for_Auto.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7136765536",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles",
+    "year": 2026,
+    "authors": [
+      "Jianxing Liu",
+      "Yongkang Guo",
+      "Fangzhi Zhong",
+      "Tianyuan Zhang",
+      "Zonglei Jing",
+      "Siyuan Liang",
+      "Jiakai Wang",
+      "Mingchuan Zhang",
+      "Aishan Liu",
+      "Xianglong Liu"
+    ],
+    "doi": "10.1609/aaai.v40i45.41238",
+    "file": "openalex_101609_aaaiv40i4541238_Adversarial_Generation_and_Collaborative_Evolution_of_Safe.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7138919818",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models",
+    "year": 2025,
+    "authors": [
+      "Yuewen Mei",
+      "Tong Nie",
+      "Jian Sun",
+      "Ye Tian"
+    ],
+    "doi": "10.1109/tits.2025.3578383",
+    "file": "openalex_101109_tits20253578383_LLM-Attacker_Enhancing_Closed-Loop_Adversarial_Scenario_Ge.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4411550852",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LD-scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios",
+    "year": 2026,
+    "authors": [
+      "Mingxing Peng",
+      "Yuting Xie",
+      "Xusen Guo",
+      "Ruoyu Yao",
+      "Hai Yang",
+      "Jun Ma"
+    ],
+    "doi": "10.1016/j.trc.2026.105694",
+    "file": "openalex_101016_jtrc2026105694_LD-scene_LLM-guided_diffusion_for_controllable_generation_o.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413241602",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AuthSim: Toward Authentic and Effective Safety-Critical Scenario Generation for Autonomous Driving Tests",
+    "year": 2025,
+    "authors": [
+      "Yukuan Yang",
+      "Xucheng Lu",
+      "Zhili Zhang",
+      "Zepeng Wu",
+      "Guoqi Li",
+      "Lingzhong Meng",
+      "Zhiming Ding",
+      "Yunzhi Xue"
+    ],
+    "doi": "10.1109/tits.2025.3586608",
+    "file": "openalex_101109_tits20253586608_AuthSim_Toward_Authentic_and_Effective_Safety-Critical_Sce.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413553311",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generation of Driving Scenario Trajectories with Generative Adversarial Networks",
+    "year": 2020,
+    "authors": [
+      "Andreas Demetriou",
+      "Henrik Allsvag",
+      "Sadegh Rahrovani",
+      "Morteza Haghir Chehreghani"
+    ],
+    "doi": "10.1109/itsc45102.2020.9294362",
+    "file": "openalex_101109_itsc4510220209294362_Generation_of_Driving_Scenario_Trajectories_with_Gene.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3117307549",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SafeBench: A Benchmarking Platform for Safety Evaluation of Autonomous Vehicles",
+    "year": 2022,
+    "authors": [
+      "Chejian Xu",
+      "Wenhao Ding",
+      "Weijie Lyu",
+      "Zuxin Liu",
+      "Shuai Wang",
+      "Yihan He",
+      "Hanjiang Hu",
+      "Ding Zhao",
+      "Bo Li"
+    ],
+    "doi": "10.52202/068431-1861",
+    "file": "openalex_1052202_068431-1861_SafeBench_A_Benchmarking_Platform_for_Safety_Evaluation_of_Au.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7133222348",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios",
+    "year": 2025,
+    "authors": [
+      "Yuan Gao",
+      "Mattia Piccinini",
+      "Korbinian Moller",
+      "Amr Alanwar",
+      "Johannes Betz"
+    ],
+    "doi": "10.1109/itsc60802.2025.11423486",
+    "file": "openalex_101109_itsc60802202511423486_From_Words_to_Collisions_LLM-Guided_Evaluation_and_A.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7136903320",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models",
+    "year": 2025,
+    "authors": [
+      "Yuewen Mei",
+      "Tong Nie",
+      "Jian Sun",
+      "Ye Tian"
+    ],
+    "doi": "10.1109/itsc60802.2025.11423790",
+    "file": "openalex_101109_itsc60802202511423790_Seeking_to_Collide_Online_Safety-Critical_Scenario_G.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7136391790",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Language-Guided Reinforcement Learning for the Adversarial Scenario Synthesis in Autonomous Driving Simulation",
+    "year": 2026,
+    "authors": [
+      "Yilong Ren",
+      "Tingjia Zhu",
+      "Yilin Zhong",
+      "Xuan Cai",
+      "Jinxiang Fang",
+      "Xuesong Bai",
+      "Haiyang Yu"
+    ],
+    "doi": "10.1109/tvt.2026.3735827",
+    "file": "openalex_101109_tvt20263735827_Language-Guided_Reinforcement_Learning_for_the_Adversarial_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7214116835",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "RCG: Safety-Critical Scenario Generation for Robust Autonomous Driving via Real-World Crash Grounding",
+    "year": 2025,
+    "authors": [
+      "Benjamin Stoler",
+      "Yang, Juliet",
+      "Jonathan Francis",
+      "Jean Oh"
+    ],
+    "doi": "10.48550/arxiv.2507.10749",
+    "file": "openalex_1048550_arxiv250710749_RCG_Safety-Critical_Scenario_Generation_for_Robust_Autonom.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414943224",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Adversarial Attack and Defense of YOLO Detectors in Autonomous Driving Scenarios",
+    "year": 2022,
+    "authors": [
+      "Jung Im Choi",
+      "Qing Tian"
+    ],
+    "doi": "10.1109/iv51971.2022.9827222",
+    "file": "openalex_101109_iv5197120229827222_Adversarial_Attack_and_Defense_of_YOLO_Detectors_in_Aut.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4225463226",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SaFeR: Safety-Critical Scenario Generation for Autonomous Driving Test via Feasibility-Constrained Token Resampling",
+    "year": 2026,
+    "authors": [
+      "Jinlong Cui",
+      "Fenghua Liang",
+      "Guo Yang",
+      "Chengcheng Tang",
+      "Jianxun Cui"
+    ],
+    "doi": "10.48550/arxiv.2603.04071",
+    "file": "openalex_1048550_arxiv260304071_SaFeR_Safety-Critical_Scenario_Generation_for_Autonomous_D.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7133602009",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles",
+    "year": 2024,
+    "authors": [
+      "Jiawei Zhang",
+      "Chejian Xu",
+      "Bo Li"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01464",
+    "file": "openalex_101109_cvpr52733202401464_ChatScene_Knowledge-Enabled_Safety-Critical_Scenario_Ge.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402727068",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ScenePilot: Controllable Boundary-Driven Critical Scenario Generation for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Qiyu Ruan",
+      "Yuxuan Wang",
+      "He Li",
+      "Zhenning Li",
+      "Cheng-zhong Xu"
+    ],
+    "doi": "10.48550/arxiv.2605.21168",
+    "file": "openalex_1048550_arxiv260521168_ScenePilot_Controllable_Boundary-Driven_Critical_Scenario_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7162031814",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "GCE3S:A Method for Generating Safety-critical Scenarios in Autonomous Driving Based on Evolutionary Search",
+    "year": 2025,
+    "authors": [
+      "SUN Lele, HUANG Song, ZHENG Changyou, XIA Chunyan, YANG Zhen",
+      "HUANG Song",
+      "ZHENG Changyou",
+      "Chunyan Xia",
+      "Yang Zhen"
+    ],
+    "doi": "10.11896/jsjkx.240800030",
+    "file": "openalex_1011896_jsjkx240800030_GCE3SA_Method_for_Generating_Safety-critical_Scenarios_in_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7124447137",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles",
+    "year": 2021,
+    "authors": [
+      "Jingkang Wang",
+      "Ava Pun",
+      "James Tu",
+      "Sivabalan Manivasagam",
+      "Abbas Sadat",
+      "Sergio Casas",
+      "Mengye Ren",
+      "Raquel Urtasun"
+    ],
+    "doi": "10.1109/cvpr46437.2021.00978",
+    "file": "openalex_101109_cvpr46437202100978_AdvSim_Generating_Safety-Critical_Scenarios_for_Self-Dr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3179442871",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TrafficDiff: diffusion model based adversarial traffic scenario controllable generation for autonomous driving robust evaluation",
+    "year": 2025,
+    "authors": [
+      "Xuesong Bai",
+      "Hongbo Li",
+      "Peng Dong",
+      "Changhang Tian",
+      "Yang Fei",
+      "Jinchuan Zhang",
+      "Yilong Ren",
+      "Aoyong Li"
+    ],
+    "doi": "10.1007/s10044-025-01561-3",
+    "file": "openalex_101007_s10044-025-01561-3_TrafficDiff_diffusion_model_based_adversarial_traffic_s.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414883216",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis",
+    "year": 2026,
+    "authors": [
+      "Yuan Gao",
+      "Mattia Piccinini",
+      "Yuchen Zhang",
+      "Dingrui Wang",
+      "Korbinian Moller",
+      "Roberto Brusnicki",
+      "Baha Zarrouki",
+      "Alessio Gambi",
+      "Jan Frederik Totz",
+      "Kai Storms",
+      "Steven Peters",
+      "Andrea Stocco",
+      "Bassam Alrifaee",
+      "Marco Pavone",
+      "Johannes Betz"
+    ],
+    "doi": "10.1109/ojits.2026.3660686",
+    "file": "openalex_101109_ojits20263660686_Foundation_Models_in_Autonomous_Driving_A_Survey_on_Scena.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415068890",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving",
+    "year": 2019,
+    "authors": [
+      "Yulong Cao",
+      "Chaowei Xiao",
+      "Benjamin Cyr",
+      "Yimeng Zhou",
+      "Won Park",
+      "Sara Rampazzi",
+      "Qi Alfred Chen",
+      "Kevin E. Fu",
+      "Z. Morley Mao"
+    ],
+    "doi": "10.1145/3319535.3339815",
+    "file": "openalex_101145_33195353339815_Adversarial_Sensor_Attack_on_LiDAR-based_Perception_in_Auto.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2959364614",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Safety2Drive: Safety-Critical Scenario Benchmark for the Evaluation of Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "J. Jenny Li",
+      "Tiancheng Wang",
+      "Xingyu Peng",
+      "Chen, Jiacheng",
+      "Zhijun Chen",
+      "Bing Li",
+      "Xianglong Liu"
+    ],
+    "doi": "10.48550/arxiv.2505.13872",
+    "file": "openalex_1048550_arxiv250513872_Safety2Drive_Safety-Critical_Scenario_Benchmark_for_the_Ev.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415020693",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Towards Benchmarking and Assessing the Safety and Robustness of Autonomous Driving on Safety-critical Scenarios",
+    "year": 2025,
+    "authors": [
+      "Jingzheng Li",
+      "Xianglong Liu",
+      "Shikui Wei",
+      "Zhijun Chen",
+      "Bing Li",
+      "Qing Guo",
+      "Xianqi Yang",
+      "Yanjun Pu",
+      "Jiakai Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_250323708v2_Towards_Benchmarking_and_Assessing_the_Safety_and_Robustness_of_Autonomo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.23708v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Zhennan Wang",
+      "Jianing Teng",
+      "Canqun Xiang",
+      "Kangliang Chen",
+      "Xing Pan",
+      "Lu Deng",
+      "Weihao Gu"
+    ],
+    "doi": "",
+    "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.21581v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Dingrui Wang",
+      "Marc Kaufeld",
+      "Johannes Betz"
+    ],
+    "doi": "",
+    "file": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2409.18053v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AdvDiffuser: Generating Adversarial Safety-Critical Driving Scenarios via Guided Diffusion",
+    "year": 2024,
+    "authors": [
+      "Yuting Xie",
+      "Xianda Guo",
+      "Cong Wang",
+      "Kunhua Liu",
+      "Long Chen"
+    ],
+    "doi": "",
+    "file": "arxiv_241008453v1_AdvDiffuser_Generating_Adversarial_Safety-Critical_Driving_Scenarios_via.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2410.08453v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Control Strategies for Autonomous Vehicles",
+    "year": 2020,
+    "authors": [
+      "Chinmay Vilas Samak",
+      "Tanmay Vilas Samak",
+      "Sivanathan Kandhasamy"
+    ],
+    "doi": "10.1201/9781003048381",
+    "file": "arxiv_101201_9781003048381_Control_Strategies_for_Autonomous_Vehicles.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2011.08729v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AuthSim: Towards Authentic and Effective Safety-critical Scenario Generation for Autonomous Driving Tests",
+    "year": 2025,
+    "authors": [
+      "Yukuan Yang",
+      "Xucheng Lu",
+      "Zhili Zhang",
+      "Zepeng Wu",
+      "Guoqi Li",
+      "Lingzhong Meng",
+      "Yunzhi Xue"
+    ],
+    "doi": "",
+    "file": "arxiv_250221100v1_AuthSim_Towards_Authentic_and_Effective_Safety-critical_Scenario_Generat.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.21100v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "3D Point Cloud Processing and Learning for Autonomous Driving",
+    "year": 2020,
+    "authors": [
+      "Siheng Chen",
+      "Baoan Liu",
+      "Chen Feng",
+      "Carlos Vallespi-Gonzalez",
+      "Carl Wellington"
+    ],
+    "doi": "",
+    "file": "arxiv_200300601v1_3D_Point_Cloud_Processing_and_Learning_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2003.00601v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+    "year": 2025,
+    "authors": [
+      "Haibao Yu",
+      "Wenxian Yang",
+      "Ruiyang Hao",
+      "Chuanye Wang",
+      "Jiaru Zhong",
+      "Ping Luo",
+      "Zaiqing Nie"
+    ],
+    "doi": "",
+    "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.23922v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Selective Communication for Cooperative Perception in End-to-End Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Hsu-kuang Chiu",
+      "Stephen F. Smith"
+    ],
+    "doi": "",
+    "file": "arxiv_230517181v1_Selective_Communication_for_Cooperative_Perception_in_End-to-End_Autonom.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2305.17181v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SoildNet: Soiling Degradation Detection in Autonomous Driving",
+    "year": 2019,
+    "authors": [
+      "Arindam Das"
+    ],
+    "doi": "",
+    "file": "arxiv_191101054v2_SoildNet_Soiling_Degradation_Detection_in_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/1911.01054v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network",
+    "year": 2021,
+    "authors": [
+      "Bo Dong",
+      "Hao Liu",
+      "Yu Bai",
+      "Jinbiao Lin",
+      "Zhuoran Xu",
+      "Xinyu Xu",
+      "Qi Kong"
+    ],
+    "doi": "",
+    "file": "arxiv_210316273v1_Multi-modal_Trajectory_Prediction_for_Autonomous_Driving_with_Semantic_M.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2103.16273v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+    "year": 2026,
+    "authors": [
+      "Tugrul Gorgulu",
+      "Atakan Dag",
+      "M. Esat Kalfaoglu",
+      "Halil Ibrahim Kuru",
+      "Baris Can Cam",
+      "Halil Ibrahim Ozturk",
+      "Ozsel Kilinc"
+    ],
+    "doi": "",
+    "file": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.23499v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Kotaro Tanahashi",
+      "Yuichi Inoue",
+      "Yu Yamaguchi",
+      "Hidetatsu Yaginuma",
+      "Daiki Shiotsuka",
+      "Hiroyuki Shimatani",
+      "Kohei Iwamasa",
+      "Yoshiaki Inoue",
+      "Takafumi Yamaguchi",
+      "Koki Igari",
+      "Tsukasa Horinouchi",
+      "Kento Tokuhiro",
+      "Yugo Tokuchi",
+      "Shunsuke Aoki"
+    ],
+    "doi": "",
+    "file": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2312.06351v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "aiMotive Dataset: A Multimodal Dataset for Robust Autonomous Driving with Long-Range Perception",
+    "year": 2022,
+    "authors": [
+      "Tamás Matuszka",
+      "Iván Barton",
+      "Ádám Butykai",
+      "Péter Hajas",
+      "Dávid Kiss",
+      "Domonkos Kovács",
+      "Sándor Kunsági-Máté",
+      "Péter Lengyel",
+      "Gábor Németh",
+      "Levente Pető",
+      "Dezső Ribli",
+      "Dávid Szeghy",
+      "Szabolcs Vajna",
+      "Bálint Varga"
+    ],
+    "doi": "",
+    "file": "arxiv_221109445v3_aiMotive_Dataset_A_Multimodal_Dataset_for_Robust_Autonomous_Driving_with.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2211.09445v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Self-Driving like a Human driver instead of a Robocar: Personalized comfortable driving experience for autonomous vehicles",
+    "year": 2020,
+    "authors": [
+      "Il Bae",
+      "Jaeyoung Moon",
+      "Junekyo Jhung",
+      "Ho Suk",
+      "Taewoo Kim",
+      "Hyungbin Park",
+      "Jaekwang Cha",
+      "Jinhyuk Kim",
+      "Dohyun Kim",
+      "Shiho Kim"
+    ],
+    "doi": "",
+    "file": "arxiv_200103908v2_Self-Driving_like_a_Human_driver_instead_of_a_Robocar_Personalized_comfo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2001.03908v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Exploring the Boundaries: Thorough Software Testing for Safety-Critical Driving Scenarios Based on Kinematics in the Context of Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Nico Schick"
+    ],
+    "doi": "",
+    "file": "arxiv_230601898v1_Exploring_the_Boundaries_Thorough_Software_Testing_for_Safety-Critical_D.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2306.01898v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

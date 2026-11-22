@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+
+# downloaded papers (copyrighted, about 2 GB): regenerate with resolve_oa.py
+runs/*/fulltext/
+runs/smoke-fulltext/
+
+# excerpts of those papers: regenerate with table_packets.py
+runs/*/packets/
+
+# saved copies of company web pages: regenerate with fetch_pages.py
+runs/industry/pages/
+
+# API cache and rendered previews: regenerate
+runs/chain/cache/
+runs/tableB/deck_png/
+runs/tableB/review_png/
+
+# superseded versions
+runs/tableB/deck_before_revision.pptx
+
+# per-record abstract files written by fetch_papers.py (the query results.json files are kept)
+runs/corpus2/search/q*/*.txt
+runs/smoke-search/*.txt
+
+# excerpts of papers used by the paper-qa style run
+runs/rcs1/packets.jsonl

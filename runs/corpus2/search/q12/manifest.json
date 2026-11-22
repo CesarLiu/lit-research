@@ -1,0 +1,948 @@
+[
+  {
+    "title": "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Lloyd E. Russell",
+      "Anthony Hu",
+      "Lorenzo Bertoni",
+      "Fedoseev, George",
+      "Jamie Shotton",
+      "Elahe Arani",
+      "Gianluca Corrado"
+    ],
+    "doi": "10.48550/arxiv.2503.20523",
+    "file": "openalex_1048550_arxiv250320523_GAIA-2_A_Controllable_Multi-View_Generative_World_Model_fo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409046497",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Conditional Generative Models for Dynamic Trajectory Generation and Urban Driving",
+    "year": 2023,
+    "authors": [
+      "David A. Paz",
+      "Hengyuan Zhang",
+      "Hao Xiang",
+      "Andrew Liang",
+      "Henrik I. Christensen"
+    ],
+    "doi": "10.3390/s23156764",
+    "file": "openalex_103390_s23156764_Conditional_Generative_Models_for_Dynamic_Trajectory_Generation_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4385421869",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "GAIA-1: A Generative World Model for Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Anthony Hu",
+      "Lloyd E. Russell",
+      "Hudson Yeo",
+      "Zak Murez",
+      "Fedoseev, George",
+      "Kendall, Alex",
+      "Jamie Shotton",
+      "Gianluca Corrado"
+    ],
+    "doi": "10.48550/arxiv.2309.17080",
+    "file": "openalex_1048550_arxiv230917080_GAIA-1_A_Generative_World_Model_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4387294122",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "GenAD: Generative End-to-End Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Wenzhao Zheng",
+      "Ruiqi Song",
+      "Xianda Guo",
+      "Chenming Zhang",
+      "Long Fei Chen"
+    ],
+    "doi": "10.1007/978-3-031-73650-6_6",
+    "file": "openalex_101007_978-3-031-73650-6_6_GenAD_Generative_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4404563280",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Solving Motion Planning Tasks with a Scalable Generative Model",
+    "year": 2024,
+    "authors": [
+      "Yihan Hu",
+      "Siqi Chai",
+      "Zhening Yang",
+      "Jingyu Qian",
+      "Kun Li",
+      "Wenxin Shao",
+      "Haichao Zhang",
+      "Wei Xu",
+      "Qiang Liu"
+    ],
+    "doi": "10.1007/978-3-031-72946-1_22",
+    "file": "openalex_101007_978-3-031-72946-1_22_Solving_Motion_Planning_Tasks_with_a_Scalable_Generat.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403021210",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A generative car-following model conditioned on driving styles",
+    "year": 2022,
+    "authors": [
+      "Yifan Zhang",
+      "Xinhong Chen",
+      "Jianping Wang",
+      "Zuduo Zheng",
+      "Kui Wu"
+    ],
+    "doi": "10.1016/j.trc.2022.103926",
+    "file": "openalex_101016_jtrc2022103926_A_generative_car-following_model_conditioned_on_driving_sty.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4200631182",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic",
+    "year": 2024,
+    "authors": [
+      "Kashyap Chitta",
+      "Daniel Dauner",
+      "Andreas Geiger"
+    ],
+    "doi": "10.1007/978-3-031-73235-5_4",
+    "file": "openalex_101007_978-3-031-73235-5_4_SLEDGE_Synthesizing_Driving_Environments_with_Generati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402951698",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A generative model for inorganic materials design",
+    "year": 2025,
+    "authors": [
+      "Claudio Zeni",
+      "Robert Pinsler",
+      "Daniel Zügner",
+      "Andrew T. Fowler",
+      "Matthew K. Horton",
+      "Xiang Fu",
+      "Zilong Wang",
+      "Aliaksandra Shysheya",
+      "Jonathan Crabbé",
+      "Shoko Ueda",
+      "Roberto Sordillo",
+      "Lixin Sun",
+      "Jake A. Smith",
+      "Bichlien H. Nguyen",
+      "Hannes Schulz",
+      "Sarah Lewis",
+      "Chin-Wei Huang",
+      "Ziheng Lu",
+      "Yichi Zhou",
+      "Han Earl Yang"
+    ],
+    "doi": "10.1038/s41586-025-08628-5",
+    "file": "openalex_101038_s41586-025-08628-5_A_generative_model_for_inorganic_materials_design.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4406472463",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Genie: Generative Interactive Environments",
+    "year": 2024,
+    "authors": [
+      "Jake Bruce",
+      "Dennis, Michael",
+      "Edwards, Ashley",
+      "Jack Parker-Holder",
+      "Yuge Shi",
+      "Edward Hughes",
+      "Matthew Lai",
+      "Aditi Mavalankar",
+      "Richie Steigerwald",
+      "Chris Apps",
+      "Yusuf Aytar",
+      "Sarah Bechtle",
+      "Feryal Behbahani",
+      "Stephanie Chan",
+      "Nicolas Heess",
+      "Lucy González",
+      "Simon Osindero",
+      "Sherjil Ozair",
+      "Scott Reed",
+      "Jingwei Zhang"
+    ],
+    "doi": "10.48550/arxiv.2402.15391",
+    "file": "openalex_1048550_arxiv240215391_Genie_Generative_Interactive_Environments.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4392182423",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+    "year": 2025,
+    "authors": [
+      "Vlas Zyrianov",
+      "Henry Che",
+      "Zhijian Liu",
+      "Shenlong Wang"
+    ],
+    "doi": "10.1109/icra55743.2025.11128001",
+    "file": "openalex_101109_icra55743202511128001_LidarDM_Generative_LiDAR_Simulation_in_a_Generated_W.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413917025",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Modeling Human Driving Behavior Through Generative Adversarial Imitation Learning",
+    "year": 2022,
+    "authors": [
+      "Raunak Bhattacharyya",
+      "Blake Wulfe",
+      "Derek J. Phillips",
+      "Alex Kuefler",
+      "Jeremy Morton",
+      "Ransalu Senanayake",
+      "Mykel J. Kochenderfer"
+    ],
+    "doi": "10.1109/tits.2022.3227738",
+    "file": "openalex_101109_tits20223227738_Modeling_Human_Driving_Behavior_Through_Generative_Adversa.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3034819467",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey of World Models for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Feng, Tuo",
+      "Wenguan Wang",
+      "Yi Yang"
+    ],
+    "doi": "10.48550/arxiv.2501.11260",
+    "file": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4406734973",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generative and Spatial Modelling for Autonomous Driving under Adverse Weather",
+    "year": 2026,
+    "authors": [
+      "Chenghao Qian"
+    ],
+    "doi": "",
+    "file": "openalex_W7223488113_Generative_and_Spatial_Modelling_for_Autonomous_Driving_under_Adverse.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7223488113",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations",
+    "year": 2025,
+    "authors": [
+      "Daniel Bogdoll",
+      "Yitian Yang",
+      "Tim Joseph",
+      "Melih Yazgan",
+      "J. Marius Zöllner"
+    ],
+    "doi": "10.1109/iv64158.2025.11097718",
+    "file": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413017878",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ContactGen: Generative Contact Modeling for Grasp Generation",
+    "year": 2023,
+    "authors": [
+      "Shaowei Liu",
+      "Yang Min Zhou",
+      "Jimei Yang",
+      "Saurabh Gupta",
+      "Shenlong Wang"
+    ],
+    "doi": "10.1109/iccv51070.2023.01884",
+    "file": "openalex_101109_iccv51070202301884_ContactGen_Generative_Contact_Modeling_for_Grasp_Genera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4390889780",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generative Adversarial Networks Based Scene Generation on Indian Driving Dataset",
+    "year": 2023,
+    "authors": [
+      "K. Aditya Shastry",
+      "B. A. Manjunatha",
+      "Tarun Kumar",
+      "D U Karthik"
+    ],
+    "doi": "10.5614/itbj.ict.res.appl.2023.17.2.4",
+    "file": "openalex_105614_itbjictresappl20231724_Generative_Adversarial_Networks_Based_Scene_Generat.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4388067385",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generative Predictive Control Model for Autonomous Driving Closed-Loop Systems",
+    "year": 2026,
+    "authors": [
+      "Hui Li"
+    ],
+    "doi": "10.1109/ainit70033.2026.11557977",
+    "file": "openalex_101109_ainit70033202611557977_Generative_Predictive_Control_Model_for_Autonomous_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7164882289",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+    "year": 2025,
+    "authors": [
+      "Luke Rowe",
+      "Roger Girgis",
+      "Anthony Gosselin",
+      "Liam Paull",
+      "Christopher Pal",
+      "Felix Heide"
+    ],
+    "doi": "10.1109/cvpr52734.2025.01604",
+    "file": "openalex_101109_cvpr52734202501604_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Genera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413144722",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Advanced Generative Models for 3D Multi-Object Scene Generation: Exploring the use of Cutting-edge Generative Models like Diffusion Models to Synthesize Complex 3D Environments",
+    "year": 2022,
+    "authors": [
+      "Vedant Singh"
+    ],
+    "doi": "10.47363/jaicc/2022(1)e224",
+    "file": "openalex_1047363_jaicc_20221e224_Advanced_Generative_Models_for_3D_Multi-Object_Scene_Gene.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405473616",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Digital Twin Framework for Metamorphic Testing of Autonomous Driving Systems Using Generative Model",
+    "year": 2025,
+    "authors": [
+      "Tony Zhang",
+      "Burak Kantarcı",
+      "Umair Siddique"
+    ],
+    "doi": "10.1109/gcwkshps68340.2025.11591078",
+    "file": "openalex_101109_gcwkshps68340202511591078_A_Digital_Twin_Framework_for_Metamorphic_Testing.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415318157",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Hierarchical Generative Adversarial Imitation Learning With Mid-Level Input Generation for Autonomous Driving on Urban Environments",
+    "year": 2024,
+    "authors": [
+      "Gustavo Cláudio Karl Couto",
+      "Eric Aislan Antonelo"
+    ],
+    "doi": "10.1109/tiv.2024.3436587",
+    "file": "openalex_101109_tiv20243436587_Hierarchical_Generative_Adversarial_Imitation_Learning_With.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4401246741",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Yang Yu",
+      "Jianbiao Mei",
+      "Yukai Ma",
+      "Siliang Du",
+      "Wenqing Chen",
+      "Yijie Qian",
+      "Yuxiang Feng",
+      "Yong Liu"
+    ],
+    "doi": "10.1609/aaai.v39i9.33010",
+    "file": "openalex_101609_aaaiv39i933010_Driving_in_the_Occupancy_World_Vision-Centric_4D_Occupancy_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409365815",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ReconDreamer++: Harmonizing Generative and Reconstructive Models for Driving Scene Representation",
+    "year": 2025,
+    "authors": [
+      "Guosheng Zhao",
+      "Xiaofeng Wang",
+      "Chaojun Ni",
+      "Zheng Zhu",
+      "Wenkang Qin",
+      "G Q Huang",
+      "Xingang Wang"
+    ],
+    "doi": "10.1109/iccv51701.2025.02480",
+    "file": "openalex_101109_iccv51701202502480_ReconDreamer_Harmonizing_Generative_and_Reconstructive_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160069689",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generative Diffusion Pipelines for Rare and Extreme Driving Event Simulation",
+    "year": 2025,
+    "authors": [
+      "Amit Kumar Sharma"
+    ],
+    "doi": "",
+    "file": "openalex_W7217098890_Generative_Diffusion_Pipelines_for_Rare_and_Extreme_Driving_Event_Sim.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7217098890",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generative AI for Autonomous Driving: Frontiers and Opportunities",
+    "year": 2026,
+    "authors": [
+      "Yuping Wang",
+      "Shuo Xing",
+      "Can Cui",
+      "Renjie Li",
+      "Hongyuan Hua",
+      "Kexin Tian",
+      "Zhaobin Mo",
+      "Xiangbo Gao",
+      "Marco Pavone",
+      "Sulong Zhou",
+      "Jiachen Li",
+      "Zhengzhong Tu"
+    ],
+    "doi": "10.1145/3838726",
+    "file": "openalex_101145_3838726_Generative_AI_for_Autonomous_Driving_Frontiers_and_Opportunities.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414937603",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+    "year": 2025,
+    "authors": [
+      "Shijie Chen",
+      "Peixi Peng"
+    ],
+    "doi": "",
+    "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.04830v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Indoor environment data time-series reconstruction using autoencoder neural networks",
+    "year": 2020,
+    "authors": [
+      "Antonio Liguori",
+      "Romana Markovic",
+      "Thi Thu Ha Dam",
+      "Jérôme Frisch",
+      "Christoph van Treeck",
+      "Francesco Causone"
+    ],
+    "doi": "10.1016/j.buildenv.2021.107623",
+    "file": "arxiv_101016_jbuildenv2021107623_Indoor_environment_data_time-series_reconstruction_using_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2009.08155v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generating Driving Scenes with Diffusion",
+    "year": 2023,
+    "authors": [
+      "Ethan Pronovost",
+      "Kai Wang",
+      "Nick Roy"
+    ],
+    "doi": "",
+    "file": "arxiv_230518452v1_Generating_Driving_Scenes_with_Diffusion.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2305.18452v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "JaCoText: A Pretrained Model for Java Code-Text Generation",
+    "year": 2023,
+    "authors": [
+      "Jessica López Espejel",
+      "Mahaman Sanoussi Yahaya Alassan",
+      "Walid Dahhane",
+      "El Hassane Ettifouri"
+    ],
+    "doi": "",
+    "file": "arxiv_230312869v1_JaCoText_A_Pretrained_Model_for_Java_Code-Text_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2303.12869v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FFPDG: Fast, Fair and Private Data Generation",
+    "year": 2023,
+    "authors": [
+      "Weijie Xu",
+      "Jinjin Zhao",
+      "Francis Iannacci",
+      "Bo Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_230700161v1_FFPDG_Fast_Fair_and_Private_Data_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2307.00161v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Pisces: An Auto-regressive Foundation Model for Image Understanding and Generation",
+    "year": 2025,
+    "authors": [
+      "Zhiyang Xu",
+      "Jiuhai Chen",
+      "Zhaojiang Lin",
+      "Xichen Pan",
+      "Lifu Huang",
+      "Tianyi Zhou",
+      "Madian Khabsa",
+      "Qifan Wang",
+      "Di Jin",
+      "Michihiro Yasunaga",
+      "Lili Yu",
+      "Xi Victoria Lin",
+      "Shaoliang Nie"
+    ],
+    "doi": "",
+    "file": "arxiv_250610395v2_Pisces_An_Auto-regressive_Foundation_Model_for_Image_Understanding_and_G.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.10395v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Quaternion Generative Adversarial Networks",
+    "year": 2021,
+    "authors": [
+      "Eleonora Grassucci",
+      "Edoardo Cicero",
+      "Danilo Comminiello"
+    ],
+    "doi": "10.1007/978-3-030-91390-8_4",
+    "file": "arxiv_101007_978-3-030-91390-8_4_Quaternion_Generative_Adversarial_Networks.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2104.09630v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Tabletop Roleplaying Games as Procedural Content Generators",
+    "year": 2020,
+    "authors": [
+      "Matthew Guzdial",
+      "Devi Acharya",
+      "Max Kreminski",
+      "Michael Cook",
+      "Mirjam Eladhari",
+      "Antonios Liapis",
+      "Anne Sullivan"
+    ],
+    "doi": "",
+    "file": "arxiv_200706108v2_Tabletop_Roleplaying_Games_as_Procedural_Content_Generators.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2007.06108v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ArchABM: an agent-based simulator of human interaction with the built environment. $CO_2$ and viral load analysis for indoor air quality",
+    "year": 2021,
+    "authors": [
+      "Iñigo Martinez",
+      "Jan L. Bruse",
+      "Ane M. Florez-Tapia",
+      "Elisabeth Viles",
+      "Igor G. Olaizola"
+    ],
+    "doi": "10.1016/j.buildenv.2021.108495",
+    "file": "arxiv_101016_jbuildenv2021108495_ArchABM_an_agent-based_simulator_of_human_interaction_wit.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2111.01484v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning",
+    "year": 2024,
+    "authors": [
+      "Mehshan Ahmed Khan",
+      "Houshyar Asadi",
+      "Mohammad Reza Chalak Qazani",
+      "Chee Peng Lim",
+      "Saied Nahavandi"
+    ],
+    "doi": "",
+    "file": "arxiv_240806349v3_Functional_near-infrared_spectroscopy_fNIRS_and_Eye_tracking_for_Cogniti.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.06349v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Ensemble Learning For Mega Man Level Generation",
+    "year": 2021,
+    "authors": [
+      "Bowei Li",
+      "Ruohan Chen",
+      "Yuqing Xue",
+      "Ricky Wang",
+      "Wenwen Li",
+      "Matthew Guzdial"
+    ],
+    "doi": "10.1145/3472538.3472600",
+    "file": "arxiv_101145_34725383472600_Ensemble_Learning_For_Mega_Man_Level_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2107.12524v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Size Matters: Large Graph Generation with HiGGs",
+    "year": 2023,
+    "authors": [
+      "Alex O. Davies",
+      "Nirav S. Ajmeri",
+      "Telmo M. Silva Filho"
+    ],
+    "doi": "",
+    "file": "arxiv_230611412v2_Size_Matters_Large_Graph_Generation_with_HiGGs.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2306.11412v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Agentic Visual Generation: From Generative Models to Agentic Control",
+    "year": 2026,
+    "authors": [
+      "Yinming Huang",
+      "Shuyuan Tu",
+      "Xi Yan",
+      "Jiahao Zhan",
+      "Zihan Yang",
+      "Zhen Xing",
+      "Hui Zhang",
+      "Tiehua Zhang",
+      "Yu-Gang Jiang",
+      "Zuxuan Wu"
+    ],
+    "doi": "",
+    "file": "arxiv_260906758v1_Agentic_Visual_Generation_From_Generative_Models_to_Agentic_Control.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.06758v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Wei Wang",
+      "Yiru Veronika Wang",
+      "Yihan Wang",
+      "Zihao Li",
+      "Xiaohui Liang"
+    ],
+    "doi": "",
+    "file": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.22450v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Toward Co-creative Dungeon Generation via Transfer Learning",
+    "year": 2021,
+    "authors": [
+      "Zisen Zhou",
+      "Matthew Guzdial"
+    ],
+    "doi": "10.1145/3472538.3472601",
+    "file": "arxiv_101145_34725383472601_Toward_Co-creative_Dungeon_Generation_via_Transfer_Learning.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2107.12533v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generating Lode Runner Levels by Learning Player Paths with LSTMs",
+    "year": 2021,
+    "authors": [
+      "Kynan Sorochan",
+      "Jerry Chen",
+      "Yakun Yu",
+      "Matthew Guzdial"
+    ],
+    "doi": "10.1145/3472538.3472602",
+    "file": "arxiv_101145_34725383472602_Generating_Lode_Runner_Levels_by_Learning_Player_Paths_with_LS.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2107.12532v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TaikoNation: Patterning-focused Chart Generation for Rhythm Action Games",
+    "year": 2021,
+    "authors": [
+      "Emily Halina",
+      "Matthew Guzdial"
+    ],
+    "doi": "10.1145/3472538.3472589",
+    "file": "arxiv_101145_34725383472589_TaikoNation_Patterning-focused_Chart_Generation_for_Rhythm_Act.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2107.12506v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Hongyi Lin",
+      "Wenxiu Shi",
+      "Heye Huang",
+      "Dingyi Zhuang",
+      "Song Zhang",
+      "Yang Liu",
+      "Xiaobo Qu",
+      "Jinhua Zhao"
+    ],
+    "doi": "",
+    "file": "arxiv_260311534v2_Risk-Controllable_Multi-View_Diffusion_for_Driving_Scenario_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2603.11534v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Zhennan Wang",
+      "Jianing Teng",
+      "Canqun Xiang",
+      "Kangliang Chen",
+      "Xing Pan",
+      "Lu Deng",
+      "Weihao Gu"
+    ],
+    "doi": "",
+    "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.21581v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "XCoT-VLA: Executable Chain-of-Thought for Vision-Language-Action Driving",
+    "year": 2026,
+    "authors": [
+      " Foundation Model Team",
+      "XPeng Inc"
+    ],
+    "doi": "",
+    "file": "arxiv_260810976v1_XCoT-VLA_Executable_Chain-of-Thought_for_Vision-Language-Action_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2608.10976v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Case Study of GAI for Generating Novel Images for Real-World Embroidery",
+    "year": 2025,
+    "authors": [
+      "Kate Glazko",
+      "Anika Arugunta",
+      "Janelle Chan",
+      "Nancy Jimenez-Garcia",
+      "Tashfia Sharmin",
+      "Jennifer Mankoff"
+    ],
+    "doi": "",
+    "file": "arxiv_251016223v1_Case_Study_of_GAI_for_Generating_Novel_Images_for_Real-World_Embroidery.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.16223v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "VaViM and VaVAM: Autonomous Driving through Video Generative Modeling",
+    "year": 2025,
+    "authors": [
+      "Florent Bartoccioni",
+      "Elias Ramzi",
+      "Victor Besnier",
+      "Shashanka Venkataramanan",
+      "Tuan-Hung Vu",
+      "Yihong Xu",
+      "Loick Chambon",
+      "Spyros Gidaris",
+      "Serkan Odabas",
+      "David Hurych",
+      "Renaud Marlet",
+      "Alexandre Boulch",
+      "Mickael Chen",
+      "Éloi Zablocki",
+      "Andrei Bursuc",
+      "Eduardo Valle",
+      "Matthieu Cord"
+    ],
+    "doi": "",
+    "file": "arxiv_250215672v1_VaViM_and_VaVAM_Autonomous_Driving_through_Video_Generative_Modeling.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.15672v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "PseudoProp: Robust Pseudo-Label Generation for Semi-Supervised Object Detection in Autonomous Driving Systems",
+    "year": 2022,
+    "authors": [
+      "Shu Hu",
+      "Chun-Hao Liu",
+      "Jayanta Dutta",
+      "Ming-Ching Chang",
+      "Siwei Lyu",
+      "Naveen Ramakrishnan"
+    ],
+    "doi": "",
+    "file": "arxiv_220305983v2_PseudoProp_Robust_Pseudo-Label_Generation_for_Semi-Supervised_Object_Det.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2203.05983v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Text-to-image Diffusion Models in Generative AI: A Survey",
+    "year": 2023,
+    "authors": [
+      "Chenshuang Zhang",
+      "Chaoning Zhang",
+      "Mengchun Zhang",
+      "In So Kweon",
+      "Junmo Kim"
+    ],
+    "doi": "",
+    "file": "arxiv_230307909v3_Text-to-image_Diffusion_Models_in_Generative_AI_A_Survey.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2303.07909v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A*3D Dataset: Towards Autonomous Driving in Challenging Environments",
+    "year": 2019,
+    "authors": [
+      "Quang-Hieu Pham",
+      "Pierre Sevestre",
+      "Ramanpreet Singh Pahwa",
+      "Huijing Zhan",
+      "Chun Ho Pang",
+      "Yuda Chen",
+      "Armin Mustafa",
+      "Vijay Chandrasekhar",
+      "Jie Lin"
+    ],
+    "doi": "",
+    "file": "arxiv_190907541v1_A3D_Dataset_Towards_Autonomous_Driving_in_Challenging_Environments.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/1909.07541v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+ "id": "behaviorgpt_smart_agent_simulation_for_autonomous",
+ "title": "BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction",
+ "control_family": "none/uncontrolled",
+ "control_signal": {
+  "value": "None. The model is conditioned only on the vector map and initial agent states; the authors say prompts such as language or goal points are not supported.",
+  "pages": "3-4, 10-11"
+ },
+ "control_mechanism": {
+  "value": "No control mechanism; the paper states the model does not support controlling behaviour with prompts such as language or goal points.",
+  "pages": "10"
+ },
+ "base_model": {
+  "value": "Decoder-only autoregressive Transformer with next-patch prediction; triple attention (temporal self, agent-map cross, agent-agent); mixture-distribution head with 16 modes; 3M parameters.",
+  "pages": "3-4, 6, 8"
+ },
+ "datasets": {
+  "value": "Waymo Open Motion Dataset: 486,995 / 44,097 / 44,920 train/val/test scenarios, 91 steps at 10 Hz; evaluated on Waymo Open Sim Agents benchmark.",
+  "pages": "7-8"
+ },
+ "metrics": {
+  "value": "minADE and REALISM meta-metric with kinematics, object distance, collision, TTC, road-edge distance and offroad sub-metrics (WOSAC).",
+  "pages": "7-8"
+ },
+ "controllability_evidence": {
+  "value": "None; no controllability experiment. Realism result reported instead: REALISM 0.7473, minADE 1.4147 on the 2024 Waymo Sim Agents test set.",
+  "pages": "8"
+ },
+ "stated_limitations": {
+  "value": "Weaker kinematics realism (could add a bicycle model); no control via language or goal points; compounding errors can cause offroad rollouts; benefit for motion planning not verified.",
+  "pages": "8-9, 10-11"
+ },
+ "notes": "Pure realism-focused agent simulator; not about controllable generation. Authors only claim adding control 'should be trivial', which is unsupported in the packet."
+}

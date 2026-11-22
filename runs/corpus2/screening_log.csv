@@ -1,0 +1,637 @@
+input,title,doi,stage,decision,reason
+q1,TrafficDiff: diffusion model based adversarial traffic scenario controllable generation for autonomous driving robust evaluation,10.1007/s10044-025-01561-3,deduplication,exclude,duplicate of: TrafficDiff: diffusion model based adversarial traffic scenario contro
+q1,Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion,10.52202/075280-3014,deduplication,exclude,duplicate of: Scenario Diffusion: Controllable Driving Scenario Generation With Diff
+q1,Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments,10.1109/cvpr52734.2025.01604,deduplication,exclude,duplicate of: Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving S
+q1,Multi-modal Traffic Scenario Generation for Autonomous Driving System Testing,10.1145/3729348,deduplication,exclude,duplicate of: Multi-modal Traffic Scenario Generation for Autonomous Driving System 
+q10,DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation,,deduplication,exclude,duplicate of: DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving thro
+q10,CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving
+q10,TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving,,deduplication,exclude,duplicate of: TaCarla: A comprehensive benchmarking dataset for end-to-end autonomou
+q10,Multi-task Learning with Attention for End-to-end Autonomous Driving,,deduplication,exclude,duplicate of: Multi-task Learning with Attention for End-to-end Autonomous Driving
+q11,Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation,10.1109/icra55743.2025.11127600,deduplication,exclude,duplicate of: Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation
+q12,Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments,10.1109/cvpr52734.2025.01604,deduplication,exclude,duplicate of: Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving S
+q12,"FFPDG: Fast, Fair and Private Data Generation",,deduplication,exclude,"duplicate of: FFPDG: Fast, Fair and Private Data Generation"
+q12,CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving
+q12,Text-to-image Diffusion Models in Generative AI: A Survey,,deduplication,exclude,duplicate of: Text-to-image Diffusion Models in Generative AI: A Survey
+q13,RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation,,deduplication,exclude,duplicate of: RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generatio
+q2,Guided Conditional Diffusion for Controllable Traffic Simulation,10.1109/icra48891.2023.10161463,deduplication,exclude,duplicate of: Guided Conditional Diffusion for Controllable Traffic Simulation
+q2,Image Classification using CNN for Traffic Signs in Pakistan,,deduplication,exclude,duplicate of: Image Classification using CNN for Traffic Signs in Pakistan
+q2,ControlNeXt: Powerful and Efficient Control for Image and Video Generation,,deduplication,exclude,duplicate of: ControlNeXt: Powerful and Efficient Control for Image and Video Genera
+q2,Using Causality for Enhanced Prediction of Web Traffic Time Series,,deduplication,exclude,duplicate of: Using Causality for Enhanced Prediction of Web Traffic Time Series
+q2,Multi-level Traffic-Responsive Tilt Camera Surveillance through Predictive Correlated Online Learning,10.1016/j.trc.2024.104804,deduplication,exclude,duplicate of: Multi-level traffic-responsive tilt camera surveillance through predic
+q2,Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark,,deduplication,exclude,duplicate of: Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A 
+q3,ChatSUMO: Large Language Model for Automating Traffic Scenario Generation in Simulation of Urban MObility,10.1109/tiv.2024.3508471,deduplication,exclude,duplicate of: ChatSUMO: Large Language Model for Automating Traffic Scenario Generat
+q3,RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios,10.1007/978-3-031-73033-7_6,deduplication,exclude,duplicate of: RealGen: Retrieval Augmented Generation for Controllable Traffic Scena
+q3,TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation,10.48550/arxiv.2606.29097,deduplication,exclude,duplicate of: TrafficAlign: Aligning Large Language Models for Traffic Scenario Gene
+q3,TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios,10.1109/icra48891.2023.10160296,deduplication,exclude,duplicate of: TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenari
+q3,Direct Preference Optimization-Enhanced Multi-Guided Diffusion Model for Traffic Scenario Generation,10.48550/arxiv.2502.12178,deduplication,exclude,duplicate of: Direct Preference Optimization-Enhanced Multi-Guided Diffusion Model f
+q3,Semantic Risk Prior Guided Conditional Diffusion for Safety-Critical Traffic Scenario Generation,10.2139/ssrn.7608004,deduplication,exclude,duplicate of: Semantic Risk Prior Guided Conditional Diffusion for Safety-Critical T
+q3,Multi-modal Traffic Scenario Generation for Autonomous Driving System Testing,10.1145/3729348,deduplication,exclude,duplicate of: Multi-modal Traffic Scenario Generation for Autonomous Driving System 
+q3,Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation,10.48550/arxiv.2606.27123,deduplication,exclude,duplicate of: Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario
+q3,End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation,10.48550/arxiv.2607.18637,deduplication,exclude,duplicate of: End-to-end Conditional Diffusion for Realistic and Controllable Visual
+q3,Causal Composition Diffusion Model for Closed-loop Traffic Generation,10.1109/cvpr52734.2025.02565,deduplication,exclude,duplicate of: Causal Composition Diffusion Model for Closed-loop Traffic Generation
+q3,Versatile Behavior Diffusion for Generalized Traffic Agent Simulation,10.1109/tits.2026.3662886,deduplication,exclude,duplicate of: Versatile Behavior Diffusion for Generalized Traffic Agent Simulation
+q3,InTAS -- The Ingolstadt Traffic Scenario for SUMO,,deduplication,exclude,duplicate of: InTAS -- The Ingolstadt Traffic Scenario for SUMO
+q3,Image Classification using CNN for Traffic Signs in Pakistan,,deduplication,exclude,duplicate of: Image Classification using CNN for Traffic Signs in Pakistan
+q3,Using Causality for Enhanced Prediction of Web Traffic Time Series,,deduplication,exclude,duplicate of: Using Causality for Enhanced Prediction of Web Traffic Time Series
+q3,AI-Driven Climate Policy Scenario Generation for Sub-Saharan Africa,,deduplication,exclude,duplicate of: AI-Driven Climate Policy Scenario Generation for Sub-Saharan Africa
+q3,CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios with AJAN,,deduplication,exclude,duplicate of: CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios wit
+q3,"FFPDG: Fast, Fair and Private Data Generation",,deduplication,exclude,"duplicate of: FFPDG: Fast, Fair and Private Data Generation"
+q3,Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark,,deduplication,exclude,duplicate of: Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A 
+q3,Traffic control using intelligent timing of traffic lights with reinforcement learning technique and real-time processing of surveillance camera images,,deduplication,exclude,duplicate of: Traffic control using intelligent timing of traffic lights with reinfo
+q3,A traffic incident management framework for vehicular ad hoc networks,10.5121/ijwmn.2025.17202,deduplication,exclude,duplicate of: A traffic incident management framework for vehicular ad hoc networks
+q3,Learning to Control and Coordinate Mixed Traffic Through Robot Vehicles at Complex and Unsignalized Intersections,10.1177/02783649241284069,deduplication,exclude,duplicate of: Learning to Control and Coordinate Mixed Traffic Through Robot Vehicle
+q3,Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models,,deduplication,exclude,duplicate of: Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models
+q3,ASTM :Autonomous Smart Traffic Management System Using Artificial Intelligence CNN and LSTM,,deduplication,exclude,duplicate of: ASTM :Autonomous Smart Traffic Management System Using Artificial Inte
+q3,A First Look at Class Incremental Learning in Deep Learning Mobile Traffic Classification,,deduplication,exclude,duplicate of: A First Look at Class Incremental Learning in Deep Learning Mobile Tra
+q4,A Survey on Safety-Critical Driving Scenario Generation—A Methodological Perspective,10.1109/tits.2023.3259322,deduplication,exclude,duplicate of: A Survey on Safety-Critical Driving Scenario Generation -- A Methodolo
+q4,Adversarial Safety-Critical Scenario Generation Using Naturalistic Human Driving Priors,10.1109/tiv.2023.3335862,deduplication,exclude,duplicate of: Adversarial Safety-Critical Scenario Generation Using Naturalistic Hum
+q4,DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles,10.1609/aaai.v39i8.32951,deduplication,exclude,duplicate of: DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Aut
+q4,Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles,10.1609/aaai.v40i45.41238,deduplication,exclude,duplicate of: Adversarial Generation and Collaborative Evolution of Safety-Critical 
+q4,LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models,10.1109/tits.2025.3578383,deduplication,exclude,duplicate of: LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation fo
+q4,AuthSim: Toward Authentic and Effective Safety-Critical Scenario Generation for Autonomous Driving Tests,10.1109/tits.2025.3586608,deduplication,exclude,duplicate of: AuthSim: Toward Authentic and Effective Safety-Critical Scenario Gener
+q4,From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios,10.1109/itsc60802.2025.11423486,deduplication,exclude,duplicate of: From Words to Collisions: LLM-Guided Evaluation and Adversarial Genera
+q4,SaFeR: Safety-Critical Scenario Generation for Autonomous Driving Test via Feasibility-Constrained Token Resampling,10.48550/arxiv.2603.04071,deduplication,exclude,duplicate of: SaFeR: Safety-Critical Scenario Generation for Autonomous Driving Test
+q4,ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles,10.1109/cvpr52733.2024.01464,deduplication,exclude,duplicate of: ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for A
+q4,AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles,10.1109/cvpr46437.2021.00978,deduplication,exclude,duplicate of: AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles
+q4,TrafficDiff: diffusion model based adversarial traffic scenario controllable generation for autonomous driving robust evaluation,10.1007/s10044-025-01561-3,deduplication,exclude,duplicate of: TrafficDiff: diffusion model based adversarial traffic scenario contro
+q4,Towards Benchmarking and Assessing the Safety and Robustness of Autonomous Driving on Safety-critical Scenarios,,deduplication,exclude,duplicate of: Towards Benchmarking and Assessing the Safety and Robustness of Autono
+q4,CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving
+q4,DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving,,deduplication,exclude,duplicate of: DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving
+q4,Control Strategies for Autonomous Vehicles,10.1201/9781003048381,deduplication,exclude,duplicate of: Control Strategies for Autonomous Vehicles
+q4,AuthSim: Towards Authentic and Effective Safety-critical Scenario Generation for Autonomous Driving Tests,,deduplication,exclude,duplicate of: AuthSim: Towards Authentic and Effective Safety-critical Scenario Gene
+q4,3D Point Cloud Processing and Learning for Autonomous Driving,,deduplication,exclude,duplicate of: 3D Point Cloud Processing and Learning for Autonomous Driving
+q4,DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation,,deduplication,exclude,duplicate of: DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving thro
+q4,SoildNet: Soiling Degradation Detection in Autonomous Driving,,deduplication,exclude,duplicate of: SoildNet: Soiling Degradation Detection in Autonomous Driving
+q4,Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network,,deduplication,exclude,duplicate of: Multi-modal Trajectory Prediction for Autonomous Driving with Semantic
+q4,TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving,,deduplication,exclude,duplicate of: TaCarla: A comprehensive benchmarking dataset for end-to-end autonomou
+q4,Evaluation of Large Language Models for Decision Making in Autonomous Driving,,deduplication,exclude,duplicate of: Evaluation of Large Language Models for Decision Making in Autonomous 
+q4,Self-Driving like a Human driver instead of a Robocar: Personalized comfortable driving experience for autonomous vehicles,,deduplication,exclude,duplicate of: Self-Driving like a Human driver instead of a Robocar: Personalized co
+q5,Versatile Behavior Diffusion for Generalized Traffic Agent Simulation,10.1109/tits.2026.3662886,deduplication,exclude,duplicate of: Versatile Behavior Diffusion for Generalized Traffic Agent Simulation
+q5,A Survey of Multi-Agent Deep Reinforcement Learning with Communication,,deduplication,exclude,duplicate of: A Survey of Multi-Agent Deep Reinforcement Learning with Communication
+q5,Augmenting the action space with conventions to improve multi-agent cooperation in Hanabi,10.1007/s10458-025-09709-5,deduplication,exclude,duplicate of: Augmenting the action space with conventions to improve multi-agent co
+q5,Learning the Value Systems of Agents with Preference-based and Inverse Reinforcement Learning,10.1007/s10458-026-09732-0,deduplication,exclude,duplicate of: Learning the Value Systems of Agents with Preference-based and Inverse
+q5,From Model-Based Screening to Data-Driven Surrogates: A Multi-Stage Workflow for Exploring Stochastic Agent-Based Models,10.1007/978-3-032-39354-8_11,deduplication,exclude,duplicate of: From Model-Based Screening to Data-Driven Surrogates: A Multi-Stage Wo
+q5,Quantifying the effects of environment and population diversity in multi-agent reinforcement learning,10.1007/s10458-022-09548-8,deduplication,exclude,duplicate of: Quantifying the effects of environment and population diversity in mul
+q5,AOAD-MAT: Transformer-based multi-agent deep reinforcement learning model considering agents' order of action decisions,10.1007/978-3-032-13562-9_23,deduplication,exclude,duplicate of: AOAD-MAT: Transformer-based multi-agent deep reinforcement learning mo
+q5,Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications,,deduplication,exclude,duplicate of: Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluati
+q5,Agent-Temporal Attention for Reward Redistribution in Episodic Multi-Agent Reinforcement Learning,,deduplication,exclude,duplicate of: Agent-Temporal Attention for Reward Redistribution in Episodic Multi-A
+q5,Multi-agent Auditory Scene Analysis: Improved Localization Speed and Robustness by Multi-beamformed Speech Quality Feedback,,deduplication,exclude,duplicate of: Multi-agent Auditory Scene Analysis: Improved Localization Speed and R
+q5,MAEBE: Multi-Agent Emergent Behavior Framework,,deduplication,exclude,duplicate of: MAEBE: Multi-Agent Emergent Behavior Framework
+q6,Generating Driving Scenes with Diffusion,10.48550/arxiv.2305.18452,deduplication,exclude,duplicate of: Generating Driving Scenes with Diffusion
+q6,LD-scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios,10.1016/j.trc.2026.105694,deduplication,exclude,duplicate of: LD-scene: LLM-guided diffusion for controllable generation of adversar
+q6,Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments,10.1109/cvpr52734.2025.01604,deduplication,exclude,duplicate of: Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving S
+q6,Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation,10.1109/icra55743.2025.11127600,deduplication,exclude,duplicate of: Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation
+q6,Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion,10.52202/075280-3014,deduplication,exclude,duplicate of: Scenario Diffusion: Controllable Driving Scenario Generation With Diff
+q6,FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis,,deduplication,exclude,duplicate of: FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-V
+q7,CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning,10.48550/arxiv.2403.19918,deduplication,exclude,duplicate of: CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinfo
+q8,MTR++: Multi-Agent Motion Prediction With Symmetric Scene Modeling and Guided Intention Querying,10.1109/tpami.2024.3352811,deduplication,exclude,duplicate of: MTR++: Multi-Agent Motion Prediction With Symmetric Scene Modeling and
+q8,Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation,10.52202/085713-1849,deduplication,exclude,duplicate of: Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic 
+q8,MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments,10.48550/arxiv.2511.17496,deduplication,exclude,duplicate of: MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in 
+q8,Versatile Behavior Diffusion for Generalized Traffic Agent Simulation,10.1109/tits.2026.3662886,deduplication,exclude,duplicate of: Versatile Behavior Diffusion for Generalized Traffic Agent Simulation
+q8,Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models,,deduplication,exclude,duplicate of: Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models
+q8,Using Causality for Enhanced Prediction of Web Traffic Time Series,,deduplication,exclude,duplicate of: Using Causality for Enhanced Prediction of Web Traffic Time Series
+q8,A Survey of Multi-Agent Deep Reinforcement Learning with Communication,,deduplication,exclude,duplicate of: A Survey of Multi-Agent Deep Reinforcement Learning with Communication
+q8,QCNeXt: A Next-Generation Framework For Joint Multi-Agent Trajectory Prediction,,deduplication,exclude,duplicate of: QCNeXt: A Next-Generation Framework For Joint Multi-Agent Trajectory P
+q9,DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving,10.1109/iros58592.2024.10801623,deduplication,exclude,duplicate of: DragTraffic: Interactive and Controllable Traffic Scene Generation for
+q9,SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic,10.1007/978-3-031-73235-5_4,deduplication,exclude,duplicate of: SLEDGE: Synthesizing Driving Environments with Generative Models and R
+q9,SPATIALGEN: Layout-guided 3D Indoor Scene Generation,,deduplication,exclude,duplicate of: SPATIALGEN: Layout-guided 3D Indoor Scene Generation
+q9,Controllable 3D Outdoor Scene Generation via Scene Graphs,,deduplication,exclude,duplicate of: Controllable 3D Outdoor Scene Generation via Scene Graphs
+q9,3D Scene Generation: A Survey,10.1007/s11263-026-02999-6,deduplication,exclude,duplicate of: 3D Scene Generation: A Survey
+q9,FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis,,deduplication,exclude,duplicate of: FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-V
+q9,Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models,,deduplication,exclude,duplicate of: Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models
+smoke-search,Controllable Realistic Simulation and Video Generation for Autonomous Vehicles in Safety-Critical Scenarios,,keyword filter,include,
+smoke-search,"Learning Interpretable, High-Performing Policies for Autonomous Driving",10.15607/rss.2022.xviii.068,keyword filter,include,
+smoke-search|q1|q12|q6,Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments,10.1109/cvpr52734.2025.01604,keyword filter,include,
+smoke-search,Evaluation Is All You Need for Multi-Modal Autonomous Driving,10.48550/arxiv.2609.30818,keyword filter,include,
+smoke-search,Model-free Learning and Interaction-aware Control for Safe Autonomous Driving,10.7302/8441,keyword filter,include,
+smoke-search,Robobo SmartCity: An Autonomous Driving Model for Computational Intelligence Learning Through Educational Robotics,10.1109/tlt.2023.3244604,keyword filter,include,
+smoke-search,Autonomous mining through cooperative driving and operations enabled by parallel intelligence,10.1038/s44172-024-00220-5,keyword filter,include,
+smoke-search|q2,Multi-level traffic-responsive tilt camera surveillance through predictive correlated online learning,10.1016/j.trc.2024.104804,keyword filter,include,
+smoke-search,From manual to autonomous: the role of intelligent technologies in the driving and control of combine harvester,10.3389/fsufs.2026.1906757,keyword filter,exclude,no scenario/simulation term
+smoke-search|q7,CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning,10.48550/arxiv.2403.19918,keyword filter,include,
+smoke-search,Anytime rulebook-aware nonlinear MPC for autonomous driving with priority-biased tiered slacks,10.1016/j.atres.2026.08.002,keyword filter,include,
+smoke-search,VESPA: Towards un(Human)supervised Open-World Pointcloud Labeling for Autonomous Driving,10.48550/arxiv.2507.20397,keyword filter,include,
+smoke-search,Driving Policy Transfer via Modularity and Abstraction,10.48550/arxiv.1804.09364,keyword filter,include,
+smoke-search,Control Principles for Autonomous Communication Networks,,keyword filter,exclude,no scenario/simulation term
+smoke-search,A critical review of traffic signal control and a novel unified view of reinforcement learning and model predictive control approaches for adaptive traffic signal control,10.4337/9781803929545.00029,keyword filter,exclude,no scenario/simulation term
+smoke-search,Language-Guided Controllable Traffic Scenario Generation for Autonomous Vehicle Safety Validation,10.2139/ssrn.6072140,keyword filter,include,
+smoke-search|q1|q4,TrafficDiff: diffusion model based adversarial traffic scenario controllable generation for autonomous driving robust evaluation,10.1007/s10044-025-01561-3,keyword filter,include,
+smoke-search,Grid-Centric Traffic Scenario Perception for Autonomous Driving: A Comprehensive Review_supp1-3495045.pdf,10.1109/tnnls.2024.3495045/mm1,keyword filter,include,
+smoke-search,Controllable and Realistic Safety-critical Scenario Generation for Autonomous Driving Based on Diffusion Models,10.1109/cac67268.2025.11486668,keyword filter,include,
+smoke-search,TARGET: Traffic Rule-based Test Generation for Autonomous Driving Systems_supp1-3569086.pdf,10.1109/tse.2025.3569086/mm1,keyword filter,include,
+smoke-search,Uncovering Weaknesses in Autonomous Driving,10.31979/etd.vqbt-kwk2,keyword filter,exclude,no scenario/simulation term
+smoke-search,Guided Latent Spaces for Controllable Multi-Scenario Generation in Autonomous Driving (Student Abstract),10.1609/aaai.v40i48.42251,keyword filter,include,
+smoke-search,LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models_supp1-3578383.mp4,10.1109/tits.2025.3578383/mm1,keyword filter,include,
+smoke-search,Research on Specific Scenario Generation Methods for Autonomous Driving Simulation Tests,10.20944/preprints202311.0426.v1,keyword filter,include,
+smoke-search|q1|q3,Multi-modal Traffic Scenario Generation for Autonomous Driving System Testing,10.1145/3729348,keyword filter,include,
+smoke-search,Towards Lawful Autonomous Driving: Deriving Scenario-Aware Driving Requirements from Traffic Laws,10.26599/commtr.2026.9640060,keyword filter,include,
+smoke-search|q1|q6,Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion,10.52202/075280-3014,keyword filter,include,
+smoke-search|q9,DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving,10.1109/iros58592.2024.10801623,keyword filter,include,
+smoke-search,Optimization of traffic light scenario algorithms for Apollo-based autonomous driving,10.1117/12.3102532,keyword filter,include,
+smoke-search,Controllable risk scenario generation from human crash data for autonomous vehicle testing,10.2139/ssrn.5734582,keyword filter,include,
+smoke-search|q4,Control Strategies for Autonomous Vehicles,10.1201/9781003048381,keyword filter,exclude,no scenario/simulation term
+smoke-search|q10|q12|q4,CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving,,keyword filter,include,
+smoke-search|q10|q4,DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation,,keyword filter,include,
+smoke-search|q4,DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving,,keyword filter,include,
+smoke-search|q4,Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network,,keyword filter,include,
+smoke-search,Multi-agent Reinforcement Learning for Cooperative Lane Changing of Connected and Autonomous Vehicles in Mixed Traffic,10.1007/s43684-022-00023-5,keyword filter,include,
+smoke-search,Offline Reinforcement Learning for Autonomous Driving with Safety and Exploration Enhancement,,keyword filter,include,
+smoke-search|q10,Multi-task Learning with Attention for End-to-end Autonomous Driving,,keyword filter,include,
+smoke-search|q4,Evaluation of Large Language Models for Decision Making in Autonomous Driving,,keyword filter,exclude,no scenario/simulation term
+smoke-search|q4,3D Point Cloud Processing and Learning for Autonomous Driving,,keyword filter,include,
+smoke-search|q10|q4,TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving,,keyword filter,include,
+smoke-search|q4,Self-Driving like a Human driver instead of a Robocar: Personalized comfortable driving experience for autonomous vehicles,,keyword filter,include,
+smoke-search|q4,SoildNet: Soiling Degradation Detection in Autonomous Driving,,keyword filter,exclude,no scenario/simulation term
+smoke-search,Jam-avoiding adaptive cruise control (ACC) and its impact on traffic dynamics,,keyword filter,include,
+smoke-search|q2,ControlNeXt: Powerful and Efficient Control for Image and Video Generation,,keyword filter,exclude,no driving/traffic term
+q1|q3,Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation,10.48550/arxiv.2606.27123,keyword filter,include,
+q1|q3,End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation,10.48550/arxiv.2607.18637,keyword filter,include,
+q1|q3,Direct Preference Optimization-Enhanced Multi-Guided Diffusion Model for Traffic Scenario Generation,10.48550/arxiv.2502.12178,keyword filter,include,
+q1|q3,Semantic Risk Prior Guided Conditional Diffusion for Safety-Critical Traffic Scenario Generation,10.2139/ssrn.7608004,keyword filter,include,
+q1,Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion and Trajectory Infilling,10.48550/arxiv.2608.11407,keyword filter,include,
+q1,From Traffic Semantics to Collision Anchors: Reorienting Diffusion Priors for Safety-Critical Scenario Generation in Autonomous Driving,10.26599/etsd.2026.9190119,keyword filter,include,
+q1|q3|q5|q8,Versatile Behavior Diffusion for Generalized Traffic Agent Simulation,10.1109/tits.2026.3662886,keyword filter,include,
+q1|q3,RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios,10.1007/978-3-031-73033-7_6,keyword filter,include,
+q1|q3,Causal Composition Diffusion Model for Closed-loop Traffic Generation,10.1109/cvpr52734.2025.02565,keyword filter,include,
+q1,Automatic Marine Traffic Generation with Diffusion Models,10.1115/omae2026-181470,keyword filter,include,
+q1,Semantic-Level Conflict Traffic Scenario Generation via Spatiotemporal Polygon Anchors,10.1109/icra57385.2026.11696683,keyword filter,include,
+q1|q3,ChatSUMO: Large Language Model for Automating Traffic Scenario Generation in Simulation of Urban MObility,10.1109/tiv.2024.3508471,keyword filter,include,
+q1,Diffusion–Attention Traffic Generation: Traffic Generation Based on the Fusion of a Diffusion Model and a Self-Attention Mechanism,10.3390/electronics14101977,keyword filter,include,
+q1|q2,Guided Conditional Diffusion for Controllable Traffic Simulation,10.1109/icra48891.2023.10161463,keyword filter,include,
+q1|q11|q6,Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation,10.1109/icra55743.2025.11127600,keyword filter,include,
+q1,Rolling Ahead Diffusion for Traffic Scene Simulation,10.48550/arxiv.2502.09587,keyword filter,include,
+q1|q13,RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation,10.48550/arxiv.2606.06423,keyword filter,include,
+q1,ChatTraffic: Text-to-Traffic Generation via Diffusion Model,10.1109/tits.2024.3510402,keyword filter,include,
+q1,DRIFT: Risk-Constrained Diffusion with Imitation Priors for Mixed-Autonomy Traffic Generation,10.48550/arxiv.2606.16589,keyword filter,include,
+q1,DriveGen: Towards Infinite Diverse Traffic Scenarios with Large Models,10.1109/iros60139.2025.11247087,keyword filter,include,
+q1,Diffusion model-based background traffic generation for power grid digital systems,10.11930/j.issn.1004-9649.202507021,keyword filter,include,
+q1,Safety-Critical Traffic Simulation with Guided Latent Diffusion Model,10.1109/itsc60802.2025.11423275,keyword filter,include,
+q1|q3|q8|q9,Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models,,keyword filter,include,
+q1|q3,InTAS -- The Ingolstadt Traffic Scenario for SUMO,,keyword filter,include,
+q1,Controllable Generation with Text-to-Image Diffusion Models: A Survey,10.1109/tpami.2025.3646548,keyword filter,exclude,no driving/traffic term
+q1|q12,Text-to-image Diffusion Models in Generative AI: A Survey,,keyword filter,exclude,no driving/traffic term
+q1,Image is All You Need to Empower Large-scale Diffusion Models for In-Domain Generation,,keyword filter,include,
+q1,Text Generation with Diffusion Language Models: A Pre-training Approach with Continuous Paragraph Denoise,,keyword filter,exclude,no driving/traffic term
+q1,Compositional Visual Generation with Composable Diffusion Models,,keyword filter,exclude,no driving/traffic term
+q1|q2|q3,Image Classification using CNN for Traffic Signs in Pakistan,,keyword filter,exclude,no scenario/simulation term
+q1,Pard: Permutation-Invariant Autoregressive Diffusion for Graph Generation,,keyword filter,exclude,no driving/traffic term
+q1|q2|q3|q8,Using Causality for Enhanced Prediction of Web Traffic Time Series,,keyword filter,include,
+q1,DIRE for Diffusion-Generated Image Detection,,keyword filter,exclude,no driving/traffic term
+q1|q3,AI-Driven Climate Policy Scenario Generation for Sub-Saharan Africa,,keyword filter,include,
+q1|q3,CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios with AJAN,,keyword filter,include,
+q1|q12|q3,"FFPDG: Fast, Fair and Private Data Generation",,keyword filter,exclude,no driving/traffic term
+q1,Diffusion-based Symbolic Music Generation with Structured State Space Models,,keyword filter,exclude,no driving/traffic term
+q1|q3,TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation,10.48550/arxiv.2606.29097,keyword filter,include,
+q1|q3,TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios,10.1109/icra48891.2023.10160296,keyword filter,include,
+q1|q2|q3,Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark,,keyword filter,include,
+q10,CAT: Closed-loop Adversarial Training for Safe End-to-End Driving,10.48550/arxiv.2310.12432,keyword filter,include,
+q10,LMDrive: Closed-Loop End-to-End Driving with Large Language Models,10.1109/cvpr52733.2024.01432,keyword filter,include,
+q10,Module-wise Adaptive Adversarial Training for End-to-end Autonomous Driving,10.48550/arxiv.2409.07321,keyword filter,include,
+q10,A Survey of End-to-End Driving: Architectures and Training Methods,10.1109/tnnls.2020.3043505,keyword filter,exclude,no scenario/simulation term
+q10,Adversarial Driving: Attacking End-to-End Autonomous Driving,10.1109/iv55152.2023.10186386,keyword filter,include,
+q10,Driving in Corner Case: A Real-World Adversarial Closed-Loop Evaluation Platform for End-to-End Autonomous Driving,10.48550/arxiv.2512.16055,keyword filter,include,
+q10,End-to-End Autonomous Driving: Challenges and Frontiers,10.1109/tpami.2024.3435937,keyword filter,include,
+q10,Simple Physical Adversarial Examples against End-to-End Autonomous Driving Models,10.1109/icess.2019.8782514,keyword filter,include,
+q10,Rethinking Closed-Loop Training for Autonomous Driving,10.1007/978-3-031-19842-7_16,keyword filter,exclude,no scenario/simulation term
+q10,DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving,10.1109/cvpr52734.2025.01124,keyword filter,include,
+q10,Model-Based Policy Adaptation for Closed-Loop End-to-end Autonomous Driving,10.52202/085713-1386,keyword filter,include,
+q10,CLOVER: Closed-Loop Value Estimation and Ranking for End-to-End Autonomous Driving Planning,10.48550/arxiv.2605.15120,keyword filter,include,
+q10|q4,LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models,10.1109/tits.2025.3578383,keyword filter,include,
+q10,Beyond Behavior Cloning in Autonomous Driving: a Survey of Closed-Loop Training Techniques,10.36227/techrxiv.176591565.57674132/v1,keyword filter,include,
+q10,MDrive: Benchmarking Closed-Loop Cooperative Driving for End-to-End Multi-agent Systems,10.48550/arxiv.2605.10904,keyword filter,include,
+q10,Decoupling Representation Robustness and Behavioral Robustness in End-to-End Driving A Feature-Space Robustness Module for Actor–Critic Policies,10.1109/ijcnn69854.2026.11730068,keyword filter,include,
+q10,Centaur: Robust End-to-End Autonomous Driving with Test-Time Training,10.48550/arxiv.2503.11650,keyword filter,include,
+q10,Adversarial Flow Matching for Imperceptible Attacks on End-to-End Autonomous Driving,10.48550/arxiv.2605.00880,keyword filter,include,
+q10,Scaling Self-Play for End-to-End Driving,10.48550/arxiv.2606.19641,keyword filter,include,
+q10,Post-Training in End-to-End Autonomous Driving,10.48550/arxiv.2607.08072,keyword filter,include,
+q10,Pseudo-Expert Regularized Offline RL for End-to-End Autonomous Driving in Photorealistic Closed-Loop Environments,10.1109/cvprf71909.2026.00110,keyword filter,include,
+q10,PerlAD: Towards Enhanced Closed-Loop End-to-End Autonomous Driving With Pseudo-Simulation-Based Reinforcement Learning,10.1109/lra.2026.3675928,keyword filter,include,
+q10,Reinforcement Learning Methods for Autonomous Driving: A Survey,10.54254/2755-2721/2025.tj23323,keyword filter,include,
+q10,Orion: A Holistic End-To-End Autonomous Driving Framework by Vision-Language Instructed Action Generation,10.1109/iccv51701.2025.02302,keyword filter,include,
+q10,Prompt-Driven Domain Adaptation for End-to-End Autonomous Driving via In-Context RL,10.48550/arxiv.2511.12755,keyword filter,include,
+q10,FocalAD: Local Motion Planning for End-to-End Autonomous Driving,10.1007/s42154-025-00465-6,keyword filter,include,
+q10,2nd Place Solution for CVPR2024 E2E Challenge: End-to-End Autonomous Driving Using Vision Language Model,,keyword filter,exclude,no scenario/simulation term
+q10,End-to-End Reinforcement Learning for Torque Based Variable Height Hopping,10.1109/iros55552.2023.10342187,keyword filter,exclude,no driving/traffic term
+q10,Data Scaling Laws for End-to-End Autonomous Driving,,keyword filter,include,
+q10,Generalized Trajectory Scoring for End-to-end Multimodal Planning,,keyword filter,include,
+q10,Semi-supervised Semantics-guided Adversarial Training for Trajectory Prediction,,keyword filter,include,
+q10,CLEAR: Closed-Loop Reinforcement Learning at Scale for End-to-End Autonomous Driving,,keyword filter,include,
+q10,Smoothness Analysis of Adversarial Training,,keyword filter,exclude,no driving/traffic term
+q10,Hydra-MDP: End-to-end Multimodal Planning with Multi-target Hydra-Distillation,,keyword filter,exclude,no scenario/simulation term
+q10,Closed-Loop Aware Planning via Imitation-Free Speed Scoring for End-to-End Autonomous Driving,,keyword filter,include,
+q10,FedE2E: One-Shot Federated Learning for End-to-End Autonomous Driving with Closed-Loop Evaluation,,keyword filter,exclude,no scenario/simulation term
+q10,Hidden Biases of End-to-End Driving Datasets,,keyword filter,exclude,no scenario/simulation term
+q10,LeGo-Drive: Language-enhanced Goal-oriented Closed-Loop End-to-End Autonomous Driving,,keyword filter,include,
+q11,SceneDM: Scene-level Multi-agent Trajectory Generation with Consistent Diffusion Models,10.48550/arxiv.2311.15736,keyword filter,include,
+q11,Scene Transformer: A unified architecture for predicting multiple agent trajectories,10.48550/arxiv.2106.08417,keyword filter,include,
+q11,Sports-Traj: A Unified Trajectory Generation Model for Multi-Agent Movement in Sports,10.48550/arxiv.2405.17680,keyword filter,include,
+q11,Multi-Agent Formation Navigation Using Diffusion-Based Trajectory Generation,10.48550/arxiv.2601.10725,keyword filter,include,
+q11|q8,QCNeXt: A Next-Generation Framework For Joint Multi-Agent Trajectory Prediction,10.48550/arxiv.2306.10508,keyword filter,include,
+q11,The Trajectron: Probabilistic Multi-Agent Trajectory Modeling With Dynamic Spatiotemporal Graphs,10.1109/iccv.2019.00246,keyword filter,include,
+q11,MATRIX: Multi-Agent Trajectory Generation with Diverse Contexts,10.1109/icra57147.2024.10610944,keyword filter,include,
+q11,Multi-Agent Trajectory Prediction with Scalable Diffusion Transformer,10.1145/3719545.3720337,keyword filter,include,
+q11,THOMAS: Trajectory Heatmap Output with learned Multi-Agent Sampling,10.48550/arxiv.2110.06607,keyword filter,include,
+q11,TransDiffuser: Diverse Trajectory Generation with Decorrelated Multi-modal Representation for End-to-end Autonomous Driving,10.1109/icra57385.2026.11695998,keyword filter,include,
+q11,GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving,10.1109/cvpr52734.2025.00157,keyword filter,include,
+q11,EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning,10.48550/arxiv.2003.13924,keyword filter,include,
+q11|q8,MTR++: Multi-Agent Motion Prediction With Symmetric Scene Modeling and Guided Intention Querying,10.1109/tpami.2024.3352811,keyword filter,include,
+q11,FantasyHSI: Video-Generation-Centric 4D Human Synthesis in Any Scene Through a Graph-Based Multi-Agent Framework,10.1609/aaai.v40i10.37758,keyword filter,include,
+q11,JointDiff: Bridging Continuous and Discrete in Multi-Agent Trajectory Generation,10.48550/arxiv.2509.22522,keyword filter,include,
+q11,Human trajectory prediction and generation using LSTM models and GANs,10.1016/j.patcog.2021.108136,keyword filter,include,
+q11,SceneAgent: A Multi-Agent Framework for Portable Game Scene Generation,10.48550/arxiv.2611.17821,keyword filter,exclude,no driving/traffic term
+q11,Vehicle trajectory prediction and generation using LSTM models and GANs,10.1371/journal.pone.0253868,keyword filter,include,
+q11,Scene compliant spatio-temporal multi-modal multi-agent long-term trajectory forecasting,10.11606/t.55.2021.tde-08112021-112852,keyword filter,include,
+q11,SceneDM: Consistent Diffusion Models for Coherent Multi-agent Trajectory Generation,10.1109/case58245.2025.11163744,keyword filter,include,
+q11,Trajectory Generation by Chance-Constrained Nonlinear MPC With Probabilistic Prediction,10.1109/tcyb.2020.3032711,keyword filter,include,
+q11,SAGE: Scalable Agentic 3D Scene Generation for Embodied AI,10.48550/arxiv.2602.10116,keyword filter,include,
+q11,LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents,10.1109/cvpr46437.2021.01440,keyword filter,include,
+q11|q5|q8,A Survey of Multi-Agent Deep Reinforcement Learning with Communication,,keyword filter,exclude,no driving/traffic term
+q11|q5,Augmenting the action space with conventions to improve multi-agent cooperation in Hanabi,10.1007/s10458-025-09709-5,keyword filter,exclude,no driving/traffic term
+q11|q5,AOAD-MAT: Transformer-based multi-agent deep reinforcement learning model considering agents' order of action decisions,10.1007/978-3-032-13562-9_23,keyword filter,exclude,no driving/traffic term
+q11|q5,From Model-Based Screening to Data-Driven Surrogates: A Multi-Stage Workflow for Exploring Stochastic Agent-Based Models,10.1007/978-3-032-39354-8_11,keyword filter,include,
+q11|q5,Multi-agent Auditory Scene Analysis: Improved Localization Speed and Robustness by Multi-beamformed Speech Quality Feedback,,keyword filter,exclude,no driving/traffic term
+q11|q5,Quantifying the effects of environment and population diversity in multi-agent reinforcement learning,10.1007/s10458-022-09548-8,keyword filter,exclude,no driving/traffic term
+q11,Learning Reward Machines in Cooperative Multi-Agent Tasks,10.1007/978-3-031-56255-6_3,keyword filter,exclude,no driving/traffic term
+q11,"Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code",,keyword filter,exclude,no driving/traffic term
+q11,MORPH: Self-Organising Multi-Robot Task Allocation via Neuroplasticity-Inspired Adaptive Topology,10.1007/978-3-032-39395-1_31,keyword filter,include,
+q11|q5,Learning the Value Systems of Agents with Preference-based and Inverse Reinforcement Learning,10.1007/s10458-026-09732-0,keyword filter,include,
+q11,MLFC: From 10 to 50 Planners in the Multi-Agent Programming Contest,10.1007/978-3-030-88549-6_4,keyword filter,exclude,no driving/traffic term
+q11,Interference-Aware K-Step Reachable Communication in Multi-Agent Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q11|q5,Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications,,keyword filter,exclude,no driving/traffic term
+q11,Energy-Optimal Multi-Agent Navigation as a Strategic-Form Game,,keyword filter,include,
+q11,Absorbing State Phase Transitions in Multi-Agent Search,,keyword filter,exclude,no driving/traffic term
+q11,Multi-agent Collective Construction using 3D Decomposition,,keyword filter,exclude,no driving/traffic term
+q11,Multi-Agent Collaborative Framework For Math Problem Generation,10.5281/zenodo.15870246,keyword filter,exclude,no driving/traffic term
+q11|q5,MAEBE: Multi-Agent Emergent Behavior Framework,,keyword filter,exclude,no driving/traffic term
+q11|q5,Agent-Temporal Attention for Reward Redistribution in Episodic Multi-Agent Reinforcement Learning,,keyword filter,include,
+q11,Deep Reinforcement Learning for Multi-Agent Interaction,,keyword filter,include,
+q11,SPEAR: An Engineering Case Study of Multi-Agent Coordination for Smart Contract Auditing,,keyword filter,exclude,no driving/traffic term
+q11,Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA,,keyword filter,exclude,no driving/traffic term
+q11,A Game-Theoretic Approach to Multi-Agent Trust Region Optimization,,keyword filter,exclude,no driving/traffic term
+q12,GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving,10.48550/arxiv.2503.20523,keyword filter,include,
+q12,Conditional Generative Models for Dynamic Trajectory Generation and Urban Driving,10.3390/s23156764,keyword filter,include,
+q12,GAIA-1: A Generative World Model for Autonomous Driving,10.48550/arxiv.2309.17080,keyword filter,include,
+q12,GenAD: Generative End-to-End Autonomous Driving,10.1007/978-3-031-73650-6_6,keyword filter,include,
+q12,Solving Motion Planning Tasks with a Scalable Generative Model,10.1007/978-3-031-72946-1_22,keyword filter,exclude,no driving/traffic term
+q12,A generative car-following model conditioned on driving styles,10.1016/j.trc.2022.103926,keyword filter,include,
+q12|q9,SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic,10.1007/978-3-031-73235-5_4,keyword filter,include,
+q12,A generative model for inorganic materials design,10.1038/s41586-025-08628-5,keyword filter,include,
+q12,Genie: Generative Interactive Environments,10.48550/arxiv.2402.15391,keyword filter,exclude,no driving/traffic term
+q12,LidarDM: Generative LiDAR Simulation in a Generated World,10.1109/icra55743.2025.11128001,keyword filter,include,
+q12,Modeling Human Driving Behavior Through Generative Adversarial Imitation Learning,10.1109/tits.2022.3227738,keyword filter,include,
+q12,A Survey of World Models for Autonomous Driving,10.48550/arxiv.2501.11260,keyword filter,include,
+q12,Generative and Spatial Modelling for Autonomous Driving under Adverse Weather,,keyword filter,include,
+q12,MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations,10.1109/iv64158.2025.11097718,keyword filter,include,
+q12,ContactGen: Generative Contact Modeling for Grasp Generation,10.1109/iccv51070.2023.01884,keyword filter,exclude,no driving/traffic term
+q12,Generative Adversarial Networks Based Scene Generation on Indian Driving Dataset,10.5614/itbj.ict.res.appl.2023.17.2.4,keyword filter,include,
+q12,Generative Predictive Control Model for Autonomous Driving Closed-Loop Systems,10.1109/ainit70033.2026.11557977,keyword filter,include,
+q12,Advanced Generative Models for 3D Multi-Object Scene Generation: Exploring the use of Cutting-edge Generative Models like Diffusion Models to Synthesize Complex 3D Environments,10.47363/jaicc/2022(1)e224,keyword filter,exclude,no driving/traffic term
+q12,A Digital Twin Framework for Metamorphic Testing of Autonomous Driving Systems Using Generative Model,10.1109/gcwkshps68340.2025.11591078,keyword filter,include,
+q12,Hierarchical Generative Adversarial Imitation Learning With Mid-Level Input Generation for Autonomous Driving on Urban Environments,10.1109/tiv.2024.3436587,keyword filter,include,
+q12,Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving,10.1609/aaai.v39i9.33010,keyword filter,include,
+q12,ReconDreamer++: Harmonizing Generative and Reconstructive Models for Driving Scene Representation,10.1109/iccv51701.2025.02480,keyword filter,include,
+q12,Generative Diffusion Pipelines for Rare and Extreme Driving Event Simulation,,keyword filter,include,
+q12,Generative AI for Autonomous Driving: Frontiers and Opportunities,10.1145/3838726,keyword filter,include,
+q12|q6|q9,FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis,,keyword filter,include,
+q12,Indoor environment data time-series reconstruction using autoencoder neural networks,10.1016/j.buildenv.2021.107623,keyword filter,exclude,no scenario/simulation term
+q12|q6,Generating Driving Scenes with Diffusion,10.48550/arxiv.2305.18452,keyword filter,include,
+q12,JaCoText: A Pretrained Model for Java Code-Text Generation,,keyword filter,exclude,no driving/traffic term
+q12,Pisces: An Auto-regressive Foundation Model for Image Understanding and Generation,,keyword filter,exclude,no driving/traffic term
+q12,Quaternion Generative Adversarial Networks,10.1007/978-3-030-91390-8_4,keyword filter,exclude,no driving/traffic term
+q12,Tabletop Roleplaying Games as Procedural Content Generators,,keyword filter,exclude,no driving/traffic term
+q12,ArchABM: an agent-based simulator of human interaction with the built environment. $CO_2$ and viral load analysis for indoor air quality,10.1016/j.buildenv.2021.108495,keyword filter,exclude,no driving/traffic term
+q12,Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning,,keyword filter,include,
+q12,Ensemble Learning For Mega Man Level Generation,10.1145/3472538.3472600,keyword filter,exclude,no driving/traffic term
+q12,Size Matters: Large Graph Generation with HiGGs,,keyword filter,exclude,no driving/traffic term
+q12,Agentic Visual Generation: From Generative Models to Agentic Control,,keyword filter,exclude,no driving/traffic term
+q12,DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving,,keyword filter,include,
+q12,Toward Co-creative Dungeon Generation via Transfer Learning,10.1145/3472538.3472601,keyword filter,exclude,no driving/traffic term
+q12,Generating Lode Runner Levels by Learning Player Paths with LSTMs,10.1145/3472538.3472602,keyword filter,exclude,no driving/traffic term
+q12,TaikoNation: Patterning-focused Chart Generation for Rhythm Action Games,10.1145/3472538.3472589,keyword filter,exclude,no driving/traffic term
+q12,Risk-Controllable Multi-View Diffusion for Driving Scenario Generation,,keyword filter,include,
+q12,XCoT-VLA: Executable Chain-of-Thought for Vision-Language-Action Driving,,keyword filter,include,
+q12,Case Study of GAI for Generating Novel Images for Real-World Embroidery,,keyword filter,exclude,no driving/traffic term
+q12,VaViM and VaVAM: Autonomous Driving through Video Generative Modeling,,keyword filter,include,
+q12,PseudoProp: Robust Pseudo-Label Generation for Semi-Supervised Object Detection in Autonomous Driving Systems,,keyword filter,include,
+q12,A*3D Dataset: Towards Autonomous Driving in Challenging Environments,,keyword filter,include,
+q13|q4,DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles,10.1609/aaai.v39i8.32951,keyword filter,include,
+q13|q4,ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles,10.1109/cvpr52733.2024.01464,keyword filter,include,
+q13,Multimodal Safety-Critical Scenarios Generation for Decision-Making Algorithms Evaluation,10.1109/lra.2021.3058873,keyword filter,include,
+q13,Diversifying Latent Flows for Safety-Critical Scenarios Generation,10.1109/itsc58415.2024.10919760,keyword filter,include,
+q13,Safety-Critical Scenario Generation Via Reinforcement Learning Based Editing,10.1109/icra57147.2024.10611555,keyword filter,include,
+q13|q4,Adversarial Safety-Critical Scenario Generation Using Naturalistic Human Driving Priors,10.1109/tiv.2023.3335862,keyword filter,include,
+q13,GOOSE: Goal-Conditioned Reinforcement Learning for Safety-Critical Scenario Generation,10.1109/itsc58415.2024.10919498,keyword filter,include,
+q13,Safety-Critical Scenario Generation by Causal Influence Detection,10.1109/itsc58415.2024.10920225,keyword filter,include,
+q13,Safety Evaluation of Autonomous Driving Based on Safety-Critical Scenario Generation,10.1109/itsc58415.2024.10920064,keyword filter,include,
+q13,CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation,10.1007/978-3-032-37490-5_5,keyword filter,include,
+q13,Collision Snapshot Guided Time-Reversed Safety-Critical Scenario Generation,10.48550/arxiv.2609.06433,keyword filter,include,
+q13,A Survey on Large Model-based Safety-critical Scenario Generation for Autonomous Driving,10.1109/ijcnn69854.2026.11729569,keyword filter,include,
+q13,AdvSce: safety-critical scenario generation for testing autonomous driving systems,10.1360/ssi-2022-0317,keyword filter,include,
+q13,Safety-critical scenario generation for automated testing of autonomous driving systems,10.1007/s10515-026-00631-y,keyword filter,include,
+q13,Diversifying Latent Flows for Safety-Critical Scenarios Generation With CARLA Simulator,10.1109/tcsvt.2025.3576354,keyword filter,include,
+q13,AnchorDrive: LLM Scenario Rollout with Anchor-Guided Diffusion Regeneration for Safety-Critical Scenario Generation,10.48550/arxiv.2603.02542,keyword filter,include,
+q13,Reactive safety-critical scenario generation for autonomous driving via interaction-adaptive diffusion,10.1016/j.aap.2026.108793,keyword filter,include,
+q13,Any2Critical: Safety-Critical Scenario Generation from Arbitrary Real-World Driving Contexts,10.1609/aaai.v40i42.40861,keyword filter,include,
+q13|q4,AuthSim: Toward Authentic and Effective Safety-Critical Scenario Generation for Autonomous Driving Tests,10.1109/tits.2025.3586608,keyword filter,include,
+q13,Bridging Data-Driven and Knowledge-Driven Approaches for Safety-Critical Scenario Generation in Automated Vehicle Validation,10.48550/arxiv.2311.10937,keyword filter,include,
+q13,Enhancing safety and generalization for autonomous driving : safety-critical scenario generation and vision-based resolution,,keyword filter,include,
+q13|q4,SaFeR: Safety-Critical Scenario Generation for Autonomous Driving Test via Feasibility-Constrained Token Resampling,10.48550/arxiv.2603.04071,keyword filter,include,
+q13,Enhancing semantic and risk controllability in safety-critical scenario generation: An LLM-guided conditional diffusion method,10.1016/j.aap.2026.108648,keyword filter,exclude,no driving/traffic term
+q13,Generative AI-based Safety Evaluation Framework for Autonomous Racing System via Safety-critical Scenario Generation,10.5302/j.icros.2025.25.0053,keyword filter,include,
+q13,Conditional Flow-VAE for Safety-Critical Traffic Scenario Generation,,keyword filter,include,
+q13|q4,From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios,10.1109/itsc60802.2025.11423486,keyword filter,include,
+q13|q4,A Survey on Safety-Critical Driving Scenario Generation -- A Methodological Perspective,10.1109/tits.2023.3259322,keyword filter,include,
+q13,CausalAF: Causal Autoregressive Flow for Safety-Critical Driving Scenario Generation,,keyword filter,include,
+q13,VLM as Strategist: Adaptive Generation of Safety-critical Testing Scenarios via Guided Diffusion,10.1016/j.aap.2026.108680,keyword filter,include,
+q13|q4,AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles,10.1109/cvpr46437.2021.00978,keyword filter,include,
+q13,Learning to Collide: An Adaptive Safety-Critical Scenarios Generating Method,,keyword filter,include,
+q13|q4,AuthSim: Towards Authentic and Effective Safety-critical Scenario Generation for Autonomous Driving Tests,,keyword filter,include,
+q13,ReGentS: Real-World Safety-Critical Driving Scenario Generation Made Stable,,keyword filter,include,
+q13,FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality,,keyword filter,include,
+q13|q4,Towards Benchmarking and Assessing the Safety and Robustness of Autonomous Driving on Safety-critical Scenarios,,keyword filter,include,
+q13,SG-CADVLM: A Context-Aware Decoding Powered Vision Language Model for Safety-Critical Scenario Generation,,keyword filter,include,
+q13|q4,Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles,10.1609/aaai.v40i45.41238,keyword filter,include,
+q13,Generating Realistic Safety-Critical Scenarios for Vehicle-Pedestrian Interactions,,keyword filter,include,
+q13,DeepMF: Deep Motion Factorization for Closed-Loop Safety-Critical Driving Scenario Simulation,,keyword filter,include,
+q13,KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients,,keyword filter,include,
+q2,RIFT: Group-Relative RL Fine-Tuning for Realistic and Controllable Traffic Simulation,10.48550/arxiv.2505.03344,keyword filter,include,
+q2,ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation,10.1007/978-3-032-37196-6_2,keyword filter,include,
+q2,Controllable Traffic Simulation through LLM-Guided Hierarchical Reasoning and Refinement,10.1109/iros60139.2025.11247747,keyword filter,include,
+q2,CBLab: Supporting the Training of Large-scale Traffic Control Policies with Scalable Traffic Simulation,10.1145/3580305.3599789,keyword filter,include,
+q2,Vehicle-In-The-Loop (VIL) and Scenario-In-The-Loop (SCIL) Automotive Simulation Concepts from the Perspectives of Traffic Simulation and Traffic Control,10.2478/ttj-2019-0014,keyword filter,include,
+q2,Traffic control algorithms for mixed vehicle traffic – A simulation-based investigation,10.1016/j.trpro.2021.01.042,keyword filter,include,
+q2,Controllable Latent Diffusion for Traffic Simulation,10.48550/arxiv.2503.11771,keyword filter,include,
+q2,Task and Interaction Regulation in Controlling a Traffic Simulation,10.4324/9781315045467-128,keyword filter,include,
+q2,Simulation and Research of Urban Intelligent Traffic Light Control System,10.1088/1742-6596/2068/1/012043,keyword filter,include,
+q2,"Towards Discrete-Event, Aggregating, and Relational Control Interfaces for Traffic Simulation",10.1145/3573900.3591116,keyword filter,include,
+q2,"PredictionNet: Real-Time Joint Probabilistic Traffic Prediction for Planning, Control, and Simulation",10.1109/icra46639.2022.9812223,keyword filter,include,
+q2,High Performance Computing Traffic Simulations for Real-Time Traffic Control of Mobility in Chattanooga Region,,keyword filter,include,
+q2,Modelling and Simulation of Traffic Light Control,10.2478/cait-2023-0032,keyword filter,include,
+q2,Enhancing Traffic Control Strategies through Dynamic Simulation and Reinforcement Learning,10.1109/icaaic60222.2024.10575522,keyword filter,include,
+q2,Stochastic Control Behavior of the Balancing Rider for Cycling Safety in Traffic Simulation,10.31224/6107,keyword filter,include,
+q2,Simulation Based On Traffic Light Control System By Using Sumo And TraCI,10.1109/click68749.2026.11741909,keyword filter,include,
+q2,Smart AI-Based Traffic Light Control System Using YOLO and Simulation,,keyword filter,include,
+q2,Simulations of road traffic at light-controlled intersections,10.46354/i3m.2021.emss.005,keyword filter,include,
+q2,Spatio‐temporal Keyframe Control of Traffic Simulation using Coarse‐to‐Fine Optimization,10.1111/cgf.14699,keyword filter,include,
+q2,Web-Based Visualization and Control of Traffic Simulation,10.1109/iceta61311.2023.10344055,keyword filter,include,
+q2,Evaluation of the effectiveness of traffic control algorithms based on a simulation model in the AnyLogic,10.1088/1742-6596/1353/1/012101,keyword filter,include,
+q2,Integrating Ethics into Simulation-Driven Engineering Education: A Traffic Signal Control Experiment,10.2991/978-94-6239-703-3_18,keyword filter,include,
+q2,SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries,10.1007/978-3-031-72664-4_14,keyword filter,include,
+q2,Research on integrated simulation platform for urban traffic control connecting simulation and practice,10.1038/s41598-022-08481-w,keyword filter,include,
+q2|q3,Learning to Control and Coordinate Mixed Traffic Through Robot Vehicles at Complex and Unsignalized Intersections,10.1177/02783649241284069,keyword filter,include,
+q2|q3,Traffic control using intelligent timing of traffic lights with reinforcement learning technique and real-time processing of surveillance camera images,,keyword filter,include,
+q2,Large-scale Regional Traffic Signal Control Based on Single-Agent Reinforcement Learning,,keyword filter,include,
+q2,LCSim: A Large-Scale Controllable Traffic Simulator,,keyword filter,include,
+q2,Robust Single-Agent Reinforcement Learning for Regional Traffic Signal Control Under Demand Fluctuations,,keyword filter,include,
+q2,Ad Hoc HLA Simulation Model Derived From a Model-Based Traffic Scenario,,keyword filter,include,
+q2,Single-agent Reinforcement Learning Model for Regional Adaptive Traffic Signal Control,,keyword filter,include,
+q2,Timing Sensitivity in Actuated Traffic Signal Control: A simulation study on one urban network,,keyword filter,include,
+q2|q3,ASTM :Autonomous Smart Traffic Management System Using Artificial Intelligence CNN and LSTM,,keyword filter,include,
+q2,A Graph-Based Control Interface for Traffic Signals on Heterogeneous Road Networks,,keyword filter,exclude,no scenario/simulation term
+q2,Why Machine Learning Integrated Patient Flow Simulation?,10.36819/sw21.041,keyword filter,exclude,no driving/traffic term
+q2,Purpose in the Machine: Do Traffic Simulators Produce Distributionally Equivalent Outcomes for Reinforcement Learning Applications?,10.1109/wsc60868.2023.10407855,keyword filter,include,
+q2|q3,A traffic incident management framework for vehicular ad hoc networks,10.5121/ijwmn.2025.17202,keyword filter,include,
+q2,The Real Deal: A Review of Challenges and Opportunities in Moving Reinforcement Learning-Based Traffic Signal Control Systems Towards Reality,,keyword filter,exclude,no scenario/simulation term
+q2|q3,A First Look at Class Incremental Learning in Deep Learning Mobile Traffic Classification,,keyword filter,exclude,no scenario/simulation term
+q2,Simulating the social influence in transport mode choices,10.1109/wsc60868.2023.10408063,keyword filter,include,
+q3,Language-Guided Safety-Critical Mixed-Traffic Scenario Generation for Closed-Loop Automated Driving Validation,10.1109/tits.2026.3742522,keyword filter,include,
+q3,Agentic traffic intelligence: Augmented human-in-the-loop scenario generation for microscopic traffic simulation,10.1016/j.ait.2026.100057,keyword filter,include,
+q3,AGENTS-LLM: Augmentative GENeration of Challenging Traffic Scenarios with an Agentic LLM Framework,10.1109/iros60139.2025.11246348,keyword filter,include,
+q3,Scenic: a language for scenario specification and scene generation,10.1145/3314221.3314633,keyword filter,include,
+q3|q8,Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation,10.52202/085713-1849,keyword filter,include,
+q3,Scenic: a language for scenario specification and data generation,10.1007/s10994-021-06120-5,keyword filter,include,
+q3,Language-Guided Traffic Simulation via Scene-Level Diffusion,10.48550/arxiv.2306.06344,keyword filter,include,
+q3,Stochastic Modelling and Scenario Generation for Cloud Workload and Network Traffic in OR Models,10.62311/nesx/rp-m2-dec-2021,keyword filter,include,
+q3,Language-Driven Interactive Traffic Trajectory Generation,10.52202/079017-2474,keyword filter,include,
+q3,Decoupled Intelligence: A Multi-Agent LLM Framework for Controllable Traffic Scenario Generation in SUMO,10.48550/arxiv.2605.27685,keyword filter,include,
+q3,Automated and logically exhaustive generation of traffic scenarios at road junctions using a multi-level danger definition,10.1007/s10270-026-01372-y,keyword filter,include,
+q3,LLM-Based Semantic Modeling and Cooperative Evolutionary Fuzzing for Traffic Violation Scenario Generation,10.1109/apsec66846.2025.00060,keyword filter,include,
+q3,ARISE – Adaptive Refinement and Iterative Scenario Engineering,10.1109/iv66570.2026.11623826,keyword filter,include,
+q3,SocialDriveGen: generating diverse traffic scenarios with controllable social interactions,10.1007/s11704-026-51974-4,keyword filter,include,
+q3,Language-Guided Music Recommendation for Video via Prompt Analogies,,keyword filter,exclude,no driving/traffic term
+q3,RACER: Rich Language-Guided Failure Recovery Policies for Imitation Learning,,keyword filter,include,
+q3,Reusable Templates and Guides For Documenting Datasets and Models for Natural Language Processing and Generation: A Case Study of the HuggingFace and GEM Data and Model Cards,10.18653/v1/2021.gem-1.11,keyword filter,exclude,no driving/traffic term
+q3,Visual Question Generation in Bengali,,keyword filter,include,
+q3,VLM-Guided Adaptive Negative Prompting for Creative Generation,,keyword filter,exclude,no driving/traffic term
+q3,Generating Useful Accident-Prone Driving Scenarios via a Learned Traffic Prior,,keyword filter,include,
+q4,PhysCrit: Physically Feasible Safety-Critical Scenario Generation for Robust Autonomous Driving through Constrained Adversarial Optimization,10.2139/ssrn.7121433,keyword filter,include,
+q4,Interactive Adversarial Scenario Generation for Autonomous Driving: A Continual Learning Framework with Safety Constraints,10.1109/itsc60802.2025.11423840,keyword filter,include,
+q4|q6,LD-scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios,10.1016/j.trc.2026.105694,keyword filter,include,
+q4,Generation of Driving Scenario Trajectories with Generative Adversarial Networks,10.1109/itsc45102.2020.9294362,keyword filter,include,
+q4,SafeBench: A Benchmarking Platform for Safety Evaluation of Autonomous Vehicles,10.52202/068431-1861,keyword filter,include,
+q4,Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models,10.1109/itsc60802.2025.11423790,keyword filter,include,
+q4,Language-Guided Reinforcement Learning for the Adversarial Scenario Synthesis in Autonomous Driving Simulation,10.1109/tvt.2026.3735827,keyword filter,include,
+q4,RCG: Safety-Critical Scenario Generation for Robust Autonomous Driving via Real-World Crash Grounding,10.48550/arxiv.2507.10749,keyword filter,include,
+q4,Adversarial Attack and Defense of YOLO Detectors in Autonomous Driving Scenarios,10.1109/iv51971.2022.9827222,keyword filter,include,
+q4,ScenePilot: Controllable Boundary-Driven Critical Scenario Generation for Autonomous Driving,10.48550/arxiv.2605.21168,keyword filter,include,
+q4,GCE3S:A Method for Generating Safety-critical Scenarios in Autonomous Driving Based on Evolutionary Search,10.11896/jsjkx.240800030,keyword filter,include,
+q4,Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis,10.1109/ojits.2026.3660686,keyword filter,include,
+q4,Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving,10.1145/3319535.3339815,keyword filter,include,
+q4,Safety2Drive: Safety-Critical Scenario Benchmark for the Evaluation of Autonomous Driving,10.48550/arxiv.2505.13872,keyword filter,include,
+q4,AdvDiffuser: Generating Adversarial Safety-Critical Driving Scenarios via Guided Diffusion,,keyword filter,include,
+q4,Selective Communication for Cooperative Perception in End-to-End Autonomous Driving,,keyword filter,include,
+q4,aiMotive Dataset: A Multimodal Dataset for Robust Autonomous Driving with Long-Range Perception,,keyword filter,include,
+q4,Exploring the Boundaries: Thorough Software Testing for Safety-Critical Driving Scenarios Based on Kinematics in the Context of Autonomous Driving,,keyword filter,include,
+q5,Heter-Sim: Heterogeneous Multi-Agent Systems Simulation by Interactive Data-Driven Optimization,10.1109/tvcg.2019.2946769,keyword filter,include,
+q5,MeKB-Sim: Personal Knowledge Base-Powered Multi-Agent Simulation,10.18653/v1/2025.naacl-demo.33,keyword filter,exclude,no driving/traffic term
+q5,TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors,10.1109/cvpr46437.2021.01026,keyword filter,include,
+q5,V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving,10.1109/lra.2022.3192802,keyword filter,include,
+q5,User Behavior Simulation with Large Language Model-based Agents,10.1145/3708985,keyword filter,exclude,no driving/traffic term
+q5,Mind the Sim2Real Gap in User Simulation for Agentic Tasks,10.48550/arxiv.2603.11245,keyword filter,exclude,no driving/traffic term
+q5,Amorphous Fortress: Observing Emergent Behavior in Multi-Agent FSMs,10.48550/arxiv.2306.13169,keyword filter,exclude,no driving/traffic term
+q5,The Waymo Open Sim Agents Challenge,10.52202/075280-2582,keyword filter,include,
+q5,Sim-Stu: A Multi-Agent System for Simulating Learning Processes,10.1109/ica67499.2025.00019,keyword filter,include,
+q5,Building reliable sim driving agents by scaling self-play,10.48550/arxiv.2502.14706,keyword filter,include,
+q5,Crowd Panic Behavior Simulation Using Multi-Agent Modeling,10.3390/electronics13183622,keyword filter,include,
+q5|q8,MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments,10.1109/cvprf71909.2026.00089,keyword filter,include,
+q5,Generative Agents: Interactive Simulacra of Human Behavior,10.1145/3586183.3606763,keyword filter,exclude,no driving/traffic term
+q5,A Modular Interface for Multi-Agent Marine Autonomy Simulation,10.23919/oceans59106.2025.11245128,keyword filter,include,
+q5,Controllable Sim Agents with Behavior Latents,10.48550/arxiv.2607.02496,keyword filter,include,
+q5,Advancing Multi-agent Traffic Simulation via R1-Style Reinforcement Fine-Tuning,10.48550/arxiv.2509.23993,keyword filter,include,
+q5,TrajGen: Generating Realistic and Diverse Trajectories With Reactive and Feasible Agent Behaviors for Autonomous Driving,10.1109/tits.2022.3202185,keyword filter,include,
+q5,DecompGAIL: Learning Realistic Traffic Behaviors with Decomposed Multi-Agent Generative Adversarial Imitation Learning,10.48550/arxiv.2510.06913,keyword filter,include,
+q5,The Traitors: Deception and Trust in Multi-Agent Language Model Simulations,10.48550/arxiv.2505.12923,keyword filter,include,
+q5,Physical Simulation for Multi-agent Multi-machine Tending,10.48550/arxiv.2410.19761,keyword filter,exclude,no driving/traffic term
+q5,War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars,10.48550/arxiv.2311.17227,keyword filter,include,
+q5,Emergent Tool Use From Multi-Agent Autocurricula,10.48550/arxiv.1909.07528,keyword filter,exclude,no driving/traffic term
+q5,Amorphous Fortress: Exploring Emergent Behavior and Complexity in Multi-Agent 0-Player Games,10.1109/cec60901.2024.10612153,keyword filter,exclude,no driving/traffic term
+q5,Causal Explanations for Sequential Decision-Making in Multi-Agent Systems,,keyword filter,include,
+q5,Multi-Agent Learning of Numerical Methods for Hyperbolic PDEs with Factored Dec-MDP,10.1007/978-3-031-18192-4_15,keyword filter,exclude,no driving/traffic term
+q5,A mechanism for discovering semantic relationships among agent communication protocols,10.1007/s10458-010-9154-1,keyword filter,exclude,no driving/traffic term
+q5,Agent-Time Attention for Sparse Rewards Multi-Agent Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q5,Unravelling multi-agent ranked delegations,,keyword filter,exclude,no driving/traffic term
+q5,Refined Hardness of Distance-Optimal Multi-Agent Path Finding,,keyword filter,exclude,no driving/traffic term
+q5,Off-the-Grid MARL: Datasets with Baselines for Offline Multi-Agent Reinforcement Learning,,keyword filter,include,
+q5,ARCANE: A Multi-Agent Framework for Interpretable and Configurable Alignment,,keyword filter,exclude,no driving/traffic term
+q5,The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior,,keyword filter,exclude,no driving/traffic term
+q5,Massive Multi-Agent Data-Driven Simulations of the GitHub Ecosystem,10.1007/978-3-030-24209-1_1,keyword filter,include,
+q5,Fast Agent-Based Simulation Framework with Applications to Reinforcement Learning and the Study of Trading Latency Effects,,keyword filter,include,
+q5,Private Agent-Based Modeling,,keyword filter,exclude,no driving/traffic term
+q5,Multi-Agent Robotic Control with Onboard Vision-Language Models,,keyword filter,include,
+q5,GOV-REK: Governed Reward Engineering Kernels for Designing Robust Multi-Agent Reinforcement Learning Systems,,keyword filter,exclude,no driving/traffic term
+q5,Implementing Agents in JavaScript,,keyword filter,exclude,no driving/traffic term
+q6,DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model,10.48550/arxiv.2310.07771,keyword filter,include,
+q6,NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models,10.1109/cvpr52729.2023.00821,keyword filter,exclude,no driving/traffic term
+q6,MagicVideo: Efficient Video Generation With Latent Diffusion Models,10.48550/arxiv.2211.11018,keyword filter,exclude,no driving/traffic term
+q6,BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents,10.48550/arxiv.2407.05679,keyword filter,include,
+q6,3D Layout-Guided Autonomous Driving Scene Generation,10.1051/itmconf/20268404011,keyword filter,include,
+q6,WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation,10.1007/978-3-031-72989-8_19,keyword filter,include,
+q6,WorldSplat: Gaussian-Centric Feed-Forward 4D Scene Generation for Autonomous Driving,10.48550/arxiv.2509.23402,keyword filter,include,
+q6,Align Your Latents: High-Resolution Video Synthesis with Latent Diffusion Models,10.1109/cvpr52729.2023.02161,keyword filter,include,
+q6,Prometheus: 3D-Aware Latent Diffusion Models for Feed-Forward Text-to-3D Scene Generation,10.1109/cvpr52734.2025.00272,keyword filter,exclude,no driving/traffic term
+q6,Augmentation of LiDAR Scenes with Adverse Weather Conditions Using Latent Diffusion Models,10.1007/978-981-95-4097-6_14,keyword filter,exclude,no driving/traffic term
+q6,"Diffusion-based Generation, Optimization, and Planning in 3D Scenes",10.1109/cvpr52729.2023.01607,keyword filter,exclude,no driving/traffic term
+q6,LDFA: Latent Diffusion Face Anonymization for Self-driving Applications,10.1109/cvprw59228.2023.00322,keyword filter,include,
+q6,Glad: A Streaming Scene Generator for Autonomous Driving,10.48550/arxiv.2503.00045,keyword filter,include,
+q6,Towards Realistic Scene Generation with LiDAR Diffusion Models,10.1109/cvpr52733.2024.01396,keyword filter,exclude,no driving/traffic term
+q6,LION: Latent Point Diffusion Models for 3D Shape Generation,10.52202/068431-0728,keyword filter,include,
+q6,MapDreamer: Aerial Imagery Conditioned Latent Diffusion for Lane-Level Map Generation,10.1007/978-3-032-37467-7_6,keyword filter,exclude,no driving/traffic term
+q6,High-Resolution Image Synthesis with Latent Diffusion Models,10.1109/cvpr52688.2022.01042,keyword filter,exclude,no driving/traffic term
+q6,UniScene: Unified Occupancy-centric Driving Scene Generation,10.1109/cvpr52734.2025.01118,keyword filter,include,
+q6,Genesis: Multimodal Driving Scene Generation with Spatio-Temporal and Cross-Modal Consistency,10.52202/085713-2021,keyword filter,include,
+q6,Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design,,keyword filter,include,
+q6,Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design,,keyword filter,exclude,no driving/traffic term
+q6|q9,SPATIALGEN: Layout-guided 3D Indoor Scene Generation,,keyword filter,exclude,no driving/traffic term
+q6,Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2,,keyword filter,exclude,no driving/traffic term
+q6,Text-driven Visual Synthesis with Latent Diffusion Prior,,keyword filter,include,
+q6,Blended Latent Diffusion,10.1145/3592450,keyword filter,include,
+q6,Coherent 3D Scene Diffusion From a Single RGB Image,,keyword filter,exclude,no driving/traffic term
+q6,DiscDiff: Latent Diffusion Model for DNA Sequence Generation,,keyword filter,exclude,no driving/traffic term
+q6|q9,3D Scene Generation: A Survey,10.1007/s11263-026-02999-6,keyword filter,include,
+q6,A Simple Latent Diffusion Approach for Panoptic Segmentation and Mask Inpainting,,keyword filter,exclude,no driving/traffic term
+q6,Latent-Shift: Latent Diffusion with Temporal Shift for Efficient Text-to-Video Generation,,keyword filter,exclude,no driving/traffic term
+q6,BeyondScene: Higher-Resolution Human-Centric Scene Generation With Pretrained Diffusion,,keyword filter,exclude,no driving/traffic term
+q6|q9,Controllable 3D Outdoor Scene Generation via Scene Graphs,,keyword filter,include,
+q6,Beyond Surface Statistics: Scene Representations in a Latent Diffusion Model,,keyword filter,exclude,no driving/traffic term
+q6,Latent-Reframe: Enabling Camera Control for Video Diffusion Model without Training,,keyword filter,include,
+q6,Pyramid Diffusion for Fine 3D Large Scene Generation,,keyword filter,exclude,no driving/traffic term
+q6,LT3SD: Latent Trees for 3D Scene Diffusion,,keyword filter,exclude,no driving/traffic term
+q6,Smooth Diffusion: Crafting Smooth Latent Spaces in Diffusion Models,,keyword filter,exclude,no driving/traffic term
+q6,Build-A-Scene: Interactive 3D Layout Control for Diffusion-Based Image Generation,,keyword filter,exclude,no driving/traffic term
+q6,Recent Advances in 3D Object and Scene Generation: A Survey,,keyword filter,include,
+q6,SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation,,keyword filter,exclude,no driving/traffic term
+q6,Steerable Scene Generation with Post Training and Inference-Time Search,,keyword filter,exclude,no driving/traffic term
+q7,Offline Reinforcement Learning for Road Traffic Control,10.48550/arxiv.2201.02381,keyword filter,include,
+q7,"A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems",10.1109/tnnls.2023.3250269,keyword filter,exclude,no driving/traffic term
+q7,Constrained Decision Transformer for Offline Safe Reinforcement Learning,10.48550/arxiv.2302.07351,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q7,Diagnosing Reinforcement Learning for Traffic Signal Control,10.48550/arxiv.1905.04716,keyword filter,exclude,no scenario/simulation term
+q7,Reward Reports for Reinforcement Learning,10.1145/3600211.3604698,keyword filter,include,
+q7,Goal-Conditioned Data Augmentation for Offline Reinforcement Learning,10.48550/arxiv.2412.20519,keyword filter,include,
+q7,A Fully Data-Driven Approach for Realistic Traffic Signal Control Using Offline Reinforcement Learning,10.1007/s42421-025-00139-z,keyword filter,exclude,no scenario/simulation term
+q7,Corruption-Robust Offline Reinforcement Learning,10.48550/arxiv.2106.06630,keyword filter,exclude,no driving/traffic term
+q7,Data-driven energy management for electric vehicles using offline reinforcement learning,10.1038/s41467-025-58192-9,keyword filter,include,
+q7,NetworkGym: Reinforcement Learning Environments for Multi-Access Traffic Management in Network Simulation,10.52202/079017-3385,keyword filter,include,
+q7,Multi-Agent Deep Reinforcement Learning for Large-Scale Traffic Signal Control,10.1109/tits.2019.2901791,keyword filter,include,
+q7,Offline Reinforcement Learning for Mobility Robustness Optimization,10.48550/arxiv.2506.22793,keyword filter,exclude,no scenario/simulation term
+q7,CHAI: A CHatbot AI for Task-Oriented Dialogue with Offline Reinforcement Learning,10.18653/v1/2022.naacl-main.332,keyword filter,exclude,no driving/traffic term
+q7,OffLight: An Offline Multi-Agent Reinforcement Learning Framework for Traffic Signal Control,10.1109/case58245.2025.11163833,keyword filter,include,
+q7,Beyond Hard Constraints: Budget-Conditioned Reachability for Safe Offline Reinforcement Learning,10.1609/icaps.v36i1.42876,keyword filter,exclude,no driving/traffic term
+q7,Donsker-Varadhan policy matching for reward-free offline reinforcement learning,10.14288/1.0456945,keyword filter,exclude,no driving/traffic term
+q7,UMBRELLA: Uncertainty-Aware Model-Based Offline Reinforcement Learning Leveraging Planning,10.48550/arxiv.2111.11097,keyword filter,include,
+q7,Traffic Signal Control via Reinforcement Learning: A Review on Applications and Innovations,10.3390/infrastructures10050114,keyword filter,include,
+q7,RLFTSim: Realistic and Controllable Multi-Agent Traffic Simulation via Reinforcement Learning Fine-Tuning,10.48550/arxiv.2605.19033,keyword filter,include,
+q7,A survey on model-based reinforcement learning,10.1007/s11432-022-3696-5,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q7,F1tenth Autonomous Racing With Offline Reinforcement Learning Methods,10.1109/itsc58415.2024.10920216,keyword filter,include,
+q7,Learning to Control Autonomous Fleets from Observation via Offline Reinforcement Learning,10.23919/ecc64448.2024.10590895,keyword filter,include,
+q7,Age of Semantics in Cooperative Communications: To Expedite Simulation Towards Real via Offline Reinforcement Learning,10.1109/tnse.2025.3558747,keyword filter,exclude,no driving/traffic term
+q7,COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks,10.48550/arxiv.2203.08398,keyword filter,exclude,no scenario/simulation term
+q7,Semi-supervised reward learning for offline reinforcement learning,,keyword filter,exclude,no driving/traffic term
+q7,Towards Data-Driven Offline Simulations for Online Reinforcement Learning,,keyword filter,include,
+q7,An Optimistic Perspective on Offline Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q7,GOPlan: Goal-conditioned Offline Reinforcement Learning by Planning with Learned Models,,keyword filter,include,
+q7,Domain Generalization for Robust Model-Based Offline Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q7,Offline Learning from Demonstrations and Unlabeled Experience,,keyword filter,include,
+q7,Benchmarking Offline Reinforcement Learning Algorithms for E-Commerce Order Fraud Evaluation,,keyword filter,exclude,no driving/traffic term
+q7,Value Bonuses using Ensemble Errors for Exploration in Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q7,The Open Ant: A Robot Platform for Reinforcement Learning Research,,keyword filter,exclude,no driving/traffic term
+q7,Offline Reinforcement Learning Hands-On,,keyword filter,exclude,no driving/traffic term
+q7,DmC: Nearest Neighbor Guidance Diffusion Model for Offline Cross-domain Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q7,Pessimistic Model Selection for Offline Deep Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q7,Personalization for Web-based Services using Offline Reinforcement Learning,,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q7,UNIQ: Conformal Calibration for Adaptive Conservatism in Offline Reinforcement Learning,,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q7,TROFI: Trajectory-Ranked Offline Inverse Reinforcement Learning,,keyword filter,include,
+q7,Reinforcement Learning with Stochastic Reward Machines,10.1609/aaai.v36i6.20594,keyword filter,exclude,no driving/traffic term
+q7,Offline Reinforcement Learning from Datasets with Structured Non-Stationarity,,keyword filter,exclude,no driving/traffic term
+q7,Reward Shaping via Diffusion Process in Reinforcement Learning,,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q7,FairDICE: Fairness-Driven Offline Multi-Objective Reinforcement Learning,,keyword filter,exclude,no scenario/simulation term
+q7,Tiered Reward: Designing Rewards for Specification and Fast Learning of Desired Behavior,,keyword filter,exclude,no driving/traffic term
+q7,From Sparse to Dense: Toddler-inspired Reward Transition in Goal-Oriented Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q7,Semi-gradient DICE for Offline Constrained Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q7,From Reward Shaping to Q-Shaping: Achieving Unbiased Learning with LLM-Guided Knowledge,,keyword filter,exclude,no driving/traffic term
+q7,Offline Meta-level Model-based Reinforcement Learning Approach for Cold-Start Recommendation,,keyword filter,exclude,no driving/traffic term
+q7,Robotic Manipulation Datasets for Offline Compositional Reinforcement Learning,,keyword filter,exclude,no driving/traffic term
+q8,SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction,10.52202/079017-3622,keyword filter,include,
+q8,Trajeglish: Traffic Modeling as Next-Token Prediction,10.48550/arxiv.2312.04535,keyword filter,include,
+q8,Long-Term Traffic Simulation with Interleaved Autoregressive Motion and Scenario Generation,10.1109/iccv51701.2025.02347,keyword filter,include,
+q8,Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion,10.52202/079017-0759,keyword filter,include,
+q8,SceneStreamer: Continuous Scenario Generation as Next Token Group Prediction,10.48550/arxiv.2506.23316,keyword filter,include,
+q8,MoST: Multi-modality Scene Tokenization for Motion Prediction,10.1109/cvpr52733.2024.01420,keyword filter,include,
+q8,MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion,10.1109/cvpr52729.2023.00930,keyword filter,include,
+q8,Categorical Traffic Transformer: Interpretable and Diverse Behavior Prediction with Tokenized Latent,10.1109/icra55743.2025.11128234,keyword filter,include,
+q8,Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models,10.1109/cvpr52734.2025.00510,keyword filter,include,
+q8,SIMPL: A Simple and Efficient Multi-Agent Motion Prediction Baseline for Autonomous Driving,10.1109/lra.2024.3370039,keyword filter,include,
+q8,MotionLM: Multi-Agent Motion Forecasting as Language Modeling,10.1109/iccv51070.2023.00788,keyword filter,include,
+q8,BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction,10.52202/079017-2527,keyword filter,include,
+q8,Query-Informed Multi-Agent Motion Prediction,10.3390/s24010009,keyword filter,include,
+q8,Learning Rollout from Sampling: An R1-Style Tokenized Traffic Simulation Model,10.1109/lra.2026.3678842,keyword filter,include,
+q8,Multimodal Motion Prediction with Stacked Transformers,10.1109/cvpr46437.2021.00749,keyword filter,include,
+q8,Language Conditioned Traffic Generation,10.48550/arxiv.2307.07947,keyword filter,include,
+q8,TrajTok: What makes for a good trajectory tokenizer in behavior generation?,,keyword filter,include,
+q8,Video-LaVIT: Unified Video-Language Pre-training with Decoupled Visual-Motional Tokenization,10.48550/arxiv.2402.03161,keyword filter,exclude,no driving/traffic term
+q8,EP-Diffuser: An Efficient Diffusion Model for Traffic Scene Generation and Prediction via Polynomial Representations,10.1109/lra.2025.3595042,keyword filter,include,
+q8,ModeSeq: Taming Sparse Multimodal Motion Prediction with Sequential Mode Modeling,10.1109/cvpr52734.2025.00158,keyword filter,include,
+q8,AutoWorld: Learning Multi-Agent Traffic Simulation with Self-Supervised World Models,10.48550/arxiv.2603.28963,keyword filter,include,
+q8,Next Token Prediction Towards Multimodal Intelligence: A Comprehensive Survey,,keyword filter,exclude,no driving/traffic term
+q8,Motion-Agent: A Conversational Framework for Human Motion Generation with LLMs,,keyword filter,exclude,no driving/traffic term
+q8,MotionCNN: A Strong Baseline for Motion Prediction in Autonomous Driving,,keyword filter,include,
+q8,Collective traffic of agents that remember,,keyword filter,include,
+q8,Next Patch Prediction for Autoregressive Visual Generation,,keyword filter,exclude,no driving/traffic term
+q8,MTR-A: 1st Place Solution for 2022 Waymo Open Dataset Challenge -- Motion Prediction,,keyword filter,include,
+q8,"A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",,keyword filter,exclude,no driving/traffic term
+q8,Situational Adaptive Motion Prediction for Firefighting Squads in Indoor Search and Rescue,,keyword filter,exclude,no driving/traffic term
+q8,Spatio-Temporal Branching for Motion Prediction using Motion Increments,10.1145/3581783.3612330,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q8,LongCat-Next: Lexicalizing Modalities as Discrete Tokens,,keyword filter,include,
+q8,ScaleMoGen: Autoregressive Next-Scale Prediction for Human Motion Generation,,keyword filter,include,
+q8,MoCLIP: Motion-Aware Fine-Tuning and Distillation of CLIP for Human Motion Generation,,keyword filter,exclude,no driving/traffic term
+q8,Weakly and Self-Supervised Class-Agnostic Motion Prediction for Autonomous Driving,10.1109/tpami.2025.3604036,keyword filter,include,
+q8,The pitfalls of next-token prediction,,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q8,AdvMT: Adversarial Motion Transformer for Long-term Human Motion Prediction,10.1007/s12541-026-01556-y,keyword filter,include,
+q8,On the (Intuitionistic) Logic of Next-Token Prediction,10.4204/eptcs.450.4,keyword filter,exclude,no driving/traffic term
+q8,Human Motion Video Generation: A Survey,10.1109/tpami.2025.3594034,keyword filter,include,
+q8,RACH Traffic Prediction in Massive Machine Type Communications,10.1109/tmlcn.2025.3542760,keyword filter,include,
+q8,"Computational Tradeoffs in Image Synthesis: Diffusion, Masked-Token, and Next-Token Prediction",,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q9,Visual Traffic Knowledge Graph Generation from Scene Images,10.1109/iccv51070.2023.01975,keyword filter,include,
+q9,T 2 SG: Traffic Topology Scene Graph for Topology Reasoning in Autonomous Driving,10.1109/cvpr52734.2025.01603,keyword filter,include,
+q9,Traffic Scene Representation and Encoding With Graph Structure Learning and Exploration,10.1109/tits.2025.3582574,keyword filter,include,
+q9,Towards Traffic Scene Description: The Semantic Scene Graph,10.1109/itsc55140.2022.9922469,keyword filter,include,
+q9,SparScene: Efficient Traffic Scene Representation via Sparse Graph Learning for Large-Scale Trajectory Generation,10.1109/tpami.2026.3750173,keyword filter,include,
+q9,Hazard-Aware Traffic Scene Graph Generation,10.48550/arxiv.2603.03584,keyword filter,include,
+q9,Fine-Grained Traffic Inference from Road to Lane via Spatio-Temporal Graph Node Generation,10.1145/3711896.3736961,keyword filter,include,
+q9,Lane Graph Estimation for Scene Understanding in Urban Driving,10.1109/lra.2021.3111433,keyword filter,include,
+q9,Neural Scene Graphs for Dynamic Scenes,10.1109/cvpr46437.2021.00288,keyword filter,exclude,no driving/traffic term
+q9,nuScenes Knowledge Graph - A comprehensive semantic representation of traffic scenes for trajectory prediction,10.1109/iccvw60793.2023.00011,keyword filter,include,
+q9,AutoGraph: Predicting Lane Graphs From Traffic Observations,10.1109/lra.2023.3331653,keyword filter,exclude,no scenario/simulation term
+q9,Driving Through Graphs: a Bipartite Graph for Traffic Scene Analysis,10.1109/icip51287.2024.10647492,keyword filter,include,
+q9,Relation-based Motion Prediction using Traffic Scene Graphs,10.1109/itsc55140.2022.9922155,keyword filter,include,
+q9,Graph-based topology reasoning for driving scenes,10.1007/s11432-025-4815-9,keyword filter,include,
+q9,STGT-Gen: Spatio-Temporal Graph Transformer for Multi-Vehicle Traffic Scenario Generation,10.4271/2025-01-7316,keyword filter,include,
+q9,SceneGen: Learning to Generate Realistic Traffic Scenes,10.1109/cvpr46437.2021.00095,keyword filter,include,
+q9,Lane Graph as Path: Continuity-Preserving Path-Wise Modeling for Online Lane Graph Construction,10.1007/978-3-031-72784-9_19,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q9,Traffic Scene Similarity: a Graph-based Contrastive Learning Approach,10.1109/ssci52147.2023.10372060,keyword filter,include,
+q9,Enhancing Vision-Language Models with Scene Graphs for Traffic Accident Understanding,10.1109/iavvc63304.2024.10786395,keyword filter,include,
+q9,SemanticFormer: Holistic and Semantic Traffic Scene Representation for Trajectory Prediction Using Knowledge Graphs,10.1109/lra.2024.3426386,keyword filter,include,
+q9,Self Supervised Clustering of Traffic Scenes using Graph Representations,10.1109/iceccme55909.2022.9988246,keyword filter,include,
+q9,Query by Example: Semantic Traffic Scene Retrieval Using LLM-Based Scene Graph Representation,10.3390/s25082546,keyword filter,include,
+q9,Geometry-Guided Representations for Coherent Lane and Traffic Topology Reasoning in Driving Scenes,10.1145/3770855.3817889,keyword filter,include,
+q9,Triplet-Aware Scene Graph Embeddings,,keyword filter,exclude,no driving/traffic term
+q9,Informative Scene Graph Generation via Debiasing,,keyword filter,exclude,no driving/traffic term
+q9,Unbiased Scene Graph Generation from Biased Training,,keyword filter,exclude,no driving/traffic term
+q9,Panoptic Video Scene Graph Generation,,keyword filter,exclude,no driving/traffic term
+q9,Bird's-Eye-View Scene Graph for Vision-Language Navigation,,keyword filter,exclude,no driving/traffic term
+q9,NICEST: Noisy Label Correction and Training for Robust Scene Graph Generation,,keyword filter,exclude,no driving/traffic term
+q9,LANe: Lighting-Aware Neural Fields for Compositional Scene Synthesis,,keyword filter,include,
+q9,Geometric 2D Scene Graph Generation,10.5220/0014249800004052,keyword filter,include,
+q9,Hierarchical Discrete Flow Matching for Graph Generation,,keyword filter,exclude,no driving/traffic term
+q9,Counting cliques without generalized theta graphs,,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q9,ALF: Adaptive Label Finetuning for Scene Graph Generation,,keyword filter,exclude,no driving/traffic term
+q9,Agnostic Lane Detection,,keyword filter,include,

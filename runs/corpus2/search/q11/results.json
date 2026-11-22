@@ -1,0 +1,1257 @@
+{
+  "query": "scene-level multi-agent trajectory generation",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 47,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4389116282",
+      "doi": "10.48550/arxiv.2311.15736",
+      "title": "SceneDM: Scene-level Multi-agent Trajectory Generation with Consistent Diffusion Models",
+      "abstract": "Realistic scene-level multi-agent motion simulations are crucial for developing and evaluating self-driving algorithms. However, most existing works focus on generating trajectories for a certain single agent type, and typically ignore the consistency of generated trajectories. In this paper, we propose a novel framework based on diffusion models, called SceneDM, to generate joint and consistent future motions of all the agents, including vehicles, bicycles, pedestrians, etc., in a scene. To enhance the consistency of the generated trajectories, we resort to a new Transformer-based network to effectively handle agent-agent interactions in the inverse process of motion diffusion. In consideration of the smoothness of agent trajectories, we further design a simple yet effective consistent diffusion approach, to improve the model in exploiting short-term temporal dependencies. Furthermore, a scene-level scoring function is attached to evaluate the safety and road-adherence of the generated agent's motions and help filter out unrealistic simulations. Finally, SceneDM achieves state-of-the-art results on the Waymo Sim Agents Benchmark. Project webpage is available at https://alperen-hub.github.io/SceneDM.",
+      "year": 2023,
+      "authors": [
+        "Zhiming Guo",
+        "Xing Hua Gao",
+        "Jian-Lan Zhou",
+        "Xinyu Cai",
+        "Botian Shi"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 37,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.15736",
+      "url": "https://openalex.org/W4389116282",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv231115736_SceneDM_Scene-level_Multi-agent_Trajectory_Generation_with",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv231115736_SceneDM_Scene-level_Multi-agent_Trajectory_Generation_with.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3204161688",
+      "doi": "10.48550/arxiv.2106.08417",
+      "title": "Scene Transformer: A unified architecture for predicting multiple agent trajectories",
+      "abstract": "Predicting the motion of multiple agents is necessary for planning in dynamic environments. This task is challenging for autonomous driving since agents (e.g. vehicles and pedestrians) and their associated behaviors may be diverse and influence one another. Most prior work have focused on predicting independent futures for each agent based on all past motion, and planning against these independent predictions. However, planning against independent predictions can make it challenging to represent the future interaction possibilities between different agents, leading to sub-optimal planning. In this work, we formulate a model for predicting the behavior of all agents jointly, producing consistent futures that account for interactions between agents. Inspired by recent language modeling approaches, we use a masking strategy as the query to our model, enabling one to invoke a single model to predict agent behavior in many ways, such as potentially conditioned on the goal or full future trajectory of the autonomous vehicle or the behavior of other agents in the environment. Our model architecture employs attention to combine features across road elements, agent interactions, and time steps. We evaluate our approach on autonomous driving datasets for both marginal and joint motion prediction, and achieve state of the art performance across two popular datasets. Through combining a scene-centric approach, agent permutation equivariant model, and a sequence masking strategy, we show that our model can unify a variety of motion prediction tasks from joint motion predictions to conditioned prediction.",
+      "year": 2021,
+      "authors": [
+        "Jiquan Ngiam",
+        "Benjamin Caine",
+        "Vijay Vasudevan",
+        "Zhengdong Zhang",
+        "Hao-Tien Lewis Chiang",
+        "Jeffrey Ling",
+        "Roelofs, Rebecca",
+        "Alex Bewley",
+        "Chenxi Liu",
+        "Venugopal, Ashish",
+        "Weiss, David",
+        "Ben Sapp",
+        "Zhifeng Chen",
+        "Jonathon Shlens"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 535,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2106.08417",
+      "url": "https://openalex.org/W3204161688",
+      "key": "openalex_1048550_arxiv210608417_Scene_Transformer_A_unified_architecture_for_predicting_mu",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv210608417_Scene_Transformer_A_unified_architecture_for_predicting_mu.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4399151425",
+      "doi": "10.48550/arxiv.2405.17680",
+      "title": "Sports-Traj: A Unified Trajectory Generation Model for Multi-Agent Movement in Sports",
+      "abstract": "Understanding multi-agent movement is critical across various fields. The conventional approaches typically focus on separate tasks such as trajectory prediction, imputation, or spatial-temporal recovery. Considering the unique formulation and constraint of each task, most existing methods are tailored for only one, limiting the ability to handle multiple tasks simultaneously, which is a common requirement in real-world scenarios. Another limitation is that widely used public datasets mainly focus on pedestrian movements with casual, loosely connected patterns, where interactions between individuals are not always present, especially at a long distance, making them less representative of more structured environments. To overcome these limitations, we propose a Unified Trajectory Generation model, UniTraj, that processes arbitrary trajectories as masked inputs, adaptable to diverse scenarios in the domain of sports games. Specifically, we introduce a Ghost Spatial Masking (GSM) module, embedded within a Transformer encoder, for spatial feature extraction. We further extend recent State Space Models (SSMs), known as the Mamba model, into a Bidirectional Temporal Mamba (BTM) to better capture temporal dependencies. Additionally, we incorporate a Bidirectional Temporal Scaled (BTS) module to thoroughly scan trajectories while preserving temporal missing relationships. Furthermore, we curate and benchmark three practical sports datasets, Basketball-U, Football-U, and Soccer-U, for evaluation. Extensive experiments demonstrate the superior performance of our model. We hope that our work can advance the understanding of human movement in real-world applications, particularly in sports. Our datasets, code, and model weights are available here https://github.com/colorfulfuture/UniTraj-pytorch.",
+      "year": 2025,
+      "authors": [
+        "Yi Xu",
+        "Yun Fu"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 10,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/03a9a9c1e15850439653bb971a4ad4b3-Paper-Conference.pdf",
+      "url": "https://openalex.org/W4399151425",
+      "key": "openalex_1048550_arxiv240517680_Sports-Traj_A_Unified_Trajectory_Generation_Model_for_Mult",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240517680_Sports-Traj_A_Unified_Trajectory_Generation_Model_for_Mult.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7124723497",
+      "doi": "10.48550/arxiv.2601.10725",
+      "title": "Multi-Agent Formation Navigation Using Diffusion-Based Trajectory Generation",
+      "abstract": "This paper introduces a diffusion-based planner for leader--follower formation control in cluttered environments. The diffusion policy is used to generate the trajectory of the midpoint of two leaders as a rigid bar in the plane, thereby defining their desired motion paths in a planar formation. While the followers track the leaders and form desired foramtion geometry using a distance-constrained formation controller based only on the relative positions in followers' local coordinates. The proposed approach produces smooth motions and low tracking errors, with most failures occurring in narrow obstacle-free space, or obstacle configurations that are not in the training data set. Simulation results demonstrate the potential of diffusion models for reliable multi-agent formation planning.",
+      "year": 2026,
+      "authors": [
+        "Hieu Do Quang",
+        "Chien Truong-Quoc",
+        "Quoc Van Tran"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2601.10725",
+      "url": "https://openalex.org/W7124723497",
+      "key": "openalex_1048550_arxiv260110725_Multi-Agent_Formation_Navigation_Using_Diffusion-Based_Tra",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260110725_Multi-Agent_Formation_Navigation_Using_Diffusion-Based_Tra.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4381556596",
+      "doi": "10.48550/arxiv.2306.10508",
+      "title": "QCNeXt: A Next-Generation Framework For Joint Multi-Agent Trajectory Prediction",
+      "abstract": "Estimating the joint distribution of on-road agents' future trajectories is essential for autonomous driving. In this technical report, we propose a next-generation framework for joint multi-agent trajectory prediction called QCNeXt. First, we adopt the query-centric encoding paradigm for the task of joint multi-agent trajectory prediction. Powered by this encoding scheme, our scene encoder is equipped with permutation equivariance on the set elements, roto-translation invariance in the space dimension, and translation invariance in the time dimension. These invariance properties not only enable accurate multi-agent forecasting fundamentally but also empower the encoder with the capability of streaming processing. Second, we propose a multi-agent DETR-like decoder, which facilitates joint multi-agent trajectory prediction by modeling agents' interactions at future time steps. For the first time, we show that a joint prediction model can outperform marginal prediction models even on the marginal metrics, which opens up new research opportunities in trajectory prediction. Our approach ranks 1st on the Argoverse 2 multi-agent motion forecasting benchmark, winning the championship of the Argoverse Challenge at the CVPR 2023 Workshop on Autonomous Driving.",
+      "year": 2023,
+      "authors": [
+        "Zikang Zhou",
+        "Zihao Wen",
+        "Wang, Jianping",
+        "Yung‐Hui Li",
+        "Yu-Kai Huang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 80,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.10508",
+      "url": "https://openalex.org/W4381556596",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv230610508_QCNeXt_A_Next-Generation_Framework_For_Joint_Multi-Agent_T",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv230610508_QCNeXt_A_Next-Generation_Framework_For_Joint_Multi-Agent_T.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413945198",
+      "doi": "10.1109/icra55743.2025.11127600",
+      "title": "Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation",
+      "abstract": "In this paper, we introduce a novel approach for autonomous driving trajectory generation by harnessing the complementary strengths of diffusion probabilistic models (a.k.a., diffusion models) and transformers. Our proposed framework, termed the “World-centric Diffusion Transformer” (WcDT), optimizes the entire trajectory generation process, from feature extraction to model inference. To enhance the scene diversity and stochasticity, the historical trajectory data is first preprocessed into “Agent Move Statement” and encoded into latent space using Denoising Diffusion Probabilistic Models (DDPM) enhanced with Diffusion with Transformer (DiT) blocks. Then, the latent features, historical trajectories, HD map features, and historical traffic signal information are fused with various transformer-based encoders that is used to enhance the interaction of agents with other elements in the traffic scene. The encoded traffic scenes are then decoded by a trajectory decoder to generate multimodal future trajectories. Comprehensive experimental results show that the proposed approach exhibits superior performance in generating both realistic and diverse trajectories, showing its potential for integration into automatic driving simulation systems. Our code is available at https://github.com/yangchen1997/WcDT.",
+      "year": 2025,
+      "authors": [
+        "Yang Chen",
+        "Yangfan He",
+        "Aaron Xuxiang Tian",
+        "Dong Chen",
+        "Jianhui Wang",
+        "Tianyu Shi",
+        "Arsalan Heydarian",
+        "Pei Liu"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 53,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.02082",
+      "url": "https://openalex.org/W4413945198",
+      "key": "openalex_101109_icra55743202511127600_Wcdt_World-Centric_Diffusion_Transformer_for_Traffic",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra55743202511127600_Wcdt_World-Centric_Diffusion_Transformer_for_Traffic.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W2940718442",
+      "doi": "10.1109/iccv.2019.00246",
+      "title": "The Trajectron: Probabilistic Multi-Agent Trajectory Modeling With Dynamic Spatiotemporal Graphs",
+      "abstract": "Developing safe human-robot interaction systems is a necessary step towards the widespread integration of autonomous agents in society. A key component of such systems is the ability to reason about the many potential futures (e.g. trajectories) of other agents in the scene. Towards this end, we present the Trajectron, a graph-structured model that predicts many potential future trajectories of multiple agents simultaneously in both highly dynamic and multimodal scenarios (i.e. where the number of agents in the scene is time-varying and there are many possible highly-distinct futures for each agent). It combines tools from recurrent sequence modeling and variational deep generative modeling to produce a distribution of future trajectories for each agent in a scene. We demonstrate the performance of our model on several datasets, obtaining state-of-the-art results on standard trajectory prediction metrics as well as introducing a new metric for comparing models that output distributions.",
+      "year": 2019,
+      "authors": [
+        "Boris Ivanovic",
+        "Marco Pavone"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 612,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1810.05993",
+      "url": "https://openalex.org/W2940718442",
+      "key": "openalex_101109_iccv201900246_The_Trajectron_Probabilistic_Multi-Agent_Trajectory_Modeling",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv201900246_The_Trajectron_Probabilistic_Multi-Agent_Trajectory_Modeling.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4401415045",
+      "doi": "10.1109/icra57147.2024.10610944",
+      "title": "MATRIX: Multi-Agent Trajectory Generation with Diverse Contexts",
+      "abstract": "Data-driven methods have great advantages in modeling complicated human behavioral dynamics and dealing with many human-robot interaction applications. However, collecting massive and annotated real-world human datasets has been a laborious task, especially for highly interactive scenarios. On the other hand, algorithmic data generation methods are usually limited by their model capacities, making them unable to offer realistic and diverse data needed by various application users. In this work, we study trajectory-level data generation for multi-human or human-robot interaction scenarios and propose a learning-based automatic trajectory generation model, which we call Multi-Agent TRajectory generation with dIverse conteXts (MATRIX). MATRIX is capable of generating interactive human behaviors in realistic diverse contexts. We achieve this goal by modeling the explicit and interpretable objectives so that MATRIX can generate human motions based on diverse destinations and heterogeneous behaviors. We carried out extensive comparison and ablation studies to illustrate the effectiveness of our approach across various metrics. We also presented experiments that demonstrate the capability of MATRIX to serve as data augmentation for imitation-based motion planning.",
+      "year": 2024,
+      "authors": [
+        "Zhuo Xu",
+        "Rui Hong Zhou",
+        "Yida Yin",
+        "Huidong Gao",
+        "Masayoshi Tomizuka",
+        "Jiachen Li"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 17,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.06041",
+      "url": "https://openalex.org/W4401415045",
+      "key": "openalex_101109_icra57147202410610944_MATRIX_Multi-Agent_Trajectory_Generation_with_Divers",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra57147202410610944_MATRIX_Multi-Agent_Trajectory_Generation_with_Divers.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4414247648",
+      "doi": "10.1145/3719545.3720337",
+      "title": "Multi-Agent Trajectory Prediction with Scalable Diffusion Transformer",
+      "abstract": "Accurate prediction of multi-agent spatiotemporal systems is critical to various real-world applications, such as autonomous driving, sports, and multiplayer games. Unfortunately, modeling multi-agent trajectories is challenging due to its complicated, interactive, and multi-modal nature. Recently, diffusion models have achieved great success in modeling multi-modal distribution and trajectory generation, showing promising ability in resolving this problem. Motivated by this, in this paper, we propose a novel multi-agent trajectory prediction framework, dubbed Scalable Diffusion Transformer (SDT), which is naturally designed to learn the complicated distribution and implicit interactions among agents. We evaluate SDT on a set of real-world benchmark datasets and compare it with representative baseline methods, which demonstrates the better multi-agent trajectory prediction ability of SDT in terms of accuracy and diversity.",
+      "year": 2024,
+      "authors": [
+        "Shenyu Zhang",
+        "Shixiong Kai",
+        "Chang Chen",
+        "Yuzheng Zhuang",
+        "Zhengbang Zhu",
+        "Minghuan Liu",
+        "Weinan Zhang"
+      ],
+      "venue": "",
+      "cited_by": 4,
+      "is_oa": true,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3719545.3720337",
+      "url": "https://openalex.org/W4414247648",
+      "key": "openalex_101145_37195453720337_Multi-Agent_Trajectory_Prediction_with_Scalable_Diffusion_T",
+      "file_kind": "txt",
+      "file": "openalex_101145_37195453720337_Multi-Agent_Trajectory_Prediction_with_Scalable_Diffusion_T.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3206458928",
+      "doi": "10.48550/arxiv.2110.06607",
+      "title": "THOMAS: Trajectory Heatmap Output with learned Multi-Agent Sampling",
+      "abstract": "In this paper, we propose THOMAS, a joint multi-agent trajectory prediction framework allowing for an efficient and consistent prediction of multi-agent multi-modal trajectories. We present a unified model architecture for simultaneous agent future heatmap estimation, in which we leverage hierarchical and sparse image generation for fast and memory-efficient inference. We propose a learnable trajectory recombination model that takes as input a set of predicted trajectories for each agent and outputs its consistent reordered recombination. This recombination module is able to realign the initially independent modalities so that they do no collide and are coherent with each other. We report our results on the Interaction multi-agent prediction challenge and rank $1^{st}$ on the online test leaderboard.",
+      "year": 2021,
+      "authors": [
+        "Thomas Gilles",
+        "Sabatini, Stefano",
+        "Dzmitry Tsishkou",
+        "Bogdan Stanciulescu",
+        "Fabien Moutarde"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 192,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2110.06607",
+      "url": "https://openalex.org/W3206458928",
+      "key": "openalex_1048550_arxiv211006607_THOMAS_Trajectory_Heatmap_Output_with_learned_Multi-Agent_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv211006607_THOMAS_Trajectory_Heatmap_Output_with_learned_Multi-Agent_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415314490",
+      "doi": "10.1109/icra57385.2026.11695998",
+      "title": "TransDiffuser: Diverse Trajectory Generation with Decorrelated Multi-modal Representation for End-to-end Autonomous Driving",
+      "abstract": "In recent years, diffusion models have demonstrated remarkable potential across diverse domains, from vision generation to language modeling. Transferring its generative capabilities to modern end-to-end autonomous driving systems has also emerged as a promising direction. However, existing diffusion-based trajectory generative models often exhibit mode collapse where different random noises converge to similar trajectories after the denoising process.Therefore, state-of-the-art models often rely on anchored trajectories from pre-defined trajectory vocabulary or scene priors in the training set to mitigate collapse and enrich the diversity of generated trajectories, but such inductive bias are not available in real-world deployment, which can be challenged when generalizing to unseen scenarios. In this work, we investigate the possibility of effectively tackling the mode collapse challenge without the assumption of pre-defined trajectory vocabulary or pre-computed scene priors. Specifically, we propose TransDiffuser, an encoder-decoder based generative trajectory planning model, where the encoded scene information and motion states serve as the multi-modal conditional input of the denoising decoder. Different from existing approaches, we exploit a simple yet effective multi-modal representation decorrelation optimization mechanism during the denoising process to enrich the latent representation space which better guides the downstream generation. Without any predefined trajectory anchors or pre-computed scene priors, TransDiffuser achieves the PDMS of 94.85 on the closed-loop planning-oriented benchmark NAVSIM, surpassing previous state-of-the-art methods. Qualitative evaluation further showcases TransDiffuser generates more diverse and plausible trajectories which explore more drivable area.",
+      "year": 2026,
+      "authors": [
+        "Xuefeng Jiang",
+        "Yuan Ma",
+        "Pengxiang Li",
+        "Leimeng Xu",
+        "Xin Wen",
+        "Kun Zhan",
+        "Zhongpu Xia",
+        "Peng Jia",
+        "Xianpeng Lang",
+        "Sheng Sun"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 25,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.09315",
+      "url": "https://openalex.org/W4415314490",
+      "key": "openalex_101109_icra57385202611695998_TransDiffuser_Diverse_Trajectory_Generation_with_Dec",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra57385202611695998_TransDiffuser_Diverse_Trajectory_Generation_with_Dec.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413145448",
+      "doi": "10.1109/cvpr52734.2025.00157",
+      "title": "GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving",
+      "abstract": "We propose GoalFlow, an end-to-end autonomous driving method for generating high-quality multimodal trajectories. In autonomous driving scenarios, there is rarely a single suitable trajectory. Recent methods have increasingly focused on modeling multimodal trajectory distributions. However, they suffer from trajectory selection complexity and reduced trajectory quality due to high trajectory divergence and inconsistencies between guidance and scene information. To address these issues, we introduce GoalFlow, a novel method that effectively constrains the generative process to produce high-quality, multimodal trajectories. To resolve the trajectory divergence problem inherent in diffusion-based methods, GoalFlow constrains the generated trajectories by introducing a goal point. GoalFlow establishes a novel scoring mechanism that selects the most appropriate goal point from the candidate points based on scene information. Furthermore, GoalFlow employs an efficient generative method, Flow Matching, to generate multimodal trajectories, and incorporates a refined scoring mechanism to select the optimal trajectory from the candidates. Our experimental results, validated on the Navsim[7], demonstrate that GoalFlow achieves state-of-the-art performance, delivering robust multimodal trajectories for autonomous driving. GoalFlow achieved PDMS of 90.3, significantly surpassing other methods. Compared with other diffusion-policy-based methods, our approach requires only a single denoising step to obtain excellent performance. The code is available at https://github.com/YvanYin/GoalFlow.",
+      "year": 2025,
+      "authors": [
+        "Zebin Xing",
+        "Xingyu Zhang",
+        "Yang Hu",
+        "Bo Jiang",
+        "Tong He",
+        "Qian Zhang",
+        "Xiaoxiao Long",
+        "Wei Hong Yin"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 220,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.05689",
+      "url": "https://openalex.org/W4413145448",
+      "key": "openalex_101109_cvpr52734202500157_GoalFlow_Goal-Driven_Flow_Matching_for_Multimodal_Traje",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202500157_GoalFlow_Goal-Driven_Flow_Matching_for_Multimodal_Traje.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3099354210",
+      "doi": "10.48550/arxiv.2003.13924",
+      "title": "EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning",
+      "abstract": "Multi-agent interacting systems are prevalent in the world, from pure physical systems to complicated social dynamic systems. In many applications, effective understanding of the situation and accurate trajectory prediction of interactive agents play a significant role in downstream tasks, such as decision making and planning. In this paper, we propose a generic trajectory forecasting framework (named EvolveGraph) with explicit relational structure recognition and prediction via latent interaction graphs among multiple heterogeneous, interactive agents. Considering the uncertainty of future behaviors, the model is designed to provide multi-modal prediction hypotheses. Since the underlying interactions may evolve even with abrupt changes, and different modalities of evolution may lead to different outcomes, we address the necessity of dynamic relational reasoning and adaptively evolving the interaction graphs. We also introduce a double-stage training pipeline which not only improves training efficiency and accelerates convergence, but also enhances model performance. The proposed framework is evaluated on both synthetic physics simulations and multiple real-world benchmark datasets in various areas. The experimental results illustrate that our approach achieves state-of-the-art performance in terms of prediction accuracy.",
+      "year": 2020,
+      "authors": [
+        "Jiachen Li",
+        "Fan Yang",
+        "Masayoshi Tomizuka",
+        "Chiho Choi"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 292,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W3099354210",
+      "key": "openalex_1048550_arxiv200313924_EvolveGraph_Multi-Agent_Trajectory_Prediction_with_Dynamic",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv200313924_EvolveGraph_Multi-Agent_Trajectory_Prediction_with_Dynamic.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4390788068",
+      "doi": "10.1109/tpami.2024.3352811",
+      "title": "MTR++: Multi-Agent Motion Prediction With Symmetric Scene Modeling and Guided Intention Querying",
+      "abstract": "Motion prediction is crucial for autonomous driving systems to understand complex driving scenarios and make informed decisions. However, this task is challenging due to the diverse behaviors of traffic participants and complex environmental contexts. In this paper, we propose Motion TRansformer (MTR) frameworks to address these challenges. The initial MTR framework utilizes a transformer encoder-decoder structure with learnable intention queries, enabling efficient and accurate prediction of future trajectories. By customizing intention queries for distinct motion modalities, MTR improves multimodal motion prediction while reducing reliance on dense goal candidates. The framework comprises two essential processes: global intention localization, identifying the agent's intent to enhance overall efficiency, and local movement refinement, adaptively refining predicted trajectories for improved accuracy. Moreover, we introduce an advanced MTR++ framework, extending the capability of MTR to simultaneously predict multimodal motion for multiple agents. MTR++ incorporates symmetric context modeling and mutually-guided intention querying modules to facilitate future behavior interaction among multiple agents, resulting in scene-compliant future trajectories. Extensive experimental results demonstrate that the MTR framework achieves state-of-the-art performance on the highly-competitive motion prediction benchmarks, while the MTR++ framework surpasses its precursor, exhibiting enhanced performance and efficiency in predicting accurate multimodal future trajectories for multiple agents.",
+      "year": 2024,
+      "authors": [
+        "Shaoshuai Shi",
+        "Li Jiang",
+        "Dengxin Dai",
+        "Bernt Schiele"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "cited_by": 325,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.17770",
+      "url": "https://openalex.org/W4390788068",
+      "key": "openalex_101109_tpami20243352811_MTR_Multi-Agent_Motion_Prediction_With_Symmetric_Scene_Mo",
+      "file_kind": "txt",
+      "file": "openalex_101109_tpami20243352811_MTR_Multi-Agent_Motion_Prediction_With_Symmetric_Scene_Mo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7137987599",
+      "doi": "10.1609/aaai.v40i10.37758",
+      "title": "FantasyHSI: Video-Generation-Centric 4D Human Synthesis in Any Scene Through a Graph-Based Multi-Agent Framework",
+      "abstract": "Human-Scene Interaction (HSI) seeks to generate realistic human behaviors within complex environments, yet it faces significant challenges in handling long-horizon, high-level tasks and generalizing to unseen scenes. To address these limitations, we introduce FantasyHSI, a novel HSI framework centered on video generation and multi-agent systems that operates without paired data. We model the complex interaction process as a dynamic directed graph, upon which we build a collaborative multi-agent system. This system comprises a scene navigator agent for environmental perception and high-level path planning, and a planning agent that decomposes long-horizon goals into atomic actions. Critically, we introduce a critic agent that establishes a closed-loop feedback mechanism by evaluating the deviation between generated actions and the planned path. This allows for the dynamic correction of trajectory drifts caused by the stochasticity of the generative model, thereby ensuring long-term logical consistency. To enhance the physical realism of the generated motions, we leverage Direct Preference Optimization (DPO) to train the action generator, significantly reducing artifacts such as limb distortion and foot-sliding. Extensive experiments on our custom SceneBench benchmark demonstrate that FantasyHSI significantly outperforms existing methods in terms of generalization, long-horizon task completion, and physical realism.",
+      "year": 2026,
+      "authors": [
+        "Lingzhou Mu",
+        "Wang Qiang",
+        "Fan Jiang",
+        "Mengchao Wang",
+        "Mu Xu",
+        "Kai Zhang"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 3,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7137987599",
+      "also_doi": [
+        "10.48448/35j7-k853"
+      ],
+      "key": "openalex_101609_aaaiv40i1037758_FantasyHSI_Video-Generation-Centric_4D_Human_Synthesis_in_",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv40i1037758_FantasyHSI_Video-Generation-Centric_4D_Human_Synthesis_in_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416830883",
+      "doi": "10.48550/arxiv.2509.22522",
+      "title": "JointDiff: Bridging Continuous and Discrete in Multi-Agent Trajectory Generation",
+      "abstract": "Generative models often treat continuous data and discrete events as separate processes, creating a gap in modeling complex systems where they interact synchronously. To bridge this gap, we introduce JointDiff, a novel diffusion framework designed to unify these two processes by simultaneously generating continuous spatio-temporal data and synchronous discrete events. We demonstrate its efficacy in the sports domain by simultaneously modeling multi-agent trajectories and key possession events. This joint modeling is validated with non-controllable generation and two novel controllable generation scenarios: weak-possessor-guidance, which offers flexible semantic control over game dynamics through a simple list of intended ball possessors, and text-guidance, which enables fine-grained, language-driven generation. To enable the conditioning with these guidance signals, we introduce CrossGuid, an effective conditioning operation for multi-agent domains. We also share a new unified sports benchmark enhanced with textual descriptions for soccer and football datasets. JointDiff achieves state-of-the-art performance, demonstrating that joint modeling is crucial for building realistic and controllable generative models for interactive systems. https://guillem-cf.github.io/JointDiff/",
+      "year": 2026,
+      "authors": [
+        "Guillem Capellera",
+        "Luis Ferraz",
+        "Rubio, Antonio",
+        "Alexandre Alahi",
+        "Antonio Agudo"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 7,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/7ad65363050e550c5234c4365a93442c-Paper-Conference.pdf",
+      "url": "https://openalex.org/W4416830883",
+      "key": "openalex_1048550_arxiv250922522_JointDiff_Bridging_Continuous_and_Discrete_in_Multi-Agent_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250922522_JointDiff_Bridging_Continuous_and_Discrete_in_Multi-Agent_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3180212133",
+      "doi": "10.1016/j.patcog.2021.108136",
+      "title": "Human trajectory prediction and generation using LSTM models and GANs",
+      "abstract": "",
+      "year": 2021,
+      "authors": [
+        "Luca Rossi",
+        "Marina Paolanti",
+        "Roberto Pierdicca",
+        "Emanuele Frontoni"
+      ],
+      "venue": "Pattern Recognition",
+      "cited_by": 105,
+      "is_oa": true,
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8248611/pdf/",
+      "url": "https://openalex.org/W3180212133",
+      "key": "openalex_101016_jpatcog2021108136_Human_trajectory_prediction_and_generation_using_LSTM_mo",
+      "file_kind": "txt",
+      "file": "openalex_101016_jpatcog2021108136_Human_trajectory_prediction_and_generation_using_LSTM_mo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7234351955",
+      "doi": "10.48550/arxiv.2611.17821",
+      "title": "SceneAgent: A Multi-Agent Framework for Portable Game Scene Generation",
+      "abstract": "Moving a scene generator to a new game engine requires more than exporting its final output: planning, construction tools, and stored experience may also depend on the original backend. We present SceneAgent, a multi-agent framework for reusing the construction process and its experience across backends. A canonical SceneContext maintains the evolving world, while backend adapters isolate coordinate conventions, asset bindings, and export. Structured handoffs let fresh Builder sessions query this persistent state without inheriting the full construction transcript. Across generations, human-approved traces are distilled into asset-ID-free Layout skills and semantic Content skills that can be retrieved and recombined. We introduce GameSceneBench, comprising 69 indoor and outdoor prompts. Under a common asset and evaluation protocol, SceneAgent obtains human tie-adjusted preference scores of 78.2-89.4% against five baselines. Ablations show that reusable skills and the multi-agent protocol primarily improve prompt alignment and scene completeness, with additional runtime. Deployment in a second engine preserves the shared construction protocol and skill library while replacing backend integration components. Together, these results support separating persistent scene state, task-local reasoning, and reusable experience for portable scene construction.",
+      "year": 2026,
+      "authors": [
+        "Xingyi Li",
+        "Jiahao Yang",
+        "Yiqin Zhu",
+        "Jingwen Ye",
+        "Yang Sun",
+        "Weidong Zhang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2611.17821",
+      "url": "https://openalex.org/W7234351955",
+      "key": "openalex_1048550_arxiv261117821_SceneAgent_A_Multi-Agent_Framework_for_Portable_Game_Scene",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv261117821_SceneAgent_A_Multi-Agent_Framework_for_Portable_Game_Scene.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4230865148",
+      "doi": "10.1371/journal.pone.0253868",
+      "title": "Vehicle trajectory prediction and generation using LSTM models and GANs",
+      "abstract": "Vehicles’ trajectory prediction is a topic with growing interest in recent years, as there are applications in several domains ranging from autonomous driving to traffic congestion prediction and urban planning. Predicting trajectories starting from Floating Car Data (FCD) is a complex task that comes with different challenges, namely Vehicle to Infrastructure (V2I) interaction, Vehicle to Vehicle (V2V) interaction, multimodality, and generalizability. These challenges, especially, have not been completely explored by state-of-the-art works. In particular, multimodality and generalizability have been neglected the most, and this work attempts to fill this gap by proposing and defining new datasets, metrics, and methods to help understand and predict vehicle trajectories. We propose and compare Deep Learning models based on Long Short-Term Memory and Generative Adversarial Network architectures; in particular, our GAN-3 model can be used to generate multiple predictions in multimodal scenarios. These approaches are evaluated with our newly proposed error metrics N-ADE and N-FDE, which normalize some biases in the standard Average Displacement Error (ADE) and Final Displacement Error (FDE) metrics. Experiments have been conducted using newly collected datasets in four large Italian cities (Rome, Milan, Naples, and Turin), considering different trajectory lengths to analyze error growth over a larger number of time-steps. The results prove that, although LSTM-based models are superior in unimodal scenarios, generative models perform best in those where the effects of multimodality are higher. Space-time and geographical analysis are performed, to prove the suitability of the proposed methodology for real cases and management services.",
+      "year": 2021,
+      "authors": [
+        "Luca Rossi",
+        "Andrea Ajmar",
+        "Marina Paolanti",
+        "Roberto Pierdicca"
+      ],
+      "venue": "PLoS ONE",
+      "cited_by": 79,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4230865148",
+      "key": "openalex_101371_journalpone0253868_Vehicle_trajectory_prediction_and_generation_using_LSTM",
+      "file_kind": "txt",
+      "file": "openalex_101371_journalpone0253868_Vehicle_trajectory_prediction_and_generation_using_LSTM.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3213982088",
+      "doi": "10.11606/t.55.2021.tde-08112021-112852",
+      "title": "Scene compliant spatio-temporal multi-modal multi-agent long-term trajectory forecasting",
+      "abstract": "Predicting long-term human motion is challenging due to the non-linearity, multi-modality, and inherent uncertainty in future trajectories. Such type of prediction is important to ensure safety in the context of self-driving vehicles, especially when driving inside cities where vulnerable road agents, as cyclists and pedestrians, might be more commonly seen. By predicting the trajectories of surrounding agents, the self-driving car can plan safer routes and avoid possible collisions. Prior studies have used different types of input information depending on the type of agent (cars, pedestrians, or cyclists), the length of the predicted trajectory (long or short-term), and the number of predicted trajectories (unimodal or multimodal). Related work either rely on highdefinition maps or processes scene and past trajectories as disconnected features, therefore the spatial inference of context in future trajectories is lost. We propose a new approach to trajectory forecasting that aligns the input information in space and time in an agent-centered manner. By aligning the input information we can take advantage of convolutional neural networks to compute the most plausible paths. Our model automatically learns and enforces scene context and therefore can predict multiple plausible paths according to the input information. The proposed approach achieved competitive results compared to the state-of-the-art in the Stanford Drone Dataset (SDD) for long-term trajectory forecasting, using five predicted trajectories. For critical applications, like self-driving cars, it is important to predict several possible future trajectories of each target agent, as it covers a broader range of possible futures, increasing self-driving car safety. Accordingly, the prediction of trajectories is a crucial task to be developed and included in the self-driving cars pipeline.",
+      "year": 2021,
+      "authors": [
+        "Daniela A. Ridel"
+      ],
+      "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "http://www.teses.usp.br/teses/disponiveis/55/55134/tde-08112021-112852/publico/DanielaAlvesRidel_revisada.pdf",
+      "url": "https://openalex.org/W3213982088",
+      "key": "openalex_1011606_t552021tde-08112021-112852_Scene_compliant_spatio-temporal_multi-modal_mu",
+      "file_kind": "txt",
+      "file": "openalex_1011606_t552021tde-08112021-112852_Scene_compliant_spatio-temporal_multi-modal_mu.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4414432335",
+      "doi": "10.1109/case58245.2025.11163744",
+      "title": "SceneDM: Consistent Diffusion Models for Coherent Multi-agent Trajectory Generation",
+      "abstract": "Realistic multi-agent motion simulations are essential for the advancement of self-driving algorithms. However, the majority of existing works tend to overlook the kinematic realism of the simulated motions. In this paper, we present SceneDM, a novel consistent diffusion model designed to jointly generate consistent and realistic motions for all types of agents within a traffic scene. To employ temporal dependencies and improve the kinematic realism of the generated motions, we introduce an innovative constructive noise pattern alongside smoothing regularization techniques integrated into the framework of the diffusion model. Moreover, the inference procedure of this model is tailored to effectively ensure local temporal consistency. Furthermore, a scene-level scoring function is incorporated to evaluate the safety and road adherence of the generated agents’ motions, helping to filter out unrealistic simulations. Through empirical validation in the Waymo Sim Agents task, we substantiate the effectiveness of SceneDM in improving the smoothness and realism of generated agent trajectories. The project webpage is available at https://alperen-hub.github.io/SceneDM.",
+      "year": 2025,
+      "authors": [
+        "Zhiming Guo",
+        "Xing Gao",
+        "Jian-Lan Zhou",
+        "Xinyu Cai",
+        "Xuemeng Yang",
+        "Licheng Wen",
+        "Xiao Sun"
+      ],
+      "venue": "IEEE International Conference on Automation Science and Engineering (CASE)",
+      "cited_by": 5,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4414432335",
+      "key": "openalex_101109_case58245202511163744_SceneDM_Consistent_Diffusion_Models_for_Coherent_Mul",
+      "file_kind": "txt",
+      "file": "openalex_101109_case58245202511163744_SceneDM_Consistent_Diffusion_Models_for_Coherent_Mul.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3108370624",
+      "doi": "10.1109/tcyb.2020.3032711",
+      "title": "Trajectory Generation by Chance-Constrained Nonlinear MPC With Probabilistic Prediction",
+      "abstract": "Continued great efforts have been dedicated toward high-quality trajectory generation based on optimization methods; however, most of them do not suitably and effectively consider the situation with moving obstacles; and more particularly, the future position of these moving obstacles in the presence of uncertainty within some possible prescribed prediction horizon. To cater to this rather major shortcoming, this work shows how a variational Bayesian Gaussian mixture model (vBGMM) framework can be employed to predict the future trajectory of moving obstacles; and then with this methodology, a trajectory generation framework is proposed which will efficiently and effectively address trajectory generation in the presence of moving obstacles, and incorporate the presence of uncertainty within a prediction horizon. In this work, the full predictive conditional probability density function (PDF) with mean and covariance is obtained and, thus, a future trajectory with uncertainty is formulated as a collision region represented by a confidence ellipsoid. To avoid the collision region, chance constraints are imposed to restrict the collision probability, and subsequently, a nonlinear model predictive control problem is constructed with these chance constraints. It is shown that the proposed approach is able to predict the future position of the moving obstacles effectively; and, thus, based on the environmental information of the probabilistic prediction, it is also shown that the timing of collision avoidance can be earlier than the method without prediction. The tracking error and distance to obstacles of the trajectory with prediction are smaller compared with the method without prediction.",
+      "year": 2020,
+      "authors": [
+        "Xiaoxue Zhang",
+        "Jun Ma",
+        "Zilong Cheng",
+        "Sunan Huang",
+        "Shuzhi Sam Ge",
+        "Tong Heng Lee"
+      ],
+      "venue": "IEEE Transactions on Cybernetics",
+      "cited_by": 74,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2006.07907",
+      "url": "https://openalex.org/W3108370624",
+      "key": "openalex_101109_tcyb20203032711_Trajectory_Generation_by_Chance-Constrained_Nonlinear_MPC_",
+      "file_kind": "txt",
+      "file": "openalex_101109_tcyb20203032711_Trajectory_Generation_by_Chance-Constrained_Nonlinear_MPC_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7128647072",
+      "doi": "10.48550/arxiv.2602.10116",
+      "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+      "abstract": "Real-world data collection for embodied agents remains costly and unsafe, calling for scalable, realistic, and simulator-ready 3D environments. However, existing scene-generation systems often rely on rule-based or task-specific pipelines, yielding artifacts and physically invalid scenes. We present SAGE, an agentic framework that, given a user-specified embodied task (e.g., \"pick up a bowl and place it on the table\"), understands the intent and automatically generates simulation-ready environments at scale. The agent couples multiple generators for layout and object composition with critics that evaluate semantic plausibility, visual realism, and physical stability. Through iterative reasoning and adaptive tool selection, it self-refines the scenes until meeting user intent and physical validity. The resulting environments are realistic, diverse, and directly deployable in modern simulators for policy training. Policies trained purely on this data exhibit clear scaling trends and generalize to unseen objects and layouts, demonstrating the promise of simulation-driven scaling for embodied AI. Code, demos, and the SAGE-10k dataset can be found on the project page here: https://research.nvidia.com/labs/dir/sage/.",
+      "year": 2026,
+      "authors": [
+        "Hongchi Xia",
+        "Xuan Li",
+        "Zhaoshuo Li",
+        "Qianli Ma",
+        "Jiashu Xu",
+        "Ming-Yu Liu",
+        "Yin Cui",
+        "Tsung‐Yi Lin",
+        "Wei-Chiu Ma",
+        "Shenlong Wang",
+        "Shuran Song",
+        "Fangyin Wei"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 93,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.10116",
+      "url": "https://openalex.org/W7128647072",
+      "key": "openalex_1048550_arxiv260210116_SAGE_Scalable_Agentic_3D_Scene_Generation_for_Embodied_AI",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260210116_SAGE_Scalable_Agentic_3D_Scene_Generation_for_Embodied_AI.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3198662297",
+      "doi": "10.1109/cvpr46437.2021.01440",
+      "title": "LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents",
+      "abstract": "In this paper, we address the problem of predicting the future motion of a dynamic agent (called a target agent) given its current and past states as well as the information on its environment. It is paramount to develop a prediction model that can exploit the contextual information in both static and dynamic environments surrounding the target agent and generate diverse trajectory samples that are meaningful in a traffic context. We propose a novel prediction model, referred to as the lane-aware prediction (LaPred) network, which uses the instance-level lane entities extracted from a semantic map to predict the multi-modal future trajectories. For each lane candidate found in the neighborhood of the target agent, LaPred extracts the joint features relating the lane and the trajectories of the neighboring agents. Then, the features for all lane candidates are fused with the attention weights learned through a self-supervised learning task that identifies the lane candidate likely to be followed by the target agent. Using the instance-level lane information, LaPred can produce the trajectories compliant with the surroundings better than 2D raster image-based methods and generate the diverse future trajectories given multiple lane candidates. The experiments conducted on the public nuScenes dataset and Argo- verse dataset demonstrate that the proposed LaPred method significantly outperforms the existing prediction models, achieving state-of-the-art performance in the benchmarks.",
+      "year": 2021,
+      "authors": [
+        "ByeoungDo Kim",
+        "Seong Hyeon Park",
+        "Seok-Hwan Lee",
+        "Elbek Khoshimjonov",
+        "Dongsuk Kum",
+        "Junsoo Kim",
+        "Jeong Soo Kim",
+        "Jun Won Choi"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 179,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2104.00249",
+      "url": "https://openalex.org/W3198662297",
+      "key": "openalex_101109_cvpr46437202101440_LaPred_Lane-Aware_Prediction_of_Multi-Modal_Future_Traj",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr46437202101440_LaPred_Lane-Aware_Prediction_of_Multi-Modal_Future_Traj.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2203.08975v2",
+      "doi": "",
+      "title": "A Survey of Multi-Agent Deep Reinforcement Learning with Communication",
+      "abstract": "Communication is an effective mechanism for coordinating the behaviors of multiple agents, broadening their views of the environment, and to support their collaborations. In the field of multi-agent deep reinforcement learning (MADRL), agents can improve the overall learning performance and achieve their objectives by communication. Agents can communicate various types of messages, either to all agents or to specific agent groups, or conditioned on specific constraints. With the growing body of research work in MADRL with communication (Comm-MADRL), there is a lack of a systematic and structural approach to distinguish and classify existing Comm-MADRL approaches. In this paper, we survey recent works in the Comm-MADRL field and consider various aspects of communication that can play a role in designing and developing multi-agent reinforcement learning systems. With these aspects in mind, we propose 9 dimensions along which Comm-MADRL approaches can be analyzed, developed, and compared. By projecting existing works into the multi-dimensional space, we discover interesting trends. We also propose some novel directions for designing future Comm-MADRL systems through exploring possible combinations of the dimensions.",
+      "year": 2022,
+      "authors": [
+        "Changxi Zhu",
+        "Mehdi Dastani",
+        "Shihan Wang"
+      ],
+      "venue": "Auton. Agents Multi Agent Syst. 38(1): 4 (2024)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2203.08975v2",
+      "url": "http://arxiv.org/abs/2203.08975v2",
+      "key": "arxiv_220308975v2_A_Survey_of_Multi-Agent_Deep_Reinforcement_Learning_with_Communication",
+      "file_kind": "txt",
+      "file": "arxiv_220308975v2_A_Survey_of_Multi-Agent_Deep_Reinforcement_Learning_with_Communication.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.06333v3",
+      "doi": "10.1007/s10458-025-09709-5",
+      "title": "Augmenting the action space with conventions to improve multi-agent cooperation in Hanabi",
+      "abstract": "The card game Hanabi is considered a strong medium for the testing and development of multi-agent reinforcement learning (MARL) algorithms, due to its cooperative nature, partial observability, limited communication and remarkable complexity. Previous research efforts have explored the capabilities of MARL algorithms within Hanabi, focusing largely on advanced architecture design and algorithmic manipulations to achieve state-of-the-art performance for various number of cooperators. However, this often leads to complex solution strategies with high computational cost and requiring large amounts of training data. For humans to solve the Hanabi game effectively, they require the use of conventions, which often allows for a means to implicitly convey ideas or knowledge based on a predefined, and mutually agreed upon, set of \"rules\" or principles. Multi-agent problems containing partial observability, especially when limited communication is present, can benefit greatly from the use of implicit knowledge sharing. In this paper, we propose a novel approach to augmenting an agent's action space using conventions, which act as a sequence of special cooperative actions that span over and include multiple time steps and multiple agents, requiring agents to actively opt in for it to reach fruition. These conventions are based on existing human conventions, and result in a significant improvement on the performance of existing techniques for self-play and cross-play for various number of cooperators within Hanabi.",
+      "year": 2024,
+      "authors": [
+        "F. Bredell",
+        "H. A. Engelbrecht",
+        "J. C. Schoeman"
+      ],
+      "venue": "Autonomous Agents and Multi-agent Systems, vol. 39, no. 28, (2025)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.06333v3",
+      "url": "http://arxiv.org/abs/2412.06333v3",
+      "key": "arxiv_101007_s10458-025-09709-5_Augmenting_the_action_space_with_conventions_to_improve_mu",
+      "file_kind": "txt",
+      "file": "arxiv_101007_s10458-025-09709-5_Augmenting_the_action_space_with_conventions_to_improve_mu.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.13343v1",
+      "doi": "10.1007/978-3-032-13562-9_23",
+      "title": "AOAD-MAT: Transformer-based multi-agent deep reinforcement learning model considering agents' order of action decisions",
+      "abstract": "Multi-agent reinforcement learning focuses on training the behaviors of multiple learning agents that coexist in a shared environment. Recently, MARL models, such as the Multi-Agent Transformer (MAT) and ACtion dEpendent deep Q-learning (ACE), have significantly improved performance by leveraging sequential decision-making processes. Although these models can enhance performance, they do not explicitly consider the importance of the order in which agents make decisions. In this paper, we propose an Agent Order of Action Decisions-MAT (AOAD-MAT), a novel MAT model that considers the order in which agents make decisions. The proposed model explicitly incorporates the sequence of action decisions into the learning process, allowing the model to learn and predict the optimal order of agent actions. The AOAD-MAT model leverages a Transformer-based actor-critic architecture that dynamically adjusts the sequence of agent actions. To achieve this, we introduce a novel MARL architecture that cooperates with a subtask focused on predicting the next agent to act, integrated into a Proximal Policy Optimization based loss function to synergistically maximize the advantage of the sequential decision-making. The proposed method was validated through extensive experiments on the StarCraft Multi-Agent Challenge and Multi-Agent MuJoCo benchmarks. The experimental results show that the proposed AOAD-MAT model outperforms existing MAT and other baseline models, demonstrating the effectiveness of adjusting the AOAD order in MARL.",
+      "year": 2025,
+      "authors": [
+        "Shota Takayama",
+        "Katsuhide Fujita"
+      ],
+      "venue": "PRIMA 2025: Principles and Practice of Multi-Agent Systems, LNCS 16366, pp. 303-310 (2026)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.13343v1",
+      "url": "http://arxiv.org/abs/2510.13343v1",
+      "key": "arxiv_101007_978-3-032-13562-9_23_AOAD-MAT_Transformer-based_multi-agent_deep_reinforcemen",
+      "file_kind": "txt",
+      "file": "arxiv_101007_978-3-032-13562-9_23_AOAD-MAT_Transformer-based_multi-agent_deep_reinforcemen.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2604.03350v1",
+      "doi": "10.1007/978-3-032-39354-8_11",
+      "title": "From Model-Based Screening to Data-Driven Surrogates: A Multi-Stage Workflow for Exploring Stochastic Agent-Based Models",
+      "abstract": "Systematic exploration of Agent-Based Models (ABMs) is challenged by the curse of dimensionality and their inherent stochasticity. We present a multi-stage pipeline integrating the systematic design of experiments with machine learning surrogates. Using a predator-prey case study, our methodology proceeds in two steps. First, an automated model-based screening identifies dominant variables, assesses outcome variability, and segments the parameter space. Second, we train Machine Learning models to map the remaining nonlinear interaction effects. This approach automates the discovery of unstable regions where system outcomes are highly dependent on nonlinear interactions between many variables. Thus, this work provides modelers with a rigorous, hands-off framework for sensitivity analysis and policy testing, even when dealing with high-dimensional stochastic simulators.",
+      "year": 2026,
+      "authors": [
+        "Paul Saves",
+        "Matthieu Mastio",
+        "Nicolas Verstaevel",
+        "Benoit Gaudou"
+      ],
+      "venue": "Multi-Agent-Based Simulation (MABS) XXVII. LNIA Springer, 16939, 2026",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.03350v1",
+      "url": "http://arxiv.org/abs/2604.03350v1",
+      "key": "arxiv_101007_978-3-032-39354-8_11_From_Model-Based_Screening_to_Data-Driven_Surrogates_A_M",
+      "file_kind": "txt",
+      "file": "arxiv_101007_978-3-032-39354-8_11_From_Model-Based_Screening_to_Data-Driven_Surrogates_A_M.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2610.00538v1",
+      "doi": "",
+      "title": "Multi-agent Auditory Scene Analysis: Improved Localization Speed and Robustness by Multi-beamformed Speech Quality Feedback",
+      "abstract": "A real-time auditory scene analyzer (ASA) aims to carry out the tasks of locating, separating and classifying the sound sources present in a given acoustic environment. Recently, an effort has been made into modelling an ASA as a multi-agent system, with each one of its agents performing one of the aforementioned tasks and communicating their results to the rest of their peer agents. These communication routes are used as feedback loops to fix local errors at a global level, providing robustness while reducing local complexity. An example of the benefits of this approach is the optimization of speech quality by correcting in real-time the estimated location of the speech source of interest. However, their optimization speed has been shown to be considerably slow. One possible reason is that it solely relies on a series of single quality estimations (provided by a reference-free quality estimator model) that vary considerably from one window to the next, which results in a difficult search space to optimize. In this work, a new optimization mechanism is proposed that instead relies on a series of sets of quality estimations over a range of locations, providing a clearer view of the search space, simplifying its optimization. The proposed ASA now has a considerably smaller optimization time, is more accurate, and is more stable when being evaluated in real-life acoustic scenarios to correct higher levels of localization errors, all while being less complex than previous efforts. The only trade-off is that there is an increase in the response time of the quality estimation agent, but the complete ASA is still able to run in real-time. The performance shown in this work again shows the benefits of modelling an ASA as a multi-agent system.",
+      "year": 2026,
+      "authors": [
+        "Caleb Rascon"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.00538v1",
+      "url": "http://arxiv.org/abs/2610.00538v1",
+      "key": "arxiv_261000538v1_Multi-agent_Auditory_Scene_Analysis_Improved_Localization_Speed_and_Robu",
+      "file_kind": "txt",
+      "file": "arxiv_261000538v1_Multi-agent_Auditory_Scene_Analysis_Improved_Localization_Speed_and_Robu.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2102.08370v2",
+      "doi": "10.1007/s10458-022-09548-8",
+      "title": "Quantifying the effects of environment and population diversity in multi-agent reinforcement learning",
+      "abstract": "Generalization is a major challenge for multi-agent reinforcement learning. How well does an agent perform when placed in novel environments and in interactions with new co-players? In this paper, we investigate and quantify the relationship between generalization and diversity in the multi-agent domain. Across the range of multi-agent environments considered here, procedurally generating training levels significantly improves agent performance on held-out levels. However, agent performance on the specific levels used in training sometimes declines as a result. To better understand the effects of co-player variation, our experiments introduce a new environment-agnostic measure of behavioral diversity. Results demonstrate that population size and intrinsic motivation are both effective methods of generating greater population diversity. In turn, training with a diverse set of co-players strengthens agent performance in some (but not all) cases.",
+      "year": 2021,
+      "authors": [
+        "Kevin R. McKee",
+        "Joel Z. Leibo",
+        "Charlie Beattie",
+        "Richard Everett"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2102.08370v2",
+      "url": "http://arxiv.org/abs/2102.08370v2",
+      "key": "arxiv_101007_s10458-022-09548-8_Quantifying_the_effects_of_environment_and_population_dive",
+      "file_kind": "txt",
+      "file": "arxiv_101007_s10458-022-09548-8_Quantifying_the_effects_of_environment_and_population_dive.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2303.14061v4",
+      "doi": "10.1007/978-3-031-56255-6_3",
+      "title": "Learning Reward Machines in Cooperative Multi-Agent Tasks",
+      "abstract": "This paper presents a novel approach to Multi-Agent Reinforcement Learning (MARL) that combines cooperative task decomposition with the learning of reward machines (RMs) encoding the structure of the sub-tasks. The proposed method helps deal with the non-Markovian nature of the rewards in partially observable environments and improves the interpretability of the learnt policies required to complete the cooperative task. The RMs associated with each sub-task are learnt in a decentralised manner and then used to guide the behaviour of each agent. By doing so, the complexity of a cooperative multi-agent problem is reduced, allowing for more effective learning. The results suggest that our approach is a promising direction for future research in MARL, especially in complex environments with large state spaces and multiple agents.",
+      "year": 2023,
+      "authors": [
+        "Leo Ardon",
+        "Daniel Furelos-Blanco",
+        "Alessandra Russo"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.14061v4",
+      "url": "http://arxiv.org/abs/2303.14061v4",
+      "key": "arxiv_101007_978-3-031-56255-6_3_Learning_Reward_Machines_in_Cooperative_Multi-Agent_Tasks",
+      "file_kind": "txt",
+      "file": "arxiv_101007_978-3-031-56255-6_3_Learning_Reward_Machines_in_Cooperative_Multi-Agent_Tasks.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2508.08322v1",
+      "doi": "",
+      "title": "Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code",
+      "abstract": "Large Language Models (LLMs) have shown promise in automating code generation and software engineering tasks, yet they often struggle with complex, multi-file projects due to context limitations and knowledge gaps. We propose a novel context engineering workflow that combines multiple AI components: an Intent Translator (GPT-5) for clarifying user requirements, an Elicit-powered semantic literature retrieval for injecting domain knowledge, NotebookLM-based document synthesis for contextual understanding, and a Claude Code multi-agent system for code generation and validation. Our integrated approach leverages intent clarification, retrieval-augmented generation, and specialized sub-agents orchestrated via Claude's agent framework. We demonstrate that this method significantly improves the accuracy and reliability of code assistants in real-world repositories, yielding higher single-shot success rates and better adherence to project context than baseline single-agent approaches. Qualitative results on a large Next.js codebase show the multi-agent system effectively plans, edits, and tests complex features with minimal human intervention. We compare our system with recent frameworks like CodePlan, MASAI, and HyperAgent, highlighting how targeted context injection and agent role decomposition lead to state-of-the-art performance. Finally, we discuss the implications for deploying LLM-based coding assistants in production, along with lessons learned on context management and future research directions.",
+      "year": 2025,
+      "authors": [
+        "Muhammad Haseeb"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2508.08322v1",
+      "url": "http://arxiv.org/abs/2508.08322v1",
+      "key": "arxiv_250808322v1_Context_Engineering_for_Multi-Agent_LLM_Code_Assistants_Using_Elicit_Not",
+      "file_kind": "txt",
+      "file": "arxiv_250808322v1_Context_Engineering_for_Multi-Agent_LLM_Code_Assistants_Using_Elicit_Not.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.32745v1",
+      "doi": "10.1007/978-3-032-39395-1_31",
+      "title": "MORPH: Self-Organising Multi-Robot Task Allocation via Neuroplasticity-Inspired Adaptive Topology",
+      "abstract": "Multi-robot task allocation (MRTA) in dynamic environments faces a fundamental tension: effective coordination requires learned structure, but that structure must adapt when conditions change. Existing methods resolve this by assuming prior task knowledge, a utility function, a cost matrix, or a trained policy making them brittle when deployed without such knowledge or when task distributions shift. We present MORPH(Multi-agent Online Rewiring through Plasticity-guided Hierarchy), a training-free MRTA framework where global allocation quality emerges from 4 local plasticity rules (synaptic, homeostatic, structural, and metaplasticity) applied to a directed pairwise preference matrix updated from runtime co-occurrence and task-completion feedback. MORPH requires no task model, no bid computation, and no offline training; response decisions use learned AGV-to-Picker preferences rather than a fixed proximity rule. Within the Gerkey-Mataric MRTA taxonomy, MORPH is the first method in the single-task, single-robot, instantaneous-assignment class to learn directed pairwise allocation preferences online. Evaluated on the TA-RWARE warehouse benchmark (8-24 agents, 4 maps, 800 steps per episode, 5 seeds), MORPH achieves 110% of all-to-all throughput at N=24 while using only 21% of possible coordination links as an efficiency advantage that grows monotonically with fleet size. Under spatial task distribution shift, MORPH degrades 3x less than proximity-based methods while its learned preferences remain uncorrelated with Manhattan distance. Systematic ablation confirms all four plasticity rules contribute measurably. Two allocation properties emerge without programming: cross-type preference dominance and progressive preference sparsification, mirroring the developmental refinement of biological neural circuits. Learned preferences are driven by task co-occurrence history, not spatial proximity.",
+      "year": 2026,
+      "authors": [
+        "Xuezhi Niu",
+        "Didem Gürdür Broo"
+      ],
+      "venue": "In Multi-Agent Systems, EUMAS 2026, LNCS 16829, Springer, 2026",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.32745v1",
+      "url": "http://arxiv.org/abs/2609.32745v1",
+      "key": "arxiv_101007_978-3-032-39395-1_31_MORPH_Self-Organising_Multi-Robot_Task_Allocation_via_Ne",
+      "file_kind": "txt",
+      "file": "arxiv_101007_978-3-032-39395-1_31_MORPH_Self-Organising_Multi-Robot_Task_Allocation_via_Ne.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.04518v1",
+      "doi": "10.1007/s10458-026-09732-0",
+      "title": "Learning the Value Systems of Agents with Preference-based and Inverse Reinforcement Learning",
+      "abstract": "Agreement Technologies refer to open computer systems in which autonomous software agents interact with one another, typically on behalf of humans, in order to come to mutually acceptable agreements. With the advance of AI systems in recent years, it has become apparent that such agreements, in order to be acceptable to the involved parties, must remain aligned with ethical principles and moral values. However, this is notoriously difficult to ensure, especially as different human users (and their software agents) may hold different value systems, i.e. they may differently weigh the importance of individual moral values. Furthermore, it is often hard to specify the precise meaning of a value in a particular context in a computational manner. Methods to estimate value systems based on human-engineered specifications, e.g. based on value surveys, are limited in scale due to the need for intense human moderation. In this article, we propose a novel method to automatically \\emph{learn} value systems from observations and human demonstrations. In particular, we propose a formal model of the \\emph{value system learning} problem, its instantiation to sequential decision-making domains based on multi-objective Markov decision processes, as well as tailored preference-based and inverse reinforcement learning algorithms to infer value grounding functions and value systems. The approach is illustrated and evaluated by two simulated use cases.",
+      "year": 2026,
+      "authors": [
+        "Andrés Holgado-Sánchez",
+        "Holger Billhardt",
+        "Alberto Fernández",
+        "Sascha Ossowski"
+      ],
+      "venue": "Holgado-Sánchez, A., Billhardt, H., Fernández, A., Ossowski, S. Learning the value systems of agents with preference-based and inverse reinforcement learning. Autonomous Agents Multi-Agent Systems 40, 4 (2026)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.04518v1",
+      "url": "http://arxiv.org/abs/2602.04518v1",
+      "key": "arxiv_101007_s10458-026-09732-0_Learning_the_Value_Systems_of_Agents_with_Preference-based",
+      "file_kind": "txt",
+      "file": "arxiv_101007_s10458-026-09732-0_Learning_the_Value_Systems_of_Agents_with_Preference-based.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2110.08172v2",
+      "doi": "10.1007/978-3-030-88549-6_4",
+      "title": "MLFC: From 10 to 50 Planners in the Multi-Agent Programming Contest",
+      "abstract": "In this paper, we describe the strategies used by our team, MLFC, that led us to achieve the 2nd place in the 15th edition of the Multi-Agent Programming Contest. The scenario used in the contest is an extension of the previous edition (14th) \"Agents Assemble\" wherein two teams of agents move around a 2D grid and compete to assemble complex block structures. We discuss the languages and tools used during the development of our team. Then, we summarise the main strategies that were carried over from our previous participation in the 14th edition and list the limitations (if any) of using these strategies in the latest contest edition. We also developed new strategies that were made specifically for the extended scenario: cartography (determining the size of the map); formal verification of the map merging protocol (to provide assurances that it works when increasing the number of agents); plan cache (efficiently scaling the number of planners); task achievement (forming groups of agents to achieve tasks); and bullies (agents that focus on stopping agents from the opposing team). Finally, we give a brief overview of our performance in the contest and discuss what we believe were our shortcomings.",
+      "year": 2021,
+      "authors": [
+        "Rafael C. Cardoso",
+        "Angelo Ferrando",
+        "Fabio Papacchini",
+        "Matt Luckcuck",
+        "Sven Linker",
+        "Terry R. Payne"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2110.08172v2",
+      "url": "http://arxiv.org/abs/2110.08172v2",
+      "key": "arxiv_101007_978-3-030-88549-6_4_MLFC_From_10_to_50_Planners_in_the_Multi-Agent_Programmin",
+      "file_kind": "txt",
+      "file": "arxiv_101007_978-3-030-88549-6_4_MLFC_From_10_to_50_Planners_in_the_Multi-Agent_Programmin.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2603.15054v1",
+      "doi": "",
+      "title": "Interference-Aware K-Step Reachable Communication in Multi-Agent Reinforcement Learning",
+      "abstract": "Effective communication is pivotal for addressing complex collaborative tasks in multi-agent reinforcement learning (MARL). Yet, limited communication bandwidth and dynamic, intricate environmental topologies present significant challenges in identifying high-value communication partners. Agents must consequently select collaborators under uncertainty, lacking a priori knowledge of which partners can deliver task-critical information. To this end, we propose Interference-Aware K-Step Reachable Communication (IA-KRC), a novel framework that enhances cooperation via two core components: (1) a K-Step reachability protocol that confines message passing to physically accessible neighbors, and (2) an interference-prediction module that optimizes partner choice by minimizing interference while maximizing utility. Compared to existing methods, IA-KRC enables substantially more persistent and efficient cooperation despite environmental interference. Comprehensive evaluations confirm that IA-KRC achieves superior performance compared to state-of-the-art baselines, while demonstrating enhanced robustness and scalability in complex topological and highly dynamic multi-agent scenarios.",
+      "year": 2026,
+      "authors": [
+        "Ziyu Cheng",
+        "Jinsheng Ren",
+        "Zhouxian Jiang",
+        "Chenzhihang Li",
+        "Rongye Shi",
+        "Bin Liang",
+        "Jun Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.15054v1",
+      "url": "http://arxiv.org/abs/2603.15054v1",
+      "key": "arxiv_260315054v1_Interference-Aware_K-Step_Reachable_Communication_in_Multi-Agent_Reinfor",
+      "file_kind": "txt",
+      "file": "arxiv_260315054v1_Interference-Aware_K-Step_Reachable_Communication_in_Multi-Agent_Reinfor.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.05449v1",
+      "doi": "",
+      "title": "Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications",
+      "abstract": "AI agents powered by large language models (LLMs) have shown strong capabilities in problem solving. Through combining many intelligent agents, multi-agent collaboration has emerged as a promising approach to tackle complex, multi-faceted problems that exceed the capabilities of single AI agents. However, designing the collaboration protocols and evaluating the effectiveness of these systems remains a significant challenge, especially for enterprise applications. This report addresses these challenges by presenting a comprehensive evaluation of coordination and routing capabilities in a novel multi-agent collaboration framework. We evaluate two key operational modes: (1) a coordination mode enabling complex task completion through parallel communication and payload referencing, and (2) a routing mode for efficient message forwarding between agents. We benchmark on a set of handcrafted scenarios from three enterprise domains, which are publicly released with the report. For coordination capabilities, we demonstrate the effectiveness of inter-agent communication and payload referencing mechanisms, achieving end-to-end goal success rates of 90%. Our analysis yields several key findings: multi-agent collaboration enhances goal success rates by up to 70% compared to single-agent approaches in our benchmarks; payload referencing improves performance on code-intensive tasks by 23%; latency can be substantially reduced with a routing mechanism that selectively bypasses agent orchestration. These findings offer valuable guidance for enterprise deployments of multi-agent systems and advance the development of scalable, efficient multi-agent collaboration frameworks.",
+      "year": 2024,
+      "authors": [
+        "Raphael Shu",
+        "Nilaksh Das",
+        "Michelle Yuan",
+        "Monica Sunkara",
+        "Yi Zhang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.05449v1",
+      "url": "http://arxiv.org/abs/2412.05449v1",
+      "key": "arxiv_241205449v1_Towards_Effective_GenAI_Multi-Agent_Collaboration_Design_and_Evaluation_",
+      "file_kind": "txt",
+      "file": "arxiv_241205449v1_Towards_Effective_GenAI_Multi-Agent_Collaboration_Design_and_Evaluation_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.19641v1",
+      "doi": "",
+      "title": "Energy-Optimal Multi-Agent Navigation as a Strategic-Form Game",
+      "abstract": "This extended abstracts presents a method to generate energy-optimal trajectories for multi-agent systems as a strategic-form game. Using recent results in optimal control, we demonstrate that an energy-optimal trajectory can be generated in milliseconds if the sequence of constraint activations is known a priori. Thus, rather than selecting an infinite-dimensional action from a function space, the agents select their actions from a finite number of constraints and determine the time that each becomes active. Furthermore, the agents can exactly encode their trajectory in a set of real numbers, rather than communicating their control action as an infinite-dimensional function. We demonstrate the performance of this algorithm in simulation and find an optimal trajectory in 45 milliseconds on a tablet PC.",
+      "year": 2024,
+      "authors": [
+        "Logan Beaver"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.19641v1",
+      "url": "http://arxiv.org/abs/2403.19641v1",
+      "key": "arxiv_240319641v1_Energy-Optimal_Multi-Agent_Navigation_as_a_Strategic-Form_Game",
+      "file_kind": "txt",
+      "file": "arxiv_240319641v1_Energy-Optimal_Multi-Agent_Navigation_as_a_Strategic-Form_Game.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.38327v2",
+      "doi": "",
+      "title": "Absorbing State Phase Transitions in Multi-Agent Search",
+      "abstract": "Nontrivial dynamics can emerge in large language model (LLM)-based multi-agent systems, and preliminary evidence exists that formalisms from statistical mechanics can be effective at modeling and predicting such behaviors. In parallel, designing multi-agent communication topology for optimal task-solving is an active research question. In this paper, we focus on predicting the success of multi-agent search tasks using the formalism of absorbing state phase transitions. We first taxonomize search tasks into four types, informed by classical results in combinatorial search. We then theoretically derive a critical communication degree $d_c$, the minimum number of agents each agent can communicate with, above which incorrect hypotheses do not proliferate uncontrollably and the search enters the solved state. Finally, we evaluate frontier LLM-based multi-agent systems on real-world search and discovery tasks, software configuration debugging and physical mechanism discovery, and find that agreement with theory is mixed. LLM agents may not communicate with their neighbors and can develop strategies that are individually beneficial but limits the benefits of collaboration.",
+      "year": 2026,
+      "authors": [
+        "Wenwen Zheng",
+        "Yuzhe Yang",
+        "Helen Qu",
+        "Xin Eric Wang",
+        "Haewon Jeong"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.38327v2",
+      "url": "http://arxiv.org/abs/2609.38327v2",
+      "key": "arxiv_260938327v2_Absorbing_State_Phase_Transitions_in_Multi-Agent_Search",
+      "file_kind": "txt",
+      "file": "arxiv_260938327v2_Absorbing_State_Phase_Transitions_in_Multi-Agent_Search.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2309.00985v1",
+      "doi": "",
+      "title": "Multi-agent Collective Construction using 3D Decomposition",
+      "abstract": "This paper addresses a Multi-Agent Collective Construction (MACC) problem that aims to build a three-dimensional structure comprised of cubic blocks. We use cube-shaped robots that can carry one cubic block at a time, and move forward, reverse, left, and right to an adjacent cell of the same height or climb up and down one cube height. To construct structures taller than one cube, the robots must build supporting stairs made of blocks and remove the stairs once the structure is built. Conventional techniques solve for the entire structure at once and quickly become intractable for larger workspaces and complex structures, especially in a multi-agent setting. To this end, we present a decomposition algorithm that computes valid substructures based on intrinsic structural dependencies. We use Mixed Integer Linear Programming (MILP) to solve for each of these substructures and then aggregate the solutions to construct the entire structure. Extensive testing on 200 randomly generated structures shows an order of magnitude improvement in the solution computation time compared to an MILP approach without decomposition. Additionally, compared to Reinforcement Learning (RL) based and heuristics-based approaches drawn from the literature, our solution indicates orders of magnitude improvement in the number of pick-up and drop-off actions required to construct a structure. Furthermore, we leverage the independence between substructures to detect which sub-structures can be built in parallel. With this parallelization technique, we illustrate a further improvement in the number of time steps required to complete building the structure. This work is a step towards applying multi-agent collective construction for real-world structures by significantly reducing solution computation time with a bounded increase in the number of time steps required to build the structure.",
+      "year": 2023,
+      "authors": [
+        "Akshaya Kesarimangalam Srinivasan",
+        "Shambhavi Singh",
+        "Geordan Gutow",
+        "Howie Choset",
+        "Bhaskar Vundurthy"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2309.00985v1",
+      "url": "http://arxiv.org/abs/2309.00985v1",
+      "key": "arxiv_230900985v1_Multi-agent_Collective_Construction_using_3D_Decomposition",
+      "file_kind": "txt",
+      "file": "arxiv_230900985v1_Multi-agent_Collective_Construction_using_3D_Decomposition.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2511.03958v1",
+      "doi": "10.5281/zenodo.15870246",
+      "title": "Multi-Agent Collaborative Framework For Math Problem Generation",
+      "abstract": "Automatic question generation (AQG) for mathematics education remains an elusive goal for Intelligent Tutoring Systems and educators. While pre-trained transformer-based language models have significantly advanced natural language generation, they often struggle to precisely control problem complexity and cognitive demands. In this paper, we introduce a collaborative multi-agent framework as a novel method of incorporating inference-time computation into AQG. This approach leverages multiple agents that iteratively refine generated question-answer pairs to better balance complexity and cognitive demand. We evaluate the generated questions on five meta-evaluation criteria: relevance, importance, clarity, difficulty matching, answerability, to assess the system's ability to control the required complexity and quality of the questions. Preliminary evaluations show that this collaborative multi-agent framework elevates the quality of generated educational content by fostering a more nuanced balance between cognitive challenge and clarity. These promising outcomes suggest that integrating collaborative multi-agent workflows can yield more controlled, pedagogically valuable content that can help advance automated educational content generation and adaptive learning environments.",
+      "year": 2025,
+      "authors": [
+        "Kia Karbasi",
+        "Kevin Hong",
+        "Mohammad Amin Samadi",
+        "Gregory Pottie"
+      ],
+      "venue": "Kia Karbasi, Kevin Hong, Mohammad Amin Samadi, & Gregory Pottie. (2025). Multi-Agent Collaborative Framework For Math Problem Generation. Proceedings of the 18th International Conference on Educational Data Mining, 613--618",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.03958v1",
+      "url": "http://arxiv.org/abs/2511.03958v1",
+      "key": "arxiv_105281_zenodo15870246_Multi-Agent_Collaborative_Framework_For_Math_Problem_Generatio",
+      "file_kind": "txt",
+      "file": "arxiv_105281_zenodo15870246_Multi-Agent_Collaborative_Framework_For_Math_Problem_Generatio.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.03053v2",
+      "doi": "",
+      "title": "MAEBE: Multi-Agent Emergent Behavior Framework",
+      "abstract": "Traditional AI safety evaluations on isolated LLMs are insufficient as multi-agent AI ensembles become prevalent, introducing novel emergent risks. This paper introduces the Multi-Agent Emergent Behavior Evaluation (MAEBE) framework to systematically assess such risks. Using MAEBE with the Greatest Good Benchmark (and a novel double-inversion question technique), we demonstrate that: (1) LLM moral preferences, particularly for Instrumental Harm, are surprisingly brittle and shift significantly with question framing, both in single agents and ensembles. (2) The moral reasoning of LLM ensembles is not directly predictable from isolated agent behavior due to emergent group dynamics. (3) Specifically, ensembles exhibit phenomena like peer pressure influencing convergence, even when guided by a supervisor, highlighting distinct safety and alignment challenges. Our findings underscore the necessity of evaluating AI systems in their interactive, multi-agent contexts.",
+      "year": 2025,
+      "authors": [
+        "Sinem Erisken",
+        "Timothy Gothard",
+        "Martin Leitgab",
+        "Ram Potham"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.03053v2",
+      "url": "http://arxiv.org/abs/2506.03053v2",
+      "key": "arxiv_250603053v2_MAEBE_Multi-Agent_Emergent_Behavior_Framework",
+      "file_kind": "txt",
+      "file": "arxiv_250603053v2_MAEBE_Multi-Agent_Emergent_Behavior_Framework.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2201.04612v1",
+      "doi": "",
+      "title": "Agent-Temporal Attention for Reward Redistribution in Episodic Multi-Agent Reinforcement Learning",
+      "abstract": "This paper considers multi-agent reinforcement learning (MARL) tasks where agents receive a shared global reward at the end of an episode. The delayed nature of this reward affects the ability of the agents to assess the quality of their actions at intermediate time-steps. This paper focuses on developing methods to learn a temporal redistribution of the episodic reward to obtain a dense reward signal. Solving such MARL problems requires addressing two challenges: identifying (1) relative importance of states along the length of an episode (along time), and (2) relative importance of individual agents' states at any single time-step (among agents). In this paper, we introduce Agent-Temporal Attention for Reward Redistribution in Episodic Multi-Agent Reinforcement Learning (AREL) to address these two challenges. AREL uses attention mechanisms to characterize the influence of actions on state transitions along trajectories (temporal attention), and how each agent is affected by other agents at each time-step (agent attention). The redistributed rewards predicted by AREL are dense, and can be integrated with any given MARL algorithm. We evaluate AREL on challenging tasks from the Particle World environment and the StarCraft Multi-Agent Challenge. AREL results in higher rewards in Particle World, and improved win rates in StarCraft compared to three state-of-the-art reward redistribution methods. Our code is available at https://github.com/baicenxiao/AREL.",
+      "year": 2022,
+      "authors": [
+        "Baicen Xiao",
+        "Bhaskar Ramasubramanian",
+        "Radha Poovendran"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2201.04612v1",
+      "url": "http://arxiv.org/abs/2201.04612v1",
+      "key": "arxiv_220104612v1_Agent-Temporal_Attention_for_Reward_Redistribution_in_Episodic_Multi-Age",
+      "file_kind": "txt",
+      "file": "arxiv_220104612v1_Agent-Temporal_Attention_for_Reward_Redistribution_in_Episodic_Multi-Age.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2208.01769v1",
+      "doi": "",
+      "title": "Deep Reinforcement Learning for Multi-Agent Interaction",
+      "abstract": "The development of autonomous agents which can interact with other agents to accomplish a given task is a core area of research in artificial intelligence and machine learning. Towards this goal, the Autonomous Agents Research Group develops novel machine learning algorithms for autonomous systems control, with a specific focus on deep reinforcement learning and multi-agent reinforcement learning. Research problems include scalable learning of coordinated agent policies and inter-agent communication; reasoning about the behaviours, goals, and composition of other agents from limited observations; and sample-efficient learning based on intrinsic motivation, curriculum learning, causal inference, and representation learning. This article provides a broad overview of the ongoing research portfolio of the group and discusses open problems for future directions.",
+      "year": 2022,
+      "authors": [
+        "Ibrahim H. Ahmed",
+        "Cillian Brewitt",
+        "Ignacio Carlucho",
+        "Filippos Christianos",
+        "Mhairi Dunion",
+        "Elliot Fosong",
+        "Samuel Garcin",
+        "Shangmin Guo",
+        "Balint Gyevnar",
+        "Trevor McInroe",
+        "Georgios Papoudakis",
+        "Arrasy Rahman",
+        "Lukas Schäfer",
+        "Massimiliano Tamborski",
+        "Giuseppe Vecchio",
+        "Cheng Wang",
+        "Stefano V. Albrecht"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2208.01769v1",
+      "url": "http://arxiv.org/abs/2208.01769v1",
+      "key": "arxiv_220801769v1_Deep_Reinforcement_Learning_for_Multi-Agent_Interaction",
+      "file_kind": "txt",
+      "file": "arxiv_220801769v1_Deep_Reinforcement_Learning_for_Multi-Agent_Interaction.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.04418v3",
+      "doi": "",
+      "title": "SPEAR: An Engineering Case Study of Multi-Agent Coordination for Smart Contract Auditing",
+      "abstract": "We present SPEAR, a multi-agent coordination framework for smart contract auditing that applies established MAS patterns in a realistic security analysis workflow. SPEAR models auditing as a coordinated mission carried out by specialized agents: a Planning Agent prioritizes contracts using risk-aware heuristics, an Execution Agent allocates tasks via the Contract Net protocol, and a Repair Agent autonomously recovers from brittle generated artifacts using a programmatic-first repair policy. Agents maintain local beliefs updated through AGM-compliant revision, coordinate via negotiation and auction protocols, and revise plans as new information becomes available. An empirical study compares the multi-agent design with centralized and pipeline-based alternatives under controlled failure scenarios, focusing on coordination, recovery behavior, and resource use.",
+      "year": 2026,
+      "authors": [
+        "Indraveni Chebolu",
+        "Arnab Mallick",
+        "Harmesh Rana"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.04418v3",
+      "url": "http://arxiv.org/abs/2602.04418v3",
+      "key": "arxiv_260204418v3_SPEAR_An_Engineering_Case_Study_of_Multi-Agent_Coordination_for_Smart_Co",
+      "file_kind": "txt",
+      "file": "arxiv_260204418v3_SPEAR_An_Engineering_Case_Study_of_Multi-Agent_Coordination_for_Smart_Co.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2603.08501v3",
+      "doi": "",
+      "title": "Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA",
+      "abstract": "Large language models (LLMs) can answer religious knowledge queries fluently, yet they often hallucinate and misattribute sources, which is especially consequential in Islamic settings where users expect grounding in canonical texts (Qur'an and Hadith) and jurisprudential (fiqh) nuance. Retrieval-augmented generation (RAG) improves grounding, however, a single retrieve-then-generate pipeline is insufficient for diverse Islamic queries, including verbatim scripture, citation-grounded guidance, and rule-constrained computations such as zakat and inheritance. To address these challenges, we present Fanar-Sadiq, a bilingual Arabic-English Islamic QA system built on a multi-agent, tool-augmented architecture. It is a core component of the Fanar AI platform. Fanar-Sadiq routes Islamic queries to specialized modules within an agentic tool architecture. It supports intent-aware routing, retrieval-grounded fiqh answers with normalized citations and verification traces, exact verse lookup with quotation validation, and deterministic Sunni zakat and inheritance calculators with madhhab-sensitive branching. We evaluate the end-to-end system on public Islamic QA benchmarks and show strong effectiveness and efficiency. It is publicly accessible through an API and Web application and has received over 1.9M accesses in less than a year (https://api.fanar.qa/docs).",
+      "year": 2026,
+      "authors": [
+        "Ummar Abbas",
+        "Mourad Ouzzani",
+        "Mohamed Y. Eltabakh",
+        "Omar Sinan",
+        "Gagan Bhatia",
+        "Hamdy Mubarak",
+        "Majd Hawasly",
+        "Mohammed Qusay Hashim",
+        "Kareem Darwish",
+        "Firoj Alam"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.08501v3",
+      "url": "http://arxiv.org/abs/2603.08501v3",
+      "key": "arxiv_260308501v3_Fanar-Sadiq_A_Multi-Agent_Architecture_for_Grounded_Islamic_QA",
+      "file_kind": "txt",
+      "file": "arxiv_260308501v3_Fanar-Sadiq_A_Multi-Agent_Architecture_for_Grounded_Islamic_QA.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2106.06828v1",
+      "doi": "",
+      "title": "A Game-Theoretic Approach to Multi-Agent Trust Region Optimization",
+      "abstract": "Trust region methods are widely applied in single-agent reinforcement learning problems due to their monotonic performance-improvement guarantee at every iteration. Nonetheless, when applied in multi-agent settings, the guarantee of trust region methods no longer holds because an agent's payoff is also affected by other agents' adaptive behaviors. To tackle this problem, we conduct a game-theoretical analysis in the policy space, and propose a multi-agent trust region learning method (MATRL), which enables trust region optimization for multi-agent learning. Specifically, MATRL finds a stable improvement direction that is guided by the solution concept of Nash equilibrium at the meta-game level. We derive the monotonic improvement guarantee in multi-agent settings and empirically show the local convergence of MATRL to stable fixed points in the two-player rotational differential game. To test our method, we evaluate MATRL in both discrete and continuous multiplayer general-sum games including checker and switch grid worlds, multi-agent MuJoCo, and Atari games. Results suggest that MATRL significantly outperforms strong multi-agent reinforcement learning baselines.",
+      "year": 2021,
+      "authors": [
+        "Ying Wen",
+        "Hui Chen",
+        "Yaodong Yang",
+        "Zheng Tian",
+        "Minne Li",
+        "Xu Chen",
+        "Jun Wang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2106.06828v1",
+      "url": "http://arxiv.org/abs/2106.06828v1",
+      "key": "arxiv_210606828v1_A_Game-Theoretic_Approach_to_Multi-Agent_Trust_Region_Optimization",
+      "file_kind": "txt",
+      "file": "arxiv_210606828v1_A_Game-Theoretic_Approach_to_Multi-Agent_Trust_Region_Optimization.txt"
+    }
+  ]
+}

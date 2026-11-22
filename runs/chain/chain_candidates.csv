@@ -1,0 +1,571 @@
+id,title,year,doi,n_seeds,cites_seeds,cited_by_seeds,cited_by_count,in_corpus,in_window,on_topic,on_topic_tight,has_abstract
+W3181350748,TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors,2021,10.1109/cvpr46437.2021.01026,25,0,25,380,1,1,1,1,1
+W4312363838,Generating Useful Accident-Prone Driving Scenarios via a Learned Traffic Prior,2022,10.1109/cvpr52688.2022.01679,20,1,19,267,1,1,1,1,1
+W2767621168,CARLA: An Open Urban Driving Simulator,2017,10.48550/arxiv.1711.03938,17,0,17,8299,0,0,1,0,1
+W4386076407,MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion,2023,10.1109/cvpr52729.2023.00930,17,1,16,404,1,1,1,1,1
+W7149544452,Generative AI for Testing of Autonomous Driving Systems: A Survey,2026,10.1145/3806653,15,15,0,15,0,1,1,1,1
+W3164610367,SimNet: Learning Reactive Self-driving Simulations from Real-world Observations,2021,10.1109/icra48506.2021.9561666,14,0,14,151,0,1,1,0,1
+W4383108456,BITS: Bi-level Imitation for Traffic Simulation,2023,10.1109/icra48891.2023.10161167,14,0,14,139,0,1,1,1,1
+W7221589258,Semantic Risk Prior Guided Conditional Diffusion for Safety-Critical Traffic Scenario Generation,2026,10.2139/ssrn.7608004,13,13,0,0,1,1,1,1,0
+W1965455100,Congested traffic states in empirical observations and microscopic simulations,2000,10.1103/physreve.62.1805,12,0,12,5711,0,0,1,0,1
+W3156216502,Large Scale Interactive Motion Forecasting for Autonomous Driving : The Waymo Open Motion Dataset,2021,10.1109/iccv48922.2021.00957,12,0,12,1083,0,1,1,0,1
+W4383097675,TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios,2023,10.1109/icra48891.2023.10160296,12,0,12,218,1,1,1,1,1
+W7133266969,The Waymo Open Sim Agents Challenge,2023,10.52202/075280-2582,12,3,9,136,1,1,1,0,1
+W4417095647,Long-Term Traffic Simulation with Interleaved Autoregressive Motion and Scenario Generation,2025,10.1109/iccv51701.2025.02347,12,12,0,7,1,1,1,1,1
+W2925148167,nuScenes: A Multimodal Dataset for Autonomous Driving,2020,10.1109/cvpr42600.2020.01164,11,0,11,11070,0,1,1,0,1
+W4361861254,A Survey on Safety-Critical Driving Scenario Generation—A Methodological Perspective,2023,10.1109/tits.2023.3259322,11,2,9,437,1,1,1,1,1
+W3130718496,Learning to Collide: An Adaptive Safety-Critical Scenarios Generating Method,2020,10.1109/iros45743.2020.9340696,11,0,11,176,1,1,1,1,1
+W4415797595,SceneDiffuser: Efficient and Controllable Driving Simulation Initialization and Rollout,2024,10.52202/079017-1771,11,3,8,91,0,1,1,1,1
+W4416526514,SceneStreamer: Continuous Scenario Generation as Next Token Group Prediction,2026,10.48550/arxiv.2506.23316,11,11,0,6,1,1,1,1,1
+W7125944010,Adversarial and Reactive Traffic Entities for Behavior-Realistic Driving Simulation: A Review,2025,10.1109/smc58881.2025.11342478,11,11,0,4,0,1,1,1,1
+W4229450941,Symphony: Learning Realistic and Diverse Agents for Autonomous Driving Simulation,2022,10.1109/icra46639.2022.9811990,10,1,9,104,0,1,1,1,1
+W4414538315,Diffusion Models for Intelligent Transportation Systems: A Survey,2025,10.1109/tits.2025.3613178,10,9,2,64,0,1,1,1,1
+W4386076338,MIXSIM: A Hierarchical Framework for Mixed Reality Traffic Simulation,2023,10.1109/cvpr52729.2023.00928,10,2,8,45,0,1,1,1,1
+W4415247596,RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion,2025,10.1109/itsc60802.2025.11423555,10,10,0,5,0,1,1,1,1
+W7167620098,CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation,2026,10.1007/978-3-032-37490-5_5,10,10,0,0,1,1,0,1,0
+W7224484019,Reactive safety-critical scenario generation for autonomous driving via interaction-adaptive diffusion,2026,10.1016/j.aap.2026.108793,10,10,0,0,1,1,1,1,0
+W2968176166,Generating Adversarial Driving Scenarios in High-Fidelity Simulators,2019,10.1109/icra.2019.8793740,9,0,9,166,0,1,1,1,1
+W3133465684,Multimodal Safety-Critical Scenarios Generation for Decision-Making Algorithms Evaluation,2021,10.1109/lra.2021.3058873,9,0,9,129,1,1,1,1,1
+W4415068890,Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis,2026,10.1109/ojits.2026.3660686,9,9,0,99,1,1,1,1,1
+W4417308312,Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation,2025,10.52202/085713-1849,9,9,0,14,1,1,1,1,1
+W7160150019,SynAD: Enhancing Real-World End-to-End Autonomous Driving Models through Synthetic Data Integration,2025,10.1109/iccv51701.2025.02337,9,9,0,7,0,1,1,1,1
+W7164860803,ReactSim-Bench: Benchmarking Reactive Behavior World Model Simulation in Autonomous Driving,2026,10.48550/arxiv.2606.14058,9,9,0,5,0,1,1,1,1
+W4413926185,Robust Planning for Autonomous Driving via Mixed Adversarial Diffusion Predictions,2025,10.1109/icra55743.2025.11128661,9,9,0,1,0,1,1,1,1
+W7214324872,"A survey on driving scenario video generation for autonomous vehicle testing: Methodology, datasets, and future prospects",2026,10.1016/j.jtte.2026.03.002,9,9,0,0,0,1,1,1,1
+W7170034652,End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation,2026,10.48550/arxiv.2607.18637,9,9,0,0,1,1,1,1,1
+W7236521105,TrajTok: What makes for a good trajectory tokenizer in behavior generation?,2026,,9,9,0,0,1,1,1,1,1
+W7236448674,CaFe: Causally Faithful Conditional Traffic Scenario Generation,2026,10.48550/arxiv.2611.22855,9,9,0,0,0,1,1,1,1
+W4312933868,High-Resolution Image Synthesis with Latent Diffusion Models,2022,10.1109/cvpr52688.2022.01042,8,0,8,37689,0,1,0,0,1
+W2903709398,Microscopic Traffic Simulation using SUMO,2018,10.1109/itsc.2018.8569938,8,0,8,4746,0,0,1,0,1
+W3204161688,Scene Transformer: A unified architecture for predicting multiple agent trajectories,2021,10.48550/arxiv.2106.08417,8,0,8,535,1,1,1,0,1
+W3209351137,Waymo simulated driving behavior in reconstructed fatal crashes within an autonomous vehicle operating domain,2021,10.1016/j.aap.2021.106454,8,0,8,262,0,1,1,0,0
+W4221156702,On Adversarial Robustness of Trajectory Prediction for Autonomous Vehicles,2022,10.1109/cvpr52688.2022.01473,8,1,7,244,0,1,1,0,1
+W4413917542,Gen-Drive: Enhancing Diffusion Generative Driving Policies with Reward Modeling and Reinforcement Learning Fine-Tuning,2025,10.1109/icra55743.2025.11127286,8,8,0,72,0,1,1,1,1
+W4412610856,SEAL: Towards Safe Autonomous Driving via Skill-Enabled Adversary Learning for Closed-Loop Scenario Generation,2025,10.1109/lra.2025.3592090,8,8,0,30,0,1,1,1,1
+W4414198298,Talk2Traffic: Interactive and Editable Traffic Scenario Generation for Autonomous Driving with Multimodal Large Language Model,2025,10.1109/cvprw67362.2025.00364,8,7,1,22,0,1,1,1,1
+W4414743715,RIFT: Group-Relative RL Fine-Tuning for Realistic and Controllable Traffic Simulation,2025,10.48550/arxiv.2505.03344,8,8,0,17,1,1,1,1,1
+W4403906488,Learning to Drive via Asymmetric Self-Play,2024,10.1007/978-3-031-73033-7_9,8,7,1,11,0,1,0,0,0
+W7111145171,Optimization-Guided Diffusion for Interactive Scene Generation,2026,10.1007/978-3-032-37167-6_13,8,8,0,5,0,1,0,1,0
+W7221045132,MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments,2026,10.1109/cvprf71909.2026.00089,8,8,0,2,1,1,1,1,1
+W7133533706,AnchorDrive: LLM Scenario Rollout with Anchor-Guided Diffusion Regeneration for Safety-Critical Scenario Generation,2026,10.48550/arxiv.2603.02542,8,8,0,1,1,1,1,1,1
+W7154460320,Artificial Intelligence for Modeling and Simulation of Mixed Automated and Human Traffic,2026,10.48550/arxiv.2604.12857,8,8,0,1,0,1,1,1,1
+W7168242972,World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning,2026,10.48550/arxiv.2607.10630,8,8,0,1,0,1,1,1,1
+W7221331489,TopoKin: Multi-agent traffic simulation via topology-guided attention and kinematics-constrained tokenization,2026,10.2139/ssrn.7593804,8,8,0,0,0,1,1,0,0
+W7213601336,Safety-Critical Scenarios Emerge from Initial Scenes,2026,10.48550/arxiv.2609.20103,8,8,0,0,0,1,1,1,1
+W7171796378,Adversarial Generation of Rare and High-Risk AV–VRU Interactions: A Physics-Informed Framework with Adaptive Risk Guidance,2026,10.1109/iv66570.2026.11623855,8,8,0,0,0,1,1,1,1
+W3036167779,Denoising Diffusion Probabilistic Models,2020,10.48550/arxiv.2006.11239,7,0,7,21081,0,1,1,0,1
+W7133213690,Motion Transformer with Global Intention Localization and Local Movement Refinement,2022,10.52202/068431-0473,7,0,7,577,0,1,1,0,1
+W4386076672,Query-Centric Trajectory Prediction,2023,10.1109/cvpr52729.2023.01713,7,0,7,567,0,1,1,0,1
+W3203076355,MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning,2022,10.1109/tpami.2022.3190471,7,0,7,558,0,1,1,1,1
+W3214950490,MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction,2022,10.1109/icra46639.2022.9812107,7,0,7,500,0,1,1,0,1
+W7133186497,"Waymax: An Accelerated, Data-Driven Simulator for Large-Scale Autonomous Driving Research",2023,10.52202/075280-0339,7,0,7,269,0,1,1,0,1
+W4414937603,Generative AI for Autonomous Driving: Frontiers and Opportunities,2026,10.1145/3838726,7,7,0,87,1,1,1,1,1
+W4413145140,Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models,2025,10.1109/cvpr52734.2025.00510,7,4,3,70,1,1,1,1,1
+W4403021210,Solving Motion Planning Tasks with a Scalable Generative Model,2024,10.1007/978-3-031-72946-1_22,7,2,5,66,0,1,0,0,0
+W4402951698,SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic,2024,10.1007/978-3-031-73235-5_4,7,5,2,53,1,1,1,0,0
+W4415161218,Decoupled Diffusion Sparks Adaptive Scene Generation,2025,10.1109/iccv51701.2025.02577,7,7,0,21,0,1,1,1,1
+W4416540542,LangTraj: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation,2025,10.1109/iccv51701.2025.02471,7,6,1,20,0,1,1,1,1
+W4417266700,Trends in motion prediction toward deployable and generalizable autonomy: a revisit and perspectives,2026,10.1108/ftrob-05-2025-0079,7,7,0,15,0,1,1,0,1
+W4416239873,nuPlan-R: A Closed-Loop Planning Benchmark for Autonomous Driving via Reactive Multi-Agent Simulation,2026,10.1109/iv66570.2026.11623929,7,7,0,8,0,1,1,1,1
+W7138125927,VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness,2026,10.1609/aaai.v40i4.37290,7,7,0,8,0,1,1,1,1
+W4417286686,MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments,2025,10.48550/arxiv.2511.17496,7,7,0,5,1,1,1,1,1
+W7210288552,LASER: A Robust Adversarial Generation Framework for Closed-Loop Simulation via Entropy-Aware Resampling,2026,10.1007/978-3-032-37676-3_23,7,7,0,0,0,1,0,1,0
+W7207800880,CrashDiffuser: VLM-Guided Collision Intent Reasoning for Fine-Grained Safety-Critical Traffic Scenario Generation,2026,10.48550/arxiv.2609.02270,7,7,0,0,0,1,1,1,1
+W7153034768,Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles,2026,10.48550/arxiv.2604.07378,7,7,0,0,0,1,1,1,1
+W2736601468,Proximal Policy Optimization Algorithms,2017,10.48550/arxiv.1707.06347,6,0,6,40252,0,0,0,0,1
+W4288099666,Classifier-Free Diffusion Guidance,2022,10.48550/arxiv.2207.12598,6,0,6,7441,0,1,0,0,1
+W3162926177,Diffusion Models Beat GANs on Image Synthesis,2021,10.48550/arxiv.2105.05233,6,0,6,6395,0,1,0,0,1
+W3176012696,NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles,2021,10.48550/arxiv.2106.11810,6,0,6,810,0,1,1,0,1
+W4383172002,Wayformer: Motion Forecasting via Simple & Efficient Attention Networks,2023,10.1109/icra48891.2023.10160609,6,0,6,571,0,1,1,0,1
+W4312305613,Stochastic Trajectory Prediction via Motion Indeterminacy Diffusion,2022,10.1109/cvpr52688.2022.01660,6,0,6,529,0,1,1,1,1
+W4390788068,MTR++: Multi-Agent Motion Prediction With Symmetric Scene Modeling and Guided Intention Querying,2024,10.1109/tpami.2024.3352811,6,0,6,325,1,1,1,0,1
+W4390872108,MotionLM: Multi-Agent Motion Forecasting as Language Modeling,2023,10.1109/iccv51070.2023.00788,6,0,6,267,1,1,1,0,1
+W3173280621,SceneGen: Learning to Generate Realistic Traffic Scenes,2021,10.1109/cvpr46437.2021.00095,6,0,6,172,1,1,1,1,1
+W4401416676,SceneControl: Diffusion for Controllable Traffic Scene Generation,2024,10.1109/icra57147.2024.10610324,6,4,3,45,0,1,1,1,1
+W4381712815,Multiverse Transformer: 1st Place Solution for Waymo Open Sim Agents Challenge 2023,2023,10.48550/arxiv.2306.11868,6,1,5,39,0,1,0,0,1
+W7136391790,Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models,2025,10.1109/itsc60802.2025.11423790,6,6,0,24,1,1,1,1,1
+W4413926244,CaDRE: Controllable and Diverse Generation of Safety-Critical Driving Scenarios Using Real-World Trajectories,2025,10.1109/icra55743.2025.11127319,6,6,0,24,0,1,1,1,1
+W4406961338,UniMM: A Unified Mixture Model Framework for Multi-Agent Simulation,2026,10.1109/tpami.2026.3700402,6,5,1,19,0,1,1,1,1
+W4416749992,DriveGen: Towards Infinite Diverse Traffic Scenarios with Large Models,2025,10.1109/iros60139.2025.11247087,6,5,1,6,1,1,1,1,1
+W4416396859,"Adversarial traffic scene generation considering harm, rarity, and ambiguity for autonomous driving testing",2025,10.1016/j.trc.2025.105426,6,6,0,4,0,1,1,1,0
+W4407759124,Direct Preference Optimization-Enhanced Multi-Guided Diffusion Model for Traffic Scenario Generation,2025,10.48550/arxiv.2502.12178,6,6,0,4,1,1,1,1,1
+W4417010005,VLM as strategist: Adaptive generation of safety-critical testing scenarios via guided diffusion,2026,10.1016/j.aap.2026.108680,6,6,1,3,1,1,0,1,0
+W7125497722,Adaptive risk inversion with iterative exploration for high-risk AV–VRU interactions,2026,10.1016/j.aap.2026.108417,6,6,0,2,0,1,0,0,0
+W7166874423,Long-Term Traffic Simulation via Structured Autoregressive Modeling,2026,10.1007/978-3-032-37550-6_37,6,6,0,2,0,1,1,0,0
+W7116070609,A Survey on the Applications of Generative Artificial Intelligence in Automated Driving Systems Test Scenario Generation Methods,2025,10.48550/arxiv.2512.15422,6,6,0,2,0,1,1,1,1
+W7136237795,Every Scene All at Once: Exhaustive Multi-Agent Interaction Generation with Controlled Diffusion Model,2025,10.1109/itsc60802.2025.11423125,6,6,0,1,0,1,1,1,1
+W7165199706,"Diffusion Models for End-to-End Autonomous Driving: A Survey of Perception, Prediction, Planning, and Control",2026,10.1109/access.2026.3704955,6,6,0,1,0,1,1,1,1
+W7169846504,From natural language to physically valid traffic scenarios: A hybrid LLM-generative framework for CAV testing,2026,10.1016/j.trc.2026.105876,6,6,0,1,0,1,1,1,0
+W7170720497,SevDiff: Severity-Conditioned Diffusion for Long-Tail Conflict Trajectory Generation,2026,10.48550/arxiv.2607.20549,6,6,0,0,0,1,1,0,1
+W7210277944,SCENELANG: A language-driven informatics framework for multi-modal scene understanding and generation in autonomous driving simulation,2026,10.1016/j.aei.2026.105194,6,6,0,0,0,1,1,1,0
+W7162139130,"Safety-Critical Scenarios for Autonomous Driving: A Survey of Methods, Benchmarks, and Verification Pipelines",2026,10.31224/7134,6,6,0,0,0,1,1,0,1
+W7167824785,Flow-ERD: Agent-Type Aware Flow Matching With Entropy-Regularized Distillation for Diverse Traffic Simulation,2026,10.1109/lra.2026.3747657,6,6,0,0,0,1,1,0,1
+W3092442149,Denoising Diffusion Implicit Models,2020,10.48550/arxiv.2010.02502,5,0,5,11182,0,1,0,1,1
+W2056877664,General Lane-Changing Model MOBIL for Car-Following Models,2007,10.3141/1999-10,5,0,5,1666,0,0,1,0,1
+W4281398962,Planning with Diffusion for Flexible Behavior Synthesis,2022,10.48550/arxiv.2205.09991,5,0,5,1055,0,1,1,0,1
+W3202707544,Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting,2023,10.48550/arxiv.2301.00493,5,0,5,797,0,1,1,1,1
+W4312731878,HiVT: Hierarchical Vector Transformer for Multi-Agent Motion Prediction,2022,10.1109/cvpr52688.2022.00862,5,0,5,712,0,1,1,0,1
+W4386066131,Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion,2023,10.1109/cvpr52729.2023.01322,5,2,3,216,0,1,1,1,1
+W7133222348,SafeBench: A Benchmarking Platform for Safety Evaluation of Autonomous Vehicles,2022,10.52202/068431-1861,5,1,4,157,1,1,1,1,1
+W4312730708,AdvDO: Realistic Adversarial Attacks for Trajectory Prediction,2022,10.1007/978-3-031-20065-6_3,5,1,4,128,0,1,1,0,0
+W4402449725,The Integration of Prediction and Planning in Deep Learning Automated Driving Systems: A Review,2024,10.1109/tiv.2024.3459071,5,5,0,90,0,1,1,0,1
+W3090747022,CMTS: A Conditional Multiple Trajectory Synthesizer for Generating Safety-Critical Driving Scenarios,2020,10.1109/icra40945.2020.9197145,5,0,5,84,0,1,1,1,1
+W4403619071,Promptable Closed-loop Traffic Simulation,2024,10.48550/arxiv.2409.05863,5,3,2,44,0,1,1,1,1
+W4401416425,Reinforcement Learning with Human Feedback for Realistic Traffic Simulation,2024,10.1109/icra57147.2024.10610878,5,2,3,41,0,1,1,1,1
+W4403668172,Traffic Scene Generation from Natural Language Description for Autonomous Vehicles with Large Language Model,2024,10.48550/arxiv.2409.09575,5,5,0,39,0,1,1,1,1
+W7125619238,A Survey on the Application of Large Language Models in Scenario-Based Testing of Automated Driving Systems,2026,10.1109/tits.2026.3651004,5,5,0,34,0,1,1,0,1
+W4388327604,Learning Realistic Traffic Agents in Closed-loop,2023,10.48550/arxiv.2311.01394,5,3,2,22,0,1,1,1,1
+W4382999044,Editing Driver Character: Socially-Controllable Behavior Generation for Interactive Traffic Simulation,2023,10.1109/lra.2023.3291897,5,2,3,21,0,1,1,1,1
+W4414581176,CrashAgent: Crash Scenario Generation via Multi-modal Reasoning,2025,10.48550/arxiv.2505.18341,5,5,0,17,0,1,1,1,1
+W4416258860,TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving,2025,10.48550/arxiv.2509.13164,5,5,0,12,0,1,1,1,1
+W7147413225,AutoWorld: Learning Multi-Agent Traffic Simulation with Self-Supervised World Models,2026,10.48550/arxiv.2603.28963,5,5,0,6,1,1,1,1,1
+W7133602009,SaFeR: Safety-Critical Scenario Generation for Autonomous Driving Test via Feasibility-Constrained Token Resampling,2026,10.48550/arxiv.2603.04071,5,5,0,6,1,1,1,1,1
+W7138473169,Preference-Guided Adversarial Policy Optimization for Long-Tail Robust Driving,2026,10.48550/arxiv.2603.15221,5,5,0,4,0,1,1,1,1
+W7114809016,Controllable risk scenario generation from human crash data for autonomous vehicle testing,2025,10.48550/arxiv.2512.07874,5,5,0,3,1,1,1,1,1
+W4412171486,DiffSCTG: Diffusion-based Safety-Critical Trajectory Generation for Autonomous Vehicles,2025,10.1109/cisce65916.2025.11065683,5,5,0,3,0,1,1,1,1
+W4416777814,Learning from risk: LLM-guided generation of safety-critical scenarios with prior knowledge,2026,10.1016/j.tre.2026.105110,5,5,0,3,0,1,0,1,0
+W7136765536,Interactive Adversarial Scenario Generation for Autonomous Driving: A Continual Learning Framework with Safety Constraints,2025,10.1109/itsc60802.2025.11423840,5,5,0,2,1,1,1,1,1
+W7117299693,Controllable Multimodal Motion Behavior Generation for Autonomous Driving,2025,10.1109/tits.2025.3645248,5,5,0,2,0,1,1,1,1
+W7171498324,ExplorIt : Simulation-based Fuzzing for Autonomous Driving Systems via Multi-Agent Interaction Modeling,2026,10.1145/3832778,5,5,0,1,0,1,1,0,1
+W4402705830,TrafficGamer: Reliable and Flexible Traffic Simulation for Safety-Critical Scenarios with Game-Theoretic Oracles,2026,10.1109/tai.2026.3712714,5,5,0,1,0,1,1,1,1
+W7127321749,ForSim: Stepwise Forward Simulation for Traffic Policy Fine-Tuning,2026,10.1109/icra57385.2026.11696117,5,5,0,1,0,1,1,0,1
+W7164812927,From Attacks to Curricula: Learnability-Guided Adversarial Training for Safe Autonomous Driving,2026,10.48550/arxiv.2606.14032,5,5,0,0,0,1,1,1,1
+W7213506347,Bridging scenario generation and regulatory standards: A physically plausible generative AI framework for automated vehicle safety certification,2026,10.1016/j.tra.2026.105267,5,5,0,0,0,1,1,1,0
+W7220728764,Human Behavior-Informed Crash Scenario Generation with Real-World Crash Priors for Autonomous Vehicle Safety Evaluation,2026,10.48550/arxiv.2610.04366,5,5,0,0,0,1,1,1,1
+W7166866126,Bridging Local Observation and Global Simulation in Closed-Loop Traffic Modeling,2026,10.48550/arxiv.2606.31844,5,5,0,0,0,1,1,1,1
+W7221519184,Closed-loop generation of responsibility-screened boundary scenarios for automated driving safety evaluation,2026,10.2139/ssrn.7602715,5,5,0,0,0,1,1,1,0
+W7163667580,RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation,2026,10.48550/arxiv.2606.06423,5,5,0,0,1,1,1,1,1
+W7162261688,Guiding Neuro-Symbolic Scenario Generation with Spatio-Temporal Logic,2026,10.65109/jcra2597,5,5,0,0,0,1,1,1,1
+W7161109199,Learning Responsibility-Attributed Adversarial Scenarios for Testing Autonomous Vehicles,2026,10.48550/arxiv.2605.13751,5,5,0,0,0,1,1,1,1
+W7163318586,EvoDrive: Pareto Evolution for Safety-Critical Autonomous Driving via Self-Improving LLM Agents,2026,10.48550/arxiv.2606.03678,5,5,0,0,0,1,1,1,1
+W7223351173,LAST-V2X: Language-Driven Adaptive Scenario Synthesis and Testing for Communication-Induced Failures in V2X Safety Applications,2026,10.48550/arxiv.2610.30979,5,5,0,0,0,1,1,1,1
+W7161762962,KG-ASG: Collision-Knowledge-Guided Closed-Loop Adversarial Scenario Generation With Primary-Support Attribution,2026,10.48550/arxiv.2605.18895,5,5,0,0,0,1,1,1,1
+W2194775991,Deep Residual Learning for Image Recognition,2016,10.1109/cvpr.2016.90,4,0,4,292126,0,0,0,0,1
+W4327810158,GPT-4 Technical Report,2023,10.48550/arxiv.2303.08774,4,0,4,56588,0,1,0,0,1
+W2787938642,Addressing Function Approximation Error in Actor-Critic Methods,2018,10.48550/arxiv.1802.09477,4,0,4,8646,0,0,0,0,1
+W3110257065,Score-Based Generative Modeling through Stochastic Differential Equations,2020,10.48550/arxiv.2011.13456,4,0,4,8230,0,1,0,0,1
+W3212614734,Diffusion Models Beat GANs on Image Synthesis,2021,,4,0,4,4427,0,1,0,0,1
+W3032731803,Trajectron++: Dynamically-Feasible Trajectory Forecasting with Heterogeneous Data,2020,10.1007/978-3-030-58523-5_40,4,0,4,1754,0,1,0,0,0
+W4401109681,End-to-End Autonomous Driving: Challenges and Frontiers,2024,10.1109/tpami.2024.3435937,4,4,0,1278,1,1,1,1,1
+W3204875639,DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets,2021,10.1109/iccv48922.2021.01502,4,0,4,735,0,1,1,0,1
+W3127647470,Intelligent driving intelligence test for autonomous vehicles with naturalistic and adversarial environment,2021,10.1038/s41467-021-21007-8,4,0,4,556,0,1,1,1,1
+W4380715592,Parting with Misconceptions about Learning-based Vehicle Motion Planning,2023,10.48550/arxiv.2306.07962,4,2,2,375,0,1,1,0,1
+W4390871698,GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving,2023,10.1109/iccv51070.2023.00361,4,1,3,342,0,1,1,0,1
+W2940868402,Meta-Sim: Learning to Generate Synthetic Datasets,2019,10.1109/iccv.2019.00465,4,0,4,190,0,1,0,0,1
+W4312809144,"ScePT: Scene-consistent, Policy-based Trajectory Predictions for Planning",2022,10.1109/cvpr52688.2022.01659,4,0,4,132,0,1,1,0,1
+W4384644126,Language Conditioned Traffic Generation,2023,10.48550/arxiv.2307.07947,4,0,4,98,1,1,1,1,1
+W4414334072,OmniTester: Multimodal Large Language Model Driven Scenario Testing for Autonomous Vehicles,2025,10.1007/s42154-025-00364-w,4,4,0,69,0,1,1,1,1
+W4388936562,Adversarial Safety-Critical Scenario Generation Using Naturalistic Human Driving Priors,2023,10.1109/tiv.2023.3335862,4,2,2,66,1,1,1,1,1
+W4410335013,DiffCrash: leveraging denoising diffusion probabilistic models to expand high-risk testing scenarios using in-depth crash data,2025,10.1016/j.eswa.2025.128140,4,4,0,50,0,1,0,1,0
+W4404002719,Optimizing Diffusion Models for Joint Trajectory Prediction and Controllable Generation,2024,10.1007/978-3-031-73397-0_19,4,2,2,45,0,1,1,0,0
+W7128522422,CurricuVLM: Towards safe autonomous driving via personalized safety-critical curriculum learning with vision-language models,2026,10.1016/j.trc.2026.105549,4,4,0,31,0,1,1,0,0
+W3133953828,Diverse Critical Interaction Generation for Planning and Planner Evaluation,2021,10.1109/iros51168.2021.9636266,4,0,4,30,0,1,1,1,1
+W4399447679,FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality,2024,10.48550/arxiv.2406.02983,4,4,0,22,1,1,1,1,1
+W4399794658,TrafficBots V1.5: Traffic Simulation via Conditional VAEs and Transformers with Relative Pose Encoding,2024,10.48550/arxiv.2406.10898,4,2,3,21,0,1,1,1,1
+W4397026428,Efficient Generation of Safety-Critical Scenarios Combining Dynamic and Static Scenario Parameters,2024,10.1109/tiv.2024.3402221,4,4,0,16,0,1,1,1,1
+W4415329399,Generative AI for Autonomous Driving: A Review,2025,10.48550/arxiv.2505.15863,4,4,0,15,0,1,1,1,1
+W4414902621,DRoPE: Directional Rotary Position Embedding for Efficient Agent Interaction Modeling,2026,10.1109/tvt.2026.3696986,4,3,1,11,0,1,1,0,1
+W4417095041,Model-Based Policy Adaptation for Closed-Loop End-to-end Autonomous Driving,2025,10.52202/085713-1386,4,4,0,11,1,1,1,1,1
+W4417406809,Beyond Behavior Cloning in Autonomous Driving: a Survey of Closed-Loop Training Techniques,2025,10.36227/techrxiv.176591565.57674132/v1,4,4,0,11,1,1,1,1,1
+W4417098222,WaymoQA: A Multi-View Visual Question Answering Dataset for Safety-Critical Reasoning in Autonomous Driving,2026,10.18653/2026.findings-emnlp.1028,4,4,0,11,0,1,1,0,1
+W4416046369,Simulating the unseen: Crash prediction and prevention should learn from what did not happen,2026,10.1016/j.aap.2026.108847,4,4,0,10,0,1,0,0,0
+W4416260041,TrajTok: Technical Report for 2025 Waymo Open Sim Agents Challenge,2025,10.48550/arxiv.2506.21618,4,2,2,9,0,1,1,1,1
+W7140237975,CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation,2026,10.48550/arxiv.2603.21104,4,4,0,8,0,1,1,1,1
+W4410738700,ReGentS: Real-World Safety-Critical Driving Scenario Generation Made Stable,2025,10.1007/978-3-031-91767-7_18,4,4,0,8,1,1,1,1,0
+W4413925815,Safety-Critical Traffic Simulation with Adversarial Transfer of Driving Intentions,2025,10.1109/icra55743.2025.11128569,4,4,0,5,0,1,1,1,1
+W7165376419,Human-like autonomy emerges from self-play and a pinch of human data,2026,10.48550/arxiv.2606.19370,4,4,0,5,0,1,1,0,1
+W4417409154,Do LLM Modules Generalize? A Study on Motion Generation for Autonomous Driving,2025,10.48550/arxiv.2509.02754,4,4,0,4,0,1,1,1,1
+W4416123579,Toward Benchmarking and Assessing the Safety and Robustness of Autonomous Driving on Safety-Critical Scenarios,2026,10.1109/tip.2026.3722453,4,4,0,4,0,1,1,1,1
+W7168034574,Enhancing semantic and risk controllability in safety-critical scenario generation: An LLM-guided conditional diffusion method,2026,10.1016/j.aap.2026.108648,4,4,0,4,0,1,0,1,0
+W4415334851,Controllable Motion Generation via Diffusion Modal Coupling,2026,10.1109/icra57385.2026.11695966,4,4,0,4,0,1,1,0,1
+W7117529914,SymDrive: Realistic and Controllable Driving Simulator via Symmetric Auto-regressive Online Restoration,2025,10.48550/arxiv.2512.21618,4,4,0,3,0,1,1,1,1
+W7158679295,Emergency Lane-Change Simulation: A Behavior-Guided Approach for Safety-Critical Scenario Generation,2026,10.1109/tits.2026.3686061,4,4,0,3,0,1,1,1,1
+W7130540511,Learning a Unified Risk Map for Autonomous Driving in Partially Observable Environments,2026,10.1109/lra.2026.3666393,4,4,0,3,0,1,1,1,1
+W4416249476,DeepMF: Deep Motion Factorization for Closed-Loop Safety-Critical Driving Scenario Simulation,2025,10.1109/ijcnn64981.2025.11228221,4,4,0,3,1,1,1,1,1
+W7154208359,SCORP: Scene-Consistent Multi-agent Diffusion Planning with Stable Online Reinforcement Post-Training for Cooperative Driving,2026,10.48550/arxiv.2604.11734,4,4,0,3,0,1,1,0,1
+W7151051838,Autoregressive Meta-Actions for Unified Controllable Trajectory Generation in Autonomous Driving,2026,10.1109/lra.2026.3681117,4,4,0,2,0,1,1,0,1
+W7161744941,Generating realistic safety–critical scenarios for vehicle–pedestrian interactions,2026,10.1016/j.trc.2026.106002,4,4,0,2,1,1,1,1,0
+W4406755574,Control-ITRA: Controlling the Behavior of a Driving Model,2025,10.48550/arxiv.2501.12408,4,4,0,2,0,1,1,1,1
+W7155030739,ScenarioControl: Vision-Language Controllable Vectorized Latent Scenario Generation,2026,10.1007/978-3-032-37152-2_13,4,4,0,2,0,1,0,1,0
+W7137360442,Path Diffuser: Diffusion Model for Data-Driven Traffic Simulator,2025,10.1109/itsc60802.2025.11423013,4,3,1,1,0,1,1,1,1
+W7138401721,Transferring Causal Driving Patterns for Generalizable Traffic Simulation with Diffusion-Based Distillation,2026,10.1609/aaai.v40i1.36970,4,4,0,1,0,1,1,1,1
+W7204194591,BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation,2026,10.48550/arxiv.2608.22187,4,4,0,1,0,1,1,1,1
+W7202354129,Language-Structured Relational Q-Learning for Threat-Aware Control in Safety-Critical Driving,2026,10.48550/arxiv.2608.11498,4,4,0,0,0,1,1,1,1
+W7212005640,Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling,2026,10.48550/arxiv.2609.08796,4,4,0,0,0,1,1,1,1
+W7223895518,Model-Aware Generation of Safety-Critical Scenes for Robust End-to-End Driving via Distilled Planner Surrogates,2026,10.48550/arxiv.2610.35448,4,4,0,0,0,1,1,1,1
+W7167629541,Agent-driven Long-tail Simulation for Autonomous Driving,2026,10.48550/arxiv.2607.04331,4,4,0,0,0,1,1,0,1
+W7161543718,PCASim: Promptable Closed-loop Adversarial Simulation for Urban Traffic Environment,2026,10.1109/icra57385.2026.11696318,4,4,0,0,0,1,1,1,1
+W7203558759,CrashFactory: From Crash Databases to Scalable Safety-Critical Data Synthesis for End-to-End Autonomous Driving,2026,10.2139/ssrn.7288377,4,4,0,0,0,1,1,1,0
+W7219815992,How Corner Is a Corner Case? Percentile Control for Highway Scenario Generation,2026,10.2139/ssrn.7560931,4,4,0,0,0,1,0,1,0
+W2626778328,Attention Is All You Need,2017,10.48550/arxiv.1706.03762,3,0,3,152463,0,0,0,0,1
+W3030163527,Language Models are Few-Shot Learners,2020,10.48550/arxiv.2005.14165,3,0,3,63012,0,1,0,0,1
+W7133224126,Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models,2022,10.52202/068431-1800,3,0,3,38959,0,1,0,0,1
+W2908510526,Decoupled Weight Decay Regularization,2017,10.48550/arxiv.1711.05101,3,0,3,34582,0,0,0,0,1
+W7133244780,Elucidating the Design Space of Diffusion-Based Generative Models,2022,10.52202/068431-1926,3,0,3,4109,0,1,0,0,1
+W2955189650,Argoverse: 3D Tracking and Forecasting With Rich Maps,2019,10.1109/cvpr.2019.00895,3,0,3,2017,0,1,0,0,1
+W7133208595,Diffusion-LM Improves Controllable Text Generation,2022,10.52202/068431-0313,3,0,3,1652,0,1,0,0,1
+W2760878839,End-to-End Driving Via Conditional Imitation Learning,2018,10.1109/icra.2018.8460487,3,0,3,1538,0,0,1,1,1
+W3034722190,VectorNet: Encoding HD Maps and Agent Dynamics From Vectorized Representation,2020,10.1109/cvpr42600.2020.01154,3,0,3,1411,0,1,1,0,1
+W4293682399,Junior: The Stanford entry in the Urban Challenge,2008,10.1002/rob.20258,3,0,3,1263,0,0,0,0,1
+W4404820176,DriveLM: Driving with Graph Visual Question Answering,2024,10.1007/978-3-031-72943-0_15,3,2,1,982,0,1,0,0,0
+W4353056919,Dense reinforcement learning for safety validation of autonomous vehicles,2023,10.1038/s41586-023-05732-2,3,0,3,811,0,1,0,0,0
+W4413147287,DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving,2025,10.1109/cvpr52734.2025.01124,3,3,0,631,1,1,1,1,1
+W2616635592,The kinematic bicycle model: A consistent model for planning feasible trajectories for autonomous vehicles?,2017,10.1109/ivs.2017.7995816,3,0,3,591,0,0,0,0,1
+W4386076483,UniSim: A Neural Closed-Loop Sensor Simulator,2023,10.1109/cvpr52729.2023.00140,3,1,2,468,0,1,1,1,1
+W4310430604,Is Conditional Generative Modeling all you need for Decision-Making?,2022,10.48550/arxiv.2211.15657,3,0,3,442,0,1,0,0,1
+W2606516936,Ontology based Scene Creation for the Development of Automated Vehicles,2018,10.1109/ivs.2018.8500632,3,0,3,434,0,0,1,1,1
+W4386076060,Leapfrog Diffusion Model for Stochastic Trajectory Prediction,2023,10.1109/cvpr52729.2023.00534,3,0,3,360,0,1,1,0,1
+W4388369965,LLM4Drive: A Survey of Large Language Models for Autonomous Driving,2023,10.48550/arxiv.2311.01043,3,2,1,246,0,1,1,0,1
+W4389666601,Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios,2023,10.1109/iros55552.2023.10342038,3,0,3,222,0,1,1,0,1
+W2921180939,Test Your Self-Driving Algorithm: An Overview of Publicly Available Driving Datasets and Virtual Testing Environments,2019,10.1109/tiv.2018.2886678,3,0,3,221,0,1,1,0,1
+W4210496774,Scenic: a language for scenario specification and data generation,2022,10.1007/s10994-021-06120-5,3,0,3,171,1,1,1,1,1
+W4402753718,Diffusion-ES: Gradient-Free Planning with Diffusion for Autonomous and Instruction-Guided Driving,2024,10.1109/cvpr52733.2024.01453,3,1,2,160,0,1,1,1,1
+W3196020871,Adversarial Evaluation of Autonomous Vehicles in Lane-Change Scenarios,2021,10.1109/tits.2021.3091477,3,0,3,159,0,1,1,1,1
+W7133230848,ScenarioNet: Open-Source Platform for Large-Scale Traffic Scenario Simulation and Modeling,2023,10.52202/075280-0172,3,2,1,137,0,1,1,1,1
+W4401975604,Generative AI for Self-Adaptive Systems: State of the Art and Research Roadmap,2024,10.1145/3686803,3,3,0,132,0,1,0,0,1
+W4411443861,"Exploring the roles of large language models in reshaping transportation systems: A survey, framework, and roadmap",2025,10.1016/j.ait.2025.100003,3,3,0,118,0,1,1,1,1
+W2792390244,Automated scenario generation for regression testing of autonomous vehicles,2017,10.1109/itsc.2017.8317919,3,0,3,106,0,0,1,1,1
+W4383108225,TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction,2023,10.1109/icra48891.2023.10161243,3,0,3,101,0,1,1,1,1
+W4401836687,Large models for intelligent transportation systems and autonomous vehicles: A survey,2024,10.1016/j.aei.2024.102786,3,3,0,91,0,1,0,0,0
+W2965888130,Failure-Scenario Maker for Rule-Based Agent using Multi-agent Adversarial Reinforcement Learning and its Application to Autonomous Driving,2019,10.24963/ijcai.2019/832,3,0,3,84,0,1,1,1,1
+W4411550852,LLM-Attacker: Enhancing Closed-Loop Adversarial Scenario Generation for Autonomous Driving With Large Language Models,2025,10.1109/tits.2025.3578383,3,3,0,77,1,1,1,1,1
+W3117054268,Scenario Factory: Creating Safety-Critical Traffic Scenarios for Automated Vehicles,2020,10.1109/itsc45102.2020.9294629,3,0,3,70,0,1,1,1,1
+W3156199997,Imagining The Road Ahead: Multi-Agent Trajectory Prediction via Differentiable Simulation,2021,10.1109/itsc48978.2021.9565113,3,0,3,66,0,1,1,1,1
+W4312991107,Rethinking Closed-Loop Training for Autonomous Driving,2022,10.1007/978-3-031-19842-7_16,3,1,2,46,0,1,0,0,0
+W4399874973,DriveSceneGen: Generating Diverse and Realistic Driving Scenarios From Scratch,2024,10.1109/lra.2024.3416792,3,0,3,41,0,1,1,1,1
+W4415796739,Language-Driven Interactive Traffic Trajectory Generation,2024,10.52202/079017-2474,3,2,1,38,1,1,1,0,1
+W4417491018,Realistic Corner Case Generation for Autonomous Vehicles with Multimodal Large Language Model,2025,10.26599/tst.2025.9010178,3,3,0,34,0,1,1,1,1
+W4415423587,Applications of large language models and generative AI in transportation: A systematic review and bibliometric analysis,2025,10.1016/j.trip.2025.101699,3,3,0,28,0,1,1,0,1
+W4405429254,KiGRAS: Kinematic-Driven Generative Model for Realistic Agent Simulation,2024,10.1109/lra.2024.3518308,3,3,0,27,0,1,1,1,1
+W4407808586,Building reliable sim driving agents by scaling self-play,2025,10.48550/arxiv.2502.14706,3,3,0,27,1,1,1,0,1
+W4410383477,A gentle introduction and tutorial on Deep Generative Models in transportation research,2025,10.1016/j.trc.2025.105145,3,3,0,24,0,1,0,0,0
+W4402354108,Blending Data-Driven Priors in Dynamic Games,2024,10.15607/rss.2024.xx.020,3,3,0,21,0,1,1,0,1
+W7136362512,Predictive Planner for Autonomous Driving with Consistency Models,2025,10.1109/itsc60802.2025.11423304,3,3,0,19,0,1,1,0,1
+W7151473412,Foundation Models for Autonomous Driving Systems: An Initial Roadmap,2026,10.1145/3807455,3,3,0,18,0,1,1,0,1
+W7161733329,ChatSUMO Agent: An LLM-Based Agent for Conversational Traffic Simulation in SUMO,2026,10.1016/j.trc.2026.105759,3,3,0,17,0,1,1,0,0
+W4416750974,AGENTS-LLM: Augmentative GENeration of Challenging Traffic Scenarios with an Agentic LLM Framework,2025,10.1109/iros60139.2025.11246348,3,3,0,16,1,1,1,1,1
+W7160403351,"Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses",2026,10.48550/arxiv.2605.02900,3,3,0,16,0,1,1,1,1
+W4404450914,DiffRoad: Realistic and Diverse Road Scenario Generation for Autonomous Vehicle Testing,2024,10.48550/arxiv.2411.09451,3,3,0,15,0,1,1,1,1
+W4415335912,Advancing Multi-agent Traffic Simulation via R1-Style Reinforcement Fine-Tuning,2026,10.48550/arxiv.2509.23993,3,3,0,15,1,1,1,0,1
+W7138919818,Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles,2026,10.1609/aaai.v40i45.41238,3,3,0,15,1,1,1,1,1
+W4417122044,DONUT: A Decoder-Only Model for Trajectory Prediction,2025,10.1109/iccv51701.2025.02684,3,3,0,13,0,1,1,0,1
+W7160049985,Generative Active Learning for Long-Tail Trajectory Prediction via Controllable Diffusion Model,2025,10.1109/iccv51701.2025.02584,3,3,0,13,0,1,1,1,1
+W4403964215,Data-driven Diffusion Models for Enhancing Safety in Autonomous Vehicle Traffic Simulations,2024,10.48550/arxiv.2410.04809,3,3,0,11,0,1,1,1,1
+W4409347567,Constrained Generative Modeling with Manually Bridged Diffusion Models,2025,10.1609/aaai.v39i18.34159,3,3,0,11,0,1,1,0,1
+W4413813389,Trajectory generative models: a survey from unconditional and conditional perspectives,2025,10.1007/s10707-025-00558-8,3,3,0,11,0,1,1,0,1
+W4415097439,DecompGAIL: Learning Realistic Traffic Behaviors with Decomposed Multi-Agent Generative Adversarial Imitation Learning,2026,10.48550/arxiv.2510.06913,3,3,0,11,1,1,1,1,1
+W7162859700,Learning Safety-Critical Scenarios from Real-World Pre-Crash Data for Autonomous Driving Safety Validation,2026,10.1016/j.geits.2026.100436,3,3,0,9,0,1,1,1,1
+W4409048155,AccidentSim: Generating Vehicle Collision Videos with Physically Realistic Collision Trajectories from Real-World Accident Reports,2025,10.48550/arxiv.2503.20654,3,3,0,9,0,1,1,1,1
+W7126276932,Enhancing Autonomous Vehicle Testing Through High-Risk Powered Two-Wheeler Trajectory Generation Using a Conditional Denoising Diffusion Probabilistic Model,2026,10.1109/jiot.2026.3659671,3,3,0,8,0,1,1,1,1
+W4416130927,Test Automation for Interactive Scenarios via Promptable Traffic Simulation,2025,10.48550/arxiv.2506.01199,3,3,0,8,0,1,1,1,1
+W4414943224,RCG: Safety-Critical Scenario Generation for Robust Autonomous Driving via Real-World Crash Grounding,2025,10.48550/arxiv.2507.10749,3,3,0,7,1,1,1,1,1
+W4413917506,Realistic Extreme Behavior Generation for Improved AV Testing,2025,10.1109/icra55743.2025.11128450,3,2,1,5,0,1,1,1,1
+W4411613539,Controllable diffusion models for hazardous construction site scene generation,2025,10.1016/j.asoc.2025.113446,3,3,0,4,0,1,0,1,0
+W7138881489,VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs,2026,10.48550/arxiv.2603.17652,3,3,0,3,0,1,1,1,1
+W4415269793,Controllable Collision Scenario Generation via Collision Pattern Prediction,2026,10.1109/icra57385.2026.11696534,3,2,1,3,0,1,1,1,1
+W7160643628,SG-CADVLM: a context-aware decoding powered vision-language model for safety-critical scenario generation in autonomous driving,2026,10.1080/23249935.2026.2666104,3,3,0,3,0,1,1,1,1
+W7168795048,Vision-language and generative models in traffic video safety analysis: a computational framework and research agenda,2026,10.1016/j.aap.2026.108673,3,3,0,3,0,1,1,0,0
+W4417456759,Post-Training and Test-Time Scaling of Generative Agent Behavior Models for Interactive Autonomous Driving,2025,10.48550/arxiv.2512.13262,3,3,0,3,0,1,1,1,1
+W4417529641,Driving in Corner Case: A Real-World Adversarial Closed-Loop Evaluation Platform for End-to-End Autonomous Driving,2025,10.48550/arxiv.2512.16055,3,3,0,2,1,1,1,1,1
+W7162031814,ScenePilot: Controllable Boundary-Driven Critical Scenario Generation for Autonomous Driving,2026,10.48550/arxiv.2605.21168,3,3,0,2,1,1,1,1,1
+W4417080453,Controlled consistent diffusion network for long-tail trajectory generation,2025,10.1016/j.knosys.2025.115087,3,3,0,2,0,1,1,0,0
+W7125943540,SafeSim: An Open-Source Platform for Safety-Critical Driving Scenario Simulation and Curriculum-based Adversarial Training,2025,10.1109/smc58881.2025.11343679,3,3,0,2,0,1,1,1,1
+W7143351333,Learning Rollout from Sampling: An R1-Style Tokenized Traffic Simulation Model,2026,10.1109/lra.2026.3678842,3,3,0,2,1,1,1,0,1
+W7171871208,ARISE – Adaptive Refinement and Iterative Scenario Engineering,2026,10.1109/iv66570.2026.11623826,3,3,0,2,1,1,1,1,1
+W7117133081,Systematic Benchmarking of SUMO Against Data-Driven Traffic Simulators,2025,10.48550/arxiv.2512.18537,3,3,0,1,0,1,1,0,1
+W4416242251,Noise-Aware Generative Microscopic Traffic Simulation,2025,10.48550/arxiv.2508.07453,3,3,0,1,0,1,1,1,1
+W4411019568,Diversifying Latent Flows for Safety-Critical Scenarios Generation With CARLA Simulator,2025,10.1109/tcsvt.2025.3576354,3,3,0,1,1,1,1,1,1
+W4408423563,RADIUM: Predicting and Repairing End-to-End Robot Failures Using Gradient-Accelerated Sampling,2025,10.1109/tro.2025.3551198,3,3,0,1,0,1,1,0,1
+W7137027036,Planning-Oriented Trajectory Generation with Motion Prior Guidance Using Truncated Diffusion,2025,10.1109/itsc60802.2025.11423099,3,3,0,1,0,1,1,0,0
+W4417336936,SAGA: Generating Extreme Scenarios for Autonomous Driving via Adversarial Perturbations,2025,10.1109/tits.2025.3640578,3,3,0,1,0,1,1,1,1
+W7164828190,Multi-Agent Embodied Autonomous Driving (MAEAD): From V2X Information Exchange to Shared World Models,2026,10.48550/arxiv.2606.13840,3,3,0,1,0,1,1,0,1
+W7128393698,ZPD-guided adversarial learning for safety-critical autonomous driving,2026,10.1016/j.eswa.2026.131547,3,3,0,1,0,1,1,1,0
+W7135079500,KnowDiffuser: A Knowledge-Guided Diffusion Planner with LLM Reasoning,2026,10.48550/arxiv.2603.10441,3,3,0,1,0,1,1,0,1
+W7212837355,Style2Risk: A Closed-Loop Testing System for Safety Evaluation of Automated Vehicles Under Style-Conditioned Adversarial Interactions,2026,10.3390/systems14091144,3,3,0,1,0,1,1,1,1
+W7203711951,Autonomous vehicle safety testing acceleration: A new diffusion-reachability framework for high-risk powered two-wheeler interactions,2026,10.1016/j.aap.2026.108715,3,3,0,0,0,1,0,0,0
+W7128662720,Controllable Realistic Simulation and Video Generation for Autonomous Vehicles in Safety-Critical Scenarios,2025,,3,3,0,0,1,1,1,1,1
+W7225776144,ProDream: Proactive threat dreaming with a latent world model for robust autonomous driving,2026,10.1016/j.patcog.2026.115276,3,3,0,0,0,1,0,0,0
+W7164849545,DIAMOND: Diffusion-Augmented Imitation Learning for Motion Planning in Autonomous Driving,2026,10.1109/fasta70174.2026.11548855,3,3,0,0,0,1,1,1,1
+W4415049318,FTS: Efficient Closed-Loop Fine-Tuning for Realistic Traffic Simulation,2025,10.23919/ccc64809.2025.11178301,3,3,0,0,0,1,1,1,1
+W7137164840,Enhancing Autonomous Vehicle Test Scenario Reasoning in Language Models,2025,10.1109/itsc60802.2025.11423810,3,3,0,0,0,1,1,0,0
+W7235261584,LLM-Enhanced 3D Generation: A Survey,2026,10.1007/s11263-026-03051-3,3,3,0,0,0,1,0,0,0
+W7167276388,Controllable Risk Scenario Generation From Human Crash Data for Autonomous Vehicle Testing,2026,10.1109/tits.2026.3707288,3,3,0,0,1,1,1,1,1
+W4412661286,Optimizing Multi-Agent Behavior for Interactive Autonomous Driving with Equilibrium Value Estimation,2025,10.2139/ssrn.5367491,3,3,0,0,0,1,1,0,0
+W7164003964,Domain adaptation for autonomous systems: Linking transfer bottlenecks to knowledge mechanisms,2026,10.1016/j.knosys.2026.116845,3,3,0,0,0,1,0,0,0
+W7223946452,Driving on manifolds: A stochastic manifold mapping paradigm for generalizable end-to-end autonomous driving,2026,10.1177/02783649261498059,3,3,0,0,0,1,1,1,1
+W4415235470,Linear Memory SE(2) Invariant Attention,2025,10.48550/arxiv.2507.18597,3,3,0,0,0,1,1,0,1
+W7171873731,Bi-level Training of Latent Diffusion Model for Traffic Simulation,2026,10.1109/iv66570.2026.11624081,3,3,0,0,0,1,1,1,1
+W7204139762,A robust guardian for autonomous driving with game-theoretic and diffusion counterfactuals,2026,10.1016/j.trc.2026.105966,3,3,0,0,0,1,0,0,0
+W7202293465,Threat-guided Policy-aware Scene Perturbation for Safe Autonomous Driving with Online Reinforcement Learning,2026,10.48550/arxiv.2608.10403,3,3,0,0,0,1,1,1,1
+W7222546216,SHRED: Self-Play for Heterogeneous Road-Users without Expert Demonstrations,2026,10.48550/arxiv.2610.20866,3,3,0,0,0,1,1,1,1
+W7225895660,TRACE — TRaffic Autoregressive sCene gEneration,2026,10.1109/vtc2026-fall68024.2026.11758419,3,3,0,0,0,1,1,1,1
+W7130694921,Plausible High-Risk Scenario Generation for Verification of Multi-CAV Cooperation via Bidirectional and Auto-Regressive Transformers,2026,10.1109/tits.2026.3664834,3,3,0,0,0,1,1,1,1
+W7123351674,A Collision-Induced Evaluation Framework for End-to-End Autonomous Driving Model,2025,10.1109/dsa66321.2025.00052,3,3,0,0,0,1,1,1,1
+W7212071464,Collision Snapshot Guided Time-Reversed Safety-Critical Scenario Generation,2026,10.48550/arxiv.2609.06433,3,3,0,0,1,1,1,1,1
+W7225652935,Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving,2026,10.48550/arxiv.2611.09888,3,3,0,0,0,1,1,0,1
+W7211920043,"One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation",2026,10.48550/arxiv.2609.04921,3,3,0,0,0,1,1,1,1
+W7214280705,Towards development-oriented testing and evaluation of ADS: A review of current practices and future trends,2026,10.1016/j.jtte.2026.01.003,3,3,0,0,0,1,1,1,1
+W7221486811,"Multi-Scale Deep Learning Frameworks for Trajectory Prediction, Scene Understanding, and Perception in Autonomous Driving",2026,,3,3,0,0,0,1,1,0,1
+W2964121744,Adam: A Method for Stochastic Optimization,2015,10.48550/arxiv.1412.6980,2,0,2,140473,0,0,0,0,1
+W2963341956,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,2019,10.18653/v1/n19-1423,2,0,2,100526,0,1,0,0,1
+W2896457183,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,2018,10.48550/arxiv.1810.04805,2,0,2,83666,0,0,0,0,1
+W1959608418,Auto-Encoding Variational Bayes,2013,10.48550/arxiv.1312.6114,2,0,2,44897,0,0,0,0,1
+W4322718191,LLaMA: Open and Efficient Foundation Language Models,2023,10.48550/arxiv.2302.13971,2,0,2,29830,0,1,0,0,1
+W3096831136,Generative adversarial networks,2020,10.1145/3422622,2,0,2,23114,0,1,0,0,1
+W3037932933,Layer Normalization,2016,10.48550/arxiv.1607.06450,2,0,2,14938,0,0,0,0,1
+W2781726626,Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor,2018,10.48550/arxiv.1801.01290,2,0,2,13817,0,0,0,0,1
+W2116341502,The Graph Neural Network Model,2008,10.1109/tnn.2008.2005605,2,0,2,12747,0,0,0,0,1
+W3001279689,Scaling Laws for Neural Language Models,2020,10.48550/arxiv.2001.08361,2,0,2,12576,0,1,0,0,1
+W4390873054,Adding Conditional Control to Text-to-Image Diffusion Models,2023,10.1109/iccv51070.2023.00355,2,0,2,10601,0,1,0,0,1
+W7133231369,Large Language Models Are Zero-Shot Reasoners,2022,10.52202/068431-1613,2,0,2,10093,0,1,0,0,1
+W2212660284,A kernel two-sample test,2012,10.5555/2188385.2188410,2,0,2,8184,0,0,0,0,1
+W4360836968,Sparks of Artificial General Intelligence: Early experiments with GPT-4,2023,10.48550/arxiv.2303.12712,2,0,2,6843,0,1,0,0,1
+W2342840547,End to End Learning for Self-Driving Cars,2016,10.48550/arxiv.1604.07316,2,0,2,5857,0,0,0,0,1
+W3035172746,Scalability in Perception for Autonomous Driving: Waymo Open Dataset,2020,10.1109/cvpr42600.2020.00252,2,0,2,5430,0,1,1,0,1
+W2129069237,Deep Unsupervised Learning using Nonequilibrium Thermodynamics,2015,10.48550/arxiv.1503.03585,2,0,2,5413,0,0,0,0,1
+W2959300817,Generative Modeling by Estimating Gradients of the Data Distribution,2019,10.48550/arxiv.1907.05600,2,0,2,5349,0,1,0,0,1
+W2798302089,Robust Physical-World Attacks on Deep Learning Visual Classification,2018,10.1109/cvpr.2018.00175,2,0,2,3700,0,0,1,1,1
+W3003533476,Deep Reinforcement Learning for Autonomous Driving: A Survey,2021,10.1109/tits.2021.3054625,2,0,2,3332,0,1,1,0,1
+W3212637808,Decision Transformer: Reinforcement Learning via Sequence Modeling,2021,10.48550/arxiv.2106.01345,2,0,2,2665,0,1,0,0,1
+W4303440777,Imagen Video: High Definition Video Generation with Diffusion Models,2022,10.48550/arxiv.2210.02303,2,0,2,2508,0,1,0,0,1
+W4386076400,Planning-oriented Autonomous Driving,2023,10.1109/cvpr52729.2023.01712,2,0,2,2278,0,1,1,0,1
+W3048770793,"Lift, Splat, Shoot: Encoding Images from Arbitrary Camera Rigs by Implicitly Unprojecting to 3D",2020,10.1007/978-3-030-58568-6_12,2,0,2,2154,0,1,0,0,0
+W2525936901,Driving to safety: How many miles of driving would it take to demonstrate autonomous vehicle reliability?,2016,10.1016/j.tra.2016.09.010,2,0,2,1648,0,0,0,0,0
+W3087665158,DiffWave: A Versatile Diffusion Model for Audio Synthesis,2020,10.48550/arxiv.2009.09761,2,0,2,1616,0,1,0,0,1
+W2991240978,Square Attack: A Query-Efficient Black-Box Adversarial Attack via Random Search,2020,10.1007/978-3-030-58592-1_29,2,0,2,1476,0,1,0,0,0
+W4226057201,Video Diffusion Models,2022,10.48550/arxiv.2204.03458,2,0,2,1318,0,1,0,0,1
+W4401386967,DriveGPT4: Interpretable End-to-End Autonomous Driving Via Large Language Model,2024,10.1109/lra.2024.3440097,2,0,2,1051,0,1,0,0,1
+W2905173465,ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst,2019,10.15607/rss.2019.xv.031,2,0,2,1046,0,1,1,1,1
+W3108486966,Learning Lane Graph Representations for Motion Forecasting,2020,10.1007/978-3-030-58536-5_32,2,0,2,1020,0,1,0,0,0
+W4292347911,TransFuser: Imitation With Transformer-Based Sensor Fusion for Autonomous Driving,2022,10.1109/tpami.2022.3200245,2,2,0,1011,0,1,1,0,1
+W3139491754,AgentFormer: Agent-Aware Transformers for Socio-Temporal Multi-Agent Forecasting,2021,10.1109/iccv48922.2021.00967,2,0,2,962,0,1,1,0,1
+W4387294122,GAIA-1: A Generative World Model for Autonomous Driving,2023,10.48550/arxiv.2309.17080,2,0,2,929,1,1,1,1,1
+W2967177252,Multimodal Trajectory Predictions for Autonomous Driving using Deep Convolutional Networks,2019,10.1109/icra.2019.8793868,2,0,2,903,0,1,1,0,1
+W2980160556,MultiPath: Multiple Probabilistic Anchor Trajectory Hypotheses for Behavior Prediction,2019,10.48550/arxiv.1910.05449,2,0,2,875,0,1,1,0,1
+W4386065848,Executing your Commands via Motion Diffusion in Latent Space,2023,10.1109/cvpr52729.2023.01726,2,0,2,870,0,1,0,0,1
+W3062588417,TNT: Target-driveN Trajectory Prediction,2020,10.48550/arxiv.2008.08294,2,0,2,842,0,1,1,0,1
+W2937051932,Exploring the Limitations of Behavior Cloning for Autonomous Driving,2019,10.1109/iccv.2019.00942,2,0,2,832,0,1,1,0,1
+W4312824283,Compositional Visual Generation with Composable Diffusion Models,2022,10.1007/978-3-031-19790-1_26,2,0,2,790,0,1,0,0,0
+W2959364614,Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving,2019,10.1145/3319535.3339815,2,0,2,769,1,1,1,1,1
+W2980087597,"INTERACTION Dataset: An INTERnational, Adversarial and Cooperative moTION Dataset in Interactive Driving Scenarios with Semantic Maps",2019,10.48550/arxiv.1910.03088,2,0,2,766,0,1,1,1,1
+W2968008415,End-To-End Interpretable Neural Motion Planner,2019,10.1109/cvpr.2019.00886,2,0,2,569,0,1,1,1,1
+W4394862732,Drive Like a Human: Rethinking Autonomous Driving with Large Language Models,2024,10.1109/wacvw60836.2024.00102,2,0,2,398,0,1,1,0,1
+W4415109354,AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning,2025,10.52202/085713-0942,2,2,0,354,0,1,1,1,1
+W4392019867,VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning,2026,10.48550/arxiv.2402.13243,2,1,1,350,0,1,1,0,1
+W7133261304,Multi-Game Decision Transformers,2022,10.52202/068431-2025,2,0,2,318,0,1,0,0,1
+W4409366191,DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation,2025,10.1609/aaai.v39i10.33130,2,2,0,303,0,1,1,0,1
+W3048966129,"Perceive, Predict, and Plan: Safe Motion Planning Through Interpretable Semantic Representations",2020,10.1007/978-3-030-58592-1_25,2,0,2,277,0,1,0,0,0
+W2985936292,Meta-Sim: Learning to Generate Synthetic Datasets,2020,,2,0,2,236,0,1,0,0,1
+W4399368914,Curse of rarity for autonomous vehicles,2024,10.1038/s41467-024-49194-0,2,1,1,216,0,1,1,0,1
+W2970679500,Generating Critical Test Scenarios for Automated Vehicles with Evolutionary Algorithms,2019,10.1109/ivs.2019.8814230,2,0,2,207,0,1,1,1,1
+W3035524670,PhysGAN: Generating Physical-World-Resilient Adversarial Examples for Autonomous Driving,2020,10.1109/cvpr42600.2020.01426,2,0,2,203,0,1,1,1,1
+W4401416666,Rethinking Imitation-based Planners for Autonomous Driving,2024,10.1109/icra57147.2024.10611364,2,0,2,200,0,1,0,0,1
+W4287325784,Latent Variable Sequential Set Transformers For Joint Multi-Agent Motion Prediction,2021,10.48550/arxiv.2104.00563,2,0,2,197,0,1,1,0,1
+W3157529972,Learning to drive from a world on rails,2021,10.1109/iccv48922.2021.01530,2,0,2,195,0,1,1,0,1
+W3034264193,SurfelGAN: Synthesizing Realistic Sensor Data for Autonomous Driving,2020,10.1109/cvpr42600.2020.01113,2,0,2,151,0,1,1,1,1
+W4383109074,GoRela: Go Relative for Viewpoint-Invariant Motion Forecasting,2023,10.1109/icra48891.2023.10160984,2,0,2,142,0,1,1,0,1
+W3216578859,A Survey on Scenario-Based Testing for Automated Driving Systems in High-Fidelity Simulation,2021,10.48550/arxiv.2112.00964,2,1,1,137,0,1,1,0,1
+W4401307309,DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving,2025,10.1109/iccv51701.2025.02500,2,2,0,133,0,1,1,1,1
+W1969650624,Toward Benchmarking of Microscopic Traffic Flow Models,2003,10.3141/1852-16,2,0,2,127,0,0,0,0,1
+W4387415195,Fear-Neuro-Inspired Reinforcement Learning for Safe Autonomous Driving,2023,10.1109/tpami.2023.3322426,2,2,0,118,0,1,1,0,1
+W4401413933,DTPP: Differentiable Joint Conditional Prediction and Cost Evaluation for Tree Policy Planning in Autonomous Driving,2024,10.1109/icra57147.2024.10610550,2,0,2,116,0,1,0,0,1
+W4386076044,FJMP: Factorized Joint Multi-Agent Motion Prediction over Learned Directed Acyclic Interaction Graphs,2023,10.1109/cvpr52729.2023.01321,2,0,2,115,0,1,1,1,1
+W4404795626,ChatSUMO: Large Language Model for Automating Traffic Scenario Generation in Simulation of Urban MObility,2024,10.1109/tiv.2024.3508471,2,2,0,113,1,1,1,1,1
+W4410166109,Generative AI for Intelligent Transportation Systems: Road Transportation Perspective,2025,10.1145/3719290,2,2,0,112,0,1,1,1,1
+W7117130249,"HUGSIM: A Real-Time, Photo-Realistic and Closed-Loop Simulator for Autonomous Driving",2025,10.1109/tpami.2025.3647952,2,2,0,111,0,1,1,1,1
+W3096158519,Waymo's Safety Methodologies and Safety Readiness Determinations,2020,10.48550/arxiv.2011.00054,2,0,2,109,0,1,1,0,1
+W4391985078,Data-Driven Traffic Simulation: A Comprehensive Review,2024,10.1109/tiv.2024.3367919,2,1,1,107,0,1,1,1,1
+W4406734973,A Survey of World Models for Autonomous Driving,2025,10.48550/arxiv.2501.11260,2,2,0,106,1,1,1,1,1
+W3089529768,SUMMIT: A Simulator for Urban Driving in Massive Mixed Traffic,2020,10.1109/icra40945.2020.9197228,2,0,2,105,0,1,1,1,1
+W7133220524,Nocturne: A Scalable Driving Benchmark for Bringing Multi-Agent Learning One Step Closer to the Real World,2022,10.52202/068431-0286,2,0,2,88,0,1,1,0,1
+W2992742966,Efficient Black-box Assessment of Autonomous Vehicle Safety,2019,10.48550/arxiv.1912.03618,2,0,2,87,0,1,1,0,1
+W4389501308,Towards Knowledge-driven Autonomous Driving,2023,10.48550/arxiv.2312.04316,2,2,0,76,0,1,1,0,1
+W4254581303,Adaptive stress testing of airborne collision avoidance systems,2015,10.1109/dasc.2015.7311613,2,0,2,75,0,0,0,0,1
+W4226440390,TrajGen: Generating Realistic and Diverse Trajectories With Reactive and Feasible Agent Behaviors for Autonomous Driving,2022,10.1109/tits.2022.3202185,2,0,2,75,1,1,1,1,1
+W4413156825,CarPlanner: Consistent Auto-regressive Trajectory Planning for Large-scale Reinforcement Learning in Autonomous Driving,2025,10.1109/cvpr52734.2025.01607,2,2,0,69,0,1,1,1,1
+W4407231336,Robust Autonomy Emerges from Self-Play,2025,10.48550/arxiv.2502.03349,2,2,0,68,0,1,1,1,1
+W4405786382,Can Vehicle Motion Planning Generalize to Realistic Long-tail Scenarios?,2024,10.1109/iros58592.2024.10803052,2,2,0,68,0,1,1,0,1
+W3199947090,"PredictionNet: Real-Time Joint Probabilistic Traffic Prediction for Planning, Control, and Simulation",2022,10.1109/icra46639.2022.9812223,2,0,2,61,1,1,1,0,1
+W4409870283,Generative artificial intelligence in intelligent transportation systems: A systematic review of applications,2025,10.1007/s42524-025-4241-9,2,2,0,53,0,1,1,0,1
+W4413945198,Wcdt: World-Centric Diffusion Transformer for Traffic Scene Generation,2025,10.1109/icra55743.2025.11127600,2,2,0,53,1,1,1,1,1
+W4413145964,DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation,2025,10.1109/cvpr52734.2025.02564,2,2,0,52,0,1,1,1,1
+W4321231431,One Ontology to Rule Them All: Corner Case Scenarios for Autonomous Driving,2023,10.1007/978-3-031-25072-9_29,2,2,0,51,0,1,1,0,0
+W7133228221,trajdata: A Unified Interface to Multiple Human Trajectory Datasets,2023,10.52202/075280-1199,2,0,2,49,0,1,0,0,1
+W4403778993,Improving Agent Behaviors with RL Fine-Tuning for Autonomous Driving,2024,10.1007/978-3-031-72698-9_10,2,1,1,47,0,1,1,0,0
+W7164388270,"Large language models for transportation research: Methodologies, state of the art, and future opportunities",2026,10.1016/j.inffus.2026.104546,2,2,0,43,0,1,1,0,1
+W4417101232,Flow Matching-Based Autonomous Driving Planning with Advanced Interactive Behavior Modeling,2025,10.52202/085713-1281,2,1,1,43,0,1,1,1,1
+W4286893473,CausalAF: Causal Autoregressive Flow for Safety-Critical Driving Scenario Generation,2021,10.48550/arxiv.2110.13939,2,2,0,41,1,1,1,1,1
+W4401417383,Safety-Critical Scenario Generation Via Reinforcement Learning Based Editing,2024,10.1109/icra57147.2024.10611555,2,1,1,41,1,1,1,1,1
+W4413325321,Generating intersection pre-crash trajectories for autonomous driving safety testing using Transformer Time-Series Generative Adversarial Networks,2025,10.1016/j.engappai.2025.111995,2,2,0,40,0,1,1,0,0
+W4225918570,LatentFormer: Multi-Agent Transformer-Based Interaction Modeling and Trajectory Prediction,2022,10.48550/arxiv.2203.01880,2,0,2,39,0,1,1,0,1
+W4396869735,Prospective Role of Foundation Models in Advancing Autonomous Vehicles,2024,10.34133/research.0399,2,2,0,38,0,1,1,1,1
+W4414110562,Probing Multimodal LLMs as World Models for Driving,2025,10.1109/lra.2025.3608656,2,2,0,37,0,1,1,1,1
+W4396813446,ScenicNL: Generating Probabilistic Scenario Programs from Natural Language,2024,10.48550/arxiv.2405.03709,2,1,1,36,0,1,1,1,1
+W4395686867,Integration of Mixture of Experts and Multimodal Generative AI in Internet of Vehicles: A Survey,2024,10.48550/arxiv.2404.16356,2,2,0,33,0,1,1,1,1
+W4406094054,Semantically Adversarial Scene Generation With Explicit Knowledge Guidance,2025,10.1109/tits.2024.3510515,2,0,2,30,0,1,1,1,1
+W4415035379,Plan-R1: Safe and Feasible Trajectory Planning as Language Modeling,2026,10.48550/arxiv.2505.17659,2,2,0,30,0,1,1,0,1
+W4388963974,Applications of Large Scale Foundation Models for Autonomous Driving,2023,10.48550/arxiv.2311.12144,2,2,0,29,0,1,1,0,1
+W4221145027,CVAE-H: Conditionalizing Variational Autoencoders via Hypernetworks and Trajectory Forecasting for Autonomous Driving,2022,10.48550/arxiv.2201.09874,2,0,2,25,0,1,1,0,1
+W1871319270,Automated Generation of Virtual Driving Scenarios from Test Drive Data,2015,,2,0,2,25,0,0,1,1,1
+W4401634058,Diverse Controllable Diffusion Policy With Signal Temporal Logic,2024,10.1109/lra.2024.3444668,2,2,0,25,0,1,1,1,1
+W7133226698,A Diffusion-Model of Joint Interactive Navigation,2023,10.52202/075280-2442,2,1,1,24,0,1,1,1,1
+W4416072465,Trajectory Prediction Meets Large Language Models: A Survey,2025,10.48550/arxiv.2506.03408,2,2,0,23,0,1,1,0,1
+W4409150125,"Diffusion Models and Generative Artificial Intelligence: Frameworks, Applications and Challenges",2025,10.1007/s11831-025-10266-z,2,2,0,23,0,1,0,0,0
+W4408700264,GOOSE: Goal-Conditioned Reinforcement Learning for Safety-Critical Scenario Generation,2024,10.1109/itsc58415.2024.10919498,2,1,1,23,1,1,1,1,1
+W4385301318,(Re) 2 H2O: Autonomous Driving Scenario Generation via Reversely Regularized Hybrid Offline-and-Online Reinforcement Learning,2023,10.1109/iv55152.2023.10186559,2,2,0,23,0,1,1,1,1
+W4404795639,SUSTechGAN: Image Generation for Object Detection in Adverse Conditions of Autonomous Driving,2024,10.1109/tiv.2024.3504566,2,2,0,23,0,1,1,0,1
+W4393336285,Human-compatible driving partners through data-regularized self-play reinforcement learning,2024,10.48550/arxiv.2403.19648,2,1,1,22,0,1,1,0,1
+W4405785962,Text-to-Drive: Diverse Driving Behavior Synthesis via Large Language Models,2024,10.1109/iros58592.2024.10801754,2,2,0,21,0,1,1,1,1
+W7160201995,Unraveling the Effects of Synthetic Data on End-to-End Autonomous Driving,2025,10.1109/iccv51701.2025.02680,2,2,0,19,0,1,1,1,1
+W4403444213,"Edge Case Detection in Automated Driving: Methods, Challenges, and Future Directions",2026,10.1109/tits.2026.3715674,2,2,0,18,0,1,1,1,1
+W4417201587,Learning-Based 3D Reconstruction in Autonomous Driving: A Comprehensive Survey,2025,10.1109/tits.2025.3639471,2,2,0,18,0,1,1,0,1
+W4410907072,Autonomous Vehicles: A Critical Review (2004-2024) and a Vision for the Future,2025,10.36227/techrxiv.174857767.78237989/v1,2,2,0,16,0,1,1,0,1
+W4388327646,Adv3D: Generating Safety-Critical 3D Objects through Closed-Loop Simulation,2023,10.48550/arxiv.2311.01446,2,2,0,15,0,1,1,1,1
+W4413010312,Highly Accurate and Diverse Traffic Data: The DeepScenario Open 3D Dataset,2025,10.1109/iv64158.2025.11097484,2,2,0,14,0,1,1,1,1
+W4413947024,Categorical Traffic Transformer: Interpretable and Diverse Behavior Prediction with Tokenized Latent,2025,10.1109/icra55743.2025.11128234,2,2,0,14,1,1,1,1,1
+W4404955314,World Models: The Safety Perspective,2024,10.1109/issrew63542.2024.00104,2,2,0,14,0,1,0,0,1
+W4414982678,HAD-Gen: Human-like and diverse driving behavior modeling for controllable scenario generation,2025,10.1016/j.aap.2025.108270,2,2,0,14,0,1,1,1,1
+W4405778634,Joint Pedestrian Trajectory Prediction through Posterior Sampling,2024,10.1109/iros58592.2024.10802382,2,1,1,14,0,1,1,1,1
+W4416748619,Enhancing Autonomous Driving Safety with Collision Scenario Integration,2025,10.1109/iros60139.2025.11246713,2,2,0,12,0,1,1,1,1
+W4411020954,Siamese network with dual attention for EEG-driven social learning: Bridging the human-robot gap in long-tail autonomous driving,2025,10.1016/j.eswa.2025.128470,2,2,0,12,0,1,0,0,0
+W4413155664,Continuous Locomotive Crowd Behavior Generation,2025,10.1109/cvpr52734.2025.02088,2,2,0,11,0,1,1,1,1
+W4413145727,UrbanCAD: Towards Highly Controllable and Photorealistic 3D Vehicles for Urban Scene Simulation,2025,10.1109/cvpr52734.2025.02563,2,2,0,11,0,1,1,1,1
+W4405674083,Quantitative Representation of Autonomous Driving Scenario Difficulty Based on Adversarial Policy Search,2025,10.34133/research.0575,2,2,0,10,0,1,1,1,1
+W4401414848,Continual Driving Policy Optimization with Closed-Loop Individualized Curricula,2024,10.1109/icra57147.2024.10611578,2,2,0,9,0,1,1,1,1
+W7160174012,V2XScenes: A Multiple Challenging Traffic Conditions Dataset for Large-Range Vehicle-Infrastructure Collaborative Perception,2025,10.1109/iccv51701.2025.02636,2,2,0,8,0,1,0,0,0
+W4387076477,Stackelberg Driver Model for Continual Policy Improvement in Scenario-Based Closed-Loop Autonomous Driving,2023,10.48550/arxiv.2309.14235,2,2,0,8,0,1,1,1,1
+W4382603351,The 2nd Place Solution for 2023 Waymo Open Sim Agents Challenge,2023,10.48550/arxiv.2306.15914,2,0,2,8,0,1,1,0,1
+W4408696426,Generating Realistic VRU-AV Scenarios via Social Force-Based Gradient Optimization,2024,10.1109/itsc58415.2024.10919513,2,2,0,8,0,1,1,1,1
+W4411196361,Knowledge guided controllable diffusion for enhanced autonomous driving scenarios generation,2025,10.1016/j.neucom.2025.130616,2,2,0,7,0,1,1,1,0
+W4403596208,Safedrive dreamer: Navigating safety–critical scenarios in autonomous driving with world models,2024,10.1016/j.aej.2024.10.039,2,2,0,7,0,1,1,0,1
+W4416553212,AirTrafficGen: Configurable Air Traffic Scenario Generation With Large Language Models,2026,10.1109/tits.2026.3724336,2,2,0,7,0,1,1,1,1
+W4388820622,ECSAS: Exploring Critical Scenarios from Action Sequence in Autonomous Driving,2023,10.1109/ats59501.2023.10317968,2,2,0,7,0,1,1,1,1
+W4415584002,LASER: Script Execution by Autonomous Agents for On-demand Traffic Simulation,2025,10.1145/3755881.3755905,2,2,0,7,0,1,1,1,1
+W4367154341,Varied Realistic Autonomous Vehicle Collision Scenario Generation,2023,10.1007/978-3-031-31438-4_24,2,2,0,7,0,1,1,1,0
+W4415331067,"Responsible Diffusion: A Comprehensive Survey on Safety, Ethics, and Trust in Diffusion Models",2025,10.48550/arxiv.2509.22723,2,2,0,7,0,1,0,0,1
+W4387161261,Generating Transferable Adversarial Simulation Scenarios for Self-Driving via Neural Rendering,2023,10.48550/arxiv.2309.15770,2,2,0,6,0,1,1,1,1
+W7160234017,iMotion-LLM: Instruction-Conditioned Trajectory Generation,2026,10.1109/wacv61042.2026.00266,2,2,0,6,0,1,1,1,1
+W4415252692,Temporal Logic-Based Multi-Vehicle Backdoor Attacks against Offline RL Agents in End-to-end Autonomous Driving,2025,10.52202/085713-2356,2,2,0,6,0,1,1,1,1
+W7165010320,TerraTransfer: Learning End-to-End Driving Policies Without Expert Demonstrations,2026,10.48550/arxiv.2606.17386,2,2,0,6,0,1,1,0,1
+W4405354169,ChatDyn: Language-Driven Multi-Actor Dynamics Generation in Street Scenes,2024,10.48550/arxiv.2412.08685,2,2,0,6,0,1,1,1,1
+W4388962977,Attacking Motion Planners Using Adversarial Perception Errors,2023,10.48550/arxiv.2311.12722,2,2,0,5,0,1,1,1,1
+W4416184137,Bridging Simulation and Usability: A User-Friendly Framework for Scenario Generation in CARLA,2025,10.1109/iavvc61942.2025.11219496,2,2,0,5,0,1,1,1,1
+W7163826478,Large Language Model-Based Realistic Safety-Critical Driving Video Generation,2026,10.1177/03611981261445426,2,2,0,5,0,1,1,1,1
+W7165372480,Scaling Self-Play for End-to-End Driving,2026,10.48550/arxiv.2606.19641,2,2,0,5,1,1,1,0,1
+W4399168057,Modeling of Complex Traffic Interaction Under Uncontrolled Intersection Scenario,2024,10.1109/tiv.2024.3407058,2,2,0,5,0,1,1,1,1
+W4408696286,SafeAug: Safety-Critical Driving Data Augmentation from Naturalistic Datasets,2024,10.1109/itsc58415.2024.10920171,2,2,0,5,0,1,1,1,1
+W4415256721,My Precious Crash Data: Barriers and Opportunities in Encouraging Autonomous Driving Companies to Share Safety-Critical Data,2025,10.1145/3757493,2,2,0,4,0,1,1,0,1
+W4389501002,Natural-language-driven Simulation Benchmark and Copilot for Efficient Production of Object Interactions in Virtual Road Scenes,2023,10.48550/arxiv.2312.04008,2,2,0,4,0,1,1,1,1
+W7172433503,Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs,2026,10.48550/arxiv.2608.01755,2,2,0,4,0,1,1,0,1
+W4414883216,TrafficDiff: diffusion model based adversarial traffic scenario controllable generation for autonomous driving robust evaluation,2025,10.1007/s10044-025-01561-3,2,2,0,4,1,1,1,1,0
+W7128167454,HSPG: An open-loop testing framework for autonomous driving based on proactive generation of hazardous scenario,2026,10.1016/j.aap.2026.108449,2,2,0,4,0,1,1,1,0
+W7104650831,ReGen: Generative Robot Simulation via Inverse Design,2025,10.48550/arxiv.2511.04769,2,2,0,4,0,1,1,1,1
+W7118195207,"Aigc-driven human-machine intelligence in ITS: technologies, applications, evaluation framework, challenges, and future directions",2026,10.1007/s10462-025-11467-5,2,2,0,4,0,1,1,1,1
+W7135223629,Risk-Controllable Multi-View Diffusion for Driving Scenario Generation,2026,10.48550/arxiv.2603.11534,2,2,0,4,1,1,1,1,1
+W4414746591,Specific Scenario Generation Method for Trustworthiness Testing of Autonomous Vehicles Based on Interaction Coding,2025,10.3390/app151910656,2,2,0,4,0,1,1,1,1
+W4403420158,ARES: Text-Driven Automatic Realistic Simulator for Autonomous Traffic,2024,10.1109/lsp.2024.3481151,2,2,0,3,0,1,1,1,1
+W7138424434,ReflexDiffusion: Reflection-Enhanced Trajectory Planning for High-lateral-acceleration Scenarios in Autonomous Driving,2026,10.1609/aaai.v40i22.38938,2,2,0,3,0,1,1,1,1
+W4414858718,RealDrive: Retrieval-Augmented Driving with Diffusion Models,2025,10.48550/arxiv.2505.24808,2,2,0,3,0,1,1,1,1
+W4401905963,MACS: Multi-Agent Adversarial Reinforcement Learning for Finding Diverse Critical Driving Scenarios,2024,10.1109/icst60714.2024.00010,2,2,0,3,0,1,1,1,1
+W7221016027,RoaD: Rollouts as Demonstrations for Closed-Loop Supervised Fine-Tuning of Autonomous Driving Policies,2026,10.1109/cvprf71909.2026.00101,2,2,0,3,0,1,1,1,1
+W4408696626,Safety Evaluation of Autonomous Driving Based on Safety-Critical Scenario Generation,2024,10.1109/itsc58415.2024.10920064,2,2,0,3,1,1,1,1,1
+W4413018005,Learning to Model Diverse Interactive Traffic with Driving Tendency-Guided Policy Optimization,2025,10.1109/iv64158.2025.11097406,2,2,0,3,0,1,1,1,1
+W4409640587,Emperror: A Flexible Generative Perception Error Model for Probing Self-Driving Planners,2025,10.1109/lra.2025.3562789,2,2,0,3,0,1,1,0,1
+W7160506645,ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving,2026,10.48550/arxiv.2605.04647,2,2,0,3,0,1,1,0,1
+W4409018307,Direct Post-Training Preference Alignment for Multi-Agent Motion Generation Models Using Implicit Feedback from Pre-training Demonstrations,2025,10.48550/arxiv.2503.20105,2,2,0,3,0,1,1,1,1
+W7155057670,Heterogeneous Self-Play for Realistic Highway Traffic Simulation,2026,10.48550/arxiv.2604.16406,2,2,0,3,0,1,1,1,1
+W7140289387,"Rectify, Don't Regret: On-Policy Closed-Loop Training for Multimodal Trajectory Prediction",2026,10.48550/arxiv.2603.23393,2,2,0,2,0,1,0,0,1
+W7196960131,NSF-HRPT: Neural Semantic Field meets Hierarchical Risk Perception Tree for Safety-Critical Scenario Assessment,2026,10.1109/icra57385.2026.11696046,2,2,0,2,0,1,1,0,1
+W4400646074,Scalable Traffic Simulation for Autonomous Driving via Multi-Agent Goal Assignment and Autoregressive Goal-Directed Planning,2024,10.1109/iv55156.2024.10588681,2,2,0,2,0,1,1,1,1
+W4416749924,Scalable Offline Metrics for Autonomous Driving,2025,10.1109/iros60139.2025.11247722,2,2,0,2,0,1,1,0,1
+W4413925028,Intelligence Evaluation Methods for Autonomous Vehicles,2025,10.1109/icra55743.2025.11128468,2,2,0,2,0,1,1,1,1
+W7136330652,CADiffusion: Controllable Adversarial Diffusion for Attacking Lane Detection of Autonomous Vehicles,2025,10.1109/itsc60802.2025.11423139,2,2,0,2,0,1,1,0,1
+W4403191433,Enhancing Planning for Autonomous Driving via an Iterative Optimization Framework Incorporating Safety-Critical Trajectory Generation,2024,10.3390/rs16193721,2,2,0,2,0,1,1,1,1
+W4416748927,Bench4Merge: A Comprehensive Benchmark for Merging in Realistic Dense Traffic with Micro-Interactive Vehicles,2025,10.1109/iros60139.2025.11247075,2,2,0,2,0,1,1,0,1
+W4414065037,"A Taxonomy and Comprehensive Survey of Scenario Generation for Autonomous Driving: Methods, Challenges, and Emerging Trends in Safety-Critical Testing",2025,10.33774/coe-2025-263kz,2,2,0,2,0,1,1,1,1
+W7128604767,ADVersa: Abductive Driving Accident Video Understanding,2026,10.1109/tpami.2026.3663545,2,2,0,2,0,1,1,0,1
+W7148781436,Efficient Equivariant Transformer for Self-Driving Agent Modeling,2026,10.48550/arxiv.2604.01466,2,2,0,2,0,1,1,0,1
+W7213945144,CounterPlay: Counterfactual Post-Training for Self-Play Driving Policies,2026,10.48550/arxiv.2609.21617,2,2,0,2,0,1,1,0,1
+W4391770006,Video Killed the HD-Map: Predicting Multi-Agent Behavior Directly From Aerial Images,2023,10.1109/itsc57777.2023.10422048,2,1,1,2,0,1,1,0,1
+W7124253817,Consistency Policy with Categorical Critic for Autonomous Driving,2025,10.65109/toer5608,2,2,0,1,0,1,1,1,1
+W7135045722,Ontology-guided adversarial scenario generation for AV testing,2026,10.1007/s44443-026-00497-w,2,2,0,1,0,1,1,1,1
+W4406595922,Driving Scenario Generation Based on Latent Diffusion Model for Autonomous Driving Vehicles,2025,10.5302/j.icros.2025.24.0248,2,2,0,1,0,1,1,1,1
+W7162464494,RECTOR: Priority-Aware Rule-Based Reranking for Compliance-Aware Autonomous Driving Trajectory Selection,2026,10.48550/arxiv.2605.25095,2,2,0,1,0,1,1,1,1
+W7117472413,Multimodal transformer–diffusion framework for large-scale reconstruction of soccer tracking data,2025,10.1016/j.cviu.2025.104626,2,2,0,1,0,1,0,0,0
+W7161280919,Systematic Discovery of Semantic Attacks in Online Map Construction through Conditional Diffusion,2026,10.48550/arxiv.2605.14396,2,2,0,1,0,1,1,1,1
+W7128427801,Reinforcement Learning for Driving Policy Generalization via Risk-Aware Expert Policy and Conditional Diffusion,2026,10.1109/tits.2026.3657609,2,2,0,1,0,1,1,1,1
+W4393406990,SAB: Stacking Action Blocks for Efficiently Generating Diverse Multimodal Critical Driving Scenario,2023,10.1109/apsec60848.2023.00031,2,2,0,1,0,1,1,1,1
+W7207851239,DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space,2026,10.48550/arxiv.2609.02252,2,2,0,1,0,1,1,1,1
+W7204187721,Scaling Curriculum Learning For Autonomous Driving,2026,10.48550/arxiv.2608.22549,2,2,0,1,0,1,1,0,1
+W4396786882,TSDiT: Traffic Scene Diffusion Models With Transformers,2024,10.48550/arxiv.2405.02289,2,2,0,1,0,1,1,0,1
+W7168299269,Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models,2026,10.48550/arxiv.2607.10781,2,2,0,1,0,1,1,0,1
+W4400222485,Model Predictive Simulation Using Structured Graphical Models and Transformers,2024,10.48550/arxiv.2406.19635,2,2,0,1,0,1,1,1,1
+W7213582148,"AURORA: A Natural Language-Driven Agentic Framework for Understanding, Reasoning, and Orchestrating Reliable Air-Ground Co-Simulation",2026,10.48550/arxiv.2609.19527,2,2,0,1,0,1,1,1,1
+W7169496145,TRACE: Topology-aware Reconstruction of Accidents in CARLA for AV Evaluation,2026,10.1145/3803437.3806426,2,2,0,1,0,1,1,1,1
+W7202405605,Video2Track: From Real-World Interaction Videos to Steerable Adversarial Closed-Track Testing for Automated Driving Systems,2026,10.48550/arxiv.2608.11592,2,2,0,1,0,1,1,1,1
+W7222176466,Uncertainty-Driven Self-Play for Robust Multi-Agent Driving Policies,2026,10.48550/arxiv.2610.19714,2,2,0,0,0,1,1,1,1
+W7223663826,"Baas: Benchmarking Adversarial Agent Strategies � A Comparative Study Of Gradient-Based, Reinforcement, And Evolutionary Paradigms For Safety-Critical Scenario Generation",2026,10.3850/esrel2026061419_esrel26-p26154-cd,2,2,0,0,0,1,1,1,1
+W4413835164,Generating Test Scenarios for Autonomous Driving: A Taxonomy and Survey,2025,10.20944/preprints202508.2130.v1,2,2,0,0,0,1,1,1,1
+W4416749627,Diverse and Adaptive Behavior Curriculum for Autonomous Driving: A Student-Teacher Framework with Multi-Agent RL,2025,10.1109/iros60139.2025.11246550,2,2,0,0,0,1,1,1,1
+W7213675658,VAST: V2X/Dynamic Map-Aware Autonomous Driving Systems Validation Toolchain,2026,10.23919/dsdcps00089.2026.00033,2,2,0,0,0,1,1,1,1
+W4416369190,A Trajectory Generator for High-Density Traffic and Diverse Agent-Interaction Scenarios,2025,10.48550/arxiv.2510.02627,2,2,0,0,0,1,1,1,1
+W7134051365,K-Gen: A Multimodal Language-Conditioned Approach for Interpretable Keypoint-Guided Trajectory Generation,2026,10.48550/arxiv.2603.04868,2,2,0,0,0,1,1,1,1
+W7136523924,Prediction-Driven Motion Planning: Route Integration Strategies in Attention-Based Prediction Models,2025,10.1109/itsc60802.2025.11423211,2,2,0,0,0,1,1,0,1
+W4414689869,Critical Data Discovery for Self-Driving: A Data Distillation Approach,2025,10.3390/app151910649,2,2,0,0,0,1,1,0,1
+W7225746087,Breaking survivorship bias in driving world models,2026,10.48550/arxiv.2611.11516,2,2,0,0,0,1,1,1,1
+W7151361718,Real-time conditional cross-modal tactile generation for intelligent vehicles: A lightweight variational model with spectral consistency,2026,10.1016/j.sysarc.2026.103794,2,2,0,0,0,1,1,0,0
+W4414719574,Simulation and Testing Techniques,2025,10.1007/978-3-031-99485-2_12,2,2,0,0,0,1,0,0,0
+W7213098341,Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach,2026,10.1016/j.trc.2026.106000,2,2,0,0,0,1,0,0,0
+W7133232062,Learning to Be Adversarial Yet Compliant: Safety-Critical Driving Scenario Generation via Safe Reinforcement Learning,2025,10.1109/acai68217.2025.11406633,2,2,0,0,0,1,1,1,1
+W7159602214,A Simple Rule-Based Behavioral Planner for Urban Autonomous Driving Scenarios,2026,10.33774/coe-2026-kr76b,2,2,0,0,0,1,1,1,1
+W7223085713,Controllable Multi-Object Insertion for Detection Data Augmentation,2026,10.48550/arxiv.2610.26922,2,2,0,0,0,1,0,0,1
+W7225782005,StyleAD: Safe and Adaptive Trajectory Planning via Style-Aware World Models,2026,10.1109/lra.2026.3752312,2,2,0,0,0,1,1,1,1
+W7204109366,Generating risk scenarios adverse to cooperative vehicle-infrastructure perception: An optimization-based framework,2026,10.1016/j.aap.2026.108742,2,2,0,0,0,1,1,1,0
+W7225061194,"Evaluating Learning from Failure in End-to-End Autonomous Driving: A Framework for Safety, Generalization, and Training Cost",2026,10.32996/fcsai.2026.5.11.1,2,2,0,0,0,1,1,1,1
+W4414113839,HiFiSim:Learning for High-Frequency Traffic Scenario Simulation with Dual-Domain Fidelity,2025,10.2139/ssrn.5472614,2,2,0,0,0,1,1,0,0
+W7160915863,What Will Happen Next: Large Models-Driven Deduction for Emergency Instances,2026,10.48550/arxiv.2605.08599,2,2,0,0,0,1,1,1,1
+W4415968896,Multi-modal Hierarchical Diffusion Model for Robust and Realistic Trajectory Generation,2025,10.1109/iecon58223.2025.11221841,2,2,0,0,0,1,1,0,1
+W7172449396,Data-Driven Controllable Simulation of Dynamic Risk Scenarios in Autonomous Driving,2026,10.1109/yac71005.2026.11615607,2,2,0,0,0,1,1,1,1
+W7225409940,GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving,2026,10.48550/arxiv.2611.07912,2,2,0,0,0,1,1,0,1
+W7172389120,Safe Trajectory Planning Based on LLM Reasoning and Dynamic Gradient-Guided Diffusion Models,2026,10.1109/yac71005.2026.11615684,2,2,0,0,0,1,1,1,1
+W7125897665,Diffusion-Based Corner Scenario Generation Method for Autonomous Driving with a Dynamics-Based Decoder,2025,10.1109/cvci66304.2025.11348242,2,2,0,0,0,1,1,1,1
+W4413865644,Safety Concerns in Autonomous Driving: A Taxonomy of Test and Evaluation Approaches,2025,10.20944/preprints202508.2152.v1,2,2,0,0,0,1,1,1,1
+W7203820094,Feasibility-Aware Boundary-Adaptive Adversarial Policies for Autonomous Driving Scenario Testing,2026,10.1109/compsac69091.2026.00185,2,2,0,0,0,1,1,1,1
+W7214243136,A survey of data-driven corner-case generation methods for autonomous vehicle testing,2026,10.1016/j.jtte.2025.12.003,2,2,0,0,0,1,1,1,1
+W7165727605,CLOSURE: Closed-LOop Self-evolving large LangUage model framework for REal-time adversarial scenario generation,2026,10.1016/j.trc.2026.105817,2,2,0,0,0,1,0,1,0
+W7127112496,Risk-aware diffusion model for generating extreme weather scenarios and safety evaluation in autonomous driving,2026,10.7717/peerj-cs.3573,2,2,0,0,0,1,1,1,1
+W7128394323,Addressing the Waypoint-Action Gap in End-to-End Autonomous Driving via Vehicle Motion Models,2026,10.48550/arxiv.2602.06214,2,2,0,0,0,1,0,0,1
+W7134856198,Operation safety assurance framework for AI-driven autonomous driving: Hierarchical risk-filtering perspective,2026,10.26599/commtr.2026.9640018,2,2,0,0,0,1,1,0,1
+W7213261347,Automatic Extraction and Scene Reproduction of Maritime Accident Report Corpus Based on LLM and RAG,2026,10.1145/3832928.3833046,2,2,0,0,0,1,0,0,0
+W7129487538,A Generalizable Physics-guided Causal Model for Trajectory Prediction in Autonomous Driving,2026,10.1109/icra57385.2026.11695983,2,2,0,0,0,1,1,0,1
+W4416749756,On Learning Closed-Loop Probabilistic Multi-Agent Simulator,2025,10.1109/iros60139.2025.11246993,2,2,0,0,0,1,1,1,1
+W7220800506,Quantifying Ghost Object Detectability in V2X Networks via Data-Driven Traffic Generation,2026,,2,2,0,0,0,1,1,1,1
+W7165018036,"SPHINX: First Explain, Then Explore",2026,10.48550/arxiv.2606.17482,2,2,0,0,0,1,1,1,1
+W7220651599,MoCAR: Motion-code Coordinate-aware AutoRegression for Continuous Trajectory Forecasting,2026,10.48550/arxiv.2610.06210,2,2,0,0,0,1,1,1,1
+W7208758906,High-value multi-vehicle scenario generation for autonomous driving testing using a fine-tuned generative transformer,2026,10.1177/09544070261484532,2,2,0,0,0,1,1,1,1
+W7162677108,Decoupled Intelligence: A Multi-Agent LLM Framework for Controllable Traffic Scenario Generation in SUMO,2026,10.48550/arxiv.2605.27685,2,2,0,0,1,1,1,1,1
+W7155361605,From Particles to Perils: SVGD-Based Hazardous Scenario Generation for Autonomous Driving Systems Testing,2026,10.1145/3808153,2,2,0,0,0,1,1,1,1
+W7139147463,CorrectionPlanner: Self-Correction Planner with Reinforcement Learning in Autonomous Driving,2026,,2,2,0,0,0,1,1,0,1
+W7163149126,Large Language Models in Transportation Systems Management and Operations: From Text Reasoning to Multi-modal Decision Support,2026,10.48550/arxiv.2606.00991,2,2,0,0,0,1,0,0,1
+W7127456977,"UniMotion: A Unified Motion Framework for Simulation, Prediction and Planning",2026,10.48550/arxiv.2602.00566,2,2,0,0,0,1,1,1,1
+W7158793376,FlowS: One-Step Motion Prediction via Local Transport Conditioning,2026,10.1109/lra.2026.3739561,2,2,0,0,0,1,1,1,1
+W7162039714,DeCoR: Design and Control Co-Optimization for Urban Streets Using Reinforcement Learning,2026,10.48550/arxiv.2605.21311,2,2,0,0,0,1,1,0,1
+W7130563796,A survey of testing automated driving system,2026,10.1007/s11704-025-41327-y,2,2,0,0,0,1,0,0,0
+W7219155341,Evaluating Physical Consistency and Plausibility in Generative Scenario Models for Autonomous Driving,2026,10.48550/arxiv.2610.01581,2,2,0,0,0,1,1,1,1
+W7236774309,Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation,2026,10.48550/arxiv.2611.24876,2,2,0,0,0,1,1,1,1
+W7221085472,Lamarck's Driving School: Discovering Autonomous Driving Training Strategies through Evolutionary Competition,2026,10.48550/arxiv.2610.11662,2,2,0,0,0,1,1,0,1
+W7222939596,A Survey on Large Model-based Safety-critical Scenario Generation for Autonomous Driving,2026,10.1109/ijcnn69854.2026.11729569,2,2,0,0,1,1,1,1,1
+W7172280442,Long-term Traffic Scene Prediction via Polynomial Representations in Autonomous Driving,2026,10.17169/refubium-53174,2,2,0,0,0,1,1,1,1
+W7204937623,RedLight-VLA: Models for traffic-rule grounding and behavioral emphasis in driving policies,2026,10.48550/arxiv.2608.28656,2,2,0,0,0,1,1,0,1
+W4415815010,Generation of Multiple Types of Driving Scenarios with Variational Autoencoders for Autonomous Driving,2025,10.3390/futuretransp5040159,2,2,0,0,0,1,1,1,1
+W7150917934,Robust Autonomous Driving via Vulnerability-Aware Co-Optimization Framework Against Safety-Critical Scenarios,2026,10.1109/ojits.2026.3680881,2,2,0,0,0,1,1,1,1
+W7154238702,General-purpose LLMs as Models of Human Driver Behavior: The Case of Simplified Merging,2026,10.48550/arxiv.2604.09609,2,2,0,0,0,1,1,0,1
+W7225823979,A Deterministic Framework for LLM-Assisted Road Generation for Scenario-Based Testing,2026,10.1109/isse70179.2026.11762791,2,2,0,0,0,1,0,1,1
+W4413893767,Study on Data-Driven Scenario Construction for Autonomous Driving Testing,2025,10.33774/coe-2025-jz51g,2,2,0,0,0,1,1,1,1
+W7214154552,Teach-to-Crash: A Closed-Loop Student–Teacher LLM Framework for Collision-Inducing Test Scenario Generation,2026,10.1145/3843282.3844441,2,2,0,0,0,1,1,1,1
+W7213609110,Worst-Case Hidden-Vehicle Trajectory Search in Spatiotemporal Occlusion Regions,2026,10.48550/arxiv.2609.20480,2,2,0,0,0,1,1,0,1
+W7170148223,Motion Simulation-based Data Scaling for Integrated Prediction and Planning of Autonomous Driving,2026,10.1109/ddcls71227.2026.11610487,2,2,0,0,0,1,1,1,1
+W7163712527,SAFEDEC: Unifying proprioceptive and exteroceptive sensing for safe autonomous driving,2026,10.1016/j.inffus.2026.104523,2,2,0,0,0,1,0,0,0
+W7104665945,Controllable risk scenario generation from human crash data for autonomous vehicle testing,2025,10.2139/ssrn.5734582,2,2,0,0,1,1,1,1,0
+W7154977554,Chance-Constrained and Risk-Bounded Hierarchical Path Planning for Autonomous Driving in Safety-Critical Scenarios,2026,10.33774/coe-2026-7pb1t,2,2,0,0,0,1,1,1,1
+W7223313713,Retrieval-Augmented Generation for Autonomous Driving: A Survey of Scene Understanding and Decision Support,2026,10.1109/icaita71179.2026.11737054,2,2,0,0,0,1,1,1,1

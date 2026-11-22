@@ -1,0 +1,13 @@
+{
+ "id": "trajeglish_traffic_modeling_as_next_token_predicti",
+ "title": "Trajeglish: Traffic Modeling as Next-Token Prediction",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Map, initial agent states (position, heading, size, class), and, in partial-control use, actions already chosen by other agents including replayed agents; no behaviour-style controls in packet.", "pages": "1-2, 5-6, 18-19"},
+ "control_mechanism": {"value": "Autoregressive conditioning: each agent's next motion token is predicted given the encoded map and initial states, previous actions, and actions of agents earlier in the same timestep (agent order).", "pages": "1-2, 5-6"},
+ "base_model": {"value": "GPT-like encoder-decoder transformer over discrete motion tokens (k-disks tokenization, vocabulary 384), VectorNet map encoder with latent query attention, trained with next-token cross-entropy.", "pages": "1-2, 5-6"},
+ "datasets": {"value": "Waymo Open Motion Dataset (training, Sim Agents Benchmark); nuScenes used for transfer/fine-tuning.", "pages": "2, 6, 9"},
+ "metrics": {"value": "WOMD Sim Agents metrics: realism meta, kinematic, interactive, map-based, minADE; partial-control collision rate; negative log-likelihood for context-length and scaling analyses.", "pages": "6-7, 19-20"},
+ "controllability_evidence": {"value": "Partial control: collision rate drops significantly when the controlled agent acts last in the order (no number given). Benchmark: realism meta 0.5339 versus 0.5168 for the next-best listed model.", "pages": "6-7, 19-20"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Imitative sim-agent model, not really controllable generation; packet shows only partial-control (replay) setting. LoRA gave too little expressiveness for nuScenes transfer (p9) but is a finding, not a stated limitation."
+}

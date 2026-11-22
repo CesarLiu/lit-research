@@ -1,0 +1,16 @@
+[
+ {"id": 5, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 6, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 14, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 15, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 26, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 27, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 33, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 34, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 35, "verdict": "PARTIAL", "wrong_citation": false, "issue": "\"undetectable wrong loss\" drops the qualifier in stated_limitations, which says only that there is no automatic detection or repair of wrong GPT4 loss code."},
+ {"id": 38, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 39, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 43, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 47, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 54, "verdict": "PARTIAL", "wrong_citation": false, "issue": "Limitations of [9] and [11] match stated_limitations, but calling [9] a variant of reward tilting is not in its control_mechanism, which describes classifier-free guidance on a latent inferred from returns, not tilting."}
+]

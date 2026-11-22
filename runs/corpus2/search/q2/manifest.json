@@ -1,0 +1,804 @@
+[
+  {
+    "title": "Guided Conditional Diffusion for Controllable Traffic Simulation",
+    "year": 2023,
+    "authors": [
+      "Ziyuan Zhong",
+      "Davis Rempe",
+      "Danfei Xu",
+      "Yuxiao Chen",
+      "Sushant Veer",
+      "Tong Che",
+      "Baishakhi Ray",
+      "Marco Pavone"
+    ],
+    "doi": "10.1109/icra48891.2023.10161463",
+    "file": "openalex_101109_icra48891202310161463_Guided_Conditional_Diffusion_for_Controllable_Traffi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4383108499",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "RIFT: Group-Relative RL Fine-Tuning for Realistic and Controllable Traffic Simulation",
+    "year": 2025,
+    "authors": [
+      "Keyu Chen",
+      "Wenchao Sun",
+      "Hao Bo Cheng",
+      "Sifa Zheng"
+    ],
+    "doi": "10.48550/arxiv.2505.03344",
+    "file": "openalex_1048550_arxiv250503344_RIFT_Group-Relative_RL_Fine-Tuning_for_Realistic_and_Contr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414743715",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation",
+    "year": 2026,
+    "authors": [
+      "Yu-Hsiang Chen",
+      "Wei-Jer Chang",
+      "Yi-Ting Chen",
+      "Masayoshi Tomizuka"
+    ],
+    "doi": "10.1007/978-3-032-37196-6_2",
+    "file": "openalex_101007_978-3-032-37196-6_2_ECoSim_Data_Efficient_Fine-Tuning_for_Controllable_Tra.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7167104847",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Controllable Traffic Simulation through LLM-Guided Hierarchical Reasoning and Refinement",
+    "year": 2025,
+    "authors": [
+      "Zhiyuan Liu",
+      "Leheng Li",
+      "Yuning Wang",
+      "Haotian Lin",
+      "Hao Cheng",
+      "Zhizhe Liu",
+      "Lei He",
+      "Jianqiang Wang"
+    ],
+    "doi": "10.1109/iros60139.2025.11247747",
+    "file": "openalex_101109_iros60139202511247747_Controllable_Traffic_Simulation_through_LLM-Guided_H.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416749640",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CBLab: Supporting the Training of Large-scale Traffic Control Policies with Scalable Traffic Simulation",
+    "year": 2023,
+    "authors": [
+      "Chumeng Liang",
+      "Zherui Huang",
+      "Yicheng Liu",
+      "Zhanyu Liu",
+      "Guanjie Zheng",
+      "Hanyuan Shi",
+      "Kan Wu",
+      "Yuhao Du",
+      "Fuliang Li",
+      "Zhenhui Jessie Li"
+    ],
+    "doi": "10.1145/3580305.3599789",
+    "file": "openalex_101145_35803053599789_CBLab_Supporting_the_Training_of_Large-scale_Traffic_Contro.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4385562469",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Vehicle-In-The-Loop (VIL) and Scenario-In-The-Loop (SCIL) Automotive Simulation Concepts from the Perspectives of Traffic Simulation and Traffic Control",
+    "year": 2019,
+    "authors": [
+      "Márton Tamás Horváth",
+      "Qiong Lu",
+      "Tamás Tettamanti",
+      "Árpád Török",
+      "Zsolt Szalay"
+    ],
+    "doi": "10.2478/ttj-2019-0014",
+    "file": "openalex_102478_ttj-2019-0014_Vehicle-In-The-Loop_VIL_and_Scenario-In-The-Loop_SCIL_Automo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2944774797",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Traffic control algorithms for mixed vehicle traffic – A simulation-based investigation",
+    "year": 2021,
+    "authors": [
+      "Vasileios Markantonakis",
+      "Aneza Doko",
+      "Ioannis Papamichail",
+      "Markos Papageorgiou",
+      "Karl Schrab",
+      "Maximilian Neubauer",
+      "Robert Protzmann"
+    ],
+    "doi": "10.1016/j.trpro.2021.01.042",
+    "file": "openalex_101016_jtrpro202101042_Traffic_control_algorithms_for_mixed_vehicle_traffic__A_si.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3128681600",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Controllable Latent Diffusion for Traffic Simulation",
+    "year": 2025,
+    "authors": [
+      "Xiao, Yizhuo",
+      "Mustafa Suphi Erden",
+      "Cheng Wang"
+    ],
+    "doi": "10.48550/arxiv.2503.11771",
+    "file": "openalex_1048550_arxiv250311771_Controllable_Latent_Diffusion_for_Traffic_Simulation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414900400",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Task and Interaction Regulation in Controlling a Traffic Simulation",
+    "year": 2023,
+    "authors": [
+      "Patrick Jermann"
+    ],
+    "doi": "10.4324/9781315045467-128",
+    "file": "openalex_104324_9781315045467-128_Task_and_Interaction_Regulation_in_Controlling_a_Traffic.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4310623140",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Simulation and Research of Urban Intelligent Traffic Light Control System",
+    "year": 2021,
+    "authors": [
+      "Chunling Sun",
+      "Fuhai Liu"
+    ],
+    "doi": "10.1088/1742-6596/2068/1/012043",
+    "file": "openalex_101088_1742-6596_2068_1_012043_Simulation_and_Research_of_Urban_Intelligent_Traff.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3213115507",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Towards Discrete-Event, Aggregating, and Relational Control Interfaces for Traffic Simulation",
+    "year": 2023,
+    "authors": [
+      "Zhuoxiao Meng",
+      "Anibal Siguenza-Torres",
+      "Mingyue Gao",
+      "Margherita Grossi",
+      "Alexander Wieder",
+      "Xiaorui Du",
+      "Stefano Bortoli",
+      "Christoph Sommer",
+      "Alois Knoll"
+    ],
+    "doi": "10.1145/3573900.3591116",
+    "file": "openalex_101145_35739003591116_Towards_Discrete-Event_Aggregating_and_Relational_Control_I.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4379415345",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "PredictionNet: Real-Time Joint Probabilistic Traffic Prediction for Planning, Control, and Simulation",
+    "year": 2022,
+    "authors": [
+      "A. Kamenev",
+      "Lirui Wang",
+      "Ollin Boer Bohan",
+      "Ishwar Kulkarni",
+      "Bilal Kartal",
+      "Artem Molchanov",
+      "Stan T. Birchfield",
+      "D. Nistér",
+      "Nikolai Smolyanskiy"
+    ],
+    "doi": "10.1109/icra46639.2022.9812223",
+    "file": "openalex_101109_icra4663920229812223_PredictionNet_Real-Time_Joint_Probabilistic_Traffic_P.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3199947090",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "High Performance Computing Traffic Simulations for Real-Time Traffic Control of Mobility in Chattanooga Region",
+    "year": 2020,
+    "authors": [
+      "Juliette Ugirumurera"
+    ],
+    "doi": "",
+    "file": "openalex_W4287826313_High_Performance_Computing_Traffic_Simulations_for_Real-Time_Traffic_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4287826313",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Modelling and Simulation of Traffic Light Control",
+    "year": 2023,
+    "authors": [
+      "Boriana Vatchova",
+      "Yordanka Boneva",
+      "ALEXANDER E. GEGOV"
+    ],
+    "doi": "10.2478/cait-2023-0032",
+    "file": "openalex_102478_cait-2023-0032_Modelling_and_Simulation_of_Traffic_Light_Control.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4387142467",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Enhancing Traffic Control Strategies through Dynamic Simulation and Reinforcement Learning",
+    "year": 2024,
+    "authors": [
+      "Alona Mary Sebastian",
+      "K R Athulram",
+      "Colin Michael",
+      "Diya Anna Sunil",
+      "K. G. Preetha"
+    ],
+    "doi": "10.1109/icaaic60222.2024.10575522",
+    "file": "openalex_101109_icaaic60222202410575522_Enhancing_Traffic_Control_Strategies_through_Dynam.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4400231926",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Stochastic Control Behavior of the Balancing Rider for Cycling Safety in Traffic Simulation",
+    "year": 2025,
+    "authors": [
+      "Christoph M. Konrad",
+      "Riender Happee",
+      "Jason K. Moore",
+      "Azita Dabiri"
+    ],
+    "doi": "10.31224/6107",
+    "file": "openalex_1031224_6107_Stochastic_Control_Behavior_of_the_Balancing_Rider_for_Cycling_Safet.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7117481176",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Simulation Based On Traffic Light Control System By Using Sumo And TraCI",
+    "year": 2026,
+    "authors": [
+      "J Maria Shanthi",
+      "V Krishnamoorthy",
+      "S. Mohan Raju",
+      "G. Kalaimani",
+      "M. Subburaj"
+    ],
+    "doi": "10.1109/click68749.2026.11741909",
+    "file": "openalex_101109_click68749202611741909_Simulation_Based_On_Traffic_Light_Control_System_By.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7224840613",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Smart AI-Based Traffic Light Control System Using YOLO and Simulation",
+    "year": 2026,
+    "authors": [
+      "V.SARALA GUDALA DIVAKAR RAMPRASAD"
+    ],
+    "doi": "",
+    "file": "openalex_W7217605013_Smart_AI-Based_Traffic_Light_Control_System_Using_YOLO_and_Simulation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7217605013",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Simulations of road traffic at light-controlled intersections",
+    "year": 2021,
+    "authors": [
+      "Antonín Kavička"
+    ],
+    "doi": "10.46354/i3m.2021.emss.005",
+    "file": "openalex_1046354_i3m2021emss005_Simulations_of_road_traffic_at_light-controlled_intersecti.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W3201011981",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Spatio‐temporal Keyframe Control of Traffic Simulation using Coarse‐to‐Fine Optimization",
+    "year": 2022,
+    "authors": [
+      "Yi Han",
+      "He Wang",
+      "Xiaogang Jin"
+    ],
+    "doi": "10.1111/cgf.14699",
+    "file": "openalex_101111_cgf14699_Spatiotemporal_Keyframe_Control_of_Traffic_Simulation_using_Coars.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4304192572",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Web-Based Visualization and Control of Traffic Simulation",
+    "year": 2023,
+    "authors": [
+      "Jozef Kapusta",
+      "Peter Trúchly"
+    ],
+    "doi": "10.1109/iceta61311.2023.10344055",
+    "file": "openalex_101109_iceta61311202310344055_Web-Based_Visualization_and_Control_of_Traffic_Simu.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4389606831",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Evaluation of the effectiveness of traffic control algorithms based on a simulation model in the AnyLogic",
+    "year": 2019,
+    "authors": [
+      "Ya I Shamlitskiy",
+      "S. Mironenko",
+      "N V Kovbasa",
+      "N V Bezrukova",
+      "В С Тынченко",
+      "В В Кукарцев"
+    ],
+    "doi": "10.1088/1742-6596/1353/1/012101",
+    "file": "openalex_101088_1742-6596_1353_1_012101_Evaluation_of_the_effectiveness_of_traffic_control.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W2986928613",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Integrating Ethics into Simulation-Driven Engineering Education: A Traffic Signal Control Experiment",
+    "year": 2026,
+    "authors": [
+      "Yanli Wang",
+      "Linbo Li",
+      "Bing Wu",
+      "Ling Wang",
+      "Wanjing Ma"
+    ],
+    "doi": "10.2991/978-94-6239-703-3_18",
+    "file": "openalex_102991_978-94-6239-703-3_18_Integrating_Ethics_into_Simulation-Driven_Engineering.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7163674923",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries",
+    "year": 2024,
+    "authors": [
+      "Wei-Jer Chang",
+      "Francesco Pittaluga",
+      "Masayoshi Tomizuka",
+      "Wei Zhan",
+      "Manmohan Krishna Chandraker"
+    ],
+    "doi": "10.1007/978-3-031-72664-4_14",
+    "file": "openalex_101007_978-3-031-72664-4_14_SAFE-SIM_Safety-Critical_Closed-Loop_Traffic_Simulati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403760824",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Research on integrated simulation platform for urban traffic control connecting simulation and practice",
+    "year": 2022,
+    "authors": [
+      "Lili Zhang",
+      "Qi Zhao",
+      "Yu Pei",
+      "Jing Li",
+      "Di Yao",
+      "Xinzhe Wang",
+      "Li Wang",
+      "Lingyu Zhang"
+    ],
+    "doi": "10.1038/s41598-022-08481-w",
+    "file": "openalex_101038_s41598-022-08481-w_Research_on_integrated_simulation_platform_for_urban_tr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4229032350",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Learning to Control and Coordinate Mixed Traffic Through Robot Vehicles at Complex and Unsignalized Intersections",
+    "year": 2023,
+    "authors": [
+      "Dawei Wang",
+      "Weizi Li",
+      "Lei Zhu",
+      "Jia Pan"
+    ],
+    "doi": "10.1177/02783649241284069",
+    "file": "arxiv_101177_02783649241284069_Learning_to_Control_and_Coordinate_Mixed_Traffic_Through_Ro.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2301.05294v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Traffic control using intelligent timing of traffic lights with reinforcement learning technique and real-time processing of surveillance camera images",
+    "year": 2024,
+    "authors": [
+      "Mahdi Jamebozorg",
+      "Mohsen Hami",
+      "Sajjad Deh Deh Jani"
+    ],
+    "doi": "",
+    "file": "arxiv_240513256v1_Traffic_control_using_intelligent_timing_of_traffic_lights_with_reinforc.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2405.13256v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Large-scale Regional Traffic Signal Control Based on Single-Agent Reinforcement Learning",
+    "year": 2025,
+    "authors": [
+      "Qiang Li",
+      "Jin Niu",
+      "Qin Luo",
+      "Lina Yu"
+    ],
+    "doi": "",
+    "file": "arxiv_250309252v2_Large-scale_Regional_Traffic_Signal_Control_Based_on_Single-Agent_Reinfo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.09252v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Image Classification using CNN for Traffic Signs in Pakistan",
+    "year": 2021,
+    "authors": [
+      "Abdul Azeem Sikander",
+      "Hamza Ali"
+    ],
+    "doi": "",
+    "file": "arxiv_210210130v1_Image_Classification_using_CNN_for_Traffic_Signs_in_Pakistan.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2102.10130v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LCSim: A Large-Scale Controllable Traffic Simulator",
+    "year": 2024,
+    "authors": [
+      "Yuheng Zhang",
+      "Tianjian Ouyang",
+      "Fudan Yu",
+      "Lei Qiao",
+      "Wei Wu",
+      "Jingtao Ding",
+      "Jian Yuan",
+      "Yong Li"
+    ],
+    "doi": "",
+    "file": "arxiv_240619781v2_LCSim_A_Large-Scale_Controllable_Traffic_Simulator.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2406.19781v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Robust Single-Agent Reinforcement Learning for Regional Traffic Signal Control Under Demand Fluctuations",
+    "year": 2025,
+    "authors": [
+      "Qiang Li",
+      "Jin Niu",
+      "Lina Yu"
+    ],
+    "doi": "",
+    "file": "arxiv_251100549v2_Robust_Single-Agent_Reinforcement_Learning_for_Regional_Traffic_Signal_C.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2511.00549v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Ad Hoc HLA Simulation Model Derived From a Model-Based Traffic Scenario",
+    "year": 2022,
+    "authors": [
+      "David Reiher",
+      "Axel Hahn"
+    ],
+    "doi": "",
+    "file": "arxiv_220806234v2_Ad_Hoc_HLA_Simulation_Model_Derived_From_a_Model-Based_Traffic_Scenario.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2208.06234v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Single-agent Reinforcement Learning Model for Regional Adaptive Traffic Signal Control",
+    "year": 2025,
+    "authors": [
+      "Qiang Li",
+      "Ningjing Zeng",
+      "Lina Yu"
+    ],
+    "doi": "",
+    "file": "arxiv_251100551v2_Single-agent_Reinforcement_Learning_Model_for_Regional_Adaptive_Traffic_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2511.00551v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ControlNeXt: Powerful and Efficient Control for Image and Video Generation",
+    "year": 2024,
+    "authors": [
+      "Bohao Peng",
+      "Jian Wang",
+      "Yuechen Zhang",
+      "Wenbo Li",
+      "Ming-Chang Yang",
+      "Jiaya Jia"
+    ],
+    "doi": "",
+    "file": "arxiv_240806070v3_ControlNeXt_Powerful_and_Efficient_Control_for_Image_and_Video_Generatio.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.06070v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Timing Sensitivity in Actuated Traffic Signal Control: A simulation study on one urban network",
+    "year": 2026,
+    "authors": [
+      "Nitai Aharoni"
+    ],
+    "doi": "",
+    "file": "arxiv_260938280v1_Timing_Sensitivity_in_Actuated_Traffic_Signal_Control_A_simulation_study.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.38280v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ASTM :Autonomous Smart Traffic Management System Using Artificial Intelligence CNN and LSTM",
+    "year": 2024,
+    "authors": [
+      "Christofel Rio Goenawan"
+    ],
+    "doi": "",
+    "file": "arxiv_241010929v7_ASTM_Autonomous_Smart_Traffic_Management_System_Using_Artificial_Intelli.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2410.10929v7",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Graph-Based Control Interface for Traffic Signals on Heterogeneous Road Networks",
+    "year": 2026,
+    "authors": [
+      "Bertil Braun"
+    ],
+    "doi": "",
+    "file": "arxiv_260721831v1_A_Graph-Based_Control_Interface_for_Traffic_Signals_on_Heterogeneous_Roa.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2607.21831v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Why Machine Learning Integrated Patient Flow Simulation?",
+    "year": 2021,
+    "authors": [
+      "Tesfamariam M. Abuhay",
+      "Adane Mamuye",
+      "Stewart Robinson",
+      "Sergey V. Kovalchuk"
+    ],
+    "doi": "10.36819/sw21.041",
+    "file": "arxiv_1036819_sw21041_Why_Machine_Learning_Integrated_Patient_Flow_Simulation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2104.08203v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Purpose in the Machine: Do Traffic Simulators Produce Distributionally Equivalent Outcomes for Reinforcement Learning Applications?",
+    "year": 2023,
+    "authors": [
+      "Rex Chen",
+      "Kathleen M. Carley",
+      "Fei Fang",
+      "Norman Sadeh"
+    ],
+    "doi": "10.1109/wsc60868.2023.10407855",
+    "file": "arxiv_101109_wsc60868202310407855_Purpose_in_the_Machine_Do_Traffic_Simulators_Produce_Dis.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2311.08429v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A traffic incident management framework for vehicular ad hoc networks",
+    "year": 2026,
+    "authors": [
+      "Rezvi Shahariar",
+      "Chris Phillips"
+    ],
+    "doi": "10.5121/ijwmn.2025.17202",
+    "file": "arxiv_105121_ijwmn202517202_A_traffic_incident_management_framework_for_vehicular_ad_hoc_n.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.18208v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Using Causality for Enhanced Prediction of Web Traffic Time Series",
+    "year": 2025,
+    "authors": [
+      "Chang Tian",
+      "Mingzhe Xing",
+      "Zenglin Shi",
+      "Matthew B. Blaschko",
+      "Yinliang Yue",
+      "Marie-Francine Moens"
+    ],
+    "doi": "",
+    "file": "arxiv_250200612v2_Using_Causality_for_Enhanced_Prediction_of_Web_Traffic_Time_Series.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.00612v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-level Traffic-Responsive Tilt Camera Surveillance through Predictive Correlated Online Learning",
+    "year": 2024,
+    "authors": [
+      "Tao Li",
+      "Zilin Bian",
+      "Haozhe Lei",
+      "Fan Zuo",
+      "Ya-Ting Yang",
+      "Quanyan Zhu",
+      "Zhenning Li",
+      "Kaan Ozbay"
+    ],
+    "doi": "10.1016/j.trc.2024.104804",
+    "file": "arxiv_101016_jtrc2024104804_Multi-level_Traffic-Responsive_Tilt_Camera_Surveillance_throug.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.02208v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "The Real Deal: A Review of Challenges and Opportunities in Moving Reinforcement Learning-Based Traffic Signal Control Systems Towards Reality",
+    "year": 2022,
+    "authors": [
+      "Rex Chen",
+      "Fei Fang",
+      "Norman Sadeh"
+    ],
+    "doi": "",
+    "file": "arxiv_220611996v3_The_Real_Deal_A_Review_of_Challenges_and_Opportunities_in_Moving_Reinfor.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2206.11996v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark",
+    "year": 2026,
+    "authors": [
+      "Longgang Zhang",
+      "Xiaowei Fu",
+      "Fuxiang Huang",
+      "Lei Zhang"
+    ],
+    "doi": "",
+    "file": "arxiv_260408140v1_Multimodal_Reasoning_with_LLM_for_Encrypted_Traffic_Interpretation_A_Ben.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2604.08140v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A First Look at Class Incremental Learning in Deep Learning Mobile Traffic Classification",
+    "year": 2021,
+    "authors": [
+      "Giampaolo Bovenzi",
+      "Lixuan Yang",
+      "Alessandro Finamore",
+      "Giuseppe Aceto",
+      "Domenico Ciuonzo",
+      "Antonio Pescapè",
+      "Dario Rossi"
+    ],
+    "doi": "",
+    "file": "arxiv_210704464v1_A_First_Look_at_Class_Incremental_Learning_in_Deep_Learning_Mobile_Traff.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2107.04464v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Simulating the social influence in transport mode choices",
+    "year": 2023,
+    "authors": [
+      "Kathleen Salazar-Serna",
+      "Lynnette Hui Xian Ng",
+      "Lorena Cadavid",
+      "Carlos J. Franco",
+      "Kathleen Carley"
+    ],
+    "doi": "10.1109/wsc60868.2023.10408063",
+    "file": "arxiv_101109_wsc60868202310408063_Simulating_the_social_influence_in_transport_mode_choice.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2308.00600v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

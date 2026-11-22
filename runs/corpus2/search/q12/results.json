@@ -1,0 +1,1363 @@
+{
+  "query": "driving environment generation generative model",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2019",
+  "raw_hits": 50,
+  "unique": 50,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4409046497",
+      "doi": "10.48550/arxiv.2503.20523",
+      "title": "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving",
+      "abstract": "Generative models offer a scalable and flexible paradigm for simulating complex environments, yet current approaches fall short in addressing the domain-specific requirements of autonomous driving - such as multi-agent interactions, fine-grained control, and multi-camera consistency. We introduce GAIA-2, Generative AI for Autonomy, a latent diffusion world model that unifies these capabilities within a single generative framework. GAIA-2 supports controllable video generation conditioned on a rich set of structured inputs: ego-vehicle dynamics, agent configurations, environmental factors, and road semantics. It generates high-resolution, spatiotemporally consistent multi-camera videos across geographically diverse driving environments (UK, US, Germany). The model integrates both structured conditioning and external latent embeddings (e.g., from a proprietary driving model) to facilitate flexible and semantically grounded scene synthesis. Through this integration, GAIA-2 enables scalable simulation of both common and rare driving scenarios, advancing the use of generative world models as a core tool in the development of autonomous systems. Videos are available at https://wayve.ai/thinking/gaia-2.",
+      "year": 2025,
+      "authors": [
+        "Lloyd E. Russell",
+        "Anthony Hu",
+        "Lorenzo Bertoni",
+        "Fedoseev, George",
+        "Jamie Shotton",
+        "Elahe Arani",
+        "Gianluca Corrado"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 249,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.20523",
+      "url": "https://openalex.org/W4409046497",
+      "key": "openalex_1048550_arxiv250320523_GAIA-2_A_Controllable_Multi-View_Generative_World_Model_fo",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250320523_GAIA-2_A_Controllable_Multi-View_Generative_World_Model_fo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4385421869",
+      "doi": "10.3390/s23156764",
+      "title": "Conditional Generative Models for Dynamic Trajectory Generation and Urban Driving",
+      "abstract": "This work explores methodologies for dynamic trajectory generation for urban driving environments by utilizing coarse global plan representations. In contrast to state-of-the-art architectures for autonomous driving that often leverage lane-level high-definition (HD) maps, we focus on minimizing required map priors that are needed to navigate in dynamic environments that may change over time. To incorporate high-level instructions (i.e., turn right vs. turn left at intersections), we compare various representations provided by lightweight and open-source OpenStreetMaps (OSM) and formulate a conditional generative model strategy to explicitly capture the multimodal characteristics of urban driving. To evaluate the performance of the models introduced, a data collection phase is performed using multiple full-scale vehicles with ground truth labels. Our results show potential use cases in dynamic urban driving scenarios with real-time constraints. The dataset is released publicly as part of this work in combination with code and benchmarks.",
+      "year": 2023,
+      "authors": [
+        "David A. Paz",
+        "Hengyuan Zhang",
+        "Hao Xiang",
+        "Andrew Liang",
+        "Henrik I. Christensen"
+      ],
+      "venue": "Sensors",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://www.mdpi.com/1424-8220/23/15/6764/pdf?version=1690550169",
+      "url": "https://openalex.org/W4385421869",
+      "key": "openalex_103390_s23156764_Conditional_Generative_Models_for_Dynamic_Trajectory_Generation_",
+      "file_kind": "txt",
+      "file": "openalex_103390_s23156764_Conditional_Generative_Models_for_Dynamic_Trajectory_Generation_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4387294122",
+      "doi": "10.48550/arxiv.2309.17080",
+      "title": "GAIA-1: A Generative World Model for Autonomous Driving",
+      "abstract": "Autonomous driving promises transformative improvements to transportation, but building systems capable of safely navigating the unstructured complexity of real-world scenarios remains challenging. A critical problem lies in effectively predicting the various potential outcomes that may emerge in response to the vehicle's actions as the world evolves. To address this challenge, we introduce GAIA-1 ('Generative AI for Autonomy'), a generative world model that leverages video, text, and action inputs to generate realistic driving scenarios while offering fine-grained control over ego-vehicle behavior and scene features. Our approach casts world modeling as an unsupervised sequence modeling problem by mapping the inputs to discrete tokens, and predicting the next token in the sequence. Emerging properties from our model include learning high-level structures and scene dynamics, contextual awareness, generalization, and understanding of geometry. The power of GAIA-1's learned representation that captures expectations of future events, combined with its ability to generate realistic samples, provides new possibilities for innovation in the field of autonomy, enabling enhanced and accelerated training of autonomous driving technology.",
+      "year": 2023,
+      "authors": [
+        "Anthony Hu",
+        "Lloyd E. Russell",
+        "Hudson Yeo",
+        "Zak Murez",
+        "Fedoseev, George",
+        "Kendall, Alex",
+        "Jamie Shotton",
+        "Gianluca Corrado"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 929,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2309.17080",
+      "url": "https://openalex.org/W4387294122",
+      "key": "openalex_1048550_arxiv230917080_GAIA-1_A_Generative_World_Model_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv230917080_GAIA-1_A_Generative_World_Model_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4404563280",
+      "doi": "10.1007/978-3-031-73650-6_6",
+      "title": "GenAD: Generative End-to-End Autonomous Driving",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Wenzhao Zheng",
+        "Ruiqi Song",
+        "Xianda Guo",
+        "Chenming Zhang",
+        "Long Fei Chen"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 356,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2402.11502",
+      "url": "https://openalex.org/W4404563280",
+      "key": "openalex_101007_978-3-031-73650-6_6_GenAD_Generative_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-73650-6_6_GenAD_Generative_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403021210",
+      "doi": "10.1007/978-3-031-72946-1_22",
+      "title": "Solving Motion Planning Tasks with a Scalable Generative Model",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Yihan Hu",
+        "Siqi Chai",
+        "Zhening Yang",
+        "Jingyu Qian",
+        "Kun Li",
+        "Wenxin Shao",
+        "Haichao Zhang",
+        "Wei Xu",
+        "Qiang Liu"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 66,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2407.02797",
+      "url": "https://openalex.org/W4403021210",
+      "key": "openalex_101007_978-3-031-72946-1_22_Solving_Motion_Planning_Tasks_with_a_Scalable_Generat",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72946-1_22_Solving_Motion_Planning_Tasks_with_a_Scalable_Generat.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4200631182",
+      "doi": "10.1016/j.trc.2022.103926",
+      "title": "A generative car-following model conditioned on driving styles",
+      "abstract": "",
+      "year": 2022,
+      "authors": [
+        "Yifan Zhang",
+        "Xinhong Chen",
+        "Jianping Wang",
+        "Zuduo Zheng",
+        "Kui Wu"
+      ],
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "cited_by": 85,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2112.05399",
+      "url": "https://openalex.org/W4200631182",
+      "key": "openalex_101016_jtrc2022103926_A_generative_car-following_model_conditioned_on_driving_sty",
+      "file_kind": "txt",
+      "file": "openalex_101016_jtrc2022103926_A_generative_car-following_model_conditioned_on_driving_sty.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402951698",
+      "doi": "10.1007/978-3-031-73235-5_4",
+      "title": "SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Kashyap Chitta",
+        "Daniel Dauner",
+        "Andreas Geiger"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 53,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.17933",
+      "url": "https://openalex.org/W4402951698",
+      "key": "openalex_101007_978-3-031-73235-5_4_SLEDGE_Synthesizing_Driving_Environments_with_Generati",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-73235-5_4_SLEDGE_Synthesizing_Driving_Environments_with_Generati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4406472463",
+      "doi": "10.1038/s41586-025-08628-5",
+      "title": "A generative model for inorganic materials design",
+      "abstract": "The design of functional materials with desired properties is essential in driving technological advances in areas such as energy storage, catalysis and carbon capture 1–3 . Generative models accelerate materials design by directly generating new materials given desired property constraints, but current methods have a low success rate in proposing stable crystals or can satisfy only a limited set of property constraints 4–11 . Here we present MatterGen, a model that generates stable, diverse inorganic materials across the periodic table and can further be fine-tuned to steer the generation towards a broad range of property constraints. Compared with previous generative models 4,12 , structures produced by MatterGen are more than twice as likely to be new and stable, and more than ten times closer to the local energy minimum. After fine-tuning, MatterGen successfully generates stable, new materials with desired chemistry, symmetry and mechanical, electronic and magnetic properties. As a proof of concept, we synthesize one of the generated structures and measure its property value to be within 20% of our target. We believe that the quality of generated materials and the breadth of abilities of MatterGen represent an important advancement towards creating a foundational generative model for materials design.",
+      "year": 2025,
+      "authors": [
+        "Claudio Zeni",
+        "Robert Pinsler",
+        "Daniel Zügner",
+        "Andrew T. Fowler",
+        "Matthew K. Horton",
+        "Xiang Fu",
+        "Zilong Wang",
+        "Aliaksandra Shysheya",
+        "Jonathan Crabbé",
+        "Shoko Ueda",
+        "Roberto Sordillo",
+        "Lixin Sun",
+        "Jake A. Smith",
+        "Bichlien H. Nguyen",
+        "Hannes Schulz",
+        "Sarah Lewis",
+        "Chin-Wei Huang",
+        "Ziheng Lu",
+        "Yichi Zhou",
+        "Han Earl Yang"
+      ],
+      "venue": "Nature",
+      "cited_by": 1225,
+      "is_oa": true,
+      "pdf_url": "https://www.nature.com/articles/s41586-025-08628-5_reference.pdf",
+      "url": "https://openalex.org/W4406472463",
+      "key": "openalex_101038_s41586-025-08628-5_A_generative_model_for_inorganic_materials_design",
+      "file_kind": "txt",
+      "file": "openalex_101038_s41586-025-08628-5_A_generative_model_for_inorganic_materials_design.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4392182423",
+      "doi": "10.48550/arxiv.2402.15391",
+      "title": "Genie: Generative Interactive Environments",
+      "abstract": "We introduce Genie, the first generative interactive environment trained in an unsupervised manner from unlabelled Internet videos. The model can be prompted to generate an endless variety of action-controllable virtual worlds described through text, synthetic images, photographs, and even sketches. At 11B parameters, Genie can be considered a foundation world model. It is comprised of a spatiotemporal video tokenizer, an autoregressive dynamics model, and a simple and scalable latent action model. Genie enables users to act in the generated environments on a frame-by-frame basis despite training without any ground-truth action labels or other domain-specific requirements typically found in the world model literature. Further the resulting learned latent action space facilitates training agents to imitate behaviors from unseen videos, opening the path for training generalist agents of the future.",
+      "year": 2024,
+      "authors": [
+        "Jake Bruce",
+        "Dennis, Michael",
+        "Edwards, Ashley",
+        "Jack Parker-Holder",
+        "Yuge Shi",
+        "Edward Hughes",
+        "Matthew Lai",
+        "Aditi Mavalankar",
+        "Richie Steigerwald",
+        "Chris Apps",
+        "Yusuf Aytar",
+        "Sarah Bechtle",
+        "Feryal Behbahani",
+        "Stephanie Chan",
+        "Nicolas Heess",
+        "Lucy González",
+        "Simon Osindero",
+        "Sherjil Ozair",
+        "Scott Reed",
+        "Jingwei Zhang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 1046,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2402.15391",
+      "url": "https://openalex.org/W4392182423",
+      "key": "openalex_1048550_arxiv240215391_Genie_Generative_Interactive_Environments",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240215391_Genie_Generative_Interactive_Environments.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413917025",
+      "doi": "10.1109/icra55743.2025.11128001",
+      "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+      "abstract": "We present LidarDM, a novel LiDAR generative model capable of producing realistic, layout-aware, physically plausible, and temporally coherent LiDAR videos. LidarDM stands out with two unprecedented capabilities in LiDAR generative modeling: (i) LiDAR generation guided by driving scenarios, offering significant potential for autonomous driving simulations, and (ii) 4D LiDAR point cloud generation, enabling the creation of realistic and temporally coherent sequences. At the heart of our model is a novel integrated 4D world generation framework. Specifically, we employ latent diffusion models to generate the 3D scene, combine it with dynamic actors to form the underlying 4D world, and subsequently produce realistic sensory observations within this virtual environment. Our experiments indicate that our approach outperforms competing algorithms in realism, temporal coherency, and layout consistency. We additionally show that LidarDM can be used as a generative world model simulator for training and testing perception models. We release our source code and checkpoints at https://github.com/vzyrianov/LidarDM",
+      "year": 2025,
+      "authors": [
+        "Vlas Zyrianov",
+        "Henry Che",
+        "Zhijian Liu",
+        "Shenlong Wang"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 77,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.02903",
+      "url": "https://openalex.org/W4413917025",
+      "key": "openalex_101109_icra55743202511128001_LidarDM_Generative_LiDAR_Simulation_in_a_Generated_W",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra55743202511128001_LidarDM_Generative_LiDAR_Simulation_in_a_Generated_W.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W3034819467",
+      "doi": "10.1109/tits.2022.3227738",
+      "title": "Modeling Human Driving Behavior Through Generative Adversarial Imitation Learning",
+      "abstract": "An open problem in autonomous vehicle safety validation is building reliable models of human driving behavior in simulation. This work presents an approach to learn neural driving policies from real world driving demonstration data. We model human driving as a sequential decision making problem that is characterized by non-linearity and stochasticity, and unknown underlying cost functions. Imitation learning is an approach for generating intelligent behavior when the cost function is unknown or difficult to specify. Building upon work in inverse reinforcement learning (IRL), Generative Adversarial Imitation Learning (GAIL) aims to provide effective imitation even for problems with large or continuous state and action spaces, such as modeling human driving. This article describes the use of GAIL for learning-based driver modeling. Because driver modeling is inherently a multi-agent problem, where the interaction between agents needs to be modeled, this paper describes a parameter-sharing extension of GAIL called PS-GAIL to tackle multi-agent driver modeling. In addition, GAIL is domain agnostic, making it difficult to encode specific knowledge relevant to driving in the learning process. This paper describes Reward Augmented Imitation Learning (RAIL), which modifies the reward signal to provide domain-specific knowledge to the agent. Finally, human demonstrations are dependent upon latent factors that may not be captured by GAIL. This paper describes Burn-InfoGAIL, which allows for disentanglement of latent variability in demonstrations. Imitation learning experiments are performed using NGSIM, a real-world highway driving dataset. Experiments show that these modifications to GAIL can successfully model highway driving behavior, accurately replicating human demonstrations and generating realistic, emergent behavior in the traffic flow arising from the interaction between driving agents.",
+      "year": 2022,
+      "authors": [
+        "Raunak Bhattacharyya",
+        "Blake Wulfe",
+        "Derek J. Phillips",
+        "Alex Kuefler",
+        "Jeremy Morton",
+        "Ransalu Senanayake",
+        "Mykel J. Kochenderfer"
+      ],
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "cited_by": 201,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2006.06412",
+      "url": "https://openalex.org/W3034819467",
+      "key": "openalex_101109_tits20223227738_Modeling_Human_Driving_Behavior_Through_Generative_Adversa",
+      "file_kind": "txt",
+      "file": "openalex_101109_tits20223227738_Modeling_Human_Driving_Behavior_Through_Generative_Adversa.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4406734973",
+      "doi": "10.48550/arxiv.2501.11260",
+      "title": "A Survey of World Models for Autonomous Driving",
+      "abstract": "Recent breakthroughs in autonomous driving have been propelled by advances in robust world modeling, fundamentally transforming how vehicles interpret dynamic scenes and execute safe decision-making. World models have emerged as a linchpin technology, offering high-fidelity representations of the driving environment that integrate multi-sensor data, semantic cues, and temporal dynamics. This paper systematically reviews recent advances in world models for autonomous driving, proposing a three-tiered taxonomy: (i) Generation of Future Physical World, covering Image-, BEV-, OG-, and PC-based generation methods that enhance scene evolution modeling through diffusion models and 4D occupancy forecasting; (ii) Behavior Planning for Intelligent Agents, combining rule-driven and learning-based paradigms with cost map optimization and reinforcement learning for trajectory generation in complex traffic conditions; (ii) Interaction between Prediction and Planning, achieving multi-agent collaborative decision-making through latent space diffusion and memory-augmented architectures. The study further analyzes training paradigms, including self-supervised learning, multimodal pretraining, and generative data augmentation, while evaluating world models' performance in scene understanding and motion prediction tasks. Future research must address key challenges in self-supervised representation learning, multimodal fusion, and advanced simulation to advance the practical deployment of world models in complex urban environments. Overall, the comprehensive analysis provides a technical roadmap for harnessing the transformative potential of world models in advancing safe and reliable autonomous driving solutions.",
+      "year": 2025,
+      "authors": [
+        "Feng, Tuo",
+        "Wenguan Wang",
+        "Yi Yang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 106,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.11260",
+      "url": "https://openalex.org/W4406734973",
+      "key": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7223488113",
+      "doi": "",
+      "title": "Generative and Spatial Modelling for Autonomous Driving under Adverse Weather",
+      "abstract": "Autonomous driving promises to transform transportation by enabling automated perception and navigation in complex real-world environments. Vision perception has emerged as a compelling paradigm for autonomous driving, using visual inputs to provide dense cues for semantic understanding and spatial reasoning. However, its reliance on optical inputs renders such systems vulnerable to adverse weather, such as heavy rain and dense fog. These conditions corrupt the sensor observations through visual degradations, disrupting downstream perception and planning models and compromising driving safety. To address these challenges, this thesis advocates a data-centric framework structured around two primary directions: \\textit{data enhancement} for recovering clean inputs from corrupted observations, and \\textit{data generation} for creating synthetic driving scenarios for training augmentation. To realize this framework, this thesis delivers a suite of generative and spatial modelling methodologies for both data enhancement and data generation, progressing from 2D image-level processing to 3D scene-level representations. For data enhancement, I first introduce a unified image enhancement framework capable of mitigating diverse visual degradations within a single network architecture. I then extend enhancement from image space to 3D scene reconstruction by explicitly decoupling volumetric atmospheric scattering and camera lens occlusions, enabling the recovery of cleaner scene geometry and appearance under adverse weather. Along the data generation direction, I first develop an LLM-assisted diffusion framework that incorporates autonomous driving domain knowledge into generative modelling and synthesizes corner-case scenarios to improve domain-generalized semantic segmentation. I further advance generation into 3D-aware dynamic scene editing through a controllable weather editing framework operating on a 4D Gaussian field. This framework enables the synthesis of temporally coherent and physically plausible weather scenarios while preserving the underlying 3D scene structure. Across these settings, the proposed methods achieve competitive or superior performance against relevant task-specific baselines, while the enhanced and generated data improve perception tasks such as semantic segmentation under adverse weather conditions. In conclusion, this thesis advances weather-robust autonomous driving by combining generative priors with spatial scene representations for data enhancement and generation, establishing a scalable data-centric framework for robust visual perception.",
+      "year": 2026,
+      "authors": [
+        "Chenghao Qian"
+      ],
+      "venue": "White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York)",
+      "cited_by": 0,
+      "is_oa": false,
+      "pdf_url": "https://etheses.whiterose.ac.uk/id/eprint/39533/1/thesis.pdf",
+      "url": "https://openalex.org/W7223488113",
+      "key": "openalex_W7223488113_Generative_and_Spatial_Modelling_for_Autonomous_Driving_under_Adverse",
+      "file_kind": "txt",
+      "file": "openalex_W7223488113_Generative_and_Spatial_Modelling_for_Autonomous_Driving_under_Adverse.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413017878",
+      "doi": "10.1109/iv64158.2025.11097718",
+      "title": "MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations",
+      "abstract": "World models for autonomous driving have the potential to dramatically improve the reasoning capabilities of today's systems. However, most works focus on camera data, with only a few that leverage lidar data or combine both to better represent autonomous vehicle sensor setups. In addition, raw sensor predictions are less actionable than 3D occupancy predictions, but there are no works examining the effects of combining both multimodal sensor data and 3D occupancy prediction. In this work, we perform a set of experiments with a MUltimodal World Model with Geometric VOxel represen-tations (MUVO) to evaluate different sensor fusion strategies to better understand the effects on sensor data prediction. We also analyze potential weaknesses of current sensor fusion approaches and examine the benefits of additionally predicting 3D occupancy.",
+      "year": 2025,
+      "authors": [
+        "Daniel Bogdoll",
+        "Yitian Yang",
+        "Tim Joseph",
+        "Melih Yazgan",
+        "J. Marius Zöllner"
+      ],
+      "venue": "IEEE Intelligent Vehicles Symposium",
+      "cited_by": 57,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.11762",
+      "url": "https://openalex.org/W4413017878",
+      "key": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou",
+      "file_kind": "txt",
+      "file": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4390889780",
+      "doi": "10.1109/iccv51070.2023.01884",
+      "title": "ContactGen: Generative Contact Modeling for Grasp Generation",
+      "abstract": "This paper presents a novel object-centric contact representation ContactGen for hand-object interaction. The ContactGen comprises 3 components: a contact map indicates the contact location, a part map represents the contact hand part, and a direction map tells the contact direction within each part. Given an input object, we propose a conditional generative model to predict ContactGen and adopt model-based optimization to predict diverse and geometrically feasible grasps. Experimental results demonstrate our method can generate high-fidelity and diverse human grasps for various objects.",
+      "year": 2023,
+      "authors": [
+        "Shaowei Liu",
+        "Yang Min Zhou",
+        "Jimei Yang",
+        "Saurabh Gupta",
+        "Shenlong Wang"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 87,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2310.03740",
+      "url": "https://openalex.org/W4390889780",
+      "key": "openalex_101109_iccv51070202301884_ContactGen_Generative_Contact_Modeling_for_Grasp_Genera",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51070202301884_ContactGen_Generative_Contact_Modeling_for_Grasp_Genera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4388067385",
+      "doi": "10.5614/itbj.ict.res.appl.2023.17.2.4",
+      "title": "Generative Adversarial Networks Based Scene Generation on Indian Driving Dataset",
+      "abstract": "The rate of advancement in the field of artificial intelligence (AI) has drastically increased over the past twenty years or so. From AI models that can classify every object in an image to realistic chatbots, the signs of progress can be found in all fields. This work focused on tackling a relatively new problem in the current scenario-generative capabilities of AI. While the classification and prediction models have matured and entered the mass market across the globe, generation through AI is still in its initial stages. Generative tasks consist of an AI model learning the features of a given input and using these learned values to generate completely new output values that were not originally part of the input dataset. The most common input type given to generative models are images. The most popular architectures for generative models are autoencoders and generative adversarial networks (GANs). Our study aimed to use GANs to generate realistic images from a purely semantic representation of a scene. While our model can be used on any kind of scene, we used the Indian Driving Dataset to train our model. Through this work, we could arrive at answers to the following questions: (1) the scope of GANs in interpreting and understanding textures and variables in complex scenes; (2) the application of such a model in the field of gaming and virtual reality; (3) the possible impact of generating realistic deep fakes on society.",
+      "year": 2023,
+      "authors": [
+        "K. Aditya Shastry",
+        "B. A. Manjunatha",
+        "Tarun Kumar",
+        "D U Karthik"
+      ],
+      "venue": "Journal of ICT Research and Applications",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://journals.itb.ac.id/index.php/jictra/article/download/19162/6296",
+      "url": "https://openalex.org/W4388067385",
+      "key": "openalex_105614_itbjictresappl20231724_Generative_Adversarial_Networks_Based_Scene_Generat",
+      "file_kind": "txt",
+      "file": "openalex_105614_itbjictresappl20231724_Generative_Adversarial_Networks_Based_Scene_Generat.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7164882289",
+      "doi": "10.1109/ainit70033.2026.11557977",
+      "title": "Generative Predictive Control Model for Autonomous Driving Closed-Loop Systems",
+      "abstract": "In this context, the development of autonomous driving systems has shifted from single domain perception and control to closed-loop collaborative decision-making, with the help of the rapidly developing artificial intelligence and intelligent algorithms. In order to cope with the problem of uncertainty in trajectory prediction, time delay of the control response and lack of safety constraint in the special traffic scenario, this paper builds a generative predictive control model for the closed-loop chain of autonomous driving. The model is based on vehicle dynamics, sensor information and perception of the environment and proposes a multimodal trajectory generation mechanism, solving for the trajectory control commands by rolling time domain optimization. The results of experiments demonstrate that the Average Deviation Error (ADE) of the generative predictive model is 0.34 m, the Final Deviation Error (FDE) is 0.72 m, and the trajectory coverage rate is 91.6%, while the average tracking error of closed-loop control is 0.27 m, and the task completion rate is 97.1%. These results show that the proposed approach can improve the accuracy of trajectory prediction, the stability of the control, and the adaptability to safety in complex scenes.",
+      "year": 2026,
+      "authors": [
+        "Hui Li"
+      ],
+      "venue": "International Seminar on Artificial Intelligence, Networking and Information Technology (AINIT)",
+      "cited_by": 0,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7164882289",
+      "key": "openalex_101109_ainit70033202611557977_Generative_Predictive_Control_Model_for_Autonomous_",
+      "file_kind": "txt",
+      "file": "openalex_101109_ainit70033202611557977_Generative_Predictive_Control_Model_for_Autonomous_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144722",
+      "doi": "10.1109/cvpr52734.2025.01604",
+      "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+      "abstract": "We introduce Scenario Dreamer, a fully data-driven generative simulator for autonomous vehicle planning that generates both the initial traffic scene—comprising a lane graph and agent bounding boxes—and closed-loop agent behaviours. Existing methods for generating driving simulation environments encode the initial traffic scene as a rasterized image and, as such, require parameter-heavy networks that perform unnecessary computation due to many empty pixels in the rasterized scene. Moreover, we find that existing methods that employ rule-based agent behaviours lack diversity and realism. Scenario Dreamer instead employs a novel vectorized latent diffusion model for initial scene generation that directly operates on the vectorized scene elements and an autoregressive Transformer for data-driven agent behaviour simulation. Scenario Dreamer additionally supports scene extrapolation via diffusion inpainting, enabling the generation of unbounded simulation environments. Extensive experiments show that Scenario Dreamer outperforms existing generative simulators in realism and efficiency: the vectorized scene-generation base model achieves superior generation quality with around 2× fewer parameters, 6× lower generation latency, and 10× fewer GPU training hours compared to the strongest baseline. We confirm its practical utility by showing that reinforcement learning planning agents are more challenged in Scenario Dreamer environments than traditional non-generative simulation environments, especially on long and adversarial driving environments.",
+      "year": 2025,
+      "authors": [
+        "Luke Rowe",
+        "Roger Girgis",
+        "Anthony Gosselin",
+        "Liam Paull",
+        "Christopher Pal",
+        "Felix Heide"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 53,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.22496",
+      "url": "https://openalex.org/W4413144722",
+      "key": "openalex_101109_cvpr52734202501604_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Genera",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202501604_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Genera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405473616",
+      "doi": "10.47363/jaicc/2022(1)e224",
+      "title": "Advanced Generative Models for 3D Multi-Object Scene Generation: Exploring the use of Cutting-edge Generative Models like Diffusion Models to Synthesize Complex 3D Environments",
+      "abstract": "The evolution of generative models has been quite rapid, and this has greatly impacted the field of 3D scene generation. It was previously impossible to build such detailed 3D scenes automatically and with relative simplicity because the process demanded considerable human input alongside significant computational power. At the same time, it could be a labor-intensive task, especially when a large number of scenes needed to be generated. New generative synthesis methods such as diffusion models and GANs have made it much easier and more efficient to synthesize high-quality 3D scenes. Of these, the diffusion models have turned out to excel at crafting diverse and highly complex multi-object 3D scenes that are photorealistic and provide a new record in scene generation. Such technologies have enabled new opportunities across industries such as VR, augmented reality, gaming, robotics, and automation, where approximate and more realistic 3D models are increasingly becoming useful. The diffusion models, notably, show comparatively high performance in creating complex spatial patterns and a high level of detail, which is beneficial for realistic applications. This paper discusses the basics, uses, limitations, and innovations of current generative models, with an emphasis on diffusion models, with a view to applying them mainly to 3D scene generation. Thus, this review highlights the possibilities and oversights of diffusion models to demonstrate the possibilities of the future of automated 3D content creation across several technological domains.",
+      "year": 2022,
+      "authors": [
+        "Vedant Singh"
+      ],
+      "venue": "Journal of Artificial Intelligence & Cloud Computing",
+      "cited_by": 22,
+      "is_oa": true,
+      "pdf_url": "https://doi.org/10.47363/jaicc/2022(1)e224",
+      "url": "https://openalex.org/W4405473616",
+      "key": "openalex_1047363_jaicc_20221e224_Advanced_Generative_Models_for_3D_Multi-Object_Scene_Gene",
+      "file_kind": "txt",
+      "file": "openalex_1047363_jaicc_20221e224_Advanced_Generative_Models_for_3D_Multi-Object_Scene_Gene.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415318157",
+      "doi": "10.1109/gcwkshps68340.2025.11591078",
+      "title": "A Digital Twin Framework for Metamorphic Testing of Autonomous Driving Systems Using Generative Model",
+      "abstract": "Ensuring the safety of self-driving cars remains a major challenge due to the complexity and unpredictability of real-world driving environments. Traditional testing methods face significant limitations, such as the oracle problem, which makes it difficult to determine whether a system's behavior is correct, and the inability to cover the full range of scenarios an autonomous vehicle may encounter. In this paper, we introduce a digital twin-driven metamorphic testing framework that addresses these challenges by creating a virtual replica of the self-driving system and its operating environment. By combining digital twin technology with AI-based image generative models such as Stable Diffusion, our approach enables the systematic generation of realistic and diverse driving scenes. This includes variations in weather, road topology, and environmental features, all while maintaining the core semantics of the original scenario. The digital twin provides a synchronized simulation environment where changes can be tested in a controlled and repeatable manner. Within this environment, we define three metamorphic relations inspired by real-world traffic rules and vehicle behavior. We validate our framework in the Udacity self-driving simulator and demonstrate that it significantly enhances test coverage and effectiveness. Our method achieves the highest true positive rate (0.719), F1 score (0.689), and precision (0.662) compared to baseline approaches. This paper highlights the value of integrating digital twins with AI-powered scenario generation to create a scalable, automated, and high-fidelity testing solution for autonomous vehicle safety.",
+      "year": 2025,
+      "authors": [
+        "Tony Zhang",
+        "Burak Kantarcı",
+        "Umair Siddique"
+      ],
+      "venue": "IEEE Globecom Workshops (GC Wkshps)",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.07133",
+      "url": "https://openalex.org/W4415318157",
+      "key": "openalex_101109_gcwkshps68340202511591078_A_Digital_Twin_Framework_for_Metamorphic_Testing",
+      "file_kind": "txt",
+      "file": "openalex_101109_gcwkshps68340202511591078_A_Digital_Twin_Framework_for_Metamorphic_Testing.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4401246741",
+      "doi": "10.1109/tiv.2024.3436587",
+      "title": "Hierarchical Generative Adversarial Imitation Learning With Mid-Level Input Generation for Autonomous Driving on Urban Environments",
+      "abstract": "Deriving robust control policies for realistic urban navigation scenarios is not a trivial task. In an end-to-end approach, these policies must map high-dimensional images from the vehicle's cameras to low-level actions such as steering and throttle. While pure Reinforcement Learning (RL) approaches are based exclusively on engineered rewards, Generative Adversarial Imitation Learning (GAIL) agents learn from expert demonstrations while interacting with the environment, which favors GAIL on tasks for which a reward signal is difficult to derive, such as autonomous driving. However, training deep networks directly from raw images on RL tasks is known to be unstable and troublesome. To deal with that, this work proposes a hierarchical GAIL-based architecture (hGAIL) which decouples representation learning from the driving task to solve the autonomous navigation of a vehicle. The proposed architecture consists of two modules: a GAN (Generative Adversarial Net) which generates an abstract mid-level input representation, which is the Bird's-Eye View (BEV) from the surroundings of the vehicle; and the GAIL which learns to control the vehicle based on the BEV predictions from the GAN as input. hGAIL is able to learn both the policy and the mid-level representation simultaneously as the agent interacts with the environment. Our experiments made in the CARLA simulation environment have shown that GAIL exclusively from cameras (without BEV) fails to even learn the task, while hGAIL, after training exclusively on one city, was able to autonomously navigate successfully in 98% of the intersections of a new city not used in training phase.",
+      "year": 2024,
+      "authors": [
+        "Gustavo Cláudio Karl Couto",
+        "Eric Aislan Antonelo"
+      ],
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "cited_by": 33,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2302.04823",
+      "url": "https://openalex.org/W4401246741",
+      "key": "openalex_101109_tiv20243436587_Hierarchical_Generative_Adversarial_Imitation_Learning_With",
+      "file_kind": "txt",
+      "file": "openalex_101109_tiv20243436587_Hierarchical_Generative_Adversarial_Imitation_Learning_With.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4409365815",
+      "doi": "10.1609/aaai.v39i9.33010",
+      "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+      "abstract": "World models envision potential future states based on various ego actions. They embed extensive knowledge about the driving environment, facilitating safe and scalable autonomous driving. Most existing methods primarily focus on either data generation or the pretraining paradigms of world models. Unlike the aforementioned prior works, we propose Drive-OccWorld, which adapts a vision-centric 4D forecasting world model to end-to-end planning for autonomous driving. Specifically, we first introduce a semantic and motion-conditional normalization in the memory module, which accumulates semantic and dynamic information from historical BEV embeddings. These BEV features are then conveyed to the world decoder for future occupancy and flow forecasting, considering both geometry and spatiotemporal modeling. Additionally, we propose injecting flexible action conditions, such as velocity, steering angle, trajectory, and commands, into the world model to enable controllable generation and facilitate a broader range of downstream applications. Furthermore, we explore integrating the generative capabilities of the 4D world model with end-to-end planning, enabling continuous forecasting of future states and the selection of optimal trajectories using an occupancy-based cost function. Extensive experiments on the nuScenes dataset demonstrate that our method can generate plausible and controllable 4D occupancy, opening new avenues for driving world generation and end-to-end planning.",
+      "year": 2025,
+      "authors": [
+        "Yang Yu",
+        "Jianbiao Mei",
+        "Yukai Ma",
+        "Siliang Du",
+        "Wenqing Chen",
+        "Yijie Qian",
+        "Yuxiang Feng",
+        "Yong Liu"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 109,
+      "is_oa": true,
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/33010/35165",
+      "url": "https://openalex.org/W4409365815",
+      "key": "openalex_101609_aaaiv39i933010_Driving_in_the_Occupancy_World_Vision-Centric_4D_Occupancy_",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv39i933010_Driving_in_the_Occupancy_World_Vision-Centric_4D_Occupancy_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7160069689",
+      "doi": "10.1109/iccv51701.2025.02480",
+      "title": "ReconDreamer++: Harmonizing Generative and Reconstructive Models for Driving Scene Representation",
+      "abstract": "Combining reconstruction models with generative models has emerged as a promising paradigm for closed-loop simulation in autonomous driving. For example, ReconDreamer has demonstrated remarkable success in rendering large-scale maneuvers. However, a significant gap remains between the generated data and real-world sensor observations, particularly in terms of fidelity for structured elements, such as the ground surface. To address these challenges, we propose ReconDreamer++, an enhanced framework that significantly improves the overall rendering quality by mitigating the domain gap and refining the representation of the ground surface. Specifically, ReconDreamer++ introduces the Novel Trajectory Deformable Network (NTDNet), which leverages learnable spatial deformation mechanisms to bridge the domain gap between synthesized novel views and original sensor observations. Moreover, for structured elements such as the ground surface, we preserve geometric prior knowledge in 3D Gaussians, and the optimization process focuses on refining appearance attributes while preserving the underlying geometric structure. Experimental evaluations conducted on multiple datasets (Waymo, nuScenes, PandaSet, and EUVS) confirm the superior performance of ReconDreamer++. Specifically, on Waymo, ReconDreamer++ achieves performance comparable to Street Gaussians for the original trajectory while significantly outperforming ReconDreamer on novel trajectories. In particular, it achieves substantial improvements, including a 6.1% increase in NTA-IoU, a 23. 0% improvement in FID, and a remarkable 4.5% gain in the ground surface metric NTL-IoU, highlighting its effectiveness in accurately reconstructing structured elements such as the road surface.",
+      "year": 2025,
+      "authors": [
+        "Guosheng Zhao",
+        "Xiaofeng Wang",
+        "Chaojun Ni",
+        "Zheng Zhu",
+        "Wenkang Qin",
+        "G Q Huang",
+        "Xingang Wang"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 45,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.18438",
+      "url": "https://openalex.org/W7160069689",
+      "key": "openalex_101109_iccv51701202502480_ReconDreamer_Harmonizing_Generative_and_Reconstructive_",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502480_ReconDreamer_Harmonizing_Generative_and_Reconstructive_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7217098890",
+      "doi": "",
+      "title": "Generative Diffusion Pipelines for Rare and Extreme Driving Event Simulation",
+      "abstract": "Simulation of rare and extreme driving events is critical for the development and validation of autonomous vehicle systems, enabling them to safely navigate complex and hazardous scenarios. Traditional simulation approaches often struggle to generate realistic, diverse, and high-fidelity scenarios due to the scarcity and unpredictability of such events in real-world datasets. This paper proposes a novel generative diffusion model-based pipeline designed specifically for simulating rare and extreme driving events to enhance training and testing of autonomous driving systems.Our approach leverages the power of diffusion probabilistic models, which iteratively transform random noise into structured, high-quality driving scenarios by learning the data distribution from rare event datasets. Unlike conventional generative adversarial networks (GANs), diffusion models offer improved training stability, better mode coverage, and superior sample diversity, addressing critical challenges in rare event synthesis.The pipeline integrates multi-modal data including vehicle trajectories, environmental conditions, sensor inputs, and traffic participant behaviors, synthesizing scenarios that capture complex interactions and edge cases such as sudden obstacle appearance, adverse weather effects, and aggressive driving maneuvers. Extensive experiments conducted on benchmark datasets and simulated environments demonstrate that our diffusion-based pipeline outperforms existing generative approaches in terms of scenario realism, diversity, and relevance to real-world rare events.By enabling scalable generation of diverse edge-case scenarios, the pipeline significantly improves autonomous driving model robustness and generalization. We discuss the implications of diffusion model hyperparameters on simulation quality, computational costs, and the integration of this pipeline into broader autonomous vehicle testing frameworks. Future work aims to incorporate real-time adaptive scenario generation and multi-agent interaction modeling to further enhance simulation fidelity.",
+      "year": 2025,
+      "authors": [
+        "Amit Kumar Sharma"
+      ],
+      "venue": "International Journal of Technology Management and Humanities",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://ijtmh.com/index.php/ijtmh/article/download/173/171",
+      "url": "https://openalex.org/W7217098890",
+      "key": "openalex_W7217098890_Generative_Diffusion_Pipelines_for_Rare_and_Extreme_Driving_Event_Sim",
+      "file_kind": "txt",
+      "file": "openalex_W7217098890_Generative_Diffusion_Pipelines_for_Rare_and_Extreme_Driving_Event_Sim.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4414937603",
+      "doi": "10.1145/3838726",
+      "title": "Generative AI for Autonomous Driving: Frontiers and Opportunities",
+      "abstract": "Generative Artificial Intelligence (GenAI) constitutes a transformative technological wave that reconfigures industries through its unparalleled capabilities for content creation, reasoning, planning, and multimodal understanding. This revolutionary force offers the most promising path yet toward solving one of engineering’s grandest challenges: achieving reliable, fully autonomous driving, particularly the pursuit of Level 5 autonomy. This survey delivers a comprehensive and critical synthesis of the emerging role of GenAI across the autonomous driving stack. We delve into the frontier applications of GenAI in image, LiDAR, trajectory, occupancy, and video generation, as well as LLM-guided reasoning and decision-making. We categorize practical applications, such as end-to-end driving strategies and closed-loop simulations. We identify key obstacles and possibilities such as comprehensive generalization across rare cases, evaluation, safety, and onboard deployment. By unifying these threads, the survey provides a forward-looking reference for researchers, engineers, and policymakers navigating the convergence of generative AI and advanced autonomous mobility. An actively maintained repository of cited works is available at https://github.com/taco-group/GenAI4AD.",
+      "year": 2026,
+      "authors": [
+        "Yuping Wang",
+        "Shuo Xing",
+        "Can Cui",
+        "Renjie Li",
+        "Hongyuan Hua",
+        "Kexin Tian",
+        "Zhaobin Mo",
+        "Xiangbo Gao",
+        "Marco Pavone",
+        "Sulong Zhou",
+        "Jiachen Li",
+        "Zhengzhong Tu"
+      ],
+      "venue": "ACM Computing Surveys",
+      "cited_by": 87,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4414937603",
+      "key": "openalex_101145_3838726_Generative_AI_for_Autonomous_Driving_Frontiers_and_Opportunities",
+      "file_kind": "txt",
+      "file": "openalex_101145_3838726_Generative_AI_for_Autonomous_Driving_Frontiers_and_Opportunities.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.04830v1",
+      "doi": "",
+      "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+      "abstract": "Closed-loop simulation and scalable pre-training for autonomous driving require synthesizing free-viewpoint driving scenes. However, existing datasets and generative pipelines rarely provide consistent off-trajectory observations, limiting large-scale evaluation and training. While recent generative models demonstrate strong visual realism, they struggle to jointly achieve interpolation consistency and extrapolation realism without per-scene optimization. To address this, we propose FreeGen, a feed-forward reconstruction-generation co-training framework for free-viewpoint driving scene synthesis. The reconstruction model provides stable geometric representations to ensure interpolation consistency, while the generation model performs geometry-aware enhancement to improve realism at unseen viewpoints. Through co-training, generative priors are distilled into the reconstruction model to improve off-trajectory rendering, and the refined geometry in turn offers stronger structural guidance for generation. Experiments demonstrate that FreeGen achieves state-of-the-art performance for free-viewpoint driving scene synthesis.",
+      "year": 2025,
+      "authors": [
+        "Shijie Chen",
+        "Peixi Peng"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.04830v1",
+      "url": "http://arxiv.org/abs/2512.04830v1",
+      "key": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View",
+      "file_kind": "txt",
+      "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2009.08155v2",
+      "doi": "10.1016/j.buildenv.2021.107623",
+      "title": "Indoor environment data time-series reconstruction using autoencoder neural networks",
+      "abstract": "As the number of installed meters in buildings increases, there is a growing number of data time-series that could be used to develop data-driven models to support and optimize building operation. However, building data sets are often characterized by errors and missing values, which are considered, by the recent research, among the main limiting factors on the performance of the proposed models. Motivated by the need to address the problem of missing data in building operation, this work presents a data-driven approach to fill these gaps. In this study, three different autoencoder neural networks are trained to reconstruct missing short-term indoor environment data time-series in a data set collected in an office building in Aachen, Germany. This consisted of a four year-long monitoring campaign in and between the years 2014 and 2017, of 84 different rooms. The models are applicable for different time-series obtained from room automation, such as indoor air temperature, relative humidity and $CO_{2}$ data streams. The results prove that the proposed methods outperform classic numerical approaches and they result in reconstructing the corresponding variables with average RMSEs of 0.42 °C, 1.30 % and 78.41 ppm, respectively.",
+      "year": 2020,
+      "authors": [
+        "Antonio Liguori",
+        "Romana Markovic",
+        "Thi Thu Ha Dam",
+        "Jérôme Frisch",
+        "Christoph van Treeck",
+        "Francesco Causone"
+      ],
+      "venue": "Building and Environment 191 (2021) 107623",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2009.08155v2",
+      "url": "http://arxiv.org/abs/2009.08155v2",
+      "key": "arxiv_101016_jbuildenv2021107623_Indoor_environment_data_time-series_reconstruction_using_",
+      "file_kind": "txt",
+      "file": "arxiv_101016_jbuildenv2021107623_Indoor_environment_data_time-series_reconstruction_using_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2305.18452v1",
+      "doi": "",
+      "title": "Generating Driving Scenes with Diffusion",
+      "abstract": "In this paper we describe a learned method of traffic scene generation designed to simulate the output of the perception system of a self-driving car. In our \"Scene Diffusion\" system, inspired by latent diffusion, we use a novel combination of diffusion and object detection to directly create realistic and physically plausible arrangements of discrete bounding boxes for agents. We show that our scene generation model is able to adapt to different regions in the US, producing scenarios that capture the intricacies of each region.",
+      "year": 2023,
+      "authors": [
+        "Ethan Pronovost",
+        "Kai Wang",
+        "Nick Roy"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2305.18452v1",
+      "url": "http://arxiv.org/abs/2305.18452v1",
+      "key": "arxiv_230518452v1_Generating_Driving_Scenes_with_Diffusion",
+      "file_kind": "txt",
+      "file": "arxiv_230518452v1_Generating_Driving_Scenes_with_Diffusion.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2303.12869v1",
+      "doi": "",
+      "title": "JaCoText: A Pretrained Model for Java Code-Text Generation",
+      "abstract": "Pretrained transformer-based models have shown high performance in natural language generation task. However, a new wave of interest has surged: automatic programming language generation. This task consists of translating natural language instructions to a programming code. Despite the fact that well-known pretrained models on language generation have achieved good performance in learning programming languages, effort is still needed in automatic code generation. In this paper, we introduce JaCoText, a model based on Transformers neural network. It aims to generate java source code from natural language text. JaCoText leverages advantages of both natural language and code generation models. More specifically, we study some findings from the state of the art and use them to (1) initialize our model from powerful pretrained models, (2) explore additional pretraining on our java dataset, (3) carry out experiments combining the unimodal and bimodal data in the training, and (4) scale the input and output length during the fine-tuning of the model. Conducted experiments on CONCODE dataset show that JaCoText achieves new state-of-the-art results.",
+      "year": 2023,
+      "authors": [
+        "Jessica López Espejel",
+        "Mahaman Sanoussi Yahaya Alassan",
+        "Walid Dahhane",
+        "El Hassane Ettifouri"
+      ],
+      "venue": "Espejel, J. L., Alassan, M. S. Y., Dahhane, W., & Ettifouri, E. H. (2023). JaCoText: A Pretrained Model for Java Code-Text Generation. International Journal of Computer and Systems Engineering, 17(2), 100-105",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.12869v1",
+      "url": "http://arxiv.org/abs/2303.12869v1",
+      "key": "arxiv_230312869v1_JaCoText_A_Pretrained_Model_for_Java_Code-Text_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_230312869v1_JaCoText_A_Pretrained_Model_for_Java_Code-Text_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2307.00161v1",
+      "doi": "",
+      "title": "FFPDG: Fast, Fair and Private Data Generation",
+      "abstract": "Generative modeling has been used frequently in synthetic data generation. Fairness and privacy are two big concerns for synthetic data. Although Recent GAN [\\cite{goodfellow2014generative}] based methods show good results in preserving privacy, the generated data may be more biased. At the same time, these methods require high computation resources. In this work, we design a fast, fair, flexible and private data generation method. We show the effectiveness of our method theoretically and empirically. We show that models trained on data generated by the proposed method can perform well (in inference stage) on real application scenarios.",
+      "year": 2023,
+      "authors": [
+        "Weijie Xu",
+        "Jinjin Zhao",
+        "Francis Iannacci",
+        "Bo Wang"
+      ],
+      "venue": "ICLR 2021 Workshop on Synthetic Data Generation",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2307.00161v1",
+      "url": "http://arxiv.org/abs/2307.00161v1",
+      "key": "arxiv_230700161v1_FFPDG_Fast_Fair_and_Private_Data_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_230700161v1_FFPDG_Fast_Fair_and_Private_Data_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.10395v2",
+      "doi": "",
+      "title": "Pisces: An Auto-regressive Foundation Model for Image Understanding and Generation",
+      "abstract": "Recent advances in large language models (LLMs) have enabled multimodal foundation models to tackle both image understanding and generation within a unified framework. Despite these gains, unified models often underperform compared to specialized models in either task. A key challenge in developing unified models lies in the inherent differences between the visual features needed for image understanding versus generation, as well as the distinct training processes required for each modality. In this work, we introduce Pisces, an auto-regressive multimodal foundation model that addresses this challenge through a novel decoupled visual encoding architecture and tailored training techniques optimized for multimodal generation. Combined with meticulous data curation, pretraining, and finetuning, Pisces achieves competitive performance in both image understanding and image generation. We evaluate Pisces on over 20 public benchmarks for image understanding, where it demonstrates strong performance across a wide range of tasks. Additionally, on GenEval, a widely adopted benchmark for image generation, Pisces exhibits robust generative capabilities. Our extensive analysis reveals the synergistic relationship between image understanding and generation, and the benefits of using separate visual encoders, advancing the field of unified multimodal models.",
+      "year": 2025,
+      "authors": [
+        "Zhiyang Xu",
+        "Jiuhai Chen",
+        "Zhaojiang Lin",
+        "Xichen Pan",
+        "Lifu Huang",
+        "Tianyi Zhou",
+        "Madian Khabsa",
+        "Qifan Wang",
+        "Di Jin",
+        "Michihiro Yasunaga",
+        "Lili Yu",
+        "Xi Victoria Lin",
+        "Shaoliang Nie"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.10395v2",
+      "url": "http://arxiv.org/abs/2506.10395v2",
+      "key": "arxiv_250610395v2_Pisces_An_Auto-regressive_Foundation_Model_for_Image_Understanding_and_G",
+      "file_kind": "txt",
+      "file": "arxiv_250610395v2_Pisces_An_Auto-regressive_Foundation_Model_for_Image_Understanding_and_G.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2104.09630v2",
+      "doi": "10.1007/978-3-030-91390-8_4",
+      "title": "Quaternion Generative Adversarial Networks",
+      "abstract": "Latest Generative Adversarial Networks (GANs) are gathering outstanding results through a large-scale training, thus employing models composed of millions of parameters requiring extensive computational capabilities. Building such huge models undermines their replicability and increases the training instability. Moreover, multi-channel data, such as images or audio, are usually processed by realvalued convolutional networks that flatten and concatenate the input, often losing intra-channel spatial relations. To address these issues related to complexity and information loss, we propose a family of quaternion-valued generative adversarial networks (QGANs). QGANs exploit the properties of quaternion algebra, e.g., the Hamilton product, that allows to process channels as a single entity and capture internal latent relations, while reducing by a factor of 4 the overall number of parameters. We show how to design QGANs and to extend the proposed approach even to advanced models.We compare the proposed QGANs with real-valued counterparts on several image generation benchmarks. Results show that QGANs are able to obtain better FID scores than real-valued GANs and to generate visually pleasing images. Furthermore, QGANs save up to 75% of the training parameters. We believe these results may pave the way to novel, more accessible, GANs capable of improving performance and saving computational resources.",
+      "year": 2021,
+      "authors": [
+        "Eleonora Grassucci",
+        "Edoardo Cicero",
+        "Danilo Comminiello"
+      ],
+      "venue": "Generative Adversarial Learning: Architectures and Applications. Intelligent Systems Reference Library, vol 217. Springer, Cham, Feb. 2022",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2104.09630v2",
+      "url": "http://arxiv.org/abs/2104.09630v2",
+      "key": "arxiv_101007_978-3-030-91390-8_4_Quaternion_Generative_Adversarial_Networks",
+      "file_kind": "txt",
+      "file": "arxiv_101007_978-3-030-91390-8_4_Quaternion_Generative_Adversarial_Networks.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2007.06108v2",
+      "doi": "",
+      "title": "Tabletop Roleplaying Games as Procedural Content Generators",
+      "abstract": "Tabletop roleplaying games (TTRPGs) and procedural content generators can both be understood as systems of rules for producing content. In this paper, we argue that TTRPG design can usefully be viewed as procedural content generator design. We present several case studies linking key concepts from PCG research -- including possibility spaces, expressive range analysis, and generative pipelines -- to key concepts in TTRPG design. We then discuss the implications of these relationships and suggest directions for future work uniting research in TTRPGs and PCG.",
+      "year": 2020,
+      "authors": [
+        "Matthew Guzdial",
+        "Devi Acharya",
+        "Max Kreminski",
+        "Michael Cook",
+        "Mirjam Eladhari",
+        "Antonios Liapis",
+        "Anne Sullivan"
+      ],
+      "venue": "FDG Workshop on Procedural Content Generation 2020",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2007.06108v2",
+      "url": "http://arxiv.org/abs/2007.06108v2",
+      "key": "arxiv_200706108v2_Tabletop_Roleplaying_Games_as_Procedural_Content_Generators",
+      "file_kind": "txt",
+      "file": "arxiv_200706108v2_Tabletop_Roleplaying_Games_as_Procedural_Content_Generators.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2111.01484v2",
+      "doi": "10.1016/j.buildenv.2021.108495",
+      "title": "ArchABM: an agent-based simulator of human interaction with the built environment. $CO_2$ and viral load analysis for indoor air quality",
+      "abstract": "Recent evidence suggests that SARS-CoV-2, which is the virus causing a global pandemic in 2020, is predominantly transmitted via airborne aerosols in indoor environments. This calls for novel strategies when assessing and controlling a building's indoor air quality (IAQ). IAQ can generally be controlled by ventilation and/or policies to regulate human-building-interaction. However, in a building, occupants use rooms in different ways, and it may not be obvious which measure or combination of measures leads to a cost- and energy-effective solution ensuring good IAQ across the entire building. Therefore, in this article, we introduce a novel agent-based simulator, ArchABM, designed to assist in creating new or adapt existing buildings by estimating adequate room sizes, ventilation parameters and testing the effect of policies while taking into account IAQ as a result of complex human-building interaction patterns. A recently published aerosol model was adapted to calculate time-dependent carbon dioxide ($CO_2$) and virus quanta concentrations in each room and inhaled $CO_2$ and virus quanta for each occupant over a day as a measure of physiological response. ArchABM is flexible regarding the aerosol model and the building layout due to its modular architecture, which allows implementing further models, any number and size of rooms, agents, and actions reflecting human-building interaction patterns. We present a use case based on a real floor plan and working schedules adopted in our research center. This study demonstrates how advanced simulation tools can contribute to improving IAQ across a building, thereby ensuring a healthy indoor environment.",
+      "year": 2021,
+      "authors": [
+        "Iñigo Martinez",
+        "Jan L. Bruse",
+        "Ane M. Florez-Tapia",
+        "Elisabeth Viles",
+        "Igor G. Olaizola"
+      ],
+      "venue": "Building and Environment Volume 207, Part B, January 2022, 108495",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2111.01484v2",
+      "url": "http://arxiv.org/abs/2111.01484v2",
+      "key": "arxiv_101016_jbuildenv2021108495_ArchABM_an_agent-based_simulator_of_human_interaction_wit",
+      "file_kind": "txt",
+      "file": "arxiv_101016_jbuildenv2021108495_ArchABM_an_agent-based_simulator_of_human_interaction_wit.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2408.06349v3",
+      "doi": "",
+      "title": "Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning",
+      "abstract": "Motion simulators allow researchers to safely investigate the interaction of drivers with a vehicle. However, many studies that use driving simulator data to predict cognitive load only employ two levels of workload, leaving a gap in research on employing deep learning methodologies to analyze cognitive load, especially in challenging low-light conditions. Often, studies overlook or solely focus on scenarios in bright daylight. To address this gap and understand the correlation between performance and cognitive load, this study employs functional near-infrared spectroscopy (fNIRS) and eye-tracking data, including fixation duration and gaze direction, during simulated driving tasks in low visibility conditions, inducing various mental workloads. The first stage involves the statistical estimation of useful features from fNIRS and eye-tracking data. ANOVA will be applied to the signals to identify significant channels from fNIRS signals. Optimal features from fNIRS, eye-tracking and vehicle dynamics are then combined in one chunk as input to the CNN and LSTM model to predict workload variations. The proposed CNN-LSTM model achieved 99% accuracy with neurological data and 89% with vehicle dynamics to predict cognitive load, indicating potential for real-time assessment of driver mental state and guide designers for the development of safe adaptive systems.",
+      "year": 2024,
+      "authors": [
+        "Mehshan Ahmed Khan",
+        "Houshyar Asadi",
+        "Mohammad Reza Chalak Qazani",
+        "Chee Peng Lim",
+        "Saied Nahavandi"
+      ],
+      "venue": "Proceedings of the Driving Simulation Conference 2024 Europe VR, Driving Simulation Association, Strasbourg, France, 2024, pp. 47-56, ISBN: 978-2-9573777-5-6",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.06349v3",
+      "url": "http://arxiv.org/abs/2408.06349v3",
+      "key": "arxiv_240806349v3_Functional_near-infrared_spectroscopy_fNIRS_and_Eye_tracking_for_Cogniti",
+      "file_kind": "txt",
+      "file": "arxiv_240806349v3_Functional_near-infrared_spectroscopy_fNIRS_and_Eye_tracking_for_Cogniti.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2107.12524v1",
+      "doi": "10.1145/3472538.3472600",
+      "title": "Ensemble Learning For Mega Man Level Generation",
+      "abstract": "Procedural content generation via machine learning (PCGML) is the process of procedurally generating game content using models trained on existing game content. PCGML methods can struggle to capture the true variance present in underlying data with a single model. In this paper, we investigated the use of ensembles of Markov chains for procedurally generating \\emph{Mega Man} levels. We conduct an initial investigation of our approach and evaluate it on measures of playability and stylistic similarity in comparison to a non-ensemble, existing Markov chain approach.",
+      "year": 2021,
+      "authors": [
+        "Bowei Li",
+        "Ruohan Chen",
+        "Yuqing Xue",
+        "Ricky Wang",
+        "Wenwen Li",
+        "Matthew Guzdial"
+      ],
+      "venue": "Proceedings of the Twelfth Workshop on Procedural Content Generation 2021",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2107.12524v1",
+      "url": "http://arxiv.org/abs/2107.12524v1",
+      "key": "arxiv_101145_34725383472600_Ensemble_Learning_For_Mega_Man_Level_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_101145_34725383472600_Ensemble_Learning_For_Mega_Man_Level_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2306.11412v2",
+      "doi": "",
+      "title": "Size Matters: Large Graph Generation with HiGGs",
+      "abstract": "Large graphs are present in a variety of domains, including social networks, civil infrastructure, and the physical sciences to name a few. Graph generation is similarly widespread, with applications in drug discovery, network analysis and synthetic datasets among others. While GNN (Graph Neural Network) models have been applied in these domains their high in-memory costs restrict them to small graphs. Conversely less costly rule-based methods struggle to reproduce complex structures. We propose HIGGS (Hierarchical Generation of Graphs) as a model-agnostic framework of producing large graphs with realistic local structures. HIGGS uses GNN models with conditional generation capabilities to sample graphs in hierarchies of resolution. As a result HIGGS has the capacity to extend the scale of generated graphs from a given GNN model by quadratic order. As a demonstration we implement HIGGS using DiGress, a recent graph-diffusion model, including a novel edge-predictive-diffusion variant edge-DiGress. We use this implementation to generate categorically attributed graphs with tens of thousands of nodes. These HIGGS generated graphs are far larger than any previously produced using GNNs. Despite this jump in scale we demonstrate that the graphs produced by HIGGS are, on the local scale, more realistic than those from the rule-based model BTER.",
+      "year": 2023,
+      "authors": [
+        "Alex O. Davies",
+        "Nirav S. Ajmeri",
+        "Telmo M. Silva Filho"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.11412v2",
+      "url": "http://arxiv.org/abs/2306.11412v2",
+      "key": "arxiv_230611412v2_Size_Matters_Large_Graph_Generation_with_HiGGs",
+      "file_kind": "txt",
+      "file": "arxiv_230611412v2_Size_Matters_Large_Graph_Generation_with_HiGGs.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.06758v1",
+      "doi": "",
+      "title": "Agentic Visual Generation: From Generative Models to Agentic Control",
+      "abstract": "Visual generation is evolving from generative models used through a single invocation into agentic control processes that can plan, select tools, inspect intermediate synthesized outputs, revise failures, and reuse prior experience. In most existing systems, the controller is an LLM or VLM, while visual generation models serve as tools or executors. However, existing work lacks a consistent criterion for determining when a generation system becomes agentic. Planning depth, tool use, multi-role collaboration, and reinforcement learning are often treated as evidence of agenticity, even though none of them necessarily determines which generation decisions the controller can make. We organize the field according to what the controller can directly control in the generation process. At L1 Conditioning Control, the controller prepares the input to a predetermined generator but does not control which visual operation is executed. At L2 Execution Control, it selects and invokes actual generation, editing, rendering, or other content-modifying operations. At L3 Outcome-Adaptive Control, it observes an intermediate outcome and uses that observation to change a subsequent operation within the current task. At L4 Experience-Adaptive Control, it retains experience from completed tasks and uses that experience to change decisions on future tasks. L0 Fixed Support separately denotes generators, editors, evaluators, reward models, benchmarks, and fixed pipelines without a deployed controller that makes generation-level decisions. These levels describe a progressively broader decision-making scope rather than model size, system complexity, output quality, tool or role count, or training method. Applying this framework across image, video, editing, 3D, world, slide, and user-interface generation reveals how controller capabilities have evolved and how their mechanisms are distributed across levels.",
+      "year": 2026,
+      "authors": [
+        "Yinming Huang",
+        "Shuyuan Tu",
+        "Xi Yan",
+        "Jiahao Zhan",
+        "Zihan Yang",
+        "Zhen Xing",
+        "Hui Zhang",
+        "Tiehua Zhang",
+        "Yu-Gang Jiang",
+        "Zuxuan Wu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.06758v1",
+      "url": "http://arxiv.org/abs/2609.06758v1",
+      "key": "arxiv_260906758v1_Agentic_Visual_Generation_From_Generative_Models_to_Agentic_Control",
+      "file_kind": "txt",
+      "file": "arxiv_260906758v1_Agentic_Visual_Generation_From_Generative_Models_to_Agentic_Control.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2610.22450v1",
+      "doi": "",
+      "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+      "abstract": "Three dimensional modeling for autonomous driving must continuously estimate road geometry, obstacle occupancy, traffic participant behavior, and observational uncertainty under limited computational resources. Existing reconstruction methods can synthesize realistic novel views, but visual fidelity does not sufficiently characterize the geometric reliability required for driving. Generative world models can expand scenarios and predict future observations, yet may introduce content unsupported by measurements. We propose DriveWorld3D, a framework combining temporal video learning, measurement constraints from multiple sensors, and offline generative simulation. Its online component maintains a unified world state comprising road surfaces, volumetric occupancy, dynamic entities, and road relations, while separately representing physical occupancy, observability, and evidence provenance. Action conditioned future prediction and risk sensitive planning connect this representation to driving decisions. Its offline component reconstructs recorded scenes using neural radiance fields or 3D Gaussian Splatting, then expands long tail conditions using generative models while restricting the use of generated content as geometric ground truth. We specify data partitioning, sensor ablations, fault injection, paired closed loop testing, and real to simulation consistency assessment. The central hypothesis is that explicit evidence management can reduce dangerous false free space predictions and occlusion risk within a matched computational budget while retaining acceptable driving efficiency. All performance claims remain subject to experimental validation. Keywords: autonomous driving; 3D occupancy; sensor fusion; uncertainty; generative world models; NeRF; 3D Gaussian Splatting; closed loop simulation",
+      "year": 2026,
+      "authors": [
+        "Wei Wang",
+        "Yiru Veronika Wang",
+        "Yihan Wang",
+        "Zihao Li",
+        "Xiaohui Liang"
+      ],
+      "venue": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion. arXiv:2311.01017, 2023",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.22450v1",
+      "url": "http://arxiv.org/abs/2610.22450v1",
+      "key": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul",
+      "file_kind": "txt",
+      "file": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2107.12533v1",
+      "doi": "10.1145/3472538.3472601",
+      "title": "Toward Co-creative Dungeon Generation via Transfer Learning",
+      "abstract": "Co-creative Procedural Content Generation via Machine Learning (PCGML) refers to systems where a PCGML agent and a human work together to produce output content. One of the limitations of co-creative PCGML is that it requires co-creative training data for a PCGML agent to learn to interact with humans. However, acquiring this data is a difficult and time-consuming process. In this work, we propose approximating human-AI interaction data and employing transfer learning to adapt learned co-creative knowledge from one game to a different game. We explore this approach for co-creative Zelda dungeon room generation.",
+      "year": 2021,
+      "authors": [
+        "Zisen Zhou",
+        "Matthew Guzdial"
+      ],
+      "venue": "Proceedings of the Twelfth Workshop on Procedural Content Generation 2021",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2107.12533v1",
+      "url": "http://arxiv.org/abs/2107.12533v1",
+      "key": "arxiv_101145_34725383472601_Toward_Co-creative_Dungeon_Generation_via_Transfer_Learning",
+      "file_kind": "txt",
+      "file": "arxiv_101145_34725383472601_Toward_Co-creative_Dungeon_Generation_via_Transfer_Learning.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2107.12532v1",
+      "doi": "10.1145/3472538.3472602",
+      "title": "Generating Lode Runner Levels by Learning Player Paths with LSTMs",
+      "abstract": "Machine learning has been a popular tool in many different fields, including procedural content generation. However, procedural content generation via machine learning (PCGML) approaches can struggle with controllability and coherence. In this paper, we attempt to address these problems by learning to generate human-like paths, and then generating levels based on these paths. We extract player path data from gameplay video, train an LSTM to generate new paths based on this data, and then generate game levels based on this path data. We demonstrate that our approach leads to more coherent levels for the game Lode Runner in comparison to an existing PCGML approach.",
+      "year": 2021,
+      "authors": [
+        "Kynan Sorochan",
+        "Jerry Chen",
+        "Yakun Yu",
+        "Matthew Guzdial"
+      ],
+      "venue": "Proceedings of the Twelfth Workshop on Procedural Content Generation 2021",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2107.12532v1",
+      "url": "http://arxiv.org/abs/2107.12532v1",
+      "key": "arxiv_101145_34725383472602_Generating_Lode_Runner_Levels_by_Learning_Player_Paths_with_LS",
+      "file_kind": "txt",
+      "file": "arxiv_101145_34725383472602_Generating_Lode_Runner_Levels_by_Learning_Player_Paths_with_LS.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2107.12506v1",
+      "doi": "10.1145/3472538.3472589",
+      "title": "TaikoNation: Patterning-focused Chart Generation for Rhythm Action Games",
+      "abstract": "Generating rhythm game charts from songs via machine learning has been a problem of increasing interest in recent years. However, all existing systems struggle to replicate human-like patterning: the placement of game objects in relation to each other to form congruent patterns based on events in the song. Patterning is a key identifier of high quality rhythm game content, seen as a necessary component in human rankings. We establish a new approach for chart generation that produces charts with more congruent, human-like patterning than seen in prior work.",
+      "year": 2021,
+      "authors": [
+        "Emily Halina",
+        "Matthew Guzdial"
+      ],
+      "venue": "Proceedings of the Twelfth Workshop on Procedural Content Generation 2021",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2107.12506v1",
+      "url": "http://arxiv.org/abs/2107.12506v1",
+      "key": "arxiv_101145_34725383472589_TaikoNation_Patterning-focused_Chart_Generation_for_Rhythm_Act",
+      "file_kind": "txt",
+      "file": "arxiv_101145_34725383472589_TaikoNation_Patterning-focused_Chart_Generation_for_Rhythm_Act.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2603.11534v2",
+      "doi": "",
+      "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation",
+      "abstract": "Generating safety-critical driving scenarios is crucial for evaluating and improving autonomous driving systems, but long-tail risky situations are rarely observed in real-world data and difficult to specify through manual scenario design. Existing generative approaches typically treat risk as an after-the-fact label and struggle to maintain geometric consistency in multi-view driving scenes. We present RiskMV-DPO, a general and systematic pipeline for physically-informed, risk-controllable multi-view scenario generation. By integrating target risk levels with physically-grounded risk modeling, we synthesize diverse and high-stakes dynamic trajectories that serve as explicit geometric anchors for a diffusion-based video generator. To ensure spatial-temporal coherence and geometric fidelity, we introduce a geometry-appearance alignment module and a region-aware direct preference optimization (RA-DPO) strategy with motion-aware masking to focus learning on localized dynamic regions. Experiments on the nuScenes dataset show that RiskMV-DPO can freely generate a wide spectrum of diverse scenarios while maintaining visual quality, improving 3D detection mAP from 18.17 to 30.50 and reducing FID to 15.70. Our work shifts the role of world models from passive environment prediction to proactive, risk-controllable synthesis, providing a scalable toolchain for the development of embodied intelligence.",
+      "year": 2026,
+      "authors": [
+        "Hongyi Lin",
+        "Wenxiu Shi",
+        "Heye Huang",
+        "Dingyi Zhuang",
+        "Song Zhang",
+        "Yang Liu",
+        "Xiaobo Qu",
+        "Jinhua Zhao"
+      ],
+      "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2026",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.11534v2",
+      "url": "http://arxiv.org/abs/2603.11534v2",
+      "key": "arxiv_260311534v2_Risk-Controllable_Multi-View_Diffusion_for_Driving_Scenario_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_260311534v2_Risk-Controllable_Multi-View_Diffusion_for_Driving_Scenario_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.21581v4",
+      "doi": "",
+      "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+      "abstract": "While end-to-end autonomous driving has advanced significantly, prevailing methods remain fundamentally misaligned with human cognitive principles in both perception and planning. In this paper, we propose CogAD, a novel end-to-end autonomous driving model that emulates the hierarchical cognition mechanisms of human drivers. CogAD implements dual hierarchical mechanisms: global-to-local context processing for human-like perception and intent-conditioned multi-mode trajectory generation for cognitively-inspired planning. The proposed method demonstrates three principal advantages: comprehensive environmental understanding through hierarchical perception, robust planning exploration enabled by multi-level planning, and diverse yet reasonable multi-modal trajectory generation facilitated by dual-level uncertainty modeling. Extensive experiments on nuScenes and Bench2Drive demonstrate that CogAD achieves state-of-the-art performance in end-to-end planning, exhibiting particular superiority in long-tail scenarios and robust generalization to complex real-world driving conditions.",
+      "year": 2025,
+      "authors": [
+        "Zhennan Wang",
+        "Jianing Teng",
+        "Canqun Xiang",
+        "Kangliang Chen",
+        "Xing Pan",
+        "Lu Deng",
+        "Weihao Gu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.21581v4",
+      "url": "http://arxiv.org/abs/2505.21581v4",
+      "key": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2608.10976v1",
+      "doi": "",
+      "title": "XCoT-VLA: Executable Chain-of-Thought for Vision-Language-Action Driving",
+      "abstract": "Vision-Language-Action (VLA) models can connect scene understanding, semantic reasoning, and trajectory generation for autonomous driving. However, verbose natural-language Chain-of-Thought (CoT) is poorly suited to real-time control because it is open-ended, costly to decode, and difficult to optimize as an action-facing representation. We propose XCoT-VLA, which replaces descriptive rationales with compact executable CoT tokens learned from automatically constructed Reason-Action supervision. Logged trajectories provide action evidence, while scene context supplies causal semantics. The predicted XCoT sequence remains in context and conditions fixed trajectory queries through shared multimodal self-attention. Deterministic token-function routing applies the Reason FFN to XCoT tokens and the Control FFN to trajectory queries for flow-matching trajectory generation. We further introduce XCoT Policy Optimization (XCPO) as an optional refinement extension in the same executable token space. XCoT-VLA reduces longitudinal ADE from 1.645 to 1.323 on a general-distribution set and lateral FDE from 1.616 to 0.648 in lane-change scenarios. By representing driving-oriented reasoning with only 2-6 executable XCoT tokens, our method substantially reduces autoregressive reasoning overhead and remains within the real-time planning budget. These results demonstrate that driving-oriented reasoning can be compact, executable, and directly connected to trajectory generation.",
+      "year": 2026,
+      "authors": [
+        " Foundation Model Team",
+        "XPeng Inc"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.10976v1",
+      "url": "http://arxiv.org/abs/2608.10976v1",
+      "key": "arxiv_260810976v1_XCoT-VLA_Executable_Chain-of-Thought_for_Vision-Language-Action_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_260810976v1_XCoT-VLA_Executable_Chain-of-Thought_for_Vision-Language-Action_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.16223v1",
+      "doi": "",
+      "title": "Case Study of GAI for Generating Novel Images for Real-World Embroidery",
+      "abstract": "In this paper, we present a case study exploring the potential use of Generative Artificial Intelligence (GAI) to address the real-world need of making the design of embroiderable art patterns more accessible. Through an auto-ethnographic case study by a disabled-led team, we examine the application of GAI as an assistive technology in generating embroidery patterns, addressing the complexity involved in designing culturally-relevant patterns as well as those that meet specific needs regarding detail and color. We detail the iterative process of prompt engineering custom GPTs tailored for producing specific visual outputs, emphasizing the nuances of achieving desirable results that align with real-world embroidery requirements. Our findings underscore the mixed outcomes of employing GAI for producing embroiderable images, from facilitating creativity and inclusion to navigating the unpredictability of AI-generated designs. Future work aims to refine GAI tools we explored for generating embroiderable images to make them more performant and accessible, with the goal of fostering more inclusion in the domains of creativity and making.",
+      "year": 2025,
+      "authors": [
+        "Kate Glazko",
+        "Anika Arugunta",
+        "Janelle Chan",
+        "Nancy Jimenez-Garcia",
+        "Tashfia Sharmin",
+        "Jennifer Mankoff"
+      ],
+      "venue": "GenAICHI: CHI 2024 Workshop on Generative AI and HCI",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.16223v1",
+      "url": "http://arxiv.org/abs/2510.16223v1",
+      "key": "arxiv_251016223v1_Case_Study_of_GAI_for_Generating_Novel_Images_for_Real-World_Embroidery",
+      "file_kind": "txt",
+      "file": "arxiv_251016223v1_Case_Study_of_GAI_for_Generating_Novel_Images_for_Real-World_Embroidery.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2502.15672v1",
+      "doi": "",
+      "title": "VaViM and VaVAM: Autonomous Driving through Video Generative Modeling",
+      "abstract": "We explore the potential of large-scale generative video models for autonomous driving, introducing an open-source auto-regressive video model (VaViM) and its companion video-action model (VaVAM) to investigate how video pre-training transfers to real-world driving. VaViM is a simple auto-regressive video model that predicts frames using spatio-temporal token sequences. We show that it captures the semantics and dynamics of driving scenes. VaVAM, the video-action model, leverages the learned representations of VaViM to generate driving trajectories through imitation learning. Together, the models form a complete perception-to-action pipeline. We evaluate our models in open- and closed-loop driving scenarios, revealing that video-based pre-training holds promise for autonomous driving. Key insights include the semantic richness of the learned representations, the benefits of scaling for video synthesis, and the complex relationship between model size, data, and safety metrics in closed-loop evaluations. We release code and model weights at https://github.com/valeoai/VideoActionModel",
+      "year": 2025,
+      "authors": [
+        "Florent Bartoccioni",
+        "Elias Ramzi",
+        "Victor Besnier",
+        "Shashanka Venkataramanan",
+        "Tuan-Hung Vu",
+        "Yihong Xu",
+        "Loick Chambon",
+        "Spyros Gidaris",
+        "Serkan Odabas",
+        "David Hurych",
+        "Renaud Marlet",
+        "Alexandre Boulch",
+        "Mickael Chen",
+        "Éloi Zablocki",
+        "Andrei Bursuc",
+        "Eduardo Valle",
+        "Matthieu Cord"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.15672v1",
+      "url": "http://arxiv.org/abs/2502.15672v1",
+      "key": "arxiv_250215672v1_VaViM_and_VaVAM_Autonomous_Driving_through_Video_Generative_Modeling",
+      "file_kind": "txt",
+      "file": "arxiv_250215672v1_VaViM_and_VaVAM_Autonomous_Driving_through_Video_Generative_Modeling.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2203.05983v2",
+      "doi": "",
+      "title": "PseudoProp: Robust Pseudo-Label Generation for Semi-Supervised Object Detection in Autonomous Driving Systems",
+      "abstract": "Semi-supervised object detection methods are widely used in autonomous driving systems, where only a fraction of objects are labeled. To propagate information from the labeled objects to the unlabeled ones, pseudo-labels for unlabeled objects must be generated. Although pseudo-labels have proven to improve the performance of semi-supervised object detection significantly, the applications of image-based methods to video frames result in numerous miss or false detections using such generated pseudo-labels. In this paper, we propose a new approach, PseudoProp, to generate robust pseudo-labels by leveraging motion continuity in video frames. Specifically, PseudoProp uses a novel bidirectional pseudo-label propagation approach to compensate for misdetection. A feature-based fusion technique is also used to suppress inference noise. Extensive experiments on the large-scale Cityscapes dataset demonstrate that our method outperforms the state-of-the-art semi-supervised object detection methods by 7.4% on mAP75.",
+      "year": 2022,
+      "authors": [
+        "Shu Hu",
+        "Chun-Hao Liu",
+        "Jayanta Dutta",
+        "Ming-Ching Chang",
+        "Siwei Lyu",
+        "Naveen Ramakrishnan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2203.05983v2",
+      "url": "http://arxiv.org/abs/2203.05983v2",
+      "key": "arxiv_220305983v2_PseudoProp_Robust_Pseudo-Label_Generation_for_Semi-Supervised_Object_Det",
+      "file_kind": "txt",
+      "file": "arxiv_220305983v2_PseudoProp_Robust_Pseudo-Label_Generation_for_Semi-Supervised_Object_Det.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2303.07909v3",
+      "doi": "",
+      "title": "Text-to-image Diffusion Models in Generative AI: A Survey",
+      "abstract": "This survey reviews the progress of diffusion models in generating images from text, ~\\textit{i.e.} text-to-image diffusion models. As a self-contained work, this survey starts with a brief introduction of how diffusion models work for image synthesis, followed by the background for text-conditioned image synthesis. Based on that, we present an organized review of pioneering methods and their improvements on text-to-image generation. We further summarize applications beyond image generation, such as text-guided generation for various modalities like videos, and text-guided image editing. Beyond the progress made so far, we discuss existing challenges and promising future directions.",
+      "year": 2023,
+      "authors": [
+        "Chenshuang Zhang",
+        "Chaoning Zhang",
+        "Mengchun Zhang",
+        "In So Kweon",
+        "Junmo Kim"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.07909v3",
+      "url": "http://arxiv.org/abs/2303.07909v3",
+      "key": "arxiv_230307909v3_Text-to-image_Diffusion_Models_in_Generative_AI_A_Survey",
+      "file_kind": "txt",
+      "file": "arxiv_230307909v3_Text-to-image_Diffusion_Models_in_Generative_AI_A_Survey.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "1909.07541v1",
+      "doi": "",
+      "title": "A*3D Dataset: Towards Autonomous Driving in Challenging Environments",
+      "abstract": "With the increasing global popularity of self-driving cars, there is an immediate need for challenging real-world datasets for benchmarking and training various computer vision tasks such as 3D object detection. Existing datasets either represent simple scenarios or provide only day-time data. In this paper, we introduce a new challenging A*3D dataset which consists of RGB images and LiDAR data with significant diversity of scene, time, and weather. The dataset consists of high-density images ($\\approx~10$ times more than the pioneering KITTI dataset), heavy occlusions, a large number of night-time frames ($\\approx~3$ times the nuScenes dataset), addressing the gaps in the existing datasets to push the boundaries of tasks in autonomous driving research to more challenging highly diverse environments. The dataset contains $39\\text{K}$ frames, $7$ classes, and $230\\text{K}$ 3D object annotations. An extensive 3D object detection benchmark evaluation on the A*3D dataset for various attributes such as high density, day-time/night-time, gives interesting insights into the advantages and limitations of training and testing 3D object detection in real-world setting.",
+      "year": 2019,
+      "authors": [
+        "Quang-Hieu Pham",
+        "Pierre Sevestre",
+        "Ramanpreet Singh Pahwa",
+        "Huijing Zhan",
+        "Chun Ho Pang",
+        "Yuda Chen",
+        "Armin Mustafa",
+        "Vijay Chandrasekhar",
+        "Jie Lin"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/1909.07541v1",
+      "url": "http://arxiv.org/abs/1909.07541v1",
+      "key": "arxiv_190907541v1_A3D_Dataset_Towards_Autonomous_Driving_in_Challenging_Environments",
+      "file_kind": "txt",
+      "file": "arxiv_190907541v1_A3D_Dataset_Towards_Autonomous_Driving_in_Challenging_Environments.txt"
+    }
+  ]
+}
