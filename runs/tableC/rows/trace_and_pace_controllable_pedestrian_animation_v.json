@@ -1,0 +1,13 @@
+{
+ "id": "trace_and_pace_controllable_pedestrian_animation_v",
+ "title": "Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "User objectives given as target waypoints, speed, specified social groups and social distance, obstacle and agent collision avoidance; also the RL value function of the animation controller as guidance.", "pages": "1-2, 6, 8"},
+ "control_mechanism": {"value": "Test-time guidance perturbs the denoised output toward the objective at each step, computed on clean trajectory outputs; classifier-free sampling for map and neighbour inputs; several samples drawn, lowest guidance loss kept.", "pages": "2, 6"},
+ "base_model": {"value": "TRACE: 1D U-Net trajectory diffusion with ResNet-18 plus U-Net map feature grid, MLP history encoders, K=100 steps; PACER physics-based humanoid controller trained with adversarial motion priors.", "pages": "5-6, 12-13"},
+ "datasets": {"value": "Synthetic ORCA (ORCA-Maps, ORCA-Interact) and real ETH/UCY and nuScenes pedestrian data.", "pages": "6-7"},
+ "metrics": {"value": "Guidance error (task-specific, e.g. collision rate or waypoint distance), obstacle and agent collision rates, EMD realism of velocity and accelerations, mean acceleration, ADE, FDE; PACER failure rate.", "pages": "6-7, 17-19"},
+ "controllability_evidence": {"value": "Using the learned value function as extra guidance on random terrain lowers waypoint error from 0.541 to 0.481 and failure rate from 0.107 to 0.100. Main guidance table is only partly shown.", "pages": "8"},
+ "stated_limitations": {"value": "Sampling is slow: 1-3 s per character; planning takes at most 5 sec with 50 or fewer agents and gets costly at 100 agents, especially with agent-avoidance guidance.", "pages": "8, 20-21"},
+ "notes": "Pedestrian trajectories and animation, not vehicle traffic. Main Table 1 guided results are truncated in the packet, so evidence uses Table 4 on the full animation system."
+}

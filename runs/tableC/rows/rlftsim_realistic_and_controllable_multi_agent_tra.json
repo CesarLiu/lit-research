@@ -1,0 +1,13 @@
+{
+ "id": "rlftsim_realistic_and_controllable_multi_agent_tra",
+ "title": "RLFTSim: Realistic and Controllable Multi-Agent Traffic Simulation via Reinforcement Learning Fine-Tuning",
+ "control_family": "RL fine-tuning",
+ "control_signal": {"value": "Per-agent goal point (soft pass target or hard reach target); an agent can be left unconditioned for hybrid conditioned/unconditioned simulation.", "pages": "6, 14-15"},
+ "control_mechanism": {"value": "Goal-conditioned fine-tuning with REINFORCE: goal given by concatenation to agent token embedding or binary goal indication in relative positional encoding; reward mixes realism MLOO and goal-reaching with weight lambda; hindsight experience replay.", "pages": "2, 6, 14-15"},
+ "base_model": {"value": "Pretrained SMART-tiny next-token prediction model, with KL control to the reference model; also applied to TrafficBots V1.5 (VAE-based).", "pages": "14-15, 17-19"},
+ "datasets": {"value": "Waymo Open Motion Dataset, with WOSAC benchmark evaluation.", "pages": "6, 14-15"},
+ "metrics": {"value": "Realism meta-metric RMM plus kinematic, interactive, map-based components; collision, off-road, ADE, minADE; goal reach rate and pass rate.", "pages": "15-19"},
+ "controllability_evidence": {"value": "Goal completion: reference SMART-tiny reaches 35.37% and passes 42.89%; RLFTSim (cat, hard) reaches 50.00%, (cat, soft) passes 75.34%.", "pages": "17-19"},
+ "stated_limitations": {"value": "Half-second token chunks may reduce responsiveness; goal-conditioned fine-tuning gives reasonable but imperfect controllability; RMM is only a proxy for realism and may saturate.", "pages": "8-9"},
+ "notes": "Controllability covers goal conditioning only; the main-text Table 3 is not in packet (appendix table used)."
+}

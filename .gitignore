@@ -25,3 +25,7 @@ runs/smoke-search/*.txt
 
 # excerpts of papers used by the paper-qa style run
 runs/rcs1/packets.jsonl
+
+# second chaining round: caches and excerpts
+runs/chain2/cache/
+runs/tableC/packets_new/

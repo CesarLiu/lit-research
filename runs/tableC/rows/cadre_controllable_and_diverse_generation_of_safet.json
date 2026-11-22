@@ -1,0 +1,13 @@
+{
+ "id": "cadre_controllable_and_diverse_generation_of_safet",
+ "title": "CaDRE: Controllable and Diverse Generation of Safety-Critical Driving Scenarios using Real-World Trajectories",
+ "control_family": "other",
+ "control_signal": {"value": "Desired values of user-defined measure functions (perturbation effort, normalised impact time, impact angle), used to ask for a specific scenario from the archive.", "pages": "3"},
+ "control_mechanism": {"value": "Quality-Diversity black-box optimisation fills a discretised measure-space archive of bounded perturbations to real trajectories; control is retrieval of the stored scenario at the requested measure cell. Occupancy-aware restart improves exploration.", "pages": "1-3"},
+ "base_model": {"value": "No learned generative model in packet: QD emitter (Gaussian sampling, CMA-style update) with a lightweight scenario simulator and a rule-based reactive ego policy; scenarios are acceleration/steering perturbations of one background vehicle.", "pages": "3-4"},
+ "datasets": {"value": "Three scenarios selected from nuPlan v1.1: unprotected cross-turn, high-speed lane-change, U-turn; 15 s horizon each.", "pages": "4"},
+ "metrics": {"value": "QD metrics: coverage (0-1), mean objective (0-1), QD score (max 4000, 10x20x20 grid). Objective f is collision with ego (1) or exp of minimum distance. Compared with RL and sampling baselines incl. SVPG.", "pages": "3-4, 6-7"},
+ "controllability_evidence": {"value": "Qualitative: in the cross-turn scenario, asking for different [m1,m2,m3] combinations retrieves a right-side hit or a left-side overtaking hit. No quantitative controllability number in packet.", "pages": "6-7"},
+ "stated_limitations": {"value": "Some archive cells stay empty (infeasible measure combinations, e.g. short impact time with small impact angle in cross-turn); only one background vehicle is perturbed at a time.", "pages": "6-7"},
+ "notes": "Optimisation-based, not a trained generator. Realism is argued by construction (bounded perturbation of real trajectories); no realism metric seen in packet. Limitations passage truncated."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "seal_towards_safe_autonomous_driving_via_skill_ena",
+ "title": "SEAL: Towards Safe Autonomous Driving via Skill-Enabled Adversary Learning for Closed-Loop Scenario Generation",
+ "control_family": "other",
+ "control_signal": {"value": "No user-facing control; the designer fixes a learned criticality objective (predicted collision closeness and induced ego behavior deviation) that ranks candidate adversary trajectories.", "pages": "1-2, 3-4"},
+ "control_mechanism": {"value": "Learned score network ranks 32 candidate adversary paths; best path gives goals for a reactive hierarchical policy that picks skills from an adversarial prior in a VAE skill space.", "pages": "3-4, 4-5"},
+ "base_model": {"value": "Pretrained DenseTNT candidate generator, VectorNet-style score network, ReSkill-style skill VAE with separate benign and adversarial prior networks.", "pages": "4-5"},
+ "datasets": {"value": "Waymo Open Motion Dataset; WOMD-Normal (500 scenarios, 400 train, 100 eval) and WOMD-SafeShift-Hard; MetaDrive simulator with IDM demonstrations.", "pages": "4-5, 5"},
+ "metrics": {"value": "Ego Success, Crash and Out of Road rates; realism meta-metric from Wasserstein distances on adversary yaw rate, acceleration, out-of-road; collision velocity, head-on and severe head-on rates.", "pages": "6"},
+ "controllability_evidence": {"value": "Not a controllability test. SEAL-trained ego policies average a 21.5% increase in Success rate over the top baseline in each setting; ablations show learned objective and skill policy both needed.", "pages": "6, 7"},
+ "stated_limitations": {"value": "Finer-grained metrics in the objective could enable more adaptive, controllable generation beyond safety criticality; realism metrics at skill level could be improved.", "pages": "7"},
+ "notes": "Adversarial perturbation for closed-loop ego training; controllability of generated scenarios is not the paper's goal, so control_family set to other."
+}

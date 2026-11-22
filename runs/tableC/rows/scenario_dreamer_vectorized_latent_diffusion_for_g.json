@@ -1,0 +1,13 @@
+{
+ "id": "scenario_dreamer_vectorized_latent_diffusion_for_g",
+ "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+ "control_family": "reward/return conditioning",
+ "control_signal": {"value": "Behaviour: tilting strength kappa on the return model (collision-with-ego reward) for good or adversarial agents. Scene: number of lanes and agents; known map or partial scene for inpainting; simulation-compatibility flag.", "pages": "2, 5-6"},
+ "control_mechanism": {"value": "Exponential tilting of a learned return distribution in a return-conditioned multi-agent Transformer (CtRL-Sim); scene density set by specifying (No, Nl) before latent sampling; map or inpainting conditioning; classifier guidance for simulation-compatible scenes.", "pages": "5-6"},
+ "base_model": {"value": "Transformer VAE on vectorized lanes and agent boxes, plus latent diffusion with factorized attention and AdaLN-Zero conditioning; CtRL-Sim return-conditioned autoregressive Transformer for behaviour.", "pages": "4-6"},
+ "datasets": {"value": "Waymo Open Motion Dataset and nuPlan for generation; RL planners trained in GPUDrive on 100 Waymo scenes and evaluated on 250 scenes.", "pages": "6-7"},
+ "metrics": {"value": "Lane graph: FD, connectivity/density, reachability, route length, generation time. Agents: JSD metrics and collision rate. Behaviour: JSD, agent and planner collision rate. RL: collision, offroad, success rates.", "pages": "7, 13"},
+ "controllability_evidence": {"value": "Planner collision rate 4.9% with kappa=+10 versus 11.9% with kappa=-50, with only modest JSD change. RL planner success falls from 38.2% to 32.1% under negative tilting on 100m scenes.", "pages": "7, 13"},
+ "stated_limitations": {"value": "Traffic light signaling of lanes did not always give valid traffic logic; only centerline maps are generated, other road elements are future work.", "pages": "8"},
+ "notes": "Mixed control: adversarial behaviour via return tilting (main steering), scene density via conditioning counts. Family chosen from the adversarial-behaviour mechanism."
+}

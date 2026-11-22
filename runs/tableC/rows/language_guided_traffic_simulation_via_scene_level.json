@@ -1,0 +1,13 @@
+{
+ "id": "language_guided_traffic_simulation_via_scene_level",
+ "title": "Language-Guided Traffic Simulation via Scene-Level Diffusion",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "A natural-language query describing desired behavior (e.g. one vehicle collides with another, keep distance), plus the STL rules from prior work for comparison.", "pages": "5-6, 7-8"},
+ "control_mechanism": {"value": "GPT4, given helper functions and paired query-to-loss examples, writes a differentiable loss in code; its gradient guides each denoising step of the diffusion model, jointly over all agents.", "pages": "5-6, 6"},
+ "base_model": {"value": "Scene-level conditional diffusion with spatial-temporal transformer (temporal, spatial, map attention), agent-centric coordinates and relative edge features; closed-loop replanning at 2 Hz.", "pages": "4-5, 6"},
+ "datasets": {"value": "nuScenes; trained on the training split, evaluated on 100 randomly selected validation scenes; moving vehicles only; 10-second closed-loop rollouts.", "pages": "6"},
+ "metrics": {"value": "Failure rate (collision or off-road), rule violation, realism deviation at agent level and scene level (Wasserstein distance to ground-truth statistics).", "pages": "6, 7-8"},
+ "controllability_evidence": {"value": "CTG++ has the lowest failure rate and scene-level realism deviation in 7 of 8 settings and lowest rule violation in most; GPT Keep Distance ablation shows rule 0.000 and fail 0.173.", "pages": "7-8"},
+ "stated_limitations": {"value": "Cannot handle commands with heavy map interaction; no automatic detection or repair of wrong GPT4 loss code; generation takes about 1 minute per scenario.", "pages": "8-9, 28"},
+ "notes": "Also lists GPT4 misunderstanding concepts such as cut in (page 28). Prompting details in appendix."
+}

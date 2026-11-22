@@ -1,0 +1,13 @@
+{
+ "id": "bits_bi_level_imitation_for_traffic_simulation",
+ "title": "BITS: Bi-level Imitation for Traffic Simulation",
+ "control_family": "none/uncontrolled",
+ "control_signal": {"value": "No user-facing control signal stated. Internally, agents are conditioned on a sampled short-horizon goal (target position and heading); a rule-based cost with a set of weights selects among sampled actions.", "pages": "1-3, 14"},
+ "control_mechanism": {"value": "Spatial goal network outputs a 2D goal likelihood map; goal-conditional policy decodes actions per sampled goal; a prediction-and-planning module picks actions minimizing a rule-following cost on predicted future states.", "pages": "2-3"},
+ "base_model": {"value": "Hierarchical imitation: ResNet-18 encoder on rasterized map and agent history, U-Net-style spatial goal decoder, MLP trajectory decoder with unicycle dynamics, plus a future-state trajectory predictor.", "pages": "2, 14"},
+ "datasets": {"value": "Lyft Level 5 (1000 hours, Palo Alto) and nuScenes (5.5 hours, Boston and Singapore).", "pages": "6-7"},
+ "metrics": {"value": "Failure rate, collision rate, offroad rate, coverage, diversity; Wasserstein distance on speed and jerk; sADE; learned occupancy-likelihood score (Lyft 0.131, nuScenes 0.276 for BITS).", "pages": "7-9"},
+ "controllability_evidence": {"value": "No controllability experiment in packet. Evidence is stability and diversity: BITS reaches high diversity and coverage with low failure rate, and lower failure rates than recorded data on both datasets.", "pages": "8-9"},
+ "stated_limitations": {"value": "Metrics are only proxies for realism and the learned metric may be biased; traffic rules not evaluated; data-driven models inherit bias from training regions.", "pages": "9-10"},
+ "notes": "Not a controllable-generation paper; included for the goal-conditioning and cost-based action selection. Control family choice is a judgement call."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "guiding_neuro_symbolic_scenario_generation_with_sp",
+ "title": "Guiding Neuro-Symbolic Scenario Generation with Spatio-Temporal Logic",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "A Colored STREL formula (spatio-temporal logic over agent types) specifying the target behaviour, e.g. fast vehicle reaching a pedestrian or bike, fast vehicle behind slow vehicle, plus realism formulae.", "pages": "5-6, 10-11"},
+ "control_mechanism": {"value": "At inference, gradient ascent over the diffusion model's latent z to maximize differentiable STREL robustness, with a latent-prior likelihood penalty (lambda) to stay on the data manifold; deterministic implicit sampling enables backprop.", "pages": "6-9"},
+ "base_model": {"value": "Latent diffusion model for joint multi-agent trajectories with Optimal Gaussian Diffusion, context from pre-trained QCNet injected via cross-attention; implicit sampling with 100 denoising steps.", "pages": "6, 10"},
+ "datasets": {"value": "Argoverse 2 Motion Forecasting dataset, official train and validation splits; three validation scenarios used for evaluation.", "pages": "9-10"},
+ "metrics": {"value": "Distribution of minimum inter-agent distance D; count of potential collisions (agent within 0.9 m); share of scenarios with positive STREL robustness; qualitative plausibility.", "pages": "11-12"},
+ "controllability_evidence": {"value": "Scenarios with positive robustness rise from about 13,6% unguided to 100% with guidance. Potential collisions out of 30: front property 5 (17%) to 19 (63%); pb_uns 0 to 5 (17%); surr 0 to 7 (23%).", "pages": "11-12"},
+ "stated_limitations": {"value": "Formulae must be designed manually; future work aims to infer safety-critical specifications from road geometry and agents, and to adversarially optimize latents against a driving policy.", "pages": "13"},
+ "notes": "Small evaluation (3 scenarios). Percentage text says 13,6% unguided as in packet; the table counts differ from that figure."
+}

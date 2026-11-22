@@ -1,0 +1,13 @@
+{
+ "id": "cat_closed_loop_adversarial_training_for_safe_end",
+ "title": "CAT: Closed-loop Adversarial Training for Safe End-to-End Driving",
+ "control_family": "other",
+ "control_signal": {"value": "A collision objective against the learner's estimated ego trajectory (risk-conditioned Bayesian formulation); one opponent vehicle is attacked per scene. No user-specified attributes.", "pages": "2, 5"},
+ "control_mechanism": {"value": "Factorized resampling: draw M=32 opponent trajectory candidates from a pretrained motion predictor (DenseTNT), weight them by ego-rollout estimates and a collision likelihood with decay alpha=0.99, then select numerically.", "pages": "2, 5, 6-7, 14"},
+ "base_model": {"value": "Pretrained motion forecasters (DenseTNT, M2I) as traffic prior; TD3 reinforcement-learning ego policy trained in MetaDrive.", "pages": "5, 8, 14"},
+ "datasets": {"value": "500 Waymo Open Motion Dataset scenarios imported into MetaDrive; 400 train and 100 held-out test; 9 s scenes, 1 s history.", "pages": "6-7, 8-9"},
+ "metrics": {"value": "Route completion and crash rate on log-replay and safety-critical test scenarios; attack success and computation time compared with STRIVE and M2I.", "pages": "8-9"},
+ "controllability_evidence": {"value": "Closed-loop training lowers crash rate from 19.89 % to 13.43 % (log-replay) and 43.33 % to 28.15 % (safety-critical), i.e. 6.46 and 15.18 points, with competitive route completion.", "pages": "8-9"},
+ "stated_limitations": {"value": "Only adversarial vehicles (no pedestrians or cyclists); only 500 scenes, so other failure modes may remain; only RL driving policies studied, not imitation or human-in-the-loop.", "pages": "9"},
+ "notes": "Primarily adversarial training of an ego policy; scenario generation is adversarial resampling, not user-steerable generation. Family label 'other' is a judgment call."
+}

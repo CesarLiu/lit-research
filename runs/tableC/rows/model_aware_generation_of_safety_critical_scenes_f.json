@@ -1,0 +1,13 @@
+{
+ "id": "model_aware_generation_of_safety_critical_scenes_f",
+ "title": "Model-Aware Generation of Safety-Critical Scenes for Robust End-to-End Driving via Distilled Planner Surrogates",
+ "control_family": "other",
+ "control_signal": {"value": "A single collision objective against a specific target planner; attack types are not specified by hand but emerge from the search. Each scene is paired with a geometrically solved safe escape trajectory.", "pages": "1-3, 7"},
+ "control_mechanism": {"value": "Gradient-based optimization of an adversary's BEV trajectory through a differentiable surrogate (frozen planning head plus small adapter), with a quality-diversity search; surviving scenes rendered and used to fine-tune the planner.", "pages": "1-4"},
+ "base_model": {"value": "Surrogate adapter (0.83 M parameters) over the target planner's frozen head (SparseDrive or DiffusionDrive); MagicDriveV2 renders six-camera video; no learned generative traffic model.", "pages": "3-4"},
+ "datasets": {"value": "nuScenes train split for base scenes and renderer; NeuroNCAP (closed-loop), Challenger (open-loop replay) and nuScenes val for evaluation.", "pages": "4"},
+ "metrics": {"value": "NeuroNCAP score and collision rate (CR); Challenger open-loop collision rate and L2; clean nuScenes collision rate and L2; surrogate recall on real collisions.", "pages": "4-5, 7"},
+ "controllability_evidence": {"value": "Closed-loop collision rate falls from 28.0% to 12.2% (SparseDrive) and 37.5% to 19.2% (DiffusionDrive); cross-planner transfer leaves DiffusionDrive only 6.7 of its 18.3-point reduction, showing planner targeting.", "pages": "1, 5-6"},
+ "stated_limitations": {"value": "Only two planners tested, one closed-loop simulator; DiffusionDrive surrogate recall 0.544; single adversarial vehicle, no vulnerable road users; frontal scenarios remain hardest; one escape label per scene.", "pages": "7-8"},
+ "notes": "Adversarial data generation for planner fine-tuning, not user-steerable scenario generation. Family 'other' is a judgement call."
+}

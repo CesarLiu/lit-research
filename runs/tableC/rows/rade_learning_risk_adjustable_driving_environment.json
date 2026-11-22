@@ -1,0 +1,13 @@
+{
+ "id": "rade_learning_risk_adjustable_driving_environment",
+ "title": "RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "A scalar desired risk level r in [0.3, 1], a heuristic function of the scene's minimum Post-Encroachment Time (PET); a risk of 0.3 or more corresponds to PET below 1 s.", "pages": "4, 6"},
+ "control_mechanism": {"value": "Risk embedded by an MLP into a 128-dimensional latent, concatenated with the diffusion step embedding at every layer; trained with condition dropout and sampled with classifier-free guidance scale omega.", "pages": "3-4"},
+ "base_model": {"value": "MADiff multi-agent diffusion: U-Net with multi-head attention on skip connections for cross-agent fusion, plus a tokenized dynamics check using a 1024-token motion vocabulary.", "pages": "4-5"},
+ "datasets": {"value": "rounD roundabout dataset (two-lane roundabout, Neuweiler, Aachen); 0.4 s resolution, 3.2 s generation horizon.", "pages": "5-6"},
+ "metrics": {"value": "Statistical realism (inter-vehicle distance, speed, yielding distance and speed distributions); PET distribution; crash rate across risk levels 0.3 to 1.0.", "pages": "6-7"},
+ "controllability_evidence": {"value": "Mean crash rate rises from 20.6% to 50.6% as desired risk increases; PET below 0.4 s density rises 113%, from 0.030 to 0.064, from low to high risk.", "pages": "6-7"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Validated on a single roundabout dataset; packet has no explicit limitations section."
+}

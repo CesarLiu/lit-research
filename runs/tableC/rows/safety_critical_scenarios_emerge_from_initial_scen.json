@@ -1,0 +1,13 @@
+{
+ "id": "safety_critical_scenarios_emerge_from_initial_scen",
+ "title": "Safety-Critical Scenarios Emerge from Initial Scenes",
+ "control_family": "RL fine-tuning",
+ "control_signal": {"value": "A target black-box driving policy (fixed ego, adversary and traffic policies) whose closed-loop rollouts give a criticality reward; plus an ego displacement bin (near, mid, far) as a per-agent condition.", "pages": "1, 3"},
+ "control_mechanism": {"value": "Stage 2 post-trains only the adversary-agent branch of a latent diffusion model with RL using a hierarchical criticality reward from simulator rollouts; displacement bins enter as conditioning tokens with classifier-free guidance.", "pages": "1-3"},
+ "base_model": {"value": "Conditional latent diffusion (DiT backbone) over a vectorized goal-augmented scene autoencoder, built on ScenarioDreamer, with asymmetric causal attention so the adversary agent is invisible to other agents.", "pages": "2-3"},
+ "datasets": {"value": "Waymo Open Motion Dataset (64 × 64 m crops, closest 30 agents, up to 100 lane segments); rollouts in PufferDrive; 12 combinations of ego and traffic policies (IDM, PDM, PPO variants).", "pages": "4-6"},
+ "metrics": {"value": "Realism: lane-graph Urban Planning metrics, agent initial-state and goal JSD, initial collision rate. Criticality: ego-fault collision rate, TTC<3s rate, ego success rate.", "pages": "4-6"},
+ "controllability_evidence": {"value": "Averaged over 12 policy combinations, AdvScene-RL reaches TTC<3s rate 5.64% versus 1.26% on logged scenes, and ego-fault collision rate 0.97%, about 7× AdvScene-Base (uncond) at 0.14%.", "pages": "6"},
+ "stated_limitations": {"value": "RL fine-tuning mainly finds failure modes of one driving policy and does not transfer to unseen policies; generalization across planners left for future work.", "pages": "7"},
+ "notes": "Controllability here means steering toward criticality against a target policy, not user-specified attributes. RL fine-tuning is the primary mechanism; displacement conditioning is secondary."
+}

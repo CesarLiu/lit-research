@@ -1,0 +1,13 @@
+{
+ "id": "guided_latent_spaces_for_controllable_multi_scenar",
+ "title": "Guided Latent Spaces for Controllable Multi-Scenario Generation in Autonomous Driving (Student Abstract)",
+ "control_family": "latent-space control",
+ "control_signal": {"value": "Scenario type (cut-in, cut-out, cut-through, left or right), selected by choosing the value of one designated latent dimension.", "pages": "1-2"},
+ "control_mechanism": {"value": "One latent dimension z_type encodes scenario class, with a class-conditional prior with per-class means and an auxiliary alignment loss pulling z_type to its class center.", "pages": "1"},
+ "base_model": {"value": "Guided variational autoencoder over trajectories, with total loss of reconstruction, KL and alignment terms.", "pages": "1-2"},
+ "datasets": {"value": "Real-world highway measurements (ego ECU signals plus surrounding-traffic sensors), about 44,600 trajectories across six safety-critical scenario types.", "pages": "1"},
+ "metrics": {"value": "Validation MSE, classification error by an external classifier, PCA overlap of generated and real trajectories.", "pages": "1-2"},
+ "controllability_evidence": {"value": "Each scenario type forms a distinct cluster in z0; an external classifier gives classification error between 0.00e+0 and 2.00e-2 across six scenario types.", "pages": "2"},
+ "stated_limitations": {"value": "Generated samples show slightly looser clustering and partial overlap; cluster separation could improve with refined latent regularization. Future work: grounding latent space in physical parameters.", "pages": "2"},
+ "notes": "Two-page student abstract; control is only over discrete scenario class, no continuous attribute control shown. No numbers for realism beyond MSE."
+}

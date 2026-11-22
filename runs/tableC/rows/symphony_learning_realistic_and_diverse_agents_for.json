@@ -1,0 +1,13 @@
+{
+ "id": "symphony_learning_realistic_and_diverse_agents_for",
+ "title": "Symphony: Learning Realistic and Diverse Agents for Autonomous Driving Simulation",
+ "control_family": "none/uncontrolled",
+ "control_signal": {"value": "No user-facing control stated. Agents are conditioned on a route-based goal sampled by a learned goal generator; the reference trajectory provides initial conditions.", "pages": "1, 3, 5"},
+ "control_mechanism": {"value": "Hierarchical policy: goal generator proposes a fixed route goal fed to a goal-conditional policy and discriminator; parallel beam search prunes the least realistic half of branches by discriminator score, and results are distilled back.", "pages": "1, 3-4"},
+ "base_model": {"value": "Behavioural cloning or model-based GAIL (MGAIL) policies with hierarchical goal generation (+H) and parallel discriminator-pruned beam search (+TS).", "pages": "1, 3"},
+ "datasets": {"value": "Proprietary Waymo dataset (1.1M run segments, 30s at 15Hz) and Waymo Open Motion Dataset (64.5K 10s segments).", "pages": "4-5"},
+ "metrics": {"value": "Collision rate, off-road time, ADE (realism); minSADE and a novel curvature Jensen-Shannon divergence (diversity).", "pages": "5"},
+ "controllability_evidence": {"value": "No controllability experiment; evidence is realism and diversity. On proprietary data BC collision rate drops from 16.65% to 1.84% with tree search, and hierarchy restores diversity.", "pages": "5-6"},
+ "stated_limitations": {"value": "Beam search improves realism but harms diversity through mode collapse. Future work: alternative pruning rules to shape simulation, driver persona goals, and more diversity metrics.", "pages": "1, 6-7"},
+ "notes": "Not a controllable-generation paper; goals and pruning serve realism and diversity. Future-work mention of shaping simulation via pruning rules is not a tested control. Family choice is a judgement call."
+}

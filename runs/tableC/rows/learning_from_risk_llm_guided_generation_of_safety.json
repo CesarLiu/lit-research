@@ -1,0 +1,13 @@
+{
+ "id": "learning_from_risk_llm_guided_generation_of_safety",
+ "title": "Learning from risk: LLM-guided generation of safety-critical scenarios with prior knowledge",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "Structured scene description (trajectories, map context, relations) given to an LLM, plus target risk regime (low, high, long-tail) defined by TTC, TLC and THW thresholds.", "pages": "4-5, 13"},
+ "control_mechanism": {"value": "LLM with chain-of-thought parses the scene and outputs adaptive loss weights (e.g. adversarial crash, TTC) that drive optimization over the CVAE latent space; latent sampling and loss weights are modulated to span risk levels.", "pages": "4-5, 13"},
+ "base_model": {"value": "Graph-based CVAE (CVAE-GNN): encoder, decoder and map-conditioned prior network, producing joint future trajectories; loss with reconstruction, KL and collision terms.", "pages": "4, 5-6"},
+ "datasets": {"value": "highD and nuScenes for training; evaluation in CARLA and SMARTS simulators.", "pages": "13-14"},
+ "metrics": {"value": "Trajectory realism score, interaction consistency score, Long-Tail Coverage Rate, sim-to-real discrepancy; collision rate, TTC, TLC, THW, inter-vehicle distance.", "pages": "14-15, 16-17"},
+ "controllability_evidence": {"value": "LLM-enhanced scenarios lower average TTC from 0.89 s to 0.34 s and distance from 3.03 m to 0.30 m; long-tail coverage rises by more than 30-40% over CVAE or random perturbation baselines.", "pages": "16-17"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Table 6 labels the baseline 'relatively safe' yet lists 96.2% collision rate versus 97.1%, which looks inconsistent. Conclusion truncated in packet, so limitations may exist."
+}

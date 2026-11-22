@@ -1,0 +1,81 @@
+# Papers for comparison table B: spread across control mechanisms. Substring of title, must match one downloaded paper.
+# Reasons below were written on 2026-11-22, AFTER the table was built, from the table rows. The original choice was made from
+# abstracts with the single aim "cover different control mechanisms", so a reason describes the role the paper plays, not a
+# judgement recorded at the time. Not selected: the other 254 papers with full text (no per-paper reason was kept).
+CtRL-Sim # reward/return conditioning: one tilt coefficient per reward component
+RLFTSim # RL fine-tuning: per-agent goal conditioning on a token model
+CAT: Closed-loop Adversarial Training # other: adversarial scenarios used inside closed-loop training of the planner
+Guided Conditional Diffusion for Controllable Traffic Simulation # inference-time guidance: signal temporal logic rules
+AdvDiffuser # inference-time guidance: reward gradient in latent diffusion, adversarial target
+SAFE-SIM # inference-time guidance: TTC cost weight gives an aggressiveness dial
+DiffScene # inference-time guidance: adversarial objectives against a target AV
+Safety-Critical Traffic Simulation with Guided Latent Diffusion # inference-time guidance in a latent space
+Controllable Latent Diffusion for Traffic Simulation # RL fine-tuning of a diffusion model with collision and off-road rewards
+ECoSim # trained-in conditioning: sketch, behavior code or language command via fine-tuning
+Scenario Diffusion # trained-in conditioning: map image plus agent tokens
+DragTraffic # trained-in conditioning: per-agent attributes through cross-attention
+Versatile Behavior Diffusion # inference-time guidance: goals and soft constraints without retraining
+RealGen # other: retrieval-based in-context generation from template scenarios
+Controllable Sim Agents with Behavior Latents # reward/return conditioning: behaviour latent over four reward channels
+SocialDriveGen # inference-time guidance fed by language-model proposals (language plus guidance)
+Language-Guided Traffic Simulation via Scene-Level Diffusion # language control: text turned into a loss function
+ChatScene # language control: text turned into a Scenic program
+TrafficAlign # language/LLM: model aligned to regional traffic, text output only
+LD-scene # language/LLM: LLM-guided adversarial diffusion
+Guided Latent Spaces for Controllable # latent-space control: one designated latent dimension for scenario type
+Conditional Flow-VAE # latent-space control: difficulty label with a flow to safety-critical latents
+SceneDM: Scene-level # no control signal: realism-focused scene-level generator, kept for contrast
+Scenario Dreamer # reward/return conditioning plus scene-density conditioning, vectorized latent diffusion
+Trajeglish # trained-in conditioning: map and initial states, partial control by fixed actions
+AdvSim # other: black-box adversarial search against a system under test
+KING: Generating # other: adversarial gradient through a differentiable kinematic model
+Controllable Traffic Simulation through LLM-Guided # language control: LLM writes the loss for guided diffusion
+Rolling Ahead Diffusion # no control signal: long-rollout realism, kept for contrast
+Causal Composition Diffusion # inference-time guidance: reward objectives with a composition scheme
+BehaviorGPT # no control signal: next-patch prediction sim agent, kept for contrast
+SMART: Scalable # no control signal: next-token sim agent, kept for contrast
+Proposal-Conditioned Latent Diffusion # inference-time guidance: pursuit-evasion costs
+Top-down Traffic Scenario Generation # trained-in conditioning: hard endpoint constraints in infilling
+BITS: Bi-level Imitation for Traffic Simulation # chain lead, linked to 14 of the 34 table papers; screened in: realism-focused contrast case
+SceneDiffuser: Efficient and Controllable Driving Simulation Initialization and Rollout # chain lead, linked to 11 of the 34 table papers; screened in: steerable scenario or simulation generation
+Symphony: Learning Realistic and Diverse Agents for Autonomous Driving Simulation # chain lead, linked to 10 of the 34 table papers; screened in: realism-focused contrast case
+RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion # chain lead, linked to 10 of the 34 table papers; screened in: steerable scenario or simulation generation
+CaFe: Causally Faithful Conditional Traffic Scenario Generation # chain lead, linked to 9 of the 34 table papers; screened in: steerable scenario or simulation generation
+SEAL: Towards Safe Autonomous Driving via Skill-Enabled Adversary Learning for Closed-Loop Scenario Generation # chain lead, linked to 8 of the 34 table papers; screened in: steerable scenario or simulation generation
+Optimization-Guided Diffusion for Interactive Scene Generation # chain lead, linked to 8 of the 34 table papers; screened in: steerable scenario or simulation generation
+Safety-Critical Scenarios Emerge from Initial Scenes # chain lead, linked to 8 of the 34 table papers; screened in: steerable scenario or simulation generation
+Decoupled Diffusion Sparks Adaptive Scene Generation # chain lead, linked to 7 of the 34 table papers; screened in: steerable scenario or simulation generation
+LangTraj: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation # chain lead, linked to 7 of the 34 table papers; screened in: steerable scenario or simulation generation
+VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness # chain lead, linked to 7 of the 34 table papers; screened in: steerable scenario or simulation generation
+CrashDiffuser: VLM-Guided Collision Intent Reasoning for Fine-Grained Safety-Critical Traffic Scenario Generation # chain lead, linked to 7 of the 34 table papers; screened in: steerable scenario or simulation generation
+Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles # chain lead, linked to 7 of the 34 table papers; screened in: steerable scenario or simulation generation
+CaDRE: Controllable and Diverse Generation of Safety-Critical Driving Scenarios Using Real-World Trajectories # chain lead, linked to 6 of the 34 table papers; screened in: steerable scenario or simulation generation
+Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+CMTS: A Conditional Multiple Trajectory Synthesizer for Generating Safety-Critical Driving Scenarios # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+Promptable Closed-loop Traffic Simulation # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+Traffic Scene Generation from Natural Language Description for Autonomous Vehicles with Large Language Model # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+Editing Driver Character: Socially-Controllable Behavior Generation for Interactive Traffic Simulation # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+CrashAgent: Crash Scenario Generation via Multi-modal Reasoning # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+Learning from risk: LLM-guided generation of safety-critical scenarios with prior knowledge # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+TrafficGamer: Reliable and Flexible Traffic Simulation for Safety-Critical Scenarios with Game-Theoretic Oracles # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+Human Behavior-Informed Crash Scenario Generation with Real-World Crash Priors for Autonomous Vehicle Safety Evaluation # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+Guiding Neuro-Symbolic Scenario Generation with Spatio-Temporal Logic # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+Learning Responsibility-Attributed Adversarial Scenarios for Testing Autonomous Vehicles # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+EvoDrive: Pareto Evolution for Safety-Critical Autonomous Driving via Self-Improving LLM Agents # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+LAST-V2X: Language-Driven Adaptive Scenario Synthesis and Testing for Communication-Induced Failures in V2X Safety Applications # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+KG-ASG: Collision-Knowledge-Guided Closed-Loop Adversarial Scenario Generation With Primary-Support Attribution # chain lead, linked to 5 of the 34 table papers; screened in: steerable scenario or simulation generation
+Intelligent driving intelligence test for autonomous vehicles with naturalistic and adversarial environment # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+Diverse Critical Interaction Generation for Planning and Planner Evaluation # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+Safety-Critical Traffic Simulation with Adversarial Transfer of Driving Intentions # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+SymDrive: Realistic and Controllable Driving Simulator via Symmetric Auto-regressive Online Restoration # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+Emergency Lane-Change Simulation: A Behavior-Guided Approach for Safety-Critical Scenario Generation # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+Control-ITRA: Controlling the Behavior of a Driving Model # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+ScenarioControl: Vision-Language Controllable Vectorized Latent Scenario Generation # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+Path Diffuser: Diffusion Model for Data-Driven Traffic Simulator # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+Model-Aware Generation of Safety-Critical Scenes for Robust End-to-End Driving via Distilled Planner Surrogates # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+PCASim: Promptable Closed-loop Adversarial Simulation for Urban Traffic Environment # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+How Corner Is a Corner Case? Percentile Control for Highway Scenario Generation # chain lead, linked to 4 of the 34 table papers; screened in: steerable scenario or simulation generation
+DriveSceneGen: Generating Diverse and Realistic Driving Scenarios From Scratch # chain lead, linked to 3 of the 34 table papers; screened in: steerable scenario or simulation generation

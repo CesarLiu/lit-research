@@ -1,0 +1,13 @@
+{
+ "id": "crashdiffuser_vlm_guided_collision_intent_reasonin",
+ "title": "CrashDiffuser: VLM-Guided Collision Intent Reasoning for Fine-Grained Safety-Critical Traffic Scenario Generation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Requested target contact region on the target vehicle (head, rear or side), turned by a VLM into a structured action tuple (speed change, turning, collision stage) plus scene-level context.", "pages": "1-3"},
+ "control_mechanism": {"value": "VLM-predicted action tuple is embedded, fused with a trajectory-context encoding by attention, and conditions a diffusion model; differentiable collision-loss guidance during sampling, best-of-N candidate selection, and receding-horizon replanning.", "pages": "3-4"},
+ "base_model": {"value": "Transformer-based conditional DDPM generating adversary velocity sequences; Trajectron++-style recurrent interaction encoder; fine-tuned Qwen3-VL-8B-Instruct as intent VLM; Qwen3-Embedding-0.6B encodes actions; run in MetaDrive.", "pages": "4-5"},
+ "datasets": {"value": "Waymo Open Motion Dataset; 441 valid adversarial-target collision scenarios mined with CAT from 1,314 raw scenarios; 208 WOMD-Normal scenarios for testing; closed loop in MetaDrive at 10 Hz.", "pages": "4"},
+ "metrics": {"value": "Effectiveness: TCR@1, TCR@3, off-road rate, AMTTC, AMD. Controllability: geometry-control success (GCS), wrong-type collision rate. Naturalness: Wasserstein acceleration/jerk distance, SSPD, Frechet, DTW.", "pages": "5"},
+ "controllability_evidence": {"value": "Contact-region control success of 40.05% in closed loop, with TCR@1 50.33% and TCR@3 67.98%. Open-loop ablation: removing action condition drops GCS from 66.7 to 43.7 (TCR@3 88.9 to 62.2).", "pages": "1, 6-7"},
+ "stated_limitations": {"value": "Contact regions can be infeasible given scene geometry and reactive targets; training data imbalanced (side contacts overrepresented); one adversary and three coarse regions only; guidance ignores acceleration, jerk and comfort.", "pages": "7"},
+ "notes": "Hybrid: VLM reasoning plus action conditioning plus inference-time collision guidance. Family label chosen as conditioning inputs; language/LLM-driven or guidance would also be defensible. Table 1/2 numbers beyond abstract not seen."
+}

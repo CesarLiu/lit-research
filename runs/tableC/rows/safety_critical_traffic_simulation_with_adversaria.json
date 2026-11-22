@@ -1,0 +1,13 @@
+{
+ "id": "safety_critical_traffic_simulation_with_adversaria",
+ "title": "Safety-Critical Traffic Simulation with Adversarial Transfer of Driving Intentions",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Adversarial driving intention, i.e. the actor's final goal position, found automatically by constrained optimisation to collide with the AV; not user-specified.", "pages": "1-2"},
+ "control_mechanism": {"value": "Decoupled two stages: optimisation finds the adversarial goal, then a goal-conditioned motion prediction model fills in realistic intermediate trajectory toward that goal, with dynamic replanning.", "pages": "1-2, 4-5"},
+ "base_model": {"value": "Goal-based trajectory prediction model with MTR-style encoder-decoder (MLP polyline encoders, multi-head attention) trained on real-world data; AV treated as a black box, estimated by sampling trajectories as in CAT.", "pages": "3"},
+ "datasets": {"value": "nuScenes and Waymo (Waymo run in MetaDrive); planners are log replay, rule-based (STRIVE) and RL-based TD3 (CAT).", "pages": "4"},
+ "metrics": {"value": "AV collision rate, opponent off-road and global off-road rate, in-road and collision rate, Wasserstein acceleration/jerk distance, generation time; closed-loop AV collision, off-road, route completion.", "pages": "4-5"},
+ "controllability_evidence": {"value": "Ablation on nuScenes: without intention transfer collision is 1.4; with optimised transfer 40.6 at 10.4 global off-road; random-interpolation goal gives 75.9 collision but 24.1 global off-road. Waymo RL planner: 45.3 vs CAT 36.7.", "pages": "5-6"},
+ "stated_limitations": {"value": "Focuses on collisions between two agents; more complex multi-agent accidents are only limitedly considered.", "pages": "7"},
+ "notes": "An attack/adversarial simulator, not user-steerable generation; the control signal is solved by the optimiser. Collision numbers in ablation are from Table IV (units presumably percent, not stated in snippet)."
+}

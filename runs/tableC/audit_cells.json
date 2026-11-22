@@ -1,0 +1,146 @@
+[
+ {
+  "packet": "packets/pcasim_promptable_closed_loop_adversarial_simulati.md",
+  "field": "control_mechanism",
+  "claimed_value": "RAG over an adversarial scenario corpus (Sentence-BERT, FAISS) with few-shot, chain-of-thought prompting makes an LLM write a DSL; a middleware converts it to Python for highway-env; PPO agents then train ego and adversary behaviour.",
+  "claimed_pages": "2-3, 16"
+ },
+ {
+  "packet": "packets/pcasim_promptable_closed_loop_adversarial_simulati.md",
+  "field": "controllability_evidence",
+  "claimed_value": "DeepSeek-V3 DSL score 80.17 on 6 held-out scenes (R1 73.83, Qwen2.5-Plus 63.33); collision rate about 8% above baseline; trained ego avoidance lowers collision rate by roughly 30% on average.",
+  "claimed_pages": "5-6"
+ },
+ {
+  "packet": "packets/seal_towards_safe_autonomous_driving_via_skill_ena.md",
+  "field": "control_mechanism",
+  "claimed_value": "Learned score network ranks 32 candidate adversary paths; best path gives goals for a reactive hierarchical policy that picks skills from an adversarial prior in a VAE skill space.",
+  "claimed_pages": "3-4, 4-5"
+ },
+ {
+  "packet": "packets/seal_towards_safe_autonomous_driving_via_skill_ena.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Not a controllability test. SEAL-trained ego policies average a 21.5% increase in Success rate over the top baseline in each setting; ablations show learned objective and skill policy both needed.",
+  "claimed_pages": "6, 7"
+ },
+ {
+  "packet": "packets/promptable_closed_loop_traffic_simulation.md",
+  "field": "control_mechanism",
+  "claimed_value": "Each prompt is encoded and pooled per agent, then added to that agent's policy query. Text goes through a LoRA-finetuned LLaMA3-8B producing language-conditioned queries, summed into the policy token.",
+  "claimed_pages": "4-5"
+ },
+ {
+  "packet": "packets/promptable_closed_loop_traffic_simulation.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Goal Point prompt gives ADE 0.3882 m, 59.12% gain over no prompt; Text prompt 26.96% gain; all prompt types together 0.2877 m ADE, 69.71% gain.",
+  "claimed_pages": "6-7"
+ },
+ {
+  "packet": "packets/vilta_a_vlm_in_the_loop_adversary_for_enhancing_dr.md",
+  "field": "control_mechanism",
+  "claimed_value": "VLM directly edits a rule-based baseline trajectory (CTRV model fused with map waypoints), followed by B-spline smoothing, sigmoid fusion with the baseline, and an LQR controller for kinematic feasibility.",
+  "claimed_pages": "4"
+ },
+ {
+  "packet": "packets/vilta_a_vlm_in_the_loop_adversary_for_enhancing_dr.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Edited trajectories have smaller minimum distance to ego and more extreme acceleration and steering than directly generated ones. Ego policy gains 13.3% and 25.3% route completion and 28.5% and 39.4% lower crash rate versus VLM-RL and CAT.",
+  "claimed_pages": "6-7"
+ },
+ {
+  "packet": "packets/safety_critical_traffic_simulation_with_adversaria.md",
+  "field": "control_mechanism",
+  "claimed_value": "Decoupled two stages: optimisation finds the adversarial goal, then a goal-conditioned motion prediction model fills in realistic intermediate trajectory toward that goal, with dynamic replanning.",
+  "claimed_pages": "1-2, 4-5"
+ },
+ {
+  "packet": "packets/safety_critical_traffic_simulation_with_adversaria.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Ablation on nuScenes: without intention transfer collision is 1.4; with optimised transfer 40.6 at 10.4 global off-road; random-interpolation goal gives 75.9 collision but 24.1 global off-road. Waymo RL planner: 45.3 vs CAT 36.7.",
+  "claimed_pages": "5-6"
+ },
+ {
+  "packet": "packets/symphony_learning_realistic_and_diverse_agents_for.md",
+  "field": "control_mechanism",
+  "claimed_value": "Hierarchical policy: goal generator proposes a fixed route goal fed to a goal-conditional policy and discriminator; parallel beam search prunes the least realistic half of branches by discriminator score, and results are distilled back.",
+  "claimed_pages": "1, 3-4"
+ },
+ {
+  "packet": "packets/symphony_learning_realistic_and_diverse_agents_for.md",
+  "field": "controllability_evidence",
+  "claimed_value": "No controllability experiment; evidence is realism and diversity. On proprietary data BC collision rate drops from 16.65% to 1.84% with tree search, and hierarchy restores diversity.",
+  "claimed_pages": "5-6"
+ },
+ {
+  "packet": "packets/editing_driver_character_socially_controllable_beh.md",
+  "field": "control_mechanism",
+  "claimed_value": "Courtesy coefficient is an input to the trajectory generator; training uses auto-labeled courtesy values, data augmentation with predicted trajectories, and a differentiable courtesy loss. A range predictor normalizes values per scenario.",
+  "claimed_pages": "2-5"
+ },
+ {
+  "packet": "packets/editing_driver_character_socially_controllable_beh.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Full model reaches CourtesyMSE 0.120 with range-predicted values; generated courtesy correlates with input quantile at 0.60 on the full interactive validation subset and 0.79 on the high-courtesy subset.",
+  "claimed_pages": "6-7"
+ },
+ {
+  "packet": "packets/drivescenegen_generating_diverse_and_realistic_dri.md",
+  "field": "control_mechanism",
+  "claimed_value": "Not a control mechanism: unconditional DDPM generates a rasterized BEV initial scene (map plus agent states), vectorized by a graph method; a trajectory prediction model then rolls out futures.",
+  "claimed_pages": "2-3, 5"
+ },
+ {
+  "packet": "packets/drivescenegen_generating_diverse_and_realistic_dri.md",
+  "field": "controllability_evidence",
+  "claimed_value": "No controllability experiment. Closest evidence is distribution matching: map plus agent initial states at 80m give FID 46.81 and diversity discrepancy 1.25%; same initial scene yields distinct futures qualitatively.",
+  "claimed_pages": "5-6, 7-8"
+ },
+ {
+  "packet": "packets/terasim_world_worldwide_safety_critical_data_synth.md",
+  "field": "control_mechanism",
+  "claimed_value": "Pipeline: map and traffic retrieval, behaviour models plus adversity orchestrator and NADE for agent trajectories, rendered HDMap videos feed ControlNet branches of Cosmos-Drive with VLM text prompts for multi-view video.",
+  "claimed_pages": "3-5"
+ },
+ {
+  "packet": "packets/terasim_world_worldwide_safety_critical_data_synth.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Qualitative only: case studies (Ann Arbor roundabout, Mcity cases, five worldwide examples) show video motions following simulated trajectories and weather or roadwork variations; no quantitative number.",
+  "claimed_pages": "5-6"
+ },
+ {
+  "packet": "packets/rade_learning_risk_adjustable_driving_environment.md",
+  "field": "control_mechanism",
+  "claimed_value": "Risk embedded by an MLP into a 128-dimensional latent, concatenated with the diffusion step embedding at every layer; trained with condition dropout and sampled with classifier-free guidance scale omega.",
+  "claimed_pages": "3-4"
+ },
+ {
+  "packet": "packets/rade_learning_risk_adjustable_driving_environment.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Mean crash rate rises from 20.6% to 50.6% as desired risk increases; PET below 0.4 s density rises 113%, from 0.030 to 0.064, from low to high risk.",
+  "claimed_pages": "6-7"
+ },
+ {
+  "packet": "packets/trafficgamer_reliable_and_flexible_traffic_simulat.md",
+  "field": "control_mechanism",
+  "claimed_value": "Pretrained world model is fine-tuned with constrained closed-loop multi-agent RL to a coarse correlated equilibrium; constraints enforced through a Lagrange multiplier, risk via CVaR, with a regularizer toward observed behavior.",
+  "claimed_pages": "2-3, 8-9"
+ },
+ {
+  "packet": "packets/trafficgamer_reliable_and_flexible_traffic_simulat.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Lower alpha gives faster, more aggressive, shorter-headway driving; higher alpha gives lower speed and larger spacing. Tighter distance constraints raise the Lagrangian penalty. Average diversity 2.0 versus 0.58 for second best.",
+  "claimed_pages": "10-11"
+ },
+ {
+  "packet": "packets/counterscene_counterfactual_causal_reasoning_in_ge.md",
+  "field": "control_mechanism",
+  "claimed_value": "Gradients of a spatial, temporal and jerk guidance loss during diffusion denoising modify only the adversarial agent's trajectory; the world model, with a causal interaction graph, handles other agents' responses.",
+  "claimed_pages": "6-7"
+ },
+ {
+  "packet": "packets/counterscene_counterfactual_causal_reasoning_in_ge.md",
+  "field": "controllability_evidence",
+  "claimed_value": "At 8-10 s horizon, CR is 22.7% versus 12.3% for CCDiff, with lower ADE (1.877 vs 2.092). Minimal ablation variant drops to CR 6.5%.",
+  "claimed_pages": "8, 9-10"
+ }
+]

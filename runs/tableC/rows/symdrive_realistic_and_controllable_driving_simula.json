@@ -1,0 +1,13 @@
+{
+ "id": "symdrive_realistic_and_controllable_driving_simula",
+ "title": "SymDrive: Realistic and Controllable Driving Simulator via Symmetric Auto-regressive Online Restoration",
+ "control_family": "other",
+ "control_signal": {"value": "Vehicle motion parameters (rotation and translation over time) of Gaussian-splat vehicles, plus inserted 3D vehicle assets; trajectories come from external rule-based or learning-based traffic controllers.", "pages": "5"},
+ "control_mechanism": {"value": "Direct control of per-vehicle pose in a 3DGS scene; inserted vehicles are harmonized by a training-free diffusion inpainting step (masked region, dual-view context) and appearance fine-tuning of color and opacity.", "pages": "2, 5"},
+ "base_model": {"value": "StreetGS 3D Gaussian Splatting reconstruction plus Flux.1-dev flow-matching diffusion fine-tuned with LoRA rank 128 for symmetric dual-view, auto-regressive novel-view restoration.", "pages": "4-6"},
+ "datasets": {"value": "Waymo Open Dataset (eight scenes, 40 consecutive frames each) for evaluation; nuScenes qualitative only; 3DRealCar vehicle models for insertion.", "pages": "5"},
+ "metrics": {"value": "NTA-IoU, NTL-IoU and FID for novel-view rendering; FID before and after vehicle insertion; rendering FPS versus vehicle count.", "pages": "5, 7"},
+ "controllability_evidence": {"value": "Qualitative only: dense traffic via SUMO and aggressive lane changes via a learning-based trajectory simulator are rendered (Fig. 6); inserted vehicles show better lighting match. Novel-view FID 74.82 at 3 m lateral shift is a rendering result.", "pages": "5-7"},
+ "stated_limitations": {"value": "Distant objects with sparse pixels cause temporal inconsistencies; the system lacks rigid physics-based collision constraints; future work on video diffusion and a physics engine.", "pages": "7"},
+ "notes": "Primarily a rendering and asset-editing paper; behavior control is delegated to external traffic simulators, so it is not a controllable behavior generator. No quantitative controllability metric in packet."
+}

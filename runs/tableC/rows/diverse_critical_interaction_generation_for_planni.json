@@ -1,0 +1,13 @@
+{
+ "id": "diverse_critical_interaction_generation_for_planni",
+ "title": "Diverse Critical Interaction Generation for Planning and Planner Evaluation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "A per-vehicle style variable q; its first dimension q(1) sets how critical or conservative the vehicle behaves (swept from -2.0 to 2.0). Also goals and current states of all agents.", "pages": "2-3, 6"},
+ "control_mechanism": {"value": "Style code fed to a GAN generator along with states and goals; multi-branch safe/critical discriminators and an InfoGAN-style auxiliary distribution network tie the style dimension to behaviour. Generator outputs key waypoints, Bezier-interpolated.", "pages": "2-3, 5"},
+ "base_model": {"value": "RouteGAN: styled GAN generating key waypoints of a single vehicle, interpolated with Bezier curves, applied iteratively to produce multi-agent interaction.", "pages": "2-3, 5"},
+ "datasets": {"value": "Argoverse (the modified interaction data used by CMTS: straight road and intersections) and INTERACTION roundabout data, with pseudo-critical interactions created by temporal realignment and local deformation.", "pages": "5-6"},
+ "metrics": {"value": "Qualitative case studies of generated interactions; collision rate of tested planners (Data, IDM, Astar) against RouteGAN opponents at different q(1).", "pages": "6-7"},
+ "controllability_evidence": {"value": "Collision rate rises monotonically with q(1): Data planner 4.2% at -2.0 to 95.3% at 2.0; IDM 1.4% to 24.4%; Astar 0.0% to 6.5%.", "pages": "7"},
+ "stated_limitations": {"value": "Collision is not a penalty in the model, so RouteGAN itself is not best for collision avoidance; CMTS noted to fail on roundabouts. Packet gives no dedicated limitations section.", "pages": "6-7"},
+ "notes": "Control family inferred as trained-in style conditioning (GAN with latent style code); the packet does not use that label. Critical data relied on simple augmentation tricks."
+}

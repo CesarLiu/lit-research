@@ -1,0 +1,13 @@
+{
+ "id": "intelligent_driving_intelligence_test_for_autonomo",
+ "title": "Intelligent driving intelligence test for autonomous vehicles with naturalistic and adversarial environment",
+ "control_family": "other",
+ "control_signal": {"value": "No user-facing signal. Designer supplies the AV under test (via surrogate models) and a criticality threshold; adversarial maneuvers are chosen automatically for the principal other vehicle at critical moments.", "pages": "1"},
+ "control_mechanism": {"value": "Importance sampling: only the maneuver distribution of the principal other vehicle at critical moments is twisted using criticality (exposure frequency times RL-learned maneuver challenge); other vehicles keep naturalistic distributions.", "pages": "1"},
+ "base_model": {"value": "Markov decision process model of naturalistic behavior from empirical maneuver distributions, with RL-learned maneuver challenge for car following and IDM/MOBIL surrogate models; run in CARLA and a highway traffic simulator.", "pages": "1"},
+ "datasets": {"value": "Naturalistic driving data from the Safety Pilot Model Deployment and IVBSS programs (University of Michigan).", "pages": "1"},
+ "metrics": {"value": "AV accident rate estimate, relative half-width (threshold 0.3) and number of tests needed, accident rate per type, simulation weight (likelihood ratio) and event diversity for adversarial examples.", "pages": "1"},
+ "controllability_evidence": {"value": "To reach relative half-width 0.3, NADE needs 8.74 × 10^4 tests versus 4.39 × 10^7 in NDE (about 500 times faster) for AV-I, and 2.32 × 10^4 versus 1.41 × 10^8 (about 6,000 times) for AV-II.", "pages": "1"},
+ "stated_limitations": {"value": "Needs large amounts of naturalistic driving data; case study simplified (highway, limited actions, vehicles only); no perception-related tests such as weather; surrogate model and AV prediction errors.", "pages": "1"},
+ "notes": "Scenario/environment testing via importance sampling, not a learned generative model with user-facing control. The packet is plain text, so all passages carry the label 'pages 1'."
+}

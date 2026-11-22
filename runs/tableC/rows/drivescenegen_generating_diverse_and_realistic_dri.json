@@ -1,0 +1,13 @@
+{
+ "id": "drivescenegen_generating_diverse_and_realistic_dri",
+ "title": "DriveSceneGen: Generating Diverse and Realistic Driving Scenarios From Scratch",
+ "control_family": "none/uncontrolled",
+ "control_signal": {"value": "No user-specified control signal; scenarios are sampled from Gaussian noise. Diversity comes from sampling and from K multi-modal futures predicted per generated initial scene.", "pages": "3-4, 5"},
+ "control_mechanism": {"value": "Not a control mechanism: unconditional DDPM generates a rasterized BEV initial scene (map plus agent states), vectorized by a graph method; a trajectory prediction model then rolls out futures.", "pages": "2-3, 5"},
+ "base_model": {"value": "DDPM with U-Net backbone (four down/up blocks, self-attention middle block, 56M parameters) for BEV scene generation; graph-based vectorization; repurposed MTR for simulation stage.", "pages": "3-4, 5"},
+ "datasets": {"value": "Waymo Motion dataset, 70k scenarios of 20 seconds; 5k generated scenarios evaluated against it.", "pages": "5"},
+ "metrics": {"value": "FID for fidelity; average feature distance for diversity (discrepancy vs ground truth in percent); vectorization GEO and TOPO precision, recall, F1.", "pages": "5-6, 7-8"},
+ "controllability_evidence": {"value": "No controllability experiment. Closest evidence is distribution matching: map plus agent initial states at 80m give FID 46.81 and diversity discrepancy 1.25%; same initial scene yields distinct futures qualitatively.", "pages": "5-6, 7-8"},
+ "stated_limitations": {"value": "Whole-scenario generation is a new task with no quantitative metric yet to compare generated dynamic scenarios against the ground-truth distribution; authors plan to investigate such metrics.", "pages": "8"},
+ "notes": "Not really about controllable generation; unconditional from-scratch generator. Packet does not discuss other limitations."
+}

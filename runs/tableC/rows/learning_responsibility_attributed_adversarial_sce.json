@@ -1,0 +1,13 @@
+{
+ "id": "learning_responsibility_attributed_adversarial_sce",
+ "title": "Learning Responsibility-Attributed Adversarial Scenarios for Testing Autonomous Vehicles",
+ "control_family": "RL fine-tuning",
+ "control_signal": {"value": "Designer-chosen careful-and-competent-driver reference model (FSM, CC-JP, RSS) defining attribution, plus online-selected adversary and closed-loop reward terms; no user-set behavior attribute.", "pages": "4, 10, 17-18"},
+ "control_mechanism": {"value": "Gaussian-mixture diffusion adversary policy, fine-tuned by reinforcement learning (clipped-ratio policy gradient per denoising step) in closed loop with shaping rewards; attribution verified by counterfactual rollout where a reference driver replaces the target.", "pages": "10, 17-18"},
+ "base_model": {"value": "Gaussian-mixture diffusion model: ResNet-18 map encoder, temporal convolutional denoiser, 8 mixture components; gradient-boosting adversary selector with temporal confirmation gate.", "pages": "11-12"},
+ "datasets": {"value": "nuScenes (training and primary evaluation); AD4CHE highway and rounD roundabout for cross-dataset transfer without retraining.", "pages": "4, 11-12"},
+ "metrics": {"value": "Responsibility validity (FSM, CC-JP, RSS attribution %), severity diversity Hcrit, positive braking-deficit exposure BD+%, infeasibility IP%.", "pages": "4, 8"},
+ "controllability_evidence": {"value": "CARS keeps 88.7% FSM attribution, about twice the strongest external baseline; SafeSim 44.8%, K=1 ablation 45.2%, IP% 0.04 for CARS.", "pages": "6-8"},
+ "stated_limitations": {"value": "Reference models are longitudinal, so attribution is strongest for longitudinal conflicts; one active adversary at a time; only vehicles evaluated, no vulnerable road users.", "pages": "9"},
+ "notes": "Adversarial testing focus; control is over attributability of collisions, not a user-specified style or attribute."
+}

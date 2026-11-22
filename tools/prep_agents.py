@@ -3,7 +3,7 @@
 
   python -I -X utf8 tools/prep_agents.py groups RUN_DIR [N_GROUPS=6]
       packets/*.md ids, sorted, split into N consecutive groups -> RUN_DIR/g1.txt ... gN.txt
-  python -I -X utf8 tools/prep_agents.py audit RUN_DIR [N_PAPERS=12] [SEED=0]
+  python -I -X utf8 tools/prep_agents.py audit RUN_DIR [N_PAPERS=12] [SEED=0] [IDS_FILE]
       random N papers x 2 fields (control_mechanism, controllability_evidence) from rows/*.json
       -> RUN_DIR/audit_cells.json   (the sample is a function of SEED; record it)
   python -I -X utf8 tools/prep_agents.py render TEMPLATE RUN_DIR [GROUP_FILE]
@@ -30,8 +30,11 @@ def groups(run: Path, n: int) -> None:
     print(f"{len(ids)} ids in {n} groups")
 
 
-def audit(run: Path, n: int, seed: int) -> None:
+def audit(run: Path, n: int, seed: int, only: str = "") -> None:
     rows = sorted((run / "rows").glob("*.json"))
+    if only:  # sample only from the ids listed in this file (for example the rows added in a later round)
+        keep = {x.strip() for x in open(only, encoding="utf-8") if x.strip()}
+        rows = [f for f in rows if f.stem in keep]
     pick = random.Random(seed).sample(rows, n)
     cells = []
     for f in pick:
@@ -58,7 +61,7 @@ if __name__ == "__main__":
     if len(a) >= 2 and a[0] == "groups":
         groups(Path(a[1]), int(a[2]) if len(a) > 2 else 6)
     elif len(a) >= 2 and a[0] == "audit":
-        audit(Path(a[1]), int(a[2]) if len(a) > 2 else 12, int(a[3]) if len(a) > 3 else 0)
+        audit(Path(a[1]), int(a[2]) if len(a) > 2 else 12, int(a[3]) if len(a) > 3 else 0, a[4] if len(a) > 4 else "")
     elif len(a) >= 3 and a[0] == "render":
         render(Path(a[2]), a[1], a[3] if len(a) > 3 else "{GROUP_FILE}")
     else:

@@ -1,0 +1,13 @@
+{
+ "id": "trafficgamer_reliable_and_flexible_traffic_simulat",
+ "title": "TrafficGamer: Reliable and Flexible Traffic Simulation for Safety-Critical Scenarios with Game-Theoretic Oracles",
+ "control_family": "RL fine-tuning",
+ "control_signal": {"value": "Vehicle distance constraint threshold (competitive intensity) and a CVaR risk-sensitivity confidence level alpha controlling how conservative or aggressive agents are.", "pages": "2-3"},
+ "control_mechanism": {"value": "Pretrained world model is fine-tuned with constrained closed-loop multi-agent RL to a coarse correlated equilibrium; constraints enforced through a Lagrange multiplier, risk via CVaR, with a regularizer toward observed behavior.", "pages": "2-3, 8-9"},
+ "base_model": {"value": "Autoregressive decoder-only generative world model with map, temporal, neighbor and self attention, proposer and refiner, Laplace mixture outputs; pre-trained by imitation.", "pages": "6-7, 2-3"},
+ "datasets": {"value": "Argoverse 2 (main) and Waymo Open Motion Dataset; GPUDrive simulator for extra fidelity tests.", "pages": "8-9, 12-13"},
+ "metrics": {"value": "Fidelity (distribution divergence to real data), exploitability via CCE-gap, diversity score, collision time estimates; crash, off-road and goal-achieved rates in GPUDrive.", "pages": "10-11, 12-13"},
+ "controllability_evidence": {"value": "Lower alpha gives faster, more aggressive, shorter-headway driving; higher alpha gives lower speed and larger spacing. Tighter distance constraints raise the Lagrangian penalty. Average diversity 2.0 versus 0.58 for second best.", "pages": "10-11"},
+ "stated_limitations": {"value": "Solving equilibria over more vehicles raises complexity and resource use, especially map-wide versus local; the critic input grows with agent count.", "pages": "13-14"},
+ "notes": "Controllability is shown qualitatively with figures; no single quantitative control-accuracy number in packet. Diversity text says four of six scenarios but lists three."
+}

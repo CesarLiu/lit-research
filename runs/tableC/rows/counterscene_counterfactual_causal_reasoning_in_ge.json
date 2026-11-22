@@ -1,0 +1,34 @@
+{
+ "id": "counterscene_counterfactual_causal_reasoning_in_ge",
+ "title": "CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation",
+ "control_family": "inference-time guidance",
+ "control_signal": {
+  "value": "Automatically identified causally critical adversarial agent and conflict point; guidance targets removing that agent's spatial and temporal safety margins relative to the ego. No user-facing control knob described.",
+  "pages": "2, 6-7"
+ },
+ "control_mechanism": {
+  "value": "Gradients of a spatial, temporal and jerk guidance loss during diffusion denoising modify only the adversarial agent's trajectory; the world model, with a causal interaction graph, handles other agents' responses.",
+  "pages": "6-7"
+ },
+ "base_model": {
+  "value": "Conditional diffusion BEV world model with SceneTransformer denoiser, augmented with a learned Causal Interaction Graph; 100 diffusion steps.",
+  "pages": "4-5, 7-8"
+ },
+ "datasets": {
+  "value": "Trained on nuScenes train split, evaluated on 100 nuScenes validation scenes via tbsim; zero-shot transfer to a curated 100-scene nuPlan set.",
+  "pages": "7, 9-10, 17-18"
+ },
+ "metrics": {
+  "value": "Realism: ADE, FDE, off-road rate (ORR). Adversarial effectiveness: collision rate (CR) and hard braking rate (HBR).",
+  "pages": "7"
+ },
+ "controllability_evidence": {
+  "value": "At 8-10 s horizon, CR is 22.7% versus 12.3% for CCDiff, with lower ADE (1.877 vs 2.092). An ablation variant with ADE 0.798 reports CR 6.5%; the packet does not say this is the 8-10 s setting.",
+  "pages": "8, 9-10"
+ },
+ "stated_limitations": {
+  "value": "No explicit limitations in packet; future work says the framework intervenes on a single causally critical agent and calls for a unified scene-agent formulation.",
+  "pages": "12"
+ },
+ "notes": "Control here is adversarial intensity via automatic guidance, not user-specified attributes. Best of 16 rollouts is selected per scene for all methods."
+}

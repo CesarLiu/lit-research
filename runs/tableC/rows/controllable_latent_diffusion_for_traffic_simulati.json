@@ -1,0 +1,13 @@
+{
+ "id": "controllable_latent_diffusion_for_traffic_simulati",
+ "title": "Controllable Latent Diffusion for Traffic Simulation",
+ "control_family": "RL fine-tuning",
+ "control_signal": {"value": "A designer-specified reward/cost on generated trajectories; the paper's rewards are no-collision and no-off-road (reward -1 on violation, else 0), weighted in a cost J.", "pages": "3, 5-6"},
+ "control_mechanism": {"value": "Denoising is treated as a multi-step MDP; the latent diffusion model is trained with a policy-gradient using importance sampling, with reward computed on decoded trajectories.", "pages": "4"},
+ "base_model": {"value": "LSTM-based VAE with CNN context encoder for latent compression, plus a context-conditioned latent diffusion model trained with the VAE decoder and dynamics function.", "pages": "3-4"},
+ "datasets": {"value": "nuScenes; closed-loop simulation initialised from ground-truth states, 20 s with 2 Hz re-planning.", "pages": "5"},
+ "metrics": {"value": "Realism: mean Wasserstein distance of longitudinal acceleration, lateral acceleration and jerk distributions. Stability: failure rate (collision or off-road).", "pages": "5-6"},
+ "controllability_evidence": {"value": "Ablation: with RL guidance failure rates are 0.226 (no collision) and 0.136 (no off-road); without it they rise to 0.483 and 0.450.", "pages": "6"},
+ "stated_limitations": {"value": "Without reward guidance the realism metric is better (0.350 vs 0.655) but failure rates rise, so a realism/controllability trade-off exists. Future work: wider safety-critical scenarios, other agent types.", "pages": "6"},
+ "notes": "Only collision and off-road rewards are demonstrated, so 'controllability' is essentially constraint satisfaction. Baseline numbers in Table I are quoted from another paper. Abstract calls 0.226 a collision rate; Results call it a failure rate."
+}

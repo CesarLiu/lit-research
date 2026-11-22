@@ -1,0 +1,13 @@
+{
+ "id": "decoupled_diffusion_sparks_adaptive_scene_generati",
+ "title": "Decoupled Diffusion Sparks Adaptive Scene Generation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Goal points (future target states, e.g. lane-centre points) for selected agents such as the ego and an attack vehicle; no goal means free exploration.", "pages": "12-13, 17"},
+ "control_mechanism": {"value": "Noise-masking training with per-token noise levels; at inference goal tokens are set to zero noise (low-noise goals) while other tokens stay high-noise, steering generation without adaptation. Classifier guidance adds realism rubrics.", "pages": "1-2, 14, 17"},
+ "base_model": {"value": "Decoupled diffusion transformer built on SimpleDiffusion with four temporal and spatial blocks (AdaLN), Perceiver IO map encoder; vectorized scene tokens with independent noise states.", "pages": "14"},
+ "datasets": {"value": "Trained on nuPlan, Waymo and self-collected Nexus-Data (540 hours of simulated safety-critical scenarios from a simulator with adversarial interactions); nuPlan closed-loop Val14 evaluation.", "pages": "6, 7-8, 14"},
+ "metrics": {"value": "ADE, off-road rate, collision rate, trajectory instability Mk, composite realism metric, Waymo sim-agent evaluation, nuPlan closed-loop Score, collision score, progress score.", "pages": "6, 17"},
+ "controllability_evidence": {"value": "Goal-conditioned generation on nuPlan: ADE 1.28 for Nexus and 1.12 for Nexus-Full, versus 1.93 for GUMP. Abstract reports a 40% reduction in displacement error.", "pages": "1, 6"},
+ "stated_limitations": {"value": "No visual generation, limiting sensor-data uses. Failure cases show incorrect collisions and difficulty in complex road networks due to limited map information.", "pages": "13-14, 19-20"},
+ "notes": "Control is goal-state conditioning via noise levels, not a separate conditioning branch. Classifier guidance is used only for human-behaviour realism rubrics (collision avoidance, comfort, on-road). Packet shows only part of Table 1 header layout; column alignment was read carefully but is somewhat ambiguous."
+}

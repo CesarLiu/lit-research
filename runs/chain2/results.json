@@ -1,0 +1,1695 @@
+{
+ "query": "citation chaining leads",
+ "results": [
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4383108456",
+   "doi": "10.1109/icra48891.2023.10161167",
+   "title": "BITS: Bi-level Imitation for Traffic Simulation",
+   "abstract": "Simulation is the key to scaling up validation and verification for robotic systems such as autonomous vehicles. Despite advances in high-fidelity physics and sensor simulation, a critical gap remains in simulating realistic behaviors of road users. This is because devising first principle models for human-like behaviors is generally infeasible. In this work, we take a data-driven approach to generate traffic behaviors from real-world driving logs. The method achieves high sample efficiency and behavior diversity by exploiting the bi-level hierarchy of high-level intent inference and low-level driving behavior imitation. The method also incorporates a planning module to obtain stable long-horizon behaviors. We empirically validate our method with scenarios from two large-scale driving datasets and show our method achieves balanced traffic simulation performance in realism, diversity, and long-horizon stability. We also explore ways to evaluate behavior realism and introduce a suite of evaluation metrics for traffic simulation. Finally, as part of our core contributions, we develop and open source a software tool that unifies data formats across different driving datasets and converts scenes from existing datasets into interactive simulation environments. For video results and code release, see https://bit.ly/3L9uzj3.",
+   "year": 2023,
+   "authors": [
+    "Danfei Xu",
+    "Yuxiao Chen",
+    "Boris Ivanovic",
+    "Marco Pavone"
+   ],
+   "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+   "cited_by": 139,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2208.12403",
+   "url": "https://openalex.org/W4383108456",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4415797595",
+   "doi": "10.52202/079017-1771",
+   "title": "SceneDiffuser: Efficient and Controllable Driving Simulation Initialization and Rollout",
+   "abstract": "Realistic and interactive scene simulation is a key prerequisite for autonomous vehicle (AV) development. In this work, we present SceneDiffuser, a scene-level diffusion prior designed for traffic simulation. It offers a unified framework that addresses two key stages of simulation: scene initialization, which involves generating initial traffic layouts, and scene rollout, which encompasses the closed-loop simulation of agent behaviors. While diffusion models have been proven effective in learning realistic and multimodal agent distributions, several challenges remain, including controllability, maintaining realism in closed-loop simulations, and ensuring inference efficiency. To address these issues, we introduce amortized diffusion for simulation. This novel diffusion denoising paradigm amortizes the computational cost of denoising over future simulation steps, significantly reducing the cost per rollout step (16x less inference steps) while also mitigating closed-loop errors. We further enhance controllability through the introduction of generalized hard constraints, a simple yet effective inference-time constraint mechanism, as well as language-based constrained scene generation via few-shot prompting of a large language model (LLM). Our investigations into model scaling reveal that increased computational resources significantly improve overall simulation realism. We demonstrate the effectiveness of our approach on the Waymo Open Sim Agents Challenge, achieving top open-loop performance and the best closed-loop performance among diffusion models.",
+   "year": 2024,
+   "authors": [
+    "Chiyu Max Jiang",
+    "Yijing Bai",
+    "Andre Cornman",
+    "Christopher Davis",
+    "Xiukun Huang",
+    "Hong Jun Jeon",
+    "Sakshum Kulshrestha",
+    "John Lambert",
+    "Shuangyu Li",
+    "Xuanyu Zhou",
+    "Carlos Fuertes",
+    "Chang Yuan",
+    "Mingxing Tan",
+    "Xuanyu Zhou",
+    "Dragomir Anguelov"
+   ],
+   "venue": "neural information processing systems",
+   "cited_by": 91,
+   "is_oa": true,
+   "pdf_url": "",
+   "url": "https://openalex.org/W4415797595",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4229450941",
+   "doi": "10.1109/icra46639.2022.9811990",
+   "title": "Symphony: Learning Realistic and Diverse Agents for Autonomous Driving Simulation",
+   "abstract": "Simulation is a crucial tool for accelerating the development of autonomous vehicles. Making simulation realistic requires models of the human road users who interact with such cars. Such models can be obtained by applying learning from demonstration (LfD) to trajectories observed by cars already on the road. However, existing LfD methods are typically insufficient, yielding policies that frequently collide or drive off the road. To address this problem, we propose Symphony, which greatly improves realism by combining conventional policies with a parallel beam search. The beam search refines these policies on the fly by pruning branches that are unfavourably evaluated by a discriminator. However, it can also harm diversity, i.e., how well the agents cover the entire distribution of realistic behaviour, as pruning can encourage mode collapse. Symphony addresses this issue with a hierarchical approach, factoring agent behaviour into goal generation and goal conditioning. The use of such goals ensures that agent diversity neither disappears during adversarial training nor is pruned away by the beam search. Experiments on both proprietary and open Waymo datasets confirm that Symphony agents learn more realistic and diverse behaviour than several baselines.",
+   "year": 2022,
+   "authors": [
+    "Maximilian Igl",
+    "Dae Woo Kim",
+    "Alex Kuefler",
+    "Paul Mougin",
+    "Punit Shah",
+    "Kyriacos Shiarlis",
+    "Dragomir Anguelov",
+    "Mark Palatucci",
+    "Brandyn White",
+    "Shimon Whiteson"
+   ],
+   "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+   "cited_by": 104,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2205.03195",
+   "url": "https://openalex.org/W4229450941",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4386076338",
+   "doi": "10.1109/cvpr52729.2023.00928",
+   "title": "MIXSIM: A Hierarchical Framework for Mixed Reality Traffic Simulation",
+   "abstract": "The prevailing way to test a self-driving vehicle (SDV) in simulation involves non-reactive open-loop replay of real world scenarios. However, in order to safely deploy SDVs to the real world, we need to evaluate them in closed-loop. Towards this goal, we propose to leverage the wealth of interesting scenarios captured in the real world and make them reactive and controllable to enable closed-loop SDV evaluation in what-if situations. In particular, we present MIXSIM, a hierarchical framework for mixed reality traffic simulation. MIXSIM explicitly models agent goals as routes along the road network and learns a reactive route-conditional policy. By inferring each agent's route from the original scenario, MIXSIM can reactively re-simulate the scenario and enable testing different autonomy systems under the same conditions. Furthermore, by varying each agent's route, we can expand the scope of testing to what-if situations with realistic variations in agent behaviors or even safety critical interactions. Our experiments show that MIXSIM can serve as a realistic, reactive, and controllable digital twin of real world scenarios. For more information, please visit the project website: https://waabi.ai/research/mixsim/",
+   "year": 2023,
+   "authors": [
+    "Simon Suo",
+    "Kelvin Wong",
+    "Justin Xu",
+    "James Tu",
+    "Alexander Cui",
+    "Sergio Casas",
+    "Raquel Urtasun"
+   ],
+   "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+   "cited_by": 45,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W4386076338",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4415247596",
+   "doi": "10.1109/itsc60802.2025.11423555",
+   "title": "RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion",
+   "abstract": "Generating safety-critical scenarios in high-fidelity simulations offers a promising and cost-effective approach for efficient testing of autonomous vehicles. Existing methods typically rely on manipulating a single vehicle's trajectory through sophisticated designed objectives to induce adversarial interactions, often at the cost of realism and scalability. In this work, we propose the Risk-Adjustable Driving Environment (RADE), a simulation framework that generates statistically realistic and risk-adjustable traffic scenes. Built upon a multiagent diffusion architecture, RADE jointly models the behavior of all agents in the environment and conditions their trajectories on a surrogate risk measure. Unlike traditional adversarial methods, RADE learns risk-conditioned behaviors directly from data, preserving naturalistic multi-agent interactions with controllable risk levels. To ensure physical plausibility, we incorporate a tokenized dynamics check module that efficiently filters generated trajectories using a motion vocabulary. We validate RADE on the real-world rounD dataset, demonstrating that it preserves statistical realism across varying risk levels and naturally increases the likelihood of safety-critical events as the desired risk level grows up. Our results highlight RADE's potential as a scalable and realistic tool for AV safety evaluation.",
+   "year": 2025,
+   "authors": [
+    "Jiawei Wang",
+    "Xintao Yan",
+    "Yao Mu",
+    "Haowei Sun",
+    "Zhong Cao",
+    "Henry  X. Liu"
+   ],
+   "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+   "cited_by": 5,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2505.03178",
+   "url": "https://openalex.org/W4415247596",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W2968176166",
+   "doi": "10.1109/icra.2019.8793740",
+   "title": "Generating Adversarial Driving Scenarios in High-Fidelity Simulators",
+   "abstract": "In recent years self-driving vehicles have become more commonplace on public roads, with the promise of bringing safety and efficiency to modern transportation systems. Increasing the reliability of these vehicles on the road requires an extensive suite of software tests, ideally performed on high-fidelity simulators, where multiple vehicles and pedestrians interact with the self-driving vehicle. It is therefore of critical importance to ensure that self-driving software is assessed against a wide range of challenging simulated driving scenarios. The state of the art in driving scenario generation, as adopted by some of the front-runners of the self-driving car industry, still relies on human input [1]. In this paper we propose to automate the process using Bayesian optimization to generate adversarial self-driving scenarios that expose poorly-engineered or poorly-trained self-driving policies, and increase the risk of collision with simulated pedestrians and vehicles. We show that by incorporating the generated scenarios into the training set of the self-driving policy, and by fine-tuning the policy using vision-based imitation learning we obtain safer self-driving behavior.",
+   "year": 2019,
+   "authors": [
+    "Yasasa Abeysirigoonawardena",
+    "Florian Shkurti",
+    "Gregory Dudek"
+   ],
+   "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+   "cited_by": 166,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W2968176166",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7236448674",
+   "doi": "10.48550/arxiv.2611.22855",
+   "title": "CaFe: Causally Faithful Conditional Traffic Scenario Generation",
+   "abstract": "Language-conditioned traffic simulation enables scalable test scenarios steered by natural language. The goal is to control selected agents while surrounding traffic reacts to their observed behaviour. For example, a vehicle instructed to cut in late should cause the following vehicle to brake only when the manoeuvre becomes observable. Yet simulators can leak private instructions across agents, causing surrounding vehicles to react before the instructed behaviour becomes observable. Such premature reactions defuse desired events and alter the ensuing closed-loop scenario. Existing benchmarks measure what agents do, not what they could have known, leaving this failure unmeasured. We formalise it as intent leakage and address it through evaluation, data and modelling. Our paired intervention test holds an instructed agent's executed trajectory fixed while varying its private instruction, isolating leakage-induced changes in surrounding agents. We also construct WOMD-PACT, an automatically generated, verifiable dataset of 531,099 WOMD scenes with timed behaviour tags with reaction episodes identified through a counterfactual ghost test and grounded private instructions. Finally, we introduce CaFe, a dual-stream diffusion-forcing simulator fine-tuned in closed loop that restricts inter-agent interactions to public beliefs, preserving legitimate anticipation without leaking private intent. Our evaluation reveals that existing conditioning designs displace 23-83% of nearby uninstructed agents through private-intent leakage, even when the instructed agent's executed motion is held fixed. CaFe eliminates measurable leakage while maintaining comparable WOSAC realism (0.763), demonstrating that causal faithfulness can be enforced without sacrificing measured simulation realism.",
+   "year": 2026,
+   "authors": [
+    "Steven Yu Tung",
+    "Shubham Vaijanath Phoolari",
+    "Christoph Lauer",
+    "Abhinav Valada",
+    "Steven Peters"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2611.22855",
+   "url": "https://openalex.org/W7236448674",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4412610856",
+   "doi": "10.1109/lra.2025.3592090",
+   "title": "SEAL: Towards Safe Autonomous Driving via Skill-Enabled Adversary Learning for Closed-Loop Scenario Generation",
+   "abstract": "Verification and validation of autonomous driving (AD) systems and components is of increasing importance, as such technology increases in real-world prevalence. Safety-critical scenario generation is a key approach to robustify AD policies through closed-loop training. However, existing approaches for scenario generation rely on simplistic objectives, resulting in overly-aggressive or non-reactive adversarial behaviors. To generate diverse adversarial yet realistic scenarios, we propose SEAL, a scenario perturbation approach that leverages learned objective functions and adversarial, human- like skills. SEAL-perturbed scenarios are more realistic than SOTA baselines, leading to improved ego task success across real-world, in-distribution, and out-of-distribution scenarios, of more than 20%. To facilitate future research, we release our code and tools:https://navars.xyz/seal/",
+   "year": 2025,
+   "authors": [
+    "Benjamin Stoler",
+    "Ingrid Navarro",
+    "Jonathan Francis",
+    "Jean Oh"
+   ],
+   "venue": "IEEE Robotics and Automation Letters",
+   "cited_by": 30,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2409.10320",
+   "url": "https://openalex.org/W4412610856",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4414198298",
+   "doi": "10.1109/cvprw67362.2025.00364",
+   "title": "Talk2Traffic: Interactive and Editable Traffic Scenario Generation for Autonomous Driving with Multimodal Large Language Model",
+   "abstract": "Deploying autonomous vehicles (AVs) requires testing in diverse and challenging scenarios to ensure safety and reliability, yet collecting real-world data remains prohibitively expensive. While simulation-based approaches offer costeffective alternatives, most existing methods lack sufficient support for intuitive, interactive editing of generated scenarios. This paper presents Talk2Traffic, a novel framework that leverages multimodal large language models (MLLMs) to enable interactive and editable traffic scenario generation. Talk2Traffic allows human users to generate various traffic scenarios through multimodal inputs (text, speech, and sketches). Our approach first employs an MLLM-based interpreter to extract structured representations from these inputs. These representations are then translated into executable Scenic code using a retrieval-augmented generation mechanism to reduce hallucinations and ensure syntactic correctness. Furthermore, a human feedback guidance module enables iterative refinement and editing of scenarios through natural language instructions. Experiments demonstrate that Talk2Traffic outperforms state-of-the-art methods in generating challenging scenarios. Qualitative evaluations further illustrate the framework can handle diverse input modalities and support scenario editing.",
+   "year": 2025,
+   "authors": [
+    "Zihao Sheng",
+    "Zilin Huang",
+    "Yansong Qu",
+    "Yue Leng",
+    "Sikai Chen"
+   ],
+   "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+   "cited_by": 22,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W4414198298",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7111145171",
+   "doi": "10.1007/978-3-032-37167-6_13",
+   "title": "Optimization-Guided Diffusion for Interactive Scene Generation",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Shihao Li",
+    "Naisheng Ye",
+    "Tianyu Li",
+    "Kashyap Chitta",
+    "Tuo An",
+    "Peng Su",
+    "Boyang Wang",
+    "Haiou Liu",
+    "Chen Lv",
+    "Hongyang Li"
+   ],
+   "venue": "Lecture notes in computer science",
+   "cited_by": 5,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2512.07661",
+   "url": "https://openalex.org/W7111145171",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7213601336",
+   "doi": "10.48550/arxiv.2609.20103",
+   "title": "Safety-Critical Scenarios Emerge from Initial Scenes",
+   "abstract": "Safety-critical driving scenario generation has largely focused on manipulating the behavior of surrounding agents while starting from an initial scene from driving data. This assumption can limit the space of discoverable failures, since driving data can provide little opportunity for meaningful interaction. For example, in the Waymo Open Motion Dataset, 20.44% of recorded slices feature a stationary ego vehicle that never moves, and 30.39% of initial frames contain no nearby traffic participants within 10 meters. We instead study safety-critical scenario generation as an initialization problem: given agnostic black-box driving policies, we learn to generate realistic initial scenes that are more likely to evolve into critical interactions. We propose AdvScene, a conditional latent diffusion model that is trained in two stages. Starting from pretraining on naturalistic driving data, we post-train the adversarial-agent generation branch using reinforcement learning with feedback from closed-loop simulator rollouts. Conditioning on ego driving displacement prevents the ego from remaining static, and RL finetuning induces criticality directly with non-differentiable safety-critical metrics. Experiments on the Waymo dataset across 12 combinations of ego and traffic policies show that our AdvScene substantially increases the rate of ego-fault collision events and TTC<3s events.",
+   "year": 2026,
+   "authors": [
+    "Yin Wu",
+    "Jiarong Wei",
+    "Carl Esselborn",
+    "Shubham Vaijanath Phoolari",
+    "Ahmed Abouelazm",
+    "Daniel Slieter",
+    "J. Marius Zöllner"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2609.20103",
+   "url": "https://openalex.org/W7213601336",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7171796378",
+   "doi": "10.1109/iv66570.2026.11623855",
+   "title": "Adversarial Generation of Rare and High-Risk AV–VRU Interactions: A Physics-Informed Framework with Adaptive Risk Guidance",
+   "abstract": "Ensuring safe interaction between autonomous vehicles (AVs) and vulnerable road users (VRUs) requires the ability to handle rare yet safety-critical situations. However, such high-risk AV–VRU interactions are severely underrepresented in naturalistic datasets, resulting in long-tail sparsity that limits both training and evaluation of AV systems. To address this challenge, we propose a Physics-Informed Adversarial Generation (PIAG) framework that synthesizes rare but physically plausible VRU behaviors capable of exposing safety vulnerabilities in AVs. At its core, PIAG incorporates an Adaptive Adversarial Guidance (AAG) mechanism that dynamically regulates VRU behavior by jointly modeling goal-directed intention, safety constraints, and adversarial modulation. Guided by physics-based feasibility constraints, PIAG operates in a closed-loop manner to iteratively refine interaction trajectories toward feasible yet risk-intensified outcomes. Extensive experiments demonstrate that PIAG generates diverse, map-consistent, and physically grounded high-risk scenarios, outperforming existing baselines in both kinematic fidelity and long-tail risk coverage. These results indicate that PIAG offers a scalable and physics-grounded solution for targeted adversarial scenario generation, providing a robust basis for closed-loop testing and safety evaluation of AV systems.",
+   "year": 2026,
+   "authors": [
+    "Yujia Zhao",
+    "Ying Ni",
+    "Yixin Li",
+    "Jialin Fan",
+    "Jie Wang"
+   ],
+   "venue": "IEEE Intelligent Vehicles Symposium",
+   "cited_by": 0,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7171796378",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4415161218",
+   "doi": "10.1109/iccv51701.2025.02577",
+   "title": "Decoupled Diffusion Sparks Adaptive Scene Generation",
+   "abstract": "Controllable scene generation could reduce the cost of diverse data collection substantially for autonomous driving. Prior works formulate the traffic layout generation as predictive progress, either by denoising entire sequences at once or by iteratively predicting the next frame. However, full sequence denoising hinders online reaction, while the latter's short-sighted next-frame prediction lacks precise goal-state guidance. Further, the learned model struggles to generate complex or challenging scenarios due to a large number of safe and ordinal driving behaviors from open datasets. To overcome these, we introduce Nexus, a decoupled scene generation framework that improves reactivity and goal conditioning by simulating both ordinal and challenging scenarios from fine-grained tokens with independent noise states. At the core of the decoupled pipeline is the integration of a partial noise-masking training strategy and a noise-aware schedule that ensures timely environmental updates throughout the denoising process. To complement challenging scenario generation, we collect a dataset consisting of complex corner cases. It covers 540 hours of simulated data, including high-risk interactions such as cut-in, sudden braking, and collision. Nexus achieves superior generation realism while preserving reactivity and goal orientation, with a 40% reduction in displacement error. We further demonstrate that Nexus improves closed-loop planning by 20% through data augmentation and showcase its capability in safety-critical data generation.",
+   "year": 2025,
+   "authors": [
+    "Yunsong Zhou",
+    "N. Ye",
+    "William Ljungbergh",
+    "Tianyu Li",
+    "Jia-Zhi Yang",
+    "Zetong Yang",
+    "Hongzi Zhu",
+    "Christoffer Petersson",
+    "Hongyang Li"
+   ],
+   "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+   "cited_by": 21,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2504.10485",
+   "url": "https://openalex.org/W4415161218",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4416540542",
+   "doi": "10.1109/iccv51701.2025.02471",
+   "title": "LangTraj: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation",
+   "abstract": "Evaluating autonomous vehicles with controllability enables scalable testing in counterfactual or structured settings, enhancing both efficiency and safety. We introduce LangTraj, a language-conditioned scene-diffusion model that simulates the joint behavior of all agents in traffic scenarios. By conditioning on natural language inputs, LangTraj provides flexible and intuitive control over interactive behaviors, generating nuanced and realistic scenarios. Unlike prior approaches that depend on domain-specific guidance functions, LangTraj incorporates language conditioning during training, facilitating more intuitive traffic simulation control. We propose a novel closed-loop training strategy for diffusion models, explicitly tailored to enhance stability and realism during closed-loop simulation. To support language-conditioned simulation, we develop Inter-Drive, a large-scale dataset with diverse and interactive labels for training language-conditioned diffusion models. Our dataset is built upon a scalable pipeline for annotating agent-agent interactions and single-agent behaviors, ensuring rich and varied supervision. Validated on the Waymo Open Motion Dataset, LangTraj demonstrates strong performance in realism, language controllability, and language-conditioned safety-critical simulation, establishing a new paradigm for flexible and scalable autonomous vehicle testing. Project Website: https://langtraj.github.io/",
+   "year": 2025,
+   "authors": [
+    "Wei-Jer Chang",
+    "Wei Zhan",
+    "Masayoshi Tomizuka",
+    "Manmohan Krishna Chandraker",
+    "Francesco Pittaluga"
+   ],
+   "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+   "cited_by": 20,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2504.11521",
+   "url": "https://openalex.org/W4416540542",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7138125927",
+   "doi": "10.1609/aaai.v40i4.37290",
+   "title": "VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness",
+   "abstract": "The safe deployment of autonomous driving (AD) systems is fundamentally hindered by the long-tail problem, where rare yet critical driving scenarios are severely underrepresented in real-world data. Existing solutions including safety-critical scenario generation and closed-loop learning often rely on rule-based heuristics, resampling methods and generative models learned from offline datasets, limiting their ability to produce diverse and novel challenges. While recent works leverage Vision Language Models (VLMs) to produce scene descriptions that guide a separate, downstream model in generating hazardous trajectories for agents, such two-stage framework constrains the generative potential of VLMs, as the diversity of the final trajectories is ultimately limited by the generalization ceiling of the downstream algorithm. To overcome these limitations, we introduce VILTA (VLM-In-the-Loop Trajectory Adversary), a novel framework that integrates a VLM into the closed-loop training of AD agents. Unlike prior works, VILTA actively participates in the training loop by comprehending the dynamic driving environment and strategically generating challenging scenarios through direct, fine-grained editing of surrounding agents' future trajectories. This direct-editing approach fully leverages the VLM's powerful generalization capabilities to create a diverse curriculum of plausible yet challenging scenarios that extend beyond the scope of traditional methods. We demonstrate that our approach substantially enhances the safety and robustness of the resulting AD policy, particularly in its ability to navigate critical long-tail events.",
+   "year": 2026,
+   "authors": [
+    "Qimao Chen",
+    "Fang Li",
+    "Shaoqing Xu",
+    "Zhiyi Lai",
+    "Zixun Xie",
+    "Yuechen Luo",
+    "Shengyin Jiang",
+    "Hanbing Li",
+    "Long Chen",
+    "Bing Wang",
+    "Yi Zhang",
+    "Zhi-Xin Yang"
+   ],
+   "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "cited_by": 8,
+   "is_oa": true,
+   "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/37290/41252",
+   "url": "https://openalex.org/W7138125927",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7210288552",
+   "doi": "10.1007/978-3-032-37676-3_23",
+   "title": "LASER: A Robust Adversarial Generation Framework for Closed-Loop Simulation via Entropy-Aware Resampling",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Wei Wang",
+    "Guangyao Bai",
+    "Yilin Hou",
+    "Lei Shi",
+    "Lin Wei",
+    "Yucheng Shi",
+    "Yufei Gao",
+    "Yin Ma"
+   ],
+   "venue": "Lecture notes in computer science",
+   "cited_by": 0,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7210288552",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7207800880",
+   "doi": "10.48550/arxiv.2609.02270",
+   "title": "CrashDiffuser: VLM-Guided Collision Intent Reasoning for Fine-Grained Safety-Critical Traffic Scenario Generation",
+   "abstract": "Generating safety-critical scenarios is essential for evaluating autonomous driving systems. However, existing generators primarily focus on inducing collisions and offer limited control over where contact occurs on the target vehicle. In this paper, we study fine-grained safety-critical scenario generation, where success requires both a target collision and a specified head, rear, or side contact region. We propose CrashDiffuser, a closed-loop VLM-guided diffusion framework that decouples semantic collision reasoning from continuous trajectory synthesis through a hierarchical collision-intent interface derived from the requested target contact region. At initialization, the VLM extracts reusable scene-level context; at each replanning step, it predicts a structured action tuple describing speed change, turning behavior, and collision stage. This intent conditions a diffusion model to generate executable adversarial trajectories, while collision-guided sampling, candidate selection, and short-horizon replanning adapt generation to the target vehicle's evolving behavior. On WOMD-derived closed-loop scenarios, CrashDiffuser achieves a target-collision rate of 50.33% in a single attempt and 67.98% after three attempts, together with a contact-region control success rate of 40.05% and competitive trajectory naturalness. Component ablations further support the proposed design.",
+   "year": 2026,
+   "authors": [
+    "Shucheng Zhang",
+    "Yuang Zhang",
+    "Bingzhang Wang",
+    "Muhammad Monjurul Karim",
+    "Kehua Chen",
+    "Yinhai Wang"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2609.02270",
+   "url": "https://openalex.org/W7207800880",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7153034768",
+   "doi": "10.48550/arxiv.2604.07378",
+   "title": "Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles",
+   "abstract": "Autonomous vehicles in interactive traffic environments are often limited by the scarcity of safety-critical tail events in static datasets, which biases learned policies toward average-case behaviors and reduces robustness. Existing evaluation methods attempt to address this through adversarial stress testing, but are predominantly open-loop and post-hoc, making it difficult to incorporate discovered failures back into the training process. We introduce Evaluation as Evolution ($E^2$), a closed-loop framework that transforms adversarial generation from a static validation step into an adaptive evolutionary curriculum. Specifically, $E^2$ formulates adversarial scenario synthesis as transport-regularized sparse control over a learned reverse-time SDE prior. To make this high-dimensional generation tractable, we utilize topology-driven support selection to identify critical interacting agents, and introduce Topological Anchoring to stabilize the process. This approach enables the targeted discovery of failure cases while strictly constraining deviations from realistic data distributions. Empirically, $E^2$ improves collision failure discovery by 9.01% on the nuScenes dataset and up to 21.43% on the nuPlan dataset over the strongest baselines, while maintaining low invalidity and high realism. It further yields substantial robustness gains when the resulting boundary cases are recycled for closed-loop policy fine-tuning.",
+   "year": 2026,
+   "authors": [
+    "Yicheng Guo",
+    "Jiaqi Liu",
+    "Chengkai Xu",
+    "Peng Hang",
+    "Jian Sun"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2604.07378",
+   "url": "https://openalex.org/W7153034768",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4401416676",
+   "doi": "10.1109/icra57147.2024.10610324",
+   "title": "SceneControl: Diffusion for Controllable Traffic Scene Generation",
+   "abstract": "We consider the task of traffic scene generation. A common approach in the self-driving industry is to use manual creation to generate scenes with specific characteristics and automatic generation to generate canonical scenes at scale. However, manual creation is not scalable, and automatic generation typically use rules-based algorithms that lack realism. In this paper, we propose SceneControl, a framework for controllable traffic scene generation. To capture the complexity of real traffic, SceneControl learns an expressive diffusion model from data. Then, using guided sampling, we can flexibly control the sampling process to generate scenes that exhibit desired characteristics. Our experiments show that SceneControl achieves greater realism and controllability than the existing state-of-the-art. We also illustrate how SceneControl can be used as a tool for interactive traffic scene generation.",
+   "year": 2024,
+   "authors": [
+    "Jack Lu",
+    "Kelvin Wong",
+    "Wenjun Zhang",
+    "Simon Suo",
+    "Raquel Urtasun"
+   ],
+   "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+   "cited_by": 45,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W4401416676",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4413926244",
+   "doi": "10.1109/icra55743.2025.11127319",
+   "title": "CaDRE: Controllable and Diverse Generation of Safety-Critical Driving Scenarios Using Real-World Trajectories",
+   "abstract": "Simulation is an indispensable tool in the development and testing of autonomous vehicles (AVs), offering an efficient and safe alternative to road testing. An outstanding challenge with simulation-based testing is the generation of safety-critical scenarios, which are essential to ensure that AVs can handle rare but potentially fatal situations. This paper addresses this challenge by introducing a novel framework CaDRE, to generate realistic, diverse, and controllable safetycritical scenarios. Our approach optimizes for both the quality and diversity of scenarios by employing a unique formulation and algorithm that integrates real-world scenarios, domain knowledge, and black-box optimization. We validate the effectiveness of our framework through extensive testing in three representative types of traffic scenarios. The results demonstrate superior performance in generating diverse and highquality scenarios with greater sample efficiency than existing reinforcement learning (RL) and sampling-based methods.",
+   "year": 2025,
+   "authors": [
+    "Peide Huang",
+    "Wenhao Ding",
+    "Benjamin Stoler",
+    "Jonathan Francis",
+    "Bingqing Chen",
+    "Ding Xuan Zhao"
+   ],
+   "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+   "cited_by": 24,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2403.13208",
+   "url": "https://openalex.org/W4413926244",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4416396859",
+   "doi": "10.1016/j.trc.2025.105426",
+   "title": "Adversarial traffic scene generation considering harm, rarity, and ambiguity for autonomous driving testing",
+   "abstract": "",
+   "year": 2025,
+   "authors": [
+    "Yiran Zhang",
+    "Shanhe Lou",
+    "Baichuan Lou",
+    "Hai‐Tao Zhang",
+    "Chen Lv"
+   ],
+   "venue": "Transportation Research Part C Emerging Technologies",
+   "cited_by": 4,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W4416396859",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7136237795",
+   "doi": "10.1109/itsc60802.2025.11423125",
+   "title": "Every Scene All at Once: Exhaustive Multi-Agent Interaction Generation with Controlled Diffusion Model",
+   "abstract": "Autonomous vehicles (AVs) must safely navigate a vast range of complex multi-agent interactions for widespread deployment. However, their decision-making systems are typically trained on observational data that capture only a single realized outcome for any given event, leaving them blind to the full spectrum of plausible, yet unobserved, alternatives. This “mode collapse” severely limits their ability to anticipate and handle rare but safety-critical scenarios. Here we introduce a generative framework that overcomes this limitation by systematically enumerating and synthesizing the complete set of all dynamically feasible multi-agent interaction modes for a given scene. Our method first decomposes complex interactions into negotiations at conflict points and enumerates all possible passageorder permutations. We then use a graph-based spatiotemporal optimization to compute kinematically feasible anchor points for each permutation. These anchors subsequently guide a controllable diffusion model to generate realistic, full-scene trajectories representing every possible interaction mode. Using naturalistic driving data, we demonstrate that our framework generates comprehensive sets of interaction modes, including low-probability counterfactuals that are physically and socially plausible. For instance, in a complex three-vehicle interaction, our model generated all three dynamically possible outcomes while correctly identifying a fourth, seemingly plausible mode as infeasible due to subtle environmental constraints. By creating datasets that encompass all possible futures, our approach provides a critical tool for robust testing and development of AV decision-making systems, enhancing their safety in real-world environments.",
+   "year": 2025,
+   "authors": [
+    "Xiyan Jiang",
+    "Xiaocong Zhao",
+    "Yiru Liu",
+    "Peng Hang",
+    "Jian Sun"
+   ],
+   "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+   "cited_by": 1,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7136237795",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7169846504",
+   "doi": "10.1016/j.trc.2026.105876",
+   "title": "From natural language to physically valid traffic scenarios: A hybrid LLM-generative framework for CAV testing",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Yuhan Zhang",
+    "Yichang Shao",
+    "Xiaomeng Shi",
+    "Ziyuan Pu",
+    "Hantao Zhao",
+    "Zhirui Ye"
+   ],
+   "venue": "Transportation Research Part C Emerging Technologies",
+   "cited_by": 1,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7169846504",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7210277944",
+   "doi": "10.1016/j.aei.2026.105194",
+   "title": "SCENELANG: A language-driven informatics framework for multi-modal scene understanding and generation in autonomous driving simulation",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Xin Li",
+    "Xiangyang Hu",
+    "Leyao Wang",
+    "Ruipeng Tong"
+   ],
+   "venue": "Advanced Engineering Informatics",
+   "cited_by": 0,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7210277944",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4386066131",
+   "doi": "10.1109/cvpr52729.2023.01322",
+   "title": "Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion",
+   "abstract": "We introduce a method for generating realistic pedestrian trajectories and full-body animations that can be controlled to meet user-defined goals. We draw on recent advances in guided diffusion modeling to achieve test-time controllability of trajectories, which is normally only associated with rule-based systems. Our guided diffusion model allows users to constrain trajectories through target waypoints, speed, and specified social groups while accounting for the surrounding environment context. This trajectory diffusion model is integrated with a novel physics-based humanoid controller to form a closed-loop, full-body pedestrian animation system capable of placing large crowds in a simulated environment with varying terrains. We further propose utilizing the value function learned during RL training of the animation controller to guide diffusion to produce trajectories better suited for particular scenarios such as collision avoidance and traversing uneven terrain. Video results are available on the project page.",
+   "year": 2023,
+   "authors": [
+    "Davis Rempe",
+    "Zhengyi Luo",
+    "Xue Bin Peng",
+    "Ye Yuan",
+    "Kris Kitani",
+    "Karsten Kreis",
+    "Sanja Fidler",
+    "Or Litany"
+   ],
+   "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+   "cited_by": 216,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2304.01893",
+   "url": "https://openalex.org/W4386066131",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W3090747022",
+   "doi": "10.1109/icra40945.2020.9197145",
+   "title": "CMTS: A Conditional Multiple Trajectory Synthesizer for Generating Safety-Critical Driving Scenarios",
+   "abstract": "Naturalistic driving trajectory generation is crucial for the development of autonomous driving algorithms. However, most of the data is collected in collision-free scenarios leading to the sparsity of the safety-critical cases. When considering safety, testing algorithms in near-miss scenarios that rarely show up in off-the-shelf datasets and are costly to accumulate is a vital part of the evaluation. As a remedy, we propose a safety-critical data synthesizing framework based on variational Bayesian methods and term it as Conditional Multiple Trajectory Synthesizer (CMTS). We extend a generative model to connect safe and collision driving data by representing their distribution in the latent space and use conditional probability to adapt to different maps. Sampling from the mixed distribution enables us to synthesize the safety-critical data not shown in the safe or collision datasets. Experimental results demonstrate that the generated dataset covers many different realistic scenarios, especially the near-misses. We conclude that the use of data generated by CMTS can improve the accuracy of trajectory predictions and autonomous vehicle safety.",
+   "year": 2020,
+   "authors": [
+    "Wenhao Ding",
+    "Mengdi Xu",
+    "Ding Xuan Zhao"
+   ],
+   "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+   "cited_by": 84,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/1910.00099",
+   "url": "https://openalex.org/W3090747022",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4403619071",
+   "doi": "10.48550/arxiv.2409.05863",
+   "title": "Promptable Closed-loop Traffic Simulation",
+   "abstract": "Simulation stands as a cornerstone for safe and efficient autonomous driving development. At its core a simulation system ought to produce realistic, reactive, and controllable traffic patterns. In this paper, we propose ProSim, a multimodal promptable closed-loop traffic simulation framework. ProSim allows the user to give a complex set of numerical, categorical or textual prompts to instruct each agent's behavior and intention. ProSim then rolls out a traffic scenario in a closed-loop manner, modeling each agent's interaction with other traffic participants. Our experiments show that ProSim achieves high prompt controllability given different user prompts, while reaching competitive performance on the Waymo Sim Agents Challenge when no prompt is given. To support research on promptable traffic simulation, we create ProSim-Instruct-520k, a multimodal prompt-scenario paired driving dataset with over 10M text prompts for over 520k real-world driving scenarios. We will release code of ProSim as well as data and labeling tools of ProSim-Instruct-520k at https://ariostgx.github.io/ProSim.",
+   "year": 2024,
+   "authors": [
+    "Shuhan Tan",
+    "Boris Ivanovic",
+    "Yuxiao Chen",
+    "Boyi Li",
+    "Xinshuo Weng",
+    "Yulong Cao",
+    "Philipp Krähenbühl",
+    "Marco Pavone"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 44,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2409.05863",
+   "url": "https://openalex.org/W4403619071",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4403668172",
+   "doi": "10.48550/arxiv.2409.09575",
+   "title": "Traffic Scene Generation from Natural Language Description for Autonomous Vehicles with Large Language Model",
+   "abstract": "Generating realistic and controllable traffic scenes from natural language can greatly enhance the development and evaluation of autonomous driving systems. However, this task poses unique challenges: (1) grounding free-form text into spatially valid and semantically coherent layouts, (2) composing scenarios without predefined locations, and (3) planning multi-agent behaviors and selecting roads that respect agents' configurations. To address these, we propose a modular framework, TTSG, comprising prompt analysis, road retrieval, agent planning, and a novel plan-aware road ranking algorithm to solve these challenges. While large language models (LLMs) are used as general planners, our design integrates them into a tightly controlled pipeline that enforces structure, feasibility, and scene diversity. Notably, our ranking strategy ensures consistency between agent actions and road geometry, enabling scene generation without predefined routes or spawn points. The framework supports both routine and safety-critical scenarios, as well as multi-stage event composition. Experiments on SafeBench demonstrate that our method achieves the lowest average collision rate (3.5\\%) across three critical scenarios. Moreover, driving captioning models trained on our generated scenes improve action reasoning by over 30 CIDEr points. These results underscore our proposed framework for flexible, interpretable, and safety-oriented simulation.",
+   "year": 2024,
+   "authors": [
+    "Bo-Kai Ruan",
+    "Tsui, Hao-Tang",
+    "Yung‐Hui Li",
+    "Hong-Han Shuai"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 39,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2409.09575",
+   "url": "https://openalex.org/W4403668172",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4382999044",
+   "doi": "10.1109/lra.2023.3291897",
+   "title": "Editing Driver Character: Socially-Controllable Behavior Generation for Interactive Traffic Simulation",
+   "abstract": "Traffic simulation plays a crucial role in evaluating and improving autonomous driving planning systems. After being deployed on public roads, autonomous vehicles need to interact with human road participants with differentsocial preferences(e.g., selfish or courteous human drivers). To ensure that autonomous vehicles take safe and efficient maneuvers in different interactive traffic scenarios, we should be able to evaluate autonomous vehicles against reactive agents with different social characteristics in the simulation environment. We propose a socially-controllable behavior generation (SCBG) model for this purpose, which allows the users to specify thelevel of courtesyof the generated trajectory while ensuringrealisticandhuman-liketrajectory generation through learning from real-world driving data. Specifically, we define a novel and differentiable measure to quantify the level of courtesy of driving behavior, leveraging marginal and conditional behavior prediction models trained from real-world driving data. The proposed courtesy measure allows us to auto-label the courtesy levels of trajectories from real-world driving data and conveniently train an SCBG model generating trajectories based on the input courtesy values. We examine SCBG on the Waymo Open Motion Dataset (WOMD) and show that we are able to control the SCBG model to generate realistic driving behaviors with desired courtesy levels. In particular, we find that SCBG is able to identify different motion patterns of courteous behaviors according to the scenarios.",
+   "year": 2023,
+   "authors": [
+    "Wei-Jer Chang",
+    "Chen Tang",
+    "Chenran Li",
+    "Yeping Hu",
+    "Masayoshi Tomizuka",
+    "Wei Zhan"
+   ],
+   "venue": "IEEE Robotics and Automation Letters",
+   "cited_by": 21,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2303.13830",
+   "url": "https://openalex.org/W4382999044",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4414581176",
+   "doi": "10.48550/arxiv.2505.18341",
+   "title": "CrashAgent: Crash Scenario Generation via Multi-modal Reasoning",
+   "abstract": "Training and evaluating autonomous driving algorithms requires a diverse range of scenarios. However, most available datasets predominantly consist of normal driving behaviors demonstrated by human drivers, resulting in a limited number of safety-critical cases. This imbalance, often referred to as a long-tail distribution, restricts the ability of driving algorithms to learn from crucial scenarios involving risk or failure, scenarios that are essential for humans to develop driving skills efficiently. To generate such scenarios, we utilize Multi-modal Large Language Models to convert crash reports of accidents into a structured scenario format, which can be directly executed within simulations. Specifically, we introduce CrashAgent, a multi-agent framework designed to interpret multi-modal real-world traffic crash reports for the generation of both road layouts and the behaviors of the ego vehicle and surrounding traffic participants. We comprehensively evaluate the generated crash scenarios from multiple perspectives, including the accuracy of layout reconstruction, collision rate, and diversity. The resulting high-quality and large-scale crash dataset will be publicly available to support the development of safe driving algorithms in handling safety-critical situations.",
+   "year": 2025,
+   "authors": [
+    "Miao Li",
+    "Wenhao Ding",
+    "Lin, Haohong",
+    "Lyu, Yiqi",
+    "Yihang Yao",
+    "Zhang, Yuyou",
+    "Zhao, Ding"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 17,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2505.18341",
+   "url": "https://openalex.org/W4414581176",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4416258860",
+   "doi": "10.48550/arxiv.2509.13164",
+   "title": "TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving",
+   "abstract": "Safe and scalable deployment of end-to-end (E2E) autonomous driving requires extensive and diverse data, particularly safety-critical events. Existing data are mostly generated from simulators with a significant sim-to-real gap or collected from on-road testing that is costly and unsafe. This paper presents TeraSim-World, an automated pipeline that synthesizes realistic and geographically diverse safety-critical data for E2E autonomous driving at anywhere in the world. Starting from an arbitrary location, TeraSim-World retrieves real-world maps and traffic demand from geospatial data sources. Then, it simulates agent behaviors from naturalistic driving datasets, and orchestrates diverse adversities to create corner cases. Informed by street views of the same location, it achieves photorealistic, geographically grounded sensor rendering via the frontier video generation model Cosmos-Drive. By bridging agent and sensor simulations, TeraSim-World provides a scalable and critical data synthesis framework for training and evaluation of E2E autonomous driving systems. Codes and videos are available at https://wjiawei.com/terasim-world-web/ .",
+   "year": 2025,
+   "authors": [
+    "Jiawei Wang",
+    "Haowei Sun",
+    "Xintao Yan",
+    "Shuo Feng",
+    "Gao Jun",
+    "Henry X. Liu"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 12,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2509.13164",
+   "url": "https://openalex.org/W4416258860",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4412171486",
+   "doi": "10.1109/cisce65916.2025.11065683",
+   "title": "DiffSCTG: Diffusion-based Safety-Critical Trajectory Generation for Autonomous Vehicles",
+   "abstract": "The increasing reliance on autonomous vehicle (AV) systems underscores the importance of evaluating their safety and robustness, particularly in safety-critical driving scenarios. However, the scarcity of rare event data and the limitations of manually generated scenarios constrain the effectiveness of AV evaluations. In this work, we introduce a Diffusion-based Safety-Critical Trajectory Generation (DiffSCTG) framework that leverages the generative capabilities of diffusion models to produce diverse and realistic safety-critical scenarios. DiffSCTG adopts a transformer architecture for diffusion-based probabilistic modeling, which captures complex multi-agent interactions and temporal dependencies in trajectory data. To ensure structured and meaningful trajectory initialization, we propose the truncated diffusion process that begins from an anchored Gaussian distribution derived from slightly disturbed realistic driving scenarios. By progressively generating trajectories from structured noise through a reverse denoising process, DiffSCTG enriches original datasets used to train the AV algorithm. Extensive evaluations in simulation environments like CARLA Town 10 demonstrate its ability to improve AV robustness with significant reductions in collision rates and improved safety metrics, showing its utility for challenging traffic conditions.",
+   "year": 2025,
+   "authors": [
+    "Zixu Zhao",
+    "Yang Zhan"
+   ],
+   "venue": "International Conference on Communications, Information System and Computer Engineering (CISCE)",
+   "cited_by": 3,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W4412171486",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4416777814",
+   "doi": "10.1016/j.tre.2026.105110",
+   "title": "Learning from risk: LLM-guided generation of safety-critical scenarios with prior knowledge",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Yuhang Wang",
+    "Heye Huang",
+    "Zhenhua Xu",
+    "Kailai Sun",
+    "Baoshen Guo",
+    "Jinhua Zhao"
+   ],
+   "venue": "Transportation Research Part E Logistics and Transportation Review",
+   "cited_by": 3,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2511.20726",
+   "url": "https://openalex.org/W4416777814",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7117299693",
+   "doi": "10.1109/tits.2025.3645248",
+   "title": "Controllable Multimodal Motion Behavior Generation for Autonomous Driving",
+   "abstract": "The generation of motion behaviors plays a pivotal role in constructing effective simulated scenarios for testing autonomous driving systems (ADSs). The controllability (i.e., the ability to synthesize specific motion patterns) and multimodality (i.e., the capacity to represent multiple motion intentions) of generated motion behaviors are essential for the purposeful and comprehensive evaluation of ADS. Although recent studies have made progress in either multimodal or controllable motion behavior generation, it remains a major challenge to simultaneously generate multimodal motion behaviors in a controllable manner. In this work, we propose a unified framework, CoMoGen, to generate multimodal motion behaviors in a controllable manner under open-loop evaluation assumption. The proposed framework consists of three core components: i) a learning-based vehicle placer, responsible for positioning generated vehicles in non-conflicting initial locations; ii) a robust model-based trajectory candidate generator, capable of synthesizing controllable and multimodal trajectory candidates. iii) a learning-based trajectory selector, developed to evaluate and select multimodal trajectories for the placed vehicles. Experiments on the INTERACTION dataset demonstrate strong controllability and multimodality of CoMoGen. Further experiments on three additional real-world datasets, that are unseen during training, as well as on diverse synthesized high-definition maps, validate the remarkable generalization capability of CoMoGen.",
+   "year": 2025,
+   "authors": [
+    "Wenxing Lan",
+    "Jialin Liu",
+    "Bo Yuan",
+    "Xin Yao"
+   ],
+   "venue": "IEEE Transactions on Intelligent Transportation Systems",
+   "cited_by": 2,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7117299693",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4402705830",
+   "doi": "10.1109/tai.2026.3712714",
+   "title": "TrafficGamer: Reliable and Flexible Traffic Simulation for Safety-Critical Scenarios with Game-Theoretic Oracles",
+   "abstract": "While modern Autonomous Vehicle (AV) systems can develop reliable driving policies under regular traffic conditions, they frequently struggle with safety-critical traffic scenarios. This difficulty primarily arises from the rarity of such scenarios in driving datasets and the complexities associated with predictive modeling of multiple vehicles. Effectively simulating safety-critical traffic situations is therefore a crucial challenge. In this paper, we introduce TrafficGamer, which facilitates game-theoretic traffic simulation by viewing common road driving as a multi-agent game. When we evaluate the empirical performance across various real-world datasets, TrafficGamer ensures both the fidelity, exploitability, and diversity of the simulated scenarios, guaranteeing that they not only statically align with real-world traffic distribution but also efficiently capture equilibria for representing safety-critical scenarios involving multiple agents compared with other methods. Additionally, the results demonstrate that TrafficGamer provides highly flexible simulations across various contexts. Specifically, we demonstrate that the generated scenarios can dynamically adapt to equilibria of varying tightness by configuring risk-sensitive constraints during optimization. We have provided a demo webpage at: https://anonymous.4open.science/api/repo/trafficgamer-demo-1EE0/file/index.html.",
+   "year": 2026,
+   "authors": [
+    "Guanren Qiao",
+    "G. Quan",
+    "Jiawei Yu",
+    "Shujun Jia",
+    "Guiliang Liu"
+   ],
+   "venue": "IEEE Transactions on Artificial Intelligence",
+   "cited_by": 1,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2408.15538",
+   "url": "https://openalex.org/W4402705830",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7213506347",
+   "doi": "10.1016/j.tra.2026.105267",
+   "title": "Bridging scenario generation and regulatory standards: A physically plausible generative AI framework for automated vehicle safety certification",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Jintao Huang",
+    "Yanyong Guo",
+    "Pan Liu",
+    "Yuguang Chen",
+    "Hongliang Ding"
+   ],
+   "venue": "Transportation Research Part A Policy and Practice",
+   "cited_by": 0,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7213506347",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7220728764",
+   "doi": "10.48550/arxiv.2610.04366",
+   "title": "Human Behavior-Informed Crash Scenario Generation with Real-World Crash Priors for Autonomous Vehicle Safety Evaluation",
+   "abstract": "Reliable safety evaluation of autonomous vehicles (AVs) is essential to improving road safety, yet it depends critically on realistic simulation of rare crashes. Existing crash scenario generation methods can increase collision occurrence, but often fail to realistically reproduce how crashes evolve before impact or the distribution of crash types observed in the real world. Here, we present CrashSim, a human behavior-informed crash scenario generation framework that uses real-world crash priors to guide generative multi-agent traffic simulation for more reliable AV safety evaluation. These priors capture how real-world crashes evolve before impact and how different crash types are distributed, allowing limited crash data to guide realistic and scalable scenario generation across naturalistic driving contexts. We evaluate CrashSim against competing methods, showing that it more closely reproduces real-world pre-impact behavior, collision dynamics, collision geometry and crash-type distributions. We further use CrashSim to construct nuCrash dataset, containing over 4,000 crash and near-crash scenarios. Closed-loop evaluation of five AV planners shows that nuCrash more effectively exposes differences in planner safety capabilities than nuScenes. An LLM-assisted evaluation agent further analyzes planner failures to provide capability-level diagnoses and targeted improvement guidance. Together, CrashSim enables realistic and scalable crash generation for more informative AV safety evaluation.",
+   "year": 2026,
+   "authors": [
+    "Mingxing Peng",
+    "Xusen Guo",
+    "Long Chen",
+    "Xintao Yan",
+    "Siyu Teng",
+    "Jun Ma"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2610.04366",
+   "url": "https://openalex.org/W7220728764",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7221519184",
+   "doi": "10.2139/ssrn.7602715",
+   "title": "Closed-loop generation of responsibility-screened boundary scenarios for automated driving safety evaluation",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Jie Yang",
+    "Jaeyoung Lee",
+    "Hamza Begic",
+    "Constantinos Antoniou"
+   ],
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7221519184",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7162261688",
+   "doi": "10.65109/jcra2597",
+   "title": "Guiding Neuro-Symbolic Scenario Generation with Spatio-Temporal Logic",
+   "abstract": "The rapid advancement of autonomous driving (AD) technologies has outpaced the development of robust safety evaluation methods. Conventional testing relies on exposing AD systems to vast numbers of real-world traffic scenes---a brute-force approach that is prohibitively expensive and statistically ineffective at capturing the rare, safety-critical edge cases essential for validating real-world robustness. To address this fundamental limitation, we introduce øurmethod, a scalable framework for the targeted generation of safety-critical driving scenarios. øurmethod\\ synergistically combines a multi-agent trajectory-generation diffusion model (DM) with Spatio-Temporal Logic (STREL) specifications that encode complex safety and realism properties through a highly interpretable formalism. Crucially, monitoring satisfaction levels of these specifications is differentiable, enabling gradient-based search. At inference time, we optimize directly over the DM's latent space to maximize STREL formula satisfaction. The result is efficient generation of highly plausible yet safety-critical multi-agent scenarios that lie within the learned data distribution. øurmethod\\ thus provides a flexible, interpretable, and powerful tool for stress-testing autonomous driving systems, moving beyond the limitations of brute-force data collection.",
+   "year": 2026,
+   "authors": [
+    "Lorenzo Bonin",
+    "Francesco Giacomarra",
+    "Luca Bortolussi",
+    "Jyotirmoy V. Deshmukh",
+    "Francesca Cairoli"
+   ],
+   "venue": "Adaptive Agents and Multi-Agents Systems",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2605.19038",
+   "url": "https://openalex.org/W7162261688",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7161109199",
+   "doi": "10.48550/arxiv.2605.13751",
+   "title": "Learning Responsibility-Attributed Adversarial Scenarios for Testing Autonomous Vehicles",
+   "abstract": "Establishing trustworthy safety assurance for autonomous driving systems (ADSs) requires evidence that failures arise from avoidable system deficiencies rather than unavoidable traffic conflicts. Current adversarial simulation methods can efficiently expose collisions, but generally lack mechanisms to distinguish these fundamentally different failure modes. Here we present CARS (Context-Aware, Responsibility-attributed Scenario generation), a framework that integrates responsibility attribution directly into adversarial scenario generation. CARS combines context-aware adversary selection with a generative adversarial policy optimized in closed-loop simulation to construct collision scenarios that are both physically feasible and diagnostically attributable. Across benchmark datasets spanning heterogeneous national traffic environments, CARS consistently discovers feasible collision scenarios with high attribution rates under multiple regulation-prescribed careful and competent driver models. By coupling adversarial generation with normative responsibility assessment, CARS moves simulation testing beyond collision discovery toward the construction of interpretable, regulation-aligned safety evidence for scalable ADS validation.",
+   "year": 2026,
+   "authors": [
+    "Yizhuo Xiao",
+    "Haotian Yan",
+    "Ying Wang",
+    "Zhongpan Zhu",
+    "Yuxin Zhang",
+    "Xintao Yan",
+    "Mustafa Suphi Erden",
+    "Cheng Wang"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2605.13751",
+   "url": "https://openalex.org/W7161109199",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7163318586",
+   "doi": "10.48550/arxiv.2606.03678",
+   "title": "EvoDrive: Pareto Evolution for Safety-Critical Autonomous Driving via Self-Improving LLM Agents",
+   "abstract": "Generating safety-critical scenarios is essential for validating and improving autonomous driving systems, yet it inherently requires maximizing adversariality to expose failures while preserving realism. Existing methods usually manage this trade-off with handcrafted heuristics, confining generation to known priors and overlooking underexplored patterns. While recent open-ended agentic evolution can push this limit, unconstrained general agents lack strict simulator grounding and tend to collapse the multi-objective tension into single-scalar maximization. Here we present EvoDrive, the first automated, LLM-based agentic evolution framework for multi-objective scenario generation. EvoDrive employs a simulator-grounded actor-critic architecture where a memory-driven actor iteratively proposes improvements to the generators and critics filter out implausible candidates, and a self-evolving world evaluator routes promising proposals to optimize simulation budgets. EvoDrive further maintains a Pareto archive of evaluated candidates to preserve diverse attack-realism trade-offs and guide future evolution via simulation feedback. Benchmark results on MetaDrive and CARLA show that EvoDrive not only significantly expands the Pareto frontier across various generators, but also produces valuable scenarios for policy training.",
+   "year": 2026,
+   "authors": [
+    "Tong Nie",
+    "Yuewen Mei",
+    "Yihong Tang",
+    "Junlin He",
+    "Jie Deng",
+    "Jian Sun",
+    "WEI CHEN MA"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2606.03678",
+   "url": "https://openalex.org/W7163318586",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7223351173",
+   "doi": "10.48550/arxiv.2610.30979",
+   "title": "LAST-V2X: Language-Driven Adaptive Scenario Synthesis and Testing for Communication-Induced Failures in V2X Safety Applications",
+   "abstract": "Vehicle-to-everything (V2X) communication enables connected vehicles to make safety-critical decisions, but delayed, missing, or incorrect information can compromise driving safety. Systematically testing such failures is challenging because traffic interactions, communication conditions, and application responses must be jointly configured to produce meaningful scenarios. This paper presents LAST-V2X, a language-driven, adaptive framework for automated scenario synthesis and safety testing of V2X applications. LAST-V2X leverages large language models (LLMs) to translate natural-language test descriptions into executable scenarios grounded in roadway geometry, V2X communication semantics, and vehicle behavior. The framework integrates physical traffic simulation with spatially aware communication modeling and message-level fault injection to evaluate how information degradation affects vehicle decisions. To establish whether an observed safety failure is caused by communication rather than the underlying traffic conditions, LAST-V2X employs matched executions under degraded and ground-truth information. Furthermore, an execution-guided refinement mechanism combines parameter search and LLM self-reflection to identify ineffective test configurations, improve scenario effectiveness, and produce minimal reproducible failure cases. Experiments across diverse CARLA environments and V2X safety applications demonstrate the framework's ability to generate reliable scenarios, distinguish communication-induced failures from unrelated safety violations, and substantially improve failure discovery through adaptive refinement. These results establish LAST-V2X as a systematic approach to language-driven, causally verified, and adaptive safety testing for connected vehicle systems.",
+   "year": 2026,
+   "authors": [
+    "Keshu Wu",
+    "Hao Zhang",
+    "Rui Gan",
+    "Pei Li",
+    "Jiwan Jiang",
+    "Yang Zhou"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2610.30979",
+   "url": "https://openalex.org/W7223351173",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7161762962",
+   "doi": "10.48550/arxiv.2605.18895",
+   "title": "KG-ASG: Collision-Knowledge-Guided Closed-Loop Adversarial Scenario Generation With Primary-Support Attribution",
+   "abstract": "Safety validation of autonomous driving systems requires high-risk scenario coverage, clear collision semantics, executable trajectories, and attributable multi-vehicle interactions. Existing safety-critical scenario generation methods often rely on low-level trajectory perturbations, collision-proxy optimization, or single-adversary search, which may produce adversarial samples with ambiguous collision causes or uncontrolled multi-vehicle collisions. This paper proposes KG-ASG, a collision-knowledge-guided closed-loop adversarial scenario generation framework with primary-support attribution. KG-ASG constructs a structured collision knowledge base and trains a lightweight Collision Expert to infer the target collision mode, the unique primary adversary, support vehicles, and their interaction roles. Guided by this semantic prior, multi-vehicle adversarial generation is formulated as a primary-support process, where the primary adversary induces the main conflict and support vehicles shape the surrounding risk structure without becoming additional colliders. Rule, physical, interaction-safety, and single-collider constraints are imposed as hard gates to filter non-executable samples. To handle reactive ego behaviors, planner-controller feedback is further used for failure diagnosis, candidate re-ranking, and terminal refinement. Experiments on WOMD scenarios reconstructed in MetaDrive show that KG-ASG achieves strong adversarial effectiveness while improving Valid Primary Attack, reducing multi-collision, and obtaining closed-loop recovery gains under IDM, Cruise, and Expert controllers. These results demonstrate that collision-knowledge guidance and primary-support single-collider reasoning improve adversarial effectiveness, interpretability, and executability for autonomous driving safety validation.",
+   "year": 2026,
+   "authors": [
+    "Cheng Wang",
+    "Chen Xiong",
+    "Ziwen Wang",
+    "Yuchen Zhou",
+    "Qiang Liu"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2605.18895",
+   "url": "https://openalex.org/W7161762962",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W3127647470",
+   "doi": "10.1038/s41467-021-21007-8",
+   "title": "Intelligent driving intelligence test for autonomous vehicles with naturalistic and adversarial environment",
+   "abstract": "Driving intelligence tests are critical to the development and deployment of autonomous vehicles. The prevailing approach tests autonomous vehicles in life-like simulations of the naturalistic driving environment. However, due to the high dimensionality of the environment and the rareness of safety-critical events, hundreds of millions of miles would be required to demonstrate the safety performance of autonomous vehicles, which is severely inefficient. We discover that sparse but adversarial adjustments to the naturalistic driving environment, resulting in the naturalistic and adversarial driving environment, can significantly reduce the required test miles without loss of evaluation unbiasedness. By training the background vehicles to learn when to execute what adversarial maneuver, the proposed environment becomes an intelligent environment for driving intelligence testing. We demonstrate the effectiveness of the proposed environment in a highway-driving simulation. Comparing with the naturalistic driving environment, the proposed environment can accelerate the evaluation process by multiple orders of magnitude.",
+   "year": 2021,
+   "authors": [
+    "Shuo Feng",
+    "Xintao Yan",
+    "Haowei Sun",
+    "Yiheng Feng",
+    "Henry  X. Liu"
+   ],
+   "venue": "Nature Communications",
+   "cited_by": 556,
+   "is_oa": true,
+   "pdf_url": "https://www.nature.com/articles/s41467-021-21007-8.pdf",
+   "url": "https://openalex.org/W3127647470",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4414334072",
+   "doi": "10.1007/s42154-025-00364-w",
+   "title": "OmniTester: Multimodal Large Language Model Driven Scenario Testing for Autonomous Vehicles",
+   "abstract": "The generation of corner cases has become increasingly crucial for efficiently testing autonomous vehicles prior to road deployment. However, existing methods struggle to accommodate diverse testing requirements and often lack the ability to generalize to unseen situations, thereby reducing the convenience and usability of the generated scenarios. A method that facilitates easily controllable scenario generation for efficient autonomous vehicles (AV) testing with realistic and challenging situations is greatly needed. To address this, OmniTester is proposed as a multimodal Large Language Model (LLM) based framework that fully leverages the extensive world knowledge and reasoning capabilities of LLMs. OmniTester is designed to generate realistic and diverse scenarios within a simulation environment, offering a robust solution for testing and evaluating AVs. In addition to prompt engineering, OmniTester employs tools from Simulation of Urban Mobility to simplify the complexity of codes generated by LLMs. It further incorporates Retrieval-Augmented Generation and a self-improvement mechanism to enhance the LLM's understanding of scenarios, thereby increasing its ability to produce more realistic scenes. Experiment results demonstrated the controllability and realism of the proposed approaches in generating three types of challenging and complex scenarios. Additionally, OmniTester effectively reconstructs novel scenarios described in crash reports, driven by the generalization capability of LLMs.",
+   "year": 2025,
+   "authors": [
+    "Qiujing Lu",
+    "Xuanhan Wang",
+    "Yiwei Jiang",
+    "Guangming Zhao",
+    "Meng Ma",
+    "Shuo Feng"
+   ],
+   "venue": "Automotive Innovation",
+   "cited_by": 69,
+   "is_oa": true,
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42154-025-00364-w.pdf",
+   "url": "https://openalex.org/W4414334072",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4410335013",
+   "doi": "10.1016/j.eswa.2025.128140",
+   "title": "DiffCrash: leveraging denoising diffusion probabilistic models to expand high-risk testing scenarios using in-depth crash data",
+   "abstract": "",
+   "year": 2025,
+   "authors": [
+    "Rui Zhou",
+    "Weihua Gui",
+    "Helai Huang",
+    "Xichang Liu",
+    "Zhiyuan Wei",
+    "Jiang Bian"
+   ],
+   "venue": "Expert Systems with Applications",
+   "cited_by": 50,
+   "is_oa": true,
+   "pdf_url": "",
+   "url": "https://openalex.org/W4410335013",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W3133953828",
+   "doi": "10.1109/iros51168.2021.9636266",
+   "title": "Diverse Critical Interaction Generation for Planning and Planner Evaluation",
+   "abstract": "Generating diverse and comprehensive interacting agents to evaluate the decision-making modules is essential for the safe and robust planning of autonomous vehicles (AV). Due to efficiency and safety concerns, most researchers choose to train interactive adversary (competitive or weakly competitive) agents in simulators and generate test cases to interact with evaluated AVs. However, most existing methods fail to provide both natural and critical interaction behaviors in various traffic scenarios. To tackle this problem, we propose a styled generative model RouteGAN that generates diverse interactions by controlling the vehicles separately with desired styles. By altering its style coefficients, the model can generate trajectories with different safety levels serve as an online planner. Experiments show that our model can generate diverse interactions in various scenarios. We evaluate different planners with our model by testing their collision rate in interaction with RouteGAN planners of multiple critical levels.",
+   "year": 2021,
+   "authors": [
+    "Zhao-Heng Yin",
+    "Lingfeng Sun",
+    "Liting Sun",
+    "Masayoshi Tomizuka",
+    "Wei Zhan"
+   ],
+   "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+   "cited_by": 30,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2103.00906",
+   "url": "https://openalex.org/W3133953828",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4397026428",
+   "doi": "10.1109/tiv.2024.3402221",
+   "title": "Efficient Generation of Safety-Critical Scenarios Combining Dynamic and Static Scenario Parameters",
+   "abstract": "Due to the rarity of safety-critical scenarios, the safety of autonomous driving decision-making algorithms cannot be fully guaranteed in open environments, which limits their further applications. Therefore, it is crucial to efficiently generate such scenarios for the safety validation of autonomous driving algorithms. This paper proposes an efficient safety-critical scenario generation method combining dynamic and static parameters that constitute a scenario by alternating the optimization of them. To generate dynamic scenario parameters efficiently, a traffic participants model integrating reinforcement learning and prior traffic knowledge is proposed, which is then optimized under the guidance of a prior risk estimation model. For the generation of static scenario parameters, a posterior risk estimation model is proposed, which learns from the explored parameter trajectories during the dynamic scenario generation, to estimate the risk of unknown states. Finally, three different efficiency metrics are proposed and experiments are conducted on rule-based, optimization-based, and learning-based autonomous driving algorithms to verify the high efficiency and generality of the proposed method. Compared with the baseline model that only considers dynamic parameters, the proposed method averagely improves the generation speed by 151.8% and the success rate by 78.7% with only a few alternate optimizations. In addition, the method is generalizable for different types of autonomous driving algorithms. The safety-critical scenario generation paradigm proposed in this paper can greatly accelerate the safety evaluation for any given algorithm, which is of great significance for the development of autonomous driving.",
+   "year": 2024,
+   "authors": [
+    "Zhaoyi Wang",
+    "Xincheng Li",
+    "Dengwei Wei",
+    "Liwen Wang",
+    "Yanjun Huang"
+   ],
+   "venue": "IEEE Transactions on Intelligent Vehicles",
+   "cited_by": 16,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W4397026428",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7140237975",
+   "doi": "10.48550/arxiv.2603.21104",
+   "title": "CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation",
+   "abstract": "Generating safety-critical driving scenarios requires understanding why dangerous interactions arise, rather than merely forcing collisions. However, existing methods rely on heuristic adversarial agent selection and unstructured perturbations, lacking explicit modeling of interaction dependencies and thus exhibiting a realism--adversarial trade-off. We present CounterScene, a framework that endows closed-loop generative BEV world models with structured counterfactual reasoning for safety-critical scenario generation. Given a safe scene, CounterScene asks: what if the causally critical agent had behaved differently? To answer this, we introduce causal adversarial agent identification to identify the critical agent and classify conflict types, and develop a conflict-aware interactive world model in which a causal interaction graph is used to explicitly model dynamic inter-agent dependencies. Building on this structure, stage-adaptive counterfactual guidance performs minimal interventions on the identified agent, removing its spatial and temporal safety margins while allowing risk to emerge through natural interaction propagation. Extensive experiments on nuScenes demonstrate that CounterScene achieves the strongest adversarial effectiveness while maintaining superior trajectory realism across all horizons, improving long-horizon collision rate from 12.3% to 22.7% over the strongest baseline with better realism (ADE 1.88 vs.2.09). Notably, this advantage further widens over longer rollouts, and CounterScene generalizes zero-shot to nuPlan with state-of-the-art realism.",
+   "year": 2026,
+   "authors": [
+    "Bowen Jing",
+    "Ruiyang Hao",
+    "Weitao Zhou",
+    "Haibao Yu"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 8,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2603.21104",
+   "url": "https://openalex.org/W7140237975",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4413925815",
+   "doi": "10.1109/icra55743.2025.11128569",
+   "title": "Safety-Critical Traffic Simulation with Adversarial Transfer of Driving Intentions",
+   "abstract": "Traffic simulation, complementing real-world data with a long-tail distribution, allows for effective evaluation and enhancement of the ability of autonomous vehicles to handle accident-prone scenarios. Simulating such safety-critical scenarios is nontrivial, however, from log data that are typically regular scenarios, especially in consideration of dynamic adversarial interactions between the future motions of autonomous vehicles and surrounding traffic participants. To address it, this paper proposes an innovative and efficient strategy, termed IntSim, that explicitly decouples the driving intentions of surrounding actors from their motion planning for realistic and efficient safety-critical simulation. We formulate the adversarial transfer of driving intention as an optimization problem, facilitating extensive exploration of diverse attack behaviors and efficient solution convergence. Simultaneously, intention-conditioned motion planning benefits from powerful deep models and large-scale real-world data, permitting the simulation of realistic motion behaviors for actors. Specially, through adapting driving intentions based on environments, IntSim facilitates the flexible realization of dynamic adversarial interactions with autonomous vehicles. Finally, extensive open-loop and closed-loop experiments on real-world datasets, including nuScenes and Waymo, demonstrate that the proposed IntSim achieves state-of-the-art performance in simulating realistic safety-critical scenarios and further improves planners in handling such scenarios.",
+   "year": 2025,
+   "authors": [
+    "Zherui Huang",
+    "Xing Gao",
+    "Guanjie Zheng",
+    "Licheng Wen",
+    "Xuemeng Yang",
+    "Xiao Lei Sun"
+   ],
+   "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+   "cited_by": 5,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W4413925815",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7168034574",
+   "doi": "10.1016/j.aap.2026.108648",
+   "title": "Enhancing semantic and risk controllability in safety-critical scenario generation: An LLM-guided conditional diffusion method",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Hao Meng",
+    "Yaqi Li",
+    "Ce Wang",
+    "Fangrong Chang",
+    "Pengpeng Xu",
+    "Chenguang Li"
+   ],
+   "venue": "Accident Analysis & Prevention",
+   "cited_by": 4,
+   "is_oa": false,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7168034574",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7117529914",
+   "doi": "10.48550/arxiv.2512.21618",
+   "title": "SymDrive: Realistic and Controllable Driving Simulator via Symmetric Auto-regressive Online Restoration",
+   "abstract": "High-fidelity and controllable 3D simulation is essential for addressing the long-tail data scarcity in Autonomous Driving (AD), yet existing methods struggle to simultaneously achieve photorealistic rendering and interactive traffic editing. Current approaches often falter in large-angle novel view synthesis and suffer from geometric or lighting artifacts during asset manipulation. To address these challenges, we propose SymDrive, a unified diffusion-based framework capable of joint high-quality rendering and scene editing. We introduce a Symmetric Auto-regressive Online Restoration paradigm, which constructs paired symmetric views to recover fine-grained details via a ground-truth-guided dual-view formulation and utilizes an auto-regressive strategy for consistent lateral view generation. Furthermore, we leverage this restoration capability to enable a training-free harmonization mechanism, treating vehicle insertion as context-aware inpainting to ensure seamless lighting and shadow consistency. Extensive experiments demonstrate that SymDrive achieves state-of-the-art performance in both novel-view enhancement and realistic 3D vehicle insertion.",
+   "year": 2025,
+   "authors": [
+    "Zhiyuan Liu",
+    "Daocheng Fu",
+    "Pinlong Cai",
+    "Lening Wang",
+    "Ying Liu",
+    "Yilong Ren",
+    "Botian Shi Botian Shi",
+    "Jianqiang Wang"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 3,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2512.21618",
+   "url": "https://openalex.org/W7117529914",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7158679295",
+   "doi": "10.1109/tits.2026.3686061",
+   "title": "Emergency Lane-Change Simulation: A Behavior-Guided Approach for Safety-Critical Scenario Generation",
+   "abstract": "In contemporary autonomous driving testing, virtual simulation has become an important approach due to its efficiency and cost effectiveness. However, existing methods usually rely on reinforcement learning to generate risky scenarios, making it difficult to efficiently learn realistic emergency behaviors. To address this issue, we propose a behavior guided method for generating high risk lane change scenarios. First, a behavior learning module based on an optimized sequence generative adversarial network is developed to learn emergency lane change behaviors from an extracted dataset. This design alleviates the limitations of existing datasets and improves learning from relatively few samples. Then, the opposing vehicle is modeled as an agent, and the road environment together with surrounding vehicles is incorporated into the operating environment. Based on the Recursive Proximal Policy Optimization strategy, the generated trajectories are used to guide the vehicle toward dangerous behaviors for more effective risk scenario exploration. Finally, the reference trajectory is combined with model predictive control as physical constraints to continuously optimize the strategy and ensure physical authenticity. Experimental results show that the proposed method can effectively learn high risk trajectory behaviors from limited data and generate high risk collision scenarios with better efficiency than traditional methods such as grid search and manual design.",
+   "year": 2026,
+   "authors": [
+    "Chen Xiong",
+    "C D Wang",
+    "Liu Y",
+    "Zirui Wu",
+    "Ye Tian"
+   ],
+   "venue": "IEEE Transactions on Intelligent Transportation Systems",
+   "cited_by": 3,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2603.20234",
+   "url": "https://openalex.org/W7158679295",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4406755574",
+   "doi": "10.48550/arxiv.2501.12408",
+   "title": "Control-ITRA: Controlling the Behavior of a Driving Model",
+   "abstract": "Simulating realistic driving behavior is crucial for developing and testing autonomous systems in complex traffic environments. Equally important is the ability to control the behavior of simulated agents to tailor scenarios to specific research needs and safety considerations. This paper extends the general-purpose multi-agent driving behavior model ITRA (Scibior et al., 2021), by introducing a method called Control-ITRA to influence agent behavior through waypoint assignment and target speed modulation. By conditioning agents on these two aspects, we provide a mechanism for them to adhere to specific trajectories and indirectly adjust their aggressiveness. We compare different approaches for integrating these conditions during training and demonstrate that our method can generate controllable, infraction-free trajectories while preserving realism in both seen and unseen locations.",
+   "year": 2025,
+   "authors": [
+    "Lioutas, Vasileios",
+    "Adam Ścibior",
+    "Matthew Niedoba",
+    "Berend Zwartsenberg",
+    "Frank Wood"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 2,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2501.12408",
+   "url": "https://openalex.org/W4406755574",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7155030739",
+   "doi": "10.1007/978-3-032-37152-2_13",
+   "title": "ScenarioControl: Vision-Language Controllable Vectorized Latent Scenario Generation",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Lili Gao",
+    "Yanbo Xu",
+    "William Koch",
+    "Samuele Ruffino",
+    "Luke Rowe",
+    "Behdad Chalaki",
+    "Dmitriy Rivkin",
+    "Julian Ost",
+    "Roger Girgis",
+    "Mario Bijelic",
+    "Felix Heide"
+   ],
+   "venue": "Lecture notes in computer science",
+   "cited_by": 2,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2604.17147",
+   "url": "https://openalex.org/W7155030739",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7137360442",
+   "doi": "10.1109/itsc60802.2025.11423013",
+   "title": "Path Diffuser: Diffusion Model for Data-Driven Traffic Simulator",
+   "abstract": "Simulating diverse and realistic traffic scenarios is critical for developing and testing autonomous planning. Traditional rule-based planners lack diversity and realism, while learning-based simulators often replay, forecast, or edit scenarios using historical agent trajectories. However, they struggle to generate new scenarios, limiting scalability and diversity due to their reliance on fully annotated logs and historical data. Thus, a key challenge for a learning-based simulator's performance is that it requires agents' past trajectories and pose information in addition to map data, which might not be available for all agents on the road.Without which, generated scenarios often produce unrealistic trajectories that deviate from drivable areas, particularly under out-of-distribution (OOD) map scenes (e.g., curved roads). To address this, we propose Path Diffuser (PD): a two-stage, diffusion model for generating agent pose initializations and their corresponding trajectories conditioned on the map, free of any historical context of agents' trajectories. Furthermore, PD incorporates a motion primitive-based prior, leveraging Frenet frame candidate trajectories to enhance diversity while ensuring road-compliant trajectory generation. We also explore various design choices for modeling complex multi-agent interactions. We demonstrate the effectiveness of our method through extensive experiments on the Argoverse2 Dataset and additionally evaluate the generalizability of the approach on OOD map variants. Notably, Path Diffuser outperforms the baseline methods by 1.92x on distribution metrics, 1.14x on common-sense metrics, and 1.62x on road compliance from adversarial benchmarks.",
+   "year": 2025,
+   "authors": [
+    "D. Lee",
+    "Akash Karthikeyan",
+    "Yash Vardhan Pant",
+    "Sebastian Fischmeister"
+   ],
+   "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+   "cited_by": 1,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2509.24995",
+   "url": "https://openalex.org/W7137360442",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7204194591",
+   "doi": "10.48550/arxiv.2608.22187",
+   "title": "BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation",
+   "abstract": "Modern driving action models are increasingly improved in a self-improvement loop, where a learned world simulator imagines future observations and the resulting data is fed back to refine the action model. However, the bottleneck of this loop lies in the simulators' inability to generate behaviorally plausible responses by surrounding agents, making generated data both unrealistic in interaction and imbalanced in distribution. We introduce BehaviorWorldGen, a framework that closes the loop between action models and world simulators through controllable behavior-aware structured world generation. Its core component is BehaviorFlow, a meta-action-conditioned traffic-flow model that injects interpretable behavior controls and jointly generates multi-agent rollouts. BehaviorFlow realizes the specified agent behaviors while allowing surrounding vehicles to respond to the ego and to one another. The resulting rollouts are rendered by a world simulator into realistic multi-view observations, which are paired with corrected interaction-aware trajectories for action-model refinement. Since BehaviorWorldGen uses structured trajectories as the interface between its modules, it is compatible with diverse action models and world simulators. Experiments on world generation, scene extrapolation, and policy refinement demonstrate consistent improvements, with the largest benefits concentrated on difficult interactive scenarios.",
+   "year": 2026,
+   "authors": [
+    "Jiaqi Wang",
+    "Zhuo Zhang",
+    "Haining Guan",
+    "Tingguang Zhou",
+    "Haowen Cui",
+    "Chuanye Wang",
+    "Zhongyang Zhu",
+    "Yulong Zheng",
+    "Xuefeng Chen",
+    "Zhen Yang",
+    "Tianchen Deng",
+    "Feiyang Tan",
+    "Hangning Zhou",
+    "Bo Dai",
+    "Lixia Shen",
+    "Xiwu Chen",
+    "Xiyang Wang",
+    "Jiajun Zhu"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 1,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2608.22187",
+   "url": "https://openalex.org/W7204194591",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7223895518",
+   "doi": "10.48550/arxiv.2610.35448",
+   "title": "Model-Aware Generation of Safety-Critical Scenes for Robust End-to-End Driving via Distilled Planner Surrogates",
+   "abstract": "End-to-end driving models perform well on standard benchmarks but collide frequently in safety-critical scenarios. We present a failure-mode analysis on NeuroNCAP which shows that 95.9% of DiffusionDrive's collisions are planning failures despite reliable detection, pinpointing the bottleneck in planning rather than perception. We attribute this to a fundamental data imbalance, as safety-critical interactions are rare in real driving logs, so planners are hardly ever trained on them. We close this gap with a novel model-aware framework that generates safety-critical training scenes against a specific planner. Each planner is attacked at the bird's-eye-view (BEV) level through a differentiable surrogate distilled from its own planning head. This keeps the expensive video renderer out of the attack loop. We extract 50 scenes per planner, each pairing an attack with a safe escape trajectory that serves as the fine-tuning label. A fully automated quality-diversity search generates both the attacks and the escapes, so that their variety is not specified by hand. Only these scenes are rendered to fine-tune the planner, which reduces the computational cost significantly. Fine-tuning on these scenes roughly halves the closed-loop collision rate of two planners on NeuroNCAP (SparseDrive 28.0% to 12.2%, DiffusionDrive 37.5% to 19.2%) while largely preserving normal driving. A cross-planner transfer experiment shows that the gain comes from targeting the specific planner. Each planner improves most on the scenes generated against itself, and DiffusionDrive fine-tuned on SparseDrive's scenes retains only 6.7 of its 18.3-point collision-rate reduction.",
+   "year": 2026,
+   "authors": [
+    "Khaled M. Seyam",
+    "Julian Wiederer",
+    "Samar Fathalah",
+    "Markus Braun",
+    "Bin Yang"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2610.35448",
+   "url": "https://openalex.org/W7223895518",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7161543718",
+   "doi": "10.1109/icra57385.2026.11696318",
+   "title": "PCASim: Promptable Closed-loop Adversarial Simulation for Urban Traffic Environment",
+   "abstract": "Real-world autonomous driving, particularly in urban environments with numerous corner cases, requires rigorous testing to ensure product safety and robustness. However, few studies have explored integrating adversarial scenario generation with the training of safety agents in closed-loop testing, enabling efficient co-evolution and mutual enhancement of both. To address this challenge, an adversarial behavior knowledge repository is constructed by applying rule-based filtering to an open-source dataset, combined with knowledge retrieval modules tailored for simulation environments. A large language model (LLM) is employed to integrate knowledge-, data-, and adversarial-driven approaches, generating safety-critical traffic scenarios customized to user needs. Additionally, while evaluating the generated scenarios, we employ reinforcement learning models to train the behaviors of different types of vehicles, thereby enriching scenario diversity beyond existing datasets while preserving realism. Experimental results demonstrate that the proposed framework improves the accuracy of domain-specific language generation by 12\\%. Moreover, the success rate of newly generated scenario transformations increases by 8\\%, while obstacle-avoidance capability is enhanced by 30\\%. For the complete manuscript, please refer to: https://zhenhaooo.github.io/PCASim.github.io/",
+   "year": 2026,
+   "authors": [
+    "Changwang Zhang",
+    "Zhenhao Wang",
+    "Kaizheng Li",
+    "Yaran Lin",
+    "Qiang Guo",
+    "Bin Jiang"
+   ],
+   "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2605.15654",
+   "url": "https://openalex.org/W7161543718",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7203558759",
+   "doi": "10.2139/ssrn.7288377",
+   "title": "CrashFactory: From Crash Databases to Scalable Safety-Critical Data Synthesis for End-to-End Autonomous Driving",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "Haowei Li",
+    "Jiawei Wang",
+    "Haowei Sun",
+    "Xintao Yan",
+    "Henry  X. Liu"
+   ],
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "",
+   "url": "https://openalex.org/W7203558759",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W7219815992",
+   "doi": "10.2139/ssrn.7560931",
+   "title": "How Corner Is a Corner Case? Percentile Control for Highway Scenario Generation",
+   "abstract": "",
+   "year": 2026,
+   "authors": [
+    "J P Liu",
+    "Hang Zhou",
+    "Hangyu Li",
+    "Yifan Wang",
+    "Keke Long",
+    "Chengyuan Ma",
+    "Bin Ran",
+    "Xiaopeng Li"
+   ],
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0,
+   "is_oa": true,
+   "pdf_url": "https://doi.org/10.2139/ssrn.7560931",
+   "url": "https://openalex.org/W7219815992",
+   "found_by": [
+    "chain"
+   ]
+  },
+  {
+   "source": "openalex",
+   "sources": [
+    "openalex"
+   ],
+   "id": "W4399874973",
+   "doi": "10.1109/lra.2024.3416792",
+   "title": "DriveSceneGen: Generating Diverse and Realistic Driving Scenarios From Scratch",
+   "abstract": "Realistic and diverse traffic scenarios in large quantities are crucial for the development and validation of autonomous driving systems. However, owing to numerous difficulties in the data collection process and the reliance on intensive annotations, real-world datasets lack sufficient quantity and diversity to support the increasing demand for data. This work introducesDriveSceneGen, a data-driven driving scenario generation method that learns from the real-world driving dataset and generates entire dynamic driving scenarios from scratch. Experimental results on 5k generated scenarios highlight thatDriveSceneGenis able to generate novel driving scenarios that align with real-world data distributions with high fidelity and diversity. To the best of our knowledge,DriveSceneGenis the first method that generates novel driving scenarios involving both static map elements and dynamic traffic participants from scratch. Extensive experiments demonstrate that our two-stage method outperforms existing state-of-the-art map generation methods and trajectory simulation methods on their respective tasks.",
+   "year": 2024,
+   "authors": [
+    "Shuo Sun",
+    "Zekai Gu",
+    "Tianchen Sun",
+    "Jiawei Sun",
+    "C.-M. Yuan",
+    "Yuhang Han",
+    "Dongen Li",
+    "Marcelo H. Ang"
+   ],
+   "venue": "IEEE Robotics and Automation Letters",
+   "cited_by": 41,
+   "is_oa": true,
+   "pdf_url": "https://arxiv.org/pdf/2309.14685",
+   "url": "https://openalex.org/W4399874973",
+   "found_by": [
+    "chain"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "id": "promptable_closed_loop_traffic_simulation",
+ "title": "Promptable Closed-loop Traffic Simulation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Per-agent multimodal prompts: goal points, noisy route sketches, action tags (e.g. Accelerate, LeftTurn) and free-form text instructions; prompts can be partial.", "pages": "1-2"},
+ "control_mechanism": {"value": "Each prompt is encoded and pooled per agent, then added to that agent's policy query. Text goes through a LoRA-finetuned LLaMA3-8B producing language-conditioned queries, summed into the policy token.", "pages": "4-5"},
+ "base_model": {"value": "Scene encoder and generator producing policy tokens, with a lightweight autoregressive Policy rolled out closed-loop; trained with imitation, collision and offroad losses.", "pages": "1-2, 5-6"},
+ "datasets": {"value": "ProSim-Instruct-520k, built from Waymo Open Motion Dataset (about 480K train, 48K test); Waymo Sim Agents Challenge 2024 for unconditional rollout.", "pages": "5-6, 7-8"},
+ "metrics": {"value": "ADE and percent gain in ADE with versus without prompts (controllability); Waymo Sim Agents composite, kinematic, interactive, map-based scores.", "pages": "6-7"},
+ "controllability_evidence": {"value": "Goal Point prompt gives ADE 0.3882 m, 59.12% gain over no prompt; Text prompt 26.96% gain; all prompt types together 0.2877 m ADE, 69.71% gain.", "pages": "6-7"},
+ "stated_limitations": {"value": "Arbitrary prompts unsupported: complex interactions (e.g. overtaking from the left lane) and richer modalities such as images are future work; unconditional Kinematic score is relatively low.", "pages": "8-9"},
+ "notes": "Controllability measured indirectly as realism gain against ground truth, not prompt-adherence rate. Text prompts use an LLM, but the control signal is trained-in conditioning."
+}

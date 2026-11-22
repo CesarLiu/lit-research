@@ -1,0 +1,13 @@
+{
+ "id": "cmts_a_conditional_multiple_trajectory_synthesizer",
+ "title": "CMTS: A Conditional Multiple Trajectory Synthesizer for Generating Safety-Critical Driving Scenarios",
+ "control_family": "latent-space control",
+ "control_signal": {"value": "Road map (binary grid image) as condition, plus an interpolation weight lambda between safe-data and collision-data latent codes; lambda is fixed (0.3 in the Argoverse experiment) at generation to get near-miss samples.", "pages": "3-5"},
+ "control_mechanism": {"value": "Safe and collision latents are linearly interpolated (lambda sampled uniformly in training); road map is injected as a style via AdaIN on the latent; a consistency regularizer supports the fused samples.", "pages": "3-4"},
+ "base_model": {"value": "Conditional VAE: GRU trajectory encoder, convolutional map encoder producing Gaussian style statistics, GRU decoder that generates trajectories.", "pages": "3"},
+ "datasets": {"value": "Argoverse motion forecasting (two interacting vehicles plus maps; collision set built by translating trajectories to a collision point), Lines dataset, MNIST and USPS.", "pages": "4"},
+ "metrics": {"value": "DPGMM cluster number K as dataset complexity; trajectory prediction MSE; minimal distance between vehicles (MDV) as risk; mean distance between neighbour waypoints (MDN) as smoothness; Smoothness and Mean Distance on Lines.", "pages": "4-5"},
+ "controllability_evidence": {"value": "Augmented set has more clusters: K=71±11 for CMTS vs 64±7 original; OD+CMTS reaches 127±20. Training prediction models on CMTS data gives best MSE, MDV, MDN (e.g. CS-LSTM MSE 0.042 vs 0.048 on original).", "pages": "5-6"},
+ "stated_limitations": {"value": "No physical or kinematic constraints were applied to generated trajectories, which would make them closer to real ones; planned as future work.", "pages": "6-7"},
+ "notes": "Primarily a data-augmentation method for trajectory prediction; control is only via road map condition and a fixed interpolation coefficient, no direct test that lambda monotonically sets criticality in the packet."
+}
