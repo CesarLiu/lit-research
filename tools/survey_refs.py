@@ -3,6 +3,7 @@
 
   python -I -X utf8 tools/survey_refs.py build OUT_REFS.json --results R1.json [R2.json ...] --rows ROWS_DIR1 [ROWS_DIR2 ...]
   python -I -X utf8 tools/survey_refs.py list REPORT.md REFS.json
+  python -I -X utf8 tools/survey_refs.py company REPORT.md INDUSTRY_ROWS.json URLS.tsv [URLS2.tsv ...]
 
 build  numbers every row of every ROWS_DIR (JSON rows with "id" and "title") in title order, 1..N, finds each paper's
        metadata (authors, year, DOI, venue) by title in the results files, and writes OUT_REFS.json
@@ -69,8 +70,31 @@ def list_refs(report: str, refs_path: str) -> int:
     return 1 if bad else 0
 
 
+def list_company(report: str, rows_json: str, tsvs: list[str]) -> int:
+    """Appendix lines for the company codes ([W1] and so on) cited in the report: company, date, grade, quote, source URL."""
+    rows = {r["id"]: r for r in json.loads(Path(rows_json).read_text(encoding="utf-8"))}
+    url = {}
+    for t in tsvs:
+        for ln in Path(t).read_text(encoding="utf-8").splitlines():
+            if ln.strip() and not ln.startswith("#"):
+                f = ln.split("\t")
+                url[f[0]] = f[3]
+    text = re.split(r"\n## References\b", Path(report).read_text(encoding="utf-8"))[0]
+    cited = sorted(set(re.findall(r"\[([A-Z]\d+)\]", text)), key=lambda c: (c[0], int(c[1:])))
+    bad = [c for c in cited if c not in rows]
+    for c in cited:
+        r = rows.get(c)
+        if r:
+            print(f"- [{c}] {r['company']}, {r['date']}, grade {r['grade']}: \"{r['quote']}\" <{url.get(r['page'], 'url not recorded')}>")
+    if bad:
+        print(f"CITED BUT NOT IN ROWS: {bad}", file=sys.stderr)
+    return 1 if bad else 0
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
+    if len(a) >= 4 and a[0] == "company":
+        raise SystemExit(list_company(a[1], a[2], a[3:]))
     if len(a) >= 5 and a[0] == "build" and "--results" in a and "--rows" in a:
         i, j = a.index("--results"), a.index("--rows")
         raise SystemExit(build(a[1], a[i + 1:j] if i < j else a[i + 1:], a[j + 1:i] if j < i else a[j + 1:]))

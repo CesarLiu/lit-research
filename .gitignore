@@ -32,3 +32,6 @@ runs/tableC/packets_new/
 
 # world-model search: per-record abstract files
 runs/wm/search/q*/*.txt
+
+# rendered previews of the survey pdf
+runs/survey/png/

@@ -57,7 +57,7 @@ What this does not fix: the screening is mine and unreviewed; 7 of the 43 new ro
 
 ## Survey round (2026-11-23): world models, industry, and a combined report
 
-A second topic run for sensor-level driving world models, then a survey over three evidence sets. State at the last commit: the report is a **draft** that was still being claim-checked.
+A second topic run for sensor-level driving world models, then a survey over three evidence sets. State: `runs/survey/report.md` (13-page PDF alongside) went through three rounds of sentence checking by a second model: 131 sentences, 76 supported, 23 partial, 1 unsupported, 31 not checkable; the 27 rewritten sentences then gave 19 supported, 7 partial, 1 unsupported; eight were reworded again and that last wording was not checked.
 
 - **World-model search** (`runs/wm`): protocol and 14 probe papers written first; 10 queries; `merge_results.py` gained `--drive-extra` and `--task-extra` because the default filter lost 2 of the 14 probes (13 of 14 retrieved by the first nine queries, the last probe only after a targeted query). 298 unique, 230 after filter, 104 judged in scope by hand (`wm_screening.csv`), 64 tabled.
 - **Own table schema**: `runs/wmtable/schema.json` (families and fields for world models, including a closed-loop field); `assemble_table.py` reads it if present. Prompt `runs/wmtable/prompts/extract_row_wm.md`, 9 sub-agents, 0 check issues, audit of 24 cells: 21 supported, 3 partial (corrected), 0 unsupported.

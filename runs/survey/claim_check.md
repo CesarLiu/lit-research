@@ -1,0 +1,140 @@
+# Claim check of the review
+
+131 claims, 131 with a result. NOT-CHECKABLE 31, PARTIAL 23, SUPPORTED 76, UNSUPPORTED 1
+Wrong citation reported for claims: [54]
+
+## Not SUPPORTED
+- **2 NOT-CHECKABLE** [Controllable scenario generati] Bracketed numbers such as [107] are papers in the reference list; bracketed codes such as [W1] are company statements listed in the appendix.
+  - issue: Statement about the report's citation notation; [107] and [W1] are only examples, and both exist as a row and a company statement.
+- **3 NOT-CHECKABLE** [Controllable scenario generati] Every sentence in sections 1 to 6 was checked by a second model against the table rows or company quotes it cites (see section 8).
+  - issue: Statement about the report's own checking process; none of the listed evidence files records a sentence-level check of sections 1 to 6.
+- **4 NOT-CHECKABLE** [Controllable scenario generati] Nobody has read the full PDFs, and the sections on open problems are my proposals, marked as such.*
+  - issue: Statement about the report and its authorship; the evidence cannot show that no one read the full PDFs (packets in tableC/packets start from pages 1-2, consistent with it).
+- **5 NOT-CHECKABLE** [1. Scope and evidence] The question is how a user or designer steers a generative model of driving, and what that steering reaches.
+  - issue: Framing of the report's question, not a factual claim.
+- **6 NOT-CHECKABLE** [1. Scope and evidence] Two layers matter.
+  - issue: Author's framing/opinion.
+- **7 NOT-CHECKABLE** [1. Scope and evidence] At the **scenario level** a model generates or simulates the trajectories of road users on a map.
+  - issue: Definition of the scenario layer set by the report; consistent with the tableC rows but not a checkable finding.
+- **9 PARTIAL** [1. Scope and evidence] Company systems combine both.
+  - issue: Overgeneralised and uncited: industry_scan.md says the company pages are about sensor-level world models; only some statements (W2 scene layout, X5 traffic participants, M2, R1) touch the scenario level, none shows a system combining both layers.
+- **15 PARTIAL** [1. Scope and evidence] **Company statements, 41.** Quotes from company blogs, papers and product pages (Waymo, Wayve, NVIDIA, Tesla, XPeng, Huawei, Mobileye, Applied Intuition, Nuro, Waabi), graded A (primary source with a method or number), B (primary, marketing wording) or C (secondary).
+  - issue: The company list omits Baidu, whose one grade-C row (D1) is counted in the 41 (industry/rows.json); sources also include an X post and a wiki page, not only blogs, papers and product pages.
+- **16 NOT-CHECKABLE** [1. Scope and evidence] What the sources are not.
+  - issue: Section lead-in, no claim.
+- **17 PARTIAL** [1. Scope and evidence] Closed-access papers are absent by construction (19 of the 62 chaining leads and none of the 64 world-model papers had no open copy). 20 scenario-level and 40 world-model papers judged in scope were not tabled.
+  - issue: 19/62 closed, 0/64 world-model closed (wm/fulltext/oa_report.json) and 20 deferred chaining leads and 40 deferred WM papers are right, but corpus2/PRISMA.md shows 254 retrieved keyword-search papers also not tabled with no per-paper reasons, so 20 understates the untabled scenario-level pool.
+- **20 NOT-CHECKABLE** [2. Two layers and one question] Controllability is not one property.
+  - issue: Author's framing/opinion.
+- **24 PARTIAL** [2. Two layers and one question] The two layers share the same injection mechanisms (cross-attention, adaptive normalisation, a ControlNet-style branch, token conditioning, guidance at sampling time) but differ in what the signal means: a risk level, a goal point or a language clause at the scenario level; an ego pose, a box layout or a weather prompt at the sensor level.
+  - issue: 'Share the same injection mechanisms' is overstated: a ControlNet-style branch appears in only one scenario-table row (TeraSim-World), and there only in its video-rendering stage (tableC/table.md base_model/control_mechanism).
+- **29 PARTIAL** [3.1 Inference-time guidance gi] Risk-level knobs are among the best measured: in [99] the mean crash rate rises from 20.6 % to 50.6 % as the requested risk increases, and in [66] 1,422 of 1,440 requested risk percentiles are realised within 0.05 (98.75 %).
+  - issue: All numbers match, but 'among the best measured' is the report's own judgement, and RADE [99] is labelled 'conditioning inputs (trained in)' (control_family), not inference-time guidance, although it is cited in the guidance section.
+- **34 PARTIAL** [3.2 Trained-in conditioning is] Scenario Diffusion keeps the agent-token match rate at 0.97 from 0 to 50 % masking while the number of extra generated agents rises from 0.4 to 12.6 [111].
+  - issue: The row gives the 0.4-to-12.6 rise only 'as masking probability increases', with the range running to 90 % (match 0.96 at 90 %); tying 12.6 to the 0-50 % range is not in the controllability_evidence field.
+- **38 NOT-CHECKABLE** [3.2 Trained-in conditioning is] Coverage of a control is limited by training.
+  - issue: An uncited interpretive topic sentence. Rows such as ECoSim [47] (GT-derived controls) and ProSim [97] (arbitrary prompts unsupported) illustrate it but cannot establish it in general.
+- **45 PARTIAL** [3.3 Language control passes th] Direct measurements of text-to-scenario adherence are rare in these rows; evidence is more often downstream, for example ego agents trained on generated scenes cutting the average collision rate from 0.08 to 0.035 on SafeBench [128].
+  - issue: The 0.08 to 0.035 figures are a comparison with ego agents trained on prior methods' scenes ('versus prior methods' in controllability_evidence), not a before/after drop; the 'rare' part matches notes and the language-family rows.
+- **46 PARTIAL** [3.4 Reward and return conditio] Reward tilting is a one-parameter control.
+  - issue: Uncited generalisation: CtRL-Sim's control_signal is one kappa per factored reward component (three components), so tilting is one parameter only per reward; Scenario Dreamer tilts a single collision reward.
+- **48 PARTIAL** [3.4 Reward and return conditio] A behaviour latent over four reward channels reaches positive controllability scores on all four channels (+0.66 safety, +0.61 map, +8.15 speed, +8.76 acceleration) [18].
+  - issue: Numbers match controllability_evidence, but the sentence drops the condition w=1.5 and the fact that the unconditional model is already positive on three of the four channels (+0.06, +0.06, +4.77).
+- **52 NOT-CHECKABLE** [3.5 Many "controllable" genera] This is a purpose, adversarial testing and training, rather than a user-facing control, and it explains why evidence of control is often a downstream safety number.
+  - issue: Interpretation and causal explanation; the factual part (adversarial objective, no user-specified attributes) matches the notes of AdvSim, CAT and KING, but 'explains why' cannot be checked against the rows.
+- **53 NOT-CHECKABLE** [3.6 What the scenario-level ev] The rows report different metrics on different data and baselines, with some shared setups, so this review does not rank methods.
+  - issue: Statement about the report's own choice not to rank; the premise (different metrics, data and baselines) matches the tables.
+- **54 PARTIAL** [3.6 What the scenario-level ev] Several papers state that they model vehicles only [60][111], a few labelled as controllable are, by their own notes, realism simulators or adversarial pipelines [4][8][39], and several controls are shown only qualitatively [130][9].
+  - issue: [60] and [111] (vehicles only) and [130] and [9] (qualitative control) are supported, but [4], [8] and [39] are labelled none/uncontrolled in control_family, not 'controllable', and none of them is an adversarial pipeline (that would be uncited rows such as [3], [11] and [72]).
+- **59 PARTIAL** [4.1 Control interfaces] Language enters through an LLM that writes trajectory scripts or edits a scene: DriveDreamer-2 uses a fine-tuned GPT-3.5 to produce trajectories that become an HD map and 3D boxes before the video model [35], and ChatSim uses GPT-4 agents on a reconstructed scene, which its own notes say is not a learned generative world model [48].
+  - issue: Both examples match their rows, but 'language enters through an LLM' overgeneralises: other rows feed text straight through encoders (MagicDrive and GAIA-2 cross-attention or CLIP; ReSim T5), with no LLM in between.
+- **62 PARTIAL** [4.2 Evidence of control is mos] Where they do, the numbers are favourable: Vista's average FVD on nuScenes falls from 367.2 without actions to 207.6 with a trajectory [137]; ReSim's zero-shot trajectory difference on Waymo is 1.13 against 5.68 for Vista without action [103]; GeoDrive's trajectory error is 1.62 against 2.77 for Vista (units of 10^-2) [59]; OmniNWM's translation error is 1.18 m against 7.56 m for UniScene [90]; MyGo reports camera-control errors on RealEstate10K, since COLMAP fails on dynamic nuScenes scenes [85].
+  - issue: Vista's figures are FVD, a video-fidelity metric, not an action-following measurement (Vista controllability_evidence); ReSim's 1.13 against 5.68 are both in the action-free setting per its row, whereas the sentence says 'without action' only of Vista.
+- **67 PARTIAL** [4.3 Four analyses suggest that] Released plan-conditioned world models reach at most about a third of the real-video scene response under speed plans, and a training-free retiming wrapper reaches 0.93 to 1.04 of the real stereo response for a 0.54 m shift [42].
+  - issue: Numbers match controllability_evidence (about a third; .93-1.04 for 0.54 m), but the row restricts the .93-1.04 result to KITTI and the sentence drops that qualifier.
+- **72 PARTIAL** [4.4 Closed-loop use is shown, ] Two more feed planning back into the loop [41][40].
+  - issue: [40] and [41] closed_loop fields do support feeding planning back, but 'two more' undercounts: ADriver-I (self-contained action-frame loop) and Doe-1 (claims closed loop by alternating observation and action) also feed actions back per wmtable closed_loop column.
+- **75 PARTIAL** [4.4 Closed-loop use is shown, ] The remaining 54 rows report open-loop generation or prediction.
+  - issue: 64-8-2=54 is arithmetically right, but in wmtable closed_loop not all 54 are plainly open-loop: ADriver-I has a self-contained recurrent loop, Doe-1 claims closed loop, ZYT-World is designed for closed loop, DreamDrive is 'not stated'.
+- **80 PARTIAL** [5. What companies say] **World models are replacing reconstruction-based simulation in several companies.** Waymo says purely reconstructive methods such as 3D Gaussian splats suffer visual breakdowns when the route differs from the logged one [W4], and XPeng says reconstruction-based simulation struggles beyond the reconstructed range [X2].
+  - issue: W4 and X2 (X2 grade B) only criticise reconstruction-based simulation; neither quote says the companies replaced it, so the bold heading 'replacing ... in several companies' overstates, and industry_scan.md names Applied Intuition as a counterexample.
+- **82 PARTIAL** [5. What companies say] Applied Intuition's Neural Sim, announced in January 2025, still turns drive logs into closed-loop sensor simulation [A1][A2].
+  - issue: 'closed-loop sensor simulation' is only in A1's claim paraphrase, not in either grade-B quote, and 'still' implies current status from a January 2025 page.
+- **83 PARTIAL** [5. What companies say] **The base is a large pretrained model.** The Waymo World Model is built on Genie 3 [W1]; XPeng's X-World on the video model WAN 2.2 [X1]; OmniDreams on Cosmos, with 21k hours of driving data in mid- and post-training [N7][N9]; Wayve's GAIA-2 is a latent diffusion world model [Y1].
+  - issue: W1, X1, N7, N9 support their parts, but Y1 only says GAIA-2 is a latent diffusion world model, not that it is built on a large pretrained model, so the heading is generalised to Wayve without support.
+- **92 NOT-CHECKABLE** [5. What companies say] What is missing.
+  - issue: Section sub-heading about the report itself, no factual content.
+- **97 PARTIAL** [6. Cross-cutting findings] **Control is seldom measured directly.** At both layers the common evidence is a downstream or fidelity number (collision rate against a baseline, perception on generated data, FID and FVD) rather than a measurement of whether the output follows the specified signal.
+  - issue: Holds for the world-model table, but at the scenario layer many tableC 'Evidence of control' cells measure adherence or a dial directly (e.g. percentile control 98.75%, ECoSim control error, Scenario Diffusion match rate, CNeVA CSM, Promptable goal ADE, Safe-Sim and RADE sweeps), so 'seldom' at both layers is overstated.
+- **98 NOT-CHECKABLE** [6. Cross-cutting findings] Exceptions exist (sections 3.1 and 4.2) and the four analyses in section 4.3 show why the distinction matters.
+  - issue: Cross-reference to report sections; the underlying rows (direct-control exceptions and the four analysis papers in wmtable) do exist.
+- **101 PARTIAL** [6. Cross-cutting findings] **Language control is a mixture of three designs.** Text can be turned into code or a loss [13][76], trained in directly [73][10], or used to edit a scene [48]; their failure modes differ, and reliability is rarely measured directly.
+  - issue: The three-way split matches the rows, but 'failure modes differ' is not in evidence (only [73] states a failure mode; [13] and [76] stated_limitations are 'not stated in packet'), and reliability is measured directly in [10] (clause satisfaction 40.8%) and [48] (command execution success), so 'rarely' is loose.
+- **103 PARTIAL** [6. Cross-cutting findings] **No shared yardstick.** The rows use different data, metrics and baselines, with only a few shared setups, so this survey does not rank methods.
+  - issue: The no-ranking decision is a statement about the report; 'only a few shared setups' understates the tables, where nuScenes FID/FVD (wmtable) and WOSAC/Waymo realism (tableC) are shared by many rows.
+- **104 NOT-CHECKABLE** [7. Open problems and research ] Each direction names the gap in the evidence it comes from, a first experiment, and what would count as success.
+  - issue: Statement about the structure of the report's section 7.
+- **105 NOT-CHECKABLE** [7. Open problems and research ] They are proposals for discussion and have not been tested.
+  - issue: Statement about the report (proposals untested).
+- **107 NOT-CHECKABLE** [7. Open problems and research ] Proposal: a small benchmark for world models and scenario generators that scores whether the output follows a specified signal (action following, layout adherence, risk level) with the same protocol at both layers, including a probe like the shuffled-action test in [31].
+  - issue: Research proposal; its reference to the shuffled-action test is correctly attributed to [31] (controllability_evidence, metrics).
+- **108 NOT-CHECKABLE** [7. Open problems and research ] Success: methods that look equal on FID and FVD separate on the control score, and the ranking is stable across seeds.
+  - issue: Success criterion of a proposal, not a finding.
+- **110 NOT-CHECKABLE** [7. Open problems and research ] Proposal: keep behaviour control in a compact scenario representation and test whether rendering preserves it, by extracting trajectories from generated video and comparing them with the specified ones.
+  - issue: Research proposal, not a finding.
+- **111 NOT-CHECKABLE** [7. Open problems and research ] Success: a measured behaviour-preservation rate for a layered pipeline, compared with an end-to-end model.
+  - issue: Success criterion of a section 7 proposal; nothing in the evidence can confirm or deny it.
+- **112 NOT-CHECKABLE** [7. Open problems and research ] **Check that closed-loop evaluation in a world model ranks policies as the real world does.** Gap: sections 4.4 and 5.
+  - issue: Proposal heading; the Gap part is only a pointer to report sections 4.4 and 5, not a factual statement about the rows.
+- **113 PARTIAL** [7. Open problems and research ] The OmniDreams paper reports that the ranking of policies under a reconstruction-based simulator is preserved under its world model [86], but I found no independent check in the rows.
+  - issue: OmniDreams row (controllability_evidence) supports the preserved policy ranking under NuRec, but does not call NuRec a reconstruction-based simulator; no other row reports an independent ranking check (count agrees).
+- **114 NOT-CHECKABLE** [7. Open problems and research ] Proposal: run several policies in a generative simulator and in a log-based or real evaluation and report the rank correlation, including cases where the world model's response to the plan is weak (section 4.3).
+  - issue: Research proposal (rank-correlation study); not checkable against evidence.
+- **115 NOT-CHECKABLE** [7. Open problems and research ] **Specify intent, not just objectives.** Gap: sections 3.3 and 3.5.
+  - issue: Proposal heading; Gap is only a pointer to report sections 3.3 and 3.5.
+- **116 NOT-CHECKABLE** [7. Open problems and research ] Proposal: evaluate language-to-scenario adherence directly (does the generated scenario satisfy the clause, for the instructed and the uninstructed agents, as in [10]) instead of only downstream collision rates.
+  - issue: Proposal; the reference to [10] is consistent with the CaFe row (clause satisfaction for instructed agents, leakage test on uninstructed agents in metrics/controllability_evidence).
+- **117 NOT-CHECKABLE** [7. Open problems and research ] **Calibrated risk and style knobs across layers.** Gap: sections 3.1 and 3.4.
+  - issue: Proposal heading; Gap is only a pointer to report sections 3.1 and 3.4.
+- **118 PARTIAL** [7. Open problems and research ] Risk-level and percentile controls are measured well at the scenario level [99][66], reward tilting is a clean one-parameter dial [25][112], and one sensor-level paper has a risk signal [104].
+  - issue: 'Clean one-parameter dial' overstates [25]: its control_signal has one kappa per reward component, its evidence says only 'relatively monotonic', and stated_limitations report erratic behaviour at -50; [99], [66], [112] and [104] parts are supported (104 is the only world-model row with a risk control signal).
+- **119 NOT-CHECKABLE** [7. Open problems and research ] Proposal: study where such knobs saturate or interact (for example extreme tilting giving implausible behaviour, as stated in [25]'s row) and test whether the same risk scale can drive both layers.
+  - issue: Proposal; the embedded fact (extreme tilting -50 gives erratic, implausible behaviour) is supported by [25] stated_limitations.
+- **120 UNSUPPORTED** [7. Open problems and research ] **Reproduction of reported control effects.** Gap: only a minority of rows state a code link in their packets, and a pilot ledger of 30 atomic claims from 6 papers has not been run.
+  - issue: No row has a code-link field and no row value mentions a code link or GitHub (0 of 141), so 'a minority of rows state a code link' cannot be confirmed; the 30-claim, 6-paper pilot ledger is not in any listed evidence file.
+- **121 NOT-CHECKABLE** [7. Open problems and research ] Proposal: register tolerances first and reproduce a few claims with public code (the ledger in this repository is built for that), starting with a guidance dial and a reward-tilting dial.
+  - issue: Proposal, and a statement about the repository ledger that the listed evidence does not cover.
+- **123 NOT-CHECKABLE** [7. Open problems and research ] Proposal: evaluate controllability on conditions the training data covers thinly (pedestrians, adverse weather, unusual road layouts) and report where control degrades.
+  - issue: Research proposal; not checkable against evidence.
+- **125 NOT-CHECKABLE** [8. Limits and how this was che] Neither table was read in full by a person.
+  - issue: Statement about how the report was produced (human reading); no listed file records it.
+- **129 NOT-CHECKABLE** [8. Limits and how this was che] **Company statements** are marketing and technical claims, are not independently verified, and cover only the companies named above.
+  - issue: Statement about the report's scope and the status of company claims; not confirmable from the listed evidence.
+- **130 NOT-CHECKABLE** [8. Limits and how this was che] **Sentence check.** A second model, different from the one used for most of the extraction, checked every sentence of sections 1 to 6 against the table rows and company quotes cited; the process and outcome are in the repository.
+  - issue: Statement about the report's own sentence-check process; none of the listed process files records it.
+- **131 NOT-CHECKABLE** [8. Limits and how this was che] Section 7 is not checked against evidence: it is my reading of the gaps.
+  - issue: Statement about the report itself (section 7 is opinion).
+
+## Flagged automatically but judged SUPPORTED (second look)
+- 1 no_citation :: *Built from three evidence sets: a table of 77 papers on scenario and traffic-simulation generation,
+- 10 number_not_in_cited_rows 2019; number_not_in_cited_rows 371; no_citation :: **Scenario-level table, 77 papers.** A keyword search of OpenAlex and arXiv (2019 onward) found 371 
+- 11 number_not_in_cited_rows 135; no_citation :: Citation chaining from those 34 then led to 135 further leads, of which 62 were taken in (43 with op
+- 12 no_citation :: The table has one row per paper under one schema.
+- 13 number_not_in_cited_rows 104; number_not_in_cited_rows 298; no_citation :: **World-model table, 64 papers.** Ten searches (2023 onward) gave 298 unique records and 230 after a
+- 14 no_citation :: Of the 14 probes, 13 were found by the first nine searches and the last one only after a targeted qu
+- 18 no_citation :: Each row comes from a partial evidence packet (the first two pages plus the best passages), so "not 
+- 22 no_citation :: **Scenario level (77 papers).** Trained-in conditioning is the largest family (18), then inference-t
+- 23 no_citation :: **Sensor level (64 papers).** The families are defined by the signal: ego action or trajectory (19),
+- 51 number_not_in_cited_rows 11 :: Of the 11 papers in the "other" family, most search or optimise for collisions against a system unde
+- 56 no_citation :: Sixteen of the 64 papers condition on layouts, boxes, maps or BEV sketches; 19 on ego action or traj
+- 65 no_citation :: Four of the tabled papers study control itself, and they point the same way.
+- 71 number_not_in_cited_rows 64 :: Eight of the 64 rows say the model was run in a closed loop with a policy: DriveArena [34], DrivingS
+- 78 no_citation :: This layered design lets control live in a compact representation, but none of these rows shows a qu
+- 85 no_citation :: These mirror the academic interfaces in section 4; the public statements give few control measuremen
+- 94 number_not_in_cited_rows 403; no_citation :: Wayve's own GAIA-3 pages answered HTTP 403, Zoox's pages could not be read, and no company statement
+- 100 no_citation :: **Much "control" at the scenario level is an objective.** Adversarial purpose dominates among the pa
+- 102 no_citation :: **Closed-loop use is the direction of travel but the evidence is thin.** Both the company statements
+- 106 no_citation :: **Measure control, not just fidelity.** Gap: sections 4.2 and 4.3.
+- 109 no_citation :: **Close the gap between the two layers.** Gap: section 4.5.
+- 126 no_citation :: The first 34 scenario rows and the 43 added from chaining were audited on random samples (22 of 24 c
+- 128 no_citation :: The world-model papers were chosen partly by citation count, which favours older work; 40 in-scope w

@@ -1,0 +1,672 @@
+[
+ {
+  "id": 9,
+  "section": "1. Scope and evidence",
+  "text": "The company statements read for this survey concern mostly the sensor level, with a few touching scenario control; none describes one system that covers both layers.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "At the **sensor level** a world model generates what the vehicle's cameras, lidar or occupancy sensors would see, usually conditioned on an ego action, a layout or text.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 15,
+  "section": "1. Scope and evidence",
+  "text": "**Company statements, 41.** Quotes from company blogs, papers, product pages and, for Tesla, an X post of a talk (Waymo, Wayve, NVIDIA, Tesla, XPeng, Huawei, Mobileye, Applied Intuition, Nuro, Waabi), plus one secondary page for Baidu that is not used as evidence, graded A (primary source with a method or number), B (primary, marketing wording) or C (secondary).",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Of the 14 probes, 13 were found by the first nine searches and the last one only after a targeted query added after the miss.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 17,
+  "section": "1. Scope and evidence",
+  "text": "Closed-access papers are absent by construction (19 of the 62 chaining leads and none of the 64 world-model papers had no open copy). 20 scenario-level and 40 world-model papers judged in scope were not tabled, and the 254 other papers with full text from the first keyword search were not tabled either, with no per-paper reasons recorded.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "What the sources are not.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 24,
+  "section": "2. Two layers and one question: where does the control signal enter?",
+  "text": "The two layers use some of the same injection mechanisms (cross-attention, adaptive normalisation, token conditioning, guidance at sampling time; a ControlNet-style branch is common at the sensor level and appears at the scenario level only in one rendering stage [124]) but differ in what the signal means: a risk level, a goal point or a language clause at the scenario level; an ego pose, a box layout or a weather prompt at the sensor level.",
+  "cited": [
+   124
+  ],
+  "company_statements": [],
+  "previous_sentence": "**Sensor level (64 papers).** The families are defined by the signal: ego action or trajectory (19), layout, box, map or BEV conditioning (16), unified multi-condition control (16), text or language (4), inference-time guidance or editing (3), prediction without a control input (2), other (2), camera or viewpoint (1) and scenario, risk or event conditioning (1). 20 of the 64 are from 2024, 23 from 2025 and 17 from 2026.",
+  "papers": [
+   {
+    "n": 124,
+    "row_file": "rows/terasim_world_worldwide_safety_critical_data_synth.json",
+    "title": "TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 29,
+  "section": "3.1 Inference-time guidance gives a dial, at a price in realism",
+  "text": "Two risk-level knobs have numeric sweeps: in [99], a trained-in risk condition sampled with classifier-free guidance, the mean crash rate rises from 20.6 % to 50.6 % as the requested risk increases, and in [66] 1,422 of 1,440 requested risk percentiles are realised within 0.05 (98.75 %).",
+  "cited": [
+   66,
+   99
+  ],
+  "company_statements": [],
+  "previous_sentence": "Signal temporal logic rules steer a diffusion model with a rule-violation rate of 0.019 on the speed-limit rule against 0.038 and 0.033 for two optimisation baselines [60].",
+  "papers": [
+   {
+    "n": 66,
+    "row_file": "rows/how_corner_is_a_corner_case_percentile_control_for.json",
+    "title": "How Corner Is a Corner Case? Percentile Control for Highway Scenario Generation"
+   },
+   {
+    "n": 99,
+    "row_file": "rows/rade_learning_risk_adjustable_driving_environment.json",
+    "title": "RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 34,
+  "section": "3.2 Trained-in conditioning is tested most directly, but only for what was trained",
+  "text": "Scenario Diffusion keeps the agent-token match rate at 0.97 from 0 to 50 % masking and the number of extra generated agents rises from 0.4 to 12.6 as the masking probability increases [111].",
+  "cited": [
+   111
+  ],
+  "company_statements": [],
+  "previous_sentence": "DragTraffic conditions agents on type, size and start and target states; with the condition the scenario collision rate at a 9 s rollout is 3.33 % against 13.59 % for a mixed-training baseline, although the row notes that its control evidence is mostly qualitative [32].",
+  "papers": [
+   {
+    "n": 111,
+    "row_file": "rows/scenario_diffusion_controllable_driving_scenario_g.json",
+    "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 45,
+  "section": "3.3 Language control passes through code, retrieval or text conditioning, and reliability is thinly measured",
+  "text": "Direct measurements of text-to-scenario adherence are rare in these rows; evidence is more often downstream, for example ego agents trained on the generated scenes reaching an average SafeBench collision rate of 0.035 against 0.08 for agents trained on scenes from prior methods [128].",
+  "cited": [
+   128
+  ],
+  "company_statements": [],
+  "previous_sentence": "CaFe addresses a failure that other language-conditioned simulators may share: when instructions are broadcast, they change the behaviour of 82.7 % of nearby uninstructed agents at 8 s, while CaFe's private-stream design reduces this to 0.0 % and satisfies 40.8 % of timed clauses against 38.0 % without language [10].",
+  "papers": [
+   {
+    "n": 128,
+    "row_file": "rows/traffic_scene_generation_from_natural_language_des.json",
+    "title": "Traffic Scene Generation from Natural Language Description for Autonomous Vehicles with Large Language Model"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 46,
+  "section": "3.4 Reward and return conditioning, reinforcement-learning fine-tuning and latent control",
+  "text": "Reward tilting uses one coefficient per reward component.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 48,
+  "section": "3.4 Reward and return conditioning, reinforcement-learning fine-tuning and latent control",
+  "text": "A behaviour latent over four reward channels reaches positive controllability scores on all four channels (+0.66 safety, +0.61 map, +8.15 speed, +8.76 acceleration at guidance weight 1.5), where the row reads the unconditional model as +0.06, +0.06, -3.33 and +4.77 on the same channels from a flattened table [18].",
+  "cited": [
+   18
+  ],
+  "company_statements": [],
+  "previous_sentence": "In CtRL-Sim, tilting from -25 to 25 gives a relatively monotonic change in each metric, and at -25 the fine-tuned model produces 2.1 times the collisions and 1.8 times the off-road violations of the base model [25]; Scenario Dreamer reuses it and reports a planner collision rate of 4.9 % at kappa = +10 against 11.9 % at -50 [112].",
+  "papers": [
+   {
+    "n": 18,
+    "row_file": "rows/controllable_sim_agents_with_behavior_latents.json",
+    "title": "Controllable Sim Agents with Behavior Latents (CNeVA)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 54,
+  "section": "3.6 What the scenario-level evidence does not show",
+  "text": "Several papers state that they model vehicles only [60][111], several rows are, by their own notes, realism simulators kept for contrast [4][8][39] or adversarial pipelines rather than user-facing controls [3][11][72], and several controls are shown only qualitatively [130][9].",
+  "cited": [
+   3,
+   4,
+   8,
+   9,
+   11,
+   39,
+   60,
+   72,
+   111,
+   130
+  ],
+  "company_statements": [],
+  "previous_sentence": "The rows report different metrics on different data and baselines, with some shared setups, so this review does not rank methods.",
+  "papers": [
+   {
+    "n": 3,
+    "row_file": "rows/advsim_generating_safety_critical_scenarios_for_se.json",
+    "title": "AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles"
+   },
+   {
+    "n": 4,
+    "row_file": "rows/behaviorgpt_smart_agent_simulation_for_autonomous.json",
+    "title": "BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction"
+   },
+   {
+    "n": 8,
+    "row_file": "rows/bits_bi_level_imitation_for_traffic_simulation.json",
+    "title": "BITS: Bi-level Imitation for Traffic Simulation"
+   },
+   {
+    "n": 9,
+    "row_file": "rows/cadre_controllable_and_diverse_generation_of_safet.json",
+    "title": "CaDRE: Controllable and Diverse Generation of Safety-Critical Driving Scenarios using Real-World Trajectories"
+   },
+   {
+    "n": 11,
+    "row_file": "rows/cat_closed_loop_adversarial_training_for_safe_end.json",
+    "title": "CAT: Closed-loop Adversarial Training for Safe End-to-End Driving"
+   },
+   {
+    "n": 39,
+    "row_file": "rows/drivescenegen_generating_diverse_and_realistic_dri.json",
+    "title": "DriveSceneGen: Generating Diverse and Realistic Driving Scenarios From Scratch"
+   },
+   {
+    "n": 60,
+    "row_file": "rows/guided_conditional_diffusion_for_controllable_traf.json",
+    "title": "Guided Conditional Diffusion for Controllable Traffic Simulation"
+   },
+   {
+    "n": 72,
+    "row_file": "rows/king_generating_safety_critical_driving_scenarios.json",
+    "title": "KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients"
+   },
+   {
+    "n": 111,
+    "row_file": "rows/scenario_diffusion_controllable_driving_scenario_g.json",
+    "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion"
+   },
+   {
+    "n": 130,
+    "row_file": "rows/trafficgamer_reliable_and_flexible_traffic_simulat.json",
+    "title": "TrafficGamer: Reliable and Flexible Traffic Simulation for Safety-Critical Scenarios with Game-Theoretic Oracles"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 59,
+  "section": "4.1 Control interfaces",
+  "text": "Language enters in two ways.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Vista offers a unified action interface (commands, goal points, trajectories, steering and speed) learned in a second phase over frozen weights [137].",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 60,
+  "section": "4.1 Control interfaces",
+  "text": "Directly, through text encoders: MagicDrive and GAIA-2 feed text into cross-attention [81][55], and ReSim uses a T5 encoder for a high-level command [103].",
+  "cited": [
+   55,
+   81,
+   103
+  ],
+  "company_statements": [],
+  "previous_sentence": "Language enters in two ways.",
+  "papers": [
+   {
+    "n": 55,
+    "row_file": "rows/gaia_2_a_controllable_multi_view_generative_world.json",
+    "title": "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving"
+   },
+   {
+    "n": 81,
+    "row_file": "rows/magicdrive_street_view_generation_with_diverse_3d.json",
+    "title": "MagicDrive: Street View Generation with Diverse 3D Geometry Control"
+   },
+   {
+    "n": 103,
+    "row_file": "rows/resim_reliable_world_simulation_for_autonomous_dri.json",
+    "title": "ReSim: Reliable World Simulation for Autonomous Driving"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 61,
+  "section": "4.1 Control interfaces",
+  "text": "Or through an LLM that writes trajectory scripts or edits a scene: DriveDreamer-2 uses a fine-tuned GPT-3.5 to produce trajectories that become an HD map and 3D boxes before the video model [35], and ChatSim uses GPT-4 agents on a reconstructed scene, which its own notes say is not a learned generative world model [48].",
+  "cited": [
+   35,
+   48
+  ],
+  "company_statements": [],
+  "previous_sentence": "Directly, through text encoders: MagicDrive and GAIA-2 feed text into cross-attention [81][55], and ReSim uses a T5 encoder for a high-level command [103].",
+  "papers": [
+   {
+    "n": 35,
+    "row_file": "rows/drivedreamer_2_llm_enhanced_world_models_for_diver.json",
+    "title": "DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation"
+   },
+   {
+    "n": 48,
+    "row_file": "rows/editable_scene_simulation_for_autonomous_driving_v.json",
+    "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 64,
+  "section": "4.2 Evidence of control is mostly indirect",
+  "text": "Where they do, the numbers are favourable: ReSim's zero-shot trajectory difference on Waymo is 0.86 against 1.89 for Vista with expert actions, and 1.13 against 5.68 without action input [103]; Vista's average FVD on nuScenes, a video-quality score rather than an action-following measure, falls from 367.2 without actions to 207.6 with a trajectory [137]; GeoDrive's trajectory error is 1.62 against 2.77 for Vista (units of 10^-2) [59]; OmniNWM's translation error is 1.18 m against 7.56 m for UniScene [90]; MyGo reports camera-control errors on RealEstate10K, since COLMAP fails on dynamic nuScenes scenes [85].",
+  "cited": [
+   59,
+   85,
+   90,
+   103,
+   137
+  ],
+  "company_statements": [],
+  "previous_sentence": "The rows rarely report an action-following measurement.",
+  "papers": [
+   {
+    "n": 59,
+    "row_file": "rows/geodrive_3d_geometry_informed_driving_world_model.json",
+    "title": "GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control"
+   },
+   {
+    "n": 85,
+    "row_file": "rows/mygo_consistent_and_controllable_multi_view_drivin.json",
+    "title": "MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control"
+   },
+   {
+    "n": 90,
+    "row_file": "rows/omninwm_omniscient_driving_navigation_world_models.json",
+    "title": "OmniNWM: Omniscient Driving Navigation World Models"
+   },
+   {
+    "n": 103,
+    "row_file": "rows/resim_reliable_world_simulation_for_autonomous_dri.json",
+    "title": "ReSim: Reliable World Simulation for Autonomous Driving"
+   },
+   {
+    "n": 137,
+    "row_file": "rows/vista_a_generalizable_driving_world_model_with_hig.json",
+    "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 69,
+  "section": "4.3 Four analyses suggest that action conditioning is weaker than it looks",
+  "text": "Released plan-conditioned world models reach at most about a third of the real-video scene response under speed plans, and a training-free retiming wrapper reaches 0.93 to 1.04 of the real stereo response for a 0.54 m shift on KITTI [42].",
+  "cited": [
+   42
+  ],
+  "company_statements": [],
+  "previous_sentence": "On Cityscapes the executed action adds at most 2.46 mid-term mIoU to a semantic forecaster [31].",
+  "papers": [
+   {
+    "n": 42,
+    "row_file": "rows/driving_world_models_move_the_camera_not_the_scene.json",
+    "title": "Driving World Models Move the Camera, Not the Scene"
+   }
+  ],
+  "flags": [
+   "number_not_in_cited_rows 0.93"
+  ]
+ },
+ {
+  "id": 74,
+  "section": "4.4 Closed-loop use is shown, but thinly",
+  "text": "Four more feed actions or planning back into a loop of their own: Drive-WM and an occupancy-world planner feed planning back [41][40], and ADriver-I and Doe-1 alternate observation and action autoregressively without an external policy [1][30].",
+  "cited": [
+   1,
+   30,
+   40,
+   41
+  ],
+  "company_statements": [],
+  "previous_sentence": "Eight of the 64 rows say the model was run in a closed loop with a policy: DriveArena [34], DrivingSphere [45], HelloWorld [63], Making the World React Realistically [82], OmniDreams [86], OmniNWM [90], ReSim [103] and X-World [140].",
+  "papers": [
+   {
+    "n": 1,
+    "row_file": "rows/adriver_i_a_general_world_model_for_autonomous_dri.json",
+    "title": "ADriver-I: A General World Model for Autonomous Driving"
+   },
+   {
+    "n": 30,
+    "row_file": "rows/doe_1_closed_loop_autonomous_driving_with_large_wo.json",
+    "title": "Doe-1: Closed-Loop Autonomous Driving with Large World Model"
+   },
+   {
+    "n": 40,
+    "row_file": "rows/driving_in_the_occupancy_world_vision_centric_4d_o.json",
+    "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving"
+   },
+   {
+    "n": 41,
+    "row_file": "rows/driving_into_the_future_multiview_visual_forecasti.json",
+    "title": "Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 77,
+  "section": "4.4 Closed-loop use is shown, but thinly",
+  "text": "The other 52 rows report open-loop generation or prediction, or state no closed loop; ZYT-World, for example, is designed for closed-loop use but its packet shows no policy-in-the-loop result [141], and DreamDrive's closed-loop status is not stated [33].",
+  "cited": [
+   33,
+   141
+  ],
+  "company_statements": [],
+  "previous_sentence": "The quantitative ones are modest or specific: UniAD driving through DriveArena completes on average 0.137 of the route (ADS 0.086) [34], and through DrivingSphere 0.1170 (ADS 0.0851) [45]; OmniNWM reports a best scenario pass rate of 87.3 % on 150 nuScenes validation scenes at 12 Hz [90]; OmniDreams runs 20 s rollouts with replanning every 533 ms [86].",
+  "papers": [
+   {
+    "n": 33,
+    "row_file": "rows/dreamdrive_generative_4d_scene_modeling_from_stree.json",
+    "title": "DreamDrive: Generative 4D Scene Modeling from Street View Images"
+   },
+   {
+    "n": 141,
+    "row_file": "rows/zyt_world_a_real_time_controllable_world_model_for.json",
+    "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation"
+   }
+  ],
+  "flags": [
+   "number_not_in_cited_rows 52"
+  ]
+ },
+ {
+  "id": 82,
+  "section": "5. What companies say",
+  "text": "**Several companies argue that world models overcome the limits of reconstruction-based simulation.** Waymo says purely reconstructive methods such as 3D Gaussian splats suffer visual breakdowns when the route differs from the logged one [W4], and XPeng says reconstruction-based simulation struggles beyond the reconstructed range [X2].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "W4",
+    "company": "Waymo",
+    "date": "2026-02-06",
+    "claim": "States that purely reconstructive simulation (3DGS) breaks down when the route differs from the logged one",
+    "quote": "purely reconstructive simulation methods (e.g., 3D Gaussian Splats, or 3DGS) suffer from visual breakdowns",
+    "grade": "A",
+    "page": "waymo_wm"
+   },
+   {
+    "id": "X2",
+    "company": "XPeng",
+    "date": "2026-04-29",
+    "claim": "Says 3DGS simulation struggles when the policy leaves the logged path",
+    "quote": "they often struggle to effectively generate and evaluate subsequent scenes beyond the existing reconstruction range",
+    "grade": "B",
+    "page": "xpeng_xworld"
+   }
+  ],
+  "previous_sentence": "Company statements are claims from marketing and technical pages; the grades A and B separate those with a described method or number from those with product wording.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 84,
+  "section": "5. What companies say",
+  "text": "Applied Intuition's Neural Sim, announced in January 2025, is a log-based counterexample: it combines the scale and realism of log data with the controllability of virtual testing and turns drive logs into neural reconstructions [A1][A2].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "A1",
+    "company": "Applied Intuition",
+    "date": "2025-01-06",
+    "claim": "Neural reconstruction of drive logs into closed-loop sensor simulation",
+    "quote": "combines the scale and realism of log data with the controllability and efficiency of virtual testing",
+    "grade": "B",
+    "page": "ai_neuralsim"
+   },
+   {
+    "id": "A2",
+    "company": "Applied Intuition",
+    "date": "2025-01-06",
+    "claim": "Automated pipeline turns logs into neural reconstructions (vendor claim)",
+    "quote": "rapidly transform drive logs into neural reconstructions in hours, not weeks",
+    "grade": "B",
+    "page": "ai_neuralsim"
+   }
+  ],
+  "previous_sentence": "NVIDIA's OmniDreams paper contrasts itself with reconstruction-based neural simulators that are constrained by their initial captured data [N8].",
+  "papers": [],
+  "flags": [
+   "number_not_in_cited_rows 2025"
+  ]
+ },
+ {
+  "id": 85,
+  "section": "5. What companies say",
+  "text": "**Several companies build on a large pretrained model.** The Waymo World Model is built on Genie 3 [W1]; XPeng's X-World on the video model WAN 2.2 [X1]; OmniDreams on Cosmos, with 21k hours of driving data in mid- and post-training [N7][N9]; Wayve describes GAIA-2 as a latent diffusion world model, without naming a pretrained base in the statement read here [Y1].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "N7",
+    "company": "NVIDIA",
+    "date": "2026-06-02 (v4 2026-11-12)",
+    "claim": "OmniDreams: foundation world model mid- and post-trained from Cosmos, generating action-conditioned video autoregressively in real time",
+    "quote": "autoregressively generate action-conditioned videos in real time",
+    "grade": "A",
+    "page": "nv_omnidreams"
+   },
+   {
+    "id": "N9",
+    "company": "NVIDIA",
+    "date": "2026-06-02 (v4 2026-11-12)",
+    "claim": "Mid- and post-training on 21k hours of driving scenarios",
+    "quote": "post-training on 21k hours of driving scenarios",
+    "grade": "A",
+    "page": "nv_omnidreams"
+   },
+   {
+    "id": "W1",
+    "company": "Waymo",
+    "date": "2026-02-06",
+    "claim": "The simulator is built on a pretrained general world model (Genie 3) and adapted to driving",
+    "quote": "The Waymo World Model is built upon Genie 3",
+    "grade": "A",
+    "page": "waymo_wm"
+   },
+   {
+    "id": "X1",
+    "company": "XPeng",
+    "date": "2026-04-29",
+    "claim": "Multi-view generative world model on a pretrained video model (WAN 2.2)",
+    "quote": "built upon the leading video generation model WAN 2.2",
+    "grade": "B",
+    "page": "xpeng_xworld"
+   },
+   {
+    "id": "Y1",
+    "company": "Wayve",
+    "date": "2025-03-26",
+    "claim": "Latent diffusion world model, one framework for control and multi-camera video",
+    "quote": "a latent diffusion world model that unifies these capabilities within a single generative framework",
+    "grade": "A",
+    "page": "wayve_gaia2"
+   }
+  ],
+  "previous_sentence": "Applied Intuition's Neural Sim, announced in January 2025, is a log-based counterexample: it combines the scale and realism of log data with the controllability of virtual testing and turns drive logs into neural reconstructions [A1][A2].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 99,
+  "section": "6. Cross-cutting findings",
+  "text": "**Control is often measured indirectly, most clearly at the sensor level.** At the sensor level the common evidence is a downstream or fidelity number (perception on generated data, FID and FVD) rather than a measurement of whether the output follows the specified signal; the four analyses in section 4.3 show why the distinction matters.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 100,
+  "section": "6. Cross-cutting findings",
+  "text": "At the scenario level several papers measure a dial directly (sections 3.1 and 3.2), though many others report collision rates against a baseline.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Control is often measured indirectly, most clearly at the sensor level.** At the sensor level the common evidence is a downstream or fidelity number (perception on generated data, FID and FVD) rather than a measurement of whether the output follows the specified signal; the four analyses in section 4.3 show why the distinction matters.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 103,
+  "section": "6. Cross-cutting findings",
+  "text": "**Language control is a mixture of three designs.** Text can be turned into code or a loss [13][76], trained in directly [73][10], or used to edit a scene [48]; the limitations stated for them differ where they are stated at all, and direct adherence measurements exist for some (clause satisfaction in [10], command execution success in [48]) but not for most.",
+  "cited": [
+   10,
+   13,
+   48,
+   73,
+   76
+  ],
+  "company_statements": [],
+  "previous_sentence": "**Much \"control\" at the scenario level is an objective.** Adversarial purpose dominates among the papers labelled controllable (section 3.5), and many reported benefits are for the planner trained on the data, not for the user who specifies the scenario.",
+  "papers": [
+   {
+    "n": 10,
+    "row_file": "rows/cafe_causally_faithful_conditional_traffic_scenari.json",
+    "title": "CaFe: Causally Faithful Conditional Traffic Scenario Generation"
+   },
+   {
+    "n": 13,
+    "row_file": "rows/chatscene_knowledge_enabled_safety_critical_scenar.json",
+    "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles"
+   },
+   {
+    "n": 48,
+    "row_file": "rows/editable_scene_simulation_for_autonomous_driving_v.json",
+    "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents"
+   },
+   {
+    "n": 73,
+    "row_file": "rows/langtraj_diffusion_model_and_dataset_for_language.json",
+    "title": "LANGTRAJ: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation"
+   },
+   {
+    "n": 76,
+    "row_file": "rows/ld_scene_llm_guided_diffusion_for_controllable_gen.json",
+    "title": "LD-Scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 105,
+  "section": "6. Cross-cutting findings",
+  "text": "**No shared yardstick for control.** The rows use different data, metrics and baselines; some setups recur (nuScenes FID and FVD at the sensor level, Waymo sim-agent realism scores at the scenario level), but the control measurements are not on a common benchmark, so this survey does not rank methods.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Closed-loop use is the direction of travel but the evidence is thin.** Both the company statements and the academic rows point to closed-loop evaluation and training, yet only eight of 64 world-model rows run a closed loop and three of those are qualitative.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 115,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "The OmniDreams paper reports that the ranking of policies under NuRec is preserved under its world model [86], but I found no independent check in the rows.",
+  "cited": [
+   86
+  ],
+  "company_statements": [],
+  "previous_sentence": "**Check that closed-loop evaluation in a world model ranks policies as the real world does.** Gap: sections 4.4 and 5.",
+  "papers": [
+   {
+    "n": 86,
+    "row_file": "rows/nvidia_omnidreams_real_time_generative_world_model.json",
+    "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 120,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Risk-level and percentile controls have numeric sweeps at the scenario level [99][66], reward tilting gives a roughly monotone response to its coefficient [25][112], and one sensor-level paper has a risk signal [104].",
+  "cited": [
+   25,
+   66,
+   99,
+   104,
+   112
+  ],
+  "company_statements": [],
+  "previous_sentence": "**Calibrated risk and style knobs across layers.** Gap: sections 3.1 and 3.4.",
+  "papers": [
+   {
+    "n": 25,
+    "row_file": "rows/ctrl_sim_reactive_and_controllable_driving_agents.json",
+    "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning"
+   },
+   {
+    "n": 66,
+    "row_file": "rows/how_corner_is_a_corner_case_percentile_control_for.json",
+    "title": "How Corner Is a Corner Case? Percentile Control for Highway Scenario Generation"
+   },
+   {
+    "n": 99,
+    "row_file": "rows/rade_learning_risk_adjustable_driving_environment.json",
+    "title": "RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion"
+   },
+   {
+    "n": 104,
+    "row_file": "rows/risk_controllable_multi_view_diffusion_for_driving.json",
+    "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation"
+   },
+   {
+    "n": 112,
+    "row_file": "rows/scenario_dreamer_vectorized_latent_diffusion_for_g.json",
+    "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 122,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "**Reproduction of reported control effects.** Gap: in an earlier scan of the first 34 papers, 6 evidence packets stated a code-host link (a lower bound, because packets are partial), and a pilot ledger of 30 atomic claims from 6 papers (runs/tableB/ledger.csv in the repository) has been built but none of its claims has been run.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Proposal: study where such knobs saturate or interact (for example extreme tilting giving implausible behaviour, as stated in [25]'s row) and test whether the same risk scale can drive both layers.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ }
+]
