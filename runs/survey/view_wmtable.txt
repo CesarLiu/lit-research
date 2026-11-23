@@ -1,0 +1,466 @@
+
+## action or trajectory conditioning
+[1] ADriver-I: A General World Model for Autonomous Driving
+   output_modality: single-view (front) video frames; also predicts ego speed and steer angle as text-like tokens
+   control_signal: ego control signal (speed, steer angle) predicted by the MLLM, turned into a GPT-3.5 motion text prompt, plus historical frames; no boxes or HD map
+   control_mechanism: history frames concatenated with diffusion input (reference-video control); motion text prompt via retained text-condition modules of the video diffusion model
+   controllability_evidence: Quantitative only for action prediction (L1 0.072 m/s speed, 0.091 rad steer on nuScenes) and FID 5.5 / FVD 97.0 for 4 future frames. Action-to-video effect shown qualitatively (turn left/right).
+   closed_loop: Self-contained recurrent loop (MLLM action then generated frame then action) from three initial pairs, shown only qualitatively; claimed repeatable for infinite steps, no external driving policy or closed-loop metrics.
+   notes: Output is front-view only. Table 6 compares FID/FVD against DriveGAN and DriveDreamer with different input-output lengths (4F to 4F).
+[7] BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scen
+   output_modality: camera plus lidar: future multi-view images and lidar point clouds rendered from predicted BEV latent tokens
+   control_signal: ego-motion action tokens (vehicle movement and steering), converted into left turn, right turn, speed up and slow down instructions
+   control_mechanism: action tokens modulate the input tokens of a spatial-temporal transformer that denoises future BEV tokens, with history BEV tokens as condition tokens; no classifier-free guidance used
+   controllability_evidence: Qualitative only: Figure 6 visualizes generations for turn left, turn right, speed up, slow down. No quantitative action-following metric in the packet.
+   closed_loop: No; open-loop future prediction up to 3 s (6 future frames) on nuScenes key frames.
+   notes: Deliberately uses no manual layout or label conditions to stay scalable. Compares FID 19.0 and FVD 154.0 on nuScenes.
+[20] Copilot4D: Learning Unsupervised World Models for Autonomous Driving v
+   output_modality: lidar point clouds (future point cloud forecasting), via BEV tokens decoded to rays/depth
+   control_signal: future ego-vehicle SE(3) poses as actions, plus past observations and actions as context
+   control_mechanism: discrete diffusion world model conditioned on past tokens and actions; classifier-free guidance at sampling, using an unconditional objective trained on 10% of iterations
+   controllability_evidence: Mostly forecasting accuracy: Chamfer reduced 65%-75% for 1s and more than 50% for 3s versus prior SOTA. Counterfactual ego-action visualisations are qualitative only; CFG cuts Chamfer by 60% on NuScenes...
+   closed_loop: no; open-loop prediction of 1s or 3s futures, autoregressive frame by frame, with no driving policy in the loop
+   notes: Unsupervised point-cloud forecasting world model; control is only ego poses (counterfactual actions shown qualitatively), not a designer-facing control input like...
+[30] Doe-1: Closed-Loop Autonomous Driving with Large World Model
+   output_modality: front-camera image tokens (single view) for predicted observations, plus scene-description text and ego action tokens
+   control_signal: ego action as BEV displacement trajectory or high-level command (turn left, go straight, overtake), plus text question prompts for perception
+   control_mechanism: position-aware tokenizer turns actions into discrete tokens, interleaved with image and text tokens in one sequence; next-token prediction in a unified multimodal autoregressive transformer
+   controllability_evidence: Table 2 reports FID 15.9 for action-conditioned generation (Vista 6.9, Drive-WM 15.8); Fig. 8 shows qualitative turn left, go straight, overtake. No action-following metric in packet.
+   closed_loop: Claims closed loop by alternating observation, description, action autoregressively with next-frame planning; reported evaluation is L2 and collision on nuScenes. Rollout length not stated in packet.
+   notes: Unified perception, prediction and planning model; image generation is one task. Planning metrics paragraph mentions GaussianAD, probably a copy artifact....
+[31] Does the Action Matter? Probing Action-Conditioned Semantic Forecastin
+   output_modality: future semantic segmentation maps (single view, 2D), predicted autoregressively over up to three steps
+   control_signal: ego action: speed and yaw rate, past actions plus the mean future action; derived from vehicle odometry (Cityscapes) or GPS (BDD100K)
+   control_mechanism: FiLM: an MLP encodes the action vector and scales and shifts every U-Net block; compared with input-level concatenation of constant action planes and with no action input
+   controllability_evidence: Test-time action interventions: executed action adds at most 2.46 mid-term mIoU on Cityscapes, while shuffled action lowers FiLM by 23.17; synthetic: FiLM 87.95 vs 59.99 no action, shuffled -31.57
+   closed_loop: No; open-loop autoregressive forecasting only, mid-term horizon 0.54 s (Cityscapes) and 0.6 s (BDD100K), no driving policy in the loop
+   notes: Not a generative video or sensor world model; a small semantic forecaster used as a probe of how strongly forecasts...
+[33] DreamDrive: Generative 4D Scene Modeling from Street View Images
+   output_modality: 4D scene as hybrid static/dynamic 3D Gaussians, rendered into novel-view driving videos via Gaussian splatting
+   control_signal: A driving trajectory at render time (forward, turn left, stop); an input control image seeds generation; map and object inputs are shown qualitatively for scene control
+   control_mechanism: Video diffusion model makes reference images from the control input; multiview stereo lifts them to 3D Gaussians; trajectory is applied by splatting the scene, not by injection into a network
+   controllability_evidence: Mostly qualitative: renders for different trajectories and map/object edits; claims more precise trajectory control than direct video generation. Quality: FID 45.59, FVD 374.02 versus 65.29 and 450.43 for Deformable Gaussians
+   closed_loop: not stated in packet; planning use is trajectory optimisation by 4D collision checks scored with L2 and collision metrics, no interactive policy rollout described
+   notes: Control is geometric (render along a trajectory), not learned conditioning. Controllability is shown qualitatively, no action-following metric in packet. Which...
+[36] DriveDreamer4D: World Models Are Effective Data Machines for 4D Drivin
+   output_modality: Single (front) view driving video of novel trajectories, used as extra data to train 4D Gaussian Splatting scene representations.
+   control_signal: Edited ego actions (steering angle, speed) give a novel trajectory, from which 3D box sequences and HD map sequences are extracted; also first frame and text prompt.
+   control_mechanism: Structured conditions (3D boxes, HDMap, text) are fed as control inputs to a controllable video diffusion model; conditions are view-projected in sync with the maneuver.
+   controllability_evidence: Novel-trajectory renderings are checked with NTA-IoU and FID: average NTA-IoU improves by 22.6%, 43.5% and 15.6% over the three baselines; lane-change FID for PVG falls from 105.29 to 71.52.
+   closed_loop: No; novel-trajectory videos are rendered and scored offline. The paper only positions the method as a foundation for closed-loop simulation.
+   notes: The world model is a data generator for 4DGS reconstruction rather than the end product, and control is via trajectory...
+[40] Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecastin
+   output_modality: 4D semantic occupancy plus 3D backward centripetal flow, forecast from multi-view camera history
+   control_signal: Ego action conditions: velocity, steering angle (as curvature), trajectory (next-step displacement), and high-level commands (go forward, turn left, turn right).
+   control_mechanism: Actions are Fourier-embedded, concatenated, projected by learned layers, and injected through conditional cross-attention with BEV queries in the autoregressive world decoder; ablation compares to additive embedding.
+   controllability_evidence: Table 3 ablation: injecting conditions improves over the unconditioned baseline; a multi-condition row reaches future weighted mIoU 27.8 (+1.0) and VPQ* 35.0 (+1.5); predicted-trajectory row 28.1 and 35.1.
+   closed_loop: Partly: the planner's predicted trajectory is fed back as the next action condition for continuous rollout, but planning is scored open-loop on nuScenes. Rollout length not stated.
+   notes: Output is occupancy, not sensor video. Also an end-to-end planner; in controllable-generation mode the planner is discarded to avoid ego-status...
+[44] DrivingGPT: Unifying Driving World Modeling and Planning with Multi-Mo
+   output_modality: single-view (front camera) video via discrete image tokens, plus ego action tokens (planned trajectory); optional SVD decoder refines to 1024x576 video
+   control_signal: frame-wise relative ego actions (dx, dy, yaw) quantised into tokens, interleaved with image tokens in history
+   control_mechanism: token conditioning: image and action tokens form one unified vocabulary and sequence, modelled by next-token prediction with causal attention and frame-wise 1D rotary embeddings
+   controllability_evidence: Table 1 on navtest: FVD 142.61 and FID 12.78 versus fine-tuned SVD 227.54 and 24.03. Action-condition understanding in long videos shown qualitatively; PDMS 65.3 to 82.4 with position embedding on...
+   closed_loop: No: planning is scored on NAVSIM with a 4-second non-reactive simulation; long videos of 64 frames (32 s) are generated autoregressively but not rolled out with a policy in closed...
+   notes: Joint world model and planner; action-conditioned generation is claimed but not isolated by a dedicated action-following metric in the packet.
+[46] DrivingWorld: Constructing World Model for Autonomous Driving via Vide
+   output_modality: single-view (front camera) video plus predicted vehicle orientation and location for the next frame
+   control_signal: vehicle orientation and ego location history, i.e. pre-defined trajectory paths, given with a short condition video clip
+   control_mechanism: pose tokenized into discrete tokens alongside image tokens in a GPT-style autoregressive model; next-frame module with multimodal fusion layer, balanced attention to keep control tokens from being diluted, random masking...
+   controllability_evidence: User study prefers it over Vista on controllability (percentages in Fig. 8, assignment to datasets unclear); planning on NuScenes gives avg L2 1.26 m and avg collision rate 0.38 %,...
+   closed_loop: No closed loop with a policy; open-loop long generation of 640 frames conditioned on 15 frames; up to 40 seconds in abstract. Planning evaluated open-loop on NuScenes.
+   notes: Inconsistent duration claims: 40 s (abstract), 64 s at 10 Hz (Sec 4.3), 128 s at 5 Hz (Fig 7...
+[51] Epona: Autoregressive Diffusion World Model for Autonomous Driving
+   output_modality: Single-view (front camera) driving video generated autoregressively frame by frame at 512x1024, plus 3-second future trajectories.
+   control_signal: Predefined pose trajectory or per-frame action control, given alongside condition frames (history of 10 frames at test time).
+   control_mechanism: Action control MLP output is added to the timestep modulation of the next-frame visual DiT only, not the trajectory DiT (read from block diagram).
+   controllability_evidence: Qualitative only in packet: given predefined pose trajectories (turn left, turn right, straight), futures from different condition frames follow the path. No action-following number seen.
+   closed_loop: No external-policy closed loop stated. Self-rollout is autoregressive and minute-long: up to 2 minutes claimed, 140 seconds shown.
+   notes: Action-injection detail inferred from Fig. 9 labels only. The FVD comparison text with MagicDriveDiT (94.84) and InfinityDrive (70.06) against Epona...
+[59] GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action
+   output_modality: Single-view video predicted from one reference frame along a user-given ego trajectory.
+   control_signal: User-specified ego-vehicle camera trajectory (R, T, f per step); optionally 2D bounding boxes of other vehicles for dynamic editing (needed in training).
+   control_mechanism: First-frame point cloud is rendered along the trajectory; rendered video is VAE-encoded, concatenated with noisy latent into a light condition encoder whose features, via zero-initialised linear layers, modulate a frozen...
+   controllability_evidence: Trajectory following versus Vista on nuScenes: ADE x10^2 1.62 versus 2.77 and FDE x10^2 3.1 versus 5.28; the introduction states a 42% error reduction. Reverse trajectory is shown qualitatively.
+   closed_loop: No; open-loop generation along given trajectories. A VLA plan-and-verify use is shown only as a qualitative illustration.
+   notes: Table 1 data scale is listed as 5h for GeoDrive versus 1740h for Vista. Packet text includes NUL bytes in...
+[64] HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene U
+   output_modality: future lidar point clouds (0 to 3s) from multi-view camera input, plus text answers and scene descriptions
+   control_signal: planned future ego positions and heading (ego-motion condition) per predicted frame; text prompts drive the understanding branch
+   control_mechanism: ego-motion embeddings are added to learned world queries (one group per future frame, with frame embedding) processed by the LLM, then cross-attention link to future BEV features and a point-cloud...
+   controllability_evidence: No dedicated action-following test in packet. Generation accuracy: Chamfer 3s 1.17 versus 1.73 for ViDAR (about 32% lower), and 1.37 for a separated unification variant.
+   closed_loop: no; open-loop forecasting of 3 seconds (3 future frames) from the current frame only
+   notes: Controllability (ego-motion conditioning) is mentioned as enabling controllable generation but not separately evaluated in the packet. Primarily a unified understanding-plus-forecasting...
+[84] MUVO: A Multimodal Generative World Model for Autonomous Driving with 
+   output_modality: camera images, lidar point clouds (range view) and optional 3D occupancy grids, predicted for future frames
+   control_signal: actions fed to the transition model; their form (e.g. steering, trajectory) is not detailed in packet.
+   control_mechanism: Transition model on fused latent states conditioned on actions; transformer-style attention uses hidden states as queries and concatenated hidden state, action and observation as key-value pairs.
+   controllability_evidence: not stated in packet
+   closed_loop: No; open-loop prediction on sequences, 6 or 4 frames given as observations and 6 or 2 as ground truth.
+   notes: Paper is mainly a sensor-fusion ablation study; the action control is part of the architecture but is not evaluated in...
+[88] OccSora: 4D Occupancy Generation Models as World Simulators for Autono
+   output_modality: 4D occupancy sequences (16 s videos of 3D semantic occupancy)
+   control_signal: ego car trajectory prompt, for example go straight, turning right, motionless
+   control_mechanism: trajectory labels and denoising timestep fed as supplementary inputs alongside token embeddings into the diffusion transformer blocks
+   controllability_evidence: Ablation: removing trajectory conditioning raises FID from 8.34 to 17.48. Per-trajectory FID is 8.902 go straight, 10.886 turning right, 5.257 motionless.
+   closed_loop: No; open-loop trajectory-conditioned generation of 16 s clips. Closed-loop end-to-end driving is listed as future work.
+   notes: Table 3 labels rows only by check marks; I matched the 17.48 row to the missing trajectory column.
+[90] OmniNWM: Omniscient Driving Navigation World Models
+   output_modality: panoramic videos of RGB, semantics and metric depth, jointly generated, lifted to 3D semantic occupancy
+   control_signal: Ego trajectory actions encoded as normalized panoramic Plücker ray-maps; the VLA planner's output trajectory also steers generation in the closed loop
+   control_mechanism: Canonical ray-maps and reference frames given as conditions C to a panoramic diffusion transformer; denoising on a joint latent of channel-concatenated RGB, semantics and depth
+   controllability_evidence: Camera-control error on 150 nuScenes validation scenes: 1.18 m TransErr versus 7.56 m for UniScene; zero-shot nuPlan TransErr 1.65 versus 7.12 for DiST-4D
+   closed_loop: Yes: planners including OmniNWM-VLA evaluated closed loop on 150 nuScenes validation scenes at 12 Hz, best Scenario Pass Rate 87.3%; generation lengths up to 321 frames listed
+   notes: Table 3 shows two OmniNWM rows with an unclear distinguishing marker in the packet. FID 5.45 and FVD 23.63 at...
+[103] ReSim: Reliable World Simulation for Autonomous Driving
+   output_modality: front-view video, 4 s at 10 Hz, 512x896
+   control_signal: Ego future trajectory (8 waypoints at 2 Hz), including hazardous non-expert ones, plus an optional high-level text command (turn left, move forward, turn right).
+   control_mechanism: Lightweight trajectory encoder (two attention blocks, linear head) feeds waypoints into the DiT input alongside video latents; command via T5 text; command dropped with p=0.5 for classifier-free guidance.
+   controllability_evidence: Waymo zero-shot Trajectory Difference (Table 1): action-free 1.13 vs Vista 5.68; expert action 0.86 vs 1.89 (GT future 0.58). Human study favors ReSim on non-expert action following.
+   closed_loop: Yes, as qualitative closed-loop visual simulation: the world model executes a driving agent's predicted action to produce the next visual state. Duration not stated; no closed-loop benchmark yet.
+   notes: Also includes a Video2Reward module and planning applications beyond generation.
+[137] Vista: A Generalizable Driving World Model with High Fidelity and Vers
+   output_modality: front-view video at 10 Hz and 576x1024, extended by autoregressive rollout
+   control_signal: Multi-modal ego actions: high-level command and goal point, low-level trajectory, steering angle and speed.
+   control_mechanism: Unified action interface learned in a second phase with frozen pretrained weights: LoRA plus zero-initialised projection layers in all UNet attention blocks; 15% dropout per action mode; action independence constraint.
+   controllability_evidence: Average subset FVD on nuScenes falls from 367.2 (action-free) to 322.7 goal point, 292.2 command, 230.0 angle and speed, 207.6 trajectory; Waymo 311.8 to 268.9 command, 273.7 trajectory.
+   closed_loop: No policy-in-the-loop evaluation; autoregressive long-horizon rollouts only, with 15 s predictions shown in a guidance-scale figure.
+   notes: Figure 8 value-to-condition pairing inferred from garbled figure text; Waymo order of 311.8, 273.7, 268.9 maps to action-free, command, trajectory...
+[140] X-World: Controllable Ego-Centric Multi-Camera World Models for Scalab
+   output_modality: future multi-camera video (seven cameras, 12 FPS) generated from multi-view history
+   control_signal: Future ego action sequence; optional controls for dynamic agents and static road elements; text prompt for appearance; camera parameters
+   control_mechanism: Adaptive layer norm for actions and timesteps, additive embeddings for camera parameters, decoupled cross-attention branches for dynamic agents, static elements and text
+   controllability_evidence: Qualitative action-controllability figure: logged versus generated video with ego trajectory for next 3 s overlaid (for example Turn Right to Turn Left); no number in packet
+   closed_loop: Yes, as a streaming autoregressive simulator for VLA policies: counterfactual detour and inserted-cyclist examples shown qualitatively; rollout length not stated; training clips are 81 frames
+   notes: Technical report. Metrics and quantitative controllability results are probably in pages missing from the packet. Could also be read as...
+
+## camera or viewpoint control
+[85] MyGo: Consistent and Controllable Multi-View Driving Video Generation 
+   output_modality: multi-view driving video (8-frame clips at 256x512, 6 views on nuScenes); also single-view camera-controlled video on RealEstate10K
+   control_signal: onboard camera pose (intrinsics, extrinsics, as Plucker embeddings) to control ego motion, plus BEV map, 3D boxes, first-frame keyframes and neighbour-view video
+   control_mechanism: ControlNet-like module injecting Plucker coordinates before temporal transformers with zero-initialised linear layers; other conditions via condition cross-attention; epipolar-masked neighbour-view cross-attention
+   controllability_evidence: RealEstate10K: MyGo RotErr 7.71 and TransErr 5.98 versus CameraCtrl 8.36 and 6.27. nuScenes KPM 81.22% versus 80.67% (CameraCtrl); FID 11.60, FVD 122.06.
+   closed_loop: no; open-loop video generation of short clips (8 frames at 2 frames per second), no policy in the loop
+   notes: Camera control accuracy is verified only on RealEstate10K, since COLMAP fails on dynamic nuScenes scenes; nuScenes controllability is via KPM...
+
+## inference-time guidance or editing
+[42] Driving World Models Move the Camera, Not the Scene
+   output_modality: single-view front-camera video forecasts (24-frame evaluation arms, 36-frame rollouts, 576x1024) from frozen released generators
+   control_signal: ego plan: speed plans (0.5x, 1.5x of logged speed, braking, stopping) and lateral shifts (0.54 m up to 3.5 m)
+   control_mechanism: Released models embed the plan as tokens. ReTime-Compose is training-free: retimes the model's own logged-speed rollout, splats frames to planned cameras using depth and poses, frozen generator completes uncovered pixels,...
+   controllability_evidence: Released models reach at most about a third of real-video scene response under speed plans; ReTime-Compose reaches .93-1.04 of real stereo response for a 0.54 m shift on KITTI; speed...
+   closed_loop: No; closed-loop planning with these forecasts is stated as still to be tested; open-loop evaluation over 24 plan steps
+   notes: Mainly a diagnostic and evaluation paper on plan-conditioned world models; the proposed method is an inference-time wrapper, not a new...
+[65] How Can Driving World Models Do Counterfactual Prediction?
+   output_modality: Single-view driving video from frozen existing world models (Vista, DrivingWorld); benchmark videos rendered in CARLA.
+   control_signal: Alternative ego action given as a target trajectory; in the proposed pipeline also factual-continuation evidence from the recorded episode.
+   control_mechanism: Training-free: transport factual-continuation pixels into the counterfactual camera view, let the frozen world model complete unsupported regions, then a Combine stage restores the evidence. Weights unchanged.
+   controllability_evidence: Overall on Vista RecD/RecC rise from 0.38/0.33 (direct) to 0.70/0.65, LPIPS 0.423 to 0.169; on DrivingWorld 0.31/0.24 to 0.67/0.64, LPIPS 0.291 to 0.211.
+   closed_loop: No. Open-loop, short-horizon with scripted surrounding agents; closed-loop suites with reactive agents are future work.
+   notes: Analysis and benchmark paper rather than a new controllable world model; the control input studied is ego action on existing...
+[70] Is Energy Guidance All You Need? Training-Free Norm Injection for Driv
+   output_modality: future driving video jointly with a planned ego trajectory (4 past frames, 8 predicted frames)
+   control_signal: differentiable driving-norm energy on the ego trajectory; demonstrated with an MSE attraction toward a counterfactual braking target
+   control_mechanism: training-free sampling-time guidance: energy gradient on the one-step clean trajectory estimate becomes a velocity correction on the ego stream, with clipping and an asymmetric schedule
+   controllability_evidence: Over 35 clips the guided trajectory ends a mean 1.3 m from the brake target versus 13.6 m unguided, but video optical flow changes by 2% or less, so the...
+   closed_loop: No; no policy rollout. Single open-loop sampling of 8 future frames from 4 past frames.
+   notes: Short workshop-style paper. Control acts on the trajectory, not the video. nuScenes appears only in the reference list, so dataset...
+
+## layout, box, map or BEV conditioning
+[6] BEVControl: Accurately Controlling Street-view Elements with Multi-per
+   output_modality: other: multi-view street-view images (six camera perspectives per BEV layout, single frame rather than video)
+   control_signal: Editable BEV sketch (160 x 160 m around ego) with five channels: road line, box centre, text label and heading of foreground objects; plus a text prompt.
+   control_mechanism: Sketch is projected to each camera view; a Controller embeds foreground boxes and background road hints via self-attention, a Coordinator adds cross-view-cross-element attention; text via cross-attention. Only newly added layers...
+   controllability_evidence: Detection and segmentation on generated images versus the input layout; foreground segmentation mIoU rises from 5.89 (BEVGen) to 26.80; training on generated data gives on average 1.29 NDS improvement.
+   closed_loop: No; per-frame image generation from a layout, no interactive rollout with a driving policy described in the packet.
+   notes: Image generator, not a temporal world model. Which pretrained model [14] is used is not named in the packet text;...
+[28] DiVE: DiT-based Video Generation with Enhanced Control
+   output_modality: multi-view video (temporally and cross-view consistent), 16-frame clips extended autoregressively
+   control_signal: BEV instance layouts (2D coordinates, heading, ID, instance captions), road sketches, and scene text caption, all derived from 3D geometry by projection
+   control_mechanism: Caption-layout joint cross-attention (Fourier-encoded layout plus CLIP instance captions via MLP), ControlNet-Transformer with 13 duplicated blocks for road sketch, and classifier-free guidance with separate scales for text, layout, sketch.
+   controllability_evidence: Against MagicDrive (Table 1): FVD 94.60 vs 221.90, object mAP 24.55 vs 11.73, map mIoU 35.96 vs 18.44. CFG ablation (Table 2) also supports the layout/sketch guidance.
+   closed_loop: No; open-loop generation only. Evaluated on 16-frame sequences; longer video produced autoregressively with last-k frames conditioning the next clip.
+   notes: Limits passage in the packet was empty. Abstract mentions corner cases but evidence shown is qualitative plus Table 1. Short...
+[34] DriveArena: A Closed-Loop Generative Simulation Platform for Autonomou
+   output_modality: multi-view (surround-view) images generated autoregressively as a stream of arbitrary length
+   control_signal: map and vehicle layouts from a Traffic Manager (3D boxes, BEV map, projected canvases), camera parameters, relative ego pose, reference image and text prompts for weather and style
+   control_mechanism: condition encoders feeding a randomly initialised ControlNet on the UNet; reference features via cross-attention; cross-view attention; autoregressive reuse of previous frames and relative pose
+   controllability_evidence: UniAD PDMS 0.902 on generated images versus 0.910 on original nuScenes; qualitative adherence to lanes and boxes, including nuPlan and CARLA layouts.
+   closed_loop: Yes: UniAD trajectories drive the ego vehicle through the Traffic Manager and generated images; four routes, average route completion 0.137 and ADS 0.086.
+   notes: Platform paper: the controllable generator (World Dreamer) is one module plus a rule-based Traffic Manager and an agent. Controllability is...
+[38] DriveScape: Towards High-Resolution Controllable Multi-View Driving Vi
+   output_modality: Multi-view driving video at 1024 x 576 resolution and up to 10Hz.
+   control_signal: BEV maps and 3D boxes projected to each camera view, BEV key-frames, neighbour-camera videos; also camera ID embeddings, canbus (velocity, direction) and a text scene prompt. Sparse conditions supported.
+   control_mechanism: Bi-Directional Modulated Transformer: condition-to-latent and latent-to-condition cross-attention with temporal self-attention, injected into the UNet; condition features come from convolutional encoders.
+   controllability_evidence: Perception on generated validation data drops only slightly from real: Road mIoU 64.43 (-9.25), Vehicle mIoU 28.86 (-5.98), Object NDS 36.5 (-4.71). FID 8.34, FVD 76.39. Qualitative map and layout...
+   closed_loop: No closed-loop rollout described; trained and evaluated on 8-frame video sequences.
+   notes: Paper also claims mono-condition and multi-condition unified control; family chosen as layout/map/box conditioning. Closed-loop field reflects absence in packet only.
+[43] DrivingDiffusion: Layout-Guided multi-view driving scene video generat
+   output_modality: multi-view video (six cameras), generated by cascading multi-view image, single-view temporal, and post-processing stages
+   control_signal: Artificial 3D layout (3D boxes of obstacles plus road structure) projected into each camera view, plus text prompts (global and per-category local prompts)
+   control_mechanism: ResNet-like 3D layout controller adds layout features to U-Net layers at several resolutions via residual connections; also cross-view and cross-frame attention, a key-frame controller, and masked local-prompt cross-attention
+   controllability_evidence: Perception models run on images generated from ground-truth layouts: road mIoU 63.2 (-8.1%) and vehicle mIoU 31.6 (-4.4%) versus baseline 71.3 and 36.0; BEVGen drops -21.1% and -39.1%
+   closed_loop: no; open-loop generation from a given layout; video length extended with a temporal sliding window
+   notes: Fidelity: FID 15.83, FVD 332 (Table 1). Synthetic augmentation of 6,000 frames raised NDS from 0.412 to 0.434. Perturbing the...
+[68] InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Genera
+   output_modality: 3D scene: unbounded voxel world lifted to dynamic 3D Gaussians, plus long driving video (200 frames) and renderable views
+   control_signal: HD map, 3D vehicle bounding boxes with trajectories, and text prompts (e.g. weather, time of day).
+   control_mechanism: Map-conditioned voxel diffusion with outpainting; voxel world rendered into pixel-aligned guidance buffers (semantic, coordinate) conditioning the video model; text via a FLUX-based ControlNet producing the first frame from semantic buffers.
+   controllability_evidence: User study of HD map alignment at frames 40, 80, 120: positive rates 84.6%, 83.9%, 84.8% versus Panacea 76.8%, 54.0%, 53.4%; 180 samples per frame index.
+   closed_loop: No policy rollout. Video extended to 200 frames from the 25-frame model; free driving inside the generated 3DGS scene is claimed, scene about 100 000 m2.
+   notes: Table pairing of user-study numbers (ours vs Panacea) inferred from garbled table layout. Not an ego-action-conditioned model.
+[79] LidarDM: Generative LiDAR Simulation in a Generated World
+   output_modality: LiDAR point cloud sequences (4D LiDAR video) raycast from a generated 3D scene composed with generated dynamic actors
+   control_signal: traffic layout at t=0: HD map layout rasterized into a segmentation map (5 map classes) plus actor boxes and ego position
+   control_mechanism: Map latent conditions a latent diffusion model for the static scene, sampled with classifier-free guidance; actors fitted to layout boxes; trajectories from an extended Waymax simulator; raycasting
+   controllability_evidence: CenterPoint on generated LiDAR gets 56.4% vehicle mAP vs 59.7% on real LiDAR; mAP agreement with raw scan up to 81.1%; Chamfer distance 0.17 vs 0.39 for sequence-diffusion baseline
+   closed_loop: No; open-loop generation (accumulated over 90 frames shown); generated data is used to pretrain a planner, not rolled out interactively
+   notes: Simulator-style pipeline with composed generated world; control is the initial layout, not an ego action. No limitations section in packet.
+[80] MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Dr
+   output_modality: multi-view video, 6 cameras, up to 848x1600 and 241 frames in a single inference
+   control_signal: per-frame BEV road map, 3D bounding boxes, ego trajectory, camera poses, and text (weather, time, richer MLLM-generated captions)
+   control_mechanism: cross-attention for text, boxes, camera and trajectory; additive ControlNet-style branch for maps; spatial-temporal encoders aligned to 3D VAE latents (downsampling plus temporal transformer with RoPE)
+   controllability_evidence: Table 2 on nuScenes val: FVD 94.84, mAP 18.17, mIoU 20.40 versus MagicDrive (16f) 218.12, 11.86, 18.34. Box spatial-temporal encoding ablated against a global reduce baseline in Fig. 10.
+   closed_loop: No: open-loop generation from given conditions in one inference (up to 241 frames); rollout inference is described as degrading quality, so it is avoided. No driving policy loop.
+   notes: Packet has no limitations passage; the rollout-degradation remark is about prior methods. Could also be labelled multi-condition control (geometry plus...
+[92] Panacea: Panoramic and Controllable Video Generation for Autonomous Dr
+   output_modality: multi-view (6 views, panoramic) video, 8 frames at 256x512
+   control_signal: BEV layout sequences (projected 3D boxes, object depths, road maps, camera poses), text for weather, time and scene, and an optional conditioning image
+   control_mechanism: BEV sequences via ControlNet; text via frozen CLIP encoder; conditioning image concatenated with diffused input in a two-stage pipeline
+   controllability_evidence: Perception NDS on generated val data 32.1 versus 46.9 on real, 68% relative; real plus generated training reaches NDS 49.2 (+2.3). ControlNet beats concatenation: FVD 139 versus 226.
+   closed_loop: No: open-loop generation from BEV sequences. Long videos made by sliding window with layout control dropped, shown qualitatively only.
+   notes: Table 1 reports FVD 139 and FID 16.96 on nuScenes val.
+[93] PanDWM: Panoramic 4D Driving World Models
+   output_modality: One 360 degree panoramic surround-view video, lifted by a feed-forward decoder into 3D Gaussians and 4D scenes for novel-view rendering.
+   control_signal: Class-coloured 3D box wireframes and HD-map outlines stitched into the panorama, short text prompt, 3 panoramic history frames, and virtual-camera ray maps.
+   control_mechanism: Box and map images enter through image-adapter residuals in the first six blocks; CLIP and T5 text via SD3 joint attention; Fourier ray maps added to cross-view and temporal blocks.
+   controllability_evidence: Controllability is scored by object recall and road IoU, but the packet gives no values. Fidelity on Val-150: FID 10.09 and FVD-1 37.4.
+   closed_loop: No policy loop stated in packet; autoregressive long rollouts up to 19.5 s on nuScenes validation scenes.
+   notes: Controllability results not visible in packet. Packet mentions Gaussian novel-view rendering with moved viewpoints, which is the camera-control aspect.
+[96] PerLDiff: Controllable Street View Synthesis Using Perspective-Layout 
+   output_modality: multi-view street-view images (six nuScenes cameras), single frames rather than video; KITTI single-view images
+   control_signal: 3D object annotations (boxes with class and yaw) rendered as perspective layout masking maps, plus road maps; text and camera also used.
+   control_mechanism: PerL-based controlling module with a perspective-layout masked cross-attention, added to pretrained Stable Diffusion and fine-tuned; ConvNext road map encoder; MLP box features; classifier-free guidance.
+   controllability_evidence: BEVFormer on synthetic validation: mAP 25.10, NDS 36.24, mAOE 0.72, versus BEVControl* gains of 8.62% mAP and 8.16% NDS; Road mIoU 61.26, Vehicle mIoU 27.13.
+   closed_loop: No; static image synthesis from annotations, no rollout.
+   notes: Image-level controllable street-view generator, not a temporal world model; mentions possible future use as a traffic simulator.
+[120] Street-View Image Generation From a Bird's-Eye View Layout
+   output_modality: multi-view street-view images (single frame, surrounding cameras); no video
+   control_signal: BEV layout of HD map and traffic actors (21 channels on nuScenes) plus per-camera intrinsics and extrinsics
+   control_mechanism: BEV layout is tokenised by a VQ-VAE; an autoregressive transformer attends globally to BEV tokens, with camera-derived spatial embeddings and a pairwise camera attention bias
+   controllability_evidence: CVT on generated images: road mIoU 50.20, vehicle mIoU 5.89 (real-image model: 66.31 and 27.51); FID 25.54 on nuScenes; augmentation adds 0.6 mIoU road and vehicle
+   closed_loop: no; open-loop image generation, with layouts also taken from the MetaDrive simulator or edited by users
+   notes: Early image-only scene generator, not a temporal world model. View Consistency Score 5.65 (nuScenes) versus 12.86 for real images.
+[121] Streetscapes: Large-scale Consistent Street View Generation Using Auto
+   output_modality: single-view street-view image sequences along a camera path, generated two frames at a time (512x512) and extended autoregressively; optional 3D reconstruction
+   control_signal: overhead street map plus height map rendered into per-view G-buffers (semantics, disparity, height) for a given camera trajectory; optional text for city style, weather, time of day
+   control_mechanism: G-buffer-conditioned ControlNet cloned with motion modules, base diffusion U-Net kept frozen so text control is inherited; autoregressive temporal imputation at inference
+   controllability_evidence: Mostly qualitative: outputs follow the layout and camera poses over 100 frames covering 160 to 176 m; text changes weather and time with the same G-buffers. Table 2 numbers are...
+   closed_loop: No: no driving policy; autoregressive rollout along a user-given camera path, 100 frames over more than 170 m shown.
+   notes: A city-scale street-view generator, not an ego-vehicle driving world model; control is by map layout, camera pose and text rather...
+[133] UniScene: Unified Occupancy-centric Driving Scene Generation
+   output_modality: semantic occupancy sequences, multi-view video and LiDAR point clouds, generated hierarchically with occupancy as the intermediate representation
+   control_signal: BEV layout sequences (editable, for example removing a car) for occupancy; text prompts for video attributes such as weather and time of day
+   control_mechanism: BEV layout concatenated with noise volumes in an occupancy DiT; occupancy rendered to depth and semantic maps and injected into video U-Net via ControlNet-style branch; text by cross-attention; layout editing...
+   controllability_evidence: Layout edits shown qualitatively; mIoU is used to check layout accuracy of generated outputs. Reported gains versus prior SOTA: Figure 1 shows 41.4% lower video FVD, 71.1% lower occupancy error...
+   closed_loop: no; open-loop generation of occupancy, video and LiDAR from layouts, no driving policy in the loop
+   notes: Figure 1 percentages were read from the figure text and the metric names for the occupancy bar are not clear...
+[134] Unleashing Generalization of End-to-End Autonomous Driving with Contro
+   output_modality: Multi-view driving video, up to 40 frames (12 seconds).
+   control_signal: BEV layout (foreground object boxes, background map classes) plus scene captions enabling scene-level edits (weather, time) and instance-level edits (object appearance).
+   control_mechanism: Shared-noise reinitialization across views and frames, plus scene- and instance-aware cross-frame attention for consistency. How the BEV layout is injected is not stated in packet.
+   controllability_evidence: Scene plus instance editing lowers UniAD average collision rate from 0.34 to 0.27 (Table 4); failure-case sampling with 972 generated cases (4%) gives 25% improvement.
+   closed_loop: No. Authors state the framework works only open-loop because layout cannot change.
+   notes: Text captions also steer edits, so multi-condition reading is possible. Control-effectiveness evidence is mainly downstream planning, not layout-adherence measured directly...
+[138] WoVoGen: World Volume-aware Diffusion for Controllable Multi-camera Dr
+   output_modality: six-camera street-view images and videos, plus predicted future 4D world volume (HD map and occupancy)
+   control_signal: ego control sequence (velocity, steering) for future world volume; world volume for images; text prompts for weather, location, object classes; camera extrinsic and volume edits
+   control_mechanism: action tokens via cross-attention and past volumes by channel concatenation; world-volume image features as ControlNet input; CLIP text by cross-attention; object guidance by masked cross-attention
+   controllability_evidence: Ablation FID 28.6 object guidance only, 27.6 world volume plus object guidance; KPM 90.0% multi-view, 80.2% temporal; generated data lifts BEVDet vehicle mAP from 34.9 to 36.2.
+   closed_loop: No interactive policy rollout stated; future volumes are predicted from past volumes and ego controls.
+   notes: Two-stage design mixes action, volume and text control; family chosen for the dense world-volume condition. Single-frame FID 27.6 and video...
+
+## multi-condition unified control
+[21] Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with W
+   output_modality: Multi-view driving video (single-view video expanded to several views); a separate model generates LiDAR points.
+   control_signal: HDMap and 3D cuboid condition videos, text prompts (weather, time of day), optional LiDAR depth; ego trajectory customised via a GUI that interpolates camera poses and re-renders the HDMap video.
+   control_mechanism: ControlNet branches on a frozen Cosmos DiT base take HDMap/LiDAR condition tokens; text enters by per-view cross-attention; multi-view expansion concatenates clean input-view tokens with noisy tokens plus view indicators.
+   controllability_evidence: Indirect, via downstream gains: lane-detection gain of +6.0% at 2k real clips, up to +9.4% in fog; adding SDG to 1K real clips gives +55.0% relative LET-AP, comparable to 9.3x...
+   closed_loop: No. Offline synthetic data generation (121-frame chunks); policy evaluated open-loop with minADE.
+   notes: Packet has no direct condition-following or fidelity metric. Control family could also be read as trajectory plus text; HDMap-based layout...
+[37] DriveDreamer: Towards Real-world-driven World Models for Autonomous Dr
+   output_modality: multi-view images and driving video (448x256), plus future driving actions as a second output
+   control_signal: HDMap and 3D boxes with labels, text prompts (weather, time of day), reference frame, and ego driving actions (yaw angle, velocity) to steer future videos
+   control_mechanism: HDMap concatenated with noisy latents; 3D boxes via gated self-attention; text via cross-attention; ActionFormer predicts future road structural features from actions as conditions for Auto-DM
+   controllability_evidence: Synthetic data from 4K traffic conditions raises BEVFusion mAP 32.8 to 35.8 (+3.0) and FCOS3D mAP 30.2 to 30.9; action-conditioned videos are shown qualitatively (turn left or right).
+   closed_loop: no; open-loop only. Predicts 16 frames and 16 future actions, and open-loop planning is evaluated on nuScenes over 3 seconds
+   notes: Packet does not include FID/FVD numbers or an explicit limitations section. Action control evidence is qualitative in the packet.
+[41] Driving into the Future: Multiview Visual Forecasting and Planning wit
+   output_modality: multi-view video (six surround cameras, nuScenes)
+   control_signal: frame-wise 3D layouts (3D boxes, HD map, BEV segmentation), text (weather, lighting), ego action sequence, and initial images
+   control_mechanism: unified condition interface: all conditions embedded to d dimensions, concatenated along the token axis, and applied by frame-wise cross-attention in the 3D UNet; 20% condition dropout for classifier-free guidance
+   controllability_evidence: Perception models run on generated images (numbers not in packet); qualitative layout and action control. Tree planning with both rewards gives avg L2 0.80 m, collision 0.26% (Table 4).
+   closed_loop: Planning-in-the-loop: world model imagines futures for planner-sampled trajectories, reward picks one, tree rollout repeats; evaluated with open-loop L2 and collision metrics. Horizon in steps not stated in packet.
+   notes: Packet has no limitations passage. Controllability numbers for generation are absent from the packet.
+[45] DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simul
+   output_modality: 4D occupancy world (static OccDreamer scene plus dynamic actors), rendered to multi-view video by VideoDreamer.
+   control_signal: Regional BEV map plus text prompt for static occupancy; per-actor position, ID and caption, scene caption and camera intrinsics for video; driving agent control signals in the loop.
+   control_mechanism: OccDreamer: CLIP text by cross-attention, BEV map through a ControlNet branch. VideoDreamer: ST-DiT with ControlNet branch for occupancy features and cross-attention for actor and scene embeddings.
+   controllability_evidence: Generated video evaluated with UniAD: mAP 21.45 and NDS 34.16 versus 12.92 and 28.36 for MagicDrive; FVD 103.42. OccDreamer shows BEV map and text control qualitatively.
+   closed_loop: Yes; UniAD receives rendered video and outputs control on 100 pre-defined routes. Route Completion is 0.1170 (11.7% of each route on average), ADS 0.0851.
+   notes: Trajectories of actors come from a transportation simulator per Figure 2 caption. Fidelity numbers are on generated data, not direct...
+[54] GAIA-1: A Generative World Model for Autonomous Driving
+   output_modality: driving video (frames of 288x512, output at up to 25 Hz); number of camera views not stated in packet
+   control_signal: Text prompts (e.g. weather, illumination, objects), ego action as future speed and curvature values, or a video prompt; unconditional generation also possible.
+   control_mechanism: Text, action and image tokens form one sequence for an autoregressive transformer; conditioning tokens randomly dropped in training; classifier-free guidance on token logits with scheduled scale, plus negative prompting.
+   controllability_evidence: Qualitative only: out-of-distribution steering left or right gives matching futures with other agents reacting; text prompts change weather and illumination; text plus action combined to overtake a generated bus. No...
+   closed_loop: No; open-loop rollouts from a video prompt under prescribed actions. Long unconditional rollouts shown up to +30 s via sliding window. Neural-simulator use is only suggested.
+   notes: Packet has no quantitative controllability metric and no dataset names; fields marked accordingly. Camera configuration not visible in packet.
+[55] GAIA-2: A Controllable Multi-View Generative World Model for Autonomou
+   output_modality: multi-camera video, up to five cameras at 448 x 960
+   control_signal: ego speed and curvature, 3D boxes of dynamic agents, metadata (country, weather, time of day, lanes, traffic lights), CLIP text or image embeddings, scenario embeddings
+   control_mechanism: ego action and flow-matching time injected by adaptive layer norm; other conditioning variables by cross-attention; inpainting and scene editing via masked or partially noised latents at inference
+   controllability_evidence: Dynamic agent conditioning scored by IoU between projected boxes and segmentation masks; qualitative action-driven and agent-driven safety-critical scenarios. No numbers in packet.
+   closed_loop: Open-loop only: autoregressive rollout with sliding window of k = 3 context latents under ego conditioning; no driving policy in the loop stated.
+   notes: Future-work text is cut off in the packet, so limitations may exist. Scenario embeddings come from an internal proprietary model.
+[56] GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for U
+   output_modality: RGB image plus depth, for spatial novel views under shifted cameras and temporal future prediction (long-horizon example 0-9 s), from a 3D Gaussian scene representation
+   control_signal: target camera shift or future ego trajectory (projected sparse RGB-D), plus language instructions such as weather conditions and dynamic vehicle manipulation
+   control_mechanism: Denoising UNet takes noisy latent, reference latent, low-level sparse RGB and depth conditions, and an LLM-produced language condition from Gaussian world tokens and the instruction; v-prediction
+   controllability_evidence: Editing judged qualitatively only. Dual-condition ablation at +-1 m: low-level only FID 10.12, FVD 45.14; adding high-level language 8.36, 44.5; high-level alone fails
+   closed_loop: No; open-loop generation along the future trajectory, long-horizon example spans 0-9 s
+   notes: Hybrid understanding plus generation model; control of generation via text is mainly editing, evaluated qualitatively. Table VIII values match the...
+[63] HelloWorld: Towards Practical Applications of Generative Driving World
+   output_modality: synchronized seven-camera RGB video, plus RGB-conditioned LiDAR synthesis (range and intensity)
+   control_signal: 6-DoF ego pose, rendered HD maps and 3D boxes, text, camera identity, optionally first-frame image.
+   control_mechanism: Factorized conditioning: ego pose via Plucker raymap encoder modulating backbone by adaptive normalization; HD map and 3D box layout via control tower injecting residuals at multiple depths; text via cross-attention;...
+   controllability_evidence: Pose adherence: 29-frame benchmark rotation 2.0620 and translation 0.2570 versus Lingbot World 2.0 at 3.2310 and 0.2853; versus Cosmos transfer 2.5, rotation 5.534 to 2.027 degrees, translation 1.880 to 1.352.
+   closed_loop: Yes, demonstrated qualitatively: coupled with the Alpamayo 1.5 action model in an observation-action loop using the few-step student; rollout length not stated in packet. Paper says it is not a...
+   notes: Packet is partial; Cosmos comparison numbers are for the post-trained model with first-frame conditioning. Limitations list is cut off at...
+[81] MagicDrive: Street View Generation with Diverse 3D Geometry Control
+   output_modality: multi-camera street-view images; extended to multi-view video (7-frame clips, 16-frame at 12Hz) by fine-tuning
+   control_signal: Camera pose, road map (BEV), 3D bounding boxes and text description (for example weather, time of day)
+   control_mechanism: Cross-attention for boxes, text and camera-pose embeddings; ControlNet-like additive encoder branch for BEV road map; cross-view attention for consistency; condition dropout and classifier-free guidance
+   controllability_evidence: At 224x400: FID 16.20, road mIoU 61.05, vehicle mIoU 27.01 versus BEVGen 25.54, 50.20, 5.89; box-encoder ablation drops vehicle mIoU to 5.50 without Ebox
+   closed_loop: no; open-loop generation from annotations, used as data augmentation
+   notes: Could also be read as layout/box/map conditioning; chosen as multi-condition because camera, map, boxes and text are separately encoded. BEVFusion...
+[86] NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Au
+   output_modality: Multi-view driving video generated autoregressively in real time; up to 7 synchronized views, 4 cameras in the main setup.
+   control_signal: Abstract world scenario (lane maps, agent bounding boxes) rendered into a conditioning video using the policy or human driving action; text prompt for weather, lighting, time of day; first-frame RGB.
+   control_mechanism: Lightweight control branch: small MLP encodes simulator state into control tokens concatenated with visual tokens (no ControlNet); text by cross-attention; streaming KV cache gives memory.
+   controllability_evidence: Fidelity as a simulator: policy ranking by All Incidents under NuRec is preserved under OmniDreams, with OmniDreams WAM best and Alpamayo 1.5 (1 cam) worst, called a faithful proxy.
+   closed_loop: Yes. Rolled out with Alpamayo 1 policy in AlpaSim; 20-second closed-loop rollouts, replanning every 533 ms.
+   notes: Controllable scenario editing section (9.3.1) is only in the contents; its content is not in the packet. Packet also covers...
+[87] OccLLaMA: An Occupancy-Language-Action Generative World Model for Auto
+   output_modality: 4D semantic occupancy forecasts, plus ego trajectory (action tokens) and text answers
+   control_signal: Occupancy history, language prompts or questions, and action tokens (trajectory waypoints) in one unified vocabulary; no user-steering experiment for forecasting shown in packet.
+   control_mechanism: Unified multi-modal vocabulary (scene, language, action tokens) with LLaMA next token or next scene prediction; spatial attention within scenes; pretraining then LoRA instruction tuning.
+   controllability_evidence: No control-specific test. Ablation says action-specific tokens beat language-vocabulary waypoints on forecasting and planning; full model mIoU 19.93%, IoU 29.17%, L2 1.14 m, collision 0.49%.
+   closed_loop: No closed loop in packet; open-loop forecasting 3 s ahead from 2 s of history, and open-loop planning comparison.
+   notes: Doubtful as a controllable generator: packet does not show action-conditioned forecasting as a controllability result, and the control family label...
+[114] SceneCrafter: Controllable Multi-View Driving Scene Editing
+   output_modality: multi-view images (8 surrounding cameras, 512x512) edited from real source images; teacher trained on 17-frame, 8-camera segments
+   control_signal: target weather and time of day, agent boxes (insert or remove by agent type), HD map, camera poses as raymaps, and the source images to edit
+   control_mechanism: Conditions are encoded into the U-Net cross-attention blocks; raymaps, masks and source-image latents are concatenated with noisy latents; Prompt-to-Prompt with self-attention replacement makes paired training data
+   controllability_evidence: Generation task: full model FID 36.2 and 3D LPIPS 0.187 vs real 11.5 and 0.186; without conditions 68.5 and 0.254; CAT3D 121.3 and 0.249. Concatenation beats cross-attention: CLIP 0.220 vs...
+   closed_loop: No; edits logged multi-view images, no policy rollout reported in the packet
+   notes: Editing model rather than world model; no limitations section in packet. Table 1 editing comparison with SDEdit and P2P not...
+[126] Towards Realistic Scene Generation with LiDAR Diffusion Models
+   output_modality: lidar: single-frame LiDAR range images (32 x 1024 or 64 x 1024) converted to point clouds.
+   control_signal: Semantic maps (image-based), bounding boxes and keypoints (token-based), multi-camera views, and text prompts.
+   control_mechanism: Image-based conditions handled as image-to-image translation; token-based conditions by cross-attention; camera views by concatenated CLIP global features; text through CLIP embeddings.
+   controllability_evidence: Conditional quality is claimed but no conditional numbers are in the packet; shown unconditional FPVD 29.0 versus 33.4 for LiDARGen, with x107 throughput.
+   closed_loop: No; single-scene generation, no rollout with a driving policy.
+   notes: Main benchmark is unconditional generation; control is a secondary capability, with conditional results beyond the packet.
+[132] UniMLVG: Unified Framework for Multi-View Long Video Generation with C
+   output_modality: multi-view surround-camera long video (20 s examples)
+   control_signal: 3D bounding boxes and HD maps, per-view image-level text descriptions, camera intrinsics and extrinsics as ray maps, and optional reference frames or video.
+   control_mechanism: Boxes and maps projected to sparse condition images, passed through a lightweight T2I-Adapter-style image adapter; text via text encoder in MM-DiT blocks; camera ray maps; conditions injected into every block.
+   controllability_evidence: Reported FID and FVD improve by 48.2% and 35.2% over the second-best method; qualitative text edits (sunny to snowy) and CARLA-to-realistic. Detection and segmentation numbers not in packet.
+   closed_loop: No; autoregressive video generation using 3 reference frames, up to 20 s, no driving policy in the loop.
+   notes: Abstract is partly garbled in the packet. Controllability perception tables are not in the packet.
+[139] X-Scene: Large-Scale Driving Scene Generation with High Fidelity and F
+   output_modality: 3D semantic occupancy, multi-view images and videos, lifted to 3DGS; extended to large scenes by consistency-aware outpainting
+   control_signal: low level: BEV semantic or vector layout, 3D boxes, camera; high level: text description, LLM-enriched into a scene graph then converted to a vector-map layout
+   control_mechanism: Occupancy triplane diffusion: additive layout embedding plus cross-attention on box and text embeddings; images: occupancy-rendered semantic and depth maps fused with noisy latents plus cross-attention; video: reference frames
+   controllability_evidence: Real plus X-Scene data gives detection mAP 39.9 and NDS 51.6 vs 34.5 and 46.9 real only; an ablation reports FID up 9.45 and vehicle mIoU down 22.27% without spatial...
+   closed_loop: No; open-loop only: UniAD planning metrics on generated video, autoregressive 7-frame clips with two reference frames
+   notes: Scene generator, not action-conditioned; no ego-action control. Which ablation the 9.45 and 22.27% figures refer to is inferred from context.
+[141] ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autono
+   output_modality: multi-view video: four fisheye (FoV above 180 degrees) and three pinhole views at about 720p, streamed per latent timestep
+   control_signal: per-timestep ego pose increments, camera geometry as Plucker rays, pixel-aligned layout of traffic participants and signals (boxes, headings, colors, directions), text caption with camera ID
+   control_mechanism: dense conditions rendered on the view grid, adapted and added to patch embeddings with zero-initialised projection; ego-motion AdaLN-Zero; text cross-attention; plug-in memory cross-attention
+   controllability_evidence: No control-following metric in the packet. Reported: one-step student keeps over 90% of teacher PSNR and SSIM, FID, FVD, LPIPS within 11%; with memory FVD 113.63 and Det-F1 0.726.
+   closed_loop: Designed for closed-loop simulation with per-timestep ego-motion input and 4 FPS on two GPUs; packet shows 30 s autoregressive rollouts, no policy-in-the-loop result.
+   notes: arXiv 2609.21712 v2. Raw control commands must first be mapped to pose increments, and camera poses are needed at every...
+
+## other
+[82] Making the World React Realistically: A Closed-Loop Interactive World 
+   output_modality: 3D Gaussian Splatting reconstruction rendered as surround-camera images (8 cameras), with background-vehicle trajectories and signal lights.
+   control_signal: Ego planner actions closing the loop on rendered images; background vehicles driven by learned policies (style latent, goal, map); signal light states set from each vehicle's planned intention.
+   control_mechanism: Style-conditioned imitation-learned vehicle policy fine-tuned with multi-agent GRPO in the closed loop; lights via LoRA fine-tuned one-step diffusion editor conditioned on lamp map and state map.
+   controllability_evidence: Interaction realism against logs: mean JS 0.0074 versus 0.0485 for World Engine (85% lower); novel-view vehicle PSNR gain of 2.0 dB reported in abstract.
+   closed_loop: Yes; Alpamayo 1.5 ego planner reacts to rendered images and background vehicles respond, 12 steps at 0.5 s per episode.
+   notes: Not a generative control-signal model in the usual sense; control family is a best fit (closest to scenario or behaviour...
+[102] ReconDreamer: Crafting World Models for Driving Scene Reconstruction v
+   output_modality: Dynamic driving scene reconstruction (Gaussian-splatting based) rendering novel-trajectory video; a world-model restorer outputs cleaned video.
+   control_signal: Novel ego trajectory for rendering (lane shift 3 m, 6 m, lane change); restorer is conditioned on degraded rendered video, 3D boxes and HDMaps.
+   control_mechanism: DriveRestorer, fine-tuned from a world model, takes masked degraded video as control condition; progressive data update feeds restored novel-trajectory frames back into reconstruction training.
+   controllability_evidence: At 6 m lane shift versus Street Gaussians: NTA-IoU +24.87%, NTL-IoU +6.72%, FID +29.97% relative; versus DriveDreamer4D with PVG NTA-IoU +195.87%, user-study win rate 96.88%.
+   closed_loop: No. Novel-trajectory rendering evaluated offline; closed-loop simulation is only the motivation.
+   notes: Primarily a reconstruction method using a world model as restorer, not a driving world model with a user control input;...
+
+## prediction without a control input
+[57] GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Predict
+   output_modality: 3D semantic occupancy for the current frame, framed as 4D occupancy forecasting in a 3D Gaussian space
+   control_signal: No user control. Model inputs are the current multi-camera RGB images, historical 3D Gaussians and the ego pose or trajectory used for alignment
+   control_mechanism: Historical Gaussians are aligned by ego motion, new areas completed with random Gaussians, then refined by an evolution layer with sparse convolution and deformable attention to image features
+   controllability_evidence: not applicable, no control input. Prediction gain: mIoU +2.4% and IoU +2.7% over single-frame GaussianFormer-B; ablations on ego motion and dynamic-object factors
+   closed_loop: no; streaming perception on recorded sequences, not rolled out with a driving policy
+   notes: Not a generator with a control input: a world-model-based perception model for occupancy prediction. Latency 228 ms versus 225 ms...
+[89] OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving
+   output_modality: future 3D semantic occupancy (4D occupancy forecasting) plus ego trajectory, predicted jointly
+   control_signal: none from a user; past occupancy scene tokens and past ego positions are the inputs, and the model predicts the ego trajectory itself
+   control_mechanism: Ego token is aggregated with scene tokens; GPT-like spatial-temporal transformer autoregressively predicts next scene and ego tokens; no external control signal injected
+   controllability_evidence: No controllability test. Forecasting: average IoU 26.63 and mIoU 17.13 for 3 s given 2 s history; planning L2 error 1.16 without instance or map annotations
+   closed_loop: No; open-loop autoregressive forecast of 3 s from 2 s history, evaluated against logged data
+   notes: Not a controllable generator: a joint forecaster and planner with no steering input. Included as the no-control baseline type.
+
+## scenario, risk or event conditioning
+[104] Risk-Controllable Multi-View Diffusion for Driving Scenario Generation
+   output_modality: multi-view driving video (nuScenes, 448 x 840 per camera, 16 frames)
+   control_signal: target risk level, scalar or time-resolved profile, turned into agent trajectories and 3D boxes; also HD map and text context
+   control_mechanism: two stages: risk embedded by MLP and applied by FiLM to BEV features of a GenAD-style motion generator; resulting trajectories and boxes injected as structured motion conditions into the diffusion...
+   controllability_evidence: Paper says measured risk closely matches target but omits the analysis; qualitative quantiles 0.95, 0.8, 0.2. Fidelity: FID 15.70 versus 20.91, mAP 30.50 versus 18.17.
+   closed_loop: No; open-loop generation from observed multi-view history, 16-frame clips, no driving policy in the loop.
+   notes: Risk control happens in the motion-generation stage; the video generator is conditioned on its output. No quantitative risk-matching numbers in...
+
+## text or language conditioning
+[35] DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Ge
+   output_modality: multi-view driving video (six surround cameras)
+   control_signal: free-form user text prompt, which an LLM turns into agent trajectories; an HDMap is generated from them, and 3D boxes are derived. Optionally an initial frame or front-view video.
+   control_mechanism: Fine-tuned GPT-3.5 emits Python trajectory scripts; ControlNet-based HDMap generator on SD2.1; HDMaps and projected 3D boxes concatenated with noisy latent in the video generator; UniMVM mask formulation.
+   controllability_evidence: Qualitative customized videos (cut-in, lane change, pedestrian crossing); quality FID 11.2 and FVD 55.7 with first-frame condition; detection and tracking gains from generated data. No explicit control-following metric in packet.
+   closed_loop: No; open-loop video generation of N = 8 frame clips.
+   notes: Control passes through an LLM, a trajectory library of 18 functions, and an HDMap generator before video. Limitations section not...
+[48] Editable Scene Simulation for Autonomous Driving via Collaborative LLM
+   output_modality: multi-camera photo-realistic 3D scene videos rendered with a neural radiance field plus Blender-rendered inserted assets
+   control_signal: natural language commands: add or delete vehicles, choose assets, set vehicle motion, adjust viewpoint (for example moving the view 5 m ahead)
+   control_mechanism: GPT-4 agents (project manager plus tech agents) turn commands into structured JSON configurations that drive role functions: inpainting for deletion, asset bank, motion generation, view adjustment
+   controllability_evidence: Command execution success rates over 5 instruction categories (15 commands, 3 trials each); motion-from-text user study: ChatSim 0.988 straight, 0.940 left turn, 0.976 right turn, 0.952 speed, 1.000 within-road, versus...
+   closed_loop: no; scripted editing and rendering of recorded scenes, no driving policy in the loop
+   notes: Not a learned generative world model: NeRF rendering plus LLM-agent editing of a reconstructed scene. Included as a language-controlled sensor-level...
+[58] Generalized Predictive Model for Autonomous Driving
+   output_modality: single-view video prediction: 6 future frames at 2Hz, 256x448, from two conditioning frames
+   control_signal: text made of a high-level command and a scene context description; in the action-conditioned extension, the future ego trajectory
+   control_mechanism: text through frozen CLIP encoders and conditional cross-attention with classifier-free guidance (text dropped at p=0.1); trajectory Fourier-embedded, linearly projected, added to the conditions and injected via cross-attention
+   controllability_evidence: No action-error or language-control number in the packet. Reported: nuScenes FID 15.4 and FVD 184 for GenAD (OpenDV-2K); planning ADE 1.23 and FDE 2.31 with a frozen encoder.
+   closed_loop: no, open-loop only: each prediction generates 6 future frames from 2 observed frames; planning evaluated open-loop on nuScenes
+   notes: Primary contribution is a large-scale generalizing predictor; control by text command is shown in the overview figure, but its quantitative...
+[101] RealWeather: Realistic and Scene-Faithful Weather Translation with Dri
+   output_modality: single-view driving video (720p, 50-frame clips; long video generated autoregressively in 101-frame chunks) translated between clear and adverse weather
+   control_signal: input driving video to translate plus a text prompt describing weather type and intensity (rain, snow, fog, mixed); translation direction clear to adverse or reverse
+   control_mechanism: input video latent concatenated channel-wise with the noisy target latent, text prompt via cross-attention in the DiT; Progressive Realism Bootstrapping training and a segmentation-IoU RL reward (Scene-Fidelity RL)
+   controllability_evidence: Table 1 (numbers not in packet): best CC, PS and VR for clear-to-adverse and ties best CS; adverse-to-clear best PS and VR. Some baselines have lower DS via more conservative...
+   closed_loop: no; offline video-to-video translation, not interactive with a driving policy
+   notes: Weather-conditioned video translation rather than a scenario generator with trajectory or layout control. Quantitative table values are not in the...

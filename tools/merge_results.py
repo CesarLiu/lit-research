@@ -2,10 +2,13 @@
 """Merge several fetch_papers.py results.json files into one deduplicated, optionally filtered list.
 
   python -I -X utf8 tools/merge_results.py OUT.json IN1.json IN2.json ... [--known known.txt] [--filter] [--log screening_log.csv]
+        [--drive-extra REGEX] [--task-extra REGEX]
 
 Dedup order: DOI (lower case), arXiv id, normalised title. Each kept record gets `found_by` (input names).
 --filter keeps records whose title+abstract hit a driving term AND a scenario/simulation term
 (a transparent keyword rule, not a model; see DRIVE/TASK below). A tighter rule was tried and lost 2 of 16 known papers, so the loose one stays..
+--drive-extra / --task-extra: extra alternatives added to the driving or the scenario/simulation word list (needed when the
+topic has other vocabulary, for example world models: a probe check showed the default rule lost 2 of 14 known papers).
 --known: text file, one title per line. Prints which of them each stage contains (title word containment >= 0.8).
 """
 import json
@@ -48,8 +51,14 @@ def main(argv: list[str]) -> int:
     flt = "--filter" in argv
     known_path = argv[argv.index("--known") + 1] if "--known" in argv else None
     log_path = argv[argv.index("--log") + 1] if "--log" in argv else None
-    args = [a for i, a in enumerate(argv) if not a.startswith("--") and (i == 0 or argv[i - 1] not in ("--known", "--log"))]
+    opts = ("--known", "--log", "--drive-extra", "--task-extra")
+    args = [a for i, a in enumerate(argv) if not a.startswith("--") and (i == 0 or argv[i - 1] not in opts)]
     out, ins = args[0], args[1:]
+    drive, task = DRIVE, TASK
+    if "--drive-extra" in argv:  # extra words that also count as a driving term (a regex, case-insensitive)
+        drive = re.compile(DRIVE.pattern[:-3] + r"|" + argv[argv.index("--drive-extra") + 1] + r")\b", re.I)
+    if "--task-extra" in argv:  # extra words that also count as a scenario/simulation term
+        task = re.compile(TASK.pattern[:-3] + r"|" + argv[argv.index("--task-extra") + 1] + r")\b", re.I)
     kept: list[dict] = []
     index: dict[str, dict] = {}
     raw = 0
@@ -75,7 +84,7 @@ def main(argv: list[str]) -> int:
     def verdict(r: dict) -> str:
         """'' if the record passes the keyword rule, else the reason it fails."""
         text = r["title"] + " " + (r.get("abstract") or "")
-        miss = [n for n, rx in (("driving/traffic term", DRIVE), ("scenario/simulation term", TASK)) if not rx.search(text)]
+        miss = [n for n, rx in (("driving/traffic term", drive), ("scenario/simulation term", task)) if not rx.search(text)]
         return "no " + " and no ".join(miss) if miss else ""
 
     final = []

@@ -1,0 +1,40 @@
+  1 [Controllable scenario genera] no_citation :: *Built from three evidence sets: a table of 77 papers on scenario and traffic-simulation g
+  3 [Controllable scenario genera] no_citation :: Every sentence in sections 1 to 6 was checked by a second model against the table rows or 
+  6 [1. Scope and evidence] no_citation :: Two layers matter.
+ 10 [1. Scope and evidence] number_not_in_cited_rows 2019; number_not_in_cited_rows 371; no_citation :: **Scenario-level table, 77 papers.** A keyword search of OpenAlex and arXiv (2019 onward) 
+ 11 [1. Scope and evidence] number_not_in_cited_rows 135; no_citation :: Citation chaining from those 34 then led to 135 further leads, of which 62 were taken in (
+ 12 [1. Scope and evidence] no_citation :: The table has one row per paper under one schema.
+ 13 [1. Scope and evidence] number_not_in_cited_rows 104; number_not_in_cited_rows 298; no_citation :: **World-model table, 64 papers.** Ten searches (2023 onward) gave 298 unique records and 2
+ 14 [1. Scope and evidence] no_citation :: Of the 14 probes, 13 were found by the first nine searches and the last one only after a t
+ 15 [1. Scope and evidence] no_citation :: **Company statements, 41.** Quotes from company blogs, papers and product pages (Waymo, Wa
+ 17 [1. Scope and evidence] no_citation :: Closed-access papers are absent by construction (19 of the 62 chaining leads and none of t
+ 18 [1. Scope and evidence] no_citation :: Each row comes from a partial evidence packet (the first two pages plus the best passages)
+ 20 [2. Two layers and one questi] no_citation :: Controllability is not one property.
+ 22 [2. Two layers and one questi] no_citation :: **Scenario level (77 papers).** Trained-in conditioning is the largest family (18), then i
+ 23 [2. Two layers and one questi] no_citation :: **Sensor level (64 papers).** The families are defined by the signal: ego action or trajec
+ 24 [2. Two layers and one questi] no_citation :: The two layers share the same injection mechanisms (cross-attention, adaptive normalisatio
+ 46 [3.4 Reward and return condit] no_citation :: Reward tilting is a one-parameter control.
+ 51 [3.5 Many "controllable" gene] number_not_in_cited_rows 11 :: Of the 11 papers in the "other" family, most search or optimise for collisions against a s
+ 56 [4.1 Control interfaces] no_citation :: Sixteen of the 64 papers condition on layouts, boxes, maps or BEV sketches; 19 on ego acti
+ 65 [4.3 Four analyses suggest th] no_citation :: Four of the tabled papers study control itself, and they point the same way.
+ 67 [4.3 Four analyses suggest th] number_not_in_cited_rows 0.93 :: Released plan-conditioned world models reach at most about a third of the real-video scene
+ 71 [4.4 Closed-loop use is shown] number_not_in_cited_rows 64 :: Eight of the 64 rows say the model was run in a closed loop with a policy: DriveArena [34]
+ 75 [4.4 Closed-loop use is shown] no_citation :: The remaining 54 rows report open-loop generation or prediction.
+ 78 [4.5 Bridging the two layers] no_citation :: This layered design lets control live in a compact representation, but none of these rows 
+ 82 [5. What companies say] number_not_in_cited_rows 2025 :: Applied Intuition's Neural Sim, announced in January 2025, still turns drive logs into clo
+ 85 [5. What companies say] no_citation :: These mirror the academic interfaces in section 4; the public statements give few control 
+ 94 [5. What companies say] number_not_in_cited_rows 403; no_citation :: Wayve's own GAIA-3 pages answered HTTP 403, Zoox's pages could not be read, and no company
+ 98 [6. Cross-cutting findings] no_citation :: Exceptions exist (sections 3.1 and 4.2) and the four analyses in section 4.3 show why the 
+100 [6. Cross-cutting findings] no_citation :: **Much "control" at the scenario level is an objective.** Adversarial purpose dominates am
+102 [6. Cross-cutting findings] no_citation :: **Closed-loop use is the direction of travel but the evidence is thin.** Both the company 
+106 [7. Open problems and researc] no_citation :: **Measure control, not just fidelity.** Gap: sections 4.2 and 4.3.
+109 [7. Open problems and researc] no_citation :: **Close the gap between the two layers.** Gap: section 4.5.
+112 [7. Open problems and researc] no_citation :: **Check that closed-loop evaluation in a world model ranks policies as the real world does
+114 [7. Open problems and researc] no_citation :: Proposal: run several policies in a generative simulator and in a log-based or real evalua
+115 [7. Open problems and researc] no_citation :: **Specify intent, not just objectives.** Gap: sections 3.3 and 3.5.
+117 [7. Open problems and researc] no_citation :: **Calibrated risk and style knobs across layers.** Gap: sections 3.1 and 3.4.
+120 [7. Open problems and researc] no_citation :: **Reproduction of reported control effects.** Gap: only a minority of rows state a code li
+126 [8. Limits and how this was c] no_citation :: The first 34 scenario rows and the 43 added from chaining were audited on random samples (
+128 [8. Limits and how this was c] no_citation :: The world-model papers were chosen partly by citation count, which favours older work; 40 
+130 [8. Limits and how this was c] no_citation :: **Sentence check.** A second model, different from the one used for most of the extraction
+131 [8. Limits and how this was c] no_citation :: Section 7 is not checked against evidence: it is my reading of the gaps.

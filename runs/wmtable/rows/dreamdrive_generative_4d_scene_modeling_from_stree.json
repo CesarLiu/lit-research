@@ -1,0 +1,15 @@
+{
+ "id": "dreamdrive_generative_4d_scene_modeling_from_stree",
+ "title": "DreamDrive: Generative 4D Scene Modeling from Street View Images",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "4D scene as hybrid static/dynamic 3D Gaussians, rendered into novel-view driving videos via Gaussian splatting", "pages": "1-2"},
+ "control_signal": {"value": "A driving trajectory at render time (forward, turn left, stop); an input control image seeds generation; map and object inputs are shown qualitatively for scene control", "pages": "1, 5-6"},
+ "control_mechanism": {"value": "Video diffusion model makes reference images from the control input; multiview stereo lifts them to 3D Gaussians; trajectory is applied by splatting the scene, not by injection into a network", "pages": "2-3"},
+ "base_model": {"value": "Pretrained driving video diffusion priors from cited works [11] (nuScenes) and [15] (in-the-wild), a multiview stereo network, and self-supervised hybrid 3D Gaussian splatting", "pages": "2-3, 4-5"},
+ "datasets": {"value": "nuScenes (1,000 sequences, about 34,000 key frames) and 20 in-the-wild scenarios curated from Google Street View", "pages": "4-5"},
+ "metrics": {"value": "FID and FVD for novel-view video; BEV segmentation mIoU for perception augmentation; L2 and collision rate for planning", "pages": "5-6, 6-7"},
+ "controllability_evidence": {"value": "Mostly qualitative: renders for different trajectories and map/object edits; claims more precise trajectory control than direct video generation. Quality: FID 45.59, FVD 374.02 versus 65.29 and 450.43 for Deformable Gaussians", "pages": "5-6"},
+ "closed_loop": {"value": "not stated in packet; planning use is trajectory optimisation by 4D collision checks scored with L2 and collision metrics, no interactive policy rollout described", "pages": "6-7"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Control is geometric (render along a trajectory), not learned conditioning. Controllability is shown qualitatively, no action-following metric in packet. Which video diffusion models are [11] and [15] is not given in the packet text."
+}

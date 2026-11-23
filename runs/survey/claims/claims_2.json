@@ -1,0 +1,366 @@
+[
+ {
+  "id": 23,
+  "section": "2. Two layers and one question: where does the control signal enter?",
+  "text": "**Sensor level (64 papers).** The families are defined by the signal: ego action or trajectory (19), layout, box, map or BEV conditioning (16), unified multi-condition control (16), text or language (4), inference-time guidance or editing (3), prediction without a control input (2), other (2), camera or viewpoint (1) and scenario, risk or event conditioning (1). 20 of the 64 are from 2024, 23 from 2025 and 17 from 2026.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Scenario level (77 papers).** Trained-in conditioning is the largest family (18), then inference-time guidance (17), language or LLM-driven methods (13), other methods such as black-box adversarial search (11), models with no steering signal kept for contrast (7), reinforcement-learning fine-tuning (5), latent-space control (3) and reward or return conditioning (3). 32 of the 77 papers are from 2026 and 18 from 2025.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 24,
+  "section": "2. Two layers and one question: where does the control signal enter?",
+  "text": "The two layers share the same injection mechanisms (cross-attention, adaptive normalisation, a ControlNet-style branch, token conditioning, guidance at sampling time) but differ in what the signal means: a risk level, a goal point or a language clause at the scenario level; an ego pose, a box layout or a weather prompt at the sensor level.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Sensor level (64 papers).** The families are defined by the signal: ego action or trajectory (19), layout, box, map or BEV conditioning (16), unified multi-condition control (16), text or language (4), inference-time guidance or editing (3), prediction without a control input (2), other (2), camera or viewpoint (1) and scenario, risk or event conditioning (1). 20 of the 64 are from 2024, 23 from 2025 and 17 from 2026.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 25,
+  "section": "3.1 Inference-time guidance gives a dial, at a price in realism",
+  "text": "Seventeen papers are labelled inference-time guidance.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 26,
+  "section": "3.1 Inference-time guidance gives a dial, at a price in realism",
+  "text": "In Safe-Sim, raising the time-to-collision cost weight from 0.0 to 1.0 to 2.0 raises the collision rate from 48.2 to 53.6 to 60.7 %, and the realism score worsens from 0.76 to 0.81 (lower is better) [107].",
+  "cited": [
+   107
+  ],
+  "company_statements": [],
+  "previous_sentence": "Seventeen papers are labelled inference-time guidance.",
+  "papers": [
+   {
+    "n": 107,
+    "row_file": "rows/safe_sim_safety_critical_closed_loop_traffic_simul.json",
+    "title": "Safe-Sim: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 27,
+  "section": "3.1 Inference-time guidance gives a dial, at a price in realism",
+  "text": "In [98] raising the pursuit weight from 10 to 60 together with the step size from 0.05 to 0.10 lifts the ego-adversary collision rate from 18.9 % to 47.8 %, so the rise cannot be credited to the weight alone.",
+  "cited": [
+   98
+  ],
+  "company_statements": [],
+  "previous_sentence": "In Safe-Sim, raising the time-to-collision cost weight from 0.0 to 1.0 to 2.0 raises the collision rate from 48.2 to 53.6 to 60.7 %, and the realism score worsens from 0.76 to 0.81 (lower is better) [107].",
+  "papers": [
+   {
+    "n": 98,
+    "row_file": "rows/proposal_conditioned_latent_diffusion_for_closed_l.json",
+    "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 28,
+  "section": "3.1 Inference-time guidance gives a dial, at a price in realism",
+  "text": "Signal temporal logic rules steer a diffusion model with a rule-violation rate of 0.019 on the speed-limit rule against 0.038 and 0.033 for two optimisation baselines [60].",
+  "cited": [
+   60
+  ],
+  "company_statements": [],
+  "previous_sentence": "In [98] raising the pursuit weight from 10 to 60 together with the step size from 0.05 to 0.10 lifts the ego-adversary collision rate from 18.9 % to 47.8 %, so the rise cannot be credited to the weight alone.",
+  "papers": [
+   {
+    "n": 60,
+    "row_file": "rows/guided_conditional_diffusion_for_controllable_traf.json",
+    "title": "Guided Conditional Diffusion for Controllable Traffic Simulation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 29,
+  "section": "3.1 Inference-time guidance gives a dial, at a price in realism",
+  "text": "Risk-level knobs are among the best measured: in [99] the mean crash rate rises from 20.6 % to 50.6 % as the requested risk increases, and in [66] 1,422 of 1,440 requested risk percentiles are realised within 0.05 (98.75 %).",
+  "cited": [
+   66,
+   99
+  ],
+  "company_statements": [],
+  "previous_sentence": "Signal temporal logic rules steer a diffusion model with a rule-violation rate of 0.019 on the speed-limit rule against 0.038 and 0.033 for two optimisation baselines [60].",
+  "papers": [
+   {
+    "n": 66,
+    "row_file": "rows/how_corner_is_a_corner_case_percentile_control_for.json",
+    "title": "How Corner Is a Corner Case? Percentile Control for Highway Scenario Generation"
+   },
+   {
+    "n": 99,
+    "row_file": "rows/rade_learning_risk_adjustable_driving_environment.json",
+    "title": "RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 30,
+  "section": "3.1 Inference-time guidance gives a dial, at a price in realism",
+  "text": "Guidance is not always a gradient.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Risk-level knobs are among the best measured: in [99] the mean crash rate rises from 20.6 % to 50.6 % as the requested risk increases, and in [66] 1,422 of 1,440 requested risk percentiles are realised within 0.05 (98.75 %).",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 31,
+  "section": "3.1 Inference-time guidance gives a dial, at a price in realism",
+  "text": "SocialDriveGen uses a gradient-free evolutionary search [119], and OMEGA re-anchors each denoising step by constrained optimisation, raising the valid-scene rate in a goal-conditioned setting from 11.00 % to 80.00 % [91].",
+  "cited": [
+   91,
+   119
+  ],
+  "company_statements": [],
+  "previous_sentence": "Guidance is not always a gradient.",
+  "papers": [
+   {
+    "n": 91,
+    "row_file": "rows/optimization_guided_diffusion_for_interactive_scen.json",
+    "title": "Optimization-Guided Diffusion for Interactive Scene Generation"
+   },
+   {
+    "n": 119,
+    "row_file": "rows/socialdrivegen_generating_diverse_traffic_scenario.json",
+    "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 32,
+  "section": "3.1 Inference-time guidance gives a dial, at a price in realism",
+  "text": "SceneDiffuser applies hard constraints after each denoising step; collision constraints raise the collision score from 0.692 to 0.841, while an LLM-written constraint for long-tail agents succeeded in 40 of 100 manually judged samples [115].",
+  "cited": [
+   115
+  ],
+  "company_statements": [],
+  "previous_sentence": "SocialDriveGen uses a gradient-free evolutionary search [119], and OMEGA re-anchors each denoising step by constrained optimisation, raising the valid-scene rate in a goal-conditioned setting from 11.00 % to 80.00 % [91].",
+  "papers": [
+   {
+    "n": 115,
+    "row_file": "rows/scenediffuser_efficient_and_controllable_driving_s.json",
+    "title": "SceneDiffuser: Efficient and Controllable Driving Simulation Initialization and Rollout"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 33,
+  "section": "3.2 Trained-in conditioning is tested most directly, but only for what was trained",
+  "text": "DragTraffic conditions agents on type, size and start and target states; with the condition the scenario collision rate at a 9 s rollout is 3.33 % against 13.59 % for a mixed-training baseline, although the row notes that its control evidence is mostly qualitative [32].",
+  "cited": [
+   32
+  ],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [
+   {
+    "n": 32,
+    "row_file": "rows/dragtraffic_interactive_and_controllable_traffic_s.json",
+    "title": "DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 34,
+  "section": "3.2 Trained-in conditioning is tested most directly, but only for what was trained",
+  "text": "Scenario Diffusion keeps the agent-token match rate at 0.97 from 0 to 50 % masking while the number of extra generated agents rises from 0.4 to 12.6 [111].",
+  "cited": [
+   111
+  ],
+  "company_statements": [],
+  "previous_sentence": "DragTraffic conditions agents on type, size and start and target states; with the condition the scenario collision rate at a 9 s rollout is 3.33 % against 13.59 % for a mixed-training baseline, although the row notes that its control evidence is mostly qualitative [32].",
+  "papers": [
+   {
+    "n": 111,
+    "row_file": "rows/scenario_diffusion_controllable_driving_scenario_g.json",
+    "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 35,
+  "section": "3.2 Trained-in conditioning is tested most directly, but only for what was trained",
+  "text": "A multimodal prompt interface (goal points, route sketches, action tags and text) gives a goal-point ADE of 0.3882 m, a 59.12 % gain over no prompt, and 0.2877 m with all prompts [97]; this measures realism against ground truth, not prompt adherence.",
+  "cited": [
+   97
+  ],
+  "company_statements": [],
+  "previous_sentence": "Scenario Diffusion keeps the agent-token match rate at 0.97 from 0 to 50 % masking while the number of extra generated agents rises from 0.4 to 12.6 [111].",
+  "papers": [
+   {
+    "n": 97,
+    "row_file": "rows/promptable_closed_loop_traffic_simulation.json",
+    "title": "Promptable Closed-loop Traffic Simulation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 36,
+  "section": "3.2 Trained-in conditioning is tested most directly, but only for what was trained",
+  "text": "Courtesy can be set as a scalar and correlates with the input quantile at 0.60 (0.79 on the high-courtesy subset) [49].",
+  "cited": [
+   49
+  ],
+  "company_statements": [],
+  "previous_sentence": "A multimodal prompt interface (goal points, route sketches, action tags and text) gives a goal-point ADE of 0.3882 m, a 59.12 % gain over no prompt, and 0.2877 m with all prompts [97]; this measures realism against ground truth, not prompt adherence.",
+  "papers": [
+   {
+    "n": 49,
+    "row_file": "rows/editing_driver_character_socially_controllable_beh.json",
+    "title": "Editing Driver Character: Socially-Controllable Behavior Generation for Interactive Traffic Simulation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 37,
+  "section": "3.2 Trained-in conditioning is tested most directly, but only for what was trained",
+  "text": "A style variable for criticality moves the collision rate of one planner from 4.2 % at -2.0 to 95.3 % at 2.0 [29].",
+  "cited": [
+   29
+  ],
+  "company_statements": [],
+  "previous_sentence": "Courtesy can be set as a scalar and correlates with the input quantile at 0.60 (0.79 on the high-courtesy subset) [49].",
+  "papers": [
+   {
+    "n": 29,
+    "row_file": "rows/diverse_critical_interaction_generation_for_planni.json",
+    "title": "Diverse Critical Interaction Generation for Planning and Planner Evaluation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 38,
+  "section": "3.2 Trained-in conditioning is tested most directly, but only for what was trained",
+  "text": "Coverage of a control is limited by training.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "A style variable for criticality moves the collision rate of one planner from 4.2 % at -2.0 to 95.3 % at 2.0 [29].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 39,
+  "section": "3.2 Trained-in conditioning is tested most directly, but only for what was trained",
+  "text": "ECoSim reduces control error by up to 83 % but its evaluation controls are derived from ground-truth trajectories, and it controls a single agent [47].",
+  "cited": [
+   47
+  ],
+  "company_statements": [],
+  "previous_sentence": "Coverage of a control is limited by training.",
+  "papers": [
+   {
+    "n": 47,
+    "row_file": "rows/ecosim_data_efficient_fine_tuning_for_controllable.json",
+    "title": "ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 40,
+  "section": "3.3 Language control passes through code, retrieval or text conditioning, and reliability is thinly measured",
+  "text": "Thirteen papers are labelled language or LLM-driven, but they work in different ways.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 41,
+  "section": "3.3 Language control passes through code, retrieval or text conditioning, and reliability is thinly measured",
+  "text": "ChatScene turns text into Scenic code by retrieving and assembling snippets, and reports a collision rate 15 % above the strongest baselines [13].",
+  "cited": [
+   13
+  ],
+  "company_statements": [],
+  "previous_sentence": "Thirteen papers are labelled language or LLM-driven, but they work in different ways.",
+  "papers": [
+   {
+    "n": 13,
+    "row_file": "rows/chatscene_knowledge_enabled_safety_critical_scenar.json",
+    "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 42,
+  "section": "3.3 Language control passes through code, retrieval or text conditioning, and reliability is thinly measured",
+  "text": "LD-Scene has an LLM write a guidance loss; its adversarial levels weak, medium and strong give a time to collision of 2.06, 1.98 and 1.91 s, and the strong level's collision rate (39.33 %) is no higher than the medium level's (40.75 %) [76].",
+  "cited": [
+   76
+  ],
+  "company_statements": [],
+  "previous_sentence": "ChatScene turns text into Scenic code by retrieving and assembling snippets, and reports a collision rate 15 % above the strongest baselines [13].",
+  "papers": [
+   {
+    "n": 76,
+    "row_file": "rows/ld_scene_llm_guided_diffusion_for_controllable_gen.json",
+    "title": "LD-Scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 43,
+  "section": "3.3 Language control passes through code, retrieval or text conditioning, and reliability is thinly measured",
+  "text": "LangTraj trains text conditioning directly and reports a mADE of 2.29 against 2.65 without text and 2.70 for LLM-written guidance [73].",
+  "cited": [
+   73
+  ],
+  "company_statements": [],
+  "previous_sentence": "LD-Scene has an LLM write a guidance loss; its adversarial levels weak, medium and strong give a time to collision of 2.06, 1.98 and 1.91 s, and the strong level's collision rate (39.33 %) is no higher than the medium level's (40.75 %) [76].",
+  "papers": [
+   {
+    "n": 73,
+    "row_file": "rows/langtraj_diffusion_model_and_dataset_for_language.json",
+    "title": "LANGTRAJ: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 44,
+  "section": "3.3 Language control passes through code, retrieval or text conditioning, and reliability is thinly measured",
+  "text": "CaFe addresses a failure that other language-conditioned simulators may share: when instructions are broadcast, they change the behaviour of 82.7 % of nearby uninstructed agents at 8 s, while CaFe's private-stream design reduces this to 0.0 % and satisfies 40.8 % of timed clauses against 38.0 % without language [10].",
+  "cited": [
+   10
+  ],
+  "company_statements": [],
+  "previous_sentence": "LangTraj trains text conditioning directly and reports a mADE of 2.29 against 2.65 without text and 2.70 for LLM-written guidance [73].",
+  "papers": [
+   {
+    "n": 10,
+    "row_file": "rows/cafe_causally_faithful_conditional_traffic_scenari.json",
+    "title": "CaFe: Causally Faithful Conditional Traffic Scenario Generation"
+   }
+  ],
+  "flags": []
+ }
+]

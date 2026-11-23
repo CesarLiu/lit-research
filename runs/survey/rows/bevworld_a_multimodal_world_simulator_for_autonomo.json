@@ -1,0 +1,15 @@
+{
+ "id": "bevworld_a_multimodal_world_simulator_for_autonomo",
+ "title": "BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "camera plus lidar: future multi-view images and lidar point clouds rendered from predicted BEV latent tokens", "pages": "1, 3-4"},
+ "control_signal": {"value": "ego-motion action tokens (vehicle movement and steering), converted into left turn, right turn, speed up and slow down instructions", "pages": "3-6, 10"},
+ "control_mechanism": {"value": "action tokens modulate the input tokens of a spatial-temporal transformer that denoises future BEV tokens, with history BEV tokens as condition tokens; no classifier-free guidance used", "pages": "3-6, 9"},
+ "base_model": {"value": "Own multi-modal tokenizer (Swin-Transformer backbones, deformable fusion, NeRF-style ray rendering) plus latent BEV sequence diffusion model with spatial-temporal transformer, DDIM sampling; not built on a pretrained video backbone.", "pages": "3-5"},
+ "datasets": {"value": "nuScenes (real) and Carla (simulated); Carla model fine-tuned from the nuScenes-pretrained model.", "pages": "9-11"},
+ "metrics": {"value": "PSNR, FID, FVD, Chamfer distance (1s/3s); downstream 3D detection NDS/mAP and motion prediction minADE/minFDE for tokenizer pretraining.", "pages": "8-9"},
+ "controllability_evidence": {"value": "Qualitative only: Figure 6 visualizes generations for turn left, turn right, speed up, slow down. No quantitative action-following metric in the packet.", "pages": "10"},
+ "closed_loop": {"value": "No; open-loop future prediction up to 3 s (6 future frames) on nuScenes key frames.", "pages": "9"},
+ "stated_limitations": {"value": "Diffusion inference needs about 50 steps, slow and costly; dynamic objects in images sometimes blurry, may need a dedicated module.", "pages": "18"},
+ "notes": "Deliberately uses no manual layout or label conditions to stay scalable. Compares FID 19.0 and FVD 154.0 on nuScenes."
+}

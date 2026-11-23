@@ -1,0 +1,15 @@
+{
+ "id": "x_scene_large_scale_driving_scene_generation_with",
+ "title": "X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "3D semantic occupancy, multi-view images and videos, lifted to 3DGS; extended to large scenes by consistency-aware outpainting", "pages": "1"},
+ "control_signal": {"value": "low level: BEV semantic or vector layout, 3D boxes, camera; high level: text description, LLM-enriched into a scene graph then converted to a vector-map layout", "pages": "1-2, 4"},
+ "control_mechanism": {"value": "Occupancy triplane diffusion: additive layout embedding plus cross-attention on box and text embeddings; images: occupancy-rendered semantic and depth maps fused with noisy latents plus cross-attention; video: reference frames", "pages": "4-5"},
+ "base_model": {"value": "Triplane VAE with deformable attention and latent diffusion for occupancy; image diffusion; temporal diffusion; T5 text encoder; scene-graph-to-layout diffusion; 3D Gaussian splatting", "pages": "4-5"},
+ "datasets": {"value": "Occ3D-nuScenes for occupancy, nuScenes for images and video; 700 train and 150 val scenes; frames upsampled from 2 Hz to 12 Hz", "pages": "12"},
+ "metrics": {"value": "occupancy IoU, mIoU, FID3D, 2D FID, KID, IS; image FID; FVD; downstream 3D detection mAP and NDS, BEV segmentation mIoU, UniAD planning L2 and collision", "pages": "8-9, 13"},
+ "controllability_evidence": {"value": "Real plus X-Scene data gives detection mAP 39.9 and NDS 51.6 vs 34.5 and 46.9 real only; an ablation reports FID up 9.45 and vehicle mIoU down 22.27% without spatial conditioning", "pages": "8-9, 19"},
+ "closed_loop": {"value": "No; open-loop only: UniAD planning metrics on generated video, autoregressive 7-frame clips with two reference frames", "pages": "8, 13"},
+ "stated_limitations": {"value": "Autoregressive video drifts over long horizons; memory bank built only from nuScenes limits diversity; fixed semantic categories need retraining for new classes", "pages": "24-25"},
+ "notes": "Scene generator, not action-conditioned; no ego-action control. Which ablation the 9.45 and 22.27% figures refer to is inferred from context."
+}

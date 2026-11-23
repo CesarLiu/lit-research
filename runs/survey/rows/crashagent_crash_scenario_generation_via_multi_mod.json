@@ -1,0 +1,13 @@
+{
+ "id": "crashagent_crash_scenario_generation_via_multi_mod",
+ "title": "CrashAgent: Crash Scenario Generation via Multi-modal Reasoning",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "Real-world NHTSA crash reports (text description plus sketch diagram) are the input that determines road layout and the behaviors of ego and other road users.", "pages": "1-2"},
+ "control_mechanism": {"value": "Multi-agent VLM/LLM pipeline: Sketch Agent (visual tree-of-thought prompting with voting), Road Agent (OpenDRIVE via toolbox), Scenario Agent (OpenSCENARIO script via behavior toolbox with parameters).", "pages": "2-4, 17"},
+ "base_model": {"value": "Prompted pretrained VLMs/LLMs (GPT-4o, Gemini-1.5-flash, Claude 3.7 compared) with tool integration; no trained generative model described.", "pages": "6"},
+ "datasets": {"value": "150 random samples of NHTSA crash reports, plus 100 synthetic road layouts (22 single roads, 78 intersections) with dense-pattern hard variants.", "pages": "6-7"},
+ "metrics": {"value": "Lane and road count accuracy and errors (Acc, Err_lane, Err_#road, Err_sum), collision rate, accuracy of road-user count and initial relative position; diversity and realism are claimed.", "pages": "2, 6-7"},
+ "controllability_evidence": {"value": "Scenario Agent raises collision rate from 0.08 to 0.92 versus a plain VLM on 50 NHTSA samples; Road Agent raises layout accuracy from 0.407 to 0.495.", "pages": "7"},
+ "stated_limitations": {"value": "Depends on quality and coverage of crash reports, biased toward certain accident types; simulator assumptions can cause intended and executed behaviors to differ; VLM hallucination and implausible outcomes in complex scenes.", "pages": "8-9"},
+ "notes": "Reconstructs crashes from reports rather than steering a learned generator; control is via the input report."
+}

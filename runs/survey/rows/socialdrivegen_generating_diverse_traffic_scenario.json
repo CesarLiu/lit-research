@@ -1,0 +1,13 @@
+{
+ "id": "socialdrivegen_generating_diverse_traffic_scenario",
+ "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "Natural-language adversarial proposals per vehicle pair from a VLM, turned into reward functions; plus two social-reward parameters (angle phi for egoism/altruism, magnitude lambda for social-constraint weight).", "pages": "3-5, 7-8"},
+ "control_mechanism": {"value": "Gradient-free evolutionary guidance at every denoising step: population of noisy trajectories scored by predicted clean-trajectory reward, resampled by a reward-weighted elite distribution with annealed temperature.", "pages": "4-5"},
+ "base_model": {"value": "Multi-agent adaptation of an evolutionary-strategy-guided diffusion model (Diffusion-ES style) jointly generating all vehicles' trajectories, with VLM scene analysis and LLM reward construction on top.", "pages": "2-5"},
+ "datasets": {"value": "Argoverse 2 only, real recordings used as the foundation for generated scenarios.", "pages": "5"},
+ "metrics": {"value": "Engagement Ratio (share of scenarios with TTC under 4.0 s threshold), maximum relative velocity, maximum acceleration, extrinsic reward. No distribution-realism metric shown in packet.", "pages": "5-6"},
+ "controllability_evidence": {"value": "Table 1: full method reaches Engagement Ratio 67.27% vs 50.91% single-stage VLM and 60.00% Diffusion-ES. Prosocial phi=pi/4 lowers Engagement Ratio by 5.40%; lowering lambda from 1.0 to 0.3 raises extrinsic reward by +86.49%.", "pages": "6-8"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Hybrid: LLM/VLM-driven proposal layer feeding reward-guided diffusion sampling; family chosen as inference-time guidance since the trained diffusion model is steered at sampling. Packet shows no realism metrics or limitations section."
+}

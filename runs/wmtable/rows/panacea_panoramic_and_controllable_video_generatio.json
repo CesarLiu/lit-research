@@ -1,0 +1,15 @@
+{
+ "id": "panacea_panoramic_and_controllable_video_generatio",
+ "title": "Panacea: Panoramic and Controllable Video Generation for Autonomous Driving",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "multi-view (6 views, panoramic) video, 8 frames at 256x512", "pages": "4, 6"},
+ "control_signal": {"value": "BEV layout sequences (projected 3D boxes, object depths, road maps, camera poses), text for weather, time and scene, and an optional conditioning image", "pages": "2-3, 6-7"},
+ "control_mechanism": {"value": "BEV sequences via ControlNet; text via frozen CLIP encoder; conditioning image concatenated with diffused input in a two-stage pipeline", "pages": "3, 5-6"},
+ "base_model": {"value": "Stable Diffusion 2.1 UNet with decomposed 4D attention (intra-view, cross-view, cross-frame); two-stage image then video training", "pages": "4-6"},
+ "datasets": {"value": "nuScenes (700 train, 150 val, 150 test scenes, 6 cameras); StreamPETR trained for downstream evaluation; synthesised Gen-nuScenes set of 139440 videos", "pages": "6, 14"},
+ "metrics": {"value": "FID, FVD, View-Matching-Score for consistency; controllability via StreamPETR NDS, mAP, mAOE, mAVE on generated data", "pages": "6"},
+ "controllability_evidence": {"value": "Perception NDS on generated val data 32.1 versus 46.9 on real, 68% relative; real plus generated training reaches NDS 49.2 (+2.3). ControlNet beats concatenation: FVD 139 versus 226.", "pages": "7, 15-16"},
+ "closed_loop": {"value": "No: open-loop generation from BEV sequences. Long videos made by sliding window with layout control dropped, shown qualitatively only.", "pages": "12-14"},
+ "stated_limitations": {"value": "Temporal and view consistency imperfect for long frame lengths; high inference cost; relatively low spatial resolution; model design not refined further because of time and resources.", "pages": "14-16"},
+ "notes": "Table 1 reports FVD 139 and FID 16.96 on nuScenes val."
+}

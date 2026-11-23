@@ -1,0 +1,15 @@
+{
+ "id": "perldiff_controllable_street_view_synthesis_using",
+ "title": "PerLDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Model",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "multi-view street-view images (six nuScenes cameras), single frames rather than video; KITTI single-view images", "pages": "1, 5"},
+ "control_signal": {"value": "3D object annotations (boxes with class and yaw) rendered as perspective layout masking maps, plus road maps; text and camera also used.", "pages": "2, 11"},
+ "control_mechanism": {"value": "PerL-based controlling module with a perspective-layout masked cross-attention, added to pretrained Stable Diffusion and fine-tuned; ConvNext road map encoder; MLP box features; classifier-free guidance.", "pages": "2, 11"},
+ "base_model": {"value": "Pretrained Stable Diffusion v1.4 with PerL-CM; frozen CLIP and ConvNext road map encoder; DDIM sampling, 50 steps.", "pages": "2, 11"},
+ "datasets": {"value": "nuScenes (700 train, 150 validation scenes, 256x384 and 256x704) and KITTI (3,712 train, 3,769 validation images).", "pages": "5"},
+ "metrics": {"value": "FID; perception on generated data: BEVFormer, BEVFusion, StreamPETR detection (mAP, NDS, mAOE), CVT BEV segmentation mIoU, MonoFlex on KITTI.", "pages": "5-6"},
+ "controllability_evidence": {"value": "BEVFormer on synthetic validation: mAP 25.10, NDS 36.24, mAOE 0.72, versus BEVControl* gains of 8.62% mAP and 8.16% NDS; Road mIoU 61.26, Vehicle mIoU 27.13.", "pages": "6, 8"},
+ "closed_loop": {"value": "No; static image synthesis from annotations, no rollout.", "pages": "2"},
+ "stated_limitations": {"value": "Sometimes generates vehicles with front and rear reversed because the PerL mask ignores 2D orientation; background details can mismatch real images; video generation left to future work.", "pages": "11, 14"},
+ "notes": "Image-level controllable street-view generator, not a temporal world model; mentions possible future use as a traffic simulator."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "path_diffuser_diffusion_model_for_data_driven_traf",
+ "title": "Path Diffuser: Diffusion Model for Data-Driven Traffic Simulator",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Vectorized map for initialization; per-agent initial pose and attributes plus Frenet-frame candidate trajectories as motion-primitive priors for trajectory generation. No user-specified behaviour goals in packet.", "pages": "1-2, 4-5, 7"},
+ "control_mechanism": {"value": "Map-conditioned DDPM for initialization; noisy latent trajectories cross-attend to Frenet candidates in heterogeneous message passing; guided sampling aligns predictions to the nearest candidate under map perturbation.", "pages": "4-5, 7-8"},
+ "base_model": {"value": "Two-stage diffusion: differential-transformer initializer with centralized/decentralized attention masking; trajectory denoiser on PCA-compressed latent trajectories with alternating cross- and self-attention over agents and map.", "pages": "4-5"},
+ "datasets": {"value": "Argoverse 2 Motion Forecasting Dataset, 6-second windows; Scene-Attack benchmark used for out-of-distribution map perturbations.", "pages": "5, 7-8"},
+ "metrics": {"value": "JSD of behaviour histograms, collision rate, nearest-edge distance, off-road rate; actor collision rate, lateral deviations; FDE, ADE, miss rate.", "pages": "5-7"},
+ "controllability_evidence": {"value": "Abstract reports 1.92× on distribution metrics, 1.14× on common-sense metrics, 1.62× on road compliance. Initialization collision rate 6.09% for PD versus 17.16% for MHA baseline. No steering experiment in packet.", "pages": "1, 5-6"},
+ "stated_limitations": {"value": "Fixed 6-second horizon from PCA; about 10 hours training; two separate models are costly; closed-loop evaluation not yet done; Frenet candidate grid predefined; no richer context such as signals or weather.", "pages": "8"},
+ "notes": "Not really a controllable-generation paper: controllability is limited to map and initial-state conditioning; test-time controllability is listed as future work. Conclusion mentions improved 'scene controllability' only loosely."
+}

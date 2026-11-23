@@ -1,0 +1,15 @@
+{
+ "id": "scenecrafter_controllable_multi_view_driving_scene",
+ "title": "SceneCrafter: Controllable Multi-View Driving Scene Editing",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "multi-view images (8 surrounding cameras, 512x512) edited from real source images; teacher trained on 17-frame, 8-camera segments", "pages": "4, 7"},
+ "control_signal": {"value": "target weather and time of day, agent boxes (insert or remove by agent type), HD map, camera poses as raymaps, and the source images to edit", "pages": "4, 6"},
+ "control_mechanism": {"value": "Conditions are encoded into the U-Net cross-attention blocks; raymaps, masks and source-image latents are concatenated with noisy latents; Prompt-to-Prompt with self-attention replacement makes paired training data", "pages": "4-6"},
+ "base_model": {"value": "Pretrained multi-view latent diffusion model (view-spatial joint attention, raymap pose conditioning, 8 views), teacher models then a student editing model", "pages": "4, 7"},
+ "datasets": {"value": "Curated driving-log set of 13,867,496 segments (17 frames, 8 cameras, 10 Hz), 1% held out; 1M synthetic paired samples train the student", "pages": "7"},
+ "metrics": {"value": "FID, CLIP score adapted for controllability, new 3D LPIPS for multi-view consistency, and a user study", "pages": "6"},
+ "controllability_evidence": {"value": "Generation task: full model FID 36.2 and 3D LPIPS 0.187 vs real 11.5 and 0.186; without conditions 68.5 and 0.254; CAT3D 121.3 and 0.249. Concatenation beats cross-attention: CLIP 0.220 vs 0.203", "pages": "7-8"},
+ "closed_loop": {"value": "No; edits logged multi-view images, no policy rollout reported in the packet", "pages": "1-2"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Editing model rather than world model; no limitations section in packet. Table 1 editing comparison with SDEdit and P2P not in packet."
+}

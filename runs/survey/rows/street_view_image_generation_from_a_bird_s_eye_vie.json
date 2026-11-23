@@ -1,0 +1,15 @@
+{
+ "id": "street_view_image_generation_from_a_bird_s_eye_vie",
+ "title": "Street-View Image Generation From a Bird's-Eye View Layout",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "multi-view street-view images (single frame, surrounding cameras); no video", "pages": "1-2"},
+ "control_signal": {"value": "BEV layout of HD map and traffic actors (21 channels on nuScenes) plus per-camera intrinsics and extrinsics", "pages": "3-4, 5"},
+ "control_mechanism": {"value": "BEV layout is tokenised by a VQ-VAE; an autoregressive transformer attends globally to BEV tokens, with camera-derived spatial embeddings and a pairwise camera attention bias", "pages": "2-3, 3-4, 4-5"},
+ "base_model": {"value": "VQ-VAE image and BEV tokenisers plus a GPT-like autoregressive transformer (24 layers, 16 heads); no pretrained image or video backbone stated", "pages": "3, 5"},
+ "datasets": {"value": "nuScenes (resampled to about 260k training instances) and Argoverse 2; layouts from projected 3D boxes", "pages": "4-5"},
+ "metrics": {"value": "FID; road and vehicle mIoU from a pre-trained CVT segmentation network; View Consistency Score; detection mAP and NDS for augmentation", "pages": "5-6, 7, 8-9"},
+ "controllability_evidence": {"value": "CVT on generated images: road mIoU 50.20, vehicle mIoU 5.89 (real-image model: 66.31 and 27.51); FID 25.54 on nuScenes; augmentation adds 0.6 mIoU road and vehicle", "pages": "5-7, 8-9"},
+ "closed_loop": {"value": "no; open-loop image generation, with layouts also taken from the MetaDrive simulator or edited by users", "pages": "1-2, 8-9"},
+ "stated_limitations": {"value": "Limited ability to generate individual vehicles recognised by the segmentation network; small-object synthesis remains hard and is left for future work", "pages": "5-7"},
+ "notes": "Early image-only scene generator, not a temporal world model. View Consistency Score 5.65 (nuScenes) versus 12.86 for real images."
+}

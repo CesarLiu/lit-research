@@ -1,0 +1,13 @@
+{
+ "id": "cafe_causally_faithful_conditional_traffic_scenari",
+ "title": "CaFe: Causally Faithful Conditional Traffic Scenario Generation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Private natural-language instructions per instructed agent (timed behaviour clauses, e.g. a late cut-in); uninstructed agents get no instruction and must react to observed motion.", "pages": "1-3, 7"},
+ "control_mechanism": {"value": "Dual-stream diffusion: a private stream conditions each agent on its own instruction; a language-blind public stream supplies beliefs. Inter-agent attention reads only public beliefs about others, blocking intent leakage by construction.", "pages": "2, 4"},
+ "base_model": {"value": "MDG-style multi-agent Diffusion Forcing simulator, frozen backbone run twice; scene encoder, temporal self-attention, inter-agent attention, scene cross-attention over acceleration/yaw-rate tokens; closed-loop re-planning every 1 s.", "pages": "4"},
+ "datasets": {"value": "WOMD-PACT (new, built from 531,099 WOMD scenes); evaluated on its validation split (1,000 scenes, 32 rollouts each).", "pages": "1, 7"},
+ "metrics": {"value": "Intent-leakage test (% of nearby agents displaced >0.5 m, displacement); WOSAC 2025 realism meta score, minADE, collision, off-road; clause satisfaction; responder reaction rate; B-hits-A collisions.", "pages": "7-8"},
+ "controllability_evidence": {"value": "Paired replay test: broadcast instructions affect 82.7% of nearby uninstructed agents at 8 s, CaFe 0.0%. CaFe satisfies 40.8% of timed clauses versus 38.0% without language; WOSAC 0.7631 versus 0.7628 single stream.", "pages": "7-8"},
+ "stated_limitations": {"value": "Evaluation covers only language conditioning; the same boundary for goal points or route sketches is untested. Uses one implementation (frozen backbone for public beliefs); richer belief representations remain unexplored.", "pages": "8-9"},
+ "notes": "Main contribution is evaluating and preventing intent leakage in language-conditioned simulators, not a new control channel. Family labelled trained-in conditioning (text); text is not produced by an LLM at inference per the packet. Gemma-4-26B-A4B-it only writes dataset sentences."
+}

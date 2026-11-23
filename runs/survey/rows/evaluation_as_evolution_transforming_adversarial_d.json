@@ -1,0 +1,34 @@
+{
+ "id": "evaluation_as_evolution_transforming_adversarial_d",
+ "title": "Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles",
+ "control_family": "inference-time guidance",
+ "control_signal": {
+  "value": "Adversarial objective of reaching ego failure, with a scheduled adversarial intensity eta_r that sets how far samples may deviate from the nominal prior; a sparse set of critical agents is selected automatically.",
+  "pages": "2, 7"
+ },
+ "control_mechanism": {
+  "value": "Transport-regularised drift controller optimised at inference time over a frozen reverse-time SDE prior, restricted to topology-selected agents; a feasibility-filtered coarse proposal is injected at an intermediate denoising step (Topological Anchoring).",
+  "pages": "1-2, 7"
+ },
+ "base_model": {
+  "value": "Frozen pretrained diffusion trajectory model giving the nominal reverse-time SDE prior; closed-loop multi-agent simulator (BITS-style) with black-box ego policies (lane-graph, IDM, BITS).",
+  "pages": "7"
+ },
+ "datasets": {
+  "value": "nuScenes and nuPlan validation splits, vehicle-to-vehicle interactions; deployed on nuPlan without retraining.",
+  "pages": "7"
+ },
+ "metrics": {
+  "value": "Safety: Collision Failure Rate, MinDTC, Relative Impact Velocity, Rear-Impact Rate, TTC cost, mean acceleration. Realism/validity: All-Off-Road rate, REAL (Wasserstein-based fidelity score). Mean over 7 seeds.",
+  "pages": "7-8"
+ },
+ "controllability_evidence": {
+  "value": "Against baselines on nuScenes: CFR 60.29%, AOR 0.14%, REAL 0.7432; nuPlan CFR 78.57% vs 57.14% for Safe-Sim-opt. Ablation: Topo+Feas. 53.57% CFR vs Random-K 28.57%.",
+  "pages": "8"
+ },
+ "stated_limitations": {
+  "value": "not stated in packet",
+  "pages": ""
+ },
+ "notes": "Controls adversarial failure discovery and intensity rather than user-specified semantic attributes. Packet has no limitations section; only a safety-comfort trade-off in downstream policy fine-tuning (page 11). Includes policy-fine-tuning curriculum."
+}

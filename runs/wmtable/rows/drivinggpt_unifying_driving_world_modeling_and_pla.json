@@ -1,0 +1,15 @@
+{
+ "id": "drivinggpt_unifying_driving_world_modeling_and_pla",
+ "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-Modal Autoregressive Transformers",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "single-view (front camera) video via discrete image tokens, plus ego action tokens (planned trajectory); optional SVD decoder refines to 1024x576 video", "pages": "3, 12-13"},
+ "control_signal": {"value": "frame-wise relative ego actions (dx, dy, yaw) quantised into tokens, interleaved with image tokens in history", "pages": "3-4"},
+ "control_mechanism": {"value": "token conditioning: image and action tokens form one unified vocabulary and sequence, modelled by next-token prediction with causal attention and frame-wise 1D rotary embeddings", "pages": "4"},
+ "base_model": {"value": "Llama-like autoregressive transformer (LlamaGen structure) trained from scratch; pretrained VQ-VAE image tokenizer; optional SVD video diffusion decoder in supplement", "pages": "4, 5, 12-13"},
+ "datasets": {"value": "nuPlan (front camera, clips of 16 frames at 10Hz) and NAVSIM (navtrain for training, navtest and navmini for testing)", "pages": "4-6"},
+ "metrics": {"value": "Video: FVD and FID. Planning: PDMS with NC, DAC, TTC, comfort and EP subscores.", "pages": "6"},
+ "controllability_evidence": {"value": "Table 1 on navtest: FVD 142.61 and FID 12.78 versus fine-tuned SVD 227.54 and 24.03. Action-condition understanding in long videos shown qualitatively; PDMS 65.3 to 82.4 with position embedding on actions.", "pages": "2, 5-6, 8"},
+ "closed_loop": {"value": "No: planning is scored on NAVSIM with a 4-second non-reactive simulation; long videos of 64 frames (32 s) are generated autoregressively but not rolled out with a policy in closed loop.", "pages": "6, 12-13"},
+ "stated_limitations": {"value": "Only the front camera is used, leaving surround cameras, LiDAR and IMU for future work; ego status is deliberately excluded. No explicit limitations section in the packet.", "pages": "3, 7"},
+ "notes": "Joint world model and planner; action-conditioned generation is claimed but not isolated by a dedicated action-following metric in the packet."
+}

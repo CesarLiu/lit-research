@@ -1,0 +1,146 @@
+[
+ {
+  "packet": "packets/editable_scene_simulation_for_autonomous_driving_v.md",
+  "field": "control_mechanism",
+  "claimed_value": "GPT-4 agents (project manager plus tech agents) turn commands into structured JSON configurations that drive role functions: inpainting for deletion, asset bank, motion generation, view adjustment",
+  "claimed_pages": "3-4, 13"
+ },
+ {
+  "packet": "packets/editable_scene_simulation_for_autonomous_driving_v.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Command execution success rates over 5 instruction categories (15 commands, 3 trials each); motion-from-text user study: ChatSim 0.988 straight, 0.940 left turn, 0.976 right turn, 0.952 speed, 1.000 within-road, versus GPT2Code and GPT2Motion.",
+  "claimed_pages": "8-9, 12"
+ },
+ {
+  "packet": "packets/gaussianworld_gaussian_world_model_for_streaming_3.md",
+  "field": "control_mechanism",
+  "claimed_value": "Historical Gaussians are aligned by ego motion, new areas completed with random Gaussians, then refined by an evolution layer with sparse convolution and deformable attention to image features",
+  "claimed_pages": "2-3, 8-9"
+ },
+ {
+  "packet": "packets/gaussianworld_gaussian_world_model_for_streaming_3.md",
+  "field": "controllability_evidence",
+  "claimed_value": "not applicable, no control input. Prediction gain: mIoU +2.4% and IoU +2.7% over single-frame GaussianFormer-B; ablations on ego motion and dynamic-object factors",
+  "claimed_pages": "6-7"
+ },
+ {
+  "packet": "packets/omninwm_omniscient_driving_navigation_world_models.md",
+  "field": "control_mechanism",
+  "claimed_value": "Canonical ray-maps and reference frames given as conditions C to a panoramic diffusion transformer; denoising on a joint latent of channel-concatenated RGB, semantics and depth",
+  "claimed_pages": "4, 19-20"
+ },
+ {
+  "packet": "packets/omninwm_omniscient_driving_navigation_world_models.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Camera-control error on 150 nuScenes validation scenes: 1.18 m TransErr versus 7.56 m for UniScene; zero-shot nuPlan TransErr 1.65 versus 7.12 for DiST-4D",
+  "claimed_pages": "11-12, 12-13"
+ },
+ {
+  "packet": "packets/x_world_controllable_ego_centric_multi_camera_worl.md",
+  "field": "control_mechanism",
+  "claimed_value": "Adaptive layer norm for actions and timesteps, additive embeddings for camera parameters, decoupled cross-attention branches for dynamic agents, static elements and text",
+  "claimed_pages": "5"
+ },
+ {
+  "packet": "packets/x_world_controllable_ego_centric_multi_camera_worl.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Qualitative action-controllability figure: logged versus generated video with ego trajectory for next 3 s overlaid (for example Turn Right to Turn Left); no number in packet",
+  "claimed_pages": "7-8"
+ },
+ {
+  "packet": "packets/nvidia_omnidreams_real_time_generative_world_model.md",
+  "field": "control_mechanism",
+  "claimed_value": "Lightweight control branch: small MLP encodes simulator state into control tokens concatenated with visual tokens (no ControlNet); text by cross-attention; streaming KV cache gives memory.",
+  "claimed_pages": "8-9"
+ },
+ {
+  "packet": "packets/nvidia_omnidreams_real_time_generative_world_model.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Fidelity as a simulator: policy ranking by All Incidents under NuRec is preserved under OmniDreams, with OmniDreams WAM best and Alpamayo 1.5 (1 cam) worst, called a faithful proxy.",
+  "claimed_pages": "24-25"
+ },
+ {
+  "packet": "packets/drivinggpt_unifying_driving_world_modeling_and_pla.md",
+  "field": "control_mechanism",
+  "claimed_value": "token conditioning: image and action tokens form one unified vocabulary and sequence, modelled by next-token prediction with causal attention and frame-wise 1D rotary embeddings",
+  "claimed_pages": "4"
+ },
+ {
+  "packet": "packets/drivinggpt_unifying_driving_world_modeling_and_pla.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Table 1 on navtest: FVD 142.61 and FID 12.78 versus fine-tuned SVD 227.54 and 24.03. Action-condition understanding in long videos shown qualitatively; PDMS 65.3 to 82.4 with position embedding on actions.",
+  "claimed_pages": "2, 5-6, 8"
+ },
+ {
+  "packet": "packets/hermes_a_unified_self_driving_world_model_for_simu.md",
+  "field": "control_mechanism",
+  "claimed_value": "ego-motion embeddings are added to learned world queries (one group per future frame, with frame embedding) processed by the LLM, then cross-attention link to future BEV features and a point-cloud renderer",
+  "claimed_pages": "5"
+ },
+ {
+  "packet": "packets/hermes_a_unified_self_driving_world_model_for_simu.md",
+  "field": "controllability_evidence",
+  "claimed_value": "No dedicated action-following test in packet. Generation accuracy: Chamfer 3s 1.17 versus 1.73 for ViDAR (about 32% lower), and 1.37 for a separated unification variant.",
+  "claimed_pages": "6"
+ },
+ {
+  "packet": "packets/street_view_image_generation_from_a_bird_s_eye_vie.md",
+  "field": "control_mechanism",
+  "claimed_value": "BEV layout is tokenised by a VQ-VAE; an autoregressive transformer attends globally to BEV tokens, with camera-derived spatial embeddings and a pairwise camera attention bias",
+  "claimed_pages": "2-3, 3-4, 4-5"
+ },
+ {
+  "packet": "packets/street_view_image_generation_from_a_bird_s_eye_vie.md",
+  "field": "controllability_evidence",
+  "claimed_value": "CVT on generated images: road mIoU 50.20, vehicle mIoU 5.89 (real-image model: 66.31 and 27.51); FID 25.54 on nuScenes; augmentation adds 0.6 mIoU road and vehicle",
+  "claimed_pages": "5-7, 8-9"
+ },
+ {
+  "packet": "packets/drivescape_towards_high_resolution_controllable_mu.md",
+  "field": "control_mechanism",
+  "claimed_value": "Bi-Directional Modulated Transformer: condition-to-latent and latent-to-condition cross-attention with temporal self-attention, injected into the UNet; condition features come from convolutional encoders.",
+  "claimed_pages": "4, 6"
+ },
+ {
+  "packet": "packets/drivescape_towards_high_resolution_controllable_mu.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Perception on generated validation data drops only slightly from real: Road mIoU 64.43 (-9.25), Vehicle mIoU 28.86 (-5.98), Object NDS 36.5 (-4.71). FID 8.34, FVD 76.39. Qualitative map and layout edits shown.",
+  "claimed_pages": "8-9, 1"
+ },
+ {
+  "packet": "packets/resim_reliable_world_simulation_for_autonomous_dri.md",
+  "field": "control_mechanism",
+  "claimed_value": "Lightweight trajectory encoder (two attention blocks, linear head) feeds waypoints into the DiT input alongside video latents; command via T5 text; command dropped with p=0.5 for classifier-free guidance.",
+  "claimed_pages": "3-4, 18-19"
+ },
+ {
+  "packet": "packets/resim_reliable_world_simulation_for_autonomous_dri.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Waymo zero-shot Trajectory Difference (Table 1): action-free 1.13 vs Vista 5.68; expert action 0.86 vs 1.89 (GT future 0.58). Human study favors ReSim on non-expert action following.",
+  "claimed_pages": "6-7"
+ },
+ {
+  "packet": "packets/uniscene_unified_occupancy_centric_driving_scene_g.md",
+  "field": "control_mechanism",
+  "claimed_value": "BEV layout concatenated with noise volumes in an occupancy DiT; occupancy rendered to depth and semantic maps and injected into video U-Net via ControlNet-style branch; text by cross-attention; layout editing via DDIM inversion",
+  "claimed_pages": "3-4, 9, 12"
+ },
+ {
+  "packet": "packets/uniscene_unified_occupancy_centric_driving_scene_g.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Layout edits shown qualitatively; mIoU is used to check layout accuracy of generated outputs. Reported gains versus prior SOTA: Figure 1 shows 41.4% lower video FVD, 71.1% lower occupancy error and 31.6% lower LiDAR MMD.",
+  "claimed_pages": "1, 6, 13"
+ },
+ {
+  "packet": "packets/risk_controllable_multi_view_diffusion_for_driving.md",
+  "field": "control_mechanism",
+  "claimed_value": "two stages: risk embedded by MLP and applied by FiLM to BEV features of a GenAD-style motion generator; resulting trajectories and boxes injected as structured motion conditions into the diffusion backbone",
+  "claimed_pages": "2, 4, 5-6"
+ },
+ {
+  "packet": "packets/risk_controllable_multi_view_diffusion_for_driving.md",
+  "field": "controllability_evidence",
+  "claimed_value": "Paper says measured risk closely matches target but omits the analysis; qualitative quantiles 0.95, 0.8, 0.2. Fidelity: FID 15.70 versus 20.91, mAP 30.50 versus 18.17.",
+  "claimed_pages": "7-8"
+ }
+]

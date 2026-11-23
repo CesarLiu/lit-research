@@ -1,0 +1,13 @@
+{
+ "id": "scenediffuser_efficient_and_controllable_driving_s",
+ "title": "SceneDiffuser: Efficient and Controllable Driving Simulation Initialization and Rollout",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "Inpainting masks over the scene tensor (conditioning on chosen agents, timesteps, feature channels), generalized hard constraints (non-collision, range, on-road), and constraint specifications for injected agents written by an LLM from text.", "pages": "1, 5-8, 16-18, 24-25"},
+ "control_mechanism": {"value": "Multi-task inpainting with randomized control masks during training; hard constraints applied at inference after each diffusion step; few-shot prompted LLM generates constraint protos from natural language.", "pages": "1, 5-8, 14-15, 16"},
+ "base_model": {"value": "Scene-level diffusion transformer: Perceiver IO global context encoder, spatiotemporal transformer denoiser with AdaLN conditioning, amortized autoregressive rollout, 16 denoising steps.", "pages": "3-6, 15"},
+ "datasets": {"value": "Waymo Open Motion Dataset (WOMD), used for scene generation and for the Waymo Open Sim Agents Challenge (WOSAC) rollout evaluation.", "pages": "4, 7, 14"},
+ "metrics": {"value": "WOSAC realism composite metric and components (kinematics, collision, TTC, offroad, distance to objects); collision and offroad rates; ADE and minADE; scene-generation distributional realism buckets; number of function evaluations.", "pages": "8-9, 14"},
+ "controllability_evidence": {"value": "Hard collision constraints raise scene-generation composite realism from 0.516 to 0.558 and collision score from 0.692 to 0.841. LLM-constraint scene generation of long-tail agents succeeded in 40/100 manually judged samples.", "pages": "8, 22"},
+ "stated_limitations": {"value": "Does not exceed SOTA of other autoregressive models; validity masks are not modelled and logged validity is used instead.", "pages": "10"},
+ "notes": "Multiple control routes; labelled inference-time guidance because the abstract names hard constraints as the inference-time mechanism, but inpainting masks and LLM prompting are also used. Controllability numbers for 40/100 come from an appendix qualitative judgement of four prototype constraint types (25 each)."
+}

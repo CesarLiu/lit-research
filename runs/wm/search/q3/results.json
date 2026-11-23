@@ -1,0 +1,1315 @@
+{
+  "query": "controllable driving video generation diffusion",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2023",
+  "raw_hits": 50,
+  "unique": 44,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403759442",
+      "doi": "10.1007/978-3-031-72989-8_19",
+      "title": "WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Jiachen Lu",
+        "Ze Huang",
+        "Zeyu Yang",
+        "Jiahui Zhang",
+        "Li Zhang"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 134,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.02934",
+      "url": "https://openalex.org/W4403759442",
+      "key": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7160087193",
+      "doi": "10.1109/iccv51701.2025.02612",
+      "title": "MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control",
+      "abstract": "The rapid advancement of diffusion models has greatly improved video synthesis, especially in controllable video generation, which is vital for applications like autonomous driving. Although DiT with 3D VAE has become a standard framework for video generation, it introduces challenges in controllable driving video generation, especially for geometry control, rendering existing control methods ineffective. To address these issues, we propose MagicDrive-V2, a novel approach that integrates the MVDiT block and spatial-temporal conditional encoding to enable multi-view video generation and precise geometric control. Additionally, we introduce an efficient method for obtaining contextual descriptions for videos to support diverse textual control, along with a progressive training strategy using mixed video data to enhance training efficiency and generalizability. Consequently, MagicDrive-V2 enables multi-view driving video synthesis with $3.3\\times$ resolution and $4\\times$ frame count (compared to current SOTA), rich contextual control, and geometric controls. Extensive experiments demonstrate MagicDrive-V2's ability, unlocking broader applications in autonomous driving.",
+      "year": 2025,
+      "authors": [
+        "Ruiyuan Gao",
+        "Kai Chen",
+        "Bo Xiao",
+        "Lanqing Hong",
+        "Zhenguo Li",
+        "Qiang Xu"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 140,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2411.13807",
+      "url": "https://openalex.org/W7160087193",
+      "also_doi": [],
+      "key": "openalex_101109_iccv51701202502612_MagicDrive-V2_High-Resolution_Long_Video_Generation_for",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502612_MagicDrive-V2_High-Resolution_Long_Video_Generation_for.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403706620",
+      "doi": "10.1007/978-3-031-73229-4_27",
+      "title": "DrivingDiffusion: Layout-Guided Multi-view Driving Scenarios Video Generation with Latent Diffusion Model",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Xiaofan Li",
+        "Yifu Zhang",
+        "Xiaoqing Ye"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 133,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4403706620",
+      "key": "openalex_101007_978-3-031-73229-4_27_DrivingDiffusion_Layout-Guided_Multi-view_Driving_Sce",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-73229-4_27_DrivingDiffusion_Layout-Guided_Multi-view_Driving_Sce.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4387634829",
+      "doi": "10.48550/arxiv.2310.07771",
+      "title": "DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model",
+      "abstract": "With the increasing popularity of autonomous driving based on the powerful and unified bird's-eye-view (BEV) representation, a demand for high-quality and large-scale multi-view video data with accurate annotation is urgently required. However, such large-scale multi-view data is hard to obtain due to expensive collection and annotation costs. To alleviate the problem, we propose a spatial-temporal consistent diffusion framework DrivingDiffusion, to generate realistic multi-view videos controlled by 3D layout. There are three challenges when synthesizing multi-view videos given a 3D layout: How to keep 1) cross-view consistency and 2) cross-frame consistency? 3) How to guarantee the quality of the generated instances? Our DrivingDiffusion solves the problem by cascading the multi-view single-frame image generation step, the single-view video generation step shared by multiple cameras, and post-processing that can handle long video generation. In the multi-view model, the consistency of multi-view images is ensured by information exchange between adjacent cameras. In the temporal model, we mainly query the information that needs attention in subsequent frame generation from the multi-view images of the first frame. We also introduce the local prompt to effectively improve the quality of generated instances. In post-processing, we further enhance the cross-view consistency of subsequent frames and extend the video length by employing temporal sliding window algorithm. Without any extra cost, our model can generate large-scale realistic multi-camera driving videos in complex urban scenes, fueling the downstream driving tasks. The code will be made publicly available.",
+      "year": 2023,
+      "authors": [
+        "Xiaofan Li",
+        "Yifu Zhang",
+        "Xiaoqing Ye"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 89,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2310.07771",
+      "url": "https://openalex.org/W4387634829",
+      "key": "openalex_1048550_arxiv231007771_DrivingDiffusion_Layout-Guided_multi-view_driving_scene_vi",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv231007771_DrivingDiffusion_Layout-Guided_multi-view_driving_scene_vi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402727021",
+      "doi": "10.1109/cvpr52733.2024.00659",
+      "title": "Panacea: Panoramic and Controllable Video Generation for Autonomous Driving",
+      "abstract": "The field of autonomous driving increasingly demands high-quality annotated training data. In this paper, we propose Panacea, an innovative approach to generate panoramic and controllable videos in driving scenarios, capable of yielding an unlimited numbers of diverse, annotated samples pivotal for autonomous driving advancements. Panacea addresses two critical challenges: ‘Consistency’ and ‘Controllability.’ Consistency ensures temporal and cross-view coherence, while Controllability ensures the alignment of generated content with corresponding annotations. Our approach integrates a novel 4D attention and a two-stage generation pipeline to maintain coherence, supplemented by the ControlNet framework for meticulous control by the Bird'View (BEV) layouts. Extensive qualitative and quantitative evaluations of Panacea on the nuScenes dataset prove its effectiveness in generating high-quality multi-view driving-scene videos. This work notably propels the field of autonomous driving by effectively augmenting the training dataset used for advanced BEV perception techniques.",
+      "year": 2024,
+      "authors": [
+        "Yuqing Wen",
+        "Yucheng Zhao",
+        "Yingfei Liu",
+        "Fan Jia",
+        "Yanhui Wang",
+        "Chong Luo",
+        "Chi Zhang",
+        "Tiancai Wang",
+        "Xiaoyan Sun",
+        "Xiangyu Zhang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 232,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.16813",
+      "url": "https://openalex.org/W4402727021",
+      "also_doi": [
+        "10.1109/tcsvt.2025.3601553"
+      ],
+      "key": "openalex_101109_cvpr52733202400659_Panacea_Panoramic_and_Controllable_Video_Generation_for",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202400659_Panacea_Panoramic_and_Controllable_Video_Generation_for.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415877528",
+      "doi": "10.48550/arxiv.2510.15264",
+      "title": "DriveGen3D: Boosting Feed-Forward Driving Scene Generation with Efficient Video Diffusion",
+      "abstract": "We present DriveGen3D, a novel framework for generating high-quality and highly controllable dynamic 3D driving scenes that addresses critical limitations in existing methodologies. Current approaches to driving scene synthesis either suffer from prohibitive computational demands for extended temporal generation, focus exclusively on prolonged video synthesis without 3D representation, or restrict themselves to static single-scene reconstruction. Our work bridges this methodological gap by integrating accelerated long-term video generation with large-scale dynamic scene reconstruction through multimodal conditional control. DriveGen3D introduces a unified pipeline consisting of two specialized components: FastDrive-DiT, an efficient video diffusion transformer for high-resolution, temporally coherent video synthesis under text and Bird's-Eye-View (BEV) layout guidance; and FastRecon3D, a feed-forward module that rapidly builds 3D Gaussian representations across time, ensuring spatial-temporal consistency. DriveGen3D enable the generation of long driving videos (up to $800\\times424$ at $12$ FPS) and corresponding 3D scenes, achieving state-of-the-art results while maintaining efficiency.",
+      "year": 2025,
+      "authors": [
+        "Weijie Wang",
+        "Jiagang Zhu",
+        "Zeyu Zhang",
+        "Xiaofeng Wang",
+        "Zheng Dong Zhu",
+        "Zhao, Guosheng",
+        "Chaojun Ni",
+        "Haoxiao Wang",
+        "Guan Huang",
+        "Xinze Chen",
+        "Yukun Zhou",
+        "Wenkang Qin",
+        "Duochao Shi",
+        "Haoyun Li",
+        "Xiao, Yicheng",
+        "Chen, Donny Y.",
+        "Lu, Jiwen"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 19,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.15264",
+      "url": "https://openalex.org/W4415877528",
+      "key": "openalex_1048550_arxiv251015264_DriveGen3D_Boosting_Feed-Forward_Driving_Scene_Generation_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv251015264_DriveGen3D_Boosting_Feed-Forward_Driving_Scene_Generation_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4399378637",
+      "doi": "10.48550/arxiv.2406.01349",
+      "title": "Unleashing Generalization of End-to-End Autonomous Driving with Controllable Long Video Generation",
+      "abstract": "Using generative models to synthesize new data has become a de-facto standard in autonomous driving to address the data scarcity issue. Though existing approaches are able to boost perception models, we discover that these approaches fail to improve the performance of planning of end-to-end autonomous driving models as the generated videos are usually less than 8 frames and the spatial and temporal inconsistencies are not negligible. To this end, we propose Delphi, a novel diffusion-based long video generation method with a shared noise modeling mechanism across the multi-views to increase spatial consistency, and a feature-aligned module to achieves both precise controllability and temporal consistency. Our method can generate up to 40 frames of video without loss of consistency which is about 5 times longer compared with state-of-the-art methods. Instead of randomly generating new data, we further design a sampling policy to let Delphi generate new data that are similar to those failure cases to improve the sample efficiency. This is achieved by building a failure-case driven framework with the help of pre-trained visual language models. Our extensive experiment demonstrates that our Delphi generates a higher quality of long videos surpassing previous state-of-the-art methods. Consequentially, with only generating 4% of the training dataset size, our framework is able to go beyond perception and prediction tasks, for the first time to the best of our knowledge, boost the planning performance of the end-to-end autonomous driving model by a margin of 25%.",
+      "year": 2024,
+      "authors": [
+        "Enhui Ma",
+        "Lijun Zhou",
+        "Tao Tang",
+        "Zhang Zhan",
+        "Dong Han",
+        "Junpeng Jiang",
+        "Kun Zhan",
+        "Peng Jia",
+        "Xianpeng Lang",
+        "Haiyang Sun",
+        "Lin, Di",
+        "Kaicheng Yu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 61,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2406.01349",
+      "url": "https://openalex.org/W4399378637",
+      "key": "openalex_1048550_arxiv240601349_Unleashing_Generalization_of_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240601349_Unleashing_Generalization_of_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4403620389",
+      "doi": "10.48550/arxiv.2409.06189",
+      "title": "MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control",
+      "abstract": "High-quality driving video generation is crucial for providing training data for autonomous driving models. However, current generative models rarely focus on enhancing camera motion control under multi-view tasks, which is essential for driving video generation. Therefore, we propose MyGo, an end-to-end framework for video generation, introducing motion of onboard cameras as conditions to make progress in camera controllability and multi-view consistency. MyGo employs additional plug-in modules to inject camera parameters into the pre-trained video diffusion model, which retains the extensive knowledge of the pre-trained model as much as possible. Furthermore, we use epipolar constraints and neighbor view information during the generation process of each view to enhance spatial-temporal consistency. Experimental results show that MyGo has achieved state-of-the-art results in both general camera-controlled video generation and multi-view driving video generation tasks, which lays the foundation for more accurate environment simulation in autonomous driving. Project page: https://metadrivescape.github.io/papers_project/MyGo/page.html",
+      "year": 2024,
+      "authors": [
+        "Yining Yao",
+        "Xi Wei Guo",
+        "Chenjing Ding",
+        "Wei Wu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 7,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.06189",
+      "url": "https://openalex.org/W4403620389",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv240906189_MyGo_Consistent_and_Controllable_Multi-View_Driving_Video_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240906189_MyGo_Consistent_and_Controllable_Multi-View_Driving_Video_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4404971889",
+      "doi": "10.1145/3680528.3687652",
+      "title": "TrailBlazer: Trajectory Control for Diffusion-Based Video Generation",
+      "abstract": "Large text-to-video (T2V) models such as Sora have the potential to revolutionize visual effects and the creation of some types of movies. Current T2V models require tedious trial-and-error experimentation to achieve desired results, however. This motivates the search for methods to directly control desired attributes. In this work, we take a step toward this goal, introducing a method for high-level, temporally-coherent control over the basic trajectories and appearance of objects. Our algorithm, TrailBlazer , allows the general positions and (optionally) appearance of objects to be controlled simply by keyframing approximate bounding boxes and (optionally) their corresponding prompts. Importantly, our method does not require a pre-existing control video signal that already contains an accurate outline of the desired motion, yet the synthesized motion is surprisingly natural with emergent effects including perspective and movement toward the virtual camera as the box size increases. The method is efficient, making use of a pre-trained T2V model and requiring no training or fine-tuning, with negligible additional computation. Specifically, the bounding box controls are used as soft masks to guide manipulation of the self-attention and cross-attention modules in the video diffusion model. While our visual results are limited by those of the underlying model, the algorithm may generalize to future models that use standard self- and cross-attention components.",
+      "year": 2024,
+      "authors": [
+        "Wan-Duo Kurt Ma",
+        "John P. Lewis",
+        "Willem Bastiaan Kleijn"
+      ],
+      "venue": "SIGGRAPH Asia Conference Papers",
+      "cited_by": 97,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2401.00896",
+      "url": "https://openalex.org/W4404971889",
+      "key": "openalex_101145_36805283687652_TrailBlazer_Trajectory_Control_for_Diffusion-Based_Video_Ge",
+      "file_kind": "txt",
+      "file": "openalex_101145_36805283687652_TrailBlazer_Trajectory_Control_for_Diffusion-Based_Video_Ge.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402727274",
+      "doi": "10.1109/cvpr52733.2024.00660",
+      "title": "360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model",
+      "abstract": "Panorama video recently attracts more interest in both study and application, courtesy of its immersive experience. Due to the expensive cost of capturing$360^{\\circ}$panoramic videos, generating desirable panorama videos by prompts is urgently required. Lately, the emerging text-to-video (T2V) diffusion methods demonstrate notable effectiveness in standard video generation. However, due to the significant gap in content and motion patterns between panoramic and standard videos, these methods encounter challenges in yielding satisfactory$360^{\\circ}$panoramic videos. In this paper, we propose a pipeline named 360-Degree Video Diffusion model (360DVD) for generating$360^{\\circ}$panoramic videos based on the given prompts and motion conditions. Specifically, we introduce a lightweight 360-Adapter accompanied by 360 Enhancement Techniques to transform pre-trained T2V models for panorama video generation. We further propose a new panorama dataset named WEB360 consisting of panoramic video-text pairs for training 360DVD, addressing the absence of captioned panoramic video datasets. Extensive experiments demonstrate the superior-ity and effectiveness of 360DVD for panorama video gen-eration. Our project page is at https: / /akaneqwq. github. io/360DVD/.",
+      "year": 2024,
+      "authors": [
+        "Qian Wang",
+        "Weiqi Li",
+        "Chong Mou",
+        "Xinhua Cheng",
+        "Jian Zhang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 104,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2401.06578",
+      "url": "https://openalex.org/W4402727274",
+      "key": "openalex_101109_cvpr52733202400660_360DVD_Controllable_Panorama_Video_Generation_with_360-",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202400660_360DVD_Controllable_Panorama_Video_Generation_with_360-.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417012199",
+      "doi": "10.1109/tmm.2026.3712641",
+      "title": "DiVE: Efficient Multi-View Driving Scenes Generation Based on Video Diffusion Transformer",
+      "abstract": "Collecting multi-view driving scenario videos to enhance the performance of 3D visual perception tasks presents significant challenges and incurs substantial costs, making generative models for realistic data an appealing alternative. Yet, the videos generated by recent works suffer from poor quality and spatiotemporal consistency, undermining their utility in advancing perception tasks under driving scenarios. To address this gap, we propose DiVE, a diffusion transformer-based generative framework meticulously engineered to produce high-fidelity, temporally coherent, and cross-view consistent multi-view videos, aligning seamlessly with bird's-eye view layouts and textual descriptions. DiVE leverages a unified cross-attention and a SketchFormer to exert precise control over multimodal data, while incorporating a view-inflated attention mechanism that adds no extra parameters, thereby guaranteeing consistency across views. Despite these advancements, synthesizing high-resolution videos under multimodal constraints introduces dual challenges: investigating the optimal classifier-free guidance coniguration under intricate multi-condition inputs and mitigating excessive computational latency in high-resolution rendering--both of which remain underexplored in prior researches. To resolve these limitations, we introduce two innovations: Multi-Control Auxiliary Branch Distillation, which streamlines multi-condition CFG selection while circumventing high computational overhead, and Resolution Progressive Sampling, a training-free acceleration strategy that staggers resolution scaling to reduce high latency due to high resolution. These innovations collectively achieve a 2.62x speedup with minimal quality degradation. Evaluated on the nuScenes dataset, DiVE achieves SOTA performance in multi-view video generation, yielding photorealistic outputs with exceptional temporal and cross-view coherence.",
+      "year": 2026,
+      "authors": [
+        "Junpeng Jiang",
+        "Gangyi Hong",
+        "Miao Zhang",
+        "Hengtong Hu",
+        "Kun Zhan",
+        "Rui Shao",
+        "Liqiang Nie"
+      ],
+      "venue": "IEEE Transactions on Multimedia",
+      "cited_by": 15,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2504.19614",
+      "url": "https://openalex.org/W4417012199",
+      "key": "openalex_101109_tmm20263712641_DiVE_Efficient_Multi-View_Driving_Scenes_Generation_Based_o",
+      "file_kind": "txt",
+      "file": "openalex_101109_tmm20263712641_DiVE_Efficient_Multi-View_Driving_Scenes_Generation_Based_o.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4391212809",
+      "doi": "10.48550/arxiv.2401.12945",
+      "title": "Lumiere: A Space-Time Diffusion Model for Video Generation",
+      "abstract": "We introduce Lumiere -- a text-to-video diffusion model designed for synthesizing videos that portray realistic, diverse and coherent motion -- a pivotal challenge in video synthesis. To this end, we introduce a Space-Time U-Net architecture that generates the entire temporal duration of the video at once, through a single pass in the model. This is in contrast to existing video models which synthesize distant keyframes followed by temporal super-resolution -- an approach that inherently makes global temporal consistency difficult to achieve. By deploying both spatial and (importantly) temporal down- and up-sampling and leveraging a pre-trained text-to-image diffusion model, our model learns to directly generate a full-frame-rate, low-resolution video by processing it in multiple space-time scales. We demonstrate state-of-the-art text-to-video generation results, and show that our design easily facilitates a wide range of content creation tasks and video editing applications, including image-to-video, video inpainting, and stylized generation.",
+      "year": 2024,
+      "authors": [
+        "Omer Bar-Tal",
+        "Hila Chefer",
+        "Omer Tov",
+        "Charles Herrmann",
+        "Roni Paiss",
+        "Shiran Zada",
+        "Ariel Ephrat",
+        "Junhwa Hur",
+        "Liu, Guanghui",
+        "Raj, Amit",
+        "Yuanzhen Li",
+        "Michael Rubinstein",
+        "Tomer Michaeli",
+        "Oliver Wang",
+        "Deqing Sun",
+        "Tali Dekel",
+        "Inbar Mosseri"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 328,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2401.12945",
+      "url": "https://openalex.org/W4391212809",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv240112945_Lumiere_A_Space-Time_Diffusion_Model_for_Video_Generation",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240112945_Lumiere_A_Space-Time_Diffusion_Model_for_Video_Generation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403586125",
+      "doi": "10.48550/arxiv.2409.04003",
+      "title": "DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes",
+      "abstract": "Recent advances in diffusion models have improved controllable streetscape generation and supported downstream perception and planning tasks. However, challenges remain in accurately modeling driving scenes and generating long videos. To alleviate these issues, we propose DreamForge, an advanced diffusion-based autoregressive video generation model tailored for 3D-controllable long-term generation. To enhance the lane and foreground generation, we introduce perspective guidance and integrate object-wise position encoding to incorporate local 3D correlation and improve foreground object modeling. We also propose motion-aware temporal attention to capture motion cues and appearance changes in videos. By leveraging motion frames and an autoregressive generation paradigm,we can autoregressively generate long videos (over 200 frames) using a model trained in short sequences, achieving superior quality compared to the baseline in 16-frame video evaluations. Finally, we integrate our method with the realistic simulator DriveArena to provide more reliable open-loop and closed-loop evaluations for vision-based driving agents. Project Page: https://pjlab-adg.github.io/DriveArena/dreamforge.",
+      "year": 2024,
+      "authors": [
+        "Jianbiao Mei",
+        "Hu, Tao",
+        "Xuemeng Yang",
+        "Licheng Wen",
+        "Yang, Yu",
+        "Tiantian Wei",
+        "Yukai Ma",
+        "Min Dou",
+        "Botian Shi",
+        "Yong Liu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 41,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.04003",
+      "url": "https://openalex.org/W4403586125",
+      "key": "openalex_1048550_arxiv240904003_DreamForge_Motion-Aware_Autoregressive_Video_Generation_fo",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240904003_DreamForge_Motion-Aware_Autoregressive_Video_Generation_fo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7135223629",
+      "doi": "10.48550/arxiv.2603.11534",
+      "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation",
+      "abstract": "Generating safety-critical driving scenarios is crucial for evaluating and improving autonomous driving systems, but long-tail risky situations are rarely observed in real-world data and difficult to specify through manual scenario design. Existing generative approaches typically treat risk as an after-the-fact label and struggle to maintain geometric consistency in multi-view driving scenes. We present RiskMV-DPO, a general and systematic pipeline for physically-informed, risk-controllable multi-view scenario generation. By integrating target risk levels with physically-grounded risk modeling, we synthesize diverse and high-stakes dynamic trajectories that serve as explicit geometric anchors for a diffusion-based video generator. To ensure spatial-temporal coherence and geometric fidelity, we introduce a geometry-appearance alignment module and a region-aware direct preference optimization (RA-DPO) strategy with motion-aware masking to focus learning on localized dynamic regions. Experiments on the nuScenes dataset show that RiskMV-DPO can freely generate a wide spectrum of diverse scenarios while maintaining visual quality, improving 3D detection mAP from 18.17 to 30.50 and reducing FID to 15.70. Our work shifts the role of world models from passive environment prediction to proactive, risk-controllable synthesis, providing a scalable toolchain for the development of embodied intelligence.",
+      "year": 2026,
+      "authors": [
+        "Hongyi Lin",
+        "Wenxiu Shi",
+        "Heye Huang",
+        "Dingyi Zhuang",
+        "Song Zhang",
+        "Yang Liu",
+        "Xiaobo Qu",
+        "Jinhua Zhao"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 4,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.11534",
+      "url": "https://openalex.org/W7135223629",
+      "key": "openalex_1048550_arxiv260311534_Risk-Controllable_Multi-View_Diffusion_for_Driving_Scenari",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260311534_Risk-Controllable_Multi-View_Diffusion_for_Driving_Scenari.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405173645",
+      "doi": "10.1109/iccv51701.2025.02361",
+      "title": "UniMLVG: Unified Framework for Multi-View Long Video Generation with Comprehensive Control Capabilities for Autonomous Driving",
+      "abstract": "The creation of diverse and realistic driving scenarios has become essential to enhance perception and planning capabilities of the autonomous driving system. However, generating long-duration, surround-view consistent driving videos remains a significant challenge. To address this, we present UniMLVG, a unified framework designed to generate extended street multi-perspective videos under precise control. By integrating single- and multi-view driving videos into the training data, our approach updates a DiT-based diffusion model equipped with cross-frame and cross-view modules across three stages with multi training objectives, substantially boosting the diversity and quality of generated visual content. Importantly, we propose an innovative explicit viewpoint modeling approach for multi-view video generation to effectively improve motion transition consistency. Capable of handling various input reference formats (e.g., text, images, or video), our UniMLVG generates high-quality multi-view videos according to the corresponding condition constraints such as 3D bounding boxes or frame-level text descriptions. Compared to the best models with similar capabilities, our framework achieves improvements of 48.2% in FID and 35.2% in FVD.",
+      "year": 2025,
+      "authors": [
+        "Rui Chen",
+        "Zehuan Wu",
+        "Yichen Liu",
+        "Yuxin Guo",
+        "Jingcheng Ni",
+        "Haifeng Xia",
+        "Siyu Xia"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 41,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.04842",
+      "url": "https://openalex.org/W4405173645",
+      "key": "openalex_101109_iccv51701202502361_UniMLVG_Unified_Framework_for_Multi-View_Long_Video_Gen",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502361_UniMLVG_Unified_Framework_for_Multi-View_Long_Video_Gen.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416123565",
+      "doi": "10.1109/iccv51701.2025.01166",
+      "title": "Audio-Visual Controlled Video Diffusion with Masked Selective State Spaces Modeling for Natural Talking Head Generation",
+      "abstract": "Talking head synthesis is vital for virtual avatars and human-computer interaction. However, most existing methods are typically limited to accepting control from a single primary modality, restricting their practical utility. To this end, we introduce \\textbf{ACTalker}, an end-to-end video diffusion framework that supports both multi-signals control and single-signal control for talking head video generation. For multiple control, we design a parallel mamba structure with multiple branches, each utilizing a separate driving signal to control specific facial regions. A gate mechanism is applied across all branches, providing flexible control over video generation. To ensure natural coordination of the controlled video both temporally and spatially, we employ the mamba structure, which enables driving signals to manipulate feature tokens across both dimensions in each branch. Additionally, we introduce a mask-drop strategy that allows each driving signal to independently control its corresponding facial region within the mamba structure, preventing control conflicts. Experimental results demonstrate that our method produces natural-looking facial videos driven by diverse signals and that the mamba layer seamlessly integrates multiple driving modalities without conflict. The project website can be found at https://harlanhong.github.io/publications/actalker/index.html.",
+      "year": 2025,
+      "authors": [
+        "Fa-Ting Hong",
+        "Zhiwei Xu",
+        "Zixiang Zhou",
+        "Jun Zhou",
+        "Xiu Li",
+        "Qin Lin",
+        "Qinglin Lu",
+        "Dan Xu"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 27,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2504.02542",
+      "url": "https://openalex.org/W4416123565",
+      "key": "openalex_101109_iccv51701202501166_Audio-Visual_Controlled_Video_Diffusion_with_Masked_Sel",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202501166_Audio-Visual_Controlled_Video_Diffusion_with_Masked_Sel.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7233679296",
+      "doi": "",
+      "title": "A Diffusion Model for Generating Safety-Critical Rural Driving Video Data",
+      "abstract": "Safety-critical scenarios in rural driving are rare in public datasets, yet rural contexts exhibit elevated fatality rate per vehicle mile traveled (VMT) and present distinct challenges such as sparse infrastructure, and weak nighttime illumination. To address the scarcity of rural safety-critical video data, this project investigates diffusion-based approaches for generating driving videos and controllable rural hazard scenarios. The Historical Motion Prior Diffusion Model (HMPDM) is presented as a diffusion-based driving video prediction approach that incorporates historical motion context to improve temporal and motion consistency in multi-frame generation. In addition, since safety-critical scenario synthesis requires higher controllability than prediction-oriented generation, a rural Sim-to-Real pipeline is developed to script hazardous events in simulation and render them into realistic driving videos using an HD-map-conditioned video foundation diffusion model (Cosmos-Transfer1-7B-Sample-AV) guided by structured prompts. The pipeline is implemented in CARLA and instantiates six rural safety-critical scenario types, with further diversity introduced through adverse weather and illumination variations. Overall, this framework mitigates the lack of realistic and controllable rural safety-critical video data by enabling synthesis of long-tail hazardous events. Moreover, it can support safety evaluation studies that inform the development of more robust and reliable driving assistance and automated driving technologies in rural environments.",
+      "year": 2025,
+      "authors": [
+        "Ruwen Qin",
+        "Ke Li",
+        "Kaidi Liang"
+      ],
+      "venue": "ROSA P",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://rosap.ntl.bts.gov/view/dot/94189/dot_94189_DS1.pdf",
+      "url": "https://openalex.org/W7233679296",
+      "key": "openalex_W7233679296_A_Diffusion_Model_for_Generating_Safety-Critical_Rural_Driving_Video_",
+      "file_kind": "txt",
+      "file": "openalex_W7233679296_A_Diffusion_Model_for_Generating_Safety-Critical_Rural_Driving_Video_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4386075767",
+      "doi": "10.1109/cvpr52729.2023.00985",
+      "title": "MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation",
+      "abstract": "We propose the first joint audio-video generation framework that brings engaging watching and listening experiences simultaneously, towards high-quality realistic videos. To generate joint audio-video pairs, we propose a novel Multi-Modal Diffusion model (i.e., MM-Diffusion), with two-coupled denoising autoencoders. In contrast to existing single-modal diffusion models, MM-Diffusion consists of a sequential multi-modal U-Net for a joint denoising process by design. Two subnets for audio and video learn to gradually generate aligned audio-video pairs from Gaussian noises. To ensure semantic consistency across modalities, we propose a novel random-shift based attention block bridging over the two subnets, which enables efficient cross-modal alignment, and thus reinforces the audio-video fidelity for each other. Extensive experiments show superior results in unconditional audio-video generation, and zeroshot conditional tasks (e.g., video-to-audio). In particular, we achieve the best FVD and FAD on Landscape and AIST++ dancing datasets. Turing tests of 10k votes further demonstrate dominant preferences for our model. The code and pre-trained models can be downloaded at https://github.com/researchmm/MM-Diffusion.",
+      "year": 2023,
+      "authors": [
+        "Ludan Ruan",
+        "Yiyang Ma",
+        "Huan Yang",
+        "Huiguo He",
+        "Bei Liu",
+        "Jianlong Fu",
+        "Nicholas Jing Yuan",
+        "Qin Jin",
+        "Baining Guo"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 399,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2212.09478",
+      "url": "https://openalex.org/W4386075767",
+      "key": "openalex_101109_cvpr52729202300985_MM-Diffusion_Learning_Multi-Modal_Diffusion_Models_for_",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52729202300985_MM-Diffusion_Learning_Multi-Modal_Diffusion_Models_for_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4407881938",
+      "doi": "10.1007/s11263-025-02349-y",
+      "title": "Swap Attention in Spatiotemporal Diffusions for Text-to-Video Generation",
+      "abstract": "",
+      "year": 2025,
+      "authors": [
+        "Wenjing Wang",
+        "Huan Yang",
+        "Zixi Tuo",
+        "Huiguo He",
+        "Junchen Zhu",
+        "Jianlong Fu",
+        "Jiaying Liu"
+      ],
+      "venue": "International Journal of Computer Vision",
+      "cited_by": 175,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2305.10874",
+      "url": "https://openalex.org/W4407881938",
+      "key": "openalex_101007_s11263-025-02349-y_Swap_Attention_in_Spatiotemporal_Diffusions_for_Text-to",
+      "file_kind": "txt",
+      "file": "openalex_101007_s11263-025-02349-y_Swap_Attention_in_Spatiotemporal_Diffusions_for_Text-to.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402955020",
+      "doi": "10.48550/arxiv.2409.01595",
+      "title": "DiVE: DiT-based Video Generation with Enhanced Control",
+      "abstract": "Generating high-fidelity, temporally consistent videos in autonomous driving scenarios faces a significant challenge, e.g. problematic maneuvers in corner cases. Despite recent video generation works are proposed to tackcle the mentioned problem, i.e. models built on top of Diffusion Transformers (DiT), works are still missing which are targeted on exploring the potential for multi-view videos generation scenarios. Noticeably, we propose the first DiT-based framework specifically designed for generating temporally and multi-view consistent videos which precisely match the given bird's-eye view layouts control. Specifically, the proposed framework leverages a parameter-free spatial view-inflated attention mechanism to guarantee the cross-view consistency, where joint cross-attention modules and ControlNet-Transformer are integrated to further improve the precision of control. To demonstrate our advantages, we extensively investigate the qualitative comparisons on nuScenes dataset, particularly in some most challenging corner cases. In summary, the effectiveness of our proposed method in producing long, controllable, and highly consistent videos under difficult conditions is proven to be effective.",
+      "year": 2024,
+      "authors": [
+        "Junpeng Jiang",
+        "Gangyi Hong",
+        "Zhou, Lijun",
+        "Enhui Ma",
+        "Hu, Hengtong",
+        "Xia Zhou",
+        "Xiang, Jie",
+        "Fan Liu",
+        "Kaicheng Yu",
+        "Sun, Haiyang",
+        "Kun Zhan",
+        "Jia Peng",
+        "Miao Zhang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 42,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.01595",
+      "url": "https://openalex.org/W4402955020",
+      "key": "openalex_1048550_arxiv240901595_DiVE_DiT-based_Video_Generation_with_Enhanced_Control",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240901595_DiVE_DiT-based_Video_Generation_with_Enhanced_Control.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4386076323",
+      "doi": "10.1109/cvpr52729.2023.01769",
+      "title": "Conditional Image-to-Video Generation with Latent Flow Diffusion Models",
+      "abstract": "Conditional image-to-video (cI2V) generation aims to synthesize a new plausible video starting from an image (e.g., a person's face) and a condition (e.g., an action class label like smile). The key challenge of the cI2V task lies in the simultaneous generation of realistic spatial appearance and temporal dynamics corresponding to the given image and condition. In this paper, we propose an approach for cI2V using novel latent flow diffusion models (LFDM) that synthesize an optical flow sequence in the latent space based on the given condition to warp the given image. Compared to previous direct-synthesis-based works, our proposed LFDM can better synthesize spatial details and temporal motion by fully utilizing the spatial content of the given image and warping it in the latent space according to the generated temporally-coherent flow. The training of LFDM consists of two separate stages: (1) an unsupervised learning stage to train a latent flow auto-encoder for spatial content generation, including a flow predictor to estimate latent flow between pairs of video frames, and (2) a conditional learning stage to train a 3D-UNet-based diffusion model (DM) for temporal latent flow generation. Unlike previous DMs operating in pixel space or latent feature space that couples spatial and temporal information, the DM in our LFDM only needs to learn a low-dimensional latent flow space for motion generation, thus being more computationally efficient. We conduct comprehensive experiments on multiple datasets, where LFDM consistently outperforms prior arts. Furthermore, we show that LFDM can be easily adapted to new domains by simply finetuning the image decoder. Our code is available at https://github.com/nihaomiao/CVPR23_LFDM.",
+      "year": 2023,
+      "authors": [
+        "Haomiao Ni",
+        "Changhao Shi",
+        "Kai Li",
+        "Xiaolei Huang",
+        "Martin Renqiang Min"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 283,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.13744",
+      "url": "https://openalex.org/W4386076323",
+      "key": "openalex_101109_cvpr52729202301769_Conditional_Image-to-Video_Generation_with_Latent_Flow_",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52729202301769_Conditional_Image-to-Video_Generation_with_Latent_Flow_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4414877175",
+      "doi": "10.48550/arxiv.2507.16869",
+      "title": "Controllable Video Generation: A Survey",
+      "abstract": "With the rapid development of AI-generated content (AIGC), video generation has emerged as one of its most dynamic and impactful subfields. In particular, the advancement of video generation foundation models has led to growing demand for controllable video generation methods that can more accurately reflect user intent. Most existing foundation models are designed for text-to-video generation, where text prompts alone are often insufficient to express complex, multi-modal, and fine-grained user requirements. This limitation makes it challenging for users to generate videos with precise control using current models. To address this issue, recent research has explored the integration of additional non-textual conditions, such as camera motion, depth maps, and human pose, to extend pretrained video generation models and enable more controllable video synthesis. These approaches aim to enhance the flexibility and practical applicability of AIGC-driven video generation systems. In this survey, we provide a systematic review of controllable video generation, covering both theoretical foundations and recent advances in the field. We begin by introducing the key concepts and commonly used open-source video generation models. We then focus on control mechanisms in video diffusion models, analyzing how different types of conditions can be incorporated into the denoising process to guide generation. Finally, we categorize existing methods based on the types of control signals they leverage, including single-condition generation, multi-condition generation, and universal controllable generation. For a complete list of the literature on controllable video generation reviewed, please visit our curated repository at https://github.com/mayuelala/Awesome-Controllable-Video-Generation.",
+      "year": 2025,
+      "authors": [
+        "Yue Ma",
+        "Feng, Kunyu",
+        "Hu, Zhongyuan",
+        "Xinyu Wang",
+        "Yucheng Wang",
+        "Zheng, Mingzhe",
+        "Bingyuan Wang",
+        "Wang, Qinghe",
+        "He, Xuanhua",
+        "Wang, Hongfa",
+        "Chenyang Zhu",
+        "Hongyu Liu",
+        "Yingqing He",
+        "Zeyu Wang",
+        "Zhifeng Li",
+        "Xiu Li",
+        "Sirui Han",
+        "Yike Guo",
+        "Wei Liu",
+        "Dan Xu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 153,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2507.16869",
+      "url": "https://openalex.org/W4414877175",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv250716869_Controllable_Video_Generation_A_Survey",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250716869_Controllable_Video_Generation_A_Survey.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7222956969",
+      "doi": "10.48550/arxiv.2610.23772",
+      "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
+      "abstract": "Video diffusion models (VDMs) trained on internet-scale data encode a rich prior on appearance, motion, and physics that is difficult to replicate with explicit 3D rendering and costly 3D data capture. We introduce Video Diffusion Avatars (VDAs), a method that creates photo-realistic, multi-view consistent avatars from a single image by fine-tuning a VDM for precise control over camera viewpoint, facial expression, and upper-body pose. Departing from 3D morphable models (3DMMs), VDAs use a learned expression space that lifts the expressiveness ceiling of 3DMMs, e.g., for the tongue and mouth interior. However, learned expression codes exhibit heavy viewpoint bias, as our DISTRACT benchmark reveals. We show that this bias can be removed through disentanglement, enabling their use as driving signals for multi-view consistent avatars. Camera and upper-body pose are controlled jointly via proxy-mesh renderings, giving independent control over expression, pose, and viewpoint. A camera-triplet training strategy makes the approach efficient: our models train for 34 hours on a single A100 using only public multi-view data. VDAs outperform state-of-the-art single-image 3D avatars on novel-view reenactment, reducing face LPIPS by 29% and improving perceptual quality (JOD) by 66% on BecomingLit. A static 3DGS reconstruction probe further confirms that our generations are the most multi-view consistent. Built on a video prior, VDAs produce effects beyond the reach of explicit renderers, including physically plausible hair dynamics, shadows, reflections, and refractions.",
+      "year": 2026,
+      "authors": [
+        "Simon Giebenhain",
+        "Tobias Kirschstein",
+        "Liam Schoneveld",
+        "Davide Davoli",
+        "Zhe Chen",
+        "Matthias Nießner"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.23772",
+      "url": "https://openalex.org/W7222956969",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv261023772_Video_Diffusion_Avatars_Taming_Video_Diffusion_Models_into",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv261023772_Video_Diffusion_Avatars_Taming_Video_Diffusion_Models_into.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415337140",
+      "doi": "10.48550/arxiv.2509.24695",
+      "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer",
+      "abstract": "We introduce SANA-Video, a small diffusion model that can efficiently generate videos up to 720x1280 resolution and minute-length duration. SANA-Video synthesizes high-resolution, high-quality and long videos with strong text-video alignment at a remarkably fast speed, deployable on RTX 5090 GPU. Two core designs ensure our efficient, effective and long video generation: (1) Linear DiT: We leverage linear attention as the core operation, which is more efficient than vanilla attention given the large number of tokens processed in video generation. (2) Constant-Memory KV cache for Block Linear Attention: we design block-wise autoregressive approach for long video generation by employing a constant-memory state, derived from the cumulative properties of linear attention. This KV cache provides the Linear DiT with global context at a fixed memory cost, eliminating the need for a traditional KV cache and enabling efficient, minute-long video generation. In addition, we explore effective data filters and model training strategies, narrowing the training cost to 12 days on 64 H100 GPUs, which is only 1% of the cost of MovieGen. Given its low cost, SANA-Video achieves competitive performance compared to modern state-of-the-art small diffusion models (e.g., Wan 2.1-1.3B and SkyReel-V2-1.3B) while being 16x faster in measured latency. Moreover, SANA-Video can be deployed on RTX 5090 GPUs with NVFP4 precision, accelerating the inference speed of generating a 5-second 720p video from 71s to 29s (2.4x speedup). In summary, SANA-Video enables low-cost, high-quality video generation.",
+      "year": 2026,
+      "authors": [
+        "Junsong Chen",
+        "Yuyang Zhao",
+        "Jincheng Yu",
+        "Ruihang Chu",
+        "Chen, Junyu",
+        "Yang, Shuai",
+        "Wang, Xianbang",
+        "Yicheng Pan",
+        "Daquan Zhou",
+        "Ling, Huan",
+        "Haozhe Liu",
+        "Yi, Hongwei",
+        "Hao Zhang",
+        "Miao Li",
+        "Yukang Chen",
+        "Han Cai",
+        "Sanja Fidler",
+        "Ping Luo",
+        "Song Han",
+        "Xie, Enze"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 100,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/41b93c59da0d0f835907fd661d419db2-Paper-Conference.pdf",
+      "url": "https://openalex.org/W4415337140",
+      "key": "openalex_1048550_arxiv250924695_SANA-Video_Efficient_Video_Generation_with_Block_Linear_Di",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250924695_SANA-Video_Efficient_Video_Generation_with_Block_Linear_Di.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2408.06070v3",
+      "doi": "",
+      "title": "ControlNeXt: Powerful and Efficient Control for Image and Video Generation",
+      "abstract": "Diffusion models have demonstrated remarkable and robust abilities in both image and video generation. To achieve greater control over generated results, researchers introduce additional architectures, such as ControlNet, Adapters and ReferenceNet, to integrate conditioning controls. However, current controllable generation methods often require substantial additional computational resources, especially for video generation, and face challenges in training or exhibit weak control. In this paper, we propose ControlNeXt: a powerful and efficient method for controllable image and video generation. We first design a more straightforward and efficient architecture, replacing heavy additional branches with minimal additional cost compared to the base model. Such a concise structure also allows our method to seamlessly integrate with other LoRA weights, enabling style alteration without the need for additional training. As for training, we reduce up to 90% of learnable parameters compared to the alternatives. Furthermore, we propose another method called Cross Normalization (CN) as a replacement for Zero-Convolution' to achieve fast and stable training convergence. We have conducted various experiments with different base models across images and videos, demonstrating the robustness of our method.",
+      "year": 2024,
+      "authors": [
+        "Bohao Peng",
+        "Jian Wang",
+        "Yuechen Zhang",
+        "Wenbo Li",
+        "Ming-Chang Yang",
+        "Jiaya Jia"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.06070v3",
+      "url": "http://arxiv.org/abs/2408.06070v3",
+      "key": "arxiv_240806070v3_ControlNeXt_Powerful_and_Efficient_Control_for_Image_and_Video_Generatio",
+      "file_kind": "txt",
+      "file": "arxiv_240806070v3_ControlNeXt_Powerful_and_Efficient_Control_for_Image_and_Video_Generatio.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.04279v2",
+      "doi": "10.1109/tpami.2025.3646548",
+      "title": "Controllable Generation with Text-to-Image Diffusion Models: A Survey",
+      "abstract": "In the rapidly advancing realm of visual generation, diffusion models have revolutionized the landscape, marking a significant shift in capabilities with their impressive text-guided generative functions. However, relying solely on text for conditioning these models does not fully cater to the varied and complex requirements of different applications and scenarios. Acknowledging this shortfall, a variety of studies aim to control pre-trained text-to-image (T2I) models to support novel conditions. In this survey, we undertake a thorough review of the literature on controllable generation with T2I diffusion models, covering both the theoretical foundations and practical advancements in this domain. Our review begins with a brief introduction to the basics of denoising diffusion probabilistic models (DDPMs) and widely used T2I diffusion models. We then reveal the controlling mechanisms of diffusion models, theoretically analyzing how novel conditions are introduced into the denoising process for conditional generation. Additionally, we offer a detailed overview of research in this area, organizing it into distinct categories from the condition perspective: generation with specific conditions, generation with multiple conditions, and universal controllable generation. For an exhaustive list of the controllable generation literature surveyed, please refer to our curated repository at https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models.",
+      "year": 2024,
+      "authors": [
+        "Pu Cao",
+        "Feng Zhou",
+        "Qing Song",
+        "Lu Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.04279v2",
+      "url": "http://arxiv.org/abs/2403.04279v2",
+      "key": "arxiv_101109_tpami20253646548_Controllable_Generation_with_Text-to-Image_Diffusion_Models_",
+      "file_kind": "txt",
+      "file": "arxiv_101109_tpami20253646548_Controllable_Generation_with_Text-to-Image_Diffusion_Models_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2405.03150v2",
+      "doi": "",
+      "title": "Video Diffusion Models: A Survey",
+      "abstract": "Diffusion generative models have recently become a powerful technique for creating and modifying high-quality, coherent video content. This survey provides a comprehensive overview of the critical components of diffusion models for video generation, including their applications, architectural design, and temporal dynamics modeling. The paper begins by discussing the core principles and mathematical formulations, then explores various architectural choices and methods for maintaining temporal consistency. A taxonomy of applications is presented, categorizing models based on input modalities such as text prompts, images, videos, and audio signals. Advancements in text-to-video generation are discussed to illustrate the state-of-the-art capabilities and limitations of current approaches. Additionally, the survey summarizes recent developments in training and evaluation practices, including the use of diverse video and image datasets and the adoption of various evaluation metrics to assess model performance. The survey concludes with an examination of ongoing challenges, such as generating longer videos and managing computational costs, and offers insights into potential future directions for the field. By consolidating the latest research and developments, this survey aims to serve as a valuable resource for researchers and practitioners working with video diffusion models. Website: https://github.com/ndrwmlnk/Awesome-Video-Diffusion-Models",
+      "year": 2024,
+      "authors": [
+        "Andrew Melnik",
+        "Michal Ljubljanac",
+        "Cong Lu",
+        "Qi Yan",
+        "Weiming Ren",
+        "Helge Ritter"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.03150v2",
+      "url": "http://arxiv.org/abs/2405.03150v2",
+      "key": "arxiv_240503150v2_Video_Diffusion_Models_A_Survey",
+      "file_kind": "txt",
+      "file": "arxiv_240503150v2_Video_Diffusion_Models_A_Survey.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.23361v3",
+      "doi": "",
+      "title": "OmniVCus: Feedforward Subject-driven Video Customization with Multimodal Control Conditions",
+      "abstract": "Existing feedforward subject-driven video customization methods mainly study single-subject scenarios due to the difficulty of constructing multi-subject training data pairs. Another challenging problem that how to use the signals such as depth, mask, camera, and text prompts to control and edit the subject in the customized video is still less explored. In this paper, we first propose a data construction pipeline, VideoCus-Factory, to produce training data pairs for multi-subject customization from raw videos without labels and control signals such as depth-to-video and mask-to-video pairs. Based on our constructed data, we develop an Image-Video Transfer Mixed (IVTM) training with image editing data to enable instructive editing for the subject in the customized video. Then we propose a diffusion Transformer framework, OmniVCus, with two embedding mechanisms, Lottery Embedding (LE) and Temporally Aligned Embedding (TAE). LE enables inference with more subjects by using the training subjects to activate more frame embeddings. TAE encourages the generation process to extract guidance from temporally aligned control signals by assigning the same frame embeddings to the control and noise tokens. Experiments demonstrate that our method significantly surpasses state-of-the-art methods in both quantitative and qualitative evaluations. Video demos are at our project page: https://caiyuanhao1998.github.io/project/OmniVCus/. Our code, models, data are released at https://github.com/caiyuanhao1998/Open-OmniVCus",
+      "year": 2025,
+      "authors": [
+        "Yuanhao Cai",
+        "He Zhang",
+        "Xi Chen",
+        "Jinbo Xing",
+        "Yiwei Hu",
+        "Yuqian Zhou",
+        "Kai Zhang",
+        "Zhifei Zhang",
+        "Soo Ye Kim",
+        "Tianyu Wang",
+        "Yulun Zhang",
+        "Xiaokang Yang",
+        "Zhe Lin",
+        "Alan Yuille"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.23361v3",
+      "url": "http://arxiv.org/abs/2506.23361v3",
+      "key": "arxiv_250623361v3_OmniVCus_Feedforward_Subject-driven_Video_Customization_with_Multimodal_",
+      "file_kind": "txt",
+      "file": "arxiv_250623361v3_OmniVCus_Feedforward_Subject-driven_Video_Customization_with_Multimodal_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2407.00367v1",
+      "doi": "",
+      "title": "SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix",
+      "abstract": "Video generation models have demonstrated great capabilities of producing impressive monocular videos, however, the generation of 3D stereoscopic video remains under-explored. We propose a pose-free and training-free approach for generating 3D stereoscopic videos using an off-the-shelf monocular video generation model. Our method warps a generated monocular video into camera views on stereoscopic baseline using estimated video depth, and employs a novel frame matrix video inpainting framework. The framework leverages the video generation model to inpaint frames observed from different timestamps and views. This effective approach generates consistent and semantically coherent stereoscopic videos without scene optimization or model fine-tuning. Moreover, we develop a disocclusion boundary re-injection scheme that further improves the quality of video inpainting by alleviating the negative effects propagated from disoccluded areas in the latent space. We validate the efficacy of our proposed method by conducting experiments on videos from various generative models, including Sora [4 ], Lumiere [2], WALT [8 ], and Zeroscope [ 42]. The experiments demonstrate that our method has a significant improvement over previous methods. The code will be released at \\url{https://daipengwa.github.io/SVG_ProjectPage}.",
+      "year": 2024,
+      "authors": [
+        "Peng Dai",
+        "Feitong Tan",
+        "Qiangeng Xu",
+        "David Futschik",
+        "Ruofei Du",
+        "Sean Fanello",
+        "Xiaojuan Qi",
+        "Yinda Zhang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2407.00367v1",
+      "url": "http://arxiv.org/abs/2407.00367v1",
+      "key": "arxiv_240700367v1_SVG_3D_Stereoscopic_Video_Generation_via_Denoising_Frame_Matrix",
+      "file_kind": "txt",
+      "file": "arxiv_240700367v1_SVG_3D_Stereoscopic_Video_Generation_via_Denoising_Frame_Matrix.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2610.42031v1",
+      "doi": "",
+      "title": "Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation",
+      "abstract": "Autoregressive video generation enables efficient inference through streaming prediction. However, existing methods are typically restricted to fixed sampling steps, limiting the flexibility to balance generation quality and efficiency, while one-step generation suffers from degraded visual quality and error accumulation over long sequences, leading to content drift and generation collapse. To address these issues, we propose Any Forcing, a unified framework for achieving Any-Step Generality and One-Step Stability. Specifically, we introduce a unified adversarial discriminator that jointly performs real-distribution alignment, inter-step consistency alignment, and first-frame quality enhancement, enabling flexible sampling while preserving one-step generation quality. Furthermore, we propose a training-free adaptive long-term memory selection mechanism that selects historical states based on global semantic relevance and local value contribution, while remapping their temporal positions to preserve temporal relationships within the memory cache, thereby enabling stable one-step long-video generation. Experiments demonstrate that Any Forcing achieves high-quality and stable one-step autoregressive video generation, achieving 20.9 FPS and 24.7 FPS for short and long video generation on a single H100 GPU, respectively.",
+      "year": 2026,
+      "authors": [
+        "Jiahua Xu",
+        "Yijie Fang",
+        "Nannan Wang",
+        "Xunhao Lin",
+        "Li Cao",
+        "Lei Hao",
+        "Mingrui Zhu",
+        "Fei Gao",
+        "Xinbo Gao"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.42031v1",
+      "url": "http://arxiv.org/abs/2610.42031v1",
+      "key": "arxiv_261042031v1_Any_Forcing_Any-Step_Generality_and_One-Step_Stability_for_Autoregressiv",
+      "file_kind": "txt",
+      "file": "arxiv_261042031v1_Any_Forcing_Any-Step_Generality_and_One-Step_Stability_for_Autoregressiv.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2305.18452v1",
+      "doi": "",
+      "title": "Generating Driving Scenes with Diffusion",
+      "abstract": "In this paper we describe a learned method of traffic scene generation designed to simulate the output of the perception system of a self-driving car. In our \"Scene Diffusion\" system, inspired by latent diffusion, we use a novel combination of diffusion and object detection to directly create realistic and physically plausible arrangements of discrete bounding boxes for agents. We show that our scene generation model is able to adapt to different regions in the US, producing scenarios that capture the intricacies of each region.",
+      "year": 2023,
+      "authors": [
+        "Ethan Pronovost",
+        "Kai Wang",
+        "Nick Roy"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2305.18452v1",
+      "url": "http://arxiv.org/abs/2305.18452v1",
+      "key": "arxiv_230518452v1_Generating_Driving_Scenes_with_Diffusion",
+      "file_kind": "txt",
+      "file": "arxiv_230518452v1_Generating_Driving_Scenes_with_Diffusion.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2405.20222v3",
+      "doi": "",
+      "title": "MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model",
+      "abstract": "We present MOFA-Video, an advanced controllable image animation method that generates video from the given image using various additional controllable signals (such as human landmarks reference, manual trajectories, and another even provided video) or their combinations. This is different from previous methods which only can work on a specific motion domain or show weak control abilities with diffusion prior. To achieve our goal, we design several domain-aware motion field adapters (\\ie, MOFA-Adapters) to control the generated motions in the video generation pipeline. For MOFA-Adapters, we consider the temporal motion consistency of the video and generate the dense motion flow from the given sparse control conditions first, and then, the multi-scale features of the given image are wrapped as a guided feature for stable video diffusion generation. We naively train two motion adapters for the manual trajectories and the human landmarks individually since they both contain sparse information about the control. After training, the MOFA-Adapters in different domains can also work together for more controllable video generation. Project Page: https://myniuuu.github.io/MOFA_Video/",
+      "year": 2024,
+      "authors": [
+        "Muyao Niu",
+        "Xiaodong Cun",
+        "Xintao Wang",
+        "Yong Zhang",
+        "Ying Shan",
+        "Yinqiang Zheng"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.20222v3",
+      "url": "http://arxiv.org/abs/2405.20222v3",
+      "key": "arxiv_240520222v3_MOFA-Video_Controllable_Image_Animation_via_Generative_Motion_Field_Adap",
+      "file_kind": "txt",
+      "file": "arxiv_240520222v3_MOFA-Video_Controllable_Image_Animation_via_Generative_Motion_Field_Adap.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.20888v1",
+      "doi": "",
+      "title": "Video-As-Prompt: Unified Semantic Control for Video Generation",
+      "abstract": "Unified, generalizable semantic control in video generation remains a critical open challenge. Existing methods either introduce artifacts by enforcing inappropriate pixel-wise priors from structure-based controls, or rely on non-generalizable, condition-specific finetuning or task-specific architectures. We introduce Video-As-Prompt (VAP), a new paradigm that reframes this problem as in-context generation. VAP leverages a reference video as a direct semantic prompt, guiding a frozen Video Diffusion Transformer (DiT) via a plug-and-play Mixture-of-Transformers (MoT) expert. This architecture prevents catastrophic forgetting and is guided by a temporally biased position embedding that eliminates spurious mapping priors for robust context retrieval. To power this approach and catalyze future research, we built VAP-Data, the largest dataset for semantic-controlled video generation with over 100K paired videos across 100 semantic conditions. As a single unified model, VAP sets a new state-of-the-art for open-source methods, achieving a 38.7% user preference rate that rivals leading condition-specific commercial models. VAP's strong zero-shot generalization and support for various downstream applications mark a significant advance toward general-purpose, controllable video generation.",
+      "year": 2025,
+      "authors": [
+        "Yuxuan Bian",
+        "Xin Chen",
+        "Zenan Li",
+        "Tiancheng Zhi",
+        "Shen Sang",
+        "Linjie Luo",
+        "Qiang Xu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.20888v1",
+      "url": "http://arxiv.org/abs/2510.20888v1",
+      "key": "arxiv_251020888v1_Video-As-Prompt_Unified_Semantic_Control_for_Video_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_251020888v1_Video-As-Prompt_Unified_Semantic_Control_for_Video_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2312.06662v1",
+      "doi": "",
+      "title": "Photorealistic Video Generation with Diffusion Models",
+      "abstract": "We present W.A.L.T, a transformer-based approach for photorealistic video generation via diffusion modeling. Our approach has two key design decisions. First, we use a causal encoder to jointly compress images and videos within a unified latent space, enabling training and generation across modalities. Second, for memory and training efficiency, we use a window attention architecture tailored for joint spatial and spatiotemporal generative modeling. Taken together these design decisions enable us to achieve state-of-the-art performance on established video (UCF-101 and Kinetics-600) and image (ImageNet) generation benchmarks without using classifier free guidance. Finally, we also train a cascade of three models for the task of text-to-video generation consisting of a base latent video diffusion model, and two video super-resolution diffusion models to generate videos of $512 \\times 896$ resolution at $8$ frames per second.",
+      "year": 2023,
+      "authors": [
+        "Agrim Gupta",
+        "Lijun Yu",
+        "Kihyuk Sohn",
+        "Xiuye Gu",
+        "Meera Hahn",
+        "Li Fei-Fei",
+        "Irfan Essa",
+        "Lu Jiang",
+        "José Lezama"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.06662v1",
+      "url": "http://arxiv.org/abs/2312.06662v1",
+      "key": "arxiv_231206662v1_Photorealistic_Video_Generation_with_Diffusion_Models",
+      "file_kind": "txt",
+      "file": "arxiv_231206662v1_Photorealistic_Video_Generation_with_Diffusion_Models.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2508.08048v2",
+      "doi": "",
+      "title": "S^2VG: 3D Stereoscopic and Spatial Video Generation via Denoising Frame Matrix",
+      "abstract": "While video generation models excel at producing high-quality monocular videos, generating 3D stereoscopic and spatial videos for immersive applications remains an underexplored challenge. We present a pose-free and training-free method that leverages an off-the-shelf monocular video generation model to produce immersive 3D videos. Our approach first warps the generated monocular video into pre-defined camera viewpoints using estimated depth information, then applies a novel \\textit{frame matrix} inpainting framework. This framework utilizes the original video generation model to synthesize missing content across different viewpoints and timestamps, ensuring spatial and temporal consistency without requiring additional model fine-tuning. Moreover, we develop a \\dualupdate~scheme that further improves the quality of video inpainting by alleviating the negative effects propagated from disoccluded areas in the latent space. The resulting multi-view videos are then adapted into stereoscopic pairs or optimized into 4D Gaussians for spatial video synthesis. We validate the efficacy of our proposed method by conducting experiments on videos from various generative models, such as Sora, Lumiere, WALT, and Zeroscope. The experiments demonstrate that our method has a significant improvement over previous methods. Project page at: https://daipengwa.github.io/S-2VG_ProjectPage/",
+      "year": 2025,
+      "authors": [
+        "Peng Dai",
+        "Feitong Tan",
+        "Qiangeng Xu",
+        "Yihua Huang",
+        "David Futschik",
+        "Ruofei Du",
+        "Sean Fanello",
+        "Yinda Zhang",
+        "Xiaojuan Qi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2508.08048v2",
+      "url": "http://arxiv.org/abs/2508.08048v2",
+      "key": "arxiv_250808048v2_S2VG_3D_Stereoscopic_and_Spatial_Video_Generation_via_Denoising_Frame_Ma",
+      "file_kind": "txt",
+      "file": "arxiv_250808048v2_S2VG_3D_Stereoscopic_and_Spatial_Video_Generation_via_Denoising_Frame_Ma.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.10463v1",
+      "doi": "",
+      "title": "The 1st International Workshop on Disentangled Representation Learning for Controllable Generation (DRL4Real): Methods and Results",
+      "abstract": "This paper reviews the 1st International Workshop on Disentangled Representation Learning for Controllable Generation (DRL4Real), held in conjunction with ICCV 2025. The workshop aimed to bridge the gap between the theoretical promise of Disentangled Representation Learning (DRL) and its application in realistic scenarios, moving beyond synthetic benchmarks. DRL4Real focused on evaluating DRL methods in practical applications such as controllable generation, exploring advancements in model robustness, interpretability, and generalization. The workshop accepted 9 papers covering a broad range of topics, including the integration of novel inductive biases (e.g., language), the application of diffusion models to DRL, 3D-aware disentanglement, and the expansion of DRL into specialized domains like autonomous driving and EEG analysis. This summary details the workshop's objectives, the themes of the accepted papers, and provides an overview of the methodologies proposed by the authors.",
+      "year": 2025,
+      "authors": [
+        "Qiuyu Chen",
+        "Xin Jin",
+        "Yue Song",
+        "Xihui Liu",
+        "Shuai Yang",
+        "Tao Yang",
+        "Ziqiang Li",
+        "Jianguo Huang",
+        "Yuntao Wei",
+        "Ba'ao Xie",
+        "Nicu Sebe",
+        " Wenjun",
+        " Zeng",
+        "Jooyeol Yun",
+        "Davide Abati",
+        "Mohamed Omran",
+        "Jaegul Choo",
+        "Amir Habibian",
+        "Auke Wiggers",
+        "Masato Kobayashi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.10463v1",
+      "url": "http://arxiv.org/abs/2509.10463v1",
+      "key": "arxiv_250910463v1_The_1st_International_Workshop_on_Disentangled_Representation_Learning_f",
+      "file_kind": "txt",
+      "file": "arxiv_250910463v1_The_1st_International_Workshop_on_Disentangled_Representation_Learning_f.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.04830v1",
+      "doi": "",
+      "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+      "abstract": "Closed-loop simulation and scalable pre-training for autonomous driving require synthesizing free-viewpoint driving scenes. However, existing datasets and generative pipelines rarely provide consistent off-trajectory observations, limiting large-scale evaluation and training. While recent generative models demonstrate strong visual realism, they struggle to jointly achieve interpolation consistency and extrapolation realism without per-scene optimization. To address this, we propose FreeGen, a feed-forward reconstruction-generation co-training framework for free-viewpoint driving scene synthesis. The reconstruction model provides stable geometric representations to ensure interpolation consistency, while the generation model performs geometry-aware enhancement to improve realism at unseen viewpoints. Through co-training, generative priors are distilled into the reconstruction model to improve off-trajectory rendering, and the refined geometry in turn offers stronger structural guidance for generation. Experiments demonstrate that FreeGen achieves state-of-the-art performance for free-viewpoint driving scene synthesis.",
+      "year": 2025,
+      "authors": [
+        "Shijie Chen",
+        "Peixi Peng"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.04830v1",
+      "url": "http://arxiv.org/abs/2512.04830v1",
+      "key": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View",
+      "file_kind": "txt",
+      "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2608.28404v2",
+      "doi": "",
+      "title": "How Far Can 5,500 Hours of Driving Take You? A Scaling Law Analysis of Video Diffusion Models",
+      "abstract": "Video generation for autonomous driving cannot follow the web-scale route: driving data is expensive to collect, bound by privacy requirements, and cannot be scraped at will, so models must make the most of a fixed corpus. We present a systematic scaling-law study of video diffusion models trained from scratch on driving data: a family of models from 1M to 9B parameters, trained at different exposures on up to 5,500 hours of driving. Validation loss follows consistent power laws in both model size and training exposure, answering the questions that shape a training budget: whether compute is better spent on longer training or on a larger model, and whether more data is needed. Loss improves much faster with training exposure than with model size, making longer training the most effective way to improve a fixed model under limited compute. However, larger models continue to achieve lower asymptotic loss, so compute-optimal scaling still favors increasing model size when sufficient compute and data are available. Guided by these laws, we train a 9B-parameter model, to our knowledge the largest video diffusion model trained from scratch on driving data: it sets a new open-source state of the art for driving video generation, as measured on nuScenes. Our code and pretrained models are available at https://github.com/valeoai/VATIX. NATIX is separately releasing the underlying driving data in stages.",
+      "year": 2026,
+      "authors": [
+        "Victor Besnier",
+        "Anh-Quan Cao",
+        "Elias Ramzi",
+        "Spyros Gidaris",
+        "Tuan-Hung Vu",
+        "Andrei Bursuc",
+        "Eloi Zablocki",
+        "Matthieu Cord"
+      ],
+      "venue": "[Archival Track] ECCV 2026 DriveX - 6th Workshop on Foundation Models for Autonomous Driving",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.28404v2",
+      "url": "http://arxiv.org/abs/2608.28404v2",
+      "key": "arxiv_260828404v2_How_Far_Can_5500_Hours_of_Driving_Take_You_A_Scaling_Law_Analysis_of_Vid",
+      "file_kind": "txt",
+      "file": "arxiv_260828404v2_How_Far_Can_5500_Hours_of_Driving_Take_You_A_Scaling_Law_Analysis_of_Vid.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.10943v1",
+      "doi": "",
+      "title": "AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation",
+      "abstract": "Recent advances in subject-driven video generation with large diffusion models have enabled personalized content synthesis conditioned on user-provided subjects. However, existing methods lack fine-grained temporal control over subject appearance and disappearance, which are essential for applications such as compositional video synthesis, storyboarding, and controllable animation. We propose AlcheMinT, a unified framework that introduces explicit timestamps conditioning for subject-driven video generation. Our approach introduces a novel positional encoding mechanism that unlocks the encoding of temporal intervals, associated in our case with subject identities, while seamlessly integrating with the pretrained video generation model positional embeddings. Additionally, we incorporate subject-descriptive text tokens to strengthen binding between visual identity and video captions, mitigating ambiguity during generation. Through token-wise concatenation, AlcheMinT avoids any additional cross-attention modules and incurs negligible parameter overhead. We establish a benchmark evaluating multiple subject identity preservation, video fidelity, and temporal adherence. Experimental results demonstrate that AlcheMinT achieves visual quality matching state-of-the-art video personalization methods, while, for the first time, enabling precise temporal control over multi-subject generation within videos. Project page is at https://snap-research.github.io/Video-AlcheMinT",
+      "year": 2025,
+      "authors": [
+        "Sharath Girish",
+        "Viacheslav Ivanov",
+        "Tsai-Shien Chen",
+        "Hao Chen",
+        "Aliaksandr Siarohin",
+        "Sergey Tulyakov"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.10943v1",
+      "url": "http://arxiv.org/abs/2512.10943v1",
+      "key": "arxiv_251210943v1_AlcheMinT_Fine-grained_Temporal_Control_for_Multi-Reference_Consistent_V",
+      "file_kind": "txt",
+      "file": "arxiv_251210943v1_AlcheMinT_Fine-grained_Temporal_Control_for_Multi-Reference_Consistent_V.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2410.09380v1",
+      "doi": "10.1109/tcsvt.2024.3475510",
+      "title": "Prompting Video-Language Foundation Models with Domain-specific Fine-grained Heuristics for Video Question Answering",
+      "abstract": "Video Question Answering (VideoQA) represents a crucial intersection between video understanding and language processing, requiring both discriminative unimodal comprehension and sophisticated cross-modal interaction for accurate inference. Despite advancements in multi-modal pre-trained models and video-language foundation models, these systems often struggle with domain-specific VideoQA due to their generalized pre-training objectives. Addressing this gap necessitates bridging the divide between broad cross-modal knowledge and the specific inference demands of VideoQA tasks. To this end, we introduce HeurVidQA, a framework that leverages domain-specific entity-action heuristics to refine pre-trained video-language foundation models. Our approach treats these models as implicit knowledge engines, employing domain-specific entity-action prompters to direct the model's focus toward precise cues that enhance reasoning. By delivering fine-grained heuristics, we improve the model's ability to identify and interpret key entities and actions, thereby enhancing its reasoning capabilities. Extensive evaluations across multiple VideoQA datasets demonstrate that our method significantly outperforms existing models, underscoring the importance of integrating domain-specific knowledge into video-language models for more accurate and context-aware VideoQA.",
+      "year": 2024,
+      "authors": [
+        "Ting Yu",
+        "Kunhao Fu",
+        "Shuhui Wang",
+        "Qingming Huang",
+        "Jun Yu"
+      ],
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology, 2024",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2410.09380v1",
+      "url": "http://arxiv.org/abs/2410.09380v1",
+      "key": "arxiv_101109_tcsvt20243475510_Prompting_Video-Language_Foundation_Models_with_Domain-speci",
+      "file_kind": "txt",
+      "file": "arxiv_101109_tcsvt20243475510_Prompting_Video-Language_Foundation_Models_with_Domain-speci.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2303.16897v3",
+      "doi": "",
+      "title": "Physics-Driven Diffusion Models for Impact Sound Synthesis from Videos",
+      "abstract": "Modeling sounds emitted from physical object interactions is critical for immersive perceptual experiences in real and virtual worlds. Traditional methods of impact sound synthesis use physics simulation to obtain a set of physics parameters that could represent and synthesize the sound. However, they require fine details of both the object geometries and impact locations, which are rarely available in the real world and can not be applied to synthesize impact sounds from common videos. On the other hand, existing video-driven deep learning-based approaches could only capture the weak correspondence between visual content and impact sounds since they lack of physics knowledge. In this work, we propose a physics-driven diffusion model that can synthesize high-fidelity impact sound for a silent video clip. In addition to the video content, we propose to use additional physics priors to guide the impact sound synthesis procedure. The physics priors include both physics parameters that are directly estimated from noisy real-world impact sound examples without sophisticated setup and learned residual parameters that interpret the sound environment via neural networks. We further implement a novel diffusion model with specific training and inference strategies to combine physics priors and visual information for impact sound synthesis. Experimental results show that our model outperforms several existing systems in generating realistic impact sounds. More importantly, the physics-based representations are fully interpretable and transparent, thus enabling us to perform sound editing flexibly.",
+      "year": 2023,
+      "authors": [
+        "Kun Su",
+        "Kaizhi Qian",
+        "Eli Shlizerman",
+        "Antonio Torralba",
+        "Chuang Gan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.16897v3",
+      "url": "http://arxiv.org/abs/2303.16897v3",
+      "key": "arxiv_230316897v3_Physics-Driven_Diffusion_Models_for_Impact_Sound_Synthesis_from_Videos",
+      "file_kind": "txt",
+      "file": "arxiv_230316897v3_Physics-Driven_Diffusion_Models_for_Impact_Sound_Synthesis_from_Videos.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2303.07909v3",
+      "doi": "",
+      "title": "Text-to-image Diffusion Models in Generative AI: A Survey",
+      "abstract": "This survey reviews the progress of diffusion models in generating images from text, ~\\textit{i.e.} text-to-image diffusion models. As a self-contained work, this survey starts with a brief introduction of how diffusion models work for image synthesis, followed by the background for text-conditioned image synthesis. Based on that, we present an organized review of pioneering methods and their improvements on text-to-image generation. We further summarize applications beyond image generation, such as text-guided generation for various modalities like videos, and text-guided image editing. Beyond the progress made so far, we discuss existing challenges and promising future directions.",
+      "year": 2023,
+      "authors": [
+        "Chenshuang Zhang",
+        "Chaoning Zhang",
+        "Mengchun Zhang",
+        "In So Kweon",
+        "Junmo Kim"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.07909v3",
+      "url": "http://arxiv.org/abs/2303.07909v3",
+      "key": "arxiv_230307909v3_Text-to-image_Diffusion_Models_in_Generative_AI_A_Survey",
+      "file_kind": "txt",
+      "file": "arxiv_230307909v3_Text-to-image_Diffusion_Models_in_Generative_AI_A_Survey.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.21765v1",
+      "doi": "",
+      "title": "Exploring the Evolution of Physics Cognition in Video Generation: A Survey",
+      "abstract": "Recent advancements in video generation have witnessed significant progress, especially with the rapid advancement of diffusion models. Despite this, their deficiencies in physical cognition have gradually received widespread attention - generated content often violates the fundamental laws of physics, falling into the dilemma of ''visual realism but physical absurdity\". Researchers began to increasingly recognize the importance of physical fidelity in video generation and attempted to integrate heuristic physical cognition such as motion representations and physical knowledge into generative systems to simulate real-world dynamic scenarios. Considering the lack of a systematic overview in this field, this survey aims to provide a comprehensive summary of architecture designs and their applications to fill this gap. Specifically, we discuss and organize the evolutionary process of physical cognition in video generation from a cognitive science perspective, while proposing a three-tier taxonomy: 1) basic schema perception for generation, 2) passive cognition of physical knowledge for generation, and 3) active cognition for world simulation, encompassing state-of-the-art methods, classical paradigms, and benchmarks. Subsequently, we emphasize the inherent key challenges in this domain and delineate potential pathways for future research, contributing to advancing the frontiers of discussion in both academia and industry. Through structured review and interdisciplinary analysis, this survey aims to provide directional guidance for developing interpretable, controllable, and physically consistent video generation paradigms, thereby propelling generative models from the stage of ''visual mimicry'' towards a new phase of ''human-like physical comprehension''.",
+      "year": 2025,
+      "authors": [
+        "Minghui Lin",
+        "Xiang Wang",
+        "Yishan Wang",
+        "Shu Wang",
+        "Fengqi Dai",
+        "Pengxiang Ding",
+        "Cunxiang Wang",
+        "Zhengrong Zuo",
+        "Nong Sang",
+        "Siteng Huang",
+        "Donglin Wang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.21765v1",
+      "url": "http://arxiv.org/abs/2503.21765v1",
+      "key": "arxiv_250321765v1_Exploring_the_Evolution_of_Physics_Cognition_in_Video_Generation_A_Surve",
+      "file_kind": "txt",
+      "file": "arxiv_250321765v1_Exploring_the_Evolution_of_Physics_Cognition_in_Video_Generation_A_Surve.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2411.05003v1",
+      "doi": "",
+      "title": "ReCapture: Generative Video Camera Controls for User-Provided Videos using Masked Video Fine-Tuning",
+      "abstract": "Recently, breakthroughs in video modeling have allowed for controllable camera trajectories in generated videos. However, these methods cannot be directly applied to user-provided videos that are not generated by a video model. In this paper, we present ReCapture, a method for generating new videos with novel camera trajectories from a single user-provided video. Our method allows us to re-generate the reference video, with all its existing scene motion, from vastly different angles and with cinematic camera motion. Notably, using our method we can also plausibly hallucinate parts of the scene that were not observable in the reference video. Our method works by (1) generating a noisy anchor video with a new camera trajectory using multiview diffusion models or depth-based point cloud rendering and then (2) regenerating the anchor video into a clean and temporally consistent reangled video using our proposed masked video fine-tuning technique.",
+      "year": 2024,
+      "authors": [
+        "David Junhao Zhang",
+        "Roni Paiss",
+        "Shiran Zada",
+        "Nikhil Karnad",
+        "David E. Jacobs",
+        "Yael Pritch",
+        "Inbar Mosseri",
+        "Mike Zheng Shou",
+        "Neal Wadhwa",
+        "Nataniel Ruiz"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2411.05003v1",
+      "url": "http://arxiv.org/abs/2411.05003v1",
+      "key": "arxiv_241105003v1_ReCapture_Generative_Video_Camera_Controls_for_User-Provided_Videos_usin",
+      "file_kind": "txt",
+      "file": "arxiv_241105003v1_ReCapture_Generative_Video_Camera_Controls_for_User-Provided_Videos_usin.txt"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "gaia_2_a_controllable_multi_view_generative_world",
+ "title": "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving",
+ "control_family": "multi-condition unified control",
+ "output_modality": {
+  "value": "multi-camera video, up to five cameras at 448 x 960",
+  "pages": "1-2"
+ },
+ "control_signal": {
+  "value": "ego speed and curvature, 3D boxes of dynamic agents, metadata (country, weather, time of day, lanes, traffic lights), CLIP text or image embeddings, scenario embeddings",
+  "pages": "2, 6-8"
+ },
+ "control_mechanism": {
+  "value": "ego action and flow-matching time injected by adaptive layer norm; other conditioning variables by cross-attention; inpainting and scene editing via masked or partially noised latents at inference",
+  "pages": "6, 9-10"
+ },
+ "base_model": {
+  "value": "latent flow-matching world model: 8.4B-parameter space-time factorized transformer, 22 blocks, over a learned video tokenizer with DINO distillation",
+  "pages": "5-6"
+ },
+ "datasets": {
+  "value": "large multi-country driving data (UK, US, Germany) balanced on joint feature distribution, with geofenced held-out validation; dataset not named in packet",
+  "pages": "1-2, 8-9"
+ },
+ "metrics": {
+  "value": "FDD and FID for fidelity, FVMD for temporal consistency, class-wise IoU of projected 3D boxes against OneFormer segmentation for agent conditioning",
+  "pages": "13-14"
+ },
+ "controllability_evidence": {
+  "value": "Dynamic agent conditioning scored by IoU between projected boxes and segmentation masks; qualitative action-driven and agent-driven safety-critical scenarios. No numbers in packet.",
+  "pages": "13-15"
+ },
+ "closed_loop": {
+  "value": "Open-loop only: autoregressive rollout with sliding window of k = 3 context latents under ego conditioning; no driving policy in the loop stated.",
+  "pages": "10"
+ },
+ "stated_limitations": {
+  "value": "not stated in packet",
+  "pages": ""
+ },
+ "notes": "Future-work text is cut off in the packet, so limitations may exist. Scenario embeddings come from an internal proprietary model."
+}

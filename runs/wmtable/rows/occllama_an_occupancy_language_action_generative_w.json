@@ -1,0 +1,15 @@
+{
+ "id": "occllama_an_occupancy_language_action_generative_w",
+ "title": "OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "4D semantic occupancy forecasts, plus ego trajectory (action tokens) and text answers", "pages": "1-2, 5"},
+ "control_signal": {"value": "Occupancy history, language prompts or questions, and action tokens (trajectory waypoints) in one unified vocabulary; no user-steering experiment for forecasting shown in packet.", "pages": "1-3"},
+ "control_mechanism": {"value": "Unified multi-modal vocabulary (scene, language, action tokens) with LLaMA next token or next scene prediction; spatial attention within scenes; pretraining then LoRA instruction tuning.", "pages": "3-5, 7"},
+ "base_model": {"value": "LLaMA-3.1-8b (LLaMA-2-7b for VQA) with a VQVAE-like sparse scene tokenizer using pillar embedding and a Swin transformer block.", "pages": "3, 5"},
+ "datasets": {"value": "nuScenes, Occ3D, NuScenes-QA, and a self-built caption dataset on nuScenes matching occupancy frames with object positions, classes, states and future trajectories.", "pages": "5"},
+ "metrics": {"value": "mIoU and IoU for occupancy forecasting (2 s history, 3 s forecast); L2 and collision rate for planning; Top-1 accuracy for NuScenes-QA.", "pages": "5-7"},
+ "controllability_evidence": {"value": "No control-specific test. Ablation says action-specific tokens beat language-vocabulary waypoints on forecasting and planning; full model mIoU 19.93%, IoU 29.17%, L2 1.14 m, collision 0.49%.", "pages": "7"},
+ "closed_loop": {"value": "No closed loop in packet; open-loop forecasting 3 s ahead from 2 s of history, and open-loop planning comparison.", "pages": "5"},
+ "stated_limitations": {"value": "Inference delay from the large parameter count; future work on data diversity, quantization and distillation.", "pages": "7-8"},
+ "notes": "Doubtful as a controllable generator: packet does not show action-conditioned forecasting as a controllability result, and the control family label is a best fit. Table 5 row assignment is garbled; numbers taken for the full-model row only."
+}

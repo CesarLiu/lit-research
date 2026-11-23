@@ -1,0 +1,34 @@
+{
+ "id": "vilta_a_vlm_in_the_loop_adversary_for_enhancing_dr",
+ "title": "VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness",
+ "control_family": "language/LLM-driven",
+ "control_signal": {
+  "value": "Scene and environment representation given to a VLM, which edits the future trajectory of a designated risky agent to challenge the ego; designers also set how often challenging scenarios alternate with normal ones.",
+  "pages": "1-2, 4-6"
+ },
+ "control_mechanism": {
+  "value": "VLM directly edits a rule-based baseline trajectory (CTRV model fused with map waypoints), followed by B-spline smoothing, sigmoid fusion with the baseline, and an LQR controller for kinematic feasibility.",
+  "pages": "4"
+ },
+ "base_model": {
+  "value": "VLM trajectory editor in the loop with an RL-trained ego driving agent in CARLA; reward combines driving style, following and safety-penalty terms.",
+  "pages": "2, 4-5"
+ },
+ "datasets": {
+  "value": "CARLA simulator, trained on Town02 and evaluated on Town01, Town02, Town03, with 20 autopilot vehicles per map, one designated risky agent.",
+  "pages": "4"
+ },
+ "metrics": {
+  "value": "Route completion (RC), collision rate (CR), collisions per km (CPM), average speed, total distance, collision speed.",
+  "pages": "5-6"
+ },
+ "controllability_evidence": {
+  "value": "Edited trajectories have smaller minimum distance to ego and more extreme acceleration and steering than directly generated ones. In challenging scenarios the ego policy gains 13.3% and 25.3% route completion and 28.5% and 39.4% lower crash rate versus VLM-RL and CAT.",
+  "pages": "6-7"
+ },
+ "stated_limitations": {
+  "value": "Validation is confined to simulation; the rest of the limitations text is cut off in the packet.",
+  "pages": "7"
+ },
+ "notes": "Primary goal is robust ego-policy training with a VLM adversary, not a controllable generator; the specific VLM is not named in the packet. Limitations passage truncated."
+}

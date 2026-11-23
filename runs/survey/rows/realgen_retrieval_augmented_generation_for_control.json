@@ -1,0 +1,13 @@
+{
+ "id": "realgen_retrieval_augmented_generation_for_control",
+ "title": "RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios",
+ "control_family": "other",
+ "control_signal": {"value": "A few template scenarios or behavior tags (e.g. left turn, lane change, overtaking, hand-made crash templates) that define which behaviors are retrieved and combined.", "pages": "11-14"},
+ "control_mechanism": {"value": "Retrieval-based in-context learning: KNN retrieves similar behavior embeddings from a contrastive latent space, and a trained combiner fuses them with map and initial positions to generate; gradient-free.", "pages": "1-2, 5-6"},
+ "base_model": {"value": "Transformer autoencoder with spatial-temporal behavior encoder, map encoder and initial-position encoder, contrastive loss on behavior embeddings, plus a combiner with frozen encoder/decoder.", "pages": "5-6"},
+ "datasets": {"value": "nuScenes, with 1349 manually tagged template scenarios for six behavior tags; crash templates informed by NHTSA crash reports; Autobots used for downstream test.", "pages": "12-15"},
+ "metrics": {"value": "MMD of velocity and heading, mADE, mFDE, scene collision rate, off-road rate; collision rate for crash templates; human A/B preference and 0-5 score versus LCTGen.", "pages": "12-14"},
+ "controllability_evidence": {"value": "Human evaluation: RealGen preferred 81.8 to 100.0% across five categories; scores 3.94 to 4.27 versus LCTGen 2.0 to 2.42. Crash-template generation reported with collision rate.", "pages": "13-14"},
+ "stated_limitations": {"value": "Behavior encoder models only agent trajectories and ignores interactions between agents and lane maps in complex behaviors.", "pages": "14-15"},
+ "notes": "Table 3 numbers (AE-R 0.92, R 0.83, RealGen 0.59) look inconsistent with the text claiming RealGen has the highest collision rate; column order may be garbled, so no collision number is quoted. Authors say controllability has no automatic metric."
+}

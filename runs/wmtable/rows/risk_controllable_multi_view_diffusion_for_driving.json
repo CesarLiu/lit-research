@@ -1,0 +1,42 @@
+{
+ "id": "risk_controllable_multi_view_diffusion_for_driving",
+ "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation",
+ "control_family": "scenario, risk or event conditioning",
+ "output_modality": {
+  "value": "multi-view driving video (nuScenes, 448 x 840 per camera, 16 frames)",
+  "pages": "1, 7"
+ },
+ "control_signal": {
+  "value": "target risk level, scalar or time-resolved profile, turned into agent trajectories and 3D boxes; also HD map and text context",
+  "pages": "2, 4"
+ },
+ "control_mechanism": {
+  "value": "two stages: risk embedded by MLP and applied by FiLM to BEV features of a GenAD-style motion generator; resulting trajectories and boxes injected as structured motion conditions into the diffusion backbone",
+  "pages": "2, 4, 5-6"
+ },
+ "base_model": {
+  "value": "MagicDrive-STDiT3 diffusion backbone (about 2.5B, initialized from MagicDriveV2) with VGGT geometry adapter, alignment module and region-aware DPO",
+  "pages": "5-7"
+ },
+ "datasets": {
+  "value": "nuScenes, 700 scenes for training and 150 for evaluation",
+  "pages": "7"
+ },
+ "metrics": {
+  "value": "FID, FVD, 3D detector mAP, MV-SSIM, Depth AbsRel, Fg-FID, DINO-FID",
+  "pages": "7"
+ },
+ "controllability_evidence": {
+  "value": "Paper says measured risk closely matches target but omits the analysis; qualitative quantiles 0.95, 0.8, 0.2. Fidelity: FID 15.70 versus 20.91, mAP 30.50 versus 18.17.",
+  "pages": "7-8"
+ },
+ "closed_loop": {
+  "value": "No; open-loop generation from observed multi-view history, 16-frame clips, no driving policy in the loop.",
+  "pages": "3, 7"
+ },
+ "stated_limitations": {
+  "value": "Risk model covers only several typical interactions; results depend on quality of generated trajectories and 3D boxes.",
+  "pages": "8"
+ },
+ "notes": "Risk control happens in the motion-generation stage; the video generator is conditioned on its output. No quantitative risk-matching numbers in packet."
+}

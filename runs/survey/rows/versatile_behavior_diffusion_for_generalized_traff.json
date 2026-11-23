@@ -1,0 +1,13 @@
+{
+ "id": "versatile_behavior_diffusion_for_generalized_traff",
+ "title": "Versatile Behavior Diffusion for Generalized Traffic Agent Simulation",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "User requirement y at inference without retraining: goals or reference paths, soft constraints (speed limit, collision avoidance), behavior-prior (conflict-prior) selection, and game-theoretic cost objectives.", "pages": "1-4"},
+ "control_mechanism": {"value": "Classifier-guidance-style conditional score: adds the gradient of the log-likelihood of y to the learned score during reverse diffusion, using model-based cost functions or predicted behavior priors as guidance.", "pages": "3-4"},
+ "base_model": {"value": "Query-centric Transformer scene encoder, multi-modal marginal behavior predictor (static end-goal anchors), and a diffusion denoiser for joint multi-agent action trajectories under unicycle dynamics.", "pages": "1, 4-5"},
+ "datasets": {"value": "Waymo Open Motion Dataset (486,995 train, 44,097 validation scenarios; 44,920 Sim Agents test scenarios; 500 Validation Interactive scenarios for ablations), in Waymax closed-loop simulation.", "pages": "6"},
+ "metrics": {"value": "Waymo Sim Agents benchmark; collision rate (%), off-road rate (%), ADE, FDE, minADE, minFDE, runtime (s) over 32 closed-loop samples.", "pages": "2, 14-15"},
+ "controllability_evidence": {"value": "Qualitative: conflict-prior guidance generates safety-critical scenarios from a model trained only on normal data (Fig. 8). No guided-control number appears in the packet.", "pages": "1, 12-13"},
+ "stated_limitations": {"value": "Conflict-prior guidance fails when behavior priors contain no collision pairs (shown as failure case). Future work: runtime efficiency for real-time use, LLM-based context-aware generation, other traffic domains.", "pages": "13, 15-16"},
+ "notes": "Guidance quantitative results (e.g. game-theoretic, goal reaching) are not in the packet, so the evidence field is qualitative."
+}

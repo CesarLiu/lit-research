@@ -1,0 +1,15 @@
+{
+ "id": "nvidia_omnidreams_real_time_generative_world_model",
+ "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "Multi-view driving video generated autoregressively in real time; up to 7 synchronized views, 4 cameras in the main setup.", "pages": "8-9, 9-10"},
+ "control_signal": {"value": "Abstract world scenario (lane maps, agent bounding boxes) rendered into a conditioning video using the policy or human driving action; text prompt for weather, lighting, time of day; first-frame RGB.", "pages": "8-9"},
+ "control_mechanism": {"value": "Lightweight control branch: small MLP encodes simulator state into control tokens concatenated with visual tokens (no ControlNet); text by cross-attention; streaming KV cache gives memory.", "pages": "8-9"},
+ "base_model": {"value": "Cosmos diffusion model (causal transformer like Cosmos-Predict 2.5), mid- and post-trained on 21k hours of driving, then distilled with Self Forcing and DMD for real-time use.", "pages": "1, 8-9, 28"},
+ "datasets": {"value": "21k hours of driving scenarios; quality eval on 1,000 clips from the 5,000-clip held-out split of RDS-HQ-1M; closed-loop on a 501-scene subset of Physical AI Autonomous Vehicles NuRec.", "pages": "1, 19-20, 24"},
+ "metrics": {"value": "FVD, LET-AP/APL/APH from an off-the-shelf detector, and closed-loop incident rates (collision by direction, offroad, All Incidents).", "pages": "36-37, 19-20, 24-25"},
+ "controllability_evidence": {"value": "Fidelity as a simulator: policy ranking by All Incidents under NuRec is preserved under OmniDreams, with OmniDreams WAM best and Alpamayo 1.5 (1 cam) worst, called a faithful proxy.", "pages": "24-25"},
+ "closed_loop": {"value": "Yes. Rolled out with Alpamayo 1 policy in AlpaSim; 20-second closed-loop rollouts, replanning every 533 ms.", "pages": "1, 24"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Controllable scenario editing section (9.3.1) is only in the contents; its content is not in the packet. Packet also covers WAM policy post-training and a diffusion fixer, which are side uses."
+}

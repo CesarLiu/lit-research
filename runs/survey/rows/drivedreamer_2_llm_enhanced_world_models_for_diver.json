@@ -1,0 +1,15 @@
+{
+ "id": "drivedreamer_2_llm_enhanced_world_models_for_diver",
+ "title": "DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation",
+ "control_family": "text or language conditioning",
+ "output_modality": {"value": "multi-view driving video (six surround cameras)", "pages": "1, 6"},
+ "control_signal": {"value": "free-form user text prompt, which an LLM turns into agent trajectories; an HDMap is generated from them, and 3D boxes are derived. Optionally an initial frame or front-view video.", "pages": "1, 4-7"},
+ "control_mechanism": {"value": "Fine-tuned GPT-3.5 emits Python trajectory scripts; ControlNet-based HDMap generator on SD2.1; HDMaps and projected 3D boxes concatenated with noisy latent in the video generator; UniMVM mask formulation.", "pages": "4-6"},
+ "base_model": {"value": "Stable Video Diffusion (all parameters finetuned) for the video generator; SD2.1 with ControlNet for HDMap generation; GPT-3.5 for trajectories.", "pages": "6"},
+ "datasets": {"value": "nuScenes: 700 training and 150 validation videos, six cameras, 12Hz annotations.", "pages": "6"},
+ "metrics": {"value": "Frame-wise FID, FVD; downstream StreamPETR 3D detection (mAP, mAOE, mAVE, NDS) and tracking (AMOTA, AMOTP, IDS) with synthetic data.", "pages": "6-7"},
+ "controllability_evidence": {"value": "Qualitative customized videos (cut-in, lane change, pedestrian crossing); quality FID 11.2 and FVD 55.7 with first-frame condition; detection and tracking gains from generated data. No explicit control-following metric in packet.", "pages": "6-8"},
+ "closed_loop": {"value": "No; open-loop video generation of N = 8 frame clips.", "pages": "6"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Control passes through an LLM, a trajectory library of 18 functions, and an HDMap generator before video. Limitations section not in packet."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "gaussianworld_gaussian_world_model_for_streaming_3",
+ "title": "GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction",
+ "control_family": "prediction without a control input",
+ "output_modality": {"value": "3D semantic occupancy for the current frame, framed as 4D occupancy forecasting in a 3D Gaussian space", "pages": "1-2"},
+ "control_signal": {"value": "No user control. Model inputs are the current multi-camera RGB images, historical 3D Gaussians and the ego pose or trajectory used for alignment", "pages": "1-2"},
+ "control_mechanism": {"value": "Historical Gaussians are aligned by ego motion, new areas completed with random Gaussians, then refined by an evolution layer with sparse convolution and deformable attention to image features", "pages": "2-3, 8-9"},
+ "base_model": {"value": "Gaussian scene representation following GaussianFormer; FPN multi-scale image features; 25600 Gaussians and 4 Gaussian world layers; two-stage training, streaming training last", "pages": "6-7"},
+ "datasets": {"value": "nuScenes (700/150/150 train/val/test scenes), occupancy labels from SurroundOcc", "pages": "5-6, 6-7"},
+ "metrics": {"value": "IoU and mIoU for semantic occupancy, plus inference latency and memory", "pages": "6-7"},
+ "controllability_evidence": {"value": "not applicable, no control input. Prediction gain: mIoU +2.4% and IoU +2.7% over single-frame GaussianFormer-B; ablations on ego motion and dynamic-object factors", "pages": "6-7"},
+ "closed_loop": {"value": "no; streaming perception on recorded sequences, not rolled out with a driving policy", "pages": "5-6"},
+ "stated_limitations": {"value": "Cannot reach full cross-frame consistency for static scenes, due to inaccurate separation of dynamic and static elements", "pages": "8-9"},
+ "notes": "Not a generator with a control input: a world-model-based perception model for occupancy prediction. Latency 228 ms versus 225 ms single-frame (Table 2)."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "control_itra_controlling_the_behavior_of_a_driving",
+ "title": "Control-ITRA: Controlling the Behavior of a Driving Model",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Per-agent waypoints to follow and a per-agent target speed (used as an indirect aggressiveness knob); conditioning can be partial, on either or both.", "pages": "1-2"},
+ "control_mechanism": {"value": "Waypoints are placed on the ego-centric birdview input; target speed enters through conditional affine transforms (scale and shift) of layer features. Training conditions are sampled from ground-truth trajectories; unconditional use is supported.", "pages": "2-3, 7"},
+ "base_model": {"value": "ITRA: rasterized birdview multi-agent driving model, each agent a variational recurrent network.", "pages": "1-2"},
+ "datasets": {"value": "Training on a drone-recorded dataset of more than 1000 hours from 19 countries (4-second segments, 10Hz); out-of-domain tests in TorchDriveEnv.", "pages": "7, 1-2"},
+ "metrics": {"value": "Realism: ADE, FDE, minADE/minFDE over 6 samples, miss rate; diversity: MFD; safety: collision, offroad, traffic-light violation rates; condition-reaching rate; TorchDriveEnv return and waypoints reached.", "pages": "8-9, 10-11"},
+ "controllability_evidence": {"value": "TorchDriveEnv single-agent: Control-ITRA with waypoints reaches 4.54 waypoints (return 533.02, collision rate 0.0) vs 2.06 waypoints (return 297.98) unconditionally; it also beats SAC, PPO, TD3, A2C baselines.", "pages": "8-9"},
+ "stated_limitations": {"value": "No explicit limitations in packet; future work proposes more abstract controls such as natural language commands or driver intentions. Training with last-timestep conditions degrades on 8-second rollouts.", "pages": "12, 9"},
+ "notes": "Table cell alignment in the packet is garbled; numbers taken from Table 3 rows as read. Target-speed controllability numbers (Tables 1-2) are not legible in the packet."
+}

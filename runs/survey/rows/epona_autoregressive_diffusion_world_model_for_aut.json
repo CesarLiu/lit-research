@@ -1,0 +1,15 @@
+{
+ "id": "epona_autoregressive_diffusion_world_model_for_aut",
+ "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "Single-view (front camera) driving video generated autoregressively frame by frame at 512x1024, plus 3-second future trajectories.", "pages": "3-4, 6, 7-8"},
+ "control_signal": {"value": "Predefined pose trajectory or per-frame action control, given alongside condition frames (history of 10 frames at test time).", "pages": "1, 6-7"},
+ "control_mechanism": {"value": "Action control MLP output is added to the timestep modulation of the next-frame visual DiT only, not the trajectory DiT (read from block diagram).", "pages": "13-15"},
+ "base_model": {"value": "2.5B model: GPT-style causal multimodal spatiotemporal transformer (1.3B), next-frame DiT (1.2B), trajectory DiT (50M); rectified flow; DCAE autoencoder; trained from scratch.", "pages": "6"},
+ "datasets": {"value": "Trained on NuPlan videos and 700 nuScenes scenes; evaluated on 1628 NuPlan test clips and 1646 nuScenes validation clips; planning on nuScenes and NAVSIM.", "pages": "6-7"},
+ "metrics": {"value": "FVD and FID for video; L2 error and collision rate on nuScenes, PDMS on NAVSIM for planning.", "pages": "6-7"},
+ "controllability_evidence": {"value": "Qualitative only in packet: given predefined pose trajectories (turn left, turn right, straight), futures from different condition frames follow the path. No action-following number seen.", "pages": "6-7"},
+ "closed_loop": {"value": "No external-policy closed loop stated. Self-rollout is autoregressive and minute-long: up to 2 minutes claimed, 140 seconds shown.", "pages": "2, 13-15"},
+ "stated_limitations": {"value": "Deep-compression autoencoder may add visual artifacts, so visual quality is slightly below MagicDriveDiT; plans to improve it. Model uses only the front camera.", "pages": "7-8, 13"},
+ "notes": "Action-injection detail inferred from Fig. 9 labels only. The FVD comparison text with MagicDriveDiT (94.84) and InfinityDrive (70.06) against Epona 82.83 looks inconsistent with its claim; not resolved from packet."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "editing_driver_character_socially_controllable_beh",
+ "title": "Editing Driver Character: Socially-Controllable Behavior Generation for Interactive Traffic Simulation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "A scalar courtesy level for the simulated agent, defined as the change in the other agent's expected reward caused by its trajectory; users give it as a quantile in the unit interval.", "pages": "1-2, 4-5"},
+ "control_mechanism": {"value": "Courtesy coefficient is an input to the trajectory generator; training uses auto-labeled courtesy values, data augmentation with predicted trajectories, and a differentiable courtesy loss. A range predictor normalizes values per scenario.", "pages": "2-5"},
+ "base_model": {"value": "Multipath++ backbone (scene encoder, multi-context gating decoder) with anchor embeddings removed to output a single-modal trajectory; decoder trained on a pretrained encoder.", "pages": "3-5"},
+ "datasets": {"value": "Waymo Open Motion Dataset, interactive subset with labeled pairs of interacting agents.", "pages": "4-5"},
+ "metrics": {"value": "CourtesyMSE (controllability) and TrajADE against ground truth (realism); predictor ADE, minADE, minFDE, MR, mAP; correlation between input quantile and generated courtesy.", "pages": "5-7"},
+ "controllability_evidence": {"value": "Full model reaches CourtesyMSE 0.120 with range-predicted values; generated courtesy correlates with input quantile at 0.60 on the full interactive validation subset and 0.79 on the high-courtesy subset.", "pages": "6-7"},
+ "stated_limitations": {"value": "Auto-labeling is affected by the causality issue of conditional behavior prediction, which cannot separate correlation from causation between two agents' trajectories; single-modal output; closed-loop extension is future work.", "pages": "3-4, 7-8"},
+ "notes": "Single-agent open-loop trajectory generation; closed-loop use is stated as future work."
+}

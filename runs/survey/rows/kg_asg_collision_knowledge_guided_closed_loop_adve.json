@@ -1,0 +1,13 @@
+{
+ "id": "kg_asg_collision_knowledge_guided_closed_loop_adve",
+ "title": "KG-ASG: Collision-Knowledge-Guided Closed-Loop Adversarial Scenario Generation With Primary-Support Attribution",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "Target collision mode with a unique primary adversary, support vehicles and roles, conflict region, critical time window and generation preference, inferred from the scene by a Collision Expert.", "pages": "1, 6-7"},
+ "control_mechanism": {"value": "LoRA-tuned LLM decodes the scene prompt into structured guidance that selects and re-ranks candidate adversary trajectories; hard rule, physical and single-collider gates filter samples; planner feedback drives retry, re-ranking and refinement.", "pages": "1-2, 6-7"},
+ "base_model": {"value": "Collision Expert: two-stage LoRA fine-tuned Mistral-7B-Instruct-v0.3, outputs semantics not trajectories. Generator works on multimodal opponent trajectory proposals (CAT-style candidate setting), with UIRAM risk pre-screening.", "pages": "2, 7, 10"},
+ "datasets": {"value": "WOMD scenarios reconstructed in MetaDrive; expert training uses 450 knowledge-alignment and 1050 generator-oriented samples; protocol and metrics follow SAGE.", "pages": "1, 7, 10"},
+ "metrics": {"value": "Attack success rate, Crash Obj., Cross Line, kinematic penalty, distributional distance, Valid Primary Attack, multi-collision rate, and closed-loop recovery gains under IDM, Cruise and Expert controllers.", "pages": "1, 10-11"},
+ "controllability_evidence": {"value": "Attack success 92.60% under Replay policy (SAGE 76.15%), 92.40% under joint rule and physical constraints; Valid Primary Attack 92.20%, multi-collision 0.00%; recovery gains 8.00, 7.20, 14.00 points.", "pages": "1, 11"},
+ "stated_limitations": {"value": "Not best on every realism metric and Kine. Pen. is higher than SAGE. Future work: larger knowledge base, finer support-role modelling, more ODDs, mixed traffic and sensor-level testing.", "pages": "11, 15-16"},
+ "notes": "Controllability is semantic (collision mode, who collides), with no quantitative collision-mode-match rate seen in packet. Some baseline numbers are taken from other papers (protocol-level comparison)."
+}

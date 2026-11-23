@@ -1,0 +1,15 @@
+{
+ "id": "pandwm_panoramic_4d_driving_world_models",
+ "title": "PanDWM: Panoramic 4D Driving World Models",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "One 360 degree panoramic surround-view video, lifted by a feed-forward decoder into 3D Gaussians and 4D scenes for novel-view rendering.", "pages": "1-3"},
+ "control_signal": {"value": "Class-coloured 3D box wireframes and HD-map outlines stitched into the panorama, short text prompt, 3 panoramic history frames, and virtual-camera ray maps.", "pages": "3-4"},
+ "control_mechanism": {"value": "Box and map images enter through image-adapter residuals in the first six blocks; CLIP and T5 text via SD3 joint attention; Fourier ray maps added to cross-view and temporal blocks.", "pages": "3, 13"},
+ "base_model": {"value": "SD3 diffusion transformer with UniMLVG cross-view and temporal extensions, SD3.5 VAE; four-step causal student distilled from a causal teacher; Gaussian decoder using Depth Anything 3 ranges.", "pages": "3, 13"},
+ "datasets": {"value": "nuScenes: 700 training scenes; 150 validation scenes with Val-150, Test-S, Test-L and Dev-78 subsets.", "pages": "5"},
+ "metrics": {"value": "FID, I3D-based FVD-1 and FVD-2, flicker and sharpness ratios; object recall (Faster R-CNN) and road IoU (Mask2Former) for controllability; NFE, time per frame; AbsRel depth.", "pages": "5, 8"},
+ "controllability_evidence": {"value": "Controllability is scored by object recall and road IoU, but the packet gives no values. Fidelity on Val-150: FID 10.09 and FVD-1 37.4.", "pages": "5, 16"},
+ "closed_loop": {"value": "No policy loop stated in packet; autoregressive long rollouts up to 19.5 s on nuScenes validation scenes.", "pages": "5"},
+ "stated_limitations": {"value": "Each window sees only the last three generated frames, Test-L FVD grows from 86.6 to 126.6; 4D completion covers only static content, leaving moving objects' unseen parts empty.", "pages": "8-9"},
+ "notes": "Controllability results not visible in packet. Packet mentions Gaussian novel-view rendering with moved viewpoints, which is the camera-control aspect."
+}

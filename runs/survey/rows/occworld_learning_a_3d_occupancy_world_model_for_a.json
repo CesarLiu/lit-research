@@ -1,0 +1,15 @@
+{
+ "id": "occworld_learning_a_3d_occupancy_world_model_for_a",
+ "title": "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving",
+ "control_family": "prediction without a control input",
+ "output_modality": {"value": "future 3D semantic occupancy (4D occupancy forecasting) plus ego trajectory, predicted jointly", "pages": "1-2"},
+ "control_signal": {"value": "none from a user; past occupancy scene tokens and past ego positions are the inputs, and the model predicts the ego trajectory itself", "pages": "4"},
+ "control_mechanism": {"value": "Ego token is aggregated with scene tokens; GPT-like spatial-temporal transformer autoregressively predicts next scene and ego tokens; no external control signal injected", "pages": "2, 4"},
+ "base_model": {"value": "VQ-VAE occupancy tokenizer (codebook 512, 128-dim, downsampling 4) and GPT-like spatial-temporal generative transformer with 3 scales and U-net aggregation; TPVFormer for camera inputs", "pages": "4, 6-7"},
+ "datasets": {"value": "Occ3D for 4D occupancy forecasting; nuScenes for motion planning", "pages": "6"},
+ "metrics": {"value": "mIoU and IoU for occupancy forecasting; L2 error and collision rate for planning", "pages": "6"},
+ "controllability_evidence": {"value": "No controllability test. Forecasting: average IoU 26.63 and mIoU 17.13 for 3 s given 2 s history; planning L2 error 1.16 without instance or map annotations", "pages": "2"},
+ "closed_loop": {"value": "No; open-loop autoregressive forecast of 3 s from 2 s history, evaluated against logged data", "pages": "6-7"},
+ "stated_limitations": {"value": "Fails to forecast new vehicles entering the view; collision rate behind others; worse at longer planning horizons (L2 1.99 at 3 s vs 1.65 for UniAD); a wrong predicted ego trajectory can mislead forecasting", "pages": "1, 8"},
+ "notes": "Not a controllable generator: a joint forecaster and planner with no steering input. Included as the no-control baseline type."
+}

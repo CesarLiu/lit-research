@@ -1,0 +1,15 @@
+{
+ "id": "does_the_action_matter_probing_action_conditioned",
+ "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "future semantic segmentation maps (single view, 2D), predicted autoregressively over up to three steps", "pages": "2-3"},
+ "control_signal": {"value": "ego action: speed and yaw rate, past actions plus the mean future action; derived from vehicle odometry (Cityscapes) or GPS (BDD100K)", "pages": "2, 4"},
+ "control_mechanism": {"value": "FiLM: an MLP encodes the action vector and scales and shifts every U-Net block; compared with input-level concatenation of constant action planes and with no action input", "pages": "3-4"},
+ "base_model": {"value": "U-Net with four levels (64 to 512 channels), GroupNorm, GELU, residual copy-last term; trained from scratch, 12.55 M to 13.07 M parameters; SegFormer-B5 supplies segmentations", "pages": "3-5"},
+ "datasets": {"value": "Cityscapes (2,975 train, 500 val snippets), BDD100K tracking clips (1,528 clips kept), plus a synthetic environment with action-dependent dynamics", "pages": "4-5"},
+ "metrics": {"value": "mIoU and MO-mIoU (movable objects) under true action and under interventions (shuffled, zero yaw, stop, mean); also parameters, GFLOPs, latency", "pages": "4, 7"},
+ "controllability_evidence": {"value": "Test-time action interventions: executed action adds at most 2.46 mid-term mIoU on Cityscapes, while shuffled action lowers FiLM by 23.17; synthetic: FiLM 87.95 vs 59.99 no action, shuffled -31.57", "pages": "6-7"},
+ "closed_loop": {"value": "No; open-loop autoregressive forecasting only, mid-term horizon 0.54 s (Cityscapes) and 0.6 s (BDD100K), no driving policy in the loop", "pages": "2, 4"},
+ "stated_limitations": {"value": "Interventions measure strength of action dependence, not its correctness; forecasts and metrics are class level, not per agent; larger video or occupancy models and longer horizons left as future work", "pages": "6-8"},
+ "notes": "Not a generative video or sensor world model; a small semantic forecaster used as a probe of how strongly forecasts depend on the ego action. Page labels for limitations are approximate."
+}

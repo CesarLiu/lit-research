@@ -1,0 +1,15 @@
+{
+ "id": "unimlvg_unified_framework_for_multi_view_long_vide",
+ "title": "UniMLVG: Unified Framework for Multi-View Long Video Generation with Comprehensive Control Capabilities for Autonomous Driving",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "multi-view surround-camera long video (20 s examples)", "pages": "1"},
+ "control_signal": {"value": "3D bounding boxes and HD maps, per-view image-level text descriptions, camera intrinsics and extrinsics as ray maps, and optional reference frames or video.", "pages": "1-2, 4, 11"},
+ "control_mechanism": {"value": "Boxes and maps projected to sparse condition images, passed through a lightweight T2I-Adapter-style image adapter; text via text encoder in MM-DiT blocks; camera ray maps; conditions injected into every block.", "pages": "4"},
+ "base_model": {"value": "DiT-based image generator (MM-DiT, rectified-flow loss) extended with temporal and cross-view modules; multi-task and three-stage training; large single-view pretraining.", "pages": "2-4"},
+ "datasets": {"value": "OpenDV-Youtube (Stage I only), nuScenes, Waymo, Argoverse2; total 1,498 hours, of which OpenDV-Youtube is 1,486 hours.", "pages": "5"},
+ "metrics": {"value": "FID, FVD on 150 nuScenes validation scenes (6 views, 16 frames); controllability via 3D object detection and BEV segmentation, following MagicDrive.", "pages": "5"},
+ "controllability_evidence": {"value": "Reported FID and FVD improve by 48.2% and 35.2% over the second-best method; qualitative text edits (sunny to snowy) and CARLA-to-realistic. Detection and segmentation numbers not in packet.", "pages": "1, 5-6, 12"},
+ "closed_loop": {"value": "No; autoregressive video generation using 3 reference frames, up to 20 s, no driving policy in the loop.", "pages": "1, 5"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Abstract is partly garbled in the packet. Controllability perception tables are not in the packet."
+}

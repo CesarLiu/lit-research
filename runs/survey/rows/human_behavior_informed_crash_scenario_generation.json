@@ -1,0 +1,13 @@
+{
+ "id": "human_behavior_informed_crash_scenario_generation",
+ "title": "Human Behavior-Informed Crash Scenario Generation with Real-World Crash Priors for Autonomous Vehicle Safety Evaluation",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "A retrieved real-world crash prior, matched to the current scene, that gives an anchor trajectory for a candidate adversarial vehicle plus behavior-stage timings (risk, emergency, collision); a VLM agent picks the adversary.", "pages": "12, 14-15"},
+ "control_mechanism": {"value": "Gradient-based clean guidance in the last reverse DDIM steps: a differentiable loss on decoded trajectories (anchor, stage, collision, realism, route terms) modifies the noise prediction with scale s.", "pages": "15"},
+ "base_model": {"value": "Scene-conditioned latent diffusion model with interaction-aware graph encoder and decoder, temporal U-Net denoiser, kinematic-bicycle propagation; plus a VLM scene-understanding agent and crash-prior retrieval.", "pages": "12, 14-15"},
+ "datasets": {"value": "Diffusion model trained on nuScenes training split; real-world crash data used as priors; builds nuCrash (over 4,000 crash and near-crash scenarios) from nuScenes scenes; SimEngine as comparison dataset.", "pages": "1, 8-9, 14"},
+ "metrics": {"value": "Crash and near-crash rates, TV distance and JSD between generated and real crash-type distributions, emergency-response stage proportion and pre-impact timing; planner closed-loop safety metrics.", "pages": "6-9"},
+ "controllability_evidence": {"value": "Ablation: removing crash-prior retrieval cuts the emergency-response proportion from 22% to 12%, further from the real-world 32%. CrashSim has the smallest TV and JSD to real crash distributions.", "pages": "7-8, 10-11"},
+ "stated_limitations": {"value": "LLM-based evaluation attributes failure mechanisms only coarsely; CrashSim needs broader real-world crash databases and more reactive modelling of surrounding traffic.", "pages": "11-12"},
+ "notes": "Guidance is driven by retrieved priors rather than a user-specified attribute; no controllability metric reported in this packet beyond realism/distribution match and ablation. Real-world crash database name not in packet."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "evodrive_pareto_evolution_for_safety_critical_auto",
+ "title": "EvoDrive: Pareto Evolution for Safety-Critical Autonomous Driving via Self-Improving LLM Agents",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "A parent scenario generator, an objective target (attack versus realism trade-off), a fixed ego policy and an editable surface of parameters, operator graph and mechanism modules.", "pages": "31"},
+ "control_mechanism": {"value": "LLM actor proposes bounded program patches to a generator; critic agents vet them before simulation; a world evaluator routes candidates; a Pareto archive of simulator-labelled results and memory guides later proposals.", "pages": "1-2, 17-18, 31"},
+ "base_model": {"value": "LLM-agent evolution framework wrapping existing generator families (CAT, ADV-BMT, AT, SAGE, LLM-Attacker, KING, SEAL, STRIVE) via a common interface; no new scenario network is trained.", "pages": "20-21"},
+ "datasets": {"value": "MetaDrive with 500 scenarios preprocessed from Waymo Open Motion Dataset (100 held-out); CARLA via SafeBench with eight traffic families and 10 routes each.", "pages": "20-21"},
+ "metrics": {"value": "Attack (collision rate), realism penalty RP, adversarial realism score ARS, SafeBench overall score, PF-Area@3 frontier gain; post-evolution motion and interaction JSD and out-of-support rate.", "pages": "7, 20-21"},
+ "controllability_evidence": {"value": "SafeBench: evolving AS raised Attack from 0.260 to 0.382 (+47.2%) and PF-Area@3 by +142.5%. Averaged over eight families, motion JSD fell from 0.073 to 0.067 and OOS rate from 7.4% to 6.0%.", "pages": "7"},
+ "stated_limitations": {"value": "Assumes fixed ego policies, finite simulator budgets and simulation-only validation, so it may miss failure modes tied to unseen policies, platforms or deployment; hardware-in-the-loop validation and co-evolution are future work.", "pages": "9-10"},
+ "notes": "Not a conventional controllable generator: it is an LLM-driven outer loop that evolves adversarial scenario generators, so the 'control signal' is an optimisation target rather than a per-scenario instruction. Mechanism and signal rows are inferred from system description and prompt appendix."
+}

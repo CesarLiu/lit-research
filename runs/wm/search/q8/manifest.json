@@ -1,0 +1,954 @@
+[
+  {
+    "title": "DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Xuemeng Yang",
+      "Licheng Wen",
+      "Tiantian Wei",
+      "Yukai Ma",
+      "Jianbiao Mei",
+      "Xin Li",
+      "Wenjie Lei",
+      "Daocheng Fu",
+      "Pinlong Cai",
+      "Min Dou",
+      "Liang He",
+      "Yong Liu",
+      "Botian Shi",
+      "Yu Qiao"
+    ],
+    "doi": "10.1109/iccv51701.2025.02500",
+    "file": "openalex_101109_iccv51701202502500_DriveArena_A_Closed-Loop_Generative_Simulation_Platform.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4401307309",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "UniSim: A Neural Closed-Loop Sensor Simulator",
+    "year": 2023,
+    "authors": [
+      "Ze Yang",
+      "Yun Chen",
+      "Jingkang Wang",
+      "Sivabalan Manivasagam",
+      "Wei-Chiu Ma",
+      "Anqi Yang",
+      "Raquel Urtasun"
+    ],
+    "doi": "10.1109/cvpr52729.2023.00140",
+    "file": "openalex_101109_cvpr52729202300140_UniSim_A_Neural_Closed-Loop_Sensor_Simulator.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4386076483",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generative AI-Empowered Simulation for Autonomous Driving in Vehicular Mixed Reality Metaverses",
+    "year": 2023,
+    "authors": [
+      "Minrui Xu",
+      "Dusit Tao Niyato",
+      "Junlong Chen",
+      "Hongliang Zhang",
+      "Jiawen Kang",
+      "Zehui Xiong",
+      "Shiwen Mao",
+      "Zhu Han"
+    ],
+    "doi": "10.1109/jstsp.2023.3293650",
+    "file": "openalex_101109_jstsp20233293650_Generative_AI-Empowered_Simulation_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4383753323",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MARS: An Instance-Aware, Modular and Realistic Simulator for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Zirui Wu",
+      "Tianyu Liu",
+      "Liyi Luo",
+      "Zhide Zhong",
+      "Jianteng Chen",
+      "Hongmin Xiao",
+      "Chao Hou",
+      "Haozhe Lou",
+      "Yuantao Chen",
+      "Runyi Yang",
+      "Yuxin Huang",
+      "Xiaoyu Ye",
+      "Zike Yan",
+      "Yongliang Shi",
+      "Yiyi Liao",
+      "Hao Zhao"
+    ],
+    "doi": "10.1007/978-981-99-8850-1_1",
+    "file": "openalex_101007_978-981-99-8850-1_1_MARS_An_Instance-Aware_Modular_and_Realistic_Simulator.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4391516317",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "NeuRAD: Neural Rendering for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Adam Tonderski",
+      "Carl Lindström",
+      "Georg Hess",
+      "William Ljungbergh",
+      "Lennart Svensson",
+      "Christoffer Petersson"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01411",
+    "file": "openalex_101109_cvpr52733202401411_NeuRAD_Neural_Rendering_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402727641",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Generative AI for Autonomous Driving: Frontiers and Opportunities",
+    "year": 2026,
+    "authors": [
+      "Yuping Wang",
+      "Shuo Xing",
+      "Can Cui",
+      "Renjie Li",
+      "Hongyuan Hua",
+      "Kexin Tian",
+      "Zhaobin Mo",
+      "Xiangbo Gao",
+      "Marco Pavone",
+      "Sulong Zhou",
+      "Jiachen Li",
+      "Zhengzhong Tu"
+    ],
+    "doi": "10.1145/3838726",
+    "file": "openalex_101145_3838726_Generative_AI_for_Autonomous_Driving_Frontiers_and_Opportunities.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414937603",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Pseudo-Simulation for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Wei Cao",
+      "Marcel Hallgarten",
+      "Tianyu Li",
+      "Daniel Dauner",
+      "Xunjiang Gu",
+      "Wang, Caojun",
+      "Yakov Miron",
+      "Marco Aiello",
+      "Hongyang Li",
+      "Igor Gilitschenski",
+      "Boris Ivanovic",
+      "Marco Pavone",
+      "Andreas Geiger",
+      "Kashyap Chitta"
+    ],
+    "doi": "10.48550/arxiv.2506.04218",
+    "file": "openalex_1048550_arxiv250604218_Pseudo-Simulation_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416075228",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Review of Multi-Sensor Fusion in Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Hui Qian",
+      "Mingchen Wang",
+      "Maotao Zhu",
+      "Hai Wang"
+    ],
+    "doi": "10.3390/s25196033",
+    "file": "openalex_103390_s25196033_A_Review_of_Multi-Sensor_Fusion_in_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414704765",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+    "year": 2026,
+    "authors": [
+      "NVIDIA",
+      ":",
+      "Despoina Paschalidou",
+      "Fangyin Wei",
+      "Francesco Ferroni",
+      "Guillermo Garcia-Cobo",
+      "Haithem Turki",
+      "Huan Ling",
+      "Jaewoo Seo",
+      "James Lucas",
+      "Jay Zhangjie Wu",
+      "Jialiang Wang",
+      "Jonathan Lorraine",
+      "Jun Gao",
+      "Kai He",
+      "Katarína Tóthová",
+      "Kai He",
+      "Michał Tyszkiewicz",
+      "Qi Wu",
+      "Riccardo de Lutio"
+    ],
+    "doi": "10.48550/arxiv.2606.03159",
+    "file": "openalex_1048550_arxiv260603159_NVIDIA_OmniDreams_Real-Time_Generative_World_Model_for_Clo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7163395620",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Choose Your Simulator Wisely: A Review on Open-Source Simulators for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Yueyuan Li",
+      "Wei Yuan",
+      "Songan Zhang",
+      "Weihao Yan",
+      "Qiyuan Shen",
+      "Chunxiang Wang",
+      "Ming Zhu Yang"
+    ],
+    "doi": "10.1109/tiv.2024.3374044",
+    "file": "openalex_101109_tiv20243374044_Choose_Your_Simulator_Wisely_A_Review_on_Open-Source_Simula.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4392523567",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Lening Wang",
+      "Wenzhao Zheng",
+      "Yilong Ren",
+      "Han Jiang",
+      "Zhiyong Cui",
+      "Hou–Yong Yu",
+      "Jiwen Lu"
+    ],
+    "doi": "10.1109/tip.2026.3687468",
+    "file": "openalex_101109_tip20263687468_OccSora_4D_Occupancy_Generation_Models_as_World_Simulators_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4399270650",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Lloyd E. Russell",
+      "Anthony Hu",
+      "Lorenzo Bertoni",
+      "Fedoseev, George",
+      "Jamie Shotton",
+      "Elahe Arani",
+      "Gianluca Corrado"
+    ],
+    "doi": "10.48550/arxiv.2503.20523",
+    "file": "openalex_1048550_arxiv250320523_GAIA-2_A_Controllable_Multi-View_Generative_World_Model_fo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409046497",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Unified Generative Framework for Realistic LiDAR Simulation in Autonomous Driving Systems",
+    "year": 2025,
+    "authors": [
+      "Hamed Fallah Haghighi",
+      "Yiting Wang",
+      "Mehrdad Dianati",
+      "Kurt Debattista",
+      "Valentina Donzella"
+    ],
+    "doi": "10.1109/jsen.2025.3642208",
+    "file": "openalex_101109_jsen20253642208_A_Unified_Generative_Framework_for_Realistic_LiDAR_Simulat.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417508374",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "S-NeRF++: Autonomous Driving Simulation via Neural Reconstruction and Generation",
+    "year": 2025,
+    "authors": [
+      "Yurui Chen",
+      "Junge Zhang",
+      "Ziyang Xie",
+      "Wenye Li",
+      "Feihu Zhang",
+      "Jiachen Lu",
+      "Li Zhang"
+    ],
+    "doi": "10.1109/tpami.2025.3543072",
+    "file": "openalex_101109_tpami20253543072_S-NeRF_Autonomous_Driving_Simulation_via_Neural_Reconstru.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4407639021",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generative AI for Autonomous Driving: A Review",
+    "year": 2025,
+    "authors": [
+      "Katharina Winter",
+      "Abhishek Vivekanandan",
+      "Rupert Polley",
+      "Yinzhe Shen",
+      "Christian Schlauch",
+      "Mohamed-Khalil Bouzidi",
+      "Bojan Derajić",
+      "Natalie Grabowsky",
+      "Mariani, Annajoyce",
+      "Dennis Rochau",
+      "Giovanni Lucente",
+      "Yadav, Harsh",
+      "Firas Mualla",
+      "Adam Molin",
+      "Sebastian Bernhard",
+      "Christian Wirth",
+      "Ömer Şahin Taş",
+      "Nadja Klein",
+      "Fabian B. Flohr",
+      "Hanno Gottschalk"
+    ],
+    "doi": "10.48550/arxiv.2505.15863",
+    "file": "openalex_1048550_arxiv250515863_Generative_AI_for_Autonomous_Driving_A_Review.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415329399",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations",
+    "year": 2025,
+    "authors": [
+      "Daniel Bogdoll",
+      "Yitian Yang",
+      "Tim Joseph",
+      "Melih Yazgan",
+      "J. Marius Zöllner"
+    ],
+    "doi": "10.1109/iv64158.2025.11097718",
+    "file": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413017878",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents",
+    "year": 2024,
+    "authors": [
+      "Yuxi Wei",
+      "Zi Wang",
+      "Yifan Lu",
+      "Chenxin Xu",
+      "Changxing Liu",
+      "Hao Zhao",
+      "Siheng Chen",
+      "Yanfeng Wang"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01428",
+    "file": "openalex_101109_cvpr52733202401428_Editable_Scene_Simulation_for_Autonomous_Driving_via_Co.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402753889",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "OASim: an Open and Adaptive Simulator based on Neural Rendering for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Guohang Yan",
+      "Jiahao Pi",
+      "Jianfei Guo",
+      "Zhaotong Luo",
+      "Min Dou",
+      "Nianchen Deng",
+      "Qiusheng Huang",
+      "Daocheng Fu",
+      "Licheng Wen",
+      "Pinlong Cai",
+      "Xing Guo Gao",
+      "Xinyu Cai",
+      "Bo Zhang",
+      "Xuemeng Yang",
+      "Yeqi Bai",
+      "Hongbin Zhou",
+      "Botian Shi"
+    ],
+    "doi": "10.48550/arxiv.2402.03830",
+    "file": "openalex_1048550_arxiv240203830_OASim_an_Open_and_Adaptive_Simulator_based_on_Neural_Rende.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4391631835",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Comprehensive Review of Reinforcement Learning for Autonomous Driving in the CARLA Simulator",
+    "year": 2026,
+    "authors": [
+      "Elahe Delavari",
+      "Feeza Khan Khanzada",
+      "Jaerock Kwon"
+    ],
+    "doi": "10.1109/access.2026.3724381",
+    "file": "openalex_101109_access20263724381_A_Comprehensive_Review_of_Reinforcement_Learning_for_Aut.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417064464",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents",
+    "year": 2024,
+    "authors": [
+      "Yumeng Zhang",
+      "Shi Gong",
+      "Kaixin Xiong",
+      "Xiaoqing Ye",
+      "Li, Xiaofan",
+      "Xiao Tan",
+      "Wang, Fan",
+      "Jizhou Huang",
+      "Hua Ming Wu",
+      "Haifeng Wang"
+    ],
+    "doi": "10.48550/arxiv.2407.05679",
+    "file": "openalex_1048550_arxiv240705679_BEVWorld_A_Multimodal_World_Simulator_for_Autonomous_Drivi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4400481099",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Neural Radiance Field in Autonomous Driving: A Survey",
+    "year": 2024,
+    "authors": [
+      "Lei He",
+      "Leheng Li",
+      "Sun, Wenchao",
+      "Zeyu Han",
+      "Yichen Liu",
+      "Sifa Zheng",
+      "Jianqiang Wang",
+      "Keqiang Li"
+    ],
+    "doi": "10.48550/arxiv.2404.13816",
+    "file": "openalex_1048550_arxiv240413816_Neural_Radiance_Field_in_Autonomous_Driving_A_Survey.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4395065288",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "HUGSIM: A Real-Time, Photo-Realistic and Closed-Loop Simulator for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Hongyu Zhou",
+      "Longzhong Lin",
+      "Jiabao Wang",
+      "Yichong Lu",
+      "Dongfeng Bai",
+      "Bingbing Liu",
+      "Yue Wang",
+      "Andreas Geiger",
+      "Yiyi Liao"
+    ],
+    "doi": "10.1109/tpami.2025.3647952",
+    "file": "openalex_101109_tpami20253647952_HUGSIM_A_Real-Time_Photo-Realistic_and_Closed-Loop_Simula.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7117130249",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Yang Zhou",
+      "Hao Shao",
+      "Letian Wang",
+      "Zhuofan Zong",
+      "Hongsheng Li",
+      "Steven L. Waslander"
+    ],
+    "doi": "10.48550/arxiv.2601.01528",
+    "file": "openalex_1048550_arxiv260101528_DrivingGen_A_Comprehensive_Benchmark_for_Generative_Video_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7119114229",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Neural Rendering for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Carl Lindström"
+    ],
+    "doi": "10.63959/chalmers.dt/5865",
+    "file": "openalex_1063959_chalmersdt_5865_Neural_Rendering_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160842275",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ReSim: Reliable World Simulation for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Jia-Zhi Yang",
+      "Kashyap Chitta",
+      "Shenyuan Gao",
+      "Long Chen",
+      "Yuqian Shao",
+      "Xiaosong Jia",
+      "Hongyang Li",
+      "Andreas Geiger",
+      "Xiangyu Yue",
+      "Li Chen"
+    ],
+    "doi": "10.52202/085713-5591",
+    "file": "openalex_1052202_085713-5591_ReSim_Reliable_World_Simulation_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417309039",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+    "year": 2025,
+    "authors": [
+      "Haibao Yu",
+      "Wenxian Yang",
+      "Ruiyang Hao",
+      "Chuanye Wang",
+      "Jiaru Zhong",
+      "Ping Luo",
+      "Zaiqing Nie"
+    ],
+    "doi": "",
+    "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.23922v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning",
+    "year": 2024,
+    "authors": [
+      "Mehshan Ahmed Khan",
+      "Houshyar Asadi",
+      "Mohammad Reza Chalak Qazani",
+      "Chee Peng Lim",
+      "Saied Nahavandi"
+    ],
+    "doi": "",
+    "file": "arxiv_240806349v3_Functional_near-infrared_spectroscopy_fNIRS_and_Eye_tracking_for_Cogniti.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.06349v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Are NeRFs ready for autonomous driving? Towards closing the real-to-simulation gap",
+    "year": 2024,
+    "authors": [
+      "Carl Lindström",
+      "Georg Hess",
+      "Adam Lilja",
+      "Maryam Fatemi",
+      "Lars Hammarstrand",
+      "Christoffer Petersson",
+      "Lennart Svensson"
+    ],
+    "doi": "",
+    "file": "arxiv_240316092v2_Are_NeRFs_ready_for_autonomous_driving_Towards_closing_the_real-to-simul.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.16092v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+    "year": 2026,
+    "authors": [
+      "Tugrul Gorgulu",
+      "Atakan Dag",
+      "M. Esat Kalfaoglu",
+      "Halil Ibrahim Kuru",
+      "Baris Can Cam",
+      "Halil Ibrahim Ozturk",
+      "Ozsel Kilinc"
+    ],
+    "doi": "",
+    "file": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.23499v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Wei Wang",
+      "Yiru Veronika Wang",
+      "Yihan Wang",
+      "Zihao Li",
+      "Xiaohui Liang"
+    ],
+    "doi": "",
+    "file": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.22450v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Zhennan Wang",
+      "Jianing Teng",
+      "Canqun Xiang",
+      "Kangliang Chen",
+      "Xing Pan",
+      "Lu Deng",
+      "Weihao Gu"
+    ],
+    "doi": "",
+    "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.21581v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Selective Communication for Cooperative Perception in End-to-End Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Hsu-kuang Chiu",
+      "Stephen F. Smith"
+    ],
+    "doi": "",
+    "file": "arxiv_230517181v1_Selective_Communication_for_Cooperative_Perception_in_End-to-End_Autonom.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2305.17181v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Fractional Collisions: A Framework for Risk Estimation of Counterfactual Conflicts using Autonomous Driving Behavior Simulations",
+    "year": 2025,
+    "authors": [
+      "Sreeja Roy-Singh",
+      "Sarvesh Kolekar",
+      "Daniel P. Bonny",
+      "Kyle Foss"
+    ],
+    "doi": "",
+    "file": "arxiv_250607540v1_Fractional_Collisions_A_Framework_for_Risk_Estimation_of_Counterfactual_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.07540v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Kotaro Tanahashi",
+      "Yuichi Inoue",
+      "Yu Yamaguchi",
+      "Hidetatsu Yaginuma",
+      "Daiki Shiotsuka",
+      "Hiroyuki Shimatani",
+      "Kohei Iwamasa",
+      "Yoshiaki Inoue",
+      "Takafumi Yamaguchi",
+      "Koki Igari",
+      "Tsukasa Horinouchi",
+      "Kento Tokuhiro",
+      "Yugo Tokuchi",
+      "Shunsuke Aoki"
+    ],
+    "doi": "",
+    "file": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2312.06351v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Ali K. AlShami",
+      "Ryan Rabinowitz",
+      "Maged Shoman",
+      "Jianwu Fang",
+      "Lukas Picek",
+      "Shao-Yuan Lo",
+      "Steve Cruz",
+      "Khang Nhut Lam",
+      "Nachiket Kamod",
+      "Lei-Lei Li",
+      "Jugal Kalita",
+      "Terrance E. Boult"
+    ],
+    "doi": "",
+    "file": "arxiv_250821080v1_2COOOL_2nd_Workshop_on_the_Challenge_Of_Out-Of-Label_Hazards_in_Autonomo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.21080v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Data Scaling Laws for End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Alexander Naumann",
+      "Xunjiang Gu",
+      "Tolga Dimlioglu",
+      "Mariusz Bojarski",
+      "Alperen Degirmenci",
+      "Alexander Popov",
+      "Devansh Bisla",
+      "Marco Pavone",
+      "Urs Müller",
+      "Boris Ivanovic"
+    ],
+    "doi": "",
+    "file": "arxiv_250404338v1_Data_Scaling_Laws_for_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2504.04338v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Unified Sensor Simulation for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Nikolay Patakin",
+      "Arsenii Shirokov",
+      "Anton Konushin",
+      "Dmitry Senushkin"
+    ],
+    "doi": "",
+    "file": "arxiv_260205617v1_Unified_Sensor_Simulation_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.05617v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors",
+    "year": 2026,
+    "authors": [
+      "Hiroki Hashimoto",
+      "Hiromichi Goto",
+      "Hiroyuki Sugai",
+      "Hiroshi Kera",
+      "Kazuhiko Kawamoto"
+    ],
+    "doi": "",
+    "file": "arxiv_260400597v1_Towards_Viewpoint-Robust_End-to-End_Autonomous_Driving_with_3D_Foundatio.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2604.00597v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Dingrui Wang",
+      "Marc Kaufeld",
+      "Johannes Betz"
+    ],
+    "doi": "",
+    "file": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2409.18053v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Interpretable Decision-Making for End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Mona Mirzaie",
+      "Bodo Rosenhahn"
+    ],
+    "doi": "",
+    "file": "arxiv_250818898v3_Interpretable_Decision-Making_for_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.18898v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-Frame, Lightweight & Efficient Vision-Language Models for Question Answering in Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Akshay Gopalkrishnan",
+      "Ross Greer",
+      "Mohan Trivedi"
+    ],
+    "doi": "",
+    "file": "arxiv_240319838v2_Multi-Frame_Lightweight__Efficient_Vision-Language_Models_for_Question_A.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.19838v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Shuo Xing",
+      "Chengyuan Qian",
+      "Yuping Wang",
+      "Hongyuan Hua",
+      "Kexin Tian",
+      "Yang Zhou",
+      "Zhengzhong Tu"
+    ],
+    "doi": "",
+    "file": "arxiv_241215208v2_OpenEMMA_Open-Source_Multimodal_Model_for_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.15208v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Collaborative Perception in Autonomous Driving: Methods, Datasets and Challenges",
+    "year": 2023,
+    "authors": [
+      "Yushan Han",
+      "Hui Zhang",
+      "Huifang Li",
+      "Yi Jin",
+      "Congyan Lang",
+      "Yidong Li"
+    ],
+    "doi": "10.1109/mits.2023.3298534",
+    "file": "arxiv_101109_mits20233298534_Collaborative_Perception_in_Autonomous_Driving_Methods_Datase.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2301.06262v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Creating Impactful Autonomous Driving Datasets: A Strategic Guide from Research Gap to Benchmark",
+    "year": 2026,
+    "authors": [
+      "Richard Schwarzkopf",
+      "Jonas Merkert",
+      "Frank Bieder",
+      "Annika Bätz",
+      "Alexander Blumberg",
+      "Carlos Fernandez",
+      "Felix Hauser",
+      "Fabian Immel",
+      "Christian Kinzig",
+      "Hendrik Königshof",
+      "Fabian Konstantinidis",
+      "Martin Lauer",
+      "Willi Poh",
+      "Nils Rack",
+      "Kevin Rösch",
+      "Yinzhe Shen",
+      "Marlon Steiner",
+      "Gleb Stepanov",
+      "Dominik Strutz",
+      "Ömer Şahin Taş"
+    ],
+    "doi": "",
+    "file": "arxiv_260700710v1_Creating_Impactful_Autonomous_Driving_Datasets_A_Strategic_Guide_from_Re.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2607.00710v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Test Automation for Interactive Scenarios via Promptable Traffic Simulation",
+    "year": 2025,
+    "authors": [
+      "Augusto Mondelli",
+      "Yueshan Li",
+      "Alessandro Zanardi",
+      "Emilio Frazzoli"
+    ],
+    "doi": "",
+    "file": "arxiv_250601199v2_Test_Automation_for_Interactive_Scenarios_via_Promptable_Traffic_Simulat.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.01199v2",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+ "id": "unleashing_generalization_of_end_to_end_autonomous",
+ "title": "Unleashing Generalization of End-to-End Autonomous Driving with Controllable Long Video Generation",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "Multi-view driving video, up to 40 frames (12 seconds).", "pages": "1-2, 2"},
+ "control_signal": {"value": "BEV layout (foreground object boxes, background map classes) plus scene captions enabling scene-level edits (weather, time) and instance-level edits (object appearance).", "pages": "6, 9-10, 14-15"},
+ "control_mechanism": {"value": "Shared-noise reinitialization across views and frames, plus scene- and instance-aware cross-frame attention for consistency. How the BEV layout is injected is not stated in packet.", "pages": "4-5"},
+ "base_model": {"value": "Diffusion U-Net generator in two variants: 0.5B multi-view single-frame and 1.1B multi-view multi-frame.", "pages": "6, 13-14"},
+ "datasets": {"value": "nuScenes (150 validation scenes of about 40 frames each); generated data used to fine-tune the UniAD planner.", "pages": "6, 13-14"},
+ "metrics": {"value": "FID, FVD, CLIP score; BEV detection NDS (StreamPETR) and UniAD average collision rate on generated data.", "pages": "13-14"},
+ "controllability_evidence": {"value": "Scene plus instance editing lowers UniAD average collision rate from 0.34 to 0.27 (Table 4); failure-case sampling with 972 generated cases (4%) gives 25% improvement.", "pages": "2-3, 8-9"},
+ "closed_loop": {"value": "No. Authors state the framework works only open-loop because layout cannot change.", "pages": "9-10"},
+ "stated_limitations": {"value": "Takes BEV layout as input so only appearance can be enriched, not layout; open-loop only; failure-case sampling fails if the end-to-end model is already perfect on training data.", "pages": "9-10"},
+ "notes": "Text captions also steer edits, so multi-condition reading is possible. Control-effectiveness evidence is mainly downstream planning, not layout-adherence measured directly in the packet."
+}

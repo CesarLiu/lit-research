@@ -1,0 +1,15 @@
+{
+ "id": "resim_reliable_world_simulation_for_autonomous_dri",
+ "title": "ReSim: Reliable World Simulation for Autonomous Driving",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "front-view video, 4 s at 10 Hz, 512x896", "pages": "20, 22"},
+ "control_signal": {"value": "Ego future trajectory (8 waypoints at 2 Hz), including hazardous non-expert ones, plus an optional high-level text command (turn left, move forward, turn right).", "pages": "3-4, 20"},
+ "control_mechanism": {"value": "Lightweight trajectory encoder (two attention blocks, linear head) feeds waypoints into the DiT input alongside video latents; command via T5 text; command dropped with p=0.5 for classifier-free guidance.", "pages": "3-4, 18-19"},
+ "base_model": {"value": "CogVideoX-derived 2B diffusion transformer with T5 encoder and 3D causal VAE; dynamics consistency loss, unbalanced noise sampling, three-stage training with LoRA.", "pages": "3-4, 18-19"},
+ "datasets": {"value": "OpenDV (1700 h front-view videos), NAVSIM, and non-expert data from the CARLA simulator for training; Waymo and nuScenes for zero-shot evaluation.", "pages": "6, 17-19"},
+ "metrics": {"value": "Trajectory Difference via inverse dynamics model, FID and FVD on nuScenes, human preference study, and NAVSIM planning scores (PDMS).", "pages": "1, 5-7"},
+ "controllability_evidence": {"value": "Waymo zero-shot Trajectory Difference (Table 1): action-free 1.13 vs Vista 5.68; expert action 0.86 vs 1.89 (GT future 0.58). Human study favors ReSim on non-expert action following.", "pages": "6-7"},
+ "closed_loop": {"value": "Yes, as qualitative closed-loop visual simulation: the world model executes a driving agent's predicted action to produce the next visual state. Duration not stated; no closed-loop benchmark yet.", "pages": "6, 20, 22-23"},
+ "stated_limitations": {"value": "Inference efficiency limited by iterative denoising; training agents inside ReSim unexplored; possible artifacts and hallucination with multiple agents; front-view only, so multi-view planners cannot be used.", "pages": "9-10, 21-23"},
+ "notes": "Also includes a Video2Reward module and planning applications beyond generation."
+}

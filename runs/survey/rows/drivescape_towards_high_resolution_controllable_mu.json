@@ -1,0 +1,42 @@
+{
+ "id": "drivescape_towards_high_resolution_controllable_mu",
+ "title": "DriveScape: Towards High-Resolution Controllable Multi-View Driving Video Generation",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {
+  "value": "Multi-view driving video at 1024 x 576 resolution and up to 10Hz.",
+  "pages": "1, 8-9"
+ },
+ "control_signal": {
+  "value": "BEV maps and 3D boxes projected to each camera view, BEV key-frames, neighbour-camera videos; also camera ID embeddings, canbus (velocity, direction) and a text scene prompt. Sparse conditions supported.",
+  "pages": "1, 4"
+ },
+ "control_mechanism": {
+  "value": "Bi-Directional Modulated Transformer: condition-to-latent and latent-to-condition cross-attention with temporal self-attention, injected into the UNet; condition features come from convolutional encoders.",
+  "pages": "4, 6"
+ },
+ "base_model": {
+  "value": "Latent diffusion with spatial-temporal UNet built on a pretrained Stable Video Diffusion model; spatial layers frozen, temporal layers and condition modules trained.",
+  "pages": "7"
+ },
+ "datasets": {
+  "value": "nuScenes: 700 scenes for training, 150 for validation; 8 object classes and 8 road classes.",
+  "pages": "7"
+ },
+ "metrics": {
+  "value": "FID, FVD, BEV segmentation (CVT; Road and Vehicle mIoU) and 3D detection (BEVFusion; NDS) on generated data.",
+  "pages": "7-8"
+ },
+ "controllability_evidence": {
+  "value": "Perception on generated validation data is lower than on real data: Road mIoU 64.43 (-9.25), Vehicle mIoU 28.86 (-5.98), Object NDS 36.5 (-4.71). FID 8.34, FVD 76.39. Qualitative map and layout edits shown.",
+  "pages": "8-9, 1"
+ },
+ "closed_loop": {
+  "value": "No closed-loop rollout described; trained and evaluated on 8-frame video sequences.",
+  "pages": "7"
+ },
+ "stated_limitations": {
+  "value": "Future work: higher spatial-temporal resolution, a post-processing network to narrow the real-generated gap, strategies to cut memory overhead of multi-view inputs.",
+  "pages": "10-11"
+ },
+ "notes": "Paper also claims mono-condition and multi-condition unified control; family chosen as layout/map/box conditioning. Closed-loop field reflects absence in packet only."
+}

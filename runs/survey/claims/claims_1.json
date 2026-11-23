@@ -1,0 +1,271 @@
+[
+ {
+  "id": 1,
+  "section": "Controllable scenario generation and world models for autonomous driving: evidence from 141 papers and company statements, November 2026",
+  "text": "*Built from three evidence sets: a table of 77 papers on scenario and traffic-simulation generation, a table of 64 papers on driving world models, and 41 statements from companies.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 2,
+  "section": "Controllable scenario generation and world models for autonomous driving: evidence from 141 papers and company statements, November 2026",
+  "text": "Bracketed numbers such as [107] are papers in the reference list; bracketed codes such as [W1] are company statements listed in the appendix.",
+  "cited": [
+   107
+  ],
+  "company_statements": [
+   {
+    "id": "W1",
+    "company": "Waymo",
+    "date": "2026-02-06",
+    "claim": "The simulator is built on a pretrained general world model (Genie 3) and adapted to driving",
+    "quote": "The Waymo World Model is built upon Genie 3",
+    "grade": "A",
+    "page": "waymo_wm"
+   }
+  ],
+  "previous_sentence": "*Built from three evidence sets: a table of 77 papers on scenario and traffic-simulation generation, a table of 64 papers on driving world models, and 41 statements from companies.",
+  "papers": [
+   {
+    "n": 107,
+    "row_file": "rows/safe_sim_safety_critical_closed_loop_traffic_simul.json",
+    "title": "Safe-Sim: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 3,
+  "section": "Controllable scenario generation and world models for autonomous driving: evidence from 141 papers and company statements, November 2026",
+  "text": "Every sentence in sections 1 to 6 was checked by a second model against the table rows or company quotes it cites (see section 8).",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Bracketed numbers such as [107] are papers in the reference list; bracketed codes such as [W1] are company statements listed in the appendix.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 4,
+  "section": "Controllable scenario generation and world models for autonomous driving: evidence from 141 papers and company statements, November 2026",
+  "text": "Nobody has read the full PDFs, and the sections on open problems are my proposals, marked as such.*",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Every sentence in sections 1 to 6 was checked by a second model against the table rows or company quotes it cites (see section 8).",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 5,
+  "section": "1. Scope and evidence",
+  "text": "The question is how a user or designer steers a generative model of driving, and what that steering reaches.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 6,
+  "section": "1. Scope and evidence",
+  "text": "Two layers matter.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "The question is how a user or designer steers a generative model of driving, and what that steering reaches.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 7,
+  "section": "1. Scope and evidence",
+  "text": "At the **scenario level** a model generates or simulates the trajectories of road users on a map.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Two layers matter.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 8,
+  "section": "1. Scope and evidence",
+  "text": "At the **sensor level** a world model generates what the vehicle's cameras, lidar or occupancy sensors would see, usually conditioned on an ego action, a layout or text.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "At the **scenario level** a model generates or simulates the trajectories of road users on a map.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 9,
+  "section": "1. Scope and evidence",
+  "text": "Company systems combine both.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "At the **sensor level** a world model generates what the vehicle's cameras, lidar or occupancy sensors would see, usually conditioned on an ego action, a layout or text.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 10,
+  "section": "1. Scope and evidence",
+  "text": "**Scenario-level table, 77 papers.** A keyword search of OpenAlex and arXiv (2019 onward) found 371 candidates, of which 288 had open full text; 34 were chosen from abstracts.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Company systems combine both.",
+  "papers": [],
+  "flags": [
+   "number_not_in_cited_rows 2019",
+   "number_not_in_cited_rows 371",
+   "no_citation"
+  ]
+ },
+ {
+  "id": 11,
+  "section": "1. Scope and evidence",
+  "text": "Citation chaining from those 34 then led to 135 further leads, of which 62 were taken in (43 with open full text).",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Scenario-level table, 77 papers.** A keyword search of OpenAlex and arXiv (2019 onward) found 371 candidates, of which 288 had open full text; 34 were chosen from abstracts.",
+  "papers": [],
+  "flags": [
+   "number_not_in_cited_rows 135",
+   "no_citation"
+  ]
+ },
+ {
+  "id": 12,
+  "section": "1. Scope and evidence",
+  "text": "The table has one row per paper under one schema.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Citation chaining from those 34 then led to 135 further leads, of which 62 were taken in (43 with open full text).",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 13,
+  "section": "1. Scope and evidence",
+  "text": "**World-model table, 64 papers.** Ten searches (2023 onward) gave 298 unique records and 230 after a keyword filter; 104 were judged in scope by title and abstract, and 64 were tabled: the 14 probe papers I wrote down before searching, four analyses of control in world models, and the rest by citation count or, for recent work, by emphasis on control.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "The table has one row per paper under one schema.",
+  "papers": [],
+  "flags": [
+   "number_not_in_cited_rows 104",
+   "number_not_in_cited_rows 298",
+   "no_citation"
+  ]
+ },
+ {
+  "id": 14,
+  "section": "1. Scope and evidence",
+  "text": "Of the 14 probes, 13 were found by the first nine searches and the last one only after a targeted query added after the miss.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**World-model table, 64 papers.** Ten searches (2023 onward) gave 298 unique records and 230 after a keyword filter; 104 were judged in scope by title and abstract, and 64 were tabled: the 14 probe papers I wrote down before searching, four analyses of control in world models, and the rest by citation count or, for recent work, by emphasis on control.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 15,
+  "section": "1. Scope and evidence",
+  "text": "**Company statements, 41.** Quotes from company blogs, papers and product pages (Waymo, Wayve, NVIDIA, Tesla, XPeng, Huawei, Mobileye, Applied Intuition, Nuro, Waabi), graded A (primary source with a method or number), B (primary, marketing wording) or C (secondary).",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Of the 14 probes, 13 were found by the first nine searches and the last one only after a targeted query added after the miss.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 16,
+  "section": "1. Scope and evidence",
+  "text": "What the sources are not.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Company statements, 41.** Quotes from company blogs, papers and product pages (Waymo, Wayve, NVIDIA, Tesla, XPeng, Huawei, Mobileye, Applied Intuition, Nuro, Waabi), graded A (primary source with a method or number), B (primary, marketing wording) or C (secondary).",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 17,
+  "section": "1. Scope and evidence",
+  "text": "Closed-access papers are absent by construction (19 of the 62 chaining leads and none of the 64 world-model papers had no open copy). 20 scenario-level and 40 world-model papers judged in scope were not tabled.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "What the sources are not.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 18,
+  "section": "1. Scope and evidence",
+  "text": "Each row comes from a partial evidence packet (the first two pages plus the best passages), so \"not stated\" in a row does not mean the paper omits it.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Closed-access papers are absent by construction (19 of the 62 chaining leads and none of the 64 world-model papers had no open copy). 20 scenario-level and 40 world-model papers judged in scope were not tabled.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 19,
+  "section": "1. Scope and evidence",
+  "text": "Company statements are claims, not results.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Each row comes from a partial evidence packet (the first two pages plus the best passages), so \"not stated\" in a row does not mean the paper omits it.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 20,
+  "section": "2. Two layers and one question: where does the control signal enter?",
+  "text": "Controllability is not one property.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 21,
+  "section": "2. Two layers and one question: where does the control signal enter?",
+  "text": "The tables separate **what is specified** from **where it enters the model**.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Controllability is not one property.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 22,
+  "section": "2. Two layers and one question: where does the control signal enter?",
+  "text": "**Scenario level (77 papers).** Trained-in conditioning is the largest family (18), then inference-time guidance (17), language or LLM-driven methods (13), other methods such as black-box adversarial search (11), models with no steering signal kept for contrast (7), reinforcement-learning fine-tuning (5), latent-space control (3) and reward or return conditioning (3). 32 of the 77 papers are from 2026 and 18 from 2025.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "The tables separate **what is specified** from **where it enters the model**.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ }
+]

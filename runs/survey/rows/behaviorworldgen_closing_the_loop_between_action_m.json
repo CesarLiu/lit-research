@@ -1,0 +1,13 @@
+{
+ "id": "behaviorworldgen_closing_the_loop_between_action_m",
+ "title": "BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Frame-level meta-actions per agent (keep lane, change lane, turn) plus lifecycle constraints on agent composition; target meta-actions are derived from the action model's diagnosed failure cases.", "pages": "2, 10-11"},
+ "control_mechanism": {"value": "Autoregressive model over agent lifecycles, meta-actions and states; specified lifecycle/meta-action variables are fixed as interventions and all unconstrained variables, including surrounding agents, are generated jointly.", "pages": "8-9, 10-11"},
+ "base_model": {"value": "BehaviorFlow, an autoregressive traffic-flow model (lifecycle, meta-action, state factors), feeding a Cosmos-based DiT action-conditioned world model trained with rectified flow and distilled to a causal model.", "pages": "5-6, 8-9"},
+ "datasets": {"value": "World model evaluated on a private dataset; action models trained on 85K NAVSIM training samples plus 16K synthetic samples, evaluated on NAVSIM.", "pages": "10-11, 19-20"},
+ "metrics": {"value": "World model: FID, FVD, generation speed. Policy: NAVSIM PDMS with NC, DAC, EP, TTC and Comf. components.", "pages": "10-11, 19-20"},
+ "controllability_evidence": {"value": "Qualitative: from one initial scene, different meta-action edits give distinct following, avoidance and yielding variants (three lane-change variants, two intersection yielding orders). Downstream: ReCogDrive PDMS rises to 87.3 (+0.8); DiffusionDrive 87.7 to 88.6.", "pages": "20-23"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Controllability is shown only qualitatively in the packet, with no quantitative control-accuracy metric; the PDMS gains measure downstream policy improvement, not control fidelity. Paper is mainly a data-generation loop for action-model refinement."
+}

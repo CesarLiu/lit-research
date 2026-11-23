@@ -1,0 +1,15 @@
+{
+ "id": "magicdrive_street_view_generation_with_diverse_3d",
+ "title": "MagicDrive: Street View Generation with Diverse 3D Geometry Control",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "multi-camera street-view images; extended to multi-view video (7-frame clips, 16-frame at 12Hz) by fine-tuning", "pages": "1, 8-9"},
+ "control_signal": {"value": "Camera pose, road map (BEV), 3D bounding boxes and text description (for example weather, time of day)", "pages": "1, 4"},
+ "control_mechanism": {"value": "Cross-attention for boxes, text and camera-pose embeddings; ControlNet-like additive encoder branch for BEV road map; cross-view attention for consistency; condition dropout and classifier-free guidance", "pages": "4, 5-6"},
+ "base_model": {"value": "Latent diffusion from pre-trained Stable Diffusion v1.5, only newly added parameters trained; video variant adds ST-Attn and temporal attention", "pages": "6, 8-9"},
+ "datasets": {"value": "nuScenes, 700 scenes for training and 150 for validation; baselines BEVGen and BEVControl", "pages": "6"},
+ "metrics": {"value": "FID for realism; BEV segmentation mIoU (CVT) and 3D detection mAP and NDS (BEVFusion) for controllability and augmentation", "pages": "6-7"},
+ "controllability_evidence": {"value": "At 224x400: FID 16.20, road mIoU 61.05, vehicle mIoU 27.01 versus BEVGen 25.54, 50.20, 5.89; box-encoder ablation drops vehicle mIoU to 5.50 without Ebox", "pages": "7, 8-9"},
+ "closed_loop": {"value": "no; open-loop generation from annotations, used as data augmentation", "pages": "15"},
+ "stated_limitations": {"value": "Night views not dark enough; cannot generate weather unseen in nuScenes such as snow; generated views only used as augmentation alongside real data", "pages": "9, 15"},
+ "notes": "Could also be read as layout/box/map conditioning; chosen as multi-condition because camera, map, boxes and text are separately encoded. BEVFusion mAP 32.88 to 35.40 with augmentation (Table 7)."
+}

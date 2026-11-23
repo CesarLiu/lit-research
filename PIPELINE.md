@@ -55,6 +55,15 @@ Chaining (phase 4b) showed the 34-paper table was built on an incomplete search,
 
 What this does not fix: the screening is mine and unreviewed; 7 of the 43 new rows are flagged in their own notes as not really controllable generation (BITS, Symphony, DriveSceneGen, SymDrive, VILTA, CARS, Path Diffuser); closed papers are absent by construction; the new rows have the same partial-packet limits as the first 34 (some flattened tables); a second chaining round from the 77 papers would find more.
 
+## Survey round (2026-11-23): world models, industry, and a combined report
+
+A second topic run for sensor-level driving world models, then a survey over three evidence sets. State at the last commit: the report is a **draft** that was still being claim-checked.
+
+- **World-model search** (`runs/wm`): protocol and 14 probe papers written first; 10 queries; `merge_results.py` gained `--drive-extra` and `--task-extra` because the default filter lost 2 of the 14 probes (13 of 14 retrieved by the first nine queries, the last probe only after a targeted query). 298 unique, 230 after filter, 104 judged in scope by hand (`wm_screening.csv`), 64 tabled.
+- **Own table schema**: `runs/wmtable/schema.json` (families and fields for world models, including a closed-loop field); `assemble_table.py` reads it if present. Prompt `runs/wmtable/prompts/extract_row_wm.md`, 9 sub-agents, 0 check issues, audit of 24 cells: 21 supported, 3 partial (corrected), 0 unsupported.
+- **Industry**: six rows added (NVIDIA OmniDreams, Nuro); Wayve's own GAIA-3 pages answered HTTP 403 and Zoox's pages are JavaScript-only.
+- **Report** (`runs/survey/report.md`): `tools/survey_refs.py` gives one reference numbering over both tables; `split_claims.py --industry` also checks company-statement codes such as [W1]; the claim-check prompt is `runs/survey/prompts/claim_check.md`. Section 7 of the report (research directions) is the writer's proposals, not findings.
+
 ## Atomic-claim ledger (`tools/ledger.py`): from a paper's number to a reproduction record
 
 The claim check links review sentences to table rows. The ledger goes one step further back: each number a paper reports, as one row, with the record of whether anyone reproduced it. It is the contract between this pipeline and whatever runs the code (Claude Code, OpenResearch, openscience, by hand); this pipeline does not run experiments.

@@ -1,0 +1,915 @@
+[
+  {
+    "title": "DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model",
+    "year": 2023,
+    "authors": [
+      "Xiaofan Li",
+      "Yifu Zhang",
+      "Xiaoqing Ye"
+    ],
+    "doi": "10.48550/arxiv.2310.07771",
+    "file": "openalex_1048550_arxiv231007771_DrivingDiffusion_Layout-Guided_multi-view_driving_scene_vi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4387634829",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Street-View Image Generation From a Bird's-Eye View Layout",
+    "year": 2024,
+    "authors": [
+      "Alexander Swerdlow",
+      "Runsheng Xu",
+      "Bolei Zhou"
+    ],
+    "doi": "10.1109/lra.2024.3368234",
+    "file": "openalex_101109_lra20243368234_Street-View_Image_Generation_From_a_Birds-Eye_View_Layout.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4392016505",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "VideoDirectorGPT: Consistent Multi-scene Video Generation via LLM-Guided Planning",
+    "year": 2023,
+    "authors": [
+      "Han Lin",
+      "Abhay Zala",
+      "Jaemin Cho",
+      "Mohit Bansal"
+    ],
+    "doi": "10.48550/arxiv.2309.15091",
+    "file": "openalex_1048550_arxiv230915091_VideoDirectorGPT_Consistent_Multi-scene_Video_Generation_v.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4387156645",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "BEVControl: Accurately Controlling Street-view Elements with Multi-perspective Consistency via BEV Sketch Layout",
+    "year": 2023,
+    "authors": [
+      "Kairui Yang",
+      "Enhui Ma",
+      "Jibin Peng",
+      "Qing Guo",
+      "Di Lin",
+      "Kaicheng Yu"
+    ],
+    "doi": "10.48550/arxiv.2308.01661",
+    "file": "openalex_1048550_arxiv230801661_BEVControl_Accurately_Controlling_Street-view_Elements_wit.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4385904184",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes",
+    "year": 2024,
+    "authors": [
+      "Jianbiao Mei",
+      "Hu, Tao",
+      "Xuemeng Yang",
+      "Licheng Wen",
+      "Yang, Yu",
+      "Tiantian Wei",
+      "Yukai Ma",
+      "Min Dou",
+      "Botian Shi",
+      "Yong Liu"
+    ],
+    "doi": "10.48550/arxiv.2409.04003",
+    "file": "openalex_1048550_arxiv240904003_DreamForge_Motion-Aware_Autoregressive_Video_Generation_fo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403586125",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MagicDrive: Street View Generation with Diverse 3D Geometry Control",
+    "year": 2024,
+    "authors": [
+      "Ruiyuan Gao",
+      "Kai Chen",
+      "Enze Xie",
+      "Lanqing Hong",
+      "Zhenguo Li",
+      "Dit‐Yan Yeung",
+      "Qiang Xu"
+    ],
+    "doi": "10.48550/arxiv.2310.02601",
+    "file": "openalex_1048550_arxiv231002601_MagicDrive_Street_View_Generation_with_Diverse_3D_Geometry.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4387427219",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SceneCraft: Layout-Guided 3D Scene Generation",
+    "year": 2024,
+    "authors": [
+      "Xiuyu Yang",
+      "Yunze Man",
+      "Junkun Chen",
+      "Xiu-yu Yang"
+    ],
+    "doi": "10.52202/079017-2608",
+    "file": "openalex_1052202_079017-2608_SceneCraft_Layout-Guided_3D_Scene_Generation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415796584",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Seeing Beyond Views: Multi-View Driving Scene Video Generation with Holistic Attention",
+    "year": 2024,
+    "authors": [
+      "Hannan Lu",
+      "Xiaohe Wu",
+      "Shudong Wang",
+      "Xiameng Qin",
+      "Xinyu Zhang",
+      "Junyu Han",
+      "Wangmeng Zuo",
+      "Tao, Ji"
+    ],
+    "doi": "10.48550/arxiv.2412.03520",
+    "file": "openalex_1048550_arxiv241203520_Seeing_Beyond_Views_Multi-View_Driving_Scene_Video_Generat.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405090690",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation",
+    "year": 2024,
+    "authors": [
+      "Jiachen Lu",
+      "Ze Huang",
+      "Zeyu Yang",
+      "Jiahui Zhang",
+      "Li Zhang"
+    ],
+    "doi": "10.1007/978-3-031-72989-8_19",
+    "file": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403759442",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DiVE: Efficient Multi-View Driving Scenes Generation Based on Video Diffusion Transformer",
+    "year": 2026,
+    "authors": [
+      "Junpeng Jiang",
+      "Gangyi Hong",
+      "Miao Zhang",
+      "Hengtong Hu",
+      "Kun Zhan",
+      "Rui Shao",
+      "Liqiang Nie"
+    ],
+    "doi": "10.1109/tmm.2026.3712641",
+    "file": "openalex_101109_tmm20263712641_DiVE_Efficient_Multi-View_Driving_Scenes_Generation_Based_o.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417012199",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Streetscapes: Large-scale Consistent Street View Generation Using Autoregressive Video Diffusion",
+    "year": 2024,
+    "authors": [
+      "Boyang Deng",
+      "Richard P. Tucker",
+      "Zhengqi Li",
+      "Leonidas J. Guibas",
+      "Noah Snavely",
+      "Gordon Wetzstein"
+    ],
+    "doi": "10.1145/3641519.3657513",
+    "file": "openalex_101145_36415193657513_Streetscapes_Large-scale_Consistent_Street_View_Generation_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4400573484",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Panacea: Panoramic and Controllable Video Generation for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Yuqing Wen",
+      "Yucheng Zhao",
+      "Yingfei Liu",
+      "Fan Jia",
+      "Yanhui Wang",
+      "Chong Luo",
+      "Chi Zhang",
+      "Tiancai Wang",
+      "Xiaoyan Sun",
+      "Xiangyu Zhang"
+    ],
+    "doi": "10.1109/cvpr52733.2024.00659",
+    "file": "openalex_101109_cvpr52733202400659_Panacea_Panoramic_and_Controllable_Video_Generation_for.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402727021",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "StreetDiff: Multi-view Street Scenes Generation via Cross-view Consistent Multi-view Stable Diffusion with Structure Prompts",
+    "year": 2026,
+    "authors": [
+      "Qi Zhang",
+      "Yanyifan Wang",
+      "Weiyuan Zhang",
+      "Hui Huang"
+    ],
+    "doi": "10.48550/arxiv.2609.09890",
+    "file": "openalex_1048550_arxiv260909890_StreetDiff_Multi-view_Street_Scenes_Generation_via_Cross-v.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7212158156",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MoVieDrive: Urban Scene Synthesis with Multi-Modal Multi-View Video Diffusion Transformer",
+    "year": 2025,
+    "authors": [
+      "Guile Wu",
+      "David Huang",
+      "Dongfeng Bai",
+      "Bingbing Liu"
+    ],
+    "doi": "10.48550/arxiv.2508.14327",
+    "file": "openalex_1048550_arxiv250814327_MoVieDrive_Urban_Scene_Synthesis_with_Multi-Modal_Multi-Vi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415238772",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Controllable Video Generation: A Survey",
+    "year": 2025,
+    "authors": [
+      "Yue Ma",
+      "Feng, Kunyu",
+      "Hu, Zhongyuan",
+      "Xinyu Wang",
+      "Yucheng Wang",
+      "Zheng, Mingzhe",
+      "Bingyuan Wang",
+      "Wang, Qinghe",
+      "He, Xuanhua",
+      "Wang, Hongfa",
+      "Chenyang Zhu",
+      "Hongyu Liu",
+      "Yingqing He",
+      "Zeyu Wang",
+      "Zhifeng Li",
+      "Xiu Li",
+      "Sirui Han",
+      "Yike Guo",
+      "Wei Liu",
+      "Dan Xu"
+    ],
+    "doi": "10.48550/arxiv.2507.16869",
+    "file": "openalex_1048550_arxiv250716869_Controllable_Video_Generation_A_Survey.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414877175",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SceneCrafter: Controllable Multi-View Driving Scene Editing",
+    "year": 2025,
+    "authors": [
+      "Zehao Zhu",
+      "Yuliang Zou",
+      "Chiyu Max Jiang",
+      "Bo Sun",
+      "Vincent Casser",
+      "Xiukun Huang",
+      "Jiahao Wang",
+      "Zhenpei Yang",
+      "Ruiqi Gao",
+      "Leonidas J. Guibas",
+      "Mingxing Tan",
+      "Dragomir Anguelov"
+    ],
+    "doi": "10.1109/cvpr52734.2025.00639",
+    "file": "openalex_101109_cvpr52734202500639_SceneCrafter_Controllable_Multi-View_Driving_Scene_Edit.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413146205",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Zehuan Wu",
+      "Jingcheng Ni",
+      "Wang, Xiaodong",
+      "Yuxin Guo",
+      "Rui Chen",
+      "Lewei Lu",
+      "Jifeng Dai",
+      "Yuwen Xiong"
+    ],
+    "doi": "10.48550/arxiv.2412.01407",
+    "file": "openalex_1048550_arxiv241201407_HoloDrive_Holistic_2D-3D_Multi-Modal_Street_Scene_Generati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405033109",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DriveScape: Towards High-Resolution Controllable Multi-View Driving Video Generation",
+    "year": 2024,
+    "authors": [
+      "Wei Wu",
+      "Xiaolong Guo",
+      "Weixuan Tang",
+      "Huang, Tingxuan",
+      "Wang, Chiyu",
+      "Dongyue Chen",
+      "Ding, Chenjing"
+    ],
+    "doi": "10.48550/arxiv.2409.05463",
+    "file": "openalex_1048550_arxiv240905463_DriveScape_Towards_High-Resolution_Controllable_Multi-View.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403662700",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "UniScene: Unified Occupancy-centric Driving Scene Generation",
+    "year": 2025,
+    "authors": [
+      "Bohan Li",
+      "J. Guo",
+      "Hongsi Liu",
+      "Yingshuang Zou",
+      "Yikang Ding",
+      "Xiwu Chen",
+      "Hu Zhu",
+      "Feiyang Tan",
+      "Chi Zhang",
+      "Tiancai Wang",
+      "Shuchang Zhou",
+      "Li Zhang",
+      "Xiaojuan Qi",
+      "Hao Zhao",
+      "Mu Yang",
+      "Wenjun Zeng",
+      "Xin Jin"
+    ],
+    "doi": "10.1109/cvpr52734.2025.01118",
+    "file": "openalex_101109_cvpr52734202501118_UniScene_Unified_Occupancy-centric_Driving_Scene_Genera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413144960",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control",
+    "year": 2024,
+    "authors": [
+      "Yining Yao",
+      "Xi Wei Guo",
+      "Chenjing Ding",
+      "Wei Wu"
+    ],
+    "doi": "10.48550/arxiv.2409.06189",
+    "file": "openalex_1048550_arxiv240906189_MyGo_Consistent_and_Controllable_Multi-View_Driving_Video_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403620389",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "PerLDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Model",
+    "year": 2025,
+    "authors": [
+      "Jinhua Zhang",
+      "Hualian Sheng",
+      "Sijia Cai",
+      "Bing Deng",
+      "Qiao Liang",
+      "Wen Li",
+      "Ying Fu",
+      "Jieping Ye",
+      "Shuhang Gu"
+    ],
+    "doi": "10.1109/iccv51701.2025.02441",
+    "file": "openalex_101109_iccv51701202502441_PerLDiff_Controllable_Street_View_Synthesis_Using_Persp.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160155305",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DreamDrive: Generative 4D Scene Modeling from Street View Images",
+    "year": 2025,
+    "authors": [
+      "Jiageng Mao",
+      "Boyi Li",
+      "Boris Ivanovic",
+      "Yuxiao Chen",
+      "Yan Wang",
+      "Yurong You",
+      "Chaowei Xiao",
+      "Danfei Xu",
+      "Marco Pavone",
+      "Yue Wang"
+    ],
+    "doi": "10.1109/icra55743.2025.11127463",
+    "file": "openalex_101109_icra55743202511127463_DreamDrive_Generative_4D_Scene_Modeling_from_Street_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413917947",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "StarGen: A Spatiotemporal Autoregression Framework with Video Diffusion Model for Scalable and Controllable Scene Generation",
+    "year": 2025,
+    "authors": [
+      "Shangjin Zhai",
+      "Zhichao Ye",
+      "Jialin Liu",
+      "Weijian Xie",
+      "Jia Sheng Hu",
+      "Zhen Peng",
+      "Hua Xue",
+      "Danpeng Chen",
+      "Xiaomeng Wang",
+      "Lei Yang",
+      "Nan Wang",
+      "Haomin Liu",
+      "Guofeng Zhang"
+    ],
+    "doi": "10.1109/cvpr52734.2025.02498",
+    "file": "openalex_101109_cvpr52734202502498_StarGen_A_Spatiotemporal_Autoregression_Framework_with_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413145933",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DiVE: DiT-based Video Generation with Enhanced Control",
+    "year": 2024,
+    "authors": [
+      "Junpeng Jiang",
+      "Gangyi Hong",
+      "Zhou, Lijun",
+      "Enhui Ma",
+      "Hu, Hengtong",
+      "Xia Zhou",
+      "Xiang, Jie",
+      "Fan Liu",
+      "Kaicheng Yu",
+      "Sun, Haiyang",
+      "Kun Zhan",
+      "Jia Peng",
+      "Miao Zhang"
+    ],
+    "doi": "10.48550/arxiv.2409.01595",
+    "file": "openalex_1048550_arxiv240901595_DiVE_DiT-based_Video_Generation_with_Enhanced_Control.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402955020",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Mind the Time: Temporally-Controlled Multi-Event Video Generation",
+    "year": 2025,
+    "authors": [
+      "Ziyi Wu",
+      "Aliaksandr Siarohin",
+      "Willi Menapace",
+      "Ivan Skorokhodov",
+      "Yuwei Fang",
+      "Varnith Chordia",
+      "Igor Gilitschenski",
+      "Sergey Tulyakov"
+    ],
+    "doi": "10.1109/cvpr52734.2025.02234",
+    "file": "openalex_101109_cvpr52734202502234_Mind_the_Time_Temporally-Controlled_Multi-Event_Video_G.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413144822",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+    "year": 2025,
+    "authors": [
+      "Chuan Fang",
+      "Heng Li",
+      "Yixun Liang",
+      "Jia Zheng",
+      "Yongsen Mao",
+      "Yuan Liu",
+      "Rui Tang",
+      "Zihan Zhou",
+      "Ping Tan"
+    ],
+    "doi": "",
+    "file": "arxiv_250914981v4_SPATIALGEN_Layout-guided_3D_Indoor_Scene_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.14981v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Build-A-Scene: Interactive 3D Layout Control for Diffusion-Based Image Generation",
+    "year": 2024,
+    "authors": [
+      "Abdelrahman Eldesokey",
+      "Peter Wonka"
+    ],
+    "doi": "",
+    "file": "arxiv_240814819v1_Build-A-Scene_Interactive_3D_Layout_Control_for_Diffusion-Based_Image_Ge.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.14819v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MagicDrive3D: Controllable 3D Generation for Any-View Rendering in Street Scenes",
+    "year": 2024,
+    "authors": [
+      "Ruiyuan Gao",
+      "Kai Chen",
+      "Zhihao Li",
+      "Lanqing Hong",
+      "Zhenguo Li",
+      "Qiang Xu"
+    ],
+    "doi": "",
+    "file": "arxiv_240514475v4_MagicDrive3D_Controllable_3D_Generation_for_Any-View_Rendering_in_Street.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2405.14475v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+    "year": 2025,
+    "authors": [
+      "Yuheng Liu",
+      "Xinke Li",
+      "Yuning Zhang",
+      "Lu Qi",
+      "Xin Li",
+      "Wenping Wang",
+      "Chongshou Li",
+      "Xueting Li",
+      "Ming-Hsuan Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_250307152v1_Controllable_3D_Outdoor_Scene_Generation_via_Scene_Graphs.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.07152v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene Reconstruction",
+    "year": 2026,
+    "authors": [
+      "Yang-Tian Sun",
+      "Tianjia Liu",
+      "Zehuan Huang",
+      "Yi-Hua Huang",
+      "Xiaoyang Lyu",
+      "Ziyi Yang",
+      "Zi-Xin Zou",
+      "Yuan-Chen Guo",
+      "Yan-Pei Cao",
+      "Xiaojuan Qi"
+    ],
+    "doi": "",
+    "file": "arxiv_260923796v2_Mira-Scene_Pixel-Aligned_Layouts_for_Generative_3D_Scene_Reconstruction.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.23796v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Stream3D: Sequential Multi-View 3D Generation via Evidential Memory",
+    "year": 2026,
+    "authors": [
+      "Kaichen Zhou",
+      "Zeyang Bai",
+      "Xinhai Chang",
+      "Mengyu Wang",
+      "Paul Liang",
+      "Fangneng Zhan"
+    ],
+    "doi": "",
+    "file": "arxiv_260521472v5_Stream3D_Sequential_Multi-View_3D_Generation_via_Evidential_Memory.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.21472v5",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Populate-A-Scene: Affordance-Aware Human Video Generation",
+    "year": 2025,
+    "authors": [
+      "Mengyi Shan",
+      "Zecheng He",
+      "Haoyu Ma",
+      "Felix Juefei-Xu",
+      "Peizhao Zhang",
+      "Tingbo Hou",
+      "Ching-Yao Chuang"
+    ],
+    "doi": "",
+    "file": "arxiv_250700334v1_Populate-A-Scene_Affordance-Aware_Human_Video_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2507.00334v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "S^2VG: 3D Stereoscopic and Spatial Video Generation via Denoising Frame Matrix",
+    "year": 2025,
+    "authors": [
+      "Peng Dai",
+      "Feitong Tan",
+      "Qiangeng Xu",
+      "Yihua Huang",
+      "David Futschik",
+      "Ruofei Du",
+      "Sean Fanello",
+      "Yinda Zhang",
+      "Xiaojuan Qi"
+    ],
+    "doi": "",
+    "file": "arxiv_250808048v2_S2VG_3D_Stereoscopic_and_Spatial_Video_Generation_via_Denoising_Frame_Ma.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.08048v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MVRoom: Controllable 3D Indoor Scene Generation with Multi-View Diffusion Models",
+    "year": 2025,
+    "authors": [
+      "Shaoheng Fang",
+      "Chaohui Yu",
+      "Fan Wang",
+      "Qixing Huang"
+    ],
+    "doi": "",
+    "file": "arxiv_251204248v1_MVRoom_Controllable_3D_Indoor_Scene_Generation_with_Multi-View_Diffusion.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.04248v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generative 4D Scene Gaussian Splatting with Object View-Synthesis Priors",
+    "year": 2025,
+    "authors": [
+      "Wen-Hsuan Chu",
+      "Lei Ke",
+      "Jianmeng Liu",
+      "Mingxiao Huo",
+      "Pavel Tokmakov",
+      "Katerina Fragkiadaki"
+    ],
+    "doi": "",
+    "file": "arxiv_250612716v1_Generative_4D_Scene_Gaussian_Splatting_with_Object_View-Synthesis_Priors.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.12716v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LayoutDM: Discrete Diffusion Model for Controllable Layout Generation",
+    "year": 2023,
+    "authors": [
+      "Naoto Inoue",
+      "Kotaro Kikuchi",
+      "Edgar Simo-Serra",
+      "Mayu Otani",
+      "Kota Yamaguchi"
+    ],
+    "doi": "",
+    "file": "arxiv_230308137v1_LayoutDM_Discrete_Diffusion_Model_for_Controllable_Layout_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2303.08137v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "3D Scene Generation: A Survey",
+    "year": 2025,
+    "authors": [
+      "Haozhe Xie",
+      "Beichen Wen",
+      "Zhaoxi Chen",
+      "Fangzhou Hong",
+      "Ziwei Liu"
+    ],
+    "doi": "10.1007/s11263-026-02999-6",
+    "file": "arxiv_101007_s11263-026-02999-6_3D_Scene_Generation_A_Survey.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.05474v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix",
+    "year": 2024,
+    "authors": [
+      "Peng Dai",
+      "Feitong Tan",
+      "Qiangeng Xu",
+      "David Futschik",
+      "Ruofei Du",
+      "Sean Fanello",
+      "Xiaojuan Qi",
+      "Yinda Zhang"
+    ],
+    "doi": "",
+    "file": "arxiv_240700367v1_SVG_3D_Stereoscopic_Video_Generation_via_Denoising_Frame_Matrix.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2407.00367v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Fine-Tuning Open Video Generators for Cinematic Scene Synthesis: A Small-Data Pipeline with LoRA and Wan2.1 I2V",
+    "year": 2025,
+    "authors": [
+      "Meftun Akarsu",
+      "Kerem Catay",
+      "Sedat Bin Vedat",
+      "Enes Kutay Yarkan",
+      "Ilke Senturk",
+      "Arda Sar",
+      "Dafne Eksioglu"
+    ],
+    "doi": "10.5281/zenodo.17370356",
+    "file": "arxiv_105281_zenodo17370356_Fine-Tuning_Open_Video_Generators_for_Cinematic_Scene_Synthesi.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.27364v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Scene-Aware 3D Multi-Human Motion Capture from a Single Camera",
+    "year": 2023,
+    "authors": [
+      "Diogo Luvizon",
+      "Marc Habermann",
+      "Vladislav Golyanik",
+      "Adam Kortylewski",
+      "Christian Theobalt"
+    ],
+    "doi": "",
+    "file": "arxiv_230105175v3_Scene-Aware_3D_Multi-Human_Motion_Capture_from_a_Single_Camera.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2301.05175v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation",
+    "year": 2026,
+    "authors": [
+      "Jiahua Xu",
+      "Yijie Fang",
+      "Nannan Wang",
+      "Xunhao Lin",
+      "Li Cao",
+      "Lei Hao",
+      "Mingrui Zhu",
+      "Fei Gao",
+      "Xinbo Gao"
+    ],
+    "doi": "",
+    "file": "arxiv_261042031v1_Any_Forcing_Any-Step_Generality_and_One-Step_Stability_for_Autoregressiv.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.42031v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Set-the-Scene: Global-Local Training for Generating Controllable NeRF Scenes",
+    "year": 2023,
+    "authors": [
+      "Dana Cohen-Bar",
+      "Elad Richardson",
+      "Gal Metzer",
+      "Raja Giryes",
+      "Daniel Cohen-Or"
+    ],
+    "doi": "",
+    "file": "arxiv_230313450v1_Set-the-Scene_Global-Local_Training_for_Generating_Controllable_NeRF_Sce.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2303.13450v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding",
+    "year": 2025,
+    "authors": [
+      "Xiaoye Wang",
+      "Chen Tang",
+      "Xiangyu Yue",
+      "Wei-Hong Li"
+    ],
+    "doi": "",
+    "file": "arxiv_251120646v1_3D-Aware_Multi-Task_Learning_with_Cross-View_Correlations_for_Dense_Scen.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2511.20646v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "City Street Layout Generation via Conditional Adversarial Learning",
+    "year": 2023,
+    "authors": [
+      "Lehao Yang",
+      "Cui Zhu",
+      "Tian Feng"
+    ],
+    "doi": "10.13774/j.cnki.kjtb.2025.10.009",
+    "file": "arxiv_1013774_jcnkikjtb202510009_City_Street_Layout_Generation_via_Conditional_Adversarial.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2305.08186v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+    "year": 2025,
+    "authors": [
+      "Shijie Chen",
+      "Peixi Peng"
+    ],
+    "doi": "",
+    "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.04830v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

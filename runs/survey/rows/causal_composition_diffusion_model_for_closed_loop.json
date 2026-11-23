@@ -1,0 +1,13 @@
+{
+ "id": "causal_composition_diffusion_model_for_closed_loop",
+ "title": "Causal Composition Diffusion Model for Closed-loop Traffic Generation",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "User-defined reward objectives (e.g. collision guidance weight -50.0, off-road weight 1.0) and the number of controllable agents (1 to 10 or full).", "pages": "4, 17-18"},
+ "control_mechanism": {"value": "Structure-aware classifier-free guidance plus masked compositional classifier-based reward-gradient guidance; a learned causal graph ranks agents and only important ones are guided, to avoid realism-control gradient conflict.", "pages": "1-2, 4-5, 6"},
+ "base_model": {"value": "DDPM-style diffusion with scene-transformer: temporal tokenizer, spatial attention giving a decision causal graph, action decoder, ResNet-18 map encoder, 100 denoising steps.", "pages": "5, 6, 17-18"},
+ "datasets": {"value": "nuScenes and traffic behavior simulation (tbsim); trained on train split, evaluated on 100 randomly sampled validation scenes with 3 s history and 10 s generation.", "pages": "6-7"},
+ "metrics": {"value": "Controllability Score from scenario collision rate; Realism Score averaging off-road rate, FDE and comfort distance; Pareto metrics GD and IGD.", "pages": "6-7"},
+ "controllability_evidence": {"value": "CCDiff beats baselines on Pareto frontier; one setting IGD 0.0917 / GD 0.0617 vs CTG 0.1339 / 0.1085. Ablation: non-causal ranking costs 5 to 10 % collision rate.", "pages": "7, 8-9"},
+ "stated_limitations": {"value": "Causal reasoning pipeline relies on hyperparameter tuning and is hard to evaluate directly.", "pages": "8-9"},
+ "notes": "GD/IGD values come from a Figure 4 table whose panel (multi-agent vs long-horizon) is ambiguous in the extracted text; the pair quoted is the first listed."
+}

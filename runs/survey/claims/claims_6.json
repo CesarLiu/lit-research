@@ -1,0 +1,300 @@
+[
+ {
+  "id": 111,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Success: a measured behaviour-preservation rate for a layered pipeline, compared with an end-to-end model.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Proposal: keep behaviour control in a compact scenario representation and test whether rendering preserves it, by extracting trajectories from generated video and comparing them with the specified ones.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 112,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "**Check that closed-loop evaluation in a world model ranks policies as the real world does.** Gap: sections 4.4 and 5.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Success: a measured behaviour-preservation rate for a layered pipeline, compared with an end-to-end model.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 113,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "The OmniDreams paper reports that the ranking of policies under a reconstruction-based simulator is preserved under its world model [86], but I found no independent check in the rows.",
+  "cited": [
+   86
+  ],
+  "company_statements": [],
+  "previous_sentence": "**Check that closed-loop evaluation in a world model ranks policies as the real world does.** Gap: sections 4.4 and 5.",
+  "papers": [
+   {
+    "n": 86,
+    "row_file": "rows/nvidia_omnidreams_real_time_generative_world_model.json",
+    "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 114,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Proposal: run several policies in a generative simulator and in a log-based or real evaluation and report the rank correlation, including cases where the world model's response to the plan is weak (section 4.3).",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "The OmniDreams paper reports that the ranking of policies under a reconstruction-based simulator is preserved under its world model [86], but I found no independent check in the rows.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 115,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "**Specify intent, not just objectives.** Gap: sections 3.3 and 3.5.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Proposal: run several policies in a generative simulator and in a log-based or real evaluation and report the rank correlation, including cases where the world model's response to the plan is weak (section 4.3).",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 116,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Proposal: evaluate language-to-scenario adherence directly (does the generated scenario satisfy the clause, for the instructed and the uninstructed agents, as in [10]) instead of only downstream collision rates.",
+  "cited": [
+   10
+  ],
+  "company_statements": [],
+  "previous_sentence": "**Specify intent, not just objectives.** Gap: sections 3.3 and 3.5.",
+  "papers": [
+   {
+    "n": 10,
+    "row_file": "rows/cafe_causally_faithful_conditional_traffic_scenari.json",
+    "title": "CaFe: Causally Faithful Conditional Traffic Scenario Generation"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 117,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "**Calibrated risk and style knobs across layers.** Gap: sections 3.1 and 3.4.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Proposal: evaluate language-to-scenario adherence directly (does the generated scenario satisfy the clause, for the instructed and the uninstructed agents, as in [10]) instead of only downstream collision rates.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 118,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Risk-level and percentile controls are measured well at the scenario level [99][66], reward tilting is a clean one-parameter dial [25][112], and one sensor-level paper has a risk signal [104].",
+  "cited": [
+   25,
+   66,
+   99,
+   104,
+   112
+  ],
+  "company_statements": [],
+  "previous_sentence": "**Calibrated risk and style knobs across layers.** Gap: sections 3.1 and 3.4.",
+  "papers": [
+   {
+    "n": 25,
+    "row_file": "rows/ctrl_sim_reactive_and_controllable_driving_agents.json",
+    "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning"
+   },
+   {
+    "n": 66,
+    "row_file": "rows/how_corner_is_a_corner_case_percentile_control_for.json",
+    "title": "How Corner Is a Corner Case? Percentile Control for Highway Scenario Generation"
+   },
+   {
+    "n": 99,
+    "row_file": "rows/rade_learning_risk_adjustable_driving_environment.json",
+    "title": "RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion"
+   },
+   {
+    "n": 104,
+    "row_file": "rows/risk_controllable_multi_view_diffusion_for_driving.json",
+    "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation"
+   },
+   {
+    "n": 112,
+    "row_file": "rows/scenario_dreamer_vectorized_latent_diffusion_for_g.json",
+    "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 119,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Proposal: study where such knobs saturate or interact (for example extreme tilting giving implausible behaviour, as stated in [25]'s row) and test whether the same risk scale can drive both layers.",
+  "cited": [
+   25
+  ],
+  "company_statements": [],
+  "previous_sentence": "Risk-level and percentile controls are measured well at the scenario level [99][66], reward tilting is a clean one-parameter dial [25][112], and one sensor-level paper has a risk signal [104].",
+  "papers": [
+   {
+    "n": 25,
+    "row_file": "rows/ctrl_sim_reactive_and_controllable_driving_agents.json",
+    "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 120,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "**Reproduction of reported control effects.** Gap: only a minority of rows state a code link in their packets, and a pilot ledger of 30 atomic claims from 6 papers has not been run.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Proposal: study where such knobs saturate or interact (for example extreme tilting giving implausible behaviour, as stated in [25]'s row) and test whether the same risk scale can drive both layers.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 121,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Proposal: register tolerances first and reproduce a few claims with public code (the ledger in this repository is built for that), starting with a guidance dial and a reward-tilting dial.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Reproduction of reported control effects.** Gap: only a minority of rows state a code link in their packets, and a pilot ledger of 30 atomic claims from 6 papers has not been run.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 122,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "**Broader data and conditions.** Gap: the rows concentrate on a few public datasets (nuScenes, Waymo Open Motion and nuPlan appear throughout) and several papers say they model vehicles only [60][111].",
+  "cited": [
+   60,
+   111
+  ],
+  "company_statements": [],
+  "previous_sentence": "Proposal: register tolerances first and reproduce a few claims with public code (the ledger in this repository is built for that), starting with a guidance dial and a reward-tilting dial.",
+  "papers": [
+   {
+    "n": 60,
+    "row_file": "rows/guided_conditional_diffusion_for_controllable_traf.json",
+    "title": "Guided Conditional Diffusion for Controllable Traffic Simulation"
+   },
+   {
+    "n": 111,
+    "row_file": "rows/scenario_diffusion_controllable_driving_scenario_g.json",
+    "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 123,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Proposal: evaluate controllability on conditions the training data covers thinly (pedestrians, adverse weather, unusual road layouts) and report where control degrades.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Broader data and conditions.** Gap: the rows concentrate on a few public datasets (nuScenes, Waymo Open Motion and nuPlan appear throughout) and several papers say they model vehicles only [60][111].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 124,
+  "section": "8. Limits and how this was checked",
+  "text": "**Evidence base.** Rows come from partial packets; tables flattened by PDF extraction made some numbers uncertain, and these are noted in the rows.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 125,
+  "section": "8. Limits and how this was checked",
+  "text": "Neither table was read in full by a person.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Evidence base.** Rows come from partial packets; tables flattened by PDF extraction made some numbers uncertain, and these are noted in the rows.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 126,
+  "section": "8. Limits and how this was checked",
+  "text": "The first 34 scenario rows and the 43 added from chaining were audited on random samples (22 of 24 cells supported in each, 0 unsupported, the partial ones corrected); the world-model audit is reported in the repository notes.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Neither table was read in full by a person.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 127,
+  "section": "8. Limits and how this was checked",
+  "text": "**Selection.** The screening decisions for chaining leads and for world-model candidates are mine, from titles and abstracts (some with no abstract), and are logged with reasons in the repository.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "The first 34 scenario rows and the 43 added from chaining were audited on random samples (22 of 24 cells supported in each, 0 unsupported, the partial ones corrected); the world-model audit is reported in the repository notes.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 128,
+  "section": "8. Limits and how this was checked",
+  "text": "The world-model papers were chosen partly by citation count, which favours older work; 40 in-scope world-model papers were deferred.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Selection.** The screening decisions for chaining leads and for world-model candidates are mine, from titles and abstracts (some with no abstract), and are logged with reasons in the repository.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 129,
+  "section": "8. Limits and how this was checked",
+  "text": "**Company statements** are marketing and technical claims, are not independently verified, and cover only the companies named above.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "The world-model papers were chosen partly by citation count, which favours older work; 40 in-scope world-model papers were deferred.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 130,
+  "section": "8. Limits and how this was checked",
+  "text": "**Sentence check.** A second model, different from the one used for most of the extraction, checked every sentence of sections 1 to 6 against the table rows and company quotes cited; the process and outcome are in the repository.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Company statements** are marketing and technical claims, are not independently verified, and cover only the companies named above.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 131,
+  "section": "8. Limits and how this was checked",
+  "text": "Section 7 is not checked against evidence: it is my reading of the gaps.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Sentence check.** A second model, different from the one used for most of the extraction, checked every sentence of sections 1 to 6 against the table rows and company quotes cited; the process and outcome are in the repository.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ }
+]

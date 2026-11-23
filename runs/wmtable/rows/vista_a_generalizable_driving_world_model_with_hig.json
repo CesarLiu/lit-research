@@ -1,0 +1,15 @@
+{
+ "id": "vista_a_generalizable_driving_world_model_with_hig",
+ "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "front-view video at 10 Hz and 576x1024, extended by autoregressive rollout", "pages": "2, 4, 20"},
+ "control_signal": {"value": "Multi-modal ego actions: high-level command and goal point, low-level trajectory, steering angle and speed.", "pages": "1-2"},
+ "control_mechanism": {"value": "Unified action interface learned in a second phase with frozen pretrained weights: LoRA plus zero-initialised projection layers in all UNet attention blocks; 15% dropout per action mode; action independence constraint.", "pages": "2, 4, 22-23"},
+ "base_model": {"value": "Initialized from Stable Video Diffusion (UNet denoiser); condition frames injected by latent replacement; dynamics enhancement and structure preservation losses; triangular classifier-free guidance.", "pages": "4, 22-24"},
+ "datasets": {"value": "OpenDV-YouTube and nuScenes for training (1:1 in action phase); evaluation on nuScenes, unseen Waymo, and also CODA and OpenDV-val in human study.", "pages": "8, 22"},
+ "metrics": {"value": "FID and FVD on 5369 nuScenes samples, two-alternative human evaluation (visual quality, motion rationality), Trajectory Difference via inverse dynamics model, and uncertainty-based reward.", "pages": "7-8, 22"},
+ "controllability_evidence": {"value": "Average subset FVD on nuScenes falls from 367.2 (action-free) to 322.7 goal point, 292.2 command, 230.0 angle and speed, 207.6 trajectory; Waymo 311.8 to 268.9 command, 273.7 trajectory.", "pages": "7-8"},
+ "closed_loop": {"value": "No policy-in-the-loop evaluation; autoregressive long-horizon rollouts only, with 15 s predictions shown in a guidance-scale figure.", "pages": "4, 24"},
+ "stated_limitations": {"value": "High compute cost; degradation in long rollouts or drastic view shifts; action control can fail for ambiguous commands and goal points; training data far from all internet driving data.", "pages": "10, 20"},
+ "notes": "Figure 8 value-to-condition pairing inferred from garbled figure text; Waymo order of 311.8, 273.7, 268.9 maps to action-free, command, trajectory by label order and may be imperfect (the 273.7 and 268.9 assignment is the uncertain part)."
+}

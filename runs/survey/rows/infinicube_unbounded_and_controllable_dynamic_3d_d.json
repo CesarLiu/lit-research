@@ -1,0 +1,15 @@
+{
+ "id": "infinicube_unbounded_and_controllable_dynamic_3d_d",
+ "title": "InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "3D scene: unbounded voxel world lifted to dynamic 3D Gaussians, plus long driving video (200 frames) and renderable views", "pages": "1-2"},
+ "control_signal": {"value": "HD map, 3D vehicle bounding boxes with trajectories, and text prompts (e.g. weather, time of day).", "pages": "1, 5"},
+ "control_mechanism": {"value": "Map-conditioned voxel diffusion with outpainting; voxel world rendered into pixel-aligned guidance buffers (semantic, coordinate) conditioning the video model; text via a FLUX-based ControlNet producing the first frame from semantic buffers.", "pages": "1-2, 4-5, 7"},
+ "base_model": {"value": "25-frame SVD-XT video model fine-tuned at 576x1024; fVDB sparse 3D diffusion for voxels; FLUX ControlNet; dual-branch (voxel and pixel) feed-forward Gaussian reconstruction.", "pages": "4-5, 15"},
+ "datasets": {"value": "Waymo Open Dataset; 618 training and 90 evaluation sequences; weather and time-of-day captions made with Llama-3.2-90B-Vision-Instruct.", "pages": "5-6"},
+ "metrics": {"value": "FID over frame index for long video, human-study positive rate for HD map alignment, and PSNR, SSIM, LPIPS for novel view rendering.", "pages": "7-8"},
+ "controllability_evidence": {"value": "User study of HD map alignment at frames 40, 80, 120: positive rates 84.6%, 83.9%, 84.8% versus Panacea 76.8%, 54.0%, 53.4%; 180 samples per frame index.", "pages": "7-8, 17"},
+ "closed_loop": {"value": "No policy rollout. Video extended to 200 frames from the 25-frame model; free driving inside the generated 3DGS scene is claimed, scene about 100 000 m2.", "pages": "1-2"},
+ "stated_limitations": {"value": "Consistency among long-distance voxel chunks may decline; future work on global consistency and more diverse training data.", "pages": "8"},
+ "notes": "Table pairing of user-study numbers (ours vs Panacea) inferred from garbled table layout. Not an ego-action-conditioned model."
+}

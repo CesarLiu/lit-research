@@ -1,0 +1,42 @@
+{
+ "id": "driving_into_the_future_multiview_visual_forecasti",
+ "title": "Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+ "control_family": "multi-condition unified control",
+ "output_modality": {
+  "value": "multi-view video (six surround cameras, nuScenes)",
+  "pages": "1-2, 6"
+ },
+ "control_signal": {
+  "value": "frame-wise 3D layouts (3D boxes, HD map, BEV segmentation), text (weather, lighting), ego action sequence, and initial images",
+  "pages": "2, 5-6, 14"
+ },
+ "control_mechanism": {
+  "value": "unified condition interface: all conditions embedded to d dimensions, concatenated along the token axis, and applied by frame-wise cross-attention in the 3D UNet; 20% condition dropout for classifier-free guidance",
+  "pages": "5-6, 14"
+ },
+ "base_model": {
+  "value": "latent video diffusion, 3D UNet initialized from Stable Diffusion with added temporal and multiview parameters; view factorization for consistency; 384x192 resolution",
+  "pages": "2, 6, 14"
+ },
+ "datasets": {
+  "value": "nuScenes (700 train, 150 val videos); Waymo Open Dataset used for extra high-resolution generation",
+  "pages": "6, 13"
+ },
+ "metrics": {
+  "value": "FID, FVD, Key Points Matching for multiview consistency; CVT segmentation, 3D detection, online map construction on generated images; planning L2 and collision rate",
+  "pages": "6"
+ },
+ "controllability_evidence": {
+  "value": "Perception models run on generated images (numbers not in packet); qualitative layout and action control. Tree planning with both rewards gives avg L2 0.80 m, collision 0.26% (Table 4).",
+  "pages": "6-8, 12-13"
+ },
+ "closed_loop": {
+  "value": "Planning-in-the-loop: world model imagines futures for planner-sampled trajectories, reward picks one, tree rollout repeats; evaluated with open-loop L2 and collision metrics. Horizon in steps not stated in packet.",
+  "pages": "5-6, 7-8"
+ },
+ "stated_limitations": {
+  "value": "not stated in packet",
+  "pages": ""
+ },
+ "notes": "Packet has no limitations passage. Controllability numbers for generation are absent from the packet."
+}

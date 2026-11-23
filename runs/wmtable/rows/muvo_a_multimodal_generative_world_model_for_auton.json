@@ -1,0 +1,42 @@
+{
+ "id": "muvo_a_multimodal_generative_world_model_for_auton",
+ "title": "MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {
+  "value": "camera images, lidar point clouds (range view) and optional 3D occupancy grids, predicted for future frames",
+  "pages": "1-3"
+ },
+ "control_signal": {
+  "value": "actions fed to the transition model; their form (e.g. steering, trajectory) is not detailed in packet.",
+  "pages": "1-2"
+ },
+ "control_mechanism": {
+  "value": "Transition model on fused latent states conditioned on actions; transformer-style attention uses hidden states as queries and concatenated hidden state, action and observation as key-value pairs.",
+  "pages": "2, 4"
+ },
+ "base_model": {
+  "value": "Simple MILE-style architecture with pretrained ResNet18 encoders, transformer sensor fusion, transition model and multimodal decoders (2D convolution for camera and lidar, 3D convolution for voxels).",
+  "pages": "3-5"
+ },
+ "datasets": {
+  "value": "not stated in packet",
+  "pages": ""
+ },
+ "metrics": {
+  "value": "PSNR for images, Chamfer Distance for point clouds, IoU, Precision and Recall for 3D occupancy.",
+  "pages": "5"
+ },
+ "controllability_evidence": {
+  "value": "not stated in packet",
+  "pages": ""
+ },
+ "closed_loop": {
+  "value": "No; open-loop prediction on sequences, 6 or 4 frames given as observations and 6 or 2 as ground truth.",
+  "pages": "5"
+ },
+ "stated_limitations": {
+  "value": "not stated in packet; notes occupancy prediction is computationally intensive and benefits for sensor prediction are only slight.",
+  "pages": "6-7"
+ },
+ "notes": "Paper is mainly a sensor-fusion ablation study; the action control is part of the architecture but is not evaluated in the packet. Datasets named only by abbreviations. [datasets: validation sets referred to only as DRL_val and DDS_val] [controllability_evidence: experiments compare sensor fusion strategies and occupancy prediction, not action-following.]"
+}

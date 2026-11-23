@@ -1,0 +1,15 @@
+{
+ "id": "editable_scene_simulation_for_autonomous_driving_v",
+ "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents",
+ "control_family": "text or language conditioning",
+ "output_modality": {"value": "multi-camera photo-realistic 3D scene videos rendered with a neural radiance field plus Blender-rendered inserted assets", "pages": "1, 5-6"},
+ "control_signal": {"value": "natural language commands: add or delete vehicles, choose assets, set vehicle motion, adjust viewpoint (for example moving the view 5 m ahead)", "pages": "1, 3-4, 13"},
+ "control_mechanism": {"value": "GPT-4 agents (project manager plus tech agents) turn commands into structured JSON configurations that drive role functions: inpainting for deletion, asset bank, motion generation, view adjustment", "pages": "3-4, 13"},
+ "base_model": {"value": "McNeRF multi-camera NeRF (F2NeRF-based with alignment and exposure), McLight HDR lighting estimation, Blender foreground rendering, latent-diffusion per-frame inpainting, GPT-4 as the LLM", "pages": "4-6, 13"},
+ "datasets": {"value": "Waymo Open Dataset (front, left front, right front cameras, 40 frames per scene at 10Hz); 449 HDRIs and HoliCity for lighting", "pages": "7"},
+ "metrics": {"value": "PSNR, SSIM, LPIPS and inference time for background rendering; peak angular error and relative intensity error for lighting; command execution success rate; motion user study", "pages": "8-9, 12-13"},
+ "controllability_evidence": {"value": "Command execution success rates over 5 instruction categories (15 commands, 3 trials each); motion-from-text user study: ChatSim 0.988 straight, 0.940 left turn, 0.976 right turn, 0.952 speed, 1.000 within-road, versus GPT2Code and GPT2Motion.", "pages": "8-9, 12"},
+ "closed_loop": {"value": "no; scripted editing and rendering of recorded scenes, no driving policy in the loop", "pages": "5, 7"},
+ "stated_limitations": {"value": "Future work only: plans to add more background editing such as weather changes.", "pages": "9"},
+ "notes": "Not a learned generative world model: NeRF rendering plus LLM-agent editing of a reconstructed scene. Included as a language-controlled sensor-level scene simulator. Packet shows only the first row/columns of Table 2 success rates, so no summary success number was copied."
+}

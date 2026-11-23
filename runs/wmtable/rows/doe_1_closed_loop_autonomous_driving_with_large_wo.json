@@ -1,0 +1,42 @@
+{
+ "id": "doe_1_closed_loop_autonomous_driving_with_large_wo",
+ "title": "Doe-1: Closed-Loop Autonomous Driving with Large World Model",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {
+  "value": "front-camera image tokens (single view) for predicted observations, plus scene-description text and ego action tokens",
+  "pages": "1-2, 9"
+ },
+ "control_signal": {
+  "value": "ego action as BEV displacement trajectory or high-level command (turn left, go straight, overtake), plus text question prompts for perception",
+  "pages": "2, 7-8"
+ },
+ "control_mechanism": {
+  "value": "position-aware tokenizer turns actions into discrete tokens, interleaved with image and text tokens in one sequence; next-token prediction in a unified multimodal autoregressive transformer",
+  "pages": "1-2, 4-5"
+ },
+ "base_model": {
+  "value": "Chameleon-style multimodal autoregressive transformer with image VQ tokenizer; initialized from pretrained Lumina-mGPT 7B and fine-tuned on BDD100k for 5 epochs",
+  "pages": "2, 4-5, 7"
+ },
+ "datasets": {
+  "value": "nuScenes (700 train, 150 val scenes), OmniDrive-nuScenes for question answering, BDD100k for image fine-tuning",
+  "pages": "6-7"
+ },
+ "metrics": {
+  "value": "FID for action-conditioned video; METEOR, CIDEr, ROUGE, counterfactual AP and AR for QA; L2 error and collision rate for planning",
+  "pages": "7"
+ },
+ "controllability_evidence": {
+  "value": "Table 2 reports FID 15.9 for action-conditioned generation (Vista 6.9, Drive-WM 15.8); Fig. 8 shows qualitative turn left, go straight, overtake. No action-following metric in packet.",
+  "pages": "8"
+ },
+ "closed_loop": {
+  "value": "Claims closed loop by alternating observation, description, action autoregressively with next-frame planning; reported evaluation is L2 and collision on nuScenes. Rollout length not stated in packet.",
+  "pages": "1, 4-5, 7"
+ },
+ "stated_limitations": {
+  "value": "Only front-view images are used because multi-view input is inefficient; surround-view information is called critical for safe driving.",
+  "pages": "9"
+ },
+ "notes": "Unified perception, prediction and planning model; image generation is one task. Planning metrics paragraph mentions GaussianAD, probably a copy artifact. Unclear whether closed-loop was tested interactively."
+}

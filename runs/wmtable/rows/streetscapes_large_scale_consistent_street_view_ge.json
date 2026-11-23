@@ -1,0 +1,15 @@
+{
+ "id": "streetscapes_large_scale_consistent_street_view_ge",
+ "title": "Streetscapes: Large-scale Consistent Street View Generation Using Autoregressive Video Diffusion",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "single-view street-view image sequences along a camera path, generated two frames at a time (512x512) and extended autoregressively; optional 3D reconstruction", "pages": "3-4, 6"},
+ "control_signal": {"value": "overhead street map plus height map rendered into per-view G-buffers (semantics, disparity, height) for a given camera trajectory; optional text for city style, weather, time of day", "pages": "1-2, 4"},
+ "control_mechanism": {"value": "G-buffer-conditioned ControlNet cloned with motion modules, base diffusion U-Net kept frozen so text control is inherited; autoregressive temporal imputation at inference", "pages": "3-4, 6"},
+ "base_model": {"value": "pretrained text-to-image latent diffusion model with an AnimateDiff-style motion module for two-frame generation; ControlNet added", "pages": "4, 15-16"},
+ "datasets": {"value": "Google Street View posed imagery with map data; pairs of 512x512 images within 80 s and 5 m; London maps for InfiniCity comparison; test maps from unseen regions", "pages": "2, 6"},
+ "metrics": {"value": "LPIPS over the first 16 views for short-range accuracy; FID and KID for long-range realism", "pages": "7"},
+ "controllability_evidence": {"value": "Mostly qualitative: outputs follow the layout and camera poses over 100 frames covering 160 to 176 m; text changes weather and time with the same G-buffers. Table 2 numbers are not in the packet.", "pages": "7-8, 10-11"},
+ "closed_loop": {"value": "No: no driving policy; autoregressive rollout along a user-given camera path, 100 frames over more than 170 m shown.", "pages": "10-11"},
+ "stated_limitations": {"value": "Transient objects such as cars sometimes appear or vanish unnaturally; slight frame-to-frame colour flicker from the quality-consistency balance.", "pages": "7-8"},
+ "notes": "A city-scale street-view generator, not an ego-vehicle driving world model; control is by map layout, camera pose and text rather than ego actions."
+}

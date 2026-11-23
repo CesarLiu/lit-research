@@ -1,0 +1,42 @@
+{
+ "id": "wovogen_world_volume_aware_diffusion_for_controlla",
+ "title": "WoVoGen: World Volume-aware Diffusion for Controllable Multi-camera Driving Scene Generation",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {
+  "value": "six-camera street-view images and videos, plus predicted future 4D world volume (HD map and occupancy)",
+  "pages": "1-3, 13"
+ },
+ "control_signal": {
+  "value": "ego control sequence (velocity, steering) for future world volume; world volume for images; text prompts for weather, location, object classes; camera extrinsic and volume edits",
+  "pages": "2-3, 7, 10-11"
+ },
+ "control_mechanism": {
+  "value": "action tokens via cross-attention and past volumes by channel concatenation; world-volume image features as ControlNet input; CLIP text by cross-attention; object guidance by masked cross-attention",
+  "pages": "3, 7, 9-10"
+ },
+ "base_model": {
+  "value": "stage 1: latent diffusion UNet trained from scratch on world-volume latents (VQ autoencoder); stage 2: Stable Diffusion-based panoptic multi-camera diffusion with ControlNet and temporal attention",
+  "pages": "3-4, 7"
+ },
+ "datasets": {
+  "value": "nuScenes (700 train, 150 val videos, six cameras) with Occ3D challenge occupancy and HD map; BEVDet-occ infers input world volumes",
+  "pages": "7, 12"
+ },
+ "metrics": {
+  "value": "FID, FVD, Key Points Matching for consistency; BEVDet NDS and mAP for downstream detection",
+  "pages": "13-14, 19"
+ },
+ "controllability_evidence": {
+  "value": "Ablation FID 28.6 object guidance only, 27.6 world volume plus object guidance; KPM 90.0% multi-view, 80.2% temporal; generated data lifts BEVDet vehicle mAP from 34.9 to 36.2.",
+  "pages": "14, 19"
+ },
+ "closed_loop": {
+  "value": "No interactive policy rollout stated; future volumes are predicted from past volumes and ego controls.",
+  "pages": "7"
+ },
+ "stated_limitations": {
+  "value": "not stated in packet",
+  "pages": ""
+ },
+ "notes": "Two-stage design mixes action, volume and text control; family chosen for the dense world-volume condition. Single-frame FID 27.6 and video FVD 417.7. Packet lacks a limitations section."
+}

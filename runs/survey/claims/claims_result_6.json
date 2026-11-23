@@ -1,0 +1,23 @@
+[
+ {"id": 111, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Success criterion of a section 7 proposal; nothing in the evidence can confirm or deny it."},
+ {"id": 112, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Proposal heading; the Gap part is only a pointer to report sections 4.4 and 5, not a factual statement about the rows."},
+ {"id": 113, "verdict": "PARTIAL", "wrong_citation": false, "issue": "OmniDreams row (controllability_evidence) supports the preserved policy ranking under NuRec, but does not call NuRec a reconstruction-based simulator; no other row reports an independent ranking check (count agrees)."},
+ {"id": 114, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Research proposal (rank-correlation study); not checkable against evidence."},
+ {"id": 115, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Proposal heading; Gap is only a pointer to report sections 3.3 and 3.5."},
+ {"id": 116, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Proposal; the reference to [10] is consistent with the CaFe row (clause satisfaction for instructed agents, leakage test on uninstructed agents in metrics/controllability_evidence)."},
+ {"id": 117, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Proposal heading; Gap is only a pointer to report sections 3.1 and 3.4."},
+ {"id": 118, "verdict": "PARTIAL", "wrong_citation": false, "issue": "'Clean one-parameter dial' overstates [25]: its control_signal has one kappa per reward component, its evidence says only 'relatively monotonic', and stated_limitations report erratic behaviour at -50; [99], [66], [112] and [104] parts are supported (104 is the only world-model row with a risk control signal)."},
+ {"id": 119, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Proposal; the embedded fact (extreme tilting -50 gives erratic, implausible behaviour) is supported by [25] stated_limitations."},
+ {"id": 120, "verdict": "UNSUPPORTED", "wrong_citation": false, "issue": "No row has a code-link field and no row value mentions a code link or GitHub (0 of 141), so 'a minority of rows state a code link' cannot be confirmed; the 30-claim, 6-paper pilot ledger is not in any listed evidence file."},
+ {"id": 121, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Proposal, and a statement about the repository ledger that the listed evidence does not cover."},
+ {"id": 122, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 123, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Research proposal; not checkable against evidence."},
+ {"id": 124, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 125, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Statement about how the report was produced (human reading); no listed file records it."},
+ {"id": 126, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 127, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 128, "verdict": "SUPPORTED", "wrong_citation": false, "issue": ""},
+ {"id": 129, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Statement about the report's scope and the status of company claims; not confirmable from the listed evidence."},
+ {"id": 130, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Statement about the report's own sentence-check process; none of the listed process files records it."},
+ {"id": 131, "verdict": "NOT-CHECKABLE", "wrong_citation": false, "issue": "Statement about the report itself (section 7 is opinion)."}
+]

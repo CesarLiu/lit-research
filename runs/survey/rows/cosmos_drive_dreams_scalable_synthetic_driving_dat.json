@@ -1,0 +1,15 @@
+{
+ "id": "cosmos_drive_dreams_scalable_synthetic_driving_dat",
+ "title": "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "Multi-view driving video (single-view video expanded to several views); a separate model generates LiDAR points.", "pages": "1-2, 3-4"},
+ "control_signal": {"value": "HDMap and 3D cuboid condition videos, text prompts (weather, time of day), optional LiDAR depth; ego trajectory customised via a GUI that interpolates camera poses and re-renders the HDMap video.", "pages": "1-2, 23-24"},
+ "control_mechanism": {"value": "ControlNet branches on a frozen Cosmos DiT base take HDMap/LiDAR condition tokens; text enters by per-view cross-attention; multi-view expansion concatenates clean input-view tokens with noisy tokens plus view indicators.", "pages": "3-4, 5-6"},
+ "base_model": {"value": "Cosmos-1 world foundation model, a 7B DiT text-to-video diffusion model, post-trained for driving (Sample-AV variants, Transfer1, Single2Multiview).", "pages": "3-4"},
+ "datasets": {"value": "2,000 hours of internal driving footage, RDS-HQ (including human-labelled subset RDS-HQ-HL), Waymo Open Dataset.", "pages": "6-7, 15-16, 17-18"},
+ "metrics": {"value": "Downstream only in the packet: LET-AP/APH/APL (BEVFormer 3D detection), LATR 3D lane detection, mAP (LiDAR detection), minADE with 5s horizon (policy). No FID or FVD seen.", "pages": "15-16, 17-18, 19"},
+ "controllability_evidence": {"value": "Indirect, via downstream gains: lane-detection gain of +6.0% at 2k real clips, up to +9.4% in fog; adding SDG to 1K real clips gives +55.0% relative LET-AP, comparable to 9.3x more real data.", "pages": "15-16, 17"},
+ "closed_loop": {"value": "No. Offline synthetic data generation (121-frame chunks); policy evaluated open-loop with minADE.", "pages": "19, 23-24"},
+ "stated_limitations": {"value": "Reliance on computationally heavy diffusion models makes large-scale generation time- and resource-intensive; left to future optimization.", "pages": "23-24"},
+ "notes": "Packet has no direct condition-following or fidelity metric. Control family could also be read as trajectory plus text; HDMap-based layout control is the core."
+}

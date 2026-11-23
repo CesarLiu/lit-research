@@ -1,0 +1,15 @@
+{
+ "id": "helloworld_towards_practical_applications_of_gener",
+ "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "synchronized seven-camera RGB video, plus RGB-conditioned LiDAR synthesis (range and intensity)", "pages": "1, 10"},
+ "control_signal": {"value": "6-DoF ego pose, rendered HD maps and 3D boxes, text, camera identity, optionally first-frame image.", "pages": "1, 5, 11-12, 19"},
+ "control_mechanism": {"value": "Factorized conditioning: ego pose via Plucker raymap encoder modulating backbone by adaptive normalization; HD map and 3D box layout via control tower injecting residuals at multiple depths; text via cross-attention; learned camera embedding.", "pages": "10-12"},
+ "base_model": {"value": "2B block-causal multi-view DiT with rectified-flow objective in latent space of a causal video VAE; progressive training from general video; distilled from 20-step teacher to 4-step student; pretrained video-VAE architecture adapted for LiDAR.", "pages": "1, 10-12, 16"},
+ "datasets": {"value": "Heterogeneous general and fleet video; single-view benchmark uses DL3DV, Sekai, SpatialVid, RealEstate10K, OmniWorld plus 40 real-world driving clips. Multi-view training data not detailed in packet.", "pages": "10, 17"},
+ "metrics": {"value": "Pose rotation and translation error (Sim(3) aligned, metric-scale in m), VBench dimensions, cross-camera Sampson error (CSE), LiDAR range and Chamfer metrics.", "pages": "18-19, 30"},
+ "controllability_evidence": {"value": "Pose adherence: 29-frame benchmark rotation 2.0620 and translation 0.2570 versus Lingbot World 2.0 at 3.2310 and 0.2853; versus Cosmos transfer 2.5, rotation 5.534 to 2.027 degrees, translation 1.880 to 1.352.", "pages": "17-19"},
+ "closed_loop": {"value": "Yes, demonstrated qualitatively: coupled with the Alpamayo 1.5 action model in an observation-action loop using the few-step student; rollout length not stated in packet. Paper says it is not a validated closed-loop simulator.", "pages": "35"},
+ "stated_limitations": {"value": "Ego trajectories are prescribed, no policy feedback or reactive traffic; some control-tower paths use bidirectional attention; bounded KV cache gives no persistent scene memory; conflicting conditions (text truncated).", "pages": "35"},
+ "notes": "Packet is partial; Cosmos comparison numbers are for the post-trained model with first-frame conditioning. Limitations list is cut off at text and pose."
+}

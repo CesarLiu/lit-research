@@ -1,0 +1,13 @@
+{
+ "id": "advdiffuser_generating_adversarial_safety_critical",
+ "title": "AdvDiffuser: Generating Adversarial Safety-Critical Driving Scenarios via Guided Diffusion",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "A designer-defined adversarial reward: collision reward for the target AV minus a penalty for background-vehicle collisions (R_t = R_adv - P_coll), plus map and history context.", "pages": "4-5"},
+ "control_mechanism": {"value": "A lightweight reward model's gradient refines each denoising step in latent space (guided sampling); context enters the denoiser via latent code concatenation and AdaGN. Only the reward model is adapted to new target planners.", "pages": "1-2, 3-4, 4-5"},
+ "base_model": {"value": "Latent diffusion: GNN interaction net/context encoder, U-Net noise predictor with AdaGN, VAE-style posterior network (ELBO), autoregressive trajectory decoder with bicycle model.", "pages": "3-4"},
+ "datasets": {"value": "nuScenes (1000 scenes, 20 s at 2 Hz), split into 8-second segments: 2 s history, 6 s future.", "pages": "4-5"},
+ "metrics": {"value": "Diversity (minSFDE, FDD), distribution realism (JSD of velocity, acceleration, TTC), common sense (env/vehicle collision rate of background vehicles), adversarial collision rate and velocity, comfort (acceleration, jerk).", "pages": "5"},
+ "controllability_evidence": {"value": "Packet shows only the unguided realism table: vehicle collision 0.02 % vs AdvSim 0.87 % and Strive 0.16 %. Adversarial-performance table (guided results) is not in the packet; abstract claims better realism, diversity, adversarial performance and transfer.", "pages": "1, 5"},
+ "stated_limitations": {"value": "Discussion notes no universally accepted benchmark for safety-critical scenarios, so the validity and real-world relevance of generated adversarial scenarios remain uncertain.", "pages": "6-7"},
+ "notes": "Adversarial-guidance result numbers (Table II) were not in the packet; the evidence cell reports only the unguided traffic realism comparison."
+}

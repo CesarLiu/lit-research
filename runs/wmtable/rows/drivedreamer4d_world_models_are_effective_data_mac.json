@@ -1,0 +1,15 @@
+{
+ "id": "drivedreamer4d_world_models_are_effective_data_mac",
+ "title": "DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "Single (front) view driving video of novel trajectories, used as extra data to train 4D Gaussian Splatting scene representations.", "pages": "4, 13"},
+ "control_signal": {"value": "Edited ego actions (steering angle, speed) give a novel trajectory, from which 3D box sequences and HD map sequences are extracted; also first frame and text prompt.", "pages": "4"},
+ "control_mechanism": {"value": "Structured conditions (3D boxes, HDMap, text) are fed as control inputs to a controllable video diffusion model; conditions are view-projected in sync with the maneuver.", "pages": "2, 4, 14"},
+ "base_model": {"value": "Video diffusion world model following [81], initialised from SVD, front view only, 40 frames at 960 x 640; videos then optimise PVG, S3Gaussian or Deformable-GS 4DGS baselines.", "pages": "13-14"},
+ "datasets": {"value": "Waymo: full training split (798 videos, about 64K 40-frame clips) for the generator; eight selected validation scenes for evaluation.", "pages": "6, 14"},
+ "metrics": {"value": "FID on novel-trajectory renderings, proposed NTA-IoU (agents) and NTL-IoU (lanes), and a user study win rate.", "pages": "6-7"},
+ "controllability_evidence": {"value": "Novel-trajectory renderings are checked with NTA-IoU and FID: average NTA-IoU improves by 22.6%, 43.5% and 15.6% over the three baselines; lane-change FID for PVG falls from 105.29 to 71.52.", "pages": "2, 6-7"},
+ "closed_loop": {"value": "No; novel-trajectory videos are rendered and scored offline. The paper only positions the method as a foundation for closed-loop simulation.", "pages": "8-9"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "The world model is a data generator for 4DGS reconstruction rather than the end product, and control is via trajectory edits turned into box and map conditions. Control mechanism details are partial in the packet."
+}

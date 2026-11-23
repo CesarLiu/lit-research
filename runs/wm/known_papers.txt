@@ -1,0 +1,14 @@
+GAIA-1: A Generative World Model for Autonomous Driving
+DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving
+MagicDrive: Street View Generation with Diverse 3D Geometry Control
+Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability
+Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving
+OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving
+Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion
+Panacea: Panoramic and Controllable Video Generation for Autonomous Driving
+GenAD: Generalized Predictive Model for Autonomous Driving
+DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation
+LidarDM: Generative LiDAR Simulation in a Generated World
+GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving
+WoVoGen: World Volume-aware Diffusion for Controllable Multi-camera Driving Scene Generation
+DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model

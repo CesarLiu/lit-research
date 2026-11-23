@@ -1,0 +1,13 @@
+{
+ "id": "how_corner_is_a_corner_case_percentile_control_for",
+ "title": "How Corner Is a Corner Case? Percentile Control for Highway Scenario Generation",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "A requested risk percentile p, i.e. the position of the scenario's minimum PET in the history-conditioned natural distribution of future risk; a learned reference maps p to a physical PET target.", "pages": "1-2"},
+ "control_mechanism": {"value": "Diffusion model conditioned on p, the physical risk target and a CDF descriptor, plus sampling-time risk guidance steering outputs to the target; road and separation constraints act in the same sampling path.", "pages": "2-3"},
+ "base_model": {"value": "Joint multi-agent diffusion model with masked actor attention; reference risk distribution from temporal Transformers over absolute and ego-relative histories, trained with CRPS.", "pages": "2-3, 5-6"},
+ "datasets": {"value": "highD highway drone dataset; 11,649 natural clips used for reference evaluation.", "pages": "1, 8-9, 22-23"},
+ "metrics": {"value": "Percentile MAE, fine-control rate within 0.05 tolerance, PET-target MAE, footprint overlap, road compliance; kinematic realism via Wasserstein-1 on speed and acceleration, harsh braking and implausible acceleration rates.", "pages": "8-9, 15-16"},
+ "controllability_evidence": {"value": "1,422 of 1,440 requests realized within 0.05 percentile tolerance (98.75%), mean percentile error 0.00673, PET-target error 0.00991 seconds. Ablation: guidance alone realizes most requests; conditioning alone realizes few.", "pages": "1, 12-13"},
+ "stated_limitations": {"value": "Only highway scenarios on highD and one surrogate (PET); percentile is only as accurate as its reference; each model trained once; planner test uses non-reactive surrounding vehicles.", "pages": "19-20"},
+ "notes": "Could also be labelled reward/risk conditioning; ablation indicates guidance supplies most precision, so inference-time guidance chosen. Kinematic realism of full method is mixed in Table 4 (harsh braking 0.18%, implausible 0.09%)."
+}

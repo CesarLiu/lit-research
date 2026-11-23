@@ -1,0 +1,15 @@
+{
+ "id": "magicdrive_v2_high_resolution_long_video_generatio",
+ "title": "MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "multi-view video, 6 cameras, up to 848x1600 and 241 frames in a single inference", "pages": "2, 5"},
+ "control_signal": {"value": "per-frame BEV road map, 3D bounding boxes, ego trajectory, camera poses, and text (weather, time, richer MLLM-generated captions)", "pages": "3-5"},
+ "control_mechanism": {"value": "cross-attention for text, boxes, camera and trajectory; additive ControlNet-style branch for maps; spatial-temporal encoders aligned to 3D VAE latents (downsampling plus temporal transformer with RoPE)", "pages": "3-5"},
+ "base_model": {"value": "STDiT-3 DiT blocks with a new multi-view cross-view attention block, CogVideoX 3D VAE, rectified-flow loss; diffusion trained from scratch, no pretrained video backbone", "pages": "3, 5-6, 15"},
+ "datasets": {"value": "nuScenes (700 train, 150 val videos, 2Hz annotations interpolated to 12Hz); Waymo Open Dataset fine-tuning with 3 front views", "pages": "5, 8, 12-13"},
+ "metrics": {"value": "Video: FVD; controllability via BEVFormer mAP (3D detection) and mIoU (BEV segmentation). Image: FID, BEVFusion mAP, CVT road mIoU. Also a human consistency study.", "pages": "5-6"},
+ "controllability_evidence": {"value": "Table 2 on nuScenes val: FVD 94.84, mAP 18.17, mIoU 20.40 versus MagicDrive (16f) 218.12, 11.86, 18.34. Box spatial-temporal encoding ablated against a global reduce baseline in Fig. 10.", "pages": "5, 8"},
+ "closed_loop": {"value": "No: open-loop generation from given conditions in one inference (up to 241 frames); rollout inference is described as degrading quality, so it is avoided. No driving policy loop.", "pages": "2, 15"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Packet has no limitations passage; the rollout-degradation remark is about prior methods. Could also be labelled multi-condition control (geometry plus text)."
+}

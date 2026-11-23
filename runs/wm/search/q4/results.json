@@ -1,0 +1,1295 @@
+{
+  "query": "multi-view street scene video generation layout control",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2023",
+  "raw_hits": 50,
+  "unique": 45,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4387634829",
+      "doi": "10.48550/arxiv.2310.07771",
+      "title": "DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model",
+      "abstract": "With the increasing popularity of autonomous driving based on the powerful and unified bird's-eye-view (BEV) representation, a demand for high-quality and large-scale multi-view video data with accurate annotation is urgently required. However, such large-scale multi-view data is hard to obtain due to expensive collection and annotation costs. To alleviate the problem, we propose a spatial-temporal consistent diffusion framework DrivingDiffusion, to generate realistic multi-view videos controlled by 3D layout. There are three challenges when synthesizing multi-view videos given a 3D layout: How to keep 1) cross-view consistency and 2) cross-frame consistency? 3) How to guarantee the quality of the generated instances? Our DrivingDiffusion solves the problem by cascading the multi-view single-frame image generation step, the single-view video generation step shared by multiple cameras, and post-processing that can handle long video generation. In the multi-view model, the consistency of multi-view images is ensured by information exchange between adjacent cameras. In the temporal model, we mainly query the information that needs attention in subsequent frame generation from the multi-view images of the first frame. We also introduce the local prompt to effectively improve the quality of generated instances. In post-processing, we further enhance the cross-view consistency of subsequent frames and extend the video length by employing temporal sliding window algorithm. Without any extra cost, our model can generate large-scale realistic multi-camera driving videos in complex urban scenes, fueling the downstream driving tasks. The code will be made publicly available.",
+      "year": 2023,
+      "authors": [
+        "Xiaofan Li",
+        "Yifu Zhang",
+        "Xiaoqing Ye"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 89,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2310.07771",
+      "url": "https://openalex.org/W4387634829",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv231007771_DrivingDiffusion_Layout-Guided_multi-view_driving_scene_vi",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv231007771_DrivingDiffusion_Layout-Guided_multi-view_driving_scene_vi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4392016505",
+      "doi": "10.1109/lra.2024.3368234",
+      "title": "Street-View Image Generation From a Bird's-Eye View Layout",
+      "abstract": "Bird's-Eye View (BEV) Perception has received increasing attention in recent years as it provides a concise and unified spatial representation across views and benefits a diverse set of downstream driving applications. At the same time, data-driven simulation for autonomous driving has been a focal point of recent research but with few approaches that are both fully data-driven and controllable. Instead of using perception data from real-life scenarios, an ideal model for simulation would generate realistic street-view images that align with a given HD map and traffic layout, a task that is critical for visualizing complex traffic scenarios and developing robust perception models for autonomous driving. In this letter, we propose BEVGen, a conditional generative model that synthesizes a set of realistic and spatially consistent surrounding images that match the BEV layout of a traffic scenario. BEVGen incorporates a novel cross-view transformation with spatial attention design which learns the relationship between cameras and map views to ensure their consistency. We evaluate the proposed model on the challenging NuScenes and Argoverse 2 datasets. After training, BEVGen can accurately render road and lane lines, as well as generate traffic scenes with diverse different weather conditions and times of day.",
+      "year": 2024,
+      "authors": [
+        "Alexander Swerdlow",
+        "Runsheng Xu",
+        "Bolei Zhou"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "cited_by": 139,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2301.04634",
+      "url": "https://openalex.org/W4392016505",
+      "key": "openalex_101109_lra20243368234_Street-View_Image_Generation_From_a_Birds-Eye_View_Layout",
+      "file_kind": "txt",
+      "file": "openalex_101109_lra20243368234_Street-View_Image_Generation_From_a_Birds-Eye_View_Layout.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4387156645",
+      "doi": "10.48550/arxiv.2309.15091",
+      "title": "VideoDirectorGPT: Consistent Multi-scene Video Generation via LLM-Guided Planning",
+      "abstract": "Recent text-to-video (T2V) generation methods have seen significant advancements. However, the majority of these works focus on producing short video clips of a single event (i.e., single-scene videos). Meanwhile, recent large language models (LLMs) have demonstrated their capability in generating layouts and programs to control downstream visual modules. This prompts an important question: can we leverage the knowledge embedded in these LLMs for temporally consistent long video generation? In this paper, we propose VideoDirectorGPT, a novel framework for consistent multi-scene video generation that uses the knowledge of LLMs for video content planning and grounded video generation. Specifically, given a single text prompt, we first ask our video planner LLM (GPT-4) to expand it into a 'video plan', which includes the scene descriptions, the entities with their respective layouts, the background for each scene, and consistency groupings of the entities. Next, guided by this video plan, our video generator, named Layout2Vid, has explicit control over spatial layouts and can maintain temporal consistency of entities across multiple scenes, while being trained only with image-level annotations. Our experiments demonstrate that our proposed VideoDirectorGPT framework substantially improves layout and movement control in both single- and multi-scene video generation and can generate multi-scene videos with consistency, while achieving competitive performance with SOTAs in open-domain single-scene T2V generation. Detailed ablation studies, including dynamic adjustment of layout control strength with an LLM and video generation with user-provided images, confirm the effectiveness of each component of our framework and its future potential.",
+      "year": 2023,
+      "authors": [
+        "Han Lin",
+        "Abhay Zala",
+        "Jaemin Cho",
+        "Mohit Bansal"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 213,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2309.15091",
+      "url": "https://openalex.org/W4387156645",
+      "key": "openalex_1048550_arxiv230915091_VideoDirectorGPT_Consistent_Multi-scene_Video_Generation_v",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv230915091_VideoDirectorGPT_Consistent_Multi-scene_Video_Generation_v.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4385904184",
+      "doi": "10.48550/arxiv.2308.01661",
+      "title": "BEVControl: Accurately Controlling Street-view Elements with Multi-perspective Consistency via BEV Sketch Layout",
+      "abstract": "Using synthesized images to boost the performance of perception models is a long-standing research challenge in computer vision. It becomes more eminent in visual-centric autonomous driving systems with multi-view cameras as some long-tail scenarios can never be collected. Guided by the BEV segmentation layouts, the existing generative networks seem to synthesize photo-realistic street-view images when evaluated solely on scene-level metrics. However, once zoom-in, they usually fail to produce accurate foreground and background details such as heading. To this end, we propose a two-stage generative method, dubbed BEVControl, that can generate accurate foreground and background contents. In contrast to segmentation-like input, it also supports sketch style input, which is more flexible for humans to edit. In addition, we propose a comprehensive multi-level evaluation protocol to fairly compare the quality of the generated scene, foreground object, and background geometry. Our extensive experiments show that our BEVControl surpasses the state-of-the-art method, BEVGen, by a significant margin, from 5.89 to 26.80 on foreground segmentation mIoU. In addition, we show that using images generated by BEVControl to train the downstream perception model, it achieves on average 1.29 improvement in NDS score.",
+      "year": 2023,
+      "authors": [
+        "Kairui Yang",
+        "Enhui Ma",
+        "Jibin Peng",
+        "Qing Guo",
+        "Di Lin",
+        "Kaicheng Yu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 131,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2308.01661",
+      "url": "https://openalex.org/W4385904184",
+      "key": "openalex_1048550_arxiv230801661_BEVControl_Accurately_Controlling_Street-view_Elements_wit",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv230801661_BEVControl_Accurately_Controlling_Street-view_Elements_wit.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403586125",
+      "doi": "10.48550/arxiv.2409.04003",
+      "title": "DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes",
+      "abstract": "Recent advances in diffusion models have improved controllable streetscape generation and supported downstream perception and planning tasks. However, challenges remain in accurately modeling driving scenes and generating long videos. To alleviate these issues, we propose DreamForge, an advanced diffusion-based autoregressive video generation model tailored for 3D-controllable long-term generation. To enhance the lane and foreground generation, we introduce perspective guidance and integrate object-wise position encoding to incorporate local 3D correlation and improve foreground object modeling. We also propose motion-aware temporal attention to capture motion cues and appearance changes in videos. By leveraging motion frames and an autoregressive generation paradigm,we can autoregressively generate long videos (over 200 frames) using a model trained in short sequences, achieving superior quality compared to the baseline in 16-frame video evaluations. Finally, we integrate our method with the realistic simulator DriveArena to provide more reliable open-loop and closed-loop evaluations for vision-based driving agents. Project Page: https://pjlab-adg.github.io/DriveArena/dreamforge.",
+      "year": 2024,
+      "authors": [
+        "Jianbiao Mei",
+        "Hu, Tao",
+        "Xuemeng Yang",
+        "Licheng Wen",
+        "Yang, Yu",
+        "Tiantian Wei",
+        "Yukai Ma",
+        "Min Dou",
+        "Botian Shi",
+        "Yong Liu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 41,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.04003",
+      "url": "https://openalex.org/W4403586125",
+      "key": "openalex_1048550_arxiv240904003_DreamForge_Motion-Aware_Autoregressive_Video_Generation_fo",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240904003_DreamForge_Motion-Aware_Autoregressive_Video_Generation_fo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4387427219",
+      "doi": "10.48550/arxiv.2310.02601",
+      "title": "MagicDrive: Street View Generation with Diverse 3D Geometry Control",
+      "abstract": "Recent advancements in diffusion models have significantly enhanced the data synthesis with 2D control. Yet, precise 3D control in street view generation, crucial for 3D perception tasks, remains elusive. Specifically, utilizing Bird's-Eye View (BEV) as the primary condition often leads to challenges in geometry control (e.g., height), affecting the representation of object shapes, occlusion patterns, and road surface elevations, all of which are essential to perception data synthesis, especially for 3D object detection tasks. In this paper, we introduce MagicDrive, a novel street view generation framework, offering diverse 3D geometry controls including camera poses, road maps, and 3D bounding boxes, together with textual descriptions, achieved through tailored encoding strategies. Besides, our design incorporates a cross-view attention module, ensuring consistency across multiple camera views. With MagicDrive, we achieve high-fidelity street-view image & video synthesis that captures nuanced 3D geometry and various scene descriptions, enhancing tasks like BEV segmentation and 3D object detection.",
+      "year": 2024,
+      "authors": [
+        "Ruiyuan Gao",
+        "Kai Chen",
+        "Enze Xie",
+        "Lanqing Hong",
+        "Zhenguo Li",
+        "Dit‐Yan Yeung",
+        "Qiang Xu"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 222,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/635351dc3d18116d1a44ca31592e2f9a-Paper-Conference.pdf",
+      "url": "https://openalex.org/W4387427219",
+      "key": "openalex_1048550_arxiv231002601_MagicDrive_Street_View_Generation_with_Diverse_3D_Geometry",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv231002601_MagicDrive_Street_View_Generation_with_Diverse_3D_Geometry.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415796584",
+      "doi": "10.52202/079017-2608",
+      "title": "SceneCraft: Layout-Guided 3D Scene Generation",
+      "abstract": "The creation of complex 3D scenes tailored to user specifications has been a tedious and challenging task with traditional 3D modeling tools. Although some pioneering methods have achieved automatic text-to-3D generation, they are generally limited to small-scale scenes with restricted control over the shape and texture. We introduce SceneCraft, a novel method for generating detailed indoor scenes that adhere to textual descriptions and spatial layout preferences provided by users. Central to our method is a rendering-based technique, which converts 3D semantic layouts into multi-view 2D proxy maps. Furthermore, we design a semantic and depth conditioned diffusion model to generate multi-view images, which are used to learn a neural radiance field (NeRF) as the final scene representation. Without the constraints of panorama image generation, we surpass previous methods in supporting complicated indoor space generation beyond a single room, even as complicated as a whole multi-bedroom apartment with irregular shapes and layouts. Through experimental analysis, we demonstrate that our method significantly outperforms existing approaches in complex indoor scene generation with diverse textures, consistent geometry, and realistic visual quality. Code and more results are available at: https://orangesodahub.github.io/SceneCraft",
+      "year": 2024,
+      "authors": [
+        "Xiuyu Yang",
+        "Yunze Man",
+        "Junkun Chen",
+        "Xiu-yu Yang"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 69,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415796584",
+      "key": "openalex_1052202_079017-2608_SceneCraft_Layout-Guided_3D_Scene_Generation",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-2608_SceneCraft_Layout-Guided_3D_Scene_Generation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405090690",
+      "doi": "10.48550/arxiv.2412.03520",
+      "title": "Seeing Beyond Views: Multi-View Driving Scene Video Generation with Holistic Attention",
+      "abstract": "Generating multi-view videos for autonomous driving training has recently gained much attention, with the challenge of addressing both cross-view and cross-frame consistency. Existing methods typically apply decoupled attention mechanisms for spatial, temporal, and view dimensions. However, these approaches often struggle to maintain consistency across dimensions, particularly when handling fast-moving objects that appear at different times and viewpoints. In this paper, we present CogDriving, a novel network designed for synthesizing high-quality multi-view driving videos. CogDriving leverages a Diffusion Transformer architecture with holistic-4D attention modules, enabling simultaneous associations across the spatial, temporal, and viewpoint dimensions. We also propose a lightweight controller tailored for CogDriving, i.e., Micro-Controller, which uses only 1.1% of the parameters of the standard ControlNet, enabling precise control over Bird's-Eye-View layouts. To enhance the generation of object instances crucial for autonomous driving, we propose a re-weighted learning objective, dynamically adjusting the learning weights for object instances during training. CogDriving demonstrates strong performance on the nuScenes validation set, achieving an FVD score of 37.8, highlighting its ability to generate realistic driving videos. The project can be found at https://luhannan.github.io/CogDrivingPage/.",
+      "year": 2024,
+      "authors": [
+        "Hannan Lu",
+        "Xiaohe Wu",
+        "Shudong Wang",
+        "Xiameng Qin",
+        "Xinyu Zhang",
+        "Junyu Han",
+        "Wangmeng Zuo",
+        "Tao, Ji"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 12,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.03520",
+      "url": "https://openalex.org/W4405090690",
+      "key": "openalex_1048550_arxiv241203520_Seeing_Beyond_Views_Multi-View_Driving_Scene_Video_Generat",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv241203520_Seeing_Beyond_Views_Multi-View_Driving_Scene_Video_Generat.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403759442",
+      "doi": "10.1007/978-3-031-72989-8_19",
+      "title": "WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Jiachen Lu",
+        "Ze Huang",
+        "Zeyu Yang",
+        "Jiahui Zhang",
+        "Li Zhang"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 134,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.02934",
+      "url": "https://openalex.org/W4403759442",
+      "key": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417012199",
+      "doi": "10.1109/tmm.2026.3712641",
+      "title": "DiVE: Efficient Multi-View Driving Scenes Generation Based on Video Diffusion Transformer",
+      "abstract": "Collecting multi-view driving scenario videos to enhance the performance of 3D visual perception tasks presents significant challenges and incurs substantial costs, making generative models for realistic data an appealing alternative. Yet, the videos generated by recent works suffer from poor quality and spatiotemporal consistency, undermining their utility in advancing perception tasks under driving scenarios. To address this gap, we propose DiVE, a diffusion transformer-based generative framework meticulously engineered to produce high-fidelity, temporally coherent, and cross-view consistent multi-view videos, aligning seamlessly with bird's-eye view layouts and textual descriptions. DiVE leverages a unified cross-attention and a SketchFormer to exert precise control over multimodal data, while incorporating a view-inflated attention mechanism that adds no extra parameters, thereby guaranteeing consistency across views. Despite these advancements, synthesizing high-resolution videos under multimodal constraints introduces dual challenges: investigating the optimal classifier-free guidance coniguration under intricate multi-condition inputs and mitigating excessive computational latency in high-resolution rendering--both of which remain underexplored in prior researches. To resolve these limitations, we introduce two innovations: Multi-Control Auxiliary Branch Distillation, which streamlines multi-condition CFG selection while circumventing high computational overhead, and Resolution Progressive Sampling, a training-free acceleration strategy that staggers resolution scaling to reduce high latency due to high resolution. These innovations collectively achieve a 2.62x speedup with minimal quality degradation. Evaluated on the nuScenes dataset, DiVE achieves SOTA performance in multi-view video generation, yielding photorealistic outputs with exceptional temporal and cross-view coherence.",
+      "year": 2026,
+      "authors": [
+        "Junpeng Jiang",
+        "Gangyi Hong",
+        "Miao Zhang",
+        "Hengtong Hu",
+        "Kun Zhan",
+        "Rui Shao",
+        "Liqiang Nie"
+      ],
+      "venue": "IEEE Transactions on Multimedia",
+      "cited_by": 15,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2504.19614",
+      "url": "https://openalex.org/W4417012199",
+      "key": "openalex_101109_tmm20263712641_DiVE_Efficient_Multi-View_Driving_Scenes_Generation_Based_o",
+      "file_kind": "txt",
+      "file": "openalex_101109_tmm20263712641_DiVE_Efficient_Multi-View_Driving_Scenes_Generation_Based_o.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4400573484",
+      "doi": "10.1145/3641519.3657513",
+      "title": "Streetscapes: Large-scale Consistent Street View Generation Using Autoregressive Video Diffusion",
+      "abstract": "We present a method for generating Streetscapes—long sequences of views through an on-the-fly synthesized city-scale scene. Our generation is conditioned by language input (e.g., city name, weather), as well as an underlying map/layout hosting the desired trajectory. Compared to recent models for video generation or 3D view synthesis, our method can scale to much longer-range camera trajectories, spanning several city blocks, while maintaining visual quality and consistency. To achieve this goal, we build on recent work on video diffusion, used within an autoregressive framework that can easily scale to long sequences. In particular, we introduce a new temporal imputation method that prevents our autoregressive approach from drifting from the distribution of realistic city imagery. We train our Streetscapes system on a compelling source of data—posed imagery from Google Street View, along with contextual map data—which allows users to generate city views conditioned on any desired city layout, with controllable camera pose.",
+      "year": 2024,
+      "authors": [
+        "Boyang Deng",
+        "Richard P. Tucker",
+        "Zhengqi Li",
+        "Leonidas J. Guibas",
+        "Noah Snavely",
+        "Gordon Wetzstein"
+      ],
+      "venue": "ACM SIGGRAPH Conference (SIGGRAPH)",
+      "cited_by": 57,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2407.13759",
+      "url": "https://openalex.org/W4400573484",
+      "key": "openalex_101145_36415193657513_Streetscapes_Large-scale_Consistent_Street_View_Generation_",
+      "file_kind": "txt",
+      "file": "openalex_101145_36415193657513_Streetscapes_Large-scale_Consistent_Street_View_Generation_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402727021",
+      "doi": "10.1109/cvpr52733.2024.00659",
+      "title": "Panacea: Panoramic and Controllable Video Generation for Autonomous Driving",
+      "abstract": "The field of autonomous driving increasingly demands high-quality annotated training data. In this paper, we propose Panacea, an innovative approach to generate panoramic and controllable videos in driving scenarios, capable of yielding an unlimited numbers of diverse, annotated samples pivotal for autonomous driving advancements. Panacea addresses two critical challenges: ‘Consistency’ and ‘Controllability.’ Consistency ensures temporal and cross-view coherence, while Controllability ensures the alignment of generated content with corresponding annotations. Our approach integrates a novel 4D attention and a two-stage generation pipeline to maintain coherence, supplemented by the ControlNet framework for meticulous control by the Bird'View (BEV) layouts. Extensive qualitative and quantitative evaluations of Panacea on the nuScenes dataset prove its effectiveness in generating high-quality multi-view driving-scene videos. This work notably propels the field of autonomous driving by effectively augmenting the training dataset used for advanced BEV perception techniques.",
+      "year": 2024,
+      "authors": [
+        "Yuqing Wen",
+        "Yucheng Zhao",
+        "Yingfei Liu",
+        "Fan Jia",
+        "Yanhui Wang",
+        "Chong Luo",
+        "Chi Zhang",
+        "Tiancai Wang",
+        "Xiaoyan Sun",
+        "Xiangyu Zhang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 232,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.16813",
+      "url": "https://openalex.org/W4402727021",
+      "key": "openalex_101109_cvpr52733202400659_Panacea_Panoramic_and_Controllable_Video_Generation_for",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202400659_Panacea_Panoramic_and_Controllable_Video_Generation_for.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7212158156",
+      "doi": "10.48550/arxiv.2609.09890",
+      "title": "StreetDiff: Multi-view Street Scenes Generation via Cross-view Consistent Multi-view Stable Diffusion with Structure Prompts",
+      "abstract": "Multi-view diffusion models have shown strong performance in scenes with strong geometric priors and sparse semantics, such as indoor rooms or simple outdoor environments (e.g., fields, courtyards). However, they often fail to maintain cross-view consistency under camera rotation, especially in structurally complex urban environments. Without explicit modeling of spherical correspondence across views, existing approaches tend to produce object duplication, structural distortion, and layout inconsistency. To address this limitation, we propose StreetDiff, a multi-view diffusion framework that explicitly enforces cross-view alignment during denoising. StreetDiff introduces a Panorama--Perspective Synergy design to decouple global layout reasoning from local detail synthesis, and incorporates a Panorama Alignment Module (PAM) that establishes spherical-projection-based attention constraints across views. By injecting structured alignment constraints without modifying the diffusion backbone, our framework achieves robust cross-view coherence in challenging urban street scene generation tasks. In addition, we construct Street360, a large-scale HDR multi-view urban panorama dataset. Extensive experiments demonstrate that StreetDiff significantly improves structural consistency and visual fidelity compared to prior multi-view diffusion generation methods.",
+      "year": 2026,
+      "authors": [
+        "Qi Zhang",
+        "Yanyifan Wang",
+        "Weiyuan Zhang",
+        "Hui Huang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.09890",
+      "url": "https://openalex.org/W7212158156",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv260909890_StreetDiff_Multi-view_Street_Scenes_Generation_via_Cross-v",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260909890_StreetDiff_Multi-view_Street_Scenes_Generation_via_Cross-v.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4415238772",
+      "doi": "10.48550/arxiv.2508.14327",
+      "title": "MoVieDrive: Urban Scene Synthesis with Multi-Modal Multi-View Video Diffusion Transformer",
+      "abstract": "Urban scene synthesis with video generation models has recently shown great potential for autonomous driving. Existing video generation approaches to autonomous driving primarily focus on RGB video generation and lack the ability to support multi-modal video generation. However, multi-modal data, such as depth maps and semantic maps, are crucial for holistic urban scene understanding in autonomous driving. Although it is feasible to use multiple models to generate different modalities, this increases the difficulty of model deployment and does not leverage complementary cues for multi-modal data generation. To address this problem, in this work, we propose a novel multi-modal multi-view video generation approach to autonomous driving. Specifically, we construct a unified diffusion transformer model composed of modal-shared components and modal-specific components. Then, we leverage diverse conditioning inputs to encode controllable scene structure and content cues into the multi-modal multi-view unified diffusion model. In this way, our approach is capable of generating multi-modal multi-view driving scene videos in a unified framework. Our thorough experiments on real-world autonomous driving dataset show that our approach achieves compelling video generation quality and controllability compared with state-of-the-art methods, while supporting multi-modal multi-view data generation.",
+      "year": 2025,
+      "authors": [
+        "Guile Wu",
+        "David Huang",
+        "Dongfeng Bai",
+        "Bingbing Liu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2508.14327",
+      "url": "https://openalex.org/W4415238772",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv250814327_MoVieDrive_Urban_Scene_Synthesis_with_Multi-Modal_Multi-Vi",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250814327_MoVieDrive_Urban_Scene_Synthesis_with_Multi-Modal_Multi-Vi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4414877175",
+      "doi": "10.48550/arxiv.2507.16869",
+      "title": "Controllable Video Generation: A Survey",
+      "abstract": "With the rapid development of AI-generated content (AIGC), video generation has emerged as one of its most dynamic and impactful subfields. In particular, the advancement of video generation foundation models has led to growing demand for controllable video generation methods that can more accurately reflect user intent. Most existing foundation models are designed for text-to-video generation, where text prompts alone are often insufficient to express complex, multi-modal, and fine-grained user requirements. This limitation makes it challenging for users to generate videos with precise control using current models. To address this issue, recent research has explored the integration of additional non-textual conditions, such as camera motion, depth maps, and human pose, to extend pretrained video generation models and enable more controllable video synthesis. These approaches aim to enhance the flexibility and practical applicability of AIGC-driven video generation systems. In this survey, we provide a systematic review of controllable video generation, covering both theoretical foundations and recent advances in the field. We begin by introducing the key concepts and commonly used open-source video generation models. We then focus on control mechanisms in video diffusion models, analyzing how different types of conditions can be incorporated into the denoising process to guide generation. Finally, we categorize existing methods based on the types of control signals they leverage, including single-condition generation, multi-condition generation, and universal controllable generation. For a complete list of the literature on controllable video generation reviewed, please visit our curated repository at https://github.com/mayuelala/Awesome-Controllable-Video-Generation.",
+      "year": 2025,
+      "authors": [
+        "Yue Ma",
+        "Feng, Kunyu",
+        "Hu, Zhongyuan",
+        "Xinyu Wang",
+        "Yucheng Wang",
+        "Zheng, Mingzhe",
+        "Bingyuan Wang",
+        "Wang, Qinghe",
+        "He, Xuanhua",
+        "Wang, Hongfa",
+        "Chenyang Zhu",
+        "Hongyu Liu",
+        "Yingqing He",
+        "Zeyu Wang",
+        "Zhifeng Li",
+        "Xiu Li",
+        "Sirui Han",
+        "Yike Guo",
+        "Wei Liu",
+        "Dan Xu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 153,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2507.16869",
+      "url": "https://openalex.org/W4414877175",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv250716869_Controllable_Video_Generation_A_Survey",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250716869_Controllable_Video_Generation_A_Survey.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413146205",
+      "doi": "10.1109/cvpr52734.2025.00639",
+      "title": "SceneCrafter: Controllable Multi-View Driving Scene Editing",
+      "abstract": "Simulation is crucial for developing and evaluating autonomous vehicle (AV) systems. Recent literature builds on a new generation of generative models to synthesize highly realistic images for full-stack simulation. However, purely synthetically generated scenes are not grounded in reality and have difficulty in inspiring confidence in the relevance of its outcomes. Editing models, on the other hand, leverage source scenes from real driving logs, and enable the simulation of different traffic layouts, behaviors, and operating conditions such as weather and time of day. While image editing is an established topic in computer vision, it presents fresh sets of challenges in driving simulation: (1) the need for cross-camera 3D consistency, (2) learning “empty street” priors from driving data with foreground occlusions, and (3) obtaining paired image tuples of varied editing conditions while preserving consistent layout and geometry. To address these challenges, we propose SceneCrafter, a versatile editor for realistic 3D-consistent manipulation of driving scenes captured from multiple cameras. We build on recent advancements in multi-view diffusion models, using a fully controllable framework that scales seamlessly to multi-modality conditions like weather, time of day, agent boxes and high-definition maps. To generate paired data for supervising the editing model, we propose a novel framework on top of Prompt-to-Prompt [15] to generate geometrically consistent synthetic paired data with global edits. We also introduce an alpha-blending framework to synthesize data with local edits, leveraging a model trained on empty street priors through novel masked training and multi-view repaint paradigm. SceneCrafter demonstrates powerful editing capabilities and achieves state-of-the-art realism, controllability, 3D consistency, and scene editing quality compared to existing baselines.",
+      "year": 2025,
+      "authors": [
+        "Zehao Zhu",
+        "Yuliang Zou",
+        "Chiyu Max Jiang",
+        "Bo Sun",
+        "Vincent Casser",
+        "Xiukun Huang",
+        "Jiahao Wang",
+        "Zhenpei Yang",
+        "Ruiqi Gao",
+        "Leonidas J. Guibas",
+        "Mingxing Tan",
+        "Dragomir Anguelov"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 14,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.19488",
+      "url": "https://openalex.org/W4413146205",
+      "key": "openalex_101109_cvpr52734202500639_SceneCrafter_Controllable_Multi-View_Driving_Scene_Edit",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202500639_SceneCrafter_Controllable_Multi-View_Driving_Scene_Edit.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405033109",
+      "doi": "10.48550/arxiv.2412.01407",
+      "title": "HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving",
+      "abstract": "Generative models have significantly improved the generation and prediction quality on either camera images or LiDAR point clouds for autonomous driving. However, a real-world autonomous driving system uses multiple kinds of input modality, usually cameras and LiDARs, where they contain complementary information for generation, while existing generation methods ignore this crucial feature, resulting in the generated results only covering separate 2D or 3D information. In order to fill the gap in 2D-3D multi-modal joint generation for autonomous driving, in this paper, we propose our framework, \\emph{HoloDrive}, to jointly generate the camera images and LiDAR point clouds. We employ BEV-to-Camera and Camera-to-BEV transform modules between heterogeneous generative models, and introduce a depth prediction branch in the 2D generative model to disambiguate the un-projecting from image space to BEV space, then extend the method to predict the future by adding temporal structure and carefully designed progressive training. Further, we conduct experiments on single frame generation and world model benchmarks, and demonstrate our method leads to significant performance gains over SOTA methods in terms of generation metrics.",
+      "year": 2024,
+      "authors": [
+        "Zehuan Wu",
+        "Jingcheng Ni",
+        "Wang, Xiaodong",
+        "Yuxin Guo",
+        "Rui Chen",
+        "Lewei Lu",
+        "Jifeng Dai",
+        "Yuwen Xiong"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 32,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.01407",
+      "url": "https://openalex.org/W4405033109",
+      "key": "openalex_1048550_arxiv241201407_HoloDrive_Holistic_2D-3D_Multi-Modal_Street_Scene_Generati",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv241201407_HoloDrive_Holistic_2D-3D_Multi-Modal_Street_Scene_Generati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403662700",
+      "doi": "10.48550/arxiv.2409.05463",
+      "title": "DriveScape: Towards High-Resolution Controllable Multi-View Driving Video Generation",
+      "abstract": "Recent advancements in generative models have provided promising solutions for synthesizing realistic driving videos, which are crucial for training autonomous driving perception models. However, existing approaches often struggle with multi-view video generation due to the challenges of integrating 3D information while maintaining spatial-temporal consistency and effectively learning from a unified model. We propose DriveScape, an end-to-end framework for multi-view, 3D condition-guided video generation, capable of producing 1024 x 576 high-resolution videos at 10Hz. Unlike other methods limited to 2Hz due to the 3D box annotation frame rate, DriveScape overcomes this with its ability to operate under sparse conditions. Our Bi-Directional Modulated Transformer (BiMot) ensures precise alignment of 3D structural information, maintaining spatial-temporal consistency. DriveScape excels in video generation performance, achieving state-of-the-art results on the nuScenes dataset with an FID score of 8.34 and an FVD score of 76.39. Our project homepage: https://metadrivescape.github.io/papers_project/drivescapev1/index.html",
+      "year": 2024,
+      "authors": [
+        "Wei Wu",
+        "Xiaolong Guo",
+        "Weixuan Tang",
+        "Huang, Tingxuan",
+        "Wang, Chiyu",
+        "Dongyue Chen",
+        "Ding, Chenjing"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 25,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.05463",
+      "url": "https://openalex.org/W4403662700",
+      "key": "openalex_1048550_arxiv240905463_DriveScape_Towards_High-Resolution_Controllable_Multi-View",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240905463_DriveScape_Towards_High-Resolution_Controllable_Multi-View.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144960",
+      "doi": "10.1109/cvpr52734.2025.01118",
+      "title": "UniScene: Unified Occupancy-centric Driving Scene Generation",
+      "abstract": "Generating high-fidelity, controllable, and annotated training data is critical for autonomous driving. Existing methods typically generate a single data form directly from a coarse scene layout, which not only fails to output rich data forms required for diverse downstream tasks but also struggles to model the direct layout-to-data distribution. In this paper, we introduce UniScene, the first unified framework for generating three key data forms — semantic occupancy, video, and LiDAR — in driving scenes. UniScene employs a progressive generation process that decomposes the complex task of scene generation into two hierarchical steps: (a) first generating semantic occupancy from a customized scene layout as a meta scene representation rich in both semantic and geometric information, and then (b) conditioned on occupancy, generating video and LiDAR data, respectively, with two novel transfer strategies of Gaussian-based Joint Rendering and Prior-guided Sparse Modeling. This occupancy-centric approach reduces the generation burden, especially for intricate scenes, while providing detailed intermediate representations for the subsequent generation stages. Extensive experiments demonstrate that UniScene outperforms previous SOTAs in the occupancy, video, and LiDAR generation, which also indeed benefits downstream driving tasks. The Project is available at https://arlo0o.github.io/uniscene/.",
+      "year": 2025,
+      "authors": [
+        "Bohan Li",
+        "J. Guo",
+        "Hongsi Liu",
+        "Yingshuang Zou",
+        "Yikang Ding",
+        "Xiwu Chen",
+        "Hu Zhu",
+        "Feiyang Tan",
+        "Chi Zhang",
+        "Tiancai Wang",
+        "Shuchang Zhou",
+        "Li Zhang",
+        "Xiaojuan Qi",
+        "Hao Zhao",
+        "Mu Yang",
+        "Wenjun Zeng",
+        "Xin Jin"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 152,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.05435",
+      "url": "https://openalex.org/W4413144960",
+      "key": "openalex_101109_cvpr52734202501118_UniScene_Unified_Occupancy-centric_Driving_Scene_Genera",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202501118_UniScene_Unified_Occupancy-centric_Driving_Scene_Genera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4403620389",
+      "doi": "10.48550/arxiv.2409.06189",
+      "title": "MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control",
+      "abstract": "High-quality driving video generation is crucial for providing training data for autonomous driving models. However, current generative models rarely focus on enhancing camera motion control under multi-view tasks, which is essential for driving video generation. Therefore, we propose MyGo, an end-to-end framework for video generation, introducing motion of onboard cameras as conditions to make progress in camera controllability and multi-view consistency. MyGo employs additional plug-in modules to inject camera parameters into the pre-trained video diffusion model, which retains the extensive knowledge of the pre-trained model as much as possible. Furthermore, we use epipolar constraints and neighbor view information during the generation process of each view to enhance spatial-temporal consistency. Experimental results show that MyGo has achieved state-of-the-art results in both general camera-controlled video generation and multi-view driving video generation tasks, which lays the foundation for more accurate environment simulation in autonomous driving. Project page: https://metadrivescape.github.io/papers_project/MyGo/page.html",
+      "year": 2024,
+      "authors": [
+        "Yining Yao",
+        "Xi Wei Guo",
+        "Chenjing Ding",
+        "Wei Wu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 7,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.06189",
+      "url": "https://openalex.org/W4403620389",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv240906189_MyGo_Consistent_and_Controllable_Multi-View_Driving_Video_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240906189_MyGo_Consistent_and_Controllable_Multi-View_Driving_Video_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7160155305",
+      "doi": "10.1109/iccv51701.2025.02441",
+      "title": "PerLDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Model",
+      "abstract": "Controllable generation is considered a potentially vital approach to address the challenge of annotating 3D data, and the precision of such controllable generation becomes particularly imperative in the context of data production for autonomous driving. Existing methods focus on the integration of diverse generative information into controlling inputs, utilizing frameworks such as GLIGEN or ControlNet, to produce commendable outcomes in controllable generation. However, such approaches intrinsically restrict generation performance to the learning capacities of predefined network architectures. In this paper, we explore the innovative integration of controlling information and introduce PerLDiff (\\textbf{Per}spective-\\textbf{L}ayout \\textbf{Diff}usion Models), a novel method for effective street view image generation that fully leverages perspective 3D geometric information. Our PerLDiff employs 3D geometric priors to guide the generation of street view images with precise object-level control within the network learning process, resulting in a more robust and controllable output. Moreover, it demonstrates superior controllability compared to alternative layout control methods. Empirical results justify that our PerLDiff markedly enhances the precision of controllable generation on the NuScenes and KITTI datasets.",
+      "year": 2025,
+      "authors": [
+        "Jinhua Zhang",
+        "Hualian Sheng",
+        "Sijia Cai",
+        "Bing Deng",
+        "Qiao Liang",
+        "Wen Li",
+        "Ying Fu",
+        "Jieping Ye",
+        "Shuhang Gu"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 16,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2407.06109",
+      "url": "https://openalex.org/W7160155305",
+      "key": "openalex_101109_iccv51701202502441_PerLDiff_Controllable_Street_View_Synthesis_Using_Persp",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502441_PerLDiff_Controllable_Street_View_Synthesis_Using_Persp.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413917947",
+      "doi": "10.1109/icra55743.2025.11127463",
+      "title": "DreamDrive: Generative 4D Scene Modeling from Street View Images",
+      "abstract": "Synthesizing photo-realistic visual observations from an ego vehicle's driving trajectory is a critical step towards scalable training of self-driving models. Reconstruction-based methods create 3D scenes from driving logs and synthesize geometry-consistent driving videos through neural rendering, but their dependence on costly object annotations limits their ability to generalize to in-the-wild driving scenarios. On the other hand, generative models can synthesize action-conditioned driving videos in a more generalizable way but often struggle with maintaining 3D visual consistency. In this paper, we present DreamDrive, a 4D spatial-temporal scene generation approach that combines the merits of generation and reconstruction, to synthesize generalizable 4D driving scenes and dynamic driving videos with 3D consistency. Specifically, we leverage the generative power of video diffusion models to synthesize a sequence of visual references and further elevate them to 4D with a novel hybrid Gaussian representation. Given a driving trajectory, we then render 3D-consistent driving videos via Gaussian splatting. The use of generative priors allows our method to produce high-quality 4D scenes from in-the-wild driving data, while neural rendering ensures 3D-consistent video generation from the 4D scenes. Extensive experiments on nuScenes and in-the-wild driving data demonstrate that DreamDrive can generate controllable and generalizable 4D driving scenes, synthesize novel views of driving videos with high fidelity and 3D consistency, decompose static and dynamic elements in a self-supervised manner, and enhance perception and planning tasks for autonomous driving.",
+      "year": 2025,
+      "authors": [
+        "Jiageng Mao",
+        "Boyi Li",
+        "Boris Ivanovic",
+        "Yuxiao Chen",
+        "Yan Wang",
+        "Yurong You",
+        "Chaowei Xiao",
+        "Danfei Xu",
+        "Marco Pavone",
+        "Yue Wang"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 43,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.00601",
+      "url": "https://openalex.org/W4413917947",
+      "key": "openalex_101109_icra55743202511127463_DreamDrive_Generative_4D_Scene_Modeling_from_Street_",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra55743202511127463_DreamDrive_Generative_4D_Scene_Modeling_from_Street_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413145933",
+      "doi": "10.1109/cvpr52734.2025.02498",
+      "title": "StarGen: A Spatiotemporal Autoregression Framework with Video Diffusion Model for Scalable and Controllable Scene Generation",
+      "abstract": "Recent advances in large reconstruction and generative models have significantly improved scene reconstruction and novel view generation. However, due to compute limitations, each inference with these large models is confined to a small area, making long-range consistent scene generation challenging. To address this, we propose StarGen, a novel framework that employs a pre-trained video diffusion model in an autoregressive manner for long-range scene generation. The generation of each video clip is conditioned on the 3D warping of spatially adjacent images and the tem-porally overlapping image from previously generated clips, improving spatiotemporal consistency in long-range scene generation with precise pose control. The spatiotemporal condition is compatible with various input conditions, facilitating diverse tasks, including sparse view interpolation, perpetual view generation, and layout-conditioned city generation. Quantitative and qualitative evaluations demonstrate StarGen’s superior scalability, fidelity, and pose accuracy compared to state-of-the-art methods. Project page: https://zju3dv.github.io/StarGen.",
+      "year": 2025,
+      "authors": [
+        "Shangjin Zhai",
+        "Zhichao Ye",
+        "Jialin Liu",
+        "Weijian Xie",
+        "Jia Sheng Hu",
+        "Zhen Peng",
+        "Hua Xue",
+        "Danpeng Chen",
+        "Xiaomeng Wang",
+        "Lei Yang",
+        "Nan Wang",
+        "Haomin Liu",
+        "Guofeng Zhang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 34,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.05763",
+      "url": "https://openalex.org/W4413145933",
+      "key": "openalex_101109_cvpr52734202502498_StarGen_A_Spatiotemporal_Autoregression_Framework_with_",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202502498_StarGen_A_Spatiotemporal_Autoregression_Framework_with_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402955020",
+      "doi": "10.48550/arxiv.2409.01595",
+      "title": "DiVE: DiT-based Video Generation with Enhanced Control",
+      "abstract": "Generating high-fidelity, temporally consistent videos in autonomous driving scenarios faces a significant challenge, e.g. problematic maneuvers in corner cases. Despite recent video generation works are proposed to tackcle the mentioned problem, i.e. models built on top of Diffusion Transformers (DiT), works are still missing which are targeted on exploring the potential for multi-view videos generation scenarios. Noticeably, we propose the first DiT-based framework specifically designed for generating temporally and multi-view consistent videos which precisely match the given bird's-eye view layouts control. Specifically, the proposed framework leverages a parameter-free spatial view-inflated attention mechanism to guarantee the cross-view consistency, where joint cross-attention modules and ControlNet-Transformer are integrated to further improve the precision of control. To demonstrate our advantages, we extensively investigate the qualitative comparisons on nuScenes dataset, particularly in some most challenging corner cases. In summary, the effectiveness of our proposed method in producing long, controllable, and highly consistent videos under difficult conditions is proven to be effective.",
+      "year": 2024,
+      "authors": [
+        "Junpeng Jiang",
+        "Gangyi Hong",
+        "Zhou, Lijun",
+        "Enhui Ma",
+        "Hu, Hengtong",
+        "Xia Zhou",
+        "Xiang, Jie",
+        "Fan Liu",
+        "Kaicheng Yu",
+        "Sun, Haiyang",
+        "Kun Zhan",
+        "Jia Peng",
+        "Miao Zhang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 42,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.01595",
+      "url": "https://openalex.org/W4402955020",
+      "key": "openalex_1048550_arxiv240901595_DiVE_DiT-based_Video_Generation_with_Enhanced_Control",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240901595_DiVE_DiT-based_Video_Generation_with_Enhanced_Control.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144822",
+      "doi": "10.1109/cvpr52734.2025.02234",
+      "title": "Mind the Time: Temporally-Controlled Multi-Event Video Generation",
+      "abstract": "Real-world videos consist of sequences of events. Generating such sequences with precise temporal control is infeasible with existing video generators that rely on a single paragraph of text as input. When tasked with generating multiple events described using a single prompt, such methods often ignore some of the events or fail to arrange them in the correct order. To address this limitation, we present MinT, a multi-event video generator with temporal control. Our key insight is to bind each event to a specific period in the generated video, which allows the model to focus on one event at a time. To enable time-aware interactions between event captions and video tokens, we design a time-based positional encoding method, dubbed ReRoPE. This encoding helps to guide the cross-attention operation. By fine-tuning a pre-trained video diffusion transformer on temporally grounded data, our approach produces coherent videos with smoothly connected events. For the first time in the literature, our model offers control over the timing of events in generated videos. Extensive experiments demonstrate that MinT outperforms existing commercial and open-source models by a large margin. Additional results and details are available at our project page.",
+      "year": 2025,
+      "authors": [
+        "Ziyi Wu",
+        "Aliaksandr Siarohin",
+        "Willi Menapace",
+        "Ivan Skorokhodov",
+        "Yuwei Fang",
+        "Varnith Chordia",
+        "Igor Gilitschenski",
+        "Sergey Tulyakov"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 57,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.05263",
+      "url": "https://openalex.org/W4413144822",
+      "key": "openalex_101109_cvpr52734202502234_Mind_the_Time_Temporally-Controlled_Multi-Event_Video_G",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202502234_Mind_the_Time_Temporally-Controlled_Multi-Event_Video_G.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.14981v4",
+      "doi": "",
+      "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+      "abstract": "Creating high-fidelity 3D models of indoor environments is essential for applications in design, virtual reality, and robotics. However, manual 3D modeling remains time-consuming and labor-intensive. While recent advances in generative AI have enabled automated scene synthesis, existing methods often face challenges in balancing visual quality, diversity, semantic consistency, and user control. A major bottleneck is the lack of a large-scale, high-quality dataset tailored to this task. To address this gap, we introduce a comprehensive synthetic dataset, featuring 12,328 structured annotated scenes with 57,431 rooms, and 4.7M photorealistic 2D renderings. Leveraging this dataset, we present SpatialGen, a novel multi-view multi-modal diffusion model that generates realistic and semantically consistent 3D indoor scenes. Given a 3D layout and a reference image (derived from a text prompt), our model synthesizes appearance (color image), geometry (scene coordinate map), and semantic (semantic segmentation map) from arbitrary viewpoints, while preserving spatial consistency across modalities. SpatialGen consistently generates superior results to previous methods in our experiments. We are open-sourcing our data and models to empower the community and advance the field of indoor scene understanding and generation.",
+      "year": 2025,
+      "authors": [
+        "Chuan Fang",
+        "Heng Li",
+        "Yixun Liang",
+        "Jia Zheng",
+        "Yongsen Mao",
+        "Yuan Liu",
+        "Rui Tang",
+        "Zihan Zhou",
+        "Ping Tan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.14981v4",
+      "url": "http://arxiv.org/abs/2509.14981v4",
+      "key": "arxiv_250914981v4_SPATIALGEN_Layout-guided_3D_Indoor_Scene_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_250914981v4_SPATIALGEN_Layout-guided_3D_Indoor_Scene_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2408.14819v1",
+      "doi": "",
+      "title": "Build-A-Scene: Interactive 3D Layout Control for Diffusion-Based Image Generation",
+      "abstract": "We propose a diffusion-based approach for Text-to-Image (T2I) generation with interactive 3D layout control. Layout control has been widely studied to alleviate the shortcomings of T2I diffusion models in understanding objects' placement and relationships from text descriptions. Nevertheless, existing approaches for layout control are limited to 2D layouts, require the user to provide a static layout beforehand, and fail to preserve generated images under layout changes. This makes these approaches unsuitable for applications that require 3D object-wise control and iterative refinements, e.g., interior design and complex scene generation. To this end, we leverage the recent advancements in depth-conditioned T2I models and propose a novel approach for interactive 3D layout control. We replace the traditional 2D boxes used in layout control with 3D boxes. Furthermore, we revamp the T2I task as a multi-stage generation process, where at each stage, the user can insert, change, and move an object in 3D while preserving objects from earlier stages. We achieve this through our proposed Dynamic Self-Attention (DSA) module and the consistent 3D object translation strategy. Experiments show that our approach can generate complicated scenes based on 3D layouts, boosting the object generation success rate over the standard depth-conditioned T2I methods by 2x. Moreover, it outperforms other methods in comparison in preserving objects under layout changes. Project Page: \\url{https://abdo-eldesokey.github.io/build-a-scene/}",
+      "year": 2024,
+      "authors": [
+        "Abdelrahman Eldesokey",
+        "Peter Wonka"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.14819v1",
+      "url": "http://arxiv.org/abs/2408.14819v1",
+      "key": "arxiv_240814819v1_Build-A-Scene_Interactive_3D_Layout_Control_for_Diffusion-Based_Image_Ge",
+      "file_kind": "txt",
+      "file": "arxiv_240814819v1_Build-A-Scene_Interactive_3D_Layout_Control_for_Diffusion-Based_Image_Ge.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2405.14475v4",
+      "doi": "",
+      "title": "MagicDrive3D: Controllable 3D Generation for Any-View Rendering in Street Scenes",
+      "abstract": "Controllable generative models for images and videos have seen significant success, yet 3D scene generation, especially in unbounded scenarios like autonomous driving, remains underdeveloped. Existing methods lack flexible controllability and often rely on dense view data collection in controlled environments, limiting their generalizability across common datasets (e.g., nuScenes). In this paper, we introduce MagicDrive3D, a novel framework for controllable 3D street scene generation that combines video-based view synthesis with 3D representation (3DGS) generation. It supports multi-condition control, including road maps, 3D objects, and text descriptions. Unlike previous approaches that require 3D representation before training, MagicDrive3D first trains a multi-view video generation model to synthesize diverse street views. This method utilizes routinely collected autonomous driving data, reducing data acquisition challenges and enriching 3D scene generation. In the 3DGS generation step, we introduce Fault-Tolerant Gaussian Splatting to address minor errors and use monocular depth for better initialization, alongside appearance modeling to manage exposure discrepancies across viewpoints. Experiments show that MagicDrive3D generates diverse, high-quality 3D driving scenes, supports any-view rendering, and enhances downstream tasks like BEV segmentation, demonstrating its potential for autonomous driving simulation and beyond.",
+      "year": 2024,
+      "authors": [
+        "Ruiyuan Gao",
+        "Kai Chen",
+        "Zhihao Li",
+        "Lanqing Hong",
+        "Zhenguo Li",
+        "Qiang Xu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.14475v4",
+      "url": "http://arxiv.org/abs/2405.14475v4",
+      "key": "arxiv_240514475v4_MagicDrive3D_Controllable_3D_Generation_for_Any-View_Rendering_in_Street",
+      "file_kind": "txt",
+      "file": "arxiv_240514475v4_MagicDrive3D_Controllable_3D_Generation_for_Any-View_Rendering_in_Street.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.07152v1",
+      "doi": "",
+      "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+      "abstract": "Three-dimensional scene generation is crucial in computer vision, with applications spanning autonomous driving, gaming and the metaverse. Current methods either lack user control or rely on imprecise, non-intuitive conditions. In this work, we propose a method that uses, scene graphs, an accessible, user friendly control format to generate outdoor 3D scenes. We develop an interactive system that transforms a sparse scene graph into a dense BEV (Bird's Eye View) Embedding Map, which guides a conditional diffusion model to generate 3D scenes that match the scene graph description. During inference, users can easily create or modify scene graphs to generate large-scale outdoor scenes. We create a large-scale dataset with paired scene graphs and 3D semantic scenes to train the BEV embedding and diffusion models. Experimental results show that our approach consistently produces high-quality 3D urban scenes closely aligned with the input scene graphs. To the best of our knowledge, this is the first approach to generate 3D outdoor scenes conditioned on scene graphs.",
+      "year": 2025,
+      "authors": [
+        "Yuheng Liu",
+        "Xinke Li",
+        "Yuning Zhang",
+        "Lu Qi",
+        "Xin Li",
+        "Wenping Wang",
+        "Chongshou Li",
+        "Xueting Li",
+        "Ming-Hsuan Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.07152v1",
+      "url": "http://arxiv.org/abs/2503.07152v1",
+      "key": "arxiv_250307152v1_Controllable_3D_Outdoor_Scene_Generation_via_Scene_Graphs",
+      "file_kind": "txt",
+      "file": "arxiv_250307152v1_Controllable_3D_Outdoor_Scene_Generation_via_Scene_Graphs.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.23796v2",
+      "doi": "",
+      "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene Reconstruction",
+      "abstract": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generation process, sacrificing object-level detail. Compositional methods preserve object fidelity by decoupling geometry from layout, but typically parameterize layout as sparse, unbounded pose variables that are difficult to learn and generalize poorly under scarce scene-level supervision. We present Mira-Scene, a compositional 3D scene reconstruction framework that replaces sparse pose regression with dense, bounded correspondence recovery. At its core is the Canonical Coordinate Map (CCM), a pixel-aligned field that maps each visible object pixel to a surface coordinate in the object's bounded canonical space. When paired with a scene-space Point Cloud Map (PCM) from monocular geometry estimation, CCM induces dense canonical-to-scene correspondences from which object transformations are recovered through robust geometric alignment. Because CCM operates in bounded canonical space, it provides a stable prediction target that can be trained from scalable object-level 3D data without requiring scene-level layout annotations. Mira-Scene further introduces a multimodal diffusion transformer that jointly generates object geometry and CCMs, using modality-specific expert streams with shared attention and positional encoding to promote geometry-layout consistency. Experiments on indoor, outdoor, synthetic, and in-the-wild scenes show that Mira-Scene substantially outperforms strong baselines in layout accuracy, achieving relative gains of 39.8% in 3D-IoU and 16.5% in 2D-IoU over SAM3D, using limited open-source training data.",
+      "year": 2026,
+      "authors": [
+        "Yang-Tian Sun",
+        "Tianjia Liu",
+        "Zehuan Huang",
+        "Yi-Hua Huang",
+        "Xiaoyang Lyu",
+        "Ziyi Yang",
+        "Zi-Xin Zou",
+        "Yuan-Chen Guo",
+        "Yan-Pei Cao",
+        "Xiaojuan Qi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.23796v2",
+      "url": "http://arxiv.org/abs/2609.23796v2",
+      "key": "arxiv_260923796v2_Mira-Scene_Pixel-Aligned_Layouts_for_Generative_3D_Scene_Reconstruction",
+      "file_kind": "txt",
+      "file": "arxiv_260923796v2_Mira-Scene_Pixel-Aligned_Layouts_for_Generative_3D_Scene_Reconstruction.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.21472v5",
+      "doi": "",
+      "title": "Stream3D: Sequential Multi-View 3D Generation via Evidential Memory",
+      "abstract": "View-conditioned 3D generators such as SAM 3D, TRELLIS, and Hunyuan3D produce high-quality object reconstructions from a single view, but real-world visual observation often arrives as long monocular streams. Naively applying these generators to each streaming frame independently leads to severe temporal inconsistency in the generated results. To address this problem, we propose Stream3D, the first training-free streaming mechanism that turns a frozen view-conditioned 3D generator into a streaming generator with constant cross-chunk memory. Stream3D achieves this by maintaining a compact evidential memory, which selectively caches the most informative historical frames based on a proposed evidence score mechanism. As the stream progresses, the memory dynamically updates to retain a fixed number of informative frames, preventing the memory footprint from growing linearly with sequence length. This also prevents degradation over long sequences and keeps the underlying generator completely unchanged without retraining, architectural modifications, or auxiliary losses. Evaluated on both realistic and synthetic streaming benchmarks, Stream3D outperforms latent-transport baselines, including KV-cache reuse and flow-based feature editing, across both photometric and geometric metrics. More details can be found at: https://stream-3d.github.io/stream3d.github.io/.",
+      "year": 2026,
+      "authors": [
+        "Kaichen Zhou",
+        "Zeyang Bai",
+        "Xinhai Chang",
+        "Mengyu Wang",
+        "Paul Liang",
+        "Fangneng Zhan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.21472v5",
+      "url": "http://arxiv.org/abs/2605.21472v5",
+      "key": "arxiv_260521472v5_Stream3D_Sequential_Multi-View_3D_Generation_via_Evidential_Memory",
+      "file_kind": "txt",
+      "file": "arxiv_260521472v5_Stream3D_Sequential_Multi-View_3D_Generation_via_Evidential_Memory.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2507.00334v1",
+      "doi": "",
+      "title": "Populate-A-Scene: Affordance-Aware Human Video Generation",
+      "abstract": "Can a video generation model be repurposed as an interactive world simulator? We explore the affordance perception potential of text-to-video models by teaching them to predict human-environment interaction. Given a scene image and a prompt describing human actions, we fine-tune the model to insert a person into the scene, while ensuring coherent behavior, appearance, harmonization, and scene affordance. Unlike prior work, we infer human affordance for video generation (i.e., where to insert a person and how they should behave) from a single scene image, without explicit conditions like bounding boxes or body poses. An in-depth study of cross-attention heatmaps demonstrates that we can uncover the inherent affordance perception of a pre-trained video model without labeled affordance datasets.",
+      "year": 2025,
+      "authors": [
+        "Mengyi Shan",
+        "Zecheng He",
+        "Haoyu Ma",
+        "Felix Juefei-Xu",
+        "Peizhao Zhang",
+        "Tingbo Hou",
+        "Ching-Yao Chuang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2507.00334v1",
+      "url": "http://arxiv.org/abs/2507.00334v1",
+      "key": "arxiv_250700334v1_Populate-A-Scene_Affordance-Aware_Human_Video_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_250700334v1_Populate-A-Scene_Affordance-Aware_Human_Video_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2508.08048v2",
+      "doi": "",
+      "title": "S^2VG: 3D Stereoscopic and Spatial Video Generation via Denoising Frame Matrix",
+      "abstract": "While video generation models excel at producing high-quality monocular videos, generating 3D stereoscopic and spatial videos for immersive applications remains an underexplored challenge. We present a pose-free and training-free method that leverages an off-the-shelf monocular video generation model to produce immersive 3D videos. Our approach first warps the generated monocular video into pre-defined camera viewpoints using estimated depth information, then applies a novel \\textit{frame matrix} inpainting framework. This framework utilizes the original video generation model to synthesize missing content across different viewpoints and timestamps, ensuring spatial and temporal consistency without requiring additional model fine-tuning. Moreover, we develop a \\dualupdate~scheme that further improves the quality of video inpainting by alleviating the negative effects propagated from disoccluded areas in the latent space. The resulting multi-view videos are then adapted into stereoscopic pairs or optimized into 4D Gaussians for spatial video synthesis. We validate the efficacy of our proposed method by conducting experiments on videos from various generative models, such as Sora, Lumiere, WALT, and Zeroscope. The experiments demonstrate that our method has a significant improvement over previous methods. Project page at: https://daipengwa.github.io/S-2VG_ProjectPage/",
+      "year": 2025,
+      "authors": [
+        "Peng Dai",
+        "Feitong Tan",
+        "Qiangeng Xu",
+        "Yihua Huang",
+        "David Futschik",
+        "Ruofei Du",
+        "Sean Fanello",
+        "Yinda Zhang",
+        "Xiaojuan Qi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2508.08048v2",
+      "url": "http://arxiv.org/abs/2508.08048v2",
+      "key": "arxiv_250808048v2_S2VG_3D_Stereoscopic_and_Spatial_Video_Generation_via_Denoising_Frame_Ma",
+      "file_kind": "txt",
+      "file": "arxiv_250808048v2_S2VG_3D_Stereoscopic_and_Spatial_Video_Generation_via_Denoising_Frame_Ma.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.04248v1",
+      "doi": "",
+      "title": "MVRoom: Controllable 3D Indoor Scene Generation with Multi-View Diffusion Models",
+      "abstract": "We introduce MVRoom, a controllable novel view synthesis (NVS) pipeline for 3D indoor scenes that uses multi-view diffusion conditioned on a coarse 3D layout. MVRoom employs a two-stage design in which the 3D layout is used throughout to enforce multi-view consistency. The first stage employs novel representations to effectively bridge the 3D layout and consistent image-based condition signals for multi-view generation. The second stage performs image-conditioned multi-view generation, incorporating a layout-aware epipolar attention mechanism to enhance multi-view consistency during the diffusion process. Additionally, we introduce an iterative framework that generates 3D scenes with varying numbers of objects and scene complexities by recursively performing multi-view generation (MVRoom), supporting text-to-scene generation. Experimental results demonstrate that our approach achieves high-fidelity and controllable 3D scene generation for NVS, outperforming state-of-the-art baseline methods both quantitatively and qualitatively. Ablation studies further validate the effectiveness of key components within our generation pipeline.",
+      "year": 2025,
+      "authors": [
+        "Shaoheng Fang",
+        "Chaohui Yu",
+        "Fan Wang",
+        "Qixing Huang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.04248v1",
+      "url": "http://arxiv.org/abs/2512.04248v1",
+      "key": "arxiv_251204248v1_MVRoom_Controllable_3D_Indoor_Scene_Generation_with_Multi-View_Diffusion",
+      "file_kind": "txt",
+      "file": "arxiv_251204248v1_MVRoom_Controllable_3D_Indoor_Scene_Generation_with_Multi-View_Diffusion.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.12716v1",
+      "doi": "",
+      "title": "Generative 4D Scene Gaussian Splatting with Object View-Synthesis Priors",
+      "abstract": "We tackle the challenge of generating dynamic 4D scenes from monocular, multi-object videos with heavy occlusions, and introduce GenMOJO, a novel approach that integrates rendering-based deformable 3D Gaussian optimization with generative priors for view synthesis. While existing models perform well on novel view synthesis for isolated objects, they struggle to generalize to complex, cluttered scenes. To address this, GenMOJO decomposes the scene into individual objects, optimizing a differentiable set of deformable Gaussians per object. This object-wise decomposition allows leveraging object-centric diffusion models to infer unobserved regions in novel viewpoints. It performs joint Gaussian splatting to render the full scene, capturing cross-object occlusions, and enabling occlusion-aware supervision. To bridge the gap between object-centric priors and the global frame-centric coordinate system of videos, GenMOJO uses differentiable transformations that align generative and rendering constraints within a unified framework. The resulting model generates 4D object reconstructions over space and time, and produces accurate 2D and 3D point tracks from monocular input. Quantitative evaluations and perceptual human studies confirm that GenMOJO generates more realistic novel views of scenes and produces more accurate point tracks compared to existing approaches.",
+      "year": 2025,
+      "authors": [
+        "Wen-Hsuan Chu",
+        "Lei Ke",
+        "Jianmeng Liu",
+        "Mingxiao Huo",
+        "Pavel Tokmakov",
+        "Katerina Fragkiadaki"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.12716v1",
+      "url": "http://arxiv.org/abs/2506.12716v1",
+      "key": "arxiv_250612716v1_Generative_4D_Scene_Gaussian_Splatting_with_Object_View-Synthesis_Priors",
+      "file_kind": "txt",
+      "file": "arxiv_250612716v1_Generative_4D_Scene_Gaussian_Splatting_with_Object_View-Synthesis_Priors.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2303.08137v1",
+      "doi": "",
+      "title": "LayoutDM: Discrete Diffusion Model for Controllable Layout Generation",
+      "abstract": "Controllable layout generation aims at synthesizing plausible arrangement of element bounding boxes with optional constraints, such as type or position of a specific element. In this work, we try to solve a broad range of layout generation tasks in a single model that is based on discrete state-space diffusion models. Our model, named LayoutDM, naturally handles the structured layout data in the discrete representation and learns to progressively infer a noiseless layout from the initial input, where we model the layout corruption process by modality-wise discrete diffusion. For conditional generation, we propose to inject layout constraints in the form of masking or logit adjustment during inference. We show in the experiments that our LayoutDM successfully generates high-quality layouts and outperforms both task-specific and task-agnostic baselines on several layout tasks.",
+      "year": 2023,
+      "authors": [
+        "Naoto Inoue",
+        "Kotaro Kikuchi",
+        "Edgar Simo-Serra",
+        "Mayu Otani",
+        "Kota Yamaguchi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.08137v1",
+      "url": "http://arxiv.org/abs/2303.08137v1",
+      "key": "arxiv_230308137v1_LayoutDM_Discrete_Diffusion_Model_for_Controllable_Layout_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_230308137v1_LayoutDM_Discrete_Diffusion_Model_for_Controllable_Layout_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.05474v2",
+      "doi": "10.1007/s11263-026-02999-6",
+      "title": "3D Scene Generation: A Survey",
+      "abstract": "3D scene generation seeks to synthesize spatially structured, semantically meaningful, and photorealistic environments for applications such as immersive media, robotics, autonomous driving, and embodied AI. Early methods based on procedural rules offered scalability but limited diversity. Recent advances in deep generative models (e.g., GANs, diffusion models) and 3D representations (e.g., NeRF, 3D Gaussians) have enabled the learning of real-world scene distributions, improving fidelity, diversity, and view consistency. Recent advances like diffusion models bridge 3D scene synthesis and photorealism by reframing generation as image or video synthesis problems. This survey provides a systematic overview of state-of-the-art approaches, organizing them into four paradigms: procedural generation, neural 3D-based generation, image-based generation, and video-based generation. We analyze their technical foundations, trade-offs, and representative results, and review commonly used datasets, evaluation protocols, and downstream applications. We conclude by discussing key challenges in generation capacity, 3D representation, data and annotations, and evaluation, and outline promising directions including higher fidelity, physics-aware and interactive generation, and unified perception-generation models. This review organizes recent advances in 3D scene generation and highlights promising directions at the intersection of generative AI, 3D vision, and embodied intelligence. To track ongoing developments, we maintain an up-to-date project page: https://github.com/hzxie/Awesome-3D-Scene-Generation.",
+      "year": 2025,
+      "authors": [
+        "Haozhe Xie",
+        "Beichen Wen",
+        "Zhaoxi Chen",
+        "Fangzhou Hong",
+        "Ziwei Liu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.05474v2",
+      "url": "http://arxiv.org/abs/2505.05474v2",
+      "key": "arxiv_101007_s11263-026-02999-6_3D_Scene_Generation_A_Survey",
+      "file_kind": "txt",
+      "file": "arxiv_101007_s11263-026-02999-6_3D_Scene_Generation_A_Survey.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2407.00367v1",
+      "doi": "",
+      "title": "SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix",
+      "abstract": "Video generation models have demonstrated great capabilities of producing impressive monocular videos, however, the generation of 3D stereoscopic video remains under-explored. We propose a pose-free and training-free approach for generating 3D stereoscopic videos using an off-the-shelf monocular video generation model. Our method warps a generated monocular video into camera views on stereoscopic baseline using estimated video depth, and employs a novel frame matrix video inpainting framework. The framework leverages the video generation model to inpaint frames observed from different timestamps and views. This effective approach generates consistent and semantically coherent stereoscopic videos without scene optimization or model fine-tuning. Moreover, we develop a disocclusion boundary re-injection scheme that further improves the quality of video inpainting by alleviating the negative effects propagated from disoccluded areas in the latent space. We validate the efficacy of our proposed method by conducting experiments on videos from various generative models, including Sora [4 ], Lumiere [2], WALT [8 ], and Zeroscope [ 42]. The experiments demonstrate that our method has a significant improvement over previous methods. The code will be released at \\url{https://daipengwa.github.io/SVG_ProjectPage}.",
+      "year": 2024,
+      "authors": [
+        "Peng Dai",
+        "Feitong Tan",
+        "Qiangeng Xu",
+        "David Futschik",
+        "Ruofei Du",
+        "Sean Fanello",
+        "Xiaojuan Qi",
+        "Yinda Zhang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2407.00367v1",
+      "url": "http://arxiv.org/abs/2407.00367v1",
+      "key": "arxiv_240700367v1_SVG_3D_Stereoscopic_Video_Generation_via_Denoising_Frame_Matrix",
+      "file_kind": "txt",
+      "file": "arxiv_240700367v1_SVG_3D_Stereoscopic_Video_Generation_via_Denoising_Frame_Matrix.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.27364v1",
+      "doi": "10.5281/zenodo.17370356",
+      "title": "Fine-Tuning Open Video Generators for Cinematic Scene Synthesis: A Small-Data Pipeline with LoRA and Wan2.1 I2V",
+      "abstract": "We present a practical pipeline for fine-tuning open-source video diffusion transformers to synthesize cinematic scenes for television and film production from small datasets. The proposed two-stage process decouples visual style learning from motion generation. In the first stage, Low-Rank Adaptation (LoRA) modules are integrated into the cross-attention layers of the Wan2.1 I2V-14B model to adapt its visual representations using a compact dataset of short clips from Ay Yapim's historical television film El Turco. This enables efficient domain transfer within hours on a single GPU. In the second stage, the fine-tuned model produces stylistically consistent keyframes that preserve costume, lighting, and color grading, which are then temporally expanded into coherent 720p sequences through the model's video decoder. We further apply lightweight parallelization and sequence partitioning strategies to accelerate inference without quality degradation. Quantitative and qualitative evaluations using FVD, CLIP-SIM, and LPIPS metrics, supported by a small expert user study, demonstrate measurable improvements in cinematic fidelity and temporal stability over the base model. The complete training and inference pipeline is released to support reproducibility and adaptation across cinematic domains.",
+      "year": 2025,
+      "authors": [
+        "Meftun Akarsu",
+        "Kerem Catay",
+        "Sedat Bin Vedat",
+        "Enes Kutay Yarkan",
+        "Ilke Senturk",
+        "Arda Sar",
+        "Dafne Eksioglu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.27364v1",
+      "url": "http://arxiv.org/abs/2510.27364v1",
+      "key": "arxiv_105281_zenodo17370356_Fine-Tuning_Open_Video_Generators_for_Cinematic_Scene_Synthesi",
+      "file_kind": "txt",
+      "file": "arxiv_105281_zenodo17370356_Fine-Tuning_Open_Video_Generators_for_Cinematic_Scene_Synthesi.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2301.05175v3",
+      "doi": "",
+      "title": "Scene-Aware 3D Multi-Human Motion Capture from a Single Camera",
+      "abstract": "In this work, we consider the problem of estimating the 3D position of multiple humans in a scene as well as their body shape and articulation from a single RGB video recorded with a static camera. In contrast to expensive marker-based or multi-view systems, our lightweight setup is ideal for private users as it enables an affordable 3D motion capture that is easy to install and does not require expert knowledge. To deal with this challenging setting, we leverage recent advances in computer vision using large-scale pre-trained models for a variety of modalities, including 2D body joints, joint angles, normalized disparity maps, and human segmentation masks. Thus, we introduce the first non-linear optimization-based approach that jointly solves for the absolute 3D position of each human, their articulated pose, their individual shapes as well as the scale of the scene. In particular, we estimate the scene depth and person unique scale from normalized disparity predictions using the 2D body joints and joint angles. Given the per-frame scene depth, we reconstruct a point-cloud of the static scene in 3D space. Finally, given the per-frame 3D estimates of the humans and scene point-cloud, we perform a space-time coherent optimization over the video to ensure temporal, spatial and physical plausibility. We evaluate our method on established multi-person 3D human pose benchmarks where we consistently outperform previous methods and we qualitatively demonstrate that our method is robust to in-the-wild conditions including challenging scenes with people of different sizes.",
+      "year": 2023,
+      "authors": [
+        "Diogo Luvizon",
+        "Marc Habermann",
+        "Vladislav Golyanik",
+        "Adam Kortylewski",
+        "Christian Theobalt"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2301.05175v3",
+      "url": "http://arxiv.org/abs/2301.05175v3",
+      "key": "arxiv_230105175v3_Scene-Aware_3D_Multi-Human_Motion_Capture_from_a_Single_Camera",
+      "file_kind": "txt",
+      "file": "arxiv_230105175v3_Scene-Aware_3D_Multi-Human_Motion_Capture_from_a_Single_Camera.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2610.42031v1",
+      "doi": "",
+      "title": "Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation",
+      "abstract": "Autoregressive video generation enables efficient inference through streaming prediction. However, existing methods are typically restricted to fixed sampling steps, limiting the flexibility to balance generation quality and efficiency, while one-step generation suffers from degraded visual quality and error accumulation over long sequences, leading to content drift and generation collapse. To address these issues, we propose Any Forcing, a unified framework for achieving Any-Step Generality and One-Step Stability. Specifically, we introduce a unified adversarial discriminator that jointly performs real-distribution alignment, inter-step consistency alignment, and first-frame quality enhancement, enabling flexible sampling while preserving one-step generation quality. Furthermore, we propose a training-free adaptive long-term memory selection mechanism that selects historical states based on global semantic relevance and local value contribution, while remapping their temporal positions to preserve temporal relationships within the memory cache, thereby enabling stable one-step long-video generation. Experiments demonstrate that Any Forcing achieves high-quality and stable one-step autoregressive video generation, achieving 20.9 FPS and 24.7 FPS for short and long video generation on a single H100 GPU, respectively.",
+      "year": 2026,
+      "authors": [
+        "Jiahua Xu",
+        "Yijie Fang",
+        "Nannan Wang",
+        "Xunhao Lin",
+        "Li Cao",
+        "Lei Hao",
+        "Mingrui Zhu",
+        "Fei Gao",
+        "Xinbo Gao"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.42031v1",
+      "url": "http://arxiv.org/abs/2610.42031v1",
+      "key": "arxiv_261042031v1_Any_Forcing_Any-Step_Generality_and_One-Step_Stability_for_Autoregressiv",
+      "file_kind": "txt",
+      "file": "arxiv_261042031v1_Any_Forcing_Any-Step_Generality_and_One-Step_Stability_for_Autoregressiv.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2303.13450v1",
+      "doi": "",
+      "title": "Set-the-Scene: Global-Local Training for Generating Controllable NeRF Scenes",
+      "abstract": "Recent breakthroughs in text-guided image generation have led to remarkable progress in the field of 3D synthesis from text. By optimizing neural radiance fields (NeRF) directly from text, recent methods are able to produce remarkable results. Yet, these methods are limited in their control of each object's placement or appearance, as they represent the scene as a whole. This can be a major issue in scenarios that require refining or manipulating objects in the scene. To remedy this deficit, we propose a novel GlobalLocal training framework for synthesizing a 3D scene using object proxies. A proxy represents the object's placement in the generated scene and optionally defines its coarse geometry. The key to our approach is to represent each object as an independent NeRF. We alternate between optimizing each NeRF on its own and as part of the full scene. Thus, a complete representation of each object can be learned, while also creating a harmonious scene with style and lighting match. We show that using proxies allows a wide variety of editing options, such as adjusting the placement of each independent object, removing objects from a scene, or refining an object. Our results show that Set-the-Scene offers a powerful solution for scene synthesis and manipulation, filling a crucial gap in controllable text-to-3D synthesis.",
+      "year": 2023,
+      "authors": [
+        "Dana Cohen-Bar",
+        "Elad Richardson",
+        "Gal Metzer",
+        "Raja Giryes",
+        "Daniel Cohen-Or"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.13450v1",
+      "url": "http://arxiv.org/abs/2303.13450v1",
+      "key": "arxiv_230313450v1_Set-the-Scene_Global-Local_Training_for_Generating_Controllable_NeRF_Sce",
+      "file_kind": "txt",
+      "file": "arxiv_230313450v1_Set-the-Scene_Global-Local_Training_for_Generating_Controllable_NeRF_Sce.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2511.20646v1",
+      "doi": "",
+      "title": "3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding",
+      "abstract": "This paper addresses the challenge of training a single network to jointly perform multiple dense prediction tasks, such as segmentation and depth estimation, i.e., multi-task learning (MTL). Current approaches mainly capture cross-task relations in the 2D image space, often leading to unstructured features lacking 3D-awareness. We argue that 3D-awareness is vital for modeling cross-task correlations essential for comprehensive scene understanding. We propose to address this problem by integrating correlations across views, i.e., cost volume, as geometric consistency in the MTL network. Specifically, we introduce a lightweight Cross-view Module (CvM), shared across tasks, to exchange information across views and capture cross-view correlations, integrated with a feature from MTL encoder for multi-task predictions. This module is architecture-agnostic and can be applied to both single and multi-view data. Extensive results on NYUv2 and PASCAL-Context demonstrate that our method effectively injects geometric consistency into existing MTL methods to improve performance.",
+      "year": 2025,
+      "authors": [
+        "Xiaoye Wang",
+        "Chen Tang",
+        "Xiangyu Yue",
+        "Wei-Hong Li"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.20646v1",
+      "url": "http://arxiv.org/abs/2511.20646v1",
+      "key": "arxiv_251120646v1_3D-Aware_Multi-Task_Learning_with_Cross-View_Correlations_for_Dense_Scen",
+      "file_kind": "txt",
+      "file": "arxiv_251120646v1_3D-Aware_Multi-Task_Learning_with_Cross-View_Correlations_for_Dense_Scen.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2305.08186v2",
+      "doi": "10.13774/j.cnki.kjtb.2025.10.009",
+      "title": "City Street Layout Generation via Conditional Adversarial Learning",
+      "abstract": "The demand for high-quality city street layouts has persisted for an extended period presenting notable challenges. Conventional methods are yet to effectively address the integration of both natural and socioeconomic factors in this complex task. In this study, we propose a novel conditional adversarial learning-based method for city street layout generation from natural and socioeconomic conditions. Specifically, we design an image synthesis module that leverages an autoencoder to fuse a set of natural and socioeconomic data for a given region of interest into a feature map, and then employs a conditional generative adversarial network trained on real-world data to synthesize street layout images from the feature map. Afterward, a graph extraction module converts each synthesized image to the corresponding high-quality street layout graph. Experiments and evaluations suggest that the proposed method produces diverse city street layouts that closely resemble their real-world counterparts both visually and structurally. This capability can facilitate the creation of high-quality virtual city scenes.",
+      "year": 2023,
+      "authors": [
+        "Lehao Yang",
+        "Cui Zhu",
+        "Tian Feng"
+      ],
+      "venue": "Bulletin of Science and Technology, 2025, 41(10):83-90+115",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2305.08186v2",
+      "url": "http://arxiv.org/abs/2305.08186v2",
+      "key": "arxiv_1013774_jcnkikjtb202510009_City_Street_Layout_Generation_via_Conditional_Adversarial",
+      "file_kind": "txt",
+      "file": "arxiv_1013774_jcnkikjtb202510009_City_Street_Layout_Generation_via_Conditional_Adversarial.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.04830v1",
+      "doi": "",
+      "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+      "abstract": "Closed-loop simulation and scalable pre-training for autonomous driving require synthesizing free-viewpoint driving scenes. However, existing datasets and generative pipelines rarely provide consistent off-trajectory observations, limiting large-scale evaluation and training. While recent generative models demonstrate strong visual realism, they struggle to jointly achieve interpolation consistency and extrapolation realism without per-scene optimization. To address this, we propose FreeGen, a feed-forward reconstruction-generation co-training framework for free-viewpoint driving scene synthesis. The reconstruction model provides stable geometric representations to ensure interpolation consistency, while the generation model performs geometry-aware enhancement to improve realism at unseen viewpoints. Through co-training, generative priors are distilled into the reconstruction model to improve off-trajectory rendering, and the refined geometry in turn offers stronger structural guidance for generation. Experiments demonstrate that FreeGen achieves state-of-the-art performance for free-viewpoint driving scene synthesis.",
+      "year": 2025,
+      "authors": [
+        "Shijie Chen",
+        "Peixi Peng"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.04830v1",
+      "url": "http://arxiv.org/abs/2512.04830v1",
+      "key": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View",
+      "file_kind": "txt",
+      "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt"
+    }
+  ]
+}

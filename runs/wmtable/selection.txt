@@ -1,0 +1,65 @@
+# Driving world-model papers (screening: runs/wm/wm_screening.csv). Full title as in the open-access report; reason after " #".
+ADriver-I: A General World Model for Autonomous Driving # screened in as by citations; driving world model or sensor-level generator with a control input
+BEVControl: Accurately Controlling Street-view Elements with Multi-perspective Consistency via BEV Sketch Layout # screened in as by citations; driving world model or sensor-level generator with a control input
+BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents # screened in as by citations; driving world model or sensor-level generator with a control input
+Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion # screened in as probe; driving world model or sensor-level generator with a control input
+Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models # screened in as by citations; driving world model or sensor-level generator with a control input
+DiVE: DiT-based Video Generation with Enhanced Control # screened in as by citations; driving world model or sensor-level generator with a control input
+Doe-1: Closed-Loop Autonomous Driving with Large World Model # screened in as by citations; driving world model or sensor-level generator with a control input
+Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving # screened in as control analysis; driving world model or sensor-level generator with a control input
+DreamDrive: Generative 4D Scene Modeling from Street View Images # screened in as by citations; driving world model or sensor-level generator with a control input
+DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving # screened in as by citations; driving world model or sensor-level generator with a control input
+DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation # screened in as probe; driving world model or sensor-level generator with a control input
+DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation # screened in as by citations; driving world model or sensor-level generator with a control input
+DriveDreamer: Towards Real-World-Drive World Models for Autonomous Driving # screened in as probe; driving world model or sensor-level generator with a control input
+DriveScape: Towards High-Resolution Controllable Multi-View Driving Video Generation # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving # screened in as by citations; driving world model or sensor-level generator with a control input
+Driving Into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving # screened in as probe; driving world model or sensor-level generator with a control input
+Driving World Models Move the Camera, Not the Scene # screened in as control analysis; driving world model or sensor-level generator with a control input
+DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model # screened in as probe; driving world model or sensor-level generator with a control input
+DrivingGPT: Unifying Driving World Modeling and Planning with Multi-Modal Autoregressive Transformers # screened in as by citations; driving world model or sensor-level generator with a control input
+DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation # screened in as by citations; driving world model or sensor-level generator with a control input
+DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT # screened in as by citations; driving world model or sensor-level generator with a control input
+Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents # screened in as by citations; driving world model or sensor-level generator with a control input
+Epona: Autoregressive Diffusion World Model for Autonomous Driving # screened in as by citations; driving world model or sensor-level generator with a control input
+GAIA-1: A Generative World Model for Autonomous Driving # screened in as probe; driving world model or sensor-level generator with a control input
+GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving # screened in as probe; driving world model or sensor-level generator with a control input
+GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction # screened in as by citations; driving world model or sensor-level generator with a control input
+Generalized Predictive Model for Autonomous Driving # screened in as probe; driving world model or sensor-level generator with a control input
+GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+HelloWorld: Towards Practical Applications of Generative Driving World Models # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation # screened in as by citations; driving world model or sensor-level generator with a control input
+How Can Driving World Models Do Counterfactual Prediction? # screened in as control analysis; driving world model or sensor-level generator with a control input
+InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models # screened in as by citations; driving world model or sensor-level generator with a control input
+Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models # screened in as control analysis; driving world model or sensor-level generator with a control input
+LidarDM: Generative LiDAR Simulation in a Generated World # screened in as probe; driving world model or sensor-level generator with a control input
+MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control # screened in as by citations; driving world model or sensor-level generator with a control input
+MagicDrive: Street View Generation with Diverse 3D Geometry Control # screened in as probe; driving world model or sensor-level generator with a control input
+Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations # screened in as by citations; driving world model or sensor-level generator with a control input
+MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving # screened in as by citations; driving world model or sensor-level generator with a control input
+OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving # screened in as by citations; driving world model or sensor-level generator with a control input
+OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving # screened in as probe; driving world model or sensor-level generator with a control input
+OmniNWM: Omniscient Driving Navigation World Models # screened in as by citations; driving world model or sensor-level generator with a control input
+Panacea: Panoramic and Controllable Video Generation for Autonomous Driving # screened in as probe; driving world model or sensor-level generator with a control input
+PanDWM: Panoramic 4D Driving World Models # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+PerLDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Model # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration # screened in as by citations; driving world model or sensor-level generator with a control input
+ReSim: Reliable World Simulation for Autonomous Driving # screened in as by citations; driving world model or sensor-level generator with a control input
+Risk-Controllable Multi-View Diffusion for Driving Scenario Generation # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+SceneCrafter: Controllable Multi-View Driving Scene Editing # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+Street-View Image Generation From a Bird's-Eye View Layout # screened in as by citations; driving world model or sensor-level generator with a control input
+Streetscapes: Large-scale Consistent Street View Generation Using Autoregressive Video Diffusion # screened in as by citations; driving world model or sensor-level generator with a control input
+Towards Realistic Scene Generation with LiDAR Diffusion Models # screened in as by citations; driving world model or sensor-level generator with a control input
+UniMLVG: Unified Framework for Multi-View Long Video Generation with Comprehensive Control Capabilities for Autonomous Driving # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+UniScene: Unified Occupancy-centric Driving Scene Generation # screened in as by citations; driving world model or sensor-level generator with a control input
+Unleashing Generalization of End-to-End Autonomous Driving with Controllable Long Video Generation # screened in as by citations; driving world model or sensor-level generator with a control input
+Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability # screened in as probe; driving world model or sensor-level generator with a control input
+WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation # screened in as probe; driving world model or sensor-level generator with a control input
+X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input
+ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation # screened in as recent, control emphasis; driving world model or sensor-level generator with a control input

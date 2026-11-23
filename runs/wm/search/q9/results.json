@@ -1,0 +1,1412 @@
+{
+  "query": "text-to-driving-scene generation language controlled world model",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2023",
+  "raw_hits": 50,
+  "unique": 48,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7203663593",
+      "doi": "10.48550/arxiv.2608.16234",
+      "title": "GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation",
+      "abstract": "Driving World Models (DWMs) have recently advanced rapidly with generative models, yet most existing methods mainly focus on conditional scene generation and lack explicit 3D scene understanding, language-grounded reasoning, and controllable 4D editing capabilities. Moreover, commonly used point cloud, occupancy, or BEV representations make it difficult to achieve fine-grained alignment between textual information and the underlying 3D scene structure. To address these limitations, we propose a foundation-feature Gaussian driving world model that unifies scene understanding, language-grounded reasoning, controllable 4D editing, and multi-modal generation within a single framework. Specifically, we introduce a foundation-feature Gaussian tokenizer that directly distills Qwen/SigLIP visual-language features into 3D Gaussian primitives, building a compact open-vocabulary Gaussian semantic field. We further design a geometry-aware Gaussian adapter that combines importance-aware hierarchical selection with text-conditioned Perceiver-style cross-attention to aggregate dense Gaussian primitives into compact world tokens. To improve representation compatibility, we introduce a KL-based Gaussian--image distribution alignment objective that aligns Gaussian world tokens with foundation image tokens. Based on the aligned Gaussian representation, our framework further supports instruction-controllable scene editing, including weather-conditioned generation and dynamic vehicle manipulation. Extensive experiments on broader driving benchmarks demonstrate that our method achieves state-of-the-art performance across scene understanding, visual grounding, planning-oriented reasoning, and controllable 4D generation tasks. We will release the code and datasets publicly on Github.",
+      "year": 2026,
+      "authors": [
+        "Tianchen Deng",
+        "Xuefeng Chen",
+        "Shuang Wu",
+        "Qu Chen",
+        "Jiajun Zhu",
+        "Bo Dai",
+        "Jianfei Yang",
+        "Hesheng Wang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.16234",
+      "url": "https://openalex.org/W7203663593",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv260816234_GaussianDWM_Language-Grounded_3D_Gaussian_Driving_World_Mo",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260816234_GaussianDWM_Language-Grounded_3D_Gaussian_Driving_World_Mo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405420189",
+      "doi": "10.48550/arxiv.2408.12599",
+      "title": "Controllable Text Generation for Large Language Models: A Survey",
+      "abstract": "In Natural Language Processing (NLP), Large Language Models (LLMs) have demonstrated high text generation quality. However, in real-world applications, LLMs must meet increasingly complex requirements. Beyond avoiding misleading or inappropriate content, LLMs are also expected to cater to specific user needs, such as imitating particular writing styles or generating text with poetic richness. These varied demands have driven the development of Controllable Text Generation (CTG) techniques, which ensure that outputs adhere to predefined control conditions--such as safety, sentiment, thematic consistency, and linguistic style--while maintaining high standards of helpfulness, fluency, and diversity. This paper systematically reviews the latest advancements in CTG for LLMs, offering a comprehensive definition of its core concepts and clarifying the requirements for control conditions and text quality. We categorize CTG tasks into two primary types: content control and attribute control. The key methods are discussed, including model retraining, fine-tuning, reinforcement learning, prompt engineering, latent space manipulation, and decoding-time intervention. We analyze each method's characteristics, advantages, and limitations, providing nuanced insights for achieving generation control. Additionally, we review CTG evaluation methods, summarize its applications across domains, and address key challenges in current research, including reduced fluency and practicality. We also propose several appeals, such as placing greater emphasis on real-world applications in future research. This paper aims to offer valuable guidance to researchers and developers in the field. Our reference list and Chinese version are open-sourced at https://github.com/IAAR-Shanghai/CTGSurvey.",
+      "year": 2024,
+      "authors": [
+        "Xun Liang",
+        "Wang, Hanyu",
+        "Yezhaohui Wang",
+        "Shichao Song",
+        "Jiawei Yang",
+        "Simin Niu",
+        "Jie Hu",
+        "Dan Liu",
+        "Shunyu Yao",
+        "Feiyu Xiong",
+        "Zhiyu Li"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 187,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.12599",
+      "url": "https://openalex.org/W4405420189",
+      "key": "openalex_1048550_arxiv240812599_Controllable_Text_Generation_for_Large_Language_Models_A_S",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240812599_Controllable_Text_Generation_for_Large_Language_Models_A_S.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4405094781",
+      "doi": "10.1109/iccv51701.2025.02532",
+      "title": "InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models",
+      "abstract": "We present InfiniCube, a scalable method for generating unbounded dynamic 3D driving scenes with high fidelity and controllability. Previous methods for scene generation either suffer from limited scales or lack geometric and appearance consistency along generated sequences. In contrast, we leverage the recent advancements in scalable 3D representation and video models to achieve large dynamic scene generation that allows flexible controls through HD maps, vehicle bounding boxes, and text descriptions. First, we construct a map-conditioned sparse-voxel-based 3D generative model to unleash its power for unbounded voxel world generation. Then, we re-purpose a video model and ground it on the voxel world through a set of carefully designed pixel-aligned guidance buffers, synthesizing a consistent appearance. Finally, we propose a fast feed-forward approach that employs both voxel and pixel branches to lift the dynamic videos to dynamic 3D Gaussians with controllable objects. Our method can generate controllable and realistic 3D driving scenes, and extensive experiments validate the effectiveness and superiority of our model.",
+      "year": 2025,
+      "authors": [
+        "Yifan Lu",
+        "Xuanchi Ren",
+        "Jiawei Yang",
+        "Tianchang Shen",
+        "Zhangjie Wu",
+        "Jun Gao",
+        "Yue Wang",
+        "Siheng Chen",
+        "Mike Chen",
+        "Sanja Fidler",
+        "Jiahui Huang"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 76,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.03934",
+      "url": "https://openalex.org/W4405094781",
+      "also_doi": [],
+      "key": "openalex_101109_iccv51701202502532_InfiniCube_Unbounded_and_Controllable_Dynamic_3D_Drivin",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502532_InfiniCube_Unbounded_and_Controllable_Dynamic_3D_Drivin.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413157439",
+      "doi": "10.1109/cvpr52734.2025.01122",
+      "title": "DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation",
+      "abstract": "Closed-loop simulation is essential for advancing end-to-end autonomous driving systems. Contemporary sensor simulation methods, such as NeRF and 3DGS, rely predominantly on conditions closely aligned with training data distributions, which are largely confined to forward-driving scenarios. Consequently, these methods face limitations when rendering complex maneuvers (e.g., lane change, acceleration, deceleration). Recent advancements in autonomous-driving world models have demonstrated the potential to generate diverse driving videos. However, these approaches remain constrained to 2D video generation, inherently lacking the spatiotemporal coherence required to capture intricacies of dynamic driving environments. In this paper, we introduce DriveDreamer4D, which enhances 4D driving scene representation leveraging world model priors. Specifically, we utilize the world model as a data machine to synthesize novel trajectory videos, where structured conditions are explicitly leveraged to control the spatial-temporal consistency of traffic elements. Besides, the cousin data training strategy is proposed to facilitate merging real and synthetic data for optimizing 4DGS. To our knowledge, DriveDreamer4D is the first to utilize video generation models for improving 4D reconstruction in driving scenarios. Experimental results reveal that DriveDreamer4D significantly enhances generation quality under novel trajectory views, achieving a relative improvement in FID by 32.1%, 46.4%, and 16.3% compared to PVG, S3Gaussian, and Deformable-GS. Moreover, DriveDreamer4D markedly enhances the spatiotemporal coherence of driving agents, which is verified by a comprehensive user study and the relative increases of 22.6%, 43.5%, and 15.6% in the NTA-IoU metric.",
+      "year": 2025,
+      "authors": [
+        "Guosheng Zhao",
+        "Chaojun Ni",
+        "Xiaofeng Wang",
+        "Zheng Dong Zhu",
+        "Xueyang Zhang",
+        "Yida Wang",
+        "Guan Huang",
+        "Xinze Chen",
+        "Bo-Yuan Wang",
+        "Youyi Zhang",
+        "Wenjun Mei",
+        "Xingang Wang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 163,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2410.13571",
+      "url": "https://openalex.org/W4413157439",
+      "key": "openalex_101109_cvpr52734202501122_DriveDreamer4D_World_Models_Are_Effective_Data_Machines",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202501122_DriveDreamer4D_World_Models_Are_Effective_Data_Machines.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403759442",
+      "doi": "10.1007/978-3-031-72989-8_19",
+      "title": "WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Jiachen Lu",
+        "Ze Huang",
+        "Zeyu Yang",
+        "Jiahui Zhang",
+        "Li Zhang"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 134,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.02934",
+      "url": "https://openalex.org/W4403759442",
+      "key": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4406841381",
+      "doi": "10.1109/iccv51701.2025.02582",
+      "title": "HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation",
+      "abstract": "Driving World Models (DWMs) have become essential for autonomous driving by enabling future scene prediction. However, existing DWMs are limited to scene generation and fail to incorporate scene understanding, which involves interpreting and reasoning about the driving environment. In this paper, we present a unified Driving World Model named HERMES. We seamlessly integrate 3D scene understanding and future scene evolution (generation) through a unified framework in driving scenarios. Specifically, HERMES leverages a Bird's-Eye View (BEV) representation to consolidate multi-view spatial information while preserving geometric relationships and interactions. We also introduce world queries, which incorporate world knowledge into BEV features via causal attention in the Large Language Model, enabling contextual enrichment for understanding and generation tasks. We conduct comprehensive studies on nuScenes and OmniDrive-nuScenes datasets to validate the effectiveness of our method. HERMES achieves state-of-the-art performance, reducing generation error by 32.4% and improving understanding metrics such as CIDEr by 8.0%. The model and code will be publicly released at https://github.com/LMD0311/HERMES.",
+      "year": 2025,
+      "authors": [
+        "Xin Xiang Zhou",
+        "Dingkang Liang",
+        "Sifan Tu",
+        "Xiwu Chen",
+        "Yikang Ding",
+        "Dingyuan Zhang",
+        "Feiyang Tan",
+        "Hengshuang Zhao",
+        "Xiang Bai"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 89,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.14729",
+      "url": "https://openalex.org/W4406841381",
+      "key": "openalex_101109_iccv51701202502582_HERMES_A_Unified_Self-Driving_World_Model_for_Simultane",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502582_HERMES_A_Unified_Self-Driving_World_Model_for_Simultane.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4409366191",
+      "doi": "10.1609/aaai.v39i10.33130",
+      "title": "DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation",
+      "abstract": "World models have demonstrated superiority in autonomous driving, particularly in the generation of multi-view driving videos. However, significant challenges still exist in generating customized driving videos. In this paper, we propose DriveDreamer-2, which incorporates a Large Language Model (LLM) to facilitate the creation of user-defined driving videos. Specifically, a trajectory generation function library is developed to produce trajectories that conform to user descriptions. Subsequently, an HDMap generator is designed to learn the mapping from trajectories to road structures. Ultimately, we propose the Unified Multi-View Model (UniMVM) to enhance temporal and spatial coherence in the generated multi-view driving videos. To the best of our knowledge, DriveDreamer-2 is the first world model to generate customized driving videos, and it can generate uncommon driving videos (e.g., vehicles abruptly cut in) in a user-friendly manner. Besides, experimental results demonstrate that the generated videos enhance the training of driving perception methods (e.g., 3D detection and tracking). Furthermore, video generation quality of DriveDreamer-2 surpasses other state-of-the-art methods, showcasing FID and FVD scores of 11.2 and 55.7, representing relative improvements of ~30% and ~50%.",
+      "year": 2025,
+      "authors": [
+        "Guosheng Zhao",
+        "Xiaofeng Wang",
+        "Zheng Zhu",
+        "Xinze Chen",
+        "Guan Huang",
+        "Xiaoyi Bao",
+        "Xingang Wang"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 303,
+      "is_oa": true,
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/33130/35285",
+      "url": "https://openalex.org/W4409366191",
+      "key": "openalex_101609_aaaiv39i1033130_DriveDreamer-2_LLM-Enhanced_World_Models_for_Diverse_Drivi",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv39i1033130_DriveDreamer-2_LLM-Enhanced_World_Models_for_Diverse_Drivi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402716059",
+      "doi": "10.1109/cvpr52733.2024.01470",
+      "title": "DriveWorld: 4D Pre-Trained Scene Understanding via World Models for Autonomous Driving",
+      "abstract": "Vision-centric autonomous driving has recently raised wide attention due to its lower cost. Pretraining is essential for extracting a universal representation. However, current vision-centric pretraining typically relies on either 2D or 3D pre-text tasks, overlooking the temporal characteristics of autonomous driving as a 4D scene understanding task. In this paper, we address this challenge by introducing a world model-based autonomous driving 4D representation learning framework, dubbed DriveWorld, which is capable of pretraining from multi-camera driving videos in a spatiotemporal fashion. Specifically, we propose a Memory State-Space Model for spatiotemporal modelling, which consists of a Dynamic Memory Bank module for learning temporal-aware latent dynamics to predict future changes and a Static Scene Propagation module for learning spatial-aware latent statics to offer comprehensive scene contexts. We additionally introduce a Task Prompt to decouple task-aware features for various downstream tasks. The experiments demonstrate that DriveWorld delivers promising results on various autonomous driving tasks. When pretrained with the OpenScene dataset, DriveWorld achieves a 7.5% increase in mAP for 3D object detection, a 3.0% increase in IoU for online mapping, a 5.0% increase in AMOTA for multi-object tracking, a 0.1m decrease in minADE for motionforecasting, a 3.0% increase in IoU for occupancy prediction, and a 0.34m reduction in average L2 error for planning.",
+      "year": 2024,
+      "authors": [
+        "Chen Min",
+        "Dawei Zhao",
+        "Xiao Liang",
+        "Jian Cun Zhao",
+        "Xinli Xu",
+        "Zheng Dong Zhu",
+        "Lei Jin",
+        "Jianshu Li",
+        "Yulan Guo",
+        "Junliang Xing",
+        "Liping Jing",
+        "Yiming Nie",
+        "Bin Dai"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 160,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.04390",
+      "url": "https://openalex.org/W4402716059",
+      "key": "openalex_101109_cvpr52733202401470_DriveWorld_4D_Pre-Trained_Scene_Understanding_via_World",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202401470_DriveWorld_4D_Pre-Trained_Scene_Understanding_via_World.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144262",
+      "doi": "10.1109/cvpr52734.2025.00153",
+      "title": "ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration",
+      "abstract": "Closed-loop simulation is crucial for end-to-end autonomous driving. Existing sensor simulation methods (e.g., NeRF and 3DGS) reconstruct driving scenes based on conditions that closely mirror training data distributions. However, these methods struggle with rendering novel trajectory, such as lane changes. Recent works have demonstrated that integrating world model knowledge alleviates these issues. Despite their efficiency, these approaches still encounter difficulties in the accurate representation of more complex maneuvers, with multi-lane shifts being a notable example. Therefore, we introduce ReconDreamer, which enhances driving scene reconstruction through incremental integration of world model knowledge. Specifically, DriveRestorer is proposed to mitigate artifacts via online restoration. This is complemented by a progressive data update strategy designed to ensure high-quality rendering for more complex maneuvers. To the best of our knowledge, ReconDreamer is the first method to effectively render in large maneuvers. Experimental results demonstrate that ReconDreamer outperforms Street Gaussians in the NTA-IoU, NTL-IoU, and FID, with relative improvements by 24.87%, 6.72%, and 29.97%. Furthermore, ReconDreamer surpasses DriveDreamer4D with PVG during large maneuver rendering, as verified by a relative improvement of 195.87% in the NTA-IoU metric and a user study.",
+      "year": 2025,
+      "authors": [
+        "Chaojun Ni",
+        "Guosheng Zhao",
+        "Xiaofeng Wang",
+        "Zheng Dong Zhu",
+        "Wenkang Qin",
+        "Guan Huang",
+        "Chen Liu",
+        "Yuyin Chen",
+        "Yida Wang",
+        "Xueyang Zhang",
+        "Yifei Zhan",
+        "Kun Zhan",
+        "Peng Jia",
+        "Xianpeng Lang",
+        "Xingang Wang",
+        "Wenjun Mei"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 124,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2411.19548",
+      "url": "https://openalex.org/W4413144262",
+      "key": "openalex_101109_cvpr52734202500153_ReconDreamer_Crafting_World_Models_for_Driving_Scene_Re",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202500153_ReconDreamer_Crafting_World_Models_for_Driving_Scene_Re.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4404722496",
+      "doi": "10.1007/978-3-031-73195-2_4",
+      "title": "DriveDreamer: Towards Real-World-Drive World Models for Autonomous Driving",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Xiaofeng Wang",
+        "Zheng Hong Zhu",
+        "Guan Huang",
+        "Xinze Chen",
+        "Jiagang Zhu",
+        "Jiwen Lu"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 686,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2309.09777",
+      "url": "https://openalex.org/W4404722496",
+      "key": "openalex_101007_978-3-031-73195-2_4_DriveDreamer_Towards_Real-World-Drive_World_Models_for",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-73195-2_4_DriveDreamer_Towards_Real-World-Drive_World_Models_for.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4412993735",
+      "doi": "10.1038/s44172-025-00474-7",
+      "title": "World model-based end-to-end scene generation for accident anticipation in autonomous driving",
+      "abstract": "Reliable anticipation of traffic accidents is essential for advancing autonomous driving systems. However, this objective is limited by two fundamental challenges: the scarcity of diverse, high-quality training data and the frequent absence of crucial object-level cues due to environmental disruptions or sensor deficiencies. To tackle these issues, we propose a comprehensive framework combining generative scene augmentation with adaptive temporal reasoning. Specifically, we develop a video generation pipeline that utilizes a world model guided by domain-informed prompts to create high-resolution, statistically consistent driving scenarios, particularly enriching the coverage of edge cases and complex interactions. In parallel, we construct a dynamic prediction model that encodes spatio-temporal relationships through strengthened graph convolutions and dilated temporal operators, effectively addressing data incompleteness and transient visual noise. Furthermore, we release a new benchmark dataset designed to better capture diverse real-world driving risks. Extensive experiments on public and newly released datasets confirm that our framework enhances both the accuracy and lead time of accident anticipation, offering a robust solution to current data and modeling limitations in safety-critical autonomous driving applications.",
+      "year": 2025,
+      "authors": [
+        "Yanchen Guan",
+        "Haicheng Liao",
+        "Chengyue Wang",
+        "Xingcheng Liu",
+        "Jiaxun Zhang",
+        "Zhenning Li"
+      ],
+      "venue": "Communications Engineering",
+      "cited_by": 19,
+      "is_oa": true,
+      "pdf_url": "https://www.nature.com/articles/s44172-025-00474-7.pdf",
+      "url": "https://openalex.org/W4412993735",
+      "key": "openalex_101038_s44172-025-00474-7_World_model-based_end-to-end_scene_generation_for_accid",
+      "file_kind": "txt",
+      "file": "openalex_101038_s44172-025-00474-7_World_model-based_end-to-end_scene_generation_for_accid.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413144960",
+      "doi": "10.1109/cvpr52734.2025.01118",
+      "title": "UniScene: Unified Occupancy-centric Driving Scene Generation",
+      "abstract": "Generating high-fidelity, controllable, and annotated training data is critical for autonomous driving. Existing methods typically generate a single data form directly from a coarse scene layout, which not only fails to output rich data forms required for diverse downstream tasks but also struggles to model the direct layout-to-data distribution. In this paper, we introduce UniScene, the first unified framework for generating three key data forms — semantic occupancy, video, and LiDAR — in driving scenes. UniScene employs a progressive generation process that decomposes the complex task of scene generation into two hierarchical steps: (a) first generating semantic occupancy from a customized scene layout as a meta scene representation rich in both semantic and geometric information, and then (b) conditioned on occupancy, generating video and LiDAR data, respectively, with two novel transfer strategies of Gaussian-based Joint Rendering and Prior-guided Sparse Modeling. This occupancy-centric approach reduces the generation burden, especially for intricate scenes, while providing detailed intermediate representations for the subsequent generation stages. Extensive experiments demonstrate that UniScene outperforms previous SOTAs in the occupancy, video, and LiDAR generation, which also indeed benefits downstream driving tasks. The Project is available at https://arlo0o.github.io/uniscene/.",
+      "year": 2025,
+      "authors": [
+        "Bohan Li",
+        "J. Guo",
+        "Hongsi Liu",
+        "Yingshuang Zou",
+        "Yikang Ding",
+        "Xiwu Chen",
+        "Hu Zhu",
+        "Feiyang Tan",
+        "Chi Zhang",
+        "Tiancai Wang",
+        "Shuchang Zhou",
+        "Li Zhang",
+        "Xiaojuan Qi",
+        "Hao Zhao",
+        "Mu Yang",
+        "Wenjun Zeng",
+        "Xin Jin"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 152,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.05435",
+      "url": "https://openalex.org/W4413144960",
+      "key": "openalex_101109_cvpr52734202501118_UniScene_Unified_Occupancy-centric_Driving_Scene_Genera",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202501118_UniScene_Unified_Occupancy-centric_Driving_Scene_Genera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4406734973",
+      "doi": "10.48550/arxiv.2501.11260",
+      "title": "A Survey of World Models for Autonomous Driving",
+      "abstract": "Recent breakthroughs in autonomous driving have been propelled by advances in robust world modeling, fundamentally transforming how vehicles interpret dynamic scenes and execute safe decision-making. World models have emerged as a linchpin technology, offering high-fidelity representations of the driving environment that integrate multi-sensor data, semantic cues, and temporal dynamics. This paper systematically reviews recent advances in world models for autonomous driving, proposing a three-tiered taxonomy: (i) Generation of Future Physical World, covering Image-, BEV-, OG-, and PC-based generation methods that enhance scene evolution modeling through diffusion models and 4D occupancy forecasting; (ii) Behavior Planning for Intelligent Agents, combining rule-driven and learning-based paradigms with cost map optimization and reinforcement learning for trajectory generation in complex traffic conditions; (ii) Interaction between Prediction and Planning, achieving multi-agent collaborative decision-making through latent space diffusion and memory-augmented architectures. The study further analyzes training paradigms, including self-supervised learning, multimodal pretraining, and generative data augmentation, while evaluating world models' performance in scene understanding and motion prediction tasks. Future research must address key challenges in self-supervised representation learning, multimodal fusion, and advanced simulation to advance the practical deployment of world models in complex urban environments. Overall, the comprehensive analysis provides a technical roadmap for harnessing the transformative potential of world models in advancing safe and reliable autonomous driving solutions.",
+      "year": 2025,
+      "authors": [
+        "Feng, Tuo",
+        "Wenguan Wang",
+        "Yi Yang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 106,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.11260",
+      "url": "https://openalex.org/W4406734973",
+      "key": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4404654684",
+      "doi": "10.1007/978-3-031-72995-9_23",
+      "title": "Dolphins: Multimodal Language Model for Driving",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Yingzi Ma",
+        "Yulong Cao",
+        "Jiachen Sun",
+        "Marco Pavone",
+        "Chaowei Xiao"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 232,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.00438",
+      "url": "https://openalex.org/W4404654684",
+      "key": "openalex_101007_978-3-031-72995-9_23_Dolphins_Multimodal_Language_Model_for_Driving",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72995-9_23_Dolphins_Multimodal_Language_Model_for_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7140080798",
+      "doi": "10.48550/arxiv.2603.19979",
+      "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving",
+      "abstract": "Scalable and reliable evaluation is increasingly critical in the end-to-end era of autonomous driving, where vision--language--action (VLA) policies directly map raw sensor streams to driving actions. Yet, current evaluation pipelines still rely heavily on real-world road testing, which is costly, biased toward limited scenario coverage, and difficult to reproduce. These challenges motivate a real-world simulator that can generate realistic future observations under proposed actions, while remaining controllable and stable over long horizons. We present X-World, an action-conditioned multi-camera generative world model that simulates future observations directly in video space. Given synchronized multi-view camera history and a future action sequence, X-World generates future multi-camera video streams that follow the commanded actions. To ensure reproducible and editable scene rollouts, X-World further supports optional controls over dynamic traffic agents and static road elements, and retains a text-prompt interface for appearance-level control (e.g., weather and time of day). Beyond world simulation, X-World also enables video style transfer by conditioning on appearance prompts while preserving the underlying action and scene dynamics. At the core of X-World is a multi-view latent video generator designed to explicitly encourage cross-view geometric consistency and temporal coherence under diverse control signals. Experiments show that X-World achieves high-quality multi-view video generation with (i) strong view consistency across cameras, (ii) stable temporal dynamics over long rollouts, and (iii) high controllability with strict action following and faithful adherence to optional scene controls. These properties make X-World a practical foundation for scalable and reproducible evaluation.",
+      "year": 2026,
+      "authors": [
+        "Chaoda Zheng",
+        "Sean Li",
+        "Jinhao Deng",
+        "Zhennan Wang",
+        "Shijia Chen",
+        "Liqiang Xiao",
+        "Ziheng Chi",
+        "Hongbin Lin",
+        "Kangjie Chen",
+        "Boyang Wang",
+        "Yu Zhang",
+        "Xianming Liu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 18,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.19979",
+      "url": "https://openalex.org/W7140080798",
+      "key": "openalex_1048550_arxiv260319979_X-World_Controllable_Ego-Centric_Multi-Camera_World_Models",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260319979_X-World_Controllable_Ego-Centric_Multi-Camera_World_Models.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4388963851",
+      "doi": "10.48550/arxiv.2311.13549",
+      "title": "ADriver-I: A General World Model for Autonomous Driving",
+      "abstract": "Typically, autonomous driving adopts a modular design, which divides the full stack into perception, prediction, planning and control parts. Though interpretable, such modular design tends to introduce a substantial amount of redundancy. Recently, multimodal large language models (MLLM) and diffusion techniques have demonstrated their superior performance on comprehension and generation ability. In this paper, we first introduce the concept of interleaved vision-action pair, which unifies the format of visual features and control signals. Based on the vision-action pairs, we construct a general world model based on MLLM and diffusion model for autonomous driving, termed ADriver-I. It takes the vision-action pairs as inputs and autoregressively predicts the control signal of the current frame. The generated control signals together with the historical vision-action pairs are further conditioned to predict the future frames. With the predicted next frame, ADriver-I performs further control signal prediction. Such a process can be repeated infinite times, ADriver-I achieves autonomous driving in the world created by itself. Extensive experiments are conducted on nuScenes and our large-scale private datasets. ADriver-I shows impressive performance compared to several constructed baselines. We hope our ADriver-I can provide some new insights for future autonomous driving and embodied intelligence.",
+      "year": 2023,
+      "authors": [
+        "Fan Jia",
+        "Weixin Mao",
+        "Liu, Yingfei",
+        "Yucheng Zhao",
+        "Yuqing Wen",
+        "Chi Zhang",
+        "Xiangyu Zhang",
+        "Tiancai Wang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 150,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.13549",
+      "url": "https://openalex.org/W4388963851",
+      "key": "openalex_1048550_arxiv231113549_ADriver-I_A_General_World_Model_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv231113549_ADriver-I_A_General_World_Model_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4391988276",
+      "doi": "10.48550/arxiv.2402.12289",
+      "title": "DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models",
+      "abstract": "A primary hurdle of autonomous driving in urban environments is understanding complex and long-tail scenarios, such as challenging road conditions and delicate human behaviors. We introduce DriveVLM, an autonomous driving system leveraging Vision-Language Models (VLMs) for enhanced scene understanding and planning capabilities. DriveVLM integrates a unique combination of reasoning modules for scene description, scene analysis, and hierarchical planning. Furthermore, recognizing the limitations of VLMs in spatial reasoning and heavy computational requirements, we propose DriveVLM-Dual, a hybrid system that synergizes the strengths of DriveVLM with the traditional autonomous driving pipeline. Experiments on both the nuScenes dataset and our SUP-AD dataset demonstrate the efficacy of DriveVLM and DriveVLM-Dual in handling complex and unpredictable driving conditions. Finally, we deploy the DriveVLM-Dual on a production vehicle, verifying it is effective in real-world autonomous driving environments.",
+      "year": 2024,
+      "authors": [
+        "Xiaoyu Tian",
+        "Junru Gu",
+        "Bailin Li",
+        "Yicheng Liu",
+        "Yang Wang",
+        "Zhao, Zhiyong",
+        "Zhan, Kun",
+        "Jia, Peng",
+        "Xianpeng Lang",
+        "Hang Zhao"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 774,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2402.12289",
+      "url": "https://openalex.org/W4391988276",
+      "key": "openalex_1048550_arxiv240212289_DriveVLM_The_Convergence_of_Autonomous_Driving_and_Large_V",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240212289_DriveVLM_The_Convergence_of_Autonomous_Driving_and_Large_V.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7159584927",
+      "doi": "10.1109/tpami.2026.3735606",
+      "title": "Hermes++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "abstract": "Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics. However, existing approaches predominantly focus on future scene generation, often overlooking comprehensive 3D scene understanding. Conversely, while Large Language Models (LLMs) demonstrate impressive reasoning capabilities, they lack the capacity to predict future geometric evolution, creating a significant disparity between semantic interpretation and physical simulation. To bridge this gap, we propose HERMES++, a unified driving world model that integrates 3D scene understanding and future geometry prediction within a single framework. Our approach addresses the distinct requirements of these tasks through synergistic designs. First, a BEV representation consolidates multi-view spatial information into a structure compatible with LLMs. Second, we introduce LLM-enhanced world queries to facilitate knowledge transfer from the understanding branch. Third, a Current-to-Future Link is designed to bridge the temporal gap, conditioning geometric evolution on semantic context. Finally, to enforce structural integrity, we employ a Joint Geometric Optimization strategy that integrates explicit geometric constraints with implicit latent regularization to align internal representations with geometry-aware priors. Extensive evaluations on multiple benchmarks validate the effectiveness of our method. HERMES++ achieves strong performance, outperforming specialist approaches in both future point cloud prediction and 3D scene understanding tasks.",
+      "year": 2026,
+      "authors": [
+        "Xin Zhou",
+        "Dingkang Liang",
+        "Xiwu Chen",
+        "Feiyang Tan",
+        "Dingyuan Zhang",
+        "Hengshuang Zhao",
+        "Xiang Bai"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.28196",
+      "url": "https://openalex.org/W7159584927",
+      "key": "openalex_101109_tpami20263735606_Hermes_Toward_a_Unified_Driving_World_Model_for_3D_Scene_",
+      "file_kind": "txt",
+      "file": "openalex_101109_tpami20263735606_Hermes_Toward_a_Unified_Driving_World_Model_for_3D_Scene_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415797067",
+      "doi": "10.52202/079017-2391",
+      "title": "Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text",
+      "abstract": "Recent advancements in 3D generation have leveraged synthetic datasets with ground truth 3D assets and predefined cameras. However, the potential of adopting real-world datasets, which can produce significantly more realistic 3D scenes, remains largely unexplored. In this work, we delve into the key challenge of the complex and scene-specific camera trajectories found in real-world captures. We introduce Director3D, a robust open-world text-to-3D generation framework, designed to generate both real-world 3D scenes and adaptive camera trajectories. To achieve this, (1) we first utilize a Trajectory Diffusion Transformer, acting as the Cinematographer, to model the distribution of camera trajectories based on textual descriptions. (2) Next, a Gaussian-driven Multi-view Latent Diffusion Model serves as the Decorator, modeling the image sequence distribution given the camera trajectories and texts. This model, fine-tuned from a 2D diffusion model, directly generates pixel-aligned 3D Gaussians as an immediate 3D scene representation for consistent denoising. (3) Lastly, the 3D Gaussians are refined by a novel SDS++ loss as the Detailer, which incorporates the prior of the 2D diffusion model. Extensive experiments demonstrate that Director3D outperforms existing methods, offering superior performance in real-world 3D generation.",
+      "year": 2024,
+      "authors": [
+        "Xinyang Li",
+        "Zhangyu Lai",
+        "Linning Xu",
+        "Yansong Qu",
+        "Liujuan Cao",
+        "Shengchuan Zhang",
+        "Bo Dai",
+        "Rongrong Ji"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 73,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415797067",
+      "key": "openalex_1052202_079017-2391_Director3D_Real-world_Camera_Trajectory_and_3D_Scene_Generati",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-2391_Director3D_Real-world_Camera_Trajectory_and_3D_Scene_Generati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7221806619",
+      "doi": "10.48550/arxiv.2610.17903",
+      "title": "DriveWLA: Unifying Future Dynamics and Scene Semantics through World-Language-Action Modeling for Autonomous Driving",
+      "abstract": "Vision-Language Models (VLMs) and world models have demonstrated strong capabilities in semantic understanding and future scene evolution for autonomous driving. However, effectively integrating both capabilities for trajectory generation remains challenging. In this work, we propose DriveWLA, a unified World-Language-Action model based on Mixture-of-Transformers (MoT) that jointly models semantic understanding, future scene dynamics, and trajectory generation. DriveWLA consists of three experts: a World Expert for future prediction, a Language Expert for semantic understanding, and an Action Expert for trajectory generation. We further introduce Cross-Expert Attention, which enables controlled information flow across experts while aligning semantic and dynamic representations. To improve trajectory generation beyond imitation learning, we apply Flow-GRPO reinforcement learning post-training to refine the Action Expert. Extensive experiments show that DriveWLA achieves superior performance in both open-loop and closed-loop evaluation. DriveWLA achieves 92.3 PDMS on NAVSIM v1 and 90.1 EPDMS on NAVSIM v2, demonstrating strong performance among VLM-based and world-model-based planners. Without specific fine-tuning, DriveWLA further demonstrates strong zero-shot generalization to HUGSIM, nuScenes, and Bench2Drive. These results validate the effectiveness of our unified World-Language-Action modeling, establishing DriveWLA as a generalizable framework for autonomous driving.",
+      "year": 2026,
+      "authors": [
+        "Shuzheng Wang",
+        "Haoxuan Li",
+        "Shengzhen Li",
+        "Chenxi Wu",
+        "Yajing Sun",
+        "Lu Hou",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.17903",
+      "url": "https://openalex.org/W7221806619",
+      "key": "openalex_1048550_arxiv261017903_DriveWLA_Unifying_Future_Dynamics_and_Scene_Semantics_thro",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv261017903_DriveWLA_Unifying_Future_Dynamics_and_Scene_Semantics_thro.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415109150",
+      "doi": "10.52202/085713-3487",
+      "title": "X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability",
+      "abstract": "Diffusion models are advancing autonomous driving by enabling realistic data synthesis, predictive end-to-end planning, and closed-loop simulation, with a primary focus on temporally consistent generation. However, large-scale 3D scene generation requiring spatial coherence remains underexplored. In this paper, we present X-Scene, a novel framework for large-scale driving scene generation that achieves geometric intricacy, appearance fidelity, and flexible controllability. Specifically, X-Scene supports multi-granular control, including low-level layout conditioning driven by user input or text for detailed scene composition, and high-level semantic guidance informed by user intent and LLM-enriched prompts for efficient customization. To enhance geometric and visual fidelity, we introduce a unified pipeline that sequentially generates 3D semantic occupancy and corresponding multi-view images and videos, ensuring alignment and temporal consistency across modalities. We further extend local regions into large-scale scenes via consistency-aware outpainting, which extrapolates occupancy and images from previously generated areas to maintain spatial and visual coherence. The resulting scenes are lifted into high-quality 3DGS representations, supporting diverse applications such as simulation and scene exploration. Extensive experiments demonstrate that X-Scene substantially advances controllability and fidelity in large-scale scene generation, empowering data generation and simulation for autonomous driving.",
+      "year": 2025,
+      "authors": [
+        "Yang Yu",
+        "Alan Liang",
+        "Jianbiao Mei",
+        "Yukai Ma",
+        "Yong Liu",
+        "Gim Hee Lee"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 26,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415109150",
+      "key": "openalex_1052202_085713-3487_X-Scene_Large-Scale_Driving_Scene_Generation_with_High_Fideli",
+      "file_kind": "txt",
+      "file": "openalex_1052202_085713-3487_X-Scene_Large-Scale_Driving_Scene_Generation_with_High_Fideli.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4394862623",
+      "doi": "10.1109/wacvw60836.2024.00106",
+      "title": "A Survey on Multimodal Large Language Models for Autonomous Driving",
+      "abstract": "With the emergence of Large Language Models (LLMs) and Vision Foundation Models (VFMs), multimodal AI systems benefiting from large models have the potential to equally perceive the real world, make decisions, and control tools as humans. In recent months, LLMs have shown widespread attention in autonomous driving and map systems. Despite its immense potential, there is still a lack of a comprehensive understanding of key challenges, opportunities, and future endeavors to apply in LLM driving systems. In this paper, we present a systematic investigation in this field. We first introduce the background of Multimodal Large Language Models (MLLMs), the multimodal models development using LLMs, and the history of autonomous driving. Then, we overview existing MLLM tools for driving, transportation, and map systems together with existing datasets and benchmarks. Moreover, we summarized the works in The 1st WACV Workshop on Large Language and Vision Models for Autonomous Driving (LLVM-AD), which is the first workshop of its kind regarding LLMs in autonomous driving. To further promote the development of this field, we also discuss several important problems regarding using MLLMs in autonomous driving systems that need to be solved by both academia and industry.",
+      "year": 2024,
+      "authors": [
+        "Can Cui",
+        "Yunsheng Ma",
+        "Xu Cao",
+        "Wenqian Ye",
+        "Yang Zhou",
+        "Kaizhao Liang",
+        "Jintai Chen",
+        "Juanwu Lu",
+        "Zichong Yang",
+        "Kuei-Da Liao",
+        "Tianren Gao",
+        "Erlong Li",
+        "Kun Tang",
+        "Zhipeng Cao",
+        "Tong Zhou",
+        "Ao Liu",
+        "Xinrui Yan",
+        "Shuqi Mei",
+        "Jianguo Cao",
+        "Ziran Wang"
+      ],
+      "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)",
+      "cited_by": 791,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.12320",
+      "url": "https://openalex.org/W4394862623",
+      "key": "openalex_101109_wacvw60836202400106_A_Survey_on_Multimodal_Large_Language_Models_for_Auton",
+      "file_kind": "txt",
+      "file": "openalex_101109_wacvw60836202400106_A_Survey_on_Multimodal_Large_Language_Models_for_Auton.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4396982312",
+      "doi": "10.1109/tiv.2024.3402136",
+      "title": "Vision Language Models in Autonomous Driving: A Survey and Outlook",
+      "abstract": "The applications of Vision-Language Models (VLMs) in the field of Autonomous Driving (AD) have attracted widespread attention due to their outstanding performance and the ability to leverage Large Language Models (LLMs). By integrating language data, the driving systems can be able to deeply understand real-world environments, improving driving safety and efficiency. In this work, we present a comprehensive and systematic survey of the advances in language models in this domain, encompassing perception and understanding, navigation and planning, decision-making and control, end-to-end autonomous driving, and data generation. We introduce the mainstream VLM tasks and the commonly utilized metrics. Additionally, we review current studies and applications in various areas and summarize the existing language-enhanced autonomous driving dataset thoroughly. At last, we discuss the benefits and challenges of VLMs in AD, and provide researchers with the current research gaps and future trends.https://github.com/ge25nab/Awesome-VLM-AD-ITS",
+      "year": 2024,
+      "authors": [
+        "Xingcheng Zhou",
+        "Mingyu Liu",
+        "Ekim Yurtsever",
+        "Bare Luka Žagar",
+        "Walter M. X. Zimmer",
+        "Hu Cao",
+        "Alois Knoll"
+      ],
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "cited_by": 407,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4396982312",
+      "key": "openalex_101109_tiv20243402136_Vision_Language_Models_in_Autonomous_Driving_A_Survey_and_O",
+      "file_kind": "txt",
+      "file": "openalex_101109_tiv20243402136_Vision_Language_Models_in_Autonomous_Driving_A_Survey_and_O.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4396754486",
+      "doi": "10.1109/tiv.2024.3398357",
+      "title": "World Models for Autonomous Driving: An Initial Survey",
+      "abstract": "In the rapidly evolving landscape of autonomous driving, the capability to accurately predict future events and assess their implications is paramount for both safety and efficiency, critically aiding the decision-making process. World models have emerged as a transformative approach, enabling autonomous driving systems to synthesize and interpret vast amounts of sensor data, thereby predicting potential future scenarios and compensating for information gaps. This paper provides an initial review of the current state and prospective advancements of world models in autonomous driving, spanning their theoretical underpinnings, practical applications, and ongoing research efforts aimed at overcoming existing limitations. Highlighting the significant role of world models in advancing autonomous driving technologies, this survey aspires to serve as a foundational reference for the research community, facilitating swift access to and comprehension of this burgeoning field, and inspiring continued innovation and exploration.",
+      "year": 2024,
+      "authors": [
+        "Yanchen Guan",
+        "Haicheng Liao",
+        "Zhenning Li",
+        "Jia Sheng Hu",
+        "Runze Yuan",
+        "Guohui Zhang",
+        "Chengzhong Xu"
+      ],
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "cited_by": 192,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.02622",
+      "url": "https://openalex.org/W4396754486",
+      "key": "openalex_101109_tiv20243398357_World_Models_for_Autonomous_Driving_An_Initial_Survey",
+      "file_kind": "txt",
+      "file": "openalex_101109_tiv20243398357_World_Models_for_Autonomous_Driving_An_Initial_Survey.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415796242",
+      "doi": "10.52202/079017-2906",
+      "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+      "abstract": "World models can foresee the outcomes of different actions, which is of paramount importance for autonomous driving. Nevertheless, existing driving world models still have limitations in generalization to unseen environments, prediction fidelity of critical details, and action controllability for flexible application. In this paper, we present Vista, a generalizable driving world model with high fidelity and versatile controllability. Based on a systematic diagnosis of existing methods, we introduce several key ingredients to address these limitations. To accurately predict real-world dynamics at high resolution, we propose two novel losses to promote the learning of moving instances and structural information. We also devise an effective latent replacement approach to inject historical frames as priors for coherent long-horizon rollouts. For action controllability, we incorporate a versatile set of controls from high-level intentions (command, goal point) to low-level maneuvers (trajectory, angle, and speed) through an efficient learning strategy. After large-scale training, the capabilities of Vista can seamlessly generalize to different scenarios. Extensive experiments on multiple datasets show that Vista outperforms the most advanced general-purpose video generator in over 70% of comparisons and surpasses the best-performing driving world model by 55% in FID and 27% in FVD. Moreover, for the first time, we utilize the capacity of Vista itself to establish a generalizable reward for real-world action evaluation without accessing the ground truth actions.",
+      "year": 2024,
+      "authors": [
+        "Shenyuan Gao",
+        "Jiazhi Yang",
+        "Li Chen",
+        "Kashyap Chitta",
+        "Yihang Qiu",
+        "Andreas Geiger",
+        "Jun Zhang",
+        "Hongyang Li"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 484,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415796242",
+      "key": "openalex_1052202_079017-2906_Vista_A_Generalizable_Driving_World_Model_with_High_Fidelity_",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-2906_Vista_A_Generalizable_Driving_World_Model_with_High_Fidelity_.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2511.22904v1",
+      "doi": "",
+      "title": "Language-conditioned world model improves policy generalization by reading environmental descriptions",
+      "abstract": "To interact effectively with humans in the real world, it is important for agents to understand language that describes the dynamics of the environment--that is, how the environment behaves--rather than just task instructions specifying \"what to do\". Understanding this dynamics-descriptive language is important for human-agent interaction and agent behavior. Recent work address this problem using a model-based approach: language is incorporated into a world model, which is then used to learn a behavior policy. However, these existing methods either do not demonstrate policy generalization to unseen games or rely on limiting assumptions. For instance, assuming that the latency induced by inference-time planning is tolerable for the target task or expert demonstrations are available. Expanding on this line of research, we focus on improving policy generalization from a language-conditioned world model while dropping these assumptions. We propose a model-based reinforcement learning approach, where a language-conditioned world model is trained through interaction with the environment, and a policy is learned from this model--without planning or expert demonstrations. Our method proposes Language-aware Encoder for Dreamer World Model (LED-WM) built on top of DreamerV3. LED-WM features an observation encoder that uses an attention mechanism to explicitly ground language descriptions to entities in the observation. We show that policies trained with LED-WM generalize more effectively to unseen games described by novel dynamics and language compared to other baselines in several settings in two environments: MESSENGER and MESSENGER-WM.To highlight how the policy can leverage the trained world model before real-world deployment, we demonstrate the policy can be improved through fine-tuning on synthetic test trajectories generated by the world model.",
+      "year": 2025,
+      "authors": [
+        "Anh Nguyen",
+        "Stefan Lee"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.22904v1",
+      "url": "http://arxiv.org/abs/2511.22904v1",
+      "key": "arxiv_251122904v1_Language-conditioned_world_model_improves_policy_generalization_by_readi",
+      "file_kind": "txt",
+      "file": "arxiv_251122904v1_Language-conditioned_world_model_improves_policy_generalization_by_readi.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.05131v3",
+      "doi": "",
+      "title": "Sora as a World Model? A Complete Survey on Text-to-Video Generation",
+      "abstract": "The evolution of video generation from text, from animating MNIST to simulating the world with Sora, has progressed at a breakneck speed. Here, we systematically discuss how far text-to-video generation technology supports essential requirements in world modeling. We curate 250+ studies on text-based video synthesis and world modeling. We then observe that recent models increasingly support spatial, action, and strategic intelligences in world modeling through adherence to completeness, consistency, invention, as well as human interaction and control. We conclude that text-to-video generation is adept at world modeling, although homework in several aspects, such as the diversity-consistency trade-offs, remains to be addressed.",
+      "year": 2024,
+      "authors": [
+        "Fachrina Dewi Puspitasari",
+        "Chaoning Zhang",
+        "Joseph Cho",
+        "Adnan Haider",
+        "Noor Ul Eman",
+        "Omer Amin",
+        "Alexis Mankowski",
+        "Muhammad Umair",
+        "Jingyao Zheng",
+        "Sheng Zheng",
+        "Lik-Hang Lee",
+        "Caiyan Qin",
+        "Tae-Ho Kim",
+        "Choong Seon Hong",
+        "Yang Yang",
+        "Heng Tao Shen"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.05131v3",
+      "url": "http://arxiv.org/abs/2403.05131v3",
+      "key": "arxiv_240305131v3_Sora_as_a_World_Model_A_Complete_Survey_on_Text-to-Video_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_240305131v3_Sora_as_a_World_Model_A_Complete_Survey_on_Text-to-Video_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.06669v5",
+      "doi": "",
+      "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+      "abstract": "We explore how scalable robot data can address real-world challenges for generalized robotic manipulation. Introducing AgiBot World, a large-scale platform comprising over 1 million trajectories across 217 tasks in five deployment scenarios, we achieve an order-of-magnitude increase in data scale compared to existing datasets. Accelerated by a standardized collection pipeline with human-in-the-loop verification, AgiBot World guarantees high-quality and diverse data distribution. It is extensible from grippers to dexterous hands and visuo-tactile sensors for fine-grained skill acquisition. Building on top of data, we introduce Genie Operator-1 (GO-1), a novel generalist policy that leverages latent action representations to maximize data utilization, demonstrating predictable performance scaling with increased data volume. Policies pre-trained on our dataset achieve an average performance improvement of 30% over those trained on Open X-Embodiment, both in in-domain and out-of-distribution scenarios. GO-1 exhibits exceptional capability in real-world dexterous and long-horizon tasks, achieving over 60% success rate on complex tasks and outperforming prior RDT approach by 32%. By open-sourcing the dataset, tools, and models, we aim to democratize access to large-scale, high-quality robot data, advancing the pursuit of scalable and general-purpose intelligence.",
+      "year": 2025,
+      "authors": [
+        "AgiBot World Contributors",
+        "Qingwen Bu",
+        "Jisong Cai",
+        "Li Chen",
+        "Xiuqi Cui",
+        "Yan Ding",
+        "Siyuan Feng",
+        "Shenyuan Gao",
+        "Xindong He",
+        "Xuan Hu",
+        "Xu Huang",
+        "Shu Jiang",
+        "Yuxin Jiang",
+        "Cheng Jing",
+        "Hongyang Li",
+        "Jialu Li",
+        "Chiming Liu",
+        "Yi Liu",
+        "Yuxiang Lu",
+        "Jianlan Luo"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.06669v5",
+      "url": "http://arxiv.org/abs/2503.06669v5",
+      "key": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a",
+      "file_kind": "txt",
+      "file": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2406.09455v1",
+      "doi": "",
+      "title": "Pandora: Towards General World Model with Natural Language Actions and Video States",
+      "abstract": "World models simulate future states of the world in response to different actions. They facilitate interactive content creation and provides a foundation for grounded, long-horizon reasoning. Current foundation models do not fully meet the capabilities of general world models: large language models (LLMs) are constrained by their reliance on language modality and their limited understanding of the physical world, while video models lack interactive action control over the world simulations. This paper makes a step towards building a general world model by introducing Pandora, a hybrid autoregressive-diffusion model that simulates world states by generating videos and allows real-time control with free-text actions. Pandora achieves domain generality, video consistency, and controllability through large-scale pretraining and instruction tuning. Crucially, Pandora bypasses the cost of training-from-scratch by integrating a pretrained LLM (7B) and a pretrained video model, requiring only additional lightweight finetuning. We illustrate extensive outputs by Pandora across diverse domains (indoor/outdoor, natural/urban, human/robot, 2D/3D, etc.). The results indicate great potential of building stronger general world models with larger-scale training.",
+      "year": 2024,
+      "authors": [
+        "Jiannan Xiang",
+        "Guangyi Liu",
+        "Yi Gu",
+        "Qiyue Gao",
+        "Yuting Ning",
+        "Yuheng Zha",
+        "Zeyu Feng",
+        "Tianhua Tao",
+        "Shibo Hao",
+        "Yemin Shi",
+        "Zhengzhong Liu",
+        "Eric P. Xing",
+        "Zhiting Hu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2406.09455v1",
+      "url": "http://arxiv.org/abs/2406.09455v1",
+      "key": "arxiv_240609455v1_Pandora_Towards_General_World_Model_with_Natural_Language_Actions_and_Vi",
+      "file_kind": "txt",
+      "file": "arxiv_240609455v1_Pandora_Towards_General_World_Model_with_Natural_Language_Actions_and_Vi.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2601.17094v2",
+      "doi": "",
+      "title": "The Mouth is Not the Brain: Bridging Energy-Based World Models and Language Generation",
+      "abstract": "Large Language Models (LLMs) generate fluent text, yet whether they truly understand the world or merely produce plausible texts about it remains contested. We propose an architectural principle, the mouth is not the brain, that explicitly separates world models from language models. Our architecture comprises three components: a DBM that captures domain structure as an energy-based world model, an adapter that projects latent belief states into embedding space, and a frozen GPT-2 that provides linguistic competence without domain knowledge. We instantiate this framework in the consumer review domain using Amazon smartphone reviews. Experiments demonstrate that (1) world model conditioning achieves lower cross-entropy loss and higher semantic similarity than architectural baselines including direct projection and full fine-tuning, while qualitative analysis reveals that soft prompt conditioning resolves a trade-off that prompt-based approaches cannot: simple prompts lack expressiveness while detailed prompts cause output collapse in small LLMs; (2) the DBM's energy function distinguishes coherent from incoherent market configurations, assigning higher energy to implausible brand-price combinations; and (3) interventions on specific attributes propagate causally to generated text with intervened outputs exhibiting distributions statistically consistent with naturally occurring samples sharing the target configuration. These findings suggest that even small-scale language models can achieve consistent, controllable generation when connected to an appropriate world model, providing empirical support for separating linguistic competence from world understanding.",
+      "year": 2026,
+      "authors": [
+        "Junichiro Niimi"
+      ],
+      "venue": "Trans.Mach.Learn.Res.(2026)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2601.17094v2",
+      "url": "http://arxiv.org/abs/2601.17094v2",
+      "key": "arxiv_260117094v2_The_Mouth_is_Not_the_Brain_Bridging_Energy-Based_World_Models_and_Langua",
+      "file_kind": "txt",
+      "file": "arxiv_260117094v2_The_Mouth_is_Not_the_Brain_Bridging_Energy-Based_World_Models_and_Langua.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2608.05850v2",
+      "doi": "",
+      "title": "MameLoshnLM: Yiddish Language Model and Evaluation Benchmark",
+      "abstract": "We present MameLoshnLM, the first open-source 8B-parameter language model built specifically for Yiddish. Despite Yiddish's rich textual tradition, its limited digital presence and the scarcity of reliable evaluation resources have constrained progress in Yiddish language modeling. Existing multilingual corpora and benchmarks are often poor proxies for the language, containing substantial amounts of noisy, machine-translated, and misclassified text. We address these gaps by introducing Oytser, a high-quality Yiddish pretraining corpus that combines contemporary web-native sources with literary materials, and Kashes, a multi-task benchmark spanning translation, linguistic analysis, information extraction, and language understanding. Using these resources, we continue pretraining Llama 3.1 8B to obtain MameLoshnLM. Across the tasks in the benchmark, MameLoshnLM outperforms open baselines of similar scale. Our analyses show that these gains are not only quantitative: relative to general-purpose multilingual models, MameLoshnLM better captures language-defining lexical and morphological patterns, pointing to a broader failure mode of noisy web-scale multilingual data for low-resource languages. Our results provide both a foundation for Yiddish NLP and a practical template for language model development in historically rich but digitally underrepresented languages.",
+      "year": 2026,
+      "authors": [
+        "Uri Katz",
+        "Omer Goldman",
+        "Tomasz Limisiewicz",
+        "Reut Tsarfaty",
+        "Noah A. Smith"
+      ],
+      "venue": "Proceedings of the Third Conference on Language Modeling (COLM 2026), 2026",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.05850v2",
+      "url": "http://arxiv.org/abs/2608.05850v2",
+      "key": "arxiv_260805850v2_MameLoshnLM_Yiddish_Language_Model_and_Evaluation_Benchmark",
+      "file_kind": "txt",
+      "file": "arxiv_260805850v2_MameLoshnLM_Yiddish_Language_Model_and_Evaluation_Benchmark.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.21676v2",
+      "doi": "",
+      "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+      "abstract": "Large language models accumulate vast knowledge during pre-training, yet the dynamics governing this acquisition remain poorly understood. This work investigates the learning dynamics of language models on a synthetic factual recall task, uncovering three key findings: First, language models learn in three phases, exhibiting a performance plateau before acquiring precise factual knowledge. Mechanistically, this plateau coincides with the formation of attention-based circuits that support recall. Second, the training data distribution significantly impacts learning dynamics, as imbalanced distributions lead to shorter plateaus. Finally, hallucinations emerge simultaneously with knowledge, and integrating new knowledge into the model through fine-tuning is challenging, as it quickly corrupts its existing parametric memories. Our results emphasize the importance of data distribution in knowledge acquisition and suggest novel data scheduling strategies to accelerate neural network training.",
+      "year": 2025,
+      "authors": [
+        "Nicolas Zucchet",
+        "Jörg Bornschein",
+        "Stephanie Chan",
+        "Andrew Lampinen",
+        "Razvan Pascanu",
+        "Soham De"
+      ],
+      "venue": "Conference on Language Modeling (2025)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.21676v2",
+      "url": "http://arxiv.org/abs/2503.21676v2",
+      "key": "arxiv_250321676v2_How_do_language_models_learn_facts_Dynamics_curricula_and_hallucinations",
+      "file_kind": "txt",
+      "file": "arxiv_250321676v2_How_do_language_models_learn_facts_Dynamics_curricula_and_hallucinations.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2409.02228v2",
+      "doi": "",
+      "title": "Unforgettable Generalization in Language Models",
+      "abstract": "When language models (LMs) are trained to forget (or \"unlearn'') a skill, how precisely does their behavior change? We study the behavior of transformer LMs in which tasks have been forgotten via fine-tuning on randomized labels. Such LMs learn to generate near-random predictions for individual examples in the \"training'' set used for forgetting. Across tasks, however, LMs exhibit extreme variability in whether LM predictions change on examples outside the training set. In some tasks (like entailment classification), forgetting generalizes robustly, and causes models to produce uninformative predictions on new task instances; in other tasks (like physical commonsense reasoning and scientific question answering) forgetting affects only the training examples, and models continue to perform the \"forgotten'' task accurately even for examples very similar to those that appeared in the training set. Dataset difficulty is not predictive of whether a behavior can be forgotten; instead, generalization in forgetting is (weakly) predicted by the confidence of LMs' initial task predictions and the variability of LM representations of training data, with low confidence and low variability both associated with greater generalization. Perhaps most surprisingly, random-label forgetting appears to be somewhat insensitive to the contents of the training set: for example, models trained on science questions with random labels continue to answer other science questions accurately, but begin to produce random labels on entailment classification tasks. Finally, we show that even generalizable forgetting is shallow: linear probes trained on LMs' representations can still perform tasks reliably after forgetting. Our results highlight the difficulty and unpredictability of performing targeted skill removal from models via fine-tuning.",
+      "year": 2024,
+      "authors": [
+        "Eric Zhang",
+        "Leshem Choshen",
+        "Jacob Andreas"
+      ],
+      "venue": "First Conference on Language Modeling (2024)",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.02228v2",
+      "url": "http://arxiv.org/abs/2409.02228v2",
+      "key": "arxiv_240902228v2_Unforgettable_Generalization_in_Language_Models",
+      "file_kind": "txt",
+      "file": "arxiv_240902228v2_Unforgettable_Generalization_in_Language_Models.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.00613v3",
+      "doi": "",
+      "title": "WorldGym: World Model as An Environment for Policy Evaluation",
+      "abstract": "Evaluating robot control policies is difficult: real-world testing is costly, and handcrafted simulators require manual effort to improve in realism and generality. We propose a world-model-based policy evaluation environment (WorldGym), an autoregressive, action-conditioned video generation model which serves as a proxy to real world environments. Policies are evaluated via Monte Carlo rollouts in the world model, with a vision-language model providing rewards. We evaluate a set of VLA-based real-robot policies in the world model using only initial frames from real robots, and show that policy success rates within the world model highly correlate with real-world success rates. Moreoever, we show that WorldGym is able to preserve relative policy rankings across different policy versions, sizes, and training checkpoints. Due to requiring only a single start frame as input, the world model further enables efficient evaluation of robot policies' generalization ability on novel tasks and environments. We find that modern VLA-based robot policies still struggle to distinguish object shapes and can become distracted by adversarial facades of objects. While generating highly realistic object interaction remains challenging, WorldGym faithfully emulates robot motions and offers a practical starting point for safe and reproducible policy evaluation before deployment.",
+      "year": 2025,
+      "authors": [
+        "Julian Quevedo",
+        "Ansh Kumar Sharma",
+        "Yixiang Sun",
+        "Varad Suryavanshi",
+        "Percy Liang",
+        "Sherry Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.00613v3",
+      "url": "http://arxiv.org/abs/2506.00613v3",
+      "key": "arxiv_250600613v3_WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation",
+      "file_kind": "txt",
+      "file": "arxiv_250600613v3_WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2611.21479v2",
+      "doi": "",
+      "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+      "abstract": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address these challenges, we introduce LynnReal-Hand, a hand-controlled video world model that unifies precise interaction modeling with efficient streaming generation. We curate 100K interaction clips spanning diverse real and synthetic environments and develop hand-aware supervision to improve fine-grained hand motions and object interactions. Building on this foundation, we learn a causal flow map for few-step generation and introduce region-aware score distillation that combines complementary video and image priors to refine interaction dynamics and visual appearance. To further reduce inference latency, we propose Ultra-Fast-VAE, a compact video decoder that preserves high reconstruction fidelity with substantially lower computational cost. Extensive evaluations on HandBench demonstrate superior hand-following accuracy and visual quality compared with existing approaches. Our full-sequence model achieves an FVD of 181.67 and a MANO Dice score of 93.02, while the three-step causal model maintains a MANO Dice score of 92.49. For real-time interaction, 540p streaming on a single H200 reaches 18.03 FPS with 741ms latency and an optimized peak GPU memory footprint of only 34.89GB. We will release the datasets, model weights, and the full training and inference code to support research on hand-controlled video world models.",
+      "year": 2026,
+      "authors": [
+        "Shaohao Rui",
+        "Chaoyang Zhang",
+        "Xiaofeng Mao",
+        "Weijie Ma"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2611.21479v2",
+      "url": "http://arxiv.org/abs/2611.21479v2",
+      "key": "arxiv_261121479v2_LynnReal-Hand_Unlocking_World_Interaction_with_Hand_Control",
+      "file_kind": "txt",
+      "file": "arxiv_261121479v2_LynnReal-Hand_Unlocking_World_Interaction_with_Hand_Control.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2401.09985v1",
+      "doi": "",
+      "title": "WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens",
+      "abstract": "World models play a crucial role in understanding and predicting the dynamics of the world, which is essential for video generation. However, existing world models are confined to specific scenarios such as gaming or driving, limiting their ability to capture the complexity of general world dynamic environments. Therefore, we introduce WorldDreamer, a pioneering world model to foster a comprehensive comprehension of general world physics and motions, which significantly enhances the capabilities of video generation. Drawing inspiration from the success of large language models, WorldDreamer frames world modeling as an unsupervised visual sequence modeling challenge. This is achieved by mapping visual inputs to discrete tokens and predicting the masked ones. During this process, we incorporate multi-modal prompts to facilitate interaction within the world model. Our experiments show that WorldDreamer excels in generating videos across different scenarios, including natural scenes and driving environments. WorldDreamer showcases versatility in executing tasks such as text-to-video conversion, image-tovideo synthesis, and video editing. These results underscore WorldDreamer's effectiveness in capturing dynamic elements within diverse general world environments.",
+      "year": 2024,
+      "authors": [
+        "Xiaofeng Wang",
+        "Zheng Zhu",
+        "Guan Huang",
+        "Boyuan Wang",
+        "Xinze Chen",
+        "Jiwen Lu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2401.09985v1",
+      "url": "http://arxiv.org/abs/2401.09985v1",
+      "key": "arxiv_240109985v1_WorldDreamer_Towards_General_World_Models_for_Video_Generation_via_Predi",
+      "file_kind": "txt",
+      "file": "arxiv_240109985v1_WorldDreamer_Towards_General_World_Models_for_Video_Generation_via_Predi.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.07092v1",
+      "doi": "",
+      "title": "Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report",
+      "abstract": "World models are a powerful paradigm in AI and robotics, enabling agents to reason about the future by predicting visual observations or compact latent states. The 1X World Model Challenge introduces an open-source benchmark of real-world humanoid interaction, with two complementary tracks: sampling, focused on forecasting future image frames, and compression, focused on predicting future discrete latent codes. For the sampling track, we adapt the video generation foundation model Wan-2.2 TI2V-5B to video-state-conditioned future frame prediction. We condition the video generation on robot states using AdaLN-Zero, and further post-train the model using LoRA. For the compression track, we train a Spatio-Temporal Transformer model from scratch. Our models achieve 23.0 dB PSNR in the sampling task and a Top-500 CE of 6.6386 in the compression task, securing 1st place in both challenges.",
+      "year": 2025,
+      "authors": [
+        "Riccardo Mereu",
+        "Aidan Scannell",
+        "Yuxin Hou",
+        "Yi Zhao",
+        "Aditya Jitta",
+        "Antonio Dominguez",
+        "Luigi Acerbi",
+        "Amos Storkey",
+        "Paul Chang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.07092v1",
+      "url": "http://arxiv.org/abs/2510.07092v1",
+      "key": "arxiv_251007092v1_Generative_World_Modelling_for_Humanoids_1X_World_Model_Challenge_Techni",
+      "file_kind": "txt",
+      "file": "arxiv_251007092v1_Generative_World_Modelling_for_Humanoids_1X_World_Model_Challenge_Techni.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2308.00073v1",
+      "doi": "",
+      "title": "Trustworthiness of Children Stories Generated by Large Language Models",
+      "abstract": "Large Language Models (LLMs) have shown a tremendous capacity for generating literary text. However, their effectiveness in generating children's stories has yet to be thoroughly examined. In this study, we evaluate the trustworthiness of children's stories generated by LLMs using various measures, and we compare and contrast our results with both old and new children's stories to better assess their significance. Our findings suggest that LLMs still struggle to generate children's stories at the level of quality and nuance found in actual stories",
+      "year": 2023,
+      "authors": [
+        "Prabin Bhandari",
+        "Hannah Marie Brennan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2308.00073v1",
+      "url": "http://arxiv.org/abs/2308.00073v1",
+      "key": "arxiv_230800073v1_Trustworthiness_of_Children_Stories_Generated_by_Large_Language_Models",
+      "file_kind": "txt",
+      "file": "arxiv_230800073v1_Trustworthiness_of_Children_Stories_Generated_by_Large_Language_Models.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.27589v1",
+      "doi": "",
+      "title": "What-If World: A Causal Benchmark for General World Models in Embodied Scenarios",
+      "abstract": "Video generation models are increasingly used as world simulators for tasks like driving and robotic manipulation. What matters in these settings is not whether a single video looks right, but whether the model's output changes when its input changes. We test this by giving a model two prompts describing the same scene with one physical detail varied, and checking whether the two videos diverge the way physics predicts. The wording difference between the prompts is small by design, since only one variable is changed, but the correct physical difference is not. A model that misses this can still produce two videos that each look plausible individually, and existing benchmarks score videos one at a time and cannot detect this failure. We introduce What-If World, 319 such prompt pairs built on real frames from nuScenes and DROID, organized by a taxonomy of six physical variables shared across driving and manipulation. Each pair is scored with APEO, a four-part rubric checking whether each video follows its prompt (Adherence), is physically consistent (Physics), preserves the shared scene (Environment), and ends in the correct difference (Outcome). Across nine state-of-the-art models, no system exceeds 52% on the paired score, and open-source models cluster near 28%. Every model tested fails on a large fraction of causal interventions, indicating substantial room before these models can reliably support action-conditioned simulation or model-based planning. Where models do score well, performance appears to track the visual prominence of the intervention rather than the tractability of its underlying physics. Some visually subtle interventions score as low as 14.2%, while visually pronounced ones reach 40.4%.",
+      "year": 2026,
+      "authors": [
+        "Kunlin Cai",
+        "Rui Song",
+        "Jinghuai Zhang",
+        "Kaiyuan Zhang",
+        "Pranav Bodapati",
+        "Alicia Yu",
+        "Fnu Suya",
+        "Mohammad Rostami",
+        "Jiaqi Ma",
+        "Yuan Tian"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.27589v1",
+      "url": "http://arxiv.org/abs/2605.27589v1",
+      "key": "arxiv_260527589v1_What-If_World_A_Causal_Benchmark_for_General_World_Models_in_Embodied_Sc",
+      "file_kind": "txt",
+      "file": "arxiv_260527589v1_What-If_World_A_Causal_Benchmark_for_General_World_Models_in_Embodied_Sc.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2306.06371v1",
+      "doi": "10.1016/j.nlp.2023.100013",
+      "title": "A Comprehensive Review of State-of-The-Art Methods for Java Code Generation from Natural Language Text",
+      "abstract": "Java Code Generation consists in generating automatically Java code from a Natural Language Text. This NLP task helps in increasing programmers' productivity by providing them with immediate solutions to the simplest and most repetitive tasks. Code generation is a challenging task because of the hard syntactic rules and the necessity of a deep understanding of the semantic aspect of the programming language. Many works tried to tackle this task using either RNN-based, or Transformer-based models. The latter achieved remarkable advancement in the domain and they can be divided into three groups: (1) encoder-only models, (2) decoder-only models, and (3) encoder-decoder models. In this paper, we provide a comprehensive review of the evolution and progress of deep learning models in Java code generation task. We focus on the most important methods and present their merits and limitations, as well as the objective functions used by the community. In addition, we provide a detailed description of datasets and evaluation metrics used in the literature. Finally, we discuss results of different models on CONCODE dataset, then propose some future directions.",
+      "year": 2023,
+      "authors": [
+        "Jessica López Espejel",
+        "Mahaman Sanoussi Yahaya Alassan",
+        "El Mehdi Chouham",
+        "Walid Dahhane",
+        "El Hassane Ettifouri"
+      ],
+      "venue": "Natural Language Processing Journal, Volume 3, 2023, 100013, ISSN 2949-7191",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2306.06371v1",
+      "url": "http://arxiv.org/abs/2306.06371v1",
+      "key": "arxiv_101016_jnlp2023100013_A_Comprehensive_Review_of_State-of-The-Art_Methods_for_Java_Co",
+      "file_kind": "txt",
+      "file": "arxiv_101016_jnlp2023100013_A_Comprehensive_Review_of_State-of-The-Art_Methods_for_Java_Co.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2310.08187v1",
+      "doi": "",
+      "title": "Visual Question Generation in Bengali",
+      "abstract": "The task of Visual Question Generation (VQG) is to generate human-like questions relevant to the given image. As VQG is an emerging research field, existing works tend to focus only on resource-rich language such as English due to the availability of datasets. In this paper, we propose the first Bengali Visual Question Generation task and develop a novel transformer-based encoder-decoder architecture that generates questions in Bengali when given an image. We propose multiple variants of models - (i) image-only: baseline model of generating questions from images without additional information, (ii) image-category and image-answer-category: guided VQG where we condition the model to generate questions based on the answer and the category of expected question. These models are trained and evaluated on the translated VQAv2.0 dataset. Our quantitative and qualitative results establish the first state of the art models for VQG task in Bengali and demonstrate that our models are capable of generating grammatically correct and relevant questions. Our quantitative results show that our image-cat model achieves a BLUE-1 score of 33.12 and BLEU-3 score of 7.56 which is the highest of the other two variants. We also perform a human evaluation to assess the quality of the generation tasks. Human evaluation suggests that image-cat model is capable of generating goal-driven and attribute-specific questions and also stays relevant to the corresponding image.",
+      "year": 2023,
+      "authors": [
+        "Mahmud Hasan",
+        "Labiba Islam",
+        "Jannatul Ferdous Ruma",
+        "Tasmiah Tahsin Mayeesha",
+        "Rashedur M. Rahman"
+      ],
+      "venue": "Proceedings of the Workshop on Multimodal, Multilingual Natural Language Generation and Multilingual WebNLG Challenge (MM-NLG 2023), 2023, 10-19",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2310.08187v1",
+      "url": "http://arxiv.org/abs/2310.08187v1",
+      "key": "arxiv_231008187v1_Visual_Question_Generation_in_Bengali",
+      "file_kind": "txt",
+      "file": "arxiv_231008187v1_Visual_Question_Generation_in_Bengali.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.24626v1",
+      "doi": "",
+      "title": "Relationally Grounded Latent World Models for Autonomous Driving",
+      "abstract": "Latent world models learn predictive representations for autonomous driving, but the relational semantics these states preserve often remain implicit. We investigate whether traffic scene graphs can serve as privileged semantic supervision for latent world representations. Building on LAW, we construct actor-centric scene graphs from nuScenes 3D annotations, encode their serialized relational structure using a frozen text embedding model, and align the visual latent representations with this semantic target during training. We remove the supervision branch at inference, so it requires neither scene graphs nor 3D annotations and adds no test-time computation. On nuScenes, our method reduces average trajectory L2 error from 0.661 to 0.622 (5.9%) and collision rate from 0.456 to 0.217 (52.4%) relative to our retrained LAW baseline. It also outperforms an unstructured caption-style semantic target, supporting the benefit of explicit relational structure for latent world-model representation learning.",
+      "year": 2026,
+      "authors": [
+        "Fabian Schmidt",
+        "Markus Enzweiler",
+        "Abhinav Valada"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.24626v1",
+      "url": "http://arxiv.org/abs/2609.24626v1",
+      "key": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.23993v2",
+      "doi": "",
+      "title": "Nano World Models: A Minimalist Implementation of Future Video Prediction",
+      "abstract": "World models have become a central paradigm for learning predictive simulators that support generation, planning, and decision-making. Yet, despite rapid progress in industry-scale interactive video generation, the broader research community still lacks compact, reproducible, and easily extensible implementations for studying the design choices underlying modern world models. We introduce Nano World Models, a minimalist codebase for future video prediction centered around diffusion forcing. Nano World Models provides a unified interface for generative objectives, model scales, action-conditioning mechanisms, latent observation spaces, datasets, evaluation protocols, and long-horizon rollout procedures. This design enables controlled studies of world-modeling components that are often entangled across separate implementations. Through experiments across simple control environments, game simulation, and real-robot data, we examine how prediction parameterization, architecture scale, action injection, sampling budget, and domain complexity affect video prediction quality and autoregressive rollout behavior. By releasing code, configurations, evaluation scripts, and pretrained checkpoints, Nano World Models aims to provide a compact yet extensible experimental substrate for open, reproducible, and scientific world-model research.",
+      "year": 2026,
+      "authors": [
+        "Siqiao Huang",
+        "Partha Kaushik",
+        "Michael Chen",
+        "Hengkai Pan",
+        "Kaiwen Geng",
+        "Omar Chehab",
+        "Fernando Moreno-Pino",
+        "Max Simchowitz"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.23993v2",
+      "url": "http://arxiv.org/abs/2605.23993v2",
+      "key": "arxiv_260523993v2_Nano_World_Models_A_Minimalist_Implementation_of_Future_Video_Prediction",
+      "file_kind": "txt",
+      "file": "arxiv_260523993v2_Nano_World_Models_A_Minimalist_Implementation_of_Future_Video_Prediction.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2303.12869v1",
+      "doi": "",
+      "title": "JaCoText: A Pretrained Model for Java Code-Text Generation",
+      "abstract": "Pretrained transformer-based models have shown high performance in natural language generation task. However, a new wave of interest has surged: automatic programming language generation. This task consists of translating natural language instructions to a programming code. Despite the fact that well-known pretrained models on language generation have achieved good performance in learning programming languages, effort is still needed in automatic code generation. In this paper, we introduce JaCoText, a model based on Transformers neural network. It aims to generate java source code from natural language text. JaCoText leverages advantages of both natural language and code generation models. More specifically, we study some findings from the state of the art and use them to (1) initialize our model from powerful pretrained models, (2) explore additional pretraining on our java dataset, (3) carry out experiments combining the unimodal and bimodal data in the training, and (4) scale the input and output length during the fine-tuning of the model. Conducted experiments on CONCODE dataset show that JaCoText achieves new state-of-the-art results.",
+      "year": 2023,
+      "authors": [
+        "Jessica López Espejel",
+        "Mahaman Sanoussi Yahaya Alassan",
+        "Walid Dahhane",
+        "El Hassane Ettifouri"
+      ],
+      "venue": "Espejel, J. L., Alassan, M. S. Y., Dahhane, W., & Ettifouri, E. H. (2023). JaCoText: A Pretrained Model for Java Code-Text Generation. International Journal of Computer and Systems Engineering, 17(2), 100-105",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.12869v1",
+      "url": "http://arxiv.org/abs/2303.12869v1",
+      "key": "arxiv_230312869v1_JaCoText_A_Pretrained_Model_for_Java_Code-Text_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_230312869v1_JaCoText_A_Pretrained_Model_for_Java_Code-Text_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2606.20083v4",
+      "doi": "",
+      "title": "Holo-World: Unified Camera, Object and Weather Control for Video World Model",
+      "abstract": "Video world models are moving toward preserving an observed world under controllable camera and object motion while allowing its environmental state to change. Yet these controls remain isolated, and weather generation typically relies on a source video or reconstructed scene that already specifies future structure. We study a first-frame-anchored source-to-state setting, where the model starts from a single image and follows explicit camera and object controls and an optional weather instruction, then generates a video that either preserves the source world or transfers it to a target weather state. To address these challenges, we first build HoloStateData, a state video dataset that turns diverse videos into unified control samples for camera, object, and weather supervision. Second, we introduce Holo-World, a unified controllable video world model that jointly controls the scene from a single image. Its Unified Scene Adapter factorizes world preservation and weather transfer into distinct parameter subspaces, using rendered background, geometry buffers, and object controls to maintain controlled scene structure while modeling weather-dependent appearance and particle effects. Additionally, Scene-Weather Decomposed CFG guides scene and weather residuals separately, strengthening target weather effects without over-amplifying the full condition. Quantitative and qualitative experiments demonstrate that Holo-World maintains precise camera and object controls with consistent scene structure while transferring scenes into diverse target weather states, outperforming video-to-video weather editing baselines on weather-state generation. Our project page is available at https://xiangchenyin.github.io/Holo-World/.",
+      "year": 2026,
+      "authors": [
+        "Xiangchen Yin",
+        "Wenzhang Sun",
+        "Jiahui Yuan",
+        "Zijie Liu",
+        "Yinda Chen",
+        "Wei Li",
+        "Dachun Kai",
+        "Chunfeng Wang",
+        "Xiaoyan Sun"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.20083v4",
+      "url": "http://arxiv.org/abs/2606.20083v4",
+      "key": "arxiv_260620083v4_Holo-World_Unified_Camera_Object_and_Weather_Control_for_Video_World_Mod",
+      "file_kind": "txt",
+      "file": "arxiv_260620083v4_Holo-World_Unified_Camera_Object_and_Weather_Control_for_Video_World_Mod.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.17811v1",
+      "doi": "10.18653/v1/2023.emnlp-main.983",
+      "title": "Are Compressed Language Models Less Subgroup Robust?",
+      "abstract": "To reduce the inference cost of large language models, model compression is increasingly used to create smaller scalable models. However, little is known about their robustness to minority subgroups defined by the labels and attributes of a dataset. In this paper, we investigate the effects of 18 different compression methods and settings on the subgroup robustness of BERT language models. We show that worst-group performance does not depend on model size alone, but also on the compression method used. Additionally, we find that model compression does not always worsen the performance on minority subgroups. Altogether, our analysis serves to further research into the subgroup robustness of model compression.",
+      "year": 2024,
+      "authors": [
+        "Leonidas Gee",
+        "Andrea Zugarini",
+        "Novi Quadrianto"
+      ],
+      "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: Main Track",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.17811v1",
+      "url": "http://arxiv.org/abs/2403.17811v1",
+      "key": "arxiv_1018653_v1_2023emnlp-main983_Are_Compressed_Language_Models_Less_Subgroup_Robust",
+      "file_kind": "txt",
+      "file": "arxiv_1018653_v1_2023emnlp-main983_Are_Compressed_Language_Models_Less_Subgroup_Robust.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2402.09977v1",
+      "doi": "10.18653/v1/2022.emnlp-industry.41",
+      "title": "Fast Vocabulary Transfer for Language Model Compression",
+      "abstract": "Real-world business applications require a trade-off between language model performance and size. We propose a new method for model compression that relies on vocabulary transfer. We evaluate the method on various vertical domains and downstream tasks. Our results indicate that vocabulary transfer can be effectively used in combination with other compression techniques, yielding a significant reduction in model size and inference time while marginally compromising on performance.",
+      "year": 2024,
+      "authors": [
+        "Leonidas Gee",
+        "Andrea Zugarini",
+        "Leonardo Rigutini",
+        "Paolo Torroni"
+      ],
+      "venue": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022): Industry Track",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2402.09977v1",
+      "url": "http://arxiv.org/abs/2402.09977v1",
+      "key": "arxiv_1018653_v1_2022emnlp-industry41_Fast_Vocabulary_Transfer_for_Language_Model_Compress",
+      "file_kind": "txt",
+      "file": "arxiv_1018653_v1_2022emnlp-industry41_Fast_Vocabulary_Transfer_for_Language_Model_Compress.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2408.13040v1",
+      "doi": "10.1109/taslp.2024.3436618",
+      "title": "SpeechPrompt: Prompting Speech Language Models for Speech Processing Tasks",
+      "abstract": "Prompting has become a practical method for utilizing pre-trained language models (LMs). This approach offers several advantages. It allows an LM to adapt to new tasks with minimal training and parameter updates, thus achieving efficiency in both storage and computation. Additionally, prompting modifies only the LM's inputs and harnesses the generative capabilities of language models to address various downstream tasks in a unified manner. This significantly reduces the need for human labor in designing task-specific models. These advantages become even more evident as the number of tasks served by the LM scales up. Motivated by the strengths of prompting, we are the first to explore the potential of prompting speech LMs in the domain of speech processing. Recently, there has been a growing interest in converting speech into discrete units for language modeling. Our pioneer research demonstrates that these quantized speech units are highly versatile within our unified prompting framework. Not only can they serve as class labels, but they also contain rich phonetic information that can be re-synthesized back into speech signals for speech generation tasks. Specifically, we reformulate speech processing tasks into speech-to-unit generation tasks. As a result, we can seamlessly integrate tasks such as speech classification, sequence generation, and speech generation within a single, unified prompting framework. The experiment results show that the prompting method can achieve competitive performance compared to the strong fine-tuning method based on self-supervised learning models with a similar number of trainable parameters. The prompting method also shows promising results in the few-shot setting. Moreover, with the advanced speech LMs coming into the stage, the proposed prompting framework attains great potential.",
+      "year": 2024,
+      "authors": [
+        "Kai-Wei Chang",
+        "Haibin Wu",
+        "Yu-Kai Wang",
+        "Yuan-Kuei Wu",
+        "Hua Shen",
+        "Wei-Cheng Tseng",
+        "Iu-thing Kang",
+        "Shang-Wen Li",
+        "Hung-yi Lee"
+      ],
+      "venue": "in IEEE/ACM Transactions on Audio, Speech, and Language Processing, vol. 32, pp. 3730-3744, 2024",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.13040v1",
+      "url": "http://arxiv.org/abs/2408.13040v1",
+      "key": "arxiv_101109_taslp20243436618_SpeechPrompt_Prompting_Speech_Language_Models_for_Speech_Pro",
+      "file_kind": "txt",
+      "file": "arxiv_101109_taslp20243436618_SpeechPrompt_Prompting_Speech_Language_Models_for_Speech_Pro.txt"
+    }
+  ]
+}

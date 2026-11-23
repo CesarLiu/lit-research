@@ -1,0 +1,15 @@
+{
+ "id": "mygo_consistent_and_controllable_multi_view_drivin",
+ "title": "MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control",
+ "control_family": "camera or viewpoint control",
+ "output_modality": {"value": "multi-view driving video (8-frame clips at 256x512, 6 views on nuScenes); also single-view camera-controlled video on RealEstate10K", "pages": "6, 2"},
+ "control_signal": {"value": "onboard camera pose (intrinsics, extrinsics, as Plucker embeddings) to control ego motion, plus BEV map, 3D boxes, first-frame keyframes and neighbour-view video", "pages": "1-3, 10"},
+ "control_mechanism": {"value": "ControlNet-like module injecting Plucker coordinates before temporal transformers with zero-initialised linear layers; other conditions via condition cross-attention; epipolar-masked neighbour-view cross-attention", "pages": "3-5"},
+ "base_model": {"value": "pre-trained Stable Video Diffusion image-to-video latent diffusion U-Net with pre-trained VAE, original transformer frozen during training, Diffusers codebase", "pages": "3-6"},
+ "datasets": {"value": "nuScenes (700 train, 150 validation scenes) and RealEstate10K (all training samples; 1000 random evaluation samples)", "pages": "5-6"},
+ "metrics": {"value": "FID, FVD, RotErr and TransErr (COLMAP-based, RealEstate10K only), KPM score for multi-view consistency on nuScenes", "pages": "5-6"},
+ "controllability_evidence": {"value": "RealEstate10K: MyGo RotErr 7.71 and TransErr 5.98 versus CameraCtrl 8.36 and 6.27. nuScenes KPM 81.22% versus 80.67% (CameraCtrl); FID 11.60, FVD 122.06.", "pages": "6"},
+ "closed_loop": {"value": "no; open-loop video generation of short clips (8 frames at 2 frames per second), no policy in the loop", "pages": "6, 10"},
+ "stated_limitations": {"value": "Ego motion is mostly forward or backward with large displacement, so epipolar constraints and rule-based consistency are hard to apply; first-frame conditioning is not enough for some scenarios (sentence cut off in packet).", "pages": "10"},
+ "notes": "Camera control accuracy is verified only on RealEstate10K, since COLMAP fails on dynamic nuScenes scenes; nuScenes controllability is via KPM consistency. Limitation sentence truncated."
+}

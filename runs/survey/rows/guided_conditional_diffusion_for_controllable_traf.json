@@ -1,0 +1,13 @@
+{
+ "id": "guided_conditional_diffusion_for_controllable_traf",
+ "title": "Guided Conditional Diffusion for Controllable Traffic Simulation",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "Driving rules written in signal temporal logic (speed limit, target speed, no collision, no off-road, goal waypoint, stop sign), alone or combined, specified at test time.", "pages": "1, 4-5"},
+ "control_mechanism": {"value": "Gradient of differentiable STL robustness perturbs the denoised mean at each sampling step; several guided samples are filtered by rule satisfaction; guidance runs jointly over all agents for interaction rules.", "pages": "4-5, 3-4"},
+ "base_model": {"value": "Conditional agent-centric diffusion with 1D-conv U-Net, ResNet encoder on rasterized map and history, unicycle dynamics enforced in the state space, K = 100 steps.", "pages": "3-4, 1-2"},
+ "datasets": {"value": "nuScenes; models trained on the train split, evaluated on 100 randomly sampled validation scenes; vehicles only.", "pages": "5"},
+ "metrics": {"value": "Rule-violation metric per rule, realism deviation (Wasserstein distance on longitudinal and lateral acceleration and jerk), failure rate (collision or road departure).", "pages": "5"},
+ "controllability_evidence": {"value": "Speed-limit rule: CTG rule violation 0.019 vs 0.038 for SimNet+opt and 0.033 for BITS+opt, with lower realism deviation (0.359) and failure rate (0.165) than the optimization baselines. Ablation: no guidance gives 1.3802 violation.", "pages": "5, 6-7"},
+ "stated_limitations": {"value": "Only vehicles are modeled; cyclists and pedestrians deferred to future work.", "pages": "5, 6-7"},
+ "notes": "No dedicated limitations section in packet."
+}

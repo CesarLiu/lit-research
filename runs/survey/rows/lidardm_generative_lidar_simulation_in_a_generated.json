@@ -1,0 +1,15 @@
+{
+ "id": "lidardm_generative_lidar_simulation_in_a_generated",
+ "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "LiDAR point cloud sequences (4D LiDAR video) raycast from a generated 3D scene composed with generated dynamic actors", "pages": "1-3"},
+ "control_signal": {"value": "traffic layout at t=0: HD map layout rasterized into a segmentation map (5 map classes) plus actor boxes and ego position", "pages": "2, 5"},
+ "control_mechanism": {"value": "Map latent conditions a latent diffusion model for the static scene, sampled with classifier-free guidance; actors fitted to layout boxes; trajectories from an extended Waymax simulator; raycasting", "pages": "3-4"},
+ "base_model": {"value": "Latent diffusion UNet with SDF scene VAE and map VAE; GET3D and AvatarClip for actors; Waymax for trajectories; NKSR for pseudo ground truth; UNet raydrop model", "pages": "3-5"},
+ "datasets": {"value": "KITTI-360 for unconditional generation; Waymo Open (HD maps) for conditional generation and downstream tests", "pages": "4-6"},
+ "metrics": {"value": "MMD and JSD on BEV occupancy; ICP energy, outlier percentage, Chamfer distance for temporal consistency; detection mAP; Wasserstein distance for intensity; planner L2 and collision rate", "pages": "5-6"},
+ "controllability_evidence": {"value": "CenterPoint on generated LiDAR gets 56.4% vehicle mAP vs 59.7% on real LiDAR; mAP agreement with raw scan up to 81.1%; Chamfer distance 0.17 vs 0.39 for sequence-diffusion baseline", "pages": "6"},
+ "closed_loop": {"value": "No; open-loop generation (accumulated over 90 frames shown); generated data is used to pretrain a planner, not rolled out interactively", "pages": "6"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Simulator-style pipeline with composed generated world; control is the initial layout, not an ego action. No limitations section in packet."
+}

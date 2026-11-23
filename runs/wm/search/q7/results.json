@@ -1,0 +1,1381 @@
+{
+  "query": "LiDAR generation world model driving",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2023",
+  "raw_hits": 50,
+  "unique": 47,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416550198",
+      "doi": "10.1007/978-3-032-37419-6_8",
+      "title": "LiSTAR: Ray-Centric World Models for 4D LiDAR Sequences in Autonomous Driving",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Pei Liu",
+        "Songtao Wang",
+        "Lang Zhang",
+        "Xingyue Peng",
+        "Yuandong Lyu",
+        "Jiaxin Deng",
+        "Songxin Lu",
+        "Wenxiao Ma",
+        "Xueyang Zhang",
+        "Yifei Zhan",
+        "Kun Zhan",
+        "Jun Ma"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.16049",
+      "url": "https://openalex.org/W4416550198",
+      "key": "openalex_101007_978-3-032-37419-6_8_LiSTAR_Ray-Centric_World_Models_for_4D_LiDAR_Sequences",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-032-37419-6_8_LiSTAR_Ray-Centric_World_Models_for_4D_LiDAR_Sequences.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4413917025",
+      "doi": "10.1109/icra55743.2025.11128001",
+      "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+      "abstract": "We present LidarDM, a novel LiDAR generative model capable of producing realistic, layout-aware, physically plausible, and temporally coherent LiDAR videos. LidarDM stands out with two unprecedented capabilities in LiDAR generative modeling: (i) LiDAR generation guided by driving scenarios, offering significant potential for autonomous driving simulations, and (ii) 4D LiDAR point cloud generation, enabling the creation of realistic and temporally coherent sequences. At the heart of our model is a novel integrated 4D world generation framework. Specifically, we employ latent diffusion models to generate the 3D scene, combine it with dynamic actors to form the underlying 4D world, and subsequently produce realistic sensory observations within this virtual environment. Our experiments indicate that our approach outperforms competing algorithms in realism, temporal coherency, and layout consistency. We additionally show that LidarDM can be used as a generative world model simulator for training and testing perception models. We release our source code and checkpoints at https://github.com/vzyrianov/LidarDM",
+      "year": 2025,
+      "authors": [
+        "Vlas Zyrianov",
+        "Henry Che",
+        "Zhijian Liu",
+        "Shenlong Wang"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 77,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.02903",
+      "url": "https://openalex.org/W4413917025",
+      "also_doi": [],
+      "key": "openalex_101109_icra55743202511128001_LidarDM_Generative_LiDAR_Simulation_in_a_Generated_W",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra55743202511128001_LidarDM_Generative_LiDAR_Simulation_in_a_Generated_W.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7127424149",
+      "doi": "10.1007/978-3-032-37314-4_20",
+      "title": "UniDriveDreamer: A Single-Stage Multimodal World Model for Autonomous Driving",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Guosheng Zhao",
+        "Yaozeng Wang",
+        "Xiaofeng Wang",
+        "Zheng Zhu",
+        "Yu Tingdong",
+        "Guan Huang",
+        "Yongchen Zai",
+        "Ji Jiao",
+        "Changliang Xue",
+        "Xiaole Wang",
+        "Xingang Wang",
+        "Futang Zhu",
+        "Xingang Wang"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 11,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.02002",
+      "url": "https://openalex.org/W7127424149",
+      "key": "openalex_101007_978-3-032-37314-4_20_UniDriveDreamer_A_Single-Stage_Multimodal_World_Model",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-032-37314-4_20_UniDriveDreamer_A_Single-Stage_Multimodal_World_Model.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4403771534",
+      "doi": "10.1007/978-3-031-72624-8_4",
+      "title": "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Wenzhao Zheng",
+        "Weiliang Chen",
+        "Yuanhui Huang",
+        "Borui Zhang",
+        "Yueqi Duan",
+        "Jiwen Lu"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 356,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.16038",
+      "url": "https://openalex.org/W4403771534",
+      "key": "openalex_101007_978-3-031-72624-8_4_OccWorld_Learning_a_3D_Occupancy_World_Model_for_Auton",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72624-8_4_OccWorld_Learning_a_3D_Occupancy_World_Model_for_Auton.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4409365971",
+      "doi": "10.1609/aaai.v39i9.32987",
+      "title": "OLiDM: Object-aware LiDAR Diffusion Models for Autonomous Driving",
+      "abstract": "To enhance autonomous driving, innovative approaches have been proposed to generate simulated LiDAR data. However, these methods often face challenges in producing high-quality and controllable foreground objects. To cater to the needs of object-aware tasks in 3D perception, we introduce OLiDM, a novel framework capable of generating controllable and high-fidelity LiDAR data at both the object and scene levels. OLiDM consists of two pivotal components: the Object-Scene Progressive Generation (OPG) module and the Object Semantic Alignment (OSA) module. OPG adapts to user-specific prompts to generate desired foreground objects, which are subsequently employed as conditions in scene generation, ensuring controllable and diverse output at both the object and scene levels. This also facilitates the association of user-defined object-level annotations with the generated LiDAR scenes. Moreover, OSA aims to rectify the misalignment between foreground objects and background scenes, enhancing the overall quality of the generated objects. The broad efficacy of OLiDM is demonstrated across both unconditional and conditional LiDAR generation tasks, as well as 3D perception tasks. Specifically, on the KITTI-360 dataset, OLiDM surpasses prior state-of-the-art methods such as UltraLiDAR by 11.8 in FPD, producing data that closely mirrors real-world distributions. Additionally, in sparse-to-dense LiDAR completion, OLiDM achieves a significant improvement over LiDARGen, with a 57.47% increase in semantic IoU. Moreover, in 3D object detection, OLiDM enhances the performance of mainstream detectors by 2.4% in mAP and 1.9% in NDS, underscoring its potential in advancing 3D perception models.",
+      "year": 2025,
+      "authors": [
+        "Tianyi Yan",
+        "Junbo Yin",
+        "Xianpeng Lang",
+        "Ruigang Yang",
+        "Chengzhong Xu",
+        "Jianbing Shen"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 22,
+      "is_oa": true,
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/32987/35142",
+      "url": "https://openalex.org/W4409365971",
+      "key": "openalex_101609_aaaiv39i932987_OLiDM_Object-aware_LiDAR_Diffusion_Models_for_Autonomous_Dr",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv39i932987_OLiDM_Object-aware_LiDAR_Diffusion_Models_for_Autonomous_Dr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7138117554",
+      "doi": "10.1609/aaai.v40i22.38905",
+      "title": "LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences",
+      "abstract": "Generative world models have become essential data engines for autonomous driving, yet most focus on videos or occupancy grids and overlook the unique challenges of LiDAR. Extending LiDAR generation to dynamic 4D modeling requires addressing controllability, temporal coherence, and standardized evaluation. We present LiDARCrafter, a unified framework for controllable 4D LiDAR generation and editing. Free-form language instructions are converted into ego-centric scene graphs that guide a tri-branch diffusion model to generate object geometry, motion, and structural priors. An autoregressive module further produces temporally coherent and stable LiDAR sequences with improved global consistency. To enable fair comparison, we introduce a comprehensive benchmark covering scene-, object-, and sequence-level metrics for rigorous and reproducible evaluation. Experiments on nuScenes show that LiDARCrafter achieves state-of-the-art fidelity, controllability, and temporal consistency, paving the way for scalable data augmentation and realistic simulation in diverse scenarios. Code have been publicly available at https://lidarcrafter.github.io.",
+      "year": 2026,
+      "authors": [
+        "Alan Liang",
+        "Youquan Liu",
+        "Yu Yang",
+        "Dongyue Lu",
+        "Linfeng Li",
+        "Lingdong Kong",
+        "huaici zhao",
+        "Wei Tsang Ooi"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 34,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7138117554",
+      "also_doi": [
+        "10.48448/ewt7-4e07"
+      ],
+      "key": "openalex_101609_aaaiv40i2238905_LiDARCrafter_Dynamic_4D_World_Modeling_from_LiDAR_Sequence",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv40i2238905_LiDARCrafter_Dynamic_4D_World_Modeling_from_LiDAR_Sequence.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4401490108",
+      "doi": "10.1016/j.imavis.2024.105207",
+      "title": "Synthetic lidar point cloud generation using deep generative models for improved driving scene object recognition",
+      "abstract": "The imbalanced distribution of different object categories poses a challenge for training accurate object recognition models in driving scenes. Supervised machine learning models trained on imbalanced data are biased and easily overfit the majority classes, such as vehicles and pedestrians, which appear more frequently in driving scenes. We propose a novel data augmentation approach for object recognition in lidar point cloud of driving scenes, which leverages probabilistic generative models to produce synthetic point clouds for the minority classes and complement the original imbalanced dataset. We evaluate five generative models based on different statistical principles, including Gaussian mixture model, variational autoencoder, generative adversarial network, adversarial autoencoder and the diffusion model. Experiments with a real-world autonomous driving dataset show that the synthetic point clouds generated for the minority classes by the Latent Generative Adversarial Network result in significant improvement of object recognition performance for both minority and majority classes. The codes are available at https://github.com/AAAALEX-XIANG/Synthetic-Lidar-Generation.",
+      "year": 2024,
+      "authors": [
+        "Zhengkang Xiang",
+        "Zexian Huang",
+        "Kourosh Khoshelham"
+      ],
+      "venue": "Image and Vision Computing",
+      "cited_by": 26,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4401490108",
+      "key": "openalex_101016_jimavis2024105207_Synthetic_lidar_point_cloud_generation_using_deep_genera",
+      "file_kind": "txt",
+      "file": "openalex_101016_jimavis2024105207_Synthetic_lidar_point_cloud_generation_using_deep_genera.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416748845",
+      "doi": "10.1109/iros60139.2025.11247363",
+      "title": "TopoLiDM: Topology-Aware LiDAR Diffusion Models for Interpretable and Realistic LiDAR Point Cloud Generation",
+      "abstract": "LiDAR scene generation is critical for mitigating real-world LiDAR data collection costs and enhancing the robustness of downstream perception tasks in autonomous driving. However, existing methods commonly struggle to capture geometric realism and global topological consistency. Recent LiDAR Diffusion Models (LiDMs) predominantly embed LiDAR points into the latent space for improved generation efficiency, which limits their interpretable ability to model detailed geometric structures and preserve global topological consistency. To address these challenges, we propose TopoLiDM, a novel framework that integrates graph neural networks (GNNs) with diffusion models under topological regularization for high-fidelity LiDAR generation. Our approach first trains a topological-preserving VAE to extract latent graph representations by graph construction and multiple graph convolutional layers. Then we freeze the VAE and generate novel latent topological graphs through the latent diffusion models. We also introduce 0-dimensional persistent homology (PH) constraints, ensuring the generated LiDAR scenes adhere to real-world global topological structures. Extensive experiments on the KITTI-360 dataset demonstrate TopoLiDM’s superiority over state-of-the-art methods, achieving improvements of 22.6% lower Fréchet Range Image Distance (FRID) and 9.2% lower Minimum Matching Distance (MMD). Notably, our model also enables fast generation speed with an average inference time of 1.68 samples/s, showcasing its scalability for real-world applications. We will release the related codes at https://github.com/IRMVLab/TopoLiDM.",
+      "year": 2025,
+      "authors": [
+        "Jiuming Liu",
+        "Zheng Huang",
+        "Mengmeng Liu",
+        "Tianchen Deng",
+        "Francesco Nex",
+        "Hao Cheng",
+        "Hesheng Wang"
+      ],
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "cited_by": 6,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4416748845",
+      "key": "openalex_101109_iros60139202511247363_TopoLiDM_Topology-Aware_LiDAR_Diffusion_Models_for_I",
+      "file_kind": "txt",
+      "file": "openalex_101109_iros60139202511247363_TopoLiDM_Topology-Aware_LiDAR_Diffusion_Models_for_I.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7163959062",
+      "doi": "10.2139/ssrn.6827179",
+      "title": "World Models for Autonomous Driving: From Future Generation to Decision Making",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Han Huang",
+        "D Yang",
+        "Lulu Guo",
+        "Jing Cheng",
+        "Ying Liu",
+        "Victor Chung Ming Leung",
+        "Hong Chen"
+      ],
+      "venue": "SSRN Electronic Journal",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7163959062",
+      "key": "openalex_102139_ssrn6827179_World_Models_for_Autonomous_Driving_From_Future_Generation_to_",
+      "file_kind": "txt",
+      "file": "openalex_102139_ssrn6827179_World_Models_for_Autonomous_Driving_From_Future_Generation_to_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4406734973",
+      "doi": "10.48550/arxiv.2501.11260",
+      "title": "A Survey of World Models for Autonomous Driving",
+      "abstract": "Recent breakthroughs in autonomous driving have been propelled by advances in robust world modeling, fundamentally transforming how vehicles interpret dynamic scenes and execute safe decision-making. World models have emerged as a linchpin technology, offering high-fidelity representations of the driving environment that integrate multi-sensor data, semantic cues, and temporal dynamics. This paper systematically reviews recent advances in world models for autonomous driving, proposing a three-tiered taxonomy: (i) Generation of Future Physical World, covering Image-, BEV-, OG-, and PC-based generation methods that enhance scene evolution modeling through diffusion models and 4D occupancy forecasting; (ii) Behavior Planning for Intelligent Agents, combining rule-driven and learning-based paradigms with cost map optimization and reinforcement learning for trajectory generation in complex traffic conditions; (ii) Interaction between Prediction and Planning, achieving multi-agent collaborative decision-making through latent space diffusion and memory-augmented architectures. The study further analyzes training paradigms, including self-supervised learning, multimodal pretraining, and generative data augmentation, while evaluating world models' performance in scene understanding and motion prediction tasks. Future research must address key challenges in self-supervised representation learning, multimodal fusion, and advanced simulation to advance the practical deployment of world models in complex urban environments. Overall, the comprehensive analysis provides a technical roadmap for harnessing the transformative potential of world models in advancing safe and reliable autonomous driving solutions.",
+      "year": 2025,
+      "authors": [
+        "Feng, Tuo",
+        "Wenguan Wang",
+        "Yi Yang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 106,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.11260",
+      "url": "https://openalex.org/W4406734973",
+      "key": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4393159692",
+      "doi": "10.1609/aaai.v38i7.28546",
+      "title": "NeRF-LiDAR: Generating Realistic LiDAR Point Clouds with Neural Radiance Fields",
+      "abstract": "Labelling LiDAR point clouds for training autonomous driving is extremely expensive and difficult. LiDAR simulation aims at generating realistic LiDAR data with labels for training and verifying self-driving algorithms more efficiently. Recently, Neural Radiance Fields (NeRF) have been proposed for novel view synthesis using implicit reconstruction of 3D scenes. Inspired by this, we present NeRF-LIDAR, a novel LiDAR simulation method that leverages real-world information to generate realistic LIDAR point clouds. Different from existing LiDAR simulators, we use real images and point cloud data collected by self-driving cars to learn the 3D scene representation, point cloud generation and label rendering. We verify the effectiveness of our NeRF-LiDAR by training different 3D segmentation models on the generated LiDAR point clouds. It reveals that the trained models are able to achieve similar accuracy when compared with the same model trained on the real LiDAR data. Besides, the generated data is capable of boosting the accuracy through pre-training which helps reduce the requirements of the real labeled data. Code is available at https://github.com/fudan-zvg/NeRF-LiDAR",
+      "year": 2024,
+      "authors": [
+        "Junge Zhang",
+        "Feihu Zhang",
+        "Shaochen Kuang",
+        "Li Zhang"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 95,
+      "is_oa": true,
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/28546/29062",
+      "url": "https://openalex.org/W4393159692",
+      "key": "openalex_101609_aaaiv38i728546_NeRF-LiDAR_Generating_Realistic_LiDAR_Point_Clouds_with_Neu",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv38i728546_NeRF-LiDAR_Generating_Realistic_LiDAR_Point_Clouds_with_Neu.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4396754486",
+      "doi": "10.1109/tiv.2024.3398357",
+      "title": "World Models for Autonomous Driving: An Initial Survey",
+      "abstract": "In the rapidly evolving landscape of autonomous driving, the capability to accurately predict future events and assess their implications is paramount for both safety and efficiency, critically aiding the decision-making process. World models have emerged as a transformative approach, enabling autonomous driving systems to synthesize and interpret vast amounts of sensor data, thereby predicting potential future scenarios and compensating for information gaps. This paper provides an initial review of the current state and prospective advancements of world models in autonomous driving, spanning their theoretical underpinnings, practical applications, and ongoing research efforts aimed at overcoming existing limitations. Highlighting the significant role of world models in advancing autonomous driving technologies, this survey aspires to serve as a foundational reference for the research community, facilitating swift access to and comprehension of this burgeoning field, and inspiring continued innovation and exploration.",
+      "year": 2024,
+      "authors": [
+        "Yanchen Guan",
+        "Haicheng Liao",
+        "Zhenning Li",
+        "Jia Sheng Hu",
+        "Runze Yuan",
+        "Guohui Zhang",
+        "Chengzhong Xu"
+      ],
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "cited_by": 192,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.02622",
+      "url": "https://openalex.org/W4396754486",
+      "key": "openalex_101109_tiv20243398357_World_Models_for_Autonomous_Driving_An_Initial_Survey",
+      "file_kind": "txt",
+      "file": "openalex_101109_tiv20243398357_World_Models_for_Autonomous_Driving_An_Initial_Survey.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416525310",
+      "doi": "10.1109/iccv51701.2025.02527",
+      "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+      "abstract": "Diffusion models have demonstrated exceptional visual quality in video generation, making them promising for autonomous driving world modeling. However, existing video diffusion-based world models struggle with flexible-length, long-horizon predictions and integrating trajectory planning. This is because conventional video diffusion models rely on global joint distribution modeling of fixed-length frame sequences rather than sequentially constructing localized distributions at each timestep. In this work, we propose Epona, an autoregressive diffusion world model that enables localized spatiotemporal distribution modeling through two key innovations: 1) Decoupled spatiotemporal factorization that separates temporal dynamics modeling from fine-grained future world generation, and 2) Modular trajectory and video prediction that seamlessly integrate motion planning with visual modeling in an end-to-end framework. Our architecture enables high-resolution, long-duration generation while introducing a novel chain-of-forward training strategy to address error accumulation in autoregressive loops. Experimental results demonstrate state-of-the-art performance with 7.4\\% FVD improvement and minutes longer prediction duration compared to prior works. The learned world model further serves as a real-time motion planner, outperforming strong end-to-end planners on NAVSIM benchmarks. Code will be publicly available at \\href{https://github.com/Kevin-thu/Epona/}{https://github.com/Kevin-thu/Epona/}.",
+      "year": 2025,
+      "authors": [
+        "Kaiwen Zhang",
+        "Zhenyu Tang",
+        "Xiaotao Hu",
+        "Xingang Pan",
+        "Xiaoyang Guo",
+        "Yuan Liu",
+        "Jingwei Huang",
+        "Li Yuan",
+        "Qian Zhang",
+        "Xiaoxiao Long",
+        "Xun Cao",
+        "Wei Yin"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 189,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.24113",
+      "url": "https://openalex.org/W4416525310",
+      "key": "openalex_101109_iccv51701202502527_Epona_Autoregressive_Diffusion_World_Model_for_Autonomo",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502527_Epona_Autoregressive_Diffusion_World_Model_for_Autonomo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4402703082",
+      "doi": "10.1109/cvpr52733.2024.01396",
+      "title": "Towards Realistic Scene Generation with LiDAR Diffusion Models",
+      "abstract": "Diffusion models (DMs) excel in photorealistic image synthesis, but their adaptation to LiDAR scene generation poses a substantial hurdle. This is primarily because DMs operating in the point space struggle to preserve the curve-like patterns and 3D geometry of LiDAR scenes, which consumes much of their representation power. In this paper, we propose LiDAR Diffusion Models (LiDMs) to generate LiDAR-realistic scenes from a latent space tailored to capture the realism of LiDAR scenes by incorporating geometric priors into the learning pipeline. Our method targets three major desiderata: pattern realism, geometry realism, and object realism. Specifically, we introduce curve-wise compression to simulate real-world LiDAR patterns, point-wise coordinate supervision to learn scene geometry, and patch-wise encoding for a full 3D object context. With these three core designs, our method achieves competitive performance on unconditional LiDAR generation in 64-beam scenario and state of the art on conditional LiDAR generation, while maintaining high efficiency compared to point-based DMs (up to 107× faster). Further-more, by compressing LiDAR scenes into a latent space, we enable the controllability of DMs with various conditions such as semantic maps, camera views, and text prompts. Our code and pretrained weights are available at htt ps: //github.com/hancyran/LiDAR-Diffusion.",
+      "year": 2024,
+      "authors": [
+        "Haoxi Ran",
+        "Vitor Guizilini",
+        "Yue Wang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 116,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2404.00815",
+      "url": "https://openalex.org/W4402703082",
+      "also_doi": [],
+      "key": "openalex_101109_cvpr52733202401396_Towards_Realistic_Scene_Generation_with_LiDAR_Diffusion",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202401396_Towards_Realistic_Scene_Generation_with_LiDAR_Diffusion.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417011550",
+      "doi": "10.48550/arxiv.2512.02982",
+      "title": "U4D: Uncertainty-Aware 4D World Modeling from LiDAR Sequences",
+      "abstract": "Modeling dynamic 3D environments from LiDAR sequences is central to building reliable 4D worlds for autonomous driving and embodied AI. Existing generative frameworks, however, often treat all spatial regions uniformly, overlooking the varying uncertainty across real-world scenes. This uniform generation leads to artifacts in complex or ambiguous regions, limiting realism and temporal stability. In this work, we present U4D, an uncertainty-aware framework for 4D LiDAR world modeling. Our approach first estimates spatial uncertainty maps from a pretrained segmentation model to localize semantically challenging regions. It then performs generation in a \"hard-to-easy\" manner through two sequential stages: (1) uncertainty-region modeling, which reconstructs high-entropy regions with fine geometric fidelity, and (2) uncertainty-conditioned completion, which synthesizes the remaining areas under learned structural priors. To further ensure temporal coherence, U4D incorporates a mixture of spatio-temporal (MoST) block that adaptively fuses spatial and temporal representations during diffusion. Extensive experiments show that U4D produces geometrically faithful and temporally consistent LiDAR sequences, advancing the reliability of 4D world modeling for autonomous perception and simulation.",
+      "year": 2025,
+      "authors": [
+        "Xiang Hua Xu",
+        "Liang, Alan",
+        "Youquan Liu",
+        "Linfeng Li",
+        "Kong, Lingdong",
+        "Ziwei Liu",
+        "Qingshan Liu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 9,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.02982",
+      "url": "https://openalex.org/W4417011550",
+      "key": "openalex_1048550_arxiv251202982_U4D_Uncertainty-Aware_4D_World_Modeling_from_LiDAR_Sequenc",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv251202982_U4D_Uncertainty-Aware_4D_World_Modeling_from_LiDAR_Sequenc.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4399270650",
+      "doi": "10.1109/tip.2026.3687468",
+      "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+      "abstract": "Understanding the evolution of 3D scenes is crucial for autonomous driving. While conventional methods describe scene development through individual instance motions, world models provide a generative framework for modeling overall scene dynamics. However, most existing approaches rely on autoregressive next-token prediction, which suffers from error accumulation and limited global spatiotemporal reasoning, leading to degraded long-term consistency. To address these issues, we propose a diffusion-based 4D occupancy generation model, OccSora, to simulate 3D world evolution for autonomous driving. A 4D scene tokenizer is introduced to obtain compact spatiotemporal representations and enable high-quality reconstruction of long occupancy sequences. We then train a diffusion transformer on these representations to generate 4D occupancy conditioned on trajectory prompts. Experiments on the nuScenes dataset with Occ3D annotations show that OccSora can generate 16s videos with authentic 3D layout and strong temporal consistency. With trajectory-aware 4D generation, OccSora has the potential to serve as a world simulator for autonomous driving decision-making. Project page: https://wzzheng.net/OccSora.",
+      "year": 2026,
+      "authors": [
+        "Lening Wang",
+        "Wenzhao Zheng",
+        "Yilong Ren",
+        "Han Jiang",
+        "Zhiyong Cui",
+        "Hou–Yong Yu",
+        "Jiwen Lu"
+      ],
+      "venue": "IEEE Transactions on Image Processing",
+      "cited_by": 102,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.20337",
+      "url": "https://openalex.org/W4399270650",
+      "key": "openalex_101109_tip20263687468_OccSora_4D_Occupancy_Generation_Models_as_World_Simulators_",
+      "file_kind": "txt",
+      "file": "openalex_101109_tip20263687468_OccSora_4D_Occupancy_Generation_Models_as_World_Simulators_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405033109",
+      "doi": "10.48550/arxiv.2412.01407",
+      "title": "HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving",
+      "abstract": "Generative models have significantly improved the generation and prediction quality on either camera images or LiDAR point clouds for autonomous driving. However, a real-world autonomous driving system uses multiple kinds of input modality, usually cameras and LiDARs, where they contain complementary information for generation, while existing generation methods ignore this crucial feature, resulting in the generated results only covering separate 2D or 3D information. In order to fill the gap in 2D-3D multi-modal joint generation for autonomous driving, in this paper, we propose our framework, \\emph{HoloDrive}, to jointly generate the camera images and LiDAR point clouds. We employ BEV-to-Camera and Camera-to-BEV transform modules between heterogeneous generative models, and introduce a depth prediction branch in the 2D generative model to disambiguate the un-projecting from image space to BEV space, then extend the method to predict the future by adding temporal structure and carefully designed progressive training. Further, we conduct experiments on single frame generation and world model benchmarks, and demonstrate our method leads to significant performance gains over SOTA methods in terms of generation metrics.",
+      "year": 2024,
+      "authors": [
+        "Zehuan Wu",
+        "Jingcheng Ni",
+        "Wang, Xiaodong",
+        "Yuxin Guo",
+        "Rui Chen",
+        "Lewei Lu",
+        "Jifeng Dai",
+        "Yuwen Xiong"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 32,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.01407",
+      "url": "https://openalex.org/W4405033109",
+      "key": "openalex_1048550_arxiv241201407_HoloDrive_Holistic_2D-3D_Multi-Modal_Street_Scene_Generati",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv241201407_HoloDrive_Holistic_2D-3D_Multi-Modal_Street_Scene_Generati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416786391",
+      "doi": "10.1007/978-3-032-37252-9_31",
+      "title": "LaGen: Towards Autoregressive LiDAR Scene Generation",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "S. Kevin Zhou",
+        "Xiaosong Jia",
+        "Fanrui Zhang",
+        "Junjie Li",
+        "Juyong Zhang",
+        "Yulong Feng",
+        "Jianwen Sun",
+        "Songbur Wong",
+        "Junqi You",
+        "Junchi Yan"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.21256",
+      "url": "https://openalex.org/W4416786391",
+      "key": "openalex_101007_978-3-032-37252-9_31_LaGen_Towards_Autoregressive_LiDAR_Scene_Generation",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-032-37252-9_31_LaGen_Towards_Autoregressive_LiDAR_Scene_Generation.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4409365815",
+      "doi": "10.1609/aaai.v39i9.33010",
+      "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+      "abstract": "World models envision potential future states based on various ego actions. They embed extensive knowledge about the driving environment, facilitating safe and scalable autonomous driving. Most existing methods primarily focus on either data generation or the pretraining paradigms of world models. Unlike the aforementioned prior works, we propose Drive-OccWorld, which adapts a vision-centric 4D forecasting world model to end-to-end planning for autonomous driving. Specifically, we first introduce a semantic and motion-conditional normalization in the memory module, which accumulates semantic and dynamic information from historical BEV embeddings. These BEV features are then conveyed to the world decoder for future occupancy and flow forecasting, considering both geometry and spatiotemporal modeling. Additionally, we propose injecting flexible action conditions, such as velocity, steering angle, trajectory, and commands, into the world model to enable controllable generation and facilitate a broader range of downstream applications. Furthermore, we explore integrating the generative capabilities of the 4D world model with end-to-end planning, enabling continuous forecasting of future states and the selection of optimal trajectories using an occupancy-based cost function. Extensive experiments on the nuScenes dataset demonstrate that our method can generate plausible and controllable 4D occupancy, opening new avenues for driving world generation and end-to-end planning.",
+      "year": 2025,
+      "authors": [
+        "Yang Yu",
+        "Jianbiao Mei",
+        "Yukai Ma",
+        "Siliang Du",
+        "Wenqing Chen",
+        "Yijie Qian",
+        "Yuxiang Feng",
+        "Yong Liu"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 109,
+      "is_oa": true,
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/33010/35165",
+      "url": "https://openalex.org/W4409365815",
+      "key": "openalex_101609_aaaiv39i933010_Driving_in_the_Occupancy_World_Vision-Centric_4D_Occupancy_",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv39i933010_Driving_in_the_Occupancy_World_Vision-Centric_4D_Occupancy_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7214380207",
+      "doi": "10.48550/arxiv.2609.28931",
+      "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models",
+      "abstract": "Driving world models provide a promising route toward scalable counterfactual data generation and interactive simulation beyond recorded driving logs. Realizing this potential requires a system that can generalize across diverse scenes, respond faithfully to prescribed controls, generate coherent multi-sensor observations, and operate efficiently under repeated inference. We present \\textbf{HelloWorld}, a 2B driving world model system designed around these requirements. HelloWorld progressively specializes broad visual and motion priors from heterogeneous video data into controllable driving generation using ego pose, HD maps, and 3D boxes. A block-causal generation interface, together with adaptation to self-generated context, aligns the model with sequential simulation. The system further supports synchronized seven-camera RGB generation and conditional LiDAR synthesis, and is distilled toward few-step inference for efficient deployment. Experiments evaluate visual quality, control fidelity, cross-view consistency, robustness under repeated generation, inference efficiency, and LiDAR synthesis. Together, HelloWorld provides a unified framework for scalable driving data generation and interactive simulation.",
+      "year": 2026,
+      "authors": [
+        "Fan Lu",
+        "Hanshi Wang",
+        "Zijing Wang",
+        "Quan Feng",
+        "Zhi Wang",
+        "Shijie Chen",
+        "Xianming Zeng",
+        "Yujian Zhang",
+        "Jiazhe Wang",
+        "Xin Zha",
+        "Kai Wang",
+        "Zhao Zhijie",
+        "Lin Zhu",
+        "Tianyi Yang",
+        "Yucheng Xu",
+        "Tao Ji",
+        "Haodong Zhang",
+        "Zhipeng Zhang",
+        "Peixi Peng",
+        "Guang Chen"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.28931",
+      "url": "https://openalex.org/W7214380207",
+      "key": "openalex_1048550_arxiv260928931_HelloWorld_Towards_Practical_Applications_of_Generative_Dr",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260928931_HelloWorld_Towards_Practical_Applications_of_Generative_Dr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413017878",
+      "doi": "10.1109/iv64158.2025.11097718",
+      "title": "MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations",
+      "abstract": "World models for autonomous driving have the potential to dramatically improve the reasoning capabilities of today's systems. However, most works focus on camera data, with only a few that leverage lidar data or combine both to better represent autonomous vehicle sensor setups. In addition, raw sensor predictions are less actionable than 3D occupancy predictions, but there are no works examining the effects of combining both multimodal sensor data and 3D occupancy prediction. In this work, we perform a set of experiments with a MUltimodal World Model with Geometric VOxel represen-tations (MUVO) to evaluate different sensor fusion strategies to better understand the effects on sensor data prediction. We also analyze potential weaknesses of current sensor fusion approaches and examine the benefits of additionally predicting 3D occupancy.",
+      "year": 2025,
+      "authors": [
+        "Daniel Bogdoll",
+        "Yitian Yang",
+        "Tim Joseph",
+        "Melih Yazgan",
+        "J. Marius Zöllner"
+      ],
+      "venue": "IEEE Intelligent Vehicles Symposium",
+      "cited_by": 57,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.11762",
+      "url": "https://openalex.org/W4413017878",
+      "key": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou",
+      "file_kind": "txt",
+      "file": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7225423938",
+      "doi": "10.1145/3767308.3835050",
+      "title": "STRIDE: Semantically Stratified Historical Retrieval for LiDAR World Modeling",
+      "abstract": "While recent range-image generative models have learned strong spatial priors for LiDAR synthesis, forecasting future scans from past observations under ego motion remains an open challenge for autonomous driving: unlike single-frame generation, future prediction must jointly exploit heterogeneous historical evidence and preserve semantically meaningful 3D structure under growing temporal uncertainty. We propose STRIDE, a trajectory-conditioned LiDAR world model in range-image space built on a past-isolated spatial--temporal backbone trained with conditional flow matching, where observed frames serve as deterministic context and future frames are modeled stochastically. Central to our design is Semantic-Stratified Historical Retrieval (SSHR), which leverages historical semantics as a structural prior to partition history into static- and dynamic-dominant branches for targeted fusion, rather than aggregating all cues homogeneously. We further introduce REPA3D, a LiDAR-native representation alignment objective that regularizes intermediate world-model latents against a transferable self-supervised LiDAR prior, promoting semantically coherent 3D structure beyond output-space supervision alone. Across four diverse benchmarks, nuScenes, KITTI Odometry, SemanticKITTI, and KITTI-360, STRIDE establishes new state-of-the-art future prediction quality, temporal consistency, and generation realism.",
+      "year": 2026,
+      "authors": [
+        "Youquan Liu",
+        "Weidong Yang",
+        "Ao Liang",
+        "Xiang Xu",
+        "Lingdong Kong",
+        "Runnan Chen",
+        "Ben Fei"
+      ],
+      "venue": "ACM International Conference on Multimedia (ACM MM)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7225423938",
+      "key": "openalex_101145_37673083835050_STRIDE_Semantically_Stratified_Historical_Retrieval_for_LiD",
+      "file_kind": "txt",
+      "file": "openalex_101145_37673083835050_STRIDE_Semantically_Stratified_Historical_Retrieval_for_LiD.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4400481099",
+      "doi": "10.48550/arxiv.2407.05679",
+      "title": "BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents",
+      "abstract": "World models have attracted increasing attention in autonomous driving for their ability to forecast potential future scenarios. In this paper, we propose BEVWorld, a novel framework that transforms multimodal sensor inputs into a unified and compact Bird's Eye View (BEV) latent space for holistic environment modeling. The proposed world model consists of two main components: a multi-modal tokenizer and a latent BEV sequence diffusion model. The multi-modal tokenizer first encodes heterogeneous sensory data, and its decoder reconstructs the latent BEV tokens into LiDAR and surround-view image observations via ray-casting rendering in a self-supervised manner. This enables joint modeling and bidirectional encoding-decoding of panoramic imagery and point cloud data within a shared spatial representation. On top of this, the latent BEV sequence diffusion model performs temporally consistent forecasting of future scenes, conditioned on high-level action tokens, enabling scene-level reasoning over time. Extensive experiments demonstrate the effectiveness of BEVWorld on autonomous driving benchmarks, showcasing its capability in realistic future scene generation and its benefits for downstream tasks such as perception and motion prediction.",
+      "year": 2024,
+      "authors": [
+        "Yumeng Zhang",
+        "Shi Gong",
+        "Kaixin Xiong",
+        "Xiaoqing Ye",
+        "Li, Xiaofan",
+        "Xiao Tan",
+        "Wang, Fan",
+        "Jizhou Huang",
+        "Hua Ming Wu",
+        "Haifeng Wang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 73,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2407.05679",
+      "url": "https://openalex.org/W4400481099",
+      "key": "openalex_1048550_arxiv240705679_BEVWorld_A_Multimodal_World_Simulator_for_Autonomous_Drivi",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240705679_BEVWorld_A_Multimodal_World_Simulator_for_Autonomous_Drivi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417347357",
+      "doi": "10.48550/arxiv.2506.09042",
+      "title": "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models",
+      "abstract": "Collecting and annotating real-world data for safety-critical physical AI systems, such as Autonomous Vehicle (AV), is time-consuming and costly. It is especially challenging to capture rare edge cases, which play a critical role in training and testing of an AV system. To address this challenge, we introduce the Cosmos-Drive-Dreams - a synthetic data generation (SDG) pipeline that aims to generate challenging scenarios to facilitate downstream tasks such as perception and driving policy training. Powering this pipeline is Cosmos-Drive, a suite of models specialized from NVIDIA Cosmos world foundation model for the driving domain and are capable of controllable, high-fidelity, multi-view, and spatiotemporally consistent driving video generation. We showcase the utility of these models by applying Cosmos-Drive-Dreams to scale the quantity and diversity of driving datasets with high-fidelity and challenging scenarios. Experimentally, we demonstrate that our generated data helps in mitigating long-tail distribution problems and enhances generalization in downstream tasks such as 3D lane detection, 3D object detection and driving policy learning. We open source our pipeline toolkit, dataset and model weights through the NVIDIA's Cosmos platform. Project page: https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams",
+      "year": 2025,
+      "authors": [
+        "Xuanchi Ren",
+        "Yifan Lu",
+        "Tianshi Cao",
+        "Ruiyuan Gao",
+        "Shengyu Huang",
+        "Amirmojtaba Sabour",
+        "Tianchang Shen",
+        "Tobias Pfaff",
+        "Jay Zhangjie Wu",
+        "Runjian Chen",
+        "Seung Wook Kim",
+        "Jun Gao",
+        "Laura Leal-Taixé",
+        "Chen, Mike",
+        "Sanja Fidler",
+        "Ling, Huan"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 120,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.09042",
+      "url": "https://openalex.org/W4417347357",
+      "key": "openalex_1048550_arxiv250609042_Cosmos-Drive-Dreams_Scalable_Synthetic_Driving_Data_Genera",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250609042_Cosmos-Drive-Dreams_Scalable_Synthetic_Driving_Data_Genera.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.05131v3",
+      "doi": "",
+      "title": "Sora as a World Model? A Complete Survey on Text-to-Video Generation",
+      "abstract": "The evolution of video generation from text, from animating MNIST to simulating the world with Sora, has progressed at a breakneck speed. Here, we systematically discuss how far text-to-video generation technology supports essential requirements in world modeling. We curate 250+ studies on text-based video synthesis and world modeling. We then observe that recent models increasingly support spatial, action, and strategic intelligences in world modeling through adherence to completeness, consistency, invention, as well as human interaction and control. We conclude that text-to-video generation is adept at world modeling, although homework in several aspects, such as the diversity-consistency trade-offs, remains to be addressed.",
+      "year": 2024,
+      "authors": [
+        "Fachrina Dewi Puspitasari",
+        "Chaoning Zhang",
+        "Joseph Cho",
+        "Adnan Haider",
+        "Noor Ul Eman",
+        "Omer Amin",
+        "Alexis Mankowski",
+        "Muhammad Umair",
+        "Jingyao Zheng",
+        "Sheng Zheng",
+        "Lik-Hang Lee",
+        "Caiyan Qin",
+        "Tae-Ho Kim",
+        "Choong Seon Hong",
+        "Yang Yang",
+        "Heng Tao Shen"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.05131v3",
+      "url": "http://arxiv.org/abs/2403.05131v3",
+      "key": "arxiv_240305131v3_Sora_as_a_World_Model_A_Complete_Survey_on_Text-to-Video_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_240305131v3_Sora_as_a_World_Model_A_Complete_Survey_on_Text-to-Video_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2610.22450v1",
+      "doi": "",
+      "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+      "abstract": "Three dimensional modeling for autonomous driving must continuously estimate road geometry, obstacle occupancy, traffic participant behavior, and observational uncertainty under limited computational resources. Existing reconstruction methods can synthesize realistic novel views, but visual fidelity does not sufficiently characterize the geometric reliability required for driving. Generative world models can expand scenarios and predict future observations, yet may introduce content unsupported by measurements. We propose DriveWorld3D, a framework combining temporal video learning, measurement constraints from multiple sensors, and offline generative simulation. Its online component maintains a unified world state comprising road surfaces, volumetric occupancy, dynamic entities, and road relations, while separately representing physical occupancy, observability, and evidence provenance. Action conditioned future prediction and risk sensitive planning connect this representation to driving decisions. Its offline component reconstructs recorded scenes using neural radiance fields or 3D Gaussian Splatting, then expands long tail conditions using generative models while restricting the use of generated content as geometric ground truth. We specify data partitioning, sensor ablations, fault injection, paired closed loop testing, and real to simulation consistency assessment. The central hypothesis is that explicit evidence management can reduce dangerous false free space predictions and occlusion risk within a matched computational budget while retaining acceptable driving efficiency. All performance claims remain subject to experimental validation. Keywords: autonomous driving; 3D occupancy; sensor fusion; uncertainty; generative world models; NeRF; 3D Gaussian Splatting; closed loop simulation",
+      "year": 2026,
+      "authors": [
+        "Wei Wang",
+        "Yiru Veronika Wang",
+        "Yihan Wang",
+        "Zihao Li",
+        "Xiaohui Liang"
+      ],
+      "venue": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion. arXiv:2311.01017, 2023",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.22450v1",
+      "url": "http://arxiv.org/abs/2610.22450v1",
+      "key": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul",
+      "file_kind": "txt",
+      "file": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.06669v5",
+      "doi": "",
+      "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+      "abstract": "We explore how scalable robot data can address real-world challenges for generalized robotic manipulation. Introducing AgiBot World, a large-scale platform comprising over 1 million trajectories across 217 tasks in five deployment scenarios, we achieve an order-of-magnitude increase in data scale compared to existing datasets. Accelerated by a standardized collection pipeline with human-in-the-loop verification, AgiBot World guarantees high-quality and diverse data distribution. It is extensible from grippers to dexterous hands and visuo-tactile sensors for fine-grained skill acquisition. Building on top of data, we introduce Genie Operator-1 (GO-1), a novel generalist policy that leverages latent action representations to maximize data utilization, demonstrating predictable performance scaling with increased data volume. Policies pre-trained on our dataset achieve an average performance improvement of 30% over those trained on Open X-Embodiment, both in in-domain and out-of-distribution scenarios. GO-1 exhibits exceptional capability in real-world dexterous and long-horizon tasks, achieving over 60% success rate on complex tasks and outperforming prior RDT approach by 32%. By open-sourcing the dataset, tools, and models, we aim to democratize access to large-scale, high-quality robot data, advancing the pursuit of scalable and general-purpose intelligence.",
+      "year": 2025,
+      "authors": [
+        "AgiBot World Contributors",
+        "Qingwen Bu",
+        "Jisong Cai",
+        "Li Chen",
+        "Xiuqi Cui",
+        "Yan Ding",
+        "Siyuan Feng",
+        "Shenyuan Gao",
+        "Xindong He",
+        "Xuan Hu",
+        "Xu Huang",
+        "Shu Jiang",
+        "Yuxin Jiang",
+        "Cheng Jing",
+        "Hongyang Li",
+        "Jialu Li",
+        "Chiming Liu",
+        "Yi Liu",
+        "Yuxiang Lu",
+        "Jianlan Luo"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.06669v5",
+      "url": "http://arxiv.org/abs/2503.06669v5",
+      "key": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a",
+      "file_kind": "txt",
+      "file": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.15199v1",
+      "doi": "",
+      "title": "LiDAR-RT: Gaussian-based Ray Tracing for Dynamic LiDAR Re-simulation",
+      "abstract": "This paper targets the challenge of real-time LiDAR re-simulation in dynamic driving scenarios. Recent approaches utilize neural radiance fields combined with the physical modeling of LiDAR sensors to achieve high-fidelity re-simulation results. Unfortunately, these methods face limitations due to high computational demands in large-scale scenes and cannot perform real-time LiDAR rendering. To overcome these constraints, we propose LiDAR-RT, a novel framework that supports real-time, physically accurate LiDAR re-simulation for driving scenes. Our primary contribution is the development of an efficient and effective rendering pipeline, which integrates Gaussian primitives and hardware-accelerated ray tracing technology. Specifically, we model the physical properties of LiDAR sensors using Gaussian primitives with learnable parameters and incorporate scene graphs to handle scene dynamics. Building upon this scene representation, our framework first constructs a bounding volume hierarchy (BVH), then casts rays for each pixel and generates novel LiDAR views through a differentiable rendering algorithm. Importantly, our framework supports realistic rendering with flexible scene editing operations and various sensor configurations. Extensive experiments across multiple public benchmarks demonstrate that our method outperforms state-of-the-art methods in terms of rendering quality and efficiency. Our project page is at https://zju3dv.github.io/lidar-rt.",
+      "year": 2024,
+      "authors": [
+        "Chenxu Zhou",
+        "Lvchang Fu",
+        "Sida Peng",
+        "Yunzhi Yan",
+        "Zhanhua Zhang",
+        "Yong Chen",
+        "Jiazhi Xia",
+        "Xiaowei Zhou"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.15199v1",
+      "url": "http://arxiv.org/abs/2412.15199v1",
+      "key": "arxiv_241215199v1_LiDAR-RT_Gaussian-based_Ray_Tracing_for_Dynamic_LiDAR_Re-simulation",
+      "file_kind": "txt",
+      "file": "arxiv_241215199v1_LiDAR-RT_Gaussian-based_Ray_Tracing_for_Dynamic_LiDAR_Re-simulation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.04830v1",
+      "doi": "",
+      "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+      "abstract": "Closed-loop simulation and scalable pre-training for autonomous driving require synthesizing free-viewpoint driving scenes. However, existing datasets and generative pipelines rarely provide consistent off-trajectory observations, limiting large-scale evaluation and training. While recent generative models demonstrate strong visual realism, they struggle to jointly achieve interpolation consistency and extrapolation realism without per-scene optimization. To address this, we propose FreeGen, a feed-forward reconstruction-generation co-training framework for free-viewpoint driving scene synthesis. The reconstruction model provides stable geometric representations to ensure interpolation consistency, while the generation model performs geometry-aware enhancement to improve realism at unseen viewpoints. Through co-training, generative priors are distilled into the reconstruction model to improve off-trajectory rendering, and the refined geometry in turn offers stronger structural guidance for generation. Experiments demonstrate that FreeGen achieves state-of-the-art performance for free-viewpoint driving scene synthesis.",
+      "year": 2025,
+      "authors": [
+        "Shijie Chen",
+        "Peixi Peng"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.04830v1",
+      "url": "http://arxiv.org/abs/2512.04830v1",
+      "key": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View",
+      "file_kind": "txt",
+      "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.27589v1",
+      "doi": "",
+      "title": "What-If World: A Causal Benchmark for General World Models in Embodied Scenarios",
+      "abstract": "Video generation models are increasingly used as world simulators for tasks like driving and robotic manipulation. What matters in these settings is not whether a single video looks right, but whether the model's output changes when its input changes. We test this by giving a model two prompts describing the same scene with one physical detail varied, and checking whether the two videos diverge the way physics predicts. The wording difference between the prompts is small by design, since only one variable is changed, but the correct physical difference is not. A model that misses this can still produce two videos that each look plausible individually, and existing benchmarks score videos one at a time and cannot detect this failure. We introduce What-If World, 319 such prompt pairs built on real frames from nuScenes and DROID, organized by a taxonomy of six physical variables shared across driving and manipulation. Each pair is scored with APEO, a four-part rubric checking whether each video follows its prompt (Adherence), is physically consistent (Physics), preserves the shared scene (Environment), and ends in the correct difference (Outcome). Across nine state-of-the-art models, no system exceeds 52% on the paired score, and open-source models cluster near 28%. Every model tested fails on a large fraction of causal interventions, indicating substantial room before these models can reliably support action-conditioned simulation or model-based planning. Where models do score well, performance appears to track the visual prominence of the intervention rather than the tractability of its underlying physics. Some visually subtle interventions score as low as 14.2%, while visually pronounced ones reach 40.4%.",
+      "year": 2026,
+      "authors": [
+        "Kunlin Cai",
+        "Rui Song",
+        "Jinghuai Zhang",
+        "Kaiyuan Zhang",
+        "Pranav Bodapati",
+        "Alicia Yu",
+        "Fnu Suya",
+        "Mohammad Rostami",
+        "Jiaqi Ma",
+        "Yuan Tian"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.27589v1",
+      "url": "http://arxiv.org/abs/2605.27589v1",
+      "key": "arxiv_260527589v1_What-If_World_A_Causal_Benchmark_for_General_World_Models_in_Embodied_Sc",
+      "file_kind": "txt",
+      "file": "arxiv_260527589v1_What-If_World_A_Causal_Benchmark_for_General_World_Models_in_Embodied_Sc.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2502.10498v2",
+      "doi": "",
+      "title": "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey",
+      "abstract": "The Driving World Model (DWM), which focuses on predicting scene evolution during the driving process, has emerged as a promising paradigm in the pursuit of autonomous driving (AD). DWMs enable AD systems to better perceive, understand, and interact with dynamic driving environments. In this survey, we provide a comprehensive overview of the latest progress in DWM. First, we review the DWM ecosystem, which is constructed using mainstream simulators, high-impact datasets, and various metrics that evaluate DWMs across multiple dimensions. We then categorize existing approaches based on the modalities of the predicted scenes, including video, point cloud, occupancy, latent feature, and traffic map, and summarize their specific applications in AD research. In addition, the performance of representative approaches across generating and driving tasks is presented. Finally, we discuss the potential limitations of current research and propose future directions. This survey provides valuable insights into the development and application of DWM, fostering its broader adoption in AD. The relevant papers are collected at https://github.com/LMD0311/Awesome-World-Model.",
+      "year": 2025,
+      "authors": [
+        "Sifan Tu",
+        "Xin Zhou",
+        "Dingkang Liang",
+        "Xingyu Jiang",
+        "Yumeng Zhang",
+        "Xiaofan Li",
+        "Xiang Bai"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.10498v2",
+      "url": "http://arxiv.org/abs/2502.10498v2",
+      "key": "arxiv_250210498v2_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_Comprehensive_S",
+      "file_kind": "txt",
+      "file": "arxiv_250210498v2_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_Comprehensive_S.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2304.10406v2",
+      "doi": "",
+      "title": "LiDAR-NeRF: Novel LiDAR View Synthesis via Neural Radiance Fields",
+      "abstract": "We introduce a new task, novel view synthesis for LiDAR sensors. While traditional model-based LiDAR simulators with style-transfer neural networks can be applied to render novel views, they fall short of producing accurate and realistic LiDAR patterns because the renderers rely on explicit 3D reconstruction and exploit game engines, that ignore important attributes of LiDAR points. We address this challenge by formulating, to the best of our knowledge, the first differentiable end-to-end LiDAR rendering framework, LiDAR-NeRF, leveraging a neural radiance field (NeRF) to facilitate the joint learning of geometry and the attributes of 3D points. However, simply employing NeRF cannot achieve satisfactory results, as it only focuses on learning individual pixels while ignoring local information, especially at low texture areas, resulting in poor geometry. To this end, we have taken steps to address this issue by introducing a structural regularization method to preserve local structural details. To evaluate the effectiveness of our approach, we establish an object-centric multi-view LiDAR dataset, dubbed NeRF-MVL. It contains observations of objects from 9 categories seen from 360-degree viewpoints captured with multiple LiDAR sensors. Our extensive experiments on the scene-level KITTI-360 dataset, and on our object-level NeRF-MVL show that our LiDAR-NeRF surpasses the model-based algorithms significantly.",
+      "year": 2023,
+      "authors": [
+        "Tang Tao",
+        "Longfei Gao",
+        "Guangrun Wang",
+        "Yixing Lao",
+        "Peng Chen",
+        "Hengshuang Zhao",
+        "Dayang Hao",
+        "Xiaodan Liang",
+        "Mathieu Salzmann",
+        "Kaicheng Yu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2304.10406v2",
+      "url": "http://arxiv.org/abs/2304.10406v2",
+      "key": "arxiv_230410406v2_LiDAR-NeRF_Novel_LiDAR_View_Synthesis_via_Neural_Radiance_Fields",
+      "file_kind": "txt",
+      "file": "arxiv_230410406v2_LiDAR-NeRF_Novel_LiDAR_View_Synthesis_via_Neural_Radiance_Fields.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.07092v1",
+      "doi": "",
+      "title": "Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report",
+      "abstract": "World models are a powerful paradigm in AI and robotics, enabling agents to reason about the future by predicting visual observations or compact latent states. The 1X World Model Challenge introduces an open-source benchmark of real-world humanoid interaction, with two complementary tracks: sampling, focused on forecasting future image frames, and compression, focused on predicting future discrete latent codes. For the sampling track, we adapt the video generation foundation model Wan-2.2 TI2V-5B to video-state-conditioned future frame prediction. We condition the video generation on robot states using AdaLN-Zero, and further post-train the model using LoRA. For the compression track, we train a Spatio-Temporal Transformer model from scratch. Our models achieve 23.0 dB PSNR in the sampling task and a Top-500 CE of 6.6386 in the compression task, securing 1st place in both challenges.",
+      "year": 2025,
+      "authors": [
+        "Riccardo Mereu",
+        "Aidan Scannell",
+        "Yuxin Hou",
+        "Yi Zhao",
+        "Aditya Jitta",
+        "Antonio Dominguez",
+        "Luigi Acerbi",
+        "Amos Storkey",
+        "Paul Chang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.07092v1",
+      "url": "http://arxiv.org/abs/2510.07092v1",
+      "key": "arxiv_251007092v1_Generative_World_Modelling_for_Humanoids_1X_World_Model_Challenge_Techni",
+      "file_kind": "txt",
+      "file": "arxiv_251007092v1_Generative_World_Modelling_for_Humanoids_1X_World_Model_Challenge_Techni.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.00613v3",
+      "doi": "",
+      "title": "WorldGym: World Model as An Environment for Policy Evaluation",
+      "abstract": "Evaluating robot control policies is difficult: real-world testing is costly, and handcrafted simulators require manual effort to improve in realism and generality. We propose a world-model-based policy evaluation environment (WorldGym), an autoregressive, action-conditioned video generation model which serves as a proxy to real world environments. Policies are evaluated via Monte Carlo rollouts in the world model, with a vision-language model providing rewards. We evaluate a set of VLA-based real-robot policies in the world model using only initial frames from real robots, and show that policy success rates within the world model highly correlate with real-world success rates. Moreoever, we show that WorldGym is able to preserve relative policy rankings across different policy versions, sizes, and training checkpoints. Due to requiring only a single start frame as input, the world model further enables efficient evaluation of robot policies' generalization ability on novel tasks and environments. We find that modern VLA-based robot policies still struggle to distinguish object shapes and can become distracted by adversarial facades of objects. While generating highly realistic object interaction remains challenging, WorldGym faithfully emulates robot motions and offers a practical starting point for safe and reproducible policy evaluation before deployment.",
+      "year": 2025,
+      "authors": [
+        "Julian Quevedo",
+        "Ansh Kumar Sharma",
+        "Yixiang Sun",
+        "Varad Suryavanshi",
+        "Percy Liang",
+        "Sherry Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.00613v3",
+      "url": "http://arxiv.org/abs/2506.00613v3",
+      "key": "arxiv_250600613v3_WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation",
+      "file_kind": "txt",
+      "file": "arxiv_250600613v3_WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2511.08585v4",
+      "doi": "",
+      "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+      "abstract": "The landscape of video generation is shifting, from a focus on generating visually appealing clips to building virtual environments that support interaction and maintain physical plausibility. These developments point toward the emergence of video foundation models that function not only as visual generators but also as implicit world models, models that simulate the physical dynamics, agent-environment interactions, and task planning that govern real or imagined worlds. This survey provides a systematic overview of this evolution, conceptualizing modern video foundation models as the combination of two core components: an implicit world model and a video renderer. The world model encodes structured knowledge about the world, including physical laws, interaction dynamics, and agent behavior. It serves as a latent simulation engine that enables coherent visual reasoning, long-term temporal consistency, and goal-driven planning. The video renderer transforms this latent simulation into realistic visual observations, effectively producing videos as a \"window\" into the simulated world. We trace the progression of video generation through four generations, in which the core capabilities advance step by step, ultimately culminating in a world model, built upon a video generation model, that embodies intrinsic physical plausibility, real-time multimodal interaction, and planning capabilities spanning multiple spatiotemporal scales. For each generation, we define its core characteristics, highlight representative works, and examine their application domains such as robotics, autonomous driving, and interactive gaming. Finally, we discuss open challenges and design principles for next-generation world models, including the role of agent intelligence in shaping and evaluating these systems. An up-to-date list of related works is maintained at this link.",
+      "year": 2025,
+      "authors": [
+        "Jingtong Yue",
+        "Ziqi Huang",
+        "Zhaoxi Chen",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Ziwei Liu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.08585v4",
+      "url": "http://arxiv.org/abs/2511.08585v4",
+      "key": "arxiv_251108585v4_Simulating_the_Visual_World_with_Artificial_Intelligence_A_Roadmap",
+      "file_kind": "txt",
+      "file": "arxiv_251108585v4_Simulating_the_Visual_World_with_Artificial_Intelligence_A_Roadmap.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2311.11971v2",
+      "doi": "10.1109/tmm.2025.3590928",
+      "title": "LiDAR-HMR: 3D Human Mesh Recovery from LiDAR",
+      "abstract": "In recent years, point cloud perception tasks have been garnering increasing attention. This paper presents the first attempt to estimate 3D human body mesh from sparse LiDAR point clouds. We found that the major challenge in estimating human pose and mesh from point clouds lies in the sparsity, noise, and incompletion of LiDAR point clouds. Facing these challenges, we propose an effective sparse-to-dense reconstruction scheme to reconstruct 3D human mesh. This involves estimating a sparse representation of a human (3D human pose) and gradually reconstructing the body mesh. To better leverage the 3D structural information of point clouds, we employ a cascaded graph transformer (graphormer) to introduce point cloud features during sparse-to-dense reconstruction. Experimental results on three publicly available databases demonstrate the effectiveness of the proposed approach. Code: https://github.com/soullessrobot/LiDAR-HMR/",
+      "year": 2023,
+      "authors": [
+        "Bohao Fan",
+        "Wenzhao Zheng",
+        "Jianjiang Feng",
+        "Jie Zhou"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.11971v2",
+      "url": "http://arxiv.org/abs/2311.11971v2",
+      "key": "arxiv_101109_tmm20253590928_LiDAR-HMR_3D_Human_Mesh_Recovery_from_LiDAR",
+      "file_kind": "txt",
+      "file": "arxiv_101109_tmm20253590928_LiDAR-HMR_3D_Human_Mesh_Recovery_from_LiDAR.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2611.22669v2",
+      "doi": "",
+      "title": "Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather",
+      "abstract": "Driving world models forecast what a vehicle's sensors will record next. Most forecast camera video and some add LiDAR, but thermal cameras, which still see in darkness and some adverse weather, are rarely a forecast target, and to our knowledge no world model forecasts all three sensors. We study joint forecasting of RGB, thermal, and LiDAR on real adverse-weather sequences of the DSERT-RoLL dataset. We post-train a pretrained video world model for each sensor and represent LiDAR as a depth video aligned with the RGB camera, with densification and encoding chosen by what the model's video tokenizer can reconstruct. A tri-sensor model sees all three sensors as one video. We score LiDAR in meters against measured returns and compare against persistence baselines passed through the same tokenizer as the model. With this matching, an apparent loss of the thermal model to persistence in fog disappears. On all 58 validation sequences in six weather conditions, post-trained RGB and thermal forecasts beat compression-matched persistence. Joint training lowers the LiDAR error at 2s by 2.1m at a small cost in camera fidelity, and only the tri-sensor model's LiDAR forecasts beat persistence in mean error. Blanking one sensor degrades the forecasts of the others more in snow than in fog.",
+      "year": 2026,
+      "authors": [
+        "Faysal Mehrab Chowdhury",
+        "Md. Mahfuzur Rahman",
+        "Ahmed Rafi Hasan",
+        "Kishor Datta Gupta",
+        "Mohd Ariful Haque",
+        "Savannah Shannon"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2611.22669v2",
+      "url": "http://arxiv.org/abs/2611.22669v2",
+      "key": "arxiv_261122669v2_Beyond_the_Camera_A_Tri-Modal_Driving_World_Model_for_Future_RGB_Thermal",
+      "file_kind": "txt",
+      "file": "arxiv_261122669v2_Beyond_the_Camera_A_Tri-Modal_Driving_World_Model_for_Future_RGB_Thermal.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2401.09985v1",
+      "doi": "",
+      "title": "WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens",
+      "abstract": "World models play a crucial role in understanding and predicting the dynamics of the world, which is essential for video generation. However, existing world models are confined to specific scenarios such as gaming or driving, limiting their ability to capture the complexity of general world dynamic environments. Therefore, we introduce WorldDreamer, a pioneering world model to foster a comprehensive comprehension of general world physics and motions, which significantly enhances the capabilities of video generation. Drawing inspiration from the success of large language models, WorldDreamer frames world modeling as an unsupervised visual sequence modeling challenge. This is achieved by mapping visual inputs to discrete tokens and predicting the masked ones. During this process, we incorporate multi-modal prompts to facilitate interaction within the world model. Our experiments show that WorldDreamer excels in generating videos across different scenarios, including natural scenes and driving environments. WorldDreamer showcases versatility in executing tasks such as text-to-video conversion, image-tovideo synthesis, and video editing. These results underscore WorldDreamer's effectiveness in capturing dynamic elements within diverse general world environments.",
+      "year": 2024,
+      "authors": [
+        "Xiaofeng Wang",
+        "Zheng Zhu",
+        "Guan Huang",
+        "Boyuan Wang",
+        "Xinze Chen",
+        "Jiwen Lu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2401.09985v1",
+      "url": "http://arxiv.org/abs/2401.09985v1",
+      "key": "arxiv_240109985v1_WorldDreamer_Towards_General_World_Models_for_Video_Generation_via_Predi",
+      "file_kind": "txt",
+      "file": "arxiv_240109985v1_WorldDreamer_Towards_General_World_Models_for_Video_Generation_via_Predi.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.22882v4",
+      "doi": "",
+      "title": "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation",
+      "abstract": "Video world models can generate realistic futures from a single instruction, but they often fail to track the same physical points consistently across time. As a result, the generated videos appear plausible, yet lack the physical grounding required for reliable action execution, such as robot manipulation. We present GEM-4D, a geometry-grounded video world model that resolves this limitation by injecting dense 4D correspondence supervision distilled from a pretrained geometry foundation model into the video generative backbone during training. This supervision enables the model to jointly capture appearance and geometric structure while retaining a single-stream architecture with no additional inference cost. We further introduce an inverse dynamics module that converts correspondence-consistent video rollouts into executable robot trajectories, enabling direct deployment in both real-world and simulated manipulation. GEM-4D achieves state-of-the-art performance on both video prediction and geometric consistency across both simulation and realistic scenarios and improves real-world manipulation success from 61% to 81%. Additional results are available at https://gem-4d.github.io/.",
+      "year": 2026,
+      "authors": [
+        "Kaichen Zhou",
+        "Yuzhen Chen",
+        "Fangneng Zhan",
+        "Hang Hua",
+        "Grace Chen",
+        "Xinhai Chang",
+        "Ao Qu",
+        "Yilun Du",
+        "Zhuang Liu",
+        "Paul Pu Liang",
+        "Mengyu Wang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.22882v4",
+      "url": "http://arxiv.org/abs/2605.22882v4",
+      "key": "arxiv_260522882v4_GEM-4D_Geometry-Enhanced_Video_World_Models_for_Robot_Manipulation",
+      "file_kind": "txt",
+      "file": "arxiv_260522882v4_GEM-4D_Geometry-Enhanced_Video_World_Models_for_Robot_Manipulation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.07326v2",
+      "doi": "",
+      "title": "GEM: Generating LiDAR World Model via Deformable Mamba",
+      "abstract": "World models, which simulate environmental dynamics and generate sensor observations, are gaining increasing attention in autonomous driving. However, progress in LiDAR-based world models has lagged behind those built on camera videos or occupancy data, primarily due to two core challenges: the inherent disorder of LiDAR point clouds and the difficulty of distinguishing dynamic objects from static structures. To address these issues, we propose GEM: a Generative LiDAR world model that leverages deformable mamba architecture, significantly improving fidelity and imaginative capability. Specifically, leveraging the structural similarity between sequential laser scanning and Mamba's processing mechanism, we first tokenize LiDAR sweeps into compact representations via a custom LiDAR scene tokenizer. After unsupervised disentanglement of tokenized features via a dynamic-static separator, a tri-path deformable Mamba is introduced to perform selective scanning and adaptive gating fusion over the disentangled features, leading to enhanced spatial-temporal understanding of the world evolution. Optionally, a planner and a BEV layout controller can be integrated to explore the model's capability for autonomous rollout and its potential to generate ``what-if\" scenarios. Extensive experiments show that GEM achieves state-of-the-art performances across diverse benchmarks and evaluation settings, demonstrating its superiority and effectiveness. Project page: https://github.com/wuyang98/GEM.",
+      "year": 2026,
+      "authors": [
+        "Yang Wu",
+        "Zhaojiang Liu",
+        "Qiang Meng",
+        "Youquan Liu",
+        "Renliang Weng",
+        "Jianjun Qian",
+        "Jian Yang",
+        "Jin Xie"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.07326v2",
+      "url": "http://arxiv.org/abs/2605.07326v2",
+      "key": "arxiv_260507326v2_GEM_Generating_LiDAR_World_Model_via_Deformable_Mamba",
+      "file_kind": "txt",
+      "file": "arxiv_260507326v2_GEM_Generating_LiDAR_World_Model_via_Deformable_Mamba.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2608.14767v1",
+      "doi": "",
+      "title": "NARRATE: A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving",
+      "abstract": "Automated vehicles must explain their decisions in ways that passengers can understand, monitor, and trust. Existing language-annotated driving datasets are mostly observer-written, post-hoc, simulation-based, or generated from sensor inputs, rather than elicited from the driver performing the action. We introduce NARRATE, a multimodal real-world Australian driving dataset comprising 2,050 annotated events from 35 experienced drivers and driving instructors on public roads. Each event is grounded in synchronised visual, localisation, motion, and LiDAR streams and paired with in-vehicle and/or post-drive free-text explanations. NARRATE provides action labels, scenario-context labels spanning six high-level and 32 fine-grained categories, and span-level Situational Awareness (SA) annotations over driver explanations for Perception, Comprehension and Projection. Four benchmark tasks (SA, scenario-context, driver-action classification, and explanation generation) show that this structure is learnable from driver language, while fine-grained context recognition and explanation generation remain challenging. NARRATE paves a path towards more human-centred and domain-aware explanation models for automated driving.",
+      "year": 2026,
+      "authors": [
+        "Ashkan Yousefi Zadeh",
+        "Zishuo Zhu",
+        "Xiaomeng Li",
+        "Andry Rakotonirainy",
+        "Sebastien Glaser",
+        "Ronald Schroeter",
+        "Patricia Delhomme",
+        "Zahra Mehraban"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.14767v1",
+      "url": "http://arxiv.org/abs/2608.14767v1",
+      "key": "arxiv_260814767v1_NARRATE_A_Multimodal_Real-World_Australian_Driving_Dataset_for_Human-Cen",
+      "file_kind": "txt",
+      "file": "arxiv_260814767v1_NARRATE_A_Multimodal_Real-World_Australian_Driving_Dataset_for_Human-Cen.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.23993v2",
+      "doi": "",
+      "title": "Nano World Models: A Minimalist Implementation of Future Video Prediction",
+      "abstract": "World models have become a central paradigm for learning predictive simulators that support generation, planning, and decision-making. Yet, despite rapid progress in industry-scale interactive video generation, the broader research community still lacks compact, reproducible, and easily extensible implementations for studying the design choices underlying modern world models. We introduce Nano World Models, a minimalist codebase for future video prediction centered around diffusion forcing. Nano World Models provides a unified interface for generative objectives, model scales, action-conditioning mechanisms, latent observation spaces, datasets, evaluation protocols, and long-horizon rollout procedures. This design enables controlled studies of world-modeling components that are often entangled across separate implementations. Through experiments across simple control environments, game simulation, and real-robot data, we examine how prediction parameterization, architecture scale, action injection, sampling budget, and domain complexity affect video prediction quality and autoregressive rollout behavior. By releasing code, configurations, evaluation scripts, and pretrained checkpoints, Nano World Models aims to provide a compact yet extensible experimental substrate for open, reproducible, and scientific world-model research.",
+      "year": 2026,
+      "authors": [
+        "Siqiao Huang",
+        "Partha Kaushik",
+        "Michael Chen",
+        "Hengkai Pan",
+        "Kaiwen Geng",
+        "Omar Chehab",
+        "Fernando Moreno-Pino",
+        "Max Simchowitz"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.23993v2",
+      "url": "http://arxiv.org/abs/2605.23993v2",
+      "key": "arxiv_260523993v2_Nano_World_Models_A_Minimalist_Implementation_of_Future_Video_Prediction",
+      "file_kind": "txt",
+      "file": "arxiv_260523993v2_Nano_World_Models_A_Minimalist_Implementation_of_Future_Video_Prediction.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.37398v1",
+      "doi": "",
+      "title": "Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation",
+      "abstract": "World-Action Models (WAMs) couple action generation with predictions of how physical interactions unfold. However, current post-deployment learning paradigms typically improve behavior without requiring better world predictions. Especially in dexterous manipulation, small execution errors can compound in high-dimensional action spaces, hindering policy improvement and pushing interactions beyond the world model's training distribution. Motivated by this, we propose Direct Experience World-Model Optimization (DEWO), a post-deployment learning paradigm for WAMs that, alongside action imitation, refines world representations through visual experience to better condition action generation. Specifically, it identifies interaction turning points and learns from successful and failed futures to support classifier-free guidance. An additional value head estimates task progress from video representations and activates guidance when progress stalls during inference. Across five DexJoCo tasks, DEWO improves average success across all three WAM formulations. Ablations show that visual supervision from successful and failed continuations improves both prediction and control beyond action supervision alone. On four real-world tasks across Wuji and Sharpa, 3 x 3 grid evaluations show that two rounds of deployment learning increase success from 51.0% to 71.7% in cells with at least one initial success, a gain of 20.7 percentage points. These findings support continued predictive learning for improving control through deployment experience, making world modeling an active part of WAM adaptation.",
+      "year": 2026,
+      "authors": [
+        "Xiangcheng Zhan",
+        "Zirui Chen",
+        "Yicheng Zhao",
+        "Ziteng Gao",
+        "Shuo Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.37398v1",
+      "url": "http://arxiv.org/abs/2609.37398v1",
+      "key": "arxiv_260937398v1_Direct_Experience_World-Model_Optimization_Learning_the_World_Beyond_Act",
+      "file_kind": "txt",
+      "file": "arxiv_260937398v1_Direct_Experience_World-Model_Optimization_Learning_the_World_Beyond_Act.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2607.10781v1",
+      "doi": "",
+      "title": "Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models",
+      "abstract": "Driving world models built on large video-diffusion backbones generate realistic scenes but are hard to control: enforcing a traffic norm typically means retraining the backbone or conditioning it on hand-built layouts. We ask whether controllability requires training at all. Our experiment shows that a rectified-flow driving world model, which jointly generates future video and a planned ego trajectory, can have its planned trajectory steered entirely at sampling time by differentiable energy functions that encode driving norms, without knowledge-specific retraining of the diffusion backbone. Concretely, we demonstrate that a world model built on Open-Sora 2.0 MM-DiT backbone can be steered to brake at a counterfactual target by injecting energy guidance at sampling time. However, we find that the generated video does not yet follow the steered trajectory through the backbone's joint self-attention and identify the cross-stream coupling as a crucial requirement for end-to-end-controllable rollouts.",
+      "year": 2026,
+      "authors": [
+        "Xiyan Su",
+        "Frank Diermeyer",
+        "Markus Lienkamp"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.10781v1",
+      "url": "http://arxiv.org/abs/2607.10781v1",
+      "key": "arxiv_260710781v1_Is_Energy_Guidance_All_You_Need_Training-Free_Norm_Injection_for_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_260710781v1_Is_Energy_Guidance_All_You_Need_Training-Free_Norm_Injection_for_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2512.02793v1",
+      "doi": "",
+      "title": "IC-World: In-Context Generation for Shared World Modeling",
+      "abstract": "Video-based world models have recently garnered increasing attention for their ability to synthesize diverse and dynamic visual environments. In this paper, we focus on shared world modeling, where a model generates multiple videos from a set of input images, each representing the same underlying world in different camera poses. We propose IC-World, a novel generation framework, enabling parallel generation for all input images via activating the inherent in-context generation capability of large video models. We further finetune IC-World via reinforcement learning, Group Relative Policy Optimization, together with two proposed novel reward models to enforce scene-level geometry consistency and object-level motion consistency among the set of generated videos. Extensive experiments demonstrate that IC-World substantially outperforms state-of-the-art methods in both geometry and motion consistency. To the best of our knowledge, this is the first work to systematically explore the shared world modeling problem with video-based world models.",
+      "year": 2025,
+      "authors": [
+        "Fan Wu",
+        "Jiacheng Wei",
+        "Ruibo Li",
+        "Yi Xu",
+        "Junyou Li",
+        "Deheng Ye",
+        "Guosheng Lin"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.02793v1",
+      "url": "http://arxiv.org/abs/2512.02793v1",
+      "key": "arxiv_251202793v1_IC-World_In-Context_Generation_for_Shared_World_Modeling",
+      "file_kind": "txt",
+      "file": "arxiv_251202793v1_IC-World_In-Context_Generation_for_Shared_World_Modeling.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2508.10398v2",
+      "doi": "",
+      "title": "Super LiDAR Intensity for Robotic Perception",
+      "abstract": "Conventionally, human intuition defines vision as a modality of passive optical sensing, relying on ambient light to perceive the environment. However, active optical sensing, which involves emitting and receiving signals, offers unique advantages by capturing both radiometric and geometric properties of the environment, independent of external illumination conditions. This work focuses on advancing active optical sensing using Light Detection and Ranging (LiDAR), which captures intensity data, enabling the estimation of surface reflectance that remains invariant under varying illumination. Such properties are crucial for robotic perception tasks, including detection, recognition, segmentation, and Simultaneous Localization and Mapping (SLAM). A key challenge with low-cost LiDARs lies in the sparsity of scan data, which limits their broader application. To address this limitation, this work introduces an innovative framework for generating dense LiDAR intensity images from sparse data, leveraging the unique attributes of non-repeating scanning LiDAR (NRS-LiDAR). We tackle critical challenges, including intensity calibration and the transition from static to dynamic scene domains, facilitating the reconstruction of dense intensity images in real-world settings. The key contributions of this work include a comprehensive dataset for LiDAR intensity image densification, a densification network tailored for NRS-LiDAR, and diverse applications such as loop closure and traffic lane detection using the generated dense intensity images. Experimental results validate the efficacy of the proposed approach, which successfully integrates computer vision techniques with LiDAR data processing, enhancing the applicability of low-cost LiDAR systems and establishing a novel paradigm for robotic vision via active optical sensing--LiDAR as a Camera.",
+      "year": 2025,
+      "authors": [
+        "Wei Gao",
+        "Jie Zhang",
+        "Mingle Zhao",
+        "Zhiyuan Zhang",
+        "Shu Kong",
+        "Maani Ghaffari",
+        "Dezhen Song",
+        "Cheng-Zhong Xu",
+        "Hui Kong"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2508.10398v2",
+      "url": "http://arxiv.org/abs/2508.10398v2",
+      "key": "arxiv_250810398v2_Super_LiDAR_Intensity_for_Robotic_Perception",
+      "file_kind": "txt",
+      "file": "arxiv_250810398v2_Super_LiDAR_Intensity_for_Robotic_Perception.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.24626v1",
+      "doi": "",
+      "title": "Relationally Grounded Latent World Models for Autonomous Driving",
+      "abstract": "Latent world models learn predictive representations for autonomous driving, but the relational semantics these states preserve often remain implicit. We investigate whether traffic scene graphs can serve as privileged semantic supervision for latent world representations. Building on LAW, we construct actor-centric scene graphs from nuScenes 3D annotations, encode their serialized relational structure using a frozen text embedding model, and align the visual latent representations with this semantic target during training. We remove the supervision branch at inference, so it requires neither scene graphs nor 3D annotations and adds no test-time computation. On nuScenes, our method reduces average trajectory L2 error from 0.661 to 0.622 (5.9%) and collision rate from 0.456 to 0.217 (52.4%) relative to our retrained LAW baseline. It also outperforms an unstructured caption-style semantic target, supporting the benefit of explicit relational structure for latent world-model representation learning.",
+      "year": 2026,
+      "authors": [
+        "Fabian Schmidt",
+        "Markus Enzweiler",
+        "Abhinav Valada"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.24626v1",
+      "url": "http://arxiv.org/abs/2609.24626v1",
+      "key": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving.txt"
+    }
+  ]
+}

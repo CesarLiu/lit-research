@@ -1,0 +1,15 @@
+{
+ "id": "making_the_world_react_realistically_a_closed_loop",
+ "title": "Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving",
+ "control_family": "other",
+ "output_modality": {"value": "3D Gaussian Splatting reconstruction rendered as surround-camera images (8 cameras), with background-vehicle trajectories and signal lights.", "pages": "4-5"},
+ "control_signal": {"value": "Ego planner actions closing the loop on rendered images; background vehicles driven by learned policies (style latent, goal, map); signal light states set from each vehicle's planned intention.", "pages": "3-5"},
+ "control_mechanism": {"value": "Style-conditioned imitation-learned vehicle policy fine-tuned with multi-agent GRPO in the closed loop; lights via LoRA fine-tuned one-step diffusion editor conditioned on lamp map and state map.", "pages": "3-5"},
+ "base_model": {"value": "MTGS-based 3DGS reconstruction with Gaussian vehicle assets; mixture-of-experts policy with ODE-RNN style encoder; Difix one-step diffusion with LoRA for light editing.", "pages": "3-5"},
+ "datasets": {"value": "Evaluated on 288 long-tail NAVSIM navtest failure scenarios from 89 nuPlan logs; policies imitation-learned on INTERACTION and fine-tuned on nuPlan navtrain.", "pages": "5-6"},
+ "metrics": {"value": "JS divergence and histogram overlap of TTC, peak acceleration and relative speed; collision rate; route progress; PSNR, SSIM, LPIPS; VLM-read light state correctness.", "pages": "6"},
+ "controllability_evidence": {"value": "Interaction realism against logs: mean JS 0.0074 versus 0.0485 for World Engine (85% lower); novel-view vehicle PSNR gain of 2.0 dB reported in abstract.", "pages": "1, 6"},
+ "closed_loop": {"value": "Yes; Alpamayo 1.5 ego planner reacts to rendered images and background vehicles respond, 12 steps at 0.5 s per episode.", "pages": "5"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Not a generative control-signal model in the usual sense; control family is a best fit (closest to scenario or behaviour conditioning). Only future work is stated in the conclusion excerpt. Packet carries an arXiv date of 2026."
+}

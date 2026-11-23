@@ -1,0 +1,15 @@
+{
+ "id": "gaia_1_a_generative_world_model_for_autonomous_dri",
+ "title": "GAIA-1: A Generative World Model for Autonomous Driving",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "driving video (frames of 288x512, output at up to 25 Hz); number of camera views not stated in packet", "pages": "8, 10"},
+ "control_signal": {"value": "Text prompts (e.g. weather, illumination, objects), ego action as future speed and curvature values, or a video prompt; unconditional generation also possible.", "pages": "2, 9"},
+ "control_mechanism": {"value": "Text, action and image tokens form one sequence for an autoregressive transformer; conditioning tokens randomly dropped in training; classifier-free guidance on token logits with scheduled scale, plus negative prompting.", "pages": "2-3, 5, 9-10"},
+ "base_model": {"value": "0.3B VQ image tokenizer distilled from DINO, 6.5B autoregressive transformer world model, and a multi-task denoising video diffusion decoder (DDIM, 50 steps).", "pages": "5-6, 8, 10"},
+ "datasets": {"value": "Dataset names not stated in packet; described only as an expert driving dataset, with text from online narration or offline metadata.", "pages": "9, 14"},
+ "metrics": {"value": "No FID or FVD in the packet; reports token perplexity versus position and validation cross-entropy versus compute for scaling.", "pages": "9, 11"},
+ "controllability_evidence": {"value": "Qualitative only: out-of-distribution steering left or right gives matching futures with other agents reacting; text prompts change weather and illumination; text plus action combined to overtake a generated bus. No numbers.", "pages": "14, 16-18"},
+ "closed_loop": {"value": "No; open-loop rollouts from a video prompt under prescribed actions. Long unconditional rollouts shown up to +30 s via sliding window. Neural-simulator use is only suggested.", "pages": "9, 14"},
+ "stated_limitations": {"value": "Autoregressive generation does not yet run in real time, though it can be parallelized across samples.", "pages": "19"},
+ "notes": "Packet has no quantitative controllability metric and no dataset names; fields marked accordingly. Camera configuration not visible in packet."
+}

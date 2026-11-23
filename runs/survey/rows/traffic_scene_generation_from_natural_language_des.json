@@ -1,0 +1,13 @@
+{
+ "id": "traffic_scene_generation_from_natural_language_des",
+ "title": "Traffic Scene Generation from Natural Language Description for Autonomous Vehicles with Large Language Model",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "Free-form natural-language scene description covering agents (type, action, relative position and distance), traffic signals, road objects and weather, including critical or multi-stage events.", "pages": "2, 4"},
+ "control_mechanism": {"value": "Training-free modular pipeline: LLM (GPT-4o by default) parses the prompt, candidate roads are retrieved from a road graph, the LLM plans agents, and a plan-aware road ranking picks the road; a rendering module builds the scene.", "pages": "2, 4, 6"},
+ "base_model": {"value": "No trained generative model; LLM prompting (GPT-4o default; Gemma3-12B, Gemini-2.5-Flash, Claude-Sonnet-3.5 also tested) plus road retrieval, road ranking and CARLA-based rendering.", "pages": "2, 6, 8-9"},
+ "datasets": {"value": "SafeBench critical scenarios (straight obstacle, lane changing, unprotected left turn, taken from ChatScene) in CARLA; ADAPT captioning model finetuned on 20 generated critical scenes, evaluated on 20 more.", "pages": "6-8"},
+ "metrics": {"value": "Collision rate, driving score, route incompleteness on SafeBench; diversity scores AD, RD (road diversity) and SA; captioning BLEU, METEOR, CIDEr; LLM pipeline failure rate.", "pages": "6-8, 13-15"},
+ "controllability_evidence": {"value": "Ego agents trained on generated scenes cut average collision rate from 0.08 to 0.035 on SafeBench versus prior methods. Captioning CIDEr rises from 15.2 to 52.9 (narration) and 18.4 to 51.9 (reasoning).", "pages": "1, 6-8"},
+ "stated_limitations": {"value": "LLM may misread prompts or hallucinate elements such as traffic lights; CARLA built-in map lacks some signal and object combinations and unsupported conditions such as a speed limit of 200; plans custom OpenDRIVE generation.", "pages": "15"},
+ "notes": "Controllability is shown indirectly through downstream agent training and scene diversity, not through measured prompt-to-scene adherence in the packet. Meaning of AD and SA scores not defined in the packet."
+}

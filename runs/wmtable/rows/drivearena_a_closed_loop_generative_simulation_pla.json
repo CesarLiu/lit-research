@@ -1,0 +1,15 @@
+{
+ "id": "drivearena_a_closed_loop_generative_simulation_pla",
+ "title": "DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "multi-view (surround-view) images generated autoregressively as a stream of arbitrary length", "pages": "4"},
+ "control_signal": {"value": "map and vehicle layouts from a Traffic Manager (3D boxes, BEV map, projected canvases), camera parameters, relative ego pose, reference image and text prompts for weather and style", "pages": "4-5"},
+ "control_mechanism": {"value": "condition encoders feeding a randomly initialised ControlNet on the UNet; reference features via cross-attention; cross-view attention; autoregressive reuse of previous frames and relative pose", "pages": "4-5, 7"},
+ "base_model": {"value": "Stable Diffusion v1.5 initialised, only new parameters trained; CLIP text and image encoders; ControlNet; UniAD used as the driving agent", "pages": "4, 7, 10"},
+ "datasets": {"value": "nuScenes (700 train, 150 val scenes) with GPT-4V scene descriptions; zero-shot tests on nuPlan and CARLA road networks", "pages": "7, 9-10"},
+ "metrics": {"value": "Agent-side PDM Score and subscores (NC, DAC, EP, TTC, C), route completion and Arena Driving Score. FID/FVD not in the packet.", "pages": "6-7, 11-12"},
+ "controllability_evidence": {"value": "UniAD PDMS 0.902 on generated images versus 0.910 on original nuScenes; qualitative adherence to lanes and boxes, including nuPlan and CARLA layouts.", "pages": "9-11"},
+ "closed_loop": {"value": "Yes: UniAD trajectories drive the ego vehicle through the Traffic Manager and generated images; four routes, average route completion 0.137 and ADS 0.086.", "pages": "11-12"},
+ "stated_limitations": {"value": "Trained only on nuScenes (limited diversity); temporal consistency between frames is hard; high runtime; few agents tested so far.", "pages": "14-15"},
+ "notes": "Platform paper: the controllable generator (World Dreamer) is one module plus a rule-based Traffic Manager and an agent. Controllability is mostly qualitative."
+}

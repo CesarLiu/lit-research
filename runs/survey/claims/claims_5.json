@@ -1,0 +1,390 @@
+[
+ {
+  "id": 89,
+  "section": "5. What companies say",
+  "text": "XPeng says its simulation scenarios grew from 30,000 to more than 500,000 in a year [X4].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "X4",
+    "company": "XPeng",
+    "date": "2026-04-29",
+    "claim": "Simulation scenario count grew from 30,000 to more than 500,000 (company figure)",
+    "quote": "grown from 30,000 one year ago to more than 500,000",
+    "grade": "B",
+    "page": "xpeng_xworld"
+   }
+  ],
+  "previous_sentence": "Huawei lists a cloud world engine and an in-vehicle world action model, with multi-agent game theory and online reinforcement learning on the cloud side [H1][H2]; its own page says the passenger-car system is an assisted-driving feature [H3].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 90,
+  "section": "5. What companies say",
+  "text": "**Failure discovery is part of generation.** Mobileye pairs a multi-agent data analyst that finds recurring failures with a targeted scenario simulator, and says generated data should extend, not replace, real data [M1][M2][M3].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "M1",
+    "company": "Mobileye",
+    "date": "2026-05-27",
+    "claim": "Multi-agent data analyst that finds recurring failures, generates hypotheses, retrieves scenarios",
+    "quote": "Meteor is Mobileye's multi-agent AI data analyst for autonomous driving",
+    "grade": "B",
+    "page": "mbly_longtail"
+   },
+   {
+    "id": "M2",
+    "company": "Mobileye",
+    "date": "2026-05-27",
+    "claim": "Targeted scenario simulator that varies a found failure across conditions",
+    "quote": "Genario, a targeted scenario simulator",
+    "grade": "B",
+    "page": "mbly_longtail"
+   },
+   {
+    "id": "M3",
+    "company": "Mobileye",
+    "date": "2026-05-27",
+    "claim": "Generated data extends, not replaces, real data",
+    "quote": "The goal is not to replace real-world driving data, but to extend it",
+    "grade": "B",
+    "page": "mbly_longtail"
+   }
+  ],
+  "previous_sentence": "XPeng says its simulation scenarios grew from 30,000 to more than 500,000 in a year [X4].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 91,
+  "section": "5. What companies say",
+  "text": "NVIDIA and Alpamayo position reasoning vision-language-action models as teachers to distil, not in-car models [N5], and release models, a simulator and datasets openly [N4][N6].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "N4",
+    "company": "NVIDIA",
+    "date": "2025-06-11",
+    "claim": "40,000 generated clips released in an open dataset",
+    "quote": "The latest dataset release includes 40,000 clips generated using Cosmos",
+    "grade": "A",
+    "page": "nv_av_eco"
+   },
+   {
+    "id": "N5",
+    "company": "NVIDIA",
+    "date": "2026-01-05",
+    "claim": "Reasoning VLA models are positioned as teacher models for distillation, not run in the car",
+    "quote": "Alpamayo models serve as large-scale teacher models",
+    "grade": "A",
+    "page": "nv_alpamayo"
+   },
+   {
+    "id": "N6",
+    "company": "NVIDIA",
+    "date": "2026-01-05",
+    "claim": "Open-source closed-loop simulator released alongside the models",
+    "quote": "configurable traffic dynamics",
+    "grade": "A",
+    "page": "nv_alpamayo"
+   }
+  ],
+  "previous_sentence": "**Failure discovery is part of generation.** Mobileye pairs a multi-agent data analyst that finds recurring failures with a targeted scenario simulator, and says generated data should extend, not replace, real data [M1][M2][M3].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 92,
+  "section": "5. What companies say",
+  "text": "What is missing.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "NVIDIA and Alpamayo position reasoning vision-language-action models as teachers to distil, not in-car models [N5], and release models, a simulator and datasets openly [N4][N6].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 93,
+  "section": "5. What companies say",
+  "text": "Waymo, Tesla and XPeng describe closed systems and publish few measurements of controllability.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "What is missing.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 94,
+  "section": "5. What companies say",
+  "text": "Wayve's own GAIA-3 pages answered HTTP 403, Zoox's pages could not be read, and no company statement was found for Li Auto, so those are absent from this evidence.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Waymo, Tesla and XPeng describe closed systems and publish few measurements of controllability.",
+  "papers": [],
+  "flags": [
+   "number_not_in_cited_rows 403",
+   "no_citation"
+  ]
+ },
+ {
+  "id": 95,
+  "section": "5. What companies say",
+  "text": "A Baidu launch is only available through a secondary page [D1] and is not used as evidence.",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "D1",
+    "company": "Baidu",
+    "date": "2026-11-03",
+    "claim": "Secondary (wiki aggregation of news): Apollo World used for testing and validation of Apollo Go",
+    "quote": "Apollo World has been used for the global testing and validation of Apollo Go",
+    "grade": "C",
+    "page": "baidu_baike"
+   }
+  ],
+  "previous_sentence": "Wayve's own GAIA-3 pages answered HTTP 403, Zoox's pages could not be read, and no company statement was found for Li Auto, so those are absent from this evidence.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 96,
+  "section": "5. What companies say",
+  "text": "Waabi's generative-simulator statement is from 2022 [B1][B2].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "B1",
+    "company": "Waabi",
+    "date": "2022-02-09",
+    "claim": "2022 claim: simulator creates stress-test scenarios automatically",
+    "quote": "Creates scenarios to stress-test the Waabi Driver, automatically and at scale",
+    "grade": "B",
+    "page": "waabi_world"
+   },
+   {
+    "id": "B2",
+    "company": "Waabi",
+    "date": "2022-02-09",
+    "claim": "Described as a Generative AI powered closed-loop simulator",
+    "quote": "Powered by Generative AI",
+    "grade": "B",
+    "page": "waabi_world"
+   }
+  ],
+  "previous_sentence": "A Baidu launch is only available through a secondary page [D1] and is not used as evidence.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 97,
+  "section": "6. Cross-cutting findings",
+  "text": "**Control is seldom measured directly.** At both layers the common evidence is a downstream or fidelity number (collision rate against a baseline, perception on generated data, FID and FVD) rather than a measurement of whether the output follows the specified signal.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 98,
+  "section": "6. Cross-cutting findings",
+  "text": "Exceptions exist (sections 3.1 and 4.2) and the four analyses in section 4.3 show why the distinction matters.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Control is seldom measured directly.** At both layers the common evidence is a downstream or fidelity number (collision rate against a baseline, perception on generated data, FID and FVD) rather than a measurement of whether the output follows the specified signal.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 99,
+  "section": "6. Cross-cutting findings",
+  "text": "**A knob that moves a metric and a knob that moves the world are different.** Guidance papers pay for the dial in realism [107][98]; the energy-guidance paper shows a trajectory moving while video barely changes [70].",
+  "cited": [
+   70,
+   98,
+   107
+  ],
+  "company_statements": [],
+  "previous_sentence": "Exceptions exist (sections 3.1 and 4.2) and the four analyses in section 4.3 show why the distinction matters.",
+  "papers": [
+   {
+    "n": 70,
+    "row_file": "rows/is_energy_guidance_all_you_need_training_free_norm.json",
+    "title": "Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models"
+   },
+   {
+    "n": 98,
+    "row_file": "rows/proposal_conditioned_latent_diffusion_for_closed_l.json",
+    "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation"
+   },
+   {
+    "n": 107,
+    "row_file": "rows/safe_sim_safety_critical_closed_loop_traffic_simul.json",
+    "title": "Safe-Sim: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 100,
+  "section": "6. Cross-cutting findings",
+  "text": "**Much \"control\" at the scenario level is an objective.** Adversarial purpose dominates among the papers labelled controllable (section 3.5), and many reported benefits are for the planner trained on the data, not for the user who specifies the scenario.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**A knob that moves a metric and a knob that moves the world are different.** Guidance papers pay for the dial in realism [107][98]; the energy-guidance paper shows a trajectory moving while video barely changes [70].",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 101,
+  "section": "6. Cross-cutting findings",
+  "text": "**Language control is a mixture of three designs.** Text can be turned into code or a loss [13][76], trained in directly [73][10], or used to edit a scene [48]; their failure modes differ, and reliability is rarely measured directly.",
+  "cited": [
+   10,
+   13,
+   48,
+   73,
+   76
+  ],
+  "company_statements": [],
+  "previous_sentence": "**Much \"control\" at the scenario level is an objective.** Adversarial purpose dominates among the papers labelled controllable (section 3.5), and many reported benefits are for the planner trained on the data, not for the user who specifies the scenario.",
+  "papers": [
+   {
+    "n": 10,
+    "row_file": "rows/cafe_causally_faithful_conditional_traffic_scenari.json",
+    "title": "CaFe: Causally Faithful Conditional Traffic Scenario Generation"
+   },
+   {
+    "n": 13,
+    "row_file": "rows/chatscene_knowledge_enabled_safety_critical_scenar.json",
+    "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles"
+   },
+   {
+    "n": 48,
+    "row_file": "rows/editable_scene_simulation_for_autonomous_driving_v.json",
+    "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents"
+   },
+   {
+    "n": 73,
+    "row_file": "rows/langtraj_diffusion_model_and_dataset_for_language.json",
+    "title": "LANGTRAJ: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation"
+   },
+   {
+    "n": 76,
+    "row_file": "rows/ld_scene_llm_guided_diffusion_for_controllable_gen.json",
+    "title": "LD-Scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 102,
+  "section": "6. Cross-cutting findings",
+  "text": "**Closed-loop use is the direction of travel but the evidence is thin.** Both the company statements and the academic rows point to closed-loop evaluation and training, yet only eight of 64 world-model rows run a closed loop and three of those are qualitative.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Language control is a mixture of three designs.** Text can be turned into code or a loss [13][76], trained in directly [73][10], or used to edit a scene [48]; their failure modes differ, and reliability is rarely measured directly.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 103,
+  "section": "6. Cross-cutting findings",
+  "text": "**No shared yardstick.** The rows use different data, metrics and baselines, with only a few shared setups, so this survey does not rank methods.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Closed-loop use is the direction of travel but the evidence is thin.** Both the company statements and the academic rows point to closed-loop evaluation and training, yet only eight of 64 world-model rows run a closed loop and three of those are qualitative.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 104,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Each direction names the gap in the evidence it comes from, a first experiment, and what would count as success.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 105,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "They are proposals for discussion and have not been tested.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Each direction names the gap in the evidence it comes from, a first experiment, and what would count as success.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 106,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "**Measure control, not just fidelity.** Gap: sections 4.2 and 4.3.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "They are proposals for discussion and have not been tested.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 107,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Proposal: a small benchmark for world models and scenario generators that scores whether the output follows a specified signal (action following, layout adherence, risk level) with the same protocol at both layers, including a probe like the shuffled-action test in [31].",
+  "cited": [
+   31
+  ],
+  "company_statements": [],
+  "previous_sentence": "**Measure control, not just fidelity.** Gap: sections 4.2 and 4.3.",
+  "papers": [
+   {
+    "n": 31,
+    "row_file": "rows/does_the_action_matter_probing_action_conditioned.json",
+    "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 108,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Success: methods that look equal on FID and FVD separate on the control score, and the ranking is stable across seeds.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Proposal: a small benchmark for world models and scenario generators that scores whether the output follows a specified signal (action following, layout adherence, risk level) with the same protocol at both layers, including a probe like the shuffled-action test in [31].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 109,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "**Close the gap between the two layers.** Gap: section 4.5.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "Success: methods that look equal on FID and FVD separate on the control score, and the ranking is stable across seeds.",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 110,
+  "section": "7. Open problems and research directions (my proposals, not findings)",
+  "text": "Proposal: keep behaviour control in a compact scenario representation and test whether rendering preserves it, by extracting trajectories from generated video and comparing them with the specified ones.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Close the gap between the two layers.** Gap: section 4.5.",
+  "papers": [],
+  "flags": []
+ }
+]

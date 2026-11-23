@@ -1,0 +1,15 @@
+{
+ "id": "drivingworld_constructing_world_model_for_autonomo",
+ "title": "DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "single-view (front camera) video plus predicted vehicle orientation and location for the next frame", "pages": "4"},
+ "control_signal": {"value": "vehicle orientation and ego location history, i.e. pre-defined trajectory paths, given with a short condition video clip", "pages": "3-4"},
+ "control_mechanism": {"value": "pose tokenized into discrete tokens alongside image tokens in a GPT-style autoregressive model; next-frame module with multimodal fusion layer, balanced attention to keep control tokens from being diluted, random masking strategy.", "pages": "2, 4, 7, 12"},
+ "base_model": {"value": "Own 1B-parameter autoregressive world model with a 70M temporal-aware VQVAE video tokenizer (codebook 16,384); trained from scratch on driving video, not on a pretrained video backbone.", "pages": "9-10"},
+ "datasets": {"value": "World model on 3456 hours: 120 h NuPlan plus 3336 h private data, fine-tuned on NuScenes; tokenizer also uses Openimages, COCO, YoutubeDV, NuPlan. Test: 200 NuPlan and 150 NuScenes clips.", "pages": "9-10"},
+ "metrics": {"value": "FVD, FID, PSNR, LPIPS; FVD at 10, 25, 40 frames; planning L2 error and collision rate on NuScenes; user study against Vista.", "pages": "10-13"},
+ "controllability_evidence": {"value": "User study prefers it over Vista on controllability (percentages in Fig. 8, assignment to datasets unclear); planning on NuScenes gives avg L2 1.26 m and avg collision rate 0.38 %, camera only, no auxiliary supervision.", "pages": "10-13"},
+ "closed_loop": {"value": "No closed loop with a policy; open-loop long generation of 640 frames conditioned on 15 frames; up to 40 seconds in abstract. Planning evaluated open-loop on NuScenes.", "pages": "1, 11-13"},
+ "stated_limitations": {"value": "Future work: integrate multimodal and multi-view data to improve understanding and control. No explicit limitations section in packet.", "pages": "13"},
+ "notes": "Inconsistent duration claims: 40 s (abstract), 64 s at 10 Hz (Sec 4.3), 128 s at 5 Hz (Fig 7 caption). Controllability numbers in user study not mapped to dataset."
+}

@@ -1,0 +1,455 @@
+input,title,doi,stage,decision,reason
+q10,The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey,10.48550/arxiv.2502.10498,deduplication,exclude,duplicate of: The Role of World Models in Shaping Autonomous Driving: A Comprehensiv
+q10,Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability,10.52202/079017-2906,deduplication,exclude,duplicate of: Vista: A Generalizable Driving World Model with High Fidelity and Vers
+q10,DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving,,deduplication,exclude,duplicate of: DriveWorld3D Evidence Constrained 3D World Modeling and Generative Sim
+q10,CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving
+q2,OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving,10.48550/arxiv.2409.03272,deduplication,exclude,duplicate of: OccLLaMA: An Occupancy-Language-Action Generative World Model for Auto
+q2,MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations,10.1109/iv64158.2025.11097718,deduplication,exclude,duplicate of: MUVO: A Multimodal Generative World Model for Autonomous Driving with 
+q2,A Survey of World Models for Autonomous Driving,10.48550/arxiv.2501.11260,deduplication,exclude,duplicate of: A Survey of World Models for Autonomous Driving
+q2,World Models for Autonomous Driving: An Initial Survey,10.1109/tiv.2024.3398357,deduplication,exclude,duplicate of: World Models for Autonomous Driving: An Initial Survey
+q2,DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving,10.48550/arxiv.2610.22450,deduplication,exclude,duplicate of: DriveWorld3D Evidence Constrained 3D World Modeling and Generative Sim
+q2,MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction,10.1109/cvpr52734.2025.02085,deduplication,exclude,duplicate of: MaskGWM: A Generalizable Driving World Model with Video Mask Reconstru
+q2,GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation,,deduplication,exclude,duplicate of: GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation
+q2,CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving
+q2,Sora as a World Model? A Complete Survey on Text-to-Video Generation,,deduplication,exclude,duplicate of: Sora as a World Model? A Complete Survey on Text-to-Video Generation
+q2,DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation,,deduplication,exclude,duplicate of: DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving thro
+q2,Evaluation of Large Language Models for Decision Making in Autonomous Driving,,deduplication,exclude,duplicate of: Evaluation of Large Language Models for Decision Making in Autonomous 
+q2,The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey,,deduplication,exclude,duplicate of: The Role of World Models in Shaping Autonomous Driving: A Comprehensiv
+q2,Exploring the Interplay Between Video Generation and World Models in Autonomous Driving: A Survey,,deduplication,exclude,duplicate of: Exploring the Interplay Between Video Generation and World Models in A
+q2,TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving,,deduplication,exclude,duplicate of: TaCarla: A comprehensive benchmarking dataset for end-to-end autonomou
+q2,OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Drivi
+q2,"Multi-Frame, Lightweight & Efficient Vision-Language Models for Question Answering in Autonomous Driving",,deduplication,exclude,"duplicate of: Multi-Frame, Lightweight & Efficient Vision-Language Models for Questi"
+q2,Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors,,deduplication,exclude,duplicate of: Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundat
+q2,Data Scaling Laws for End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: Data Scaling Laws for End-to-End Autonomous Driving
+q2,DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving,,deduplication,exclude,duplicate of: DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving
+q2,2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving,,deduplication,exclude,duplicate of: 2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Auton
+q2,AVID: Adapting Video Diffusion Models to World Models,,deduplication,exclude,duplicate of: AVID: Adapting Video Diffusion Models to World Models
+q2,Nano World Models: A Minimalist Implementation of Future Video Prediction,,deduplication,exclude,duplicate of: Nano World Models: A Minimalist Implementation of Future Video Predict
+q3,Panacea: Panoramic and Controllable Video Generation for Autonomous Driving,10.1109/cvpr52733.2024.00659,deduplication,exclude,duplicate of: Panacea: Panoramic and Controllable Video Generation for Autonomous Dr
+q4,DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model,10.48550/arxiv.2310.07771,deduplication,exclude,duplicate of: DrivingDiffusion: Layout-Guided multi-view driving scene video generat
+q4,DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes,10.48550/arxiv.2409.04003,deduplication,exclude,duplicate of: DreamForge: Motion-Aware Autoregressive Video Generation for Multi-Vie
+q4,WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation,10.1007/978-3-031-72989-8_19,deduplication,exclude,duplicate of: WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Dr
+q4,DiVE: Efficient Multi-View Driving Scenes Generation Based on Video Diffusion Transformer,10.1109/tmm.2026.3712641,deduplication,exclude,duplicate of: DiVE: Efficient Multi-View Driving Scenes Generation Based on Video Di
+q4,Panacea: Panoramic and Controllable Video Generation for Autonomous Driving,10.1109/cvpr52733.2024.00659,deduplication,exclude,duplicate of: Panacea: Panoramic and Controllable Video Generation for Autonomous Dr
+q4,Controllable Video Generation: A Survey,10.48550/arxiv.2507.16869,deduplication,exclude,duplicate of: Controllable Video Generation: A Survey
+q4,MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control,10.48550/arxiv.2409.06189,deduplication,exclude,duplicate of: MyGo: Consistent and Controllable Multi-View Driving Video Generation 
+q4,DiVE: DiT-based Video Generation with Enhanced Control,10.48550/arxiv.2409.01595,deduplication,exclude,duplicate of: DiVE: DiT-based Video Generation with Enhanced Control
+q4,S^2VG: 3D Stereoscopic and Spatial Video Generation via Denoising Frame Matrix,,deduplication,exclude,duplicate of: S^2VG: 3D Stereoscopic and Spatial Video Generation via Denoising Fram
+q4,SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix,,deduplication,exclude,duplicate of: SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix
+q4,Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation,,deduplication,exclude,duplicate of: Any Forcing: Any-Step Generality and One-Step Stability for Autoregres
+q4,FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis,,deduplication,exclude,duplicate of: FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-V
+q5,OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving,10.1007/978-3-031-72624-8_4,deduplication,exclude,duplicate of: OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving
+q5,Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving,10.1609/aaai.v39i9.33010,deduplication,exclude,duplicate of: Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecastin
+q5,OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving,10.48550/arxiv.2409.03272,deduplication,exclude,duplicate of: OccLLaMA: An Occupancy-Language-Action Generative World Model for Auto
+q5,OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving,10.1109/tip.2026.3687468,deduplication,exclude,duplicate of: OccSora: 4D Occupancy Generation Models as World Simulators for Autono
+q5,Semi-Supervised Vision-Centric 3D Occupancy World Model for Autonomous Driving,10.48550/arxiv.2502.07309,deduplication,exclude,duplicate of: Semi-Supervised Vision-Centric 3D Occupancy World Model for Autonomous
+q5,A Survey of World Models for Autonomous Driving,10.48550/arxiv.2501.11260,deduplication,exclude,duplicate of: A Survey of World Models for Autonomous Driving
+q5,DriveWorld: 4D Pre-Trained Scene Understanding via World Models for Autonomous Driving,10.1109/cvpr52733.2024.01470,deduplication,exclude,duplicate of: DriveWorld: 4D Pre-Trained Scene Understanding via World Models for Au
+q5,MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations,10.1109/iv64158.2025.11097718,deduplication,exclude,duplicate of: MUVO: A Multimodal Generative World Model for Autonomous Driving with 
+q5,World Models for Autonomous Driving: An Initial Survey,10.1109/tiv.2024.3398357,deduplication,exclude,duplicate of: World Models for Autonomous Driving: An Initial Survey
+q5,Epona: Autoregressive Diffusion World Model for Autonomous Driving,10.1109/iccv51701.2025.02527,deduplication,exclude,duplicate of: Epona: Autoregressive Diffusion World Model for Autonomous Driving
+q5,ADriver-I: A General World Model for Autonomous Driving,10.48550/arxiv.2311.13549,deduplication,exclude,duplicate of: ADriver-I: A General World Model for Autonomous Driving
+q5,The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey,10.48550/arxiv.2502.10498,deduplication,exclude,duplicate of: The Role of World Models in Shaping Autonomous Driving: A Comprehensiv
+q5,DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving,,deduplication,exclude,duplicate of: DriveWorld3D Evidence Constrained 3D World Modeling and Generative Sim
+q5,CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving
+q5,DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation,,deduplication,exclude,duplicate of: DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving thro
+q5,Evaluation of Large Language Models for Decision Making in Autonomous Driving,,deduplication,exclude,duplicate of: Evaluation of Large Language Models for Decision Making in Autonomous 
+q5,TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving,,deduplication,exclude,duplicate of: TaCarla: A comprehensive benchmarking dataset for end-to-end autonomou
+q5,OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Drivi
+q5,"Multi-Frame, Lightweight & Efficient Vision-Language Models for Question Answering in Autonomous Driving",,deduplication,exclude,"duplicate of: Multi-Frame, Lightweight & Efficient Vision-Language Models for Questi"
+q5,Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors,,deduplication,exclude,duplicate of: Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundat
+q5,Data Scaling Laws for End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: Data Scaling Laws for End-to-End Autonomous Driving
+q5,DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving,,deduplication,exclude,duplicate of: DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving
+q5,2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving,,deduplication,exclude,duplicate of: 2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Auton
+q5,Are NeRFs ready for autonomous driving? Towards closing the real-to-simulation gap,,deduplication,exclude,duplicate of: Are NeRFs ready for autonomous driving? Towards closing the real-to-si
+q5,D$^2$-World: An Efficient World Model through Decoupled Dynamic Flow,,deduplication,exclude,duplicate of: D$^2$-World: An Efficient World Model through Decoupled Dynamic Flow
+q5,Selective Communication for Cooperative Perception in End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: Selective Communication for Cooperative Perception in End-to-End Auton
+q5,Relationally Grounded Latent World Models for Autonomous Driving,,deduplication,exclude,duplicate of: Relationally Grounded Latent World Models for Autonomous Driving
+q5,AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems,,deduplication,exclude,duplicate of: AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalabl
+q6,NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation,10.48550/arxiv.2606.03159,deduplication,exclude,duplicate of: NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Au
+q6,DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving,10.1109/iccv51701.2025.02500,deduplication,exclude,duplicate of: DriveArena: A Closed-Loop Generative Simulation Platform for Autonomou
+q6,Doe-1: Closed-Loop Autonomous Driving with Large World Model,10.48550/arxiv.2412.09627,deduplication,exclude,duplicate of: Doe-1: Closed-Loop Autonomous Driving with Large World Model
+q6,World-in-World: World Models in a Closed-Loop World,10.48550/arxiv.2510.18135,deduplication,exclude,duplicate of: World-in-World: World Models in a Closed-Loop World
+q6,DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving,10.48550/arxiv.2610.22450,deduplication,exclude,duplicate of: DriveWorld3D Evidence Constrained 3D World Modeling and Generative Sim
+q6,CausalDrive: Real-Time Causal World Models for Autonomous Driving,10.1007/978-3-032-37010-5_8,deduplication,exclude,duplicate of: CausalDrive: Real-Time Causal World Models for Autonomous Driving
+q6,A Survey of World Models for Autonomous Driving,10.48550/arxiv.2501.11260,deduplication,exclude,duplicate of: A Survey of World Models for Autonomous Driving
+q6,DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation,,deduplication,exclude,duplicate of: DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving thro
+q6,Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning,,deduplication,exclude,duplicate of: Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cog
+q6,Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation,,deduplication,exclude,duplicate of: Direct Experience World-Model Optimization: Learning the World Beyond 
+q6,AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems,,deduplication,exclude,duplicate of: AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalabl
+q6,WorldGym: World Model as An Environment for Policy Evaluation,,deduplication,exclude,duplicate of: WorldGym: World Model as An Environment for Policy Evaluation
+q6,What-If World: A Causal Benchmark for General World Models in Embodied Scenarios,,deduplication,exclude,duplicate of: What-If World: A Causal Benchmark for General World Models in Embodied
+q6,The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey,,deduplication,exclude,duplicate of: The Role of World Models in Shaping Autonomous Driving: A Comprehensiv
+q6,Are NeRFs ready for autonomous driving? Towards closing the real-to-simulation gap,,deduplication,exclude,duplicate of: Are NeRFs ready for autonomous driving? Towards closing the real-to-si
+q6,AVID: Adapting Video Diffusion Models to World Models,,deduplication,exclude,duplicate of: AVID: Adapting Video Diffusion Models to World Models
+q7,OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving,10.1007/978-3-031-72624-8_4,deduplication,exclude,duplicate of: OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving
+q7,A Survey of World Models for Autonomous Driving,10.48550/arxiv.2501.11260,deduplication,exclude,duplicate of: A Survey of World Models for Autonomous Driving
+q7,World Models for Autonomous Driving: An Initial Survey,10.1109/tiv.2024.3398357,deduplication,exclude,duplicate of: World Models for Autonomous Driving: An Initial Survey
+q7,Epona: Autoregressive Diffusion World Model for Autonomous Driving,10.1109/iccv51701.2025.02527,deduplication,exclude,duplicate of: Epona: Autoregressive Diffusion World Model for Autonomous Driving
+q7,OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving,10.1109/tip.2026.3687468,deduplication,exclude,duplicate of: OccSora: 4D Occupancy Generation Models as World Simulators for Autono
+q7,HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving,10.48550/arxiv.2412.01407,deduplication,exclude,duplicate of: HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Auto
+q7,Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving,10.1609/aaai.v39i9.33010,deduplication,exclude,duplicate of: Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecastin
+q7,HelloWorld: Towards Practical Applications of Generative Driving World Models,10.48550/arxiv.2609.28931,deduplication,exclude,duplicate of: HelloWorld: Towards Practical Applications of Generative Driving World
+q7,MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations,10.1109/iv64158.2025.11097718,deduplication,exclude,duplicate of: MUVO: A Multimodal Generative World Model for Autonomous Driving with 
+q7,BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents,10.48550/arxiv.2407.05679,deduplication,exclude,duplicate of: BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scen
+q7,Sora as a World Model? A Complete Survey on Text-to-Video Generation,,deduplication,exclude,duplicate of: Sora as a World Model? A Complete Survey on Text-to-Video Generation
+q7,DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving,,deduplication,exclude,duplicate of: DriveWorld3D Evidence Constrained 3D World Modeling and Generative Sim
+q7,AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems,,deduplication,exclude,duplicate of: AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalabl
+q7,FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis,,deduplication,exclude,duplicate of: FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-V
+q7,What-If World: A Causal Benchmark for General World Models in Embodied Scenarios,,deduplication,exclude,duplicate of: What-If World: A Causal Benchmark for General World Models in Embodied
+q7,The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey,,deduplication,exclude,duplicate of: The Role of World Models in Shaping Autonomous Driving: A Comprehensiv
+q7,Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report,,deduplication,exclude,duplicate of: Generative World Modelling for Humanoids: 1X World Model Challenge Tec
+q7,WorldGym: World Model as An Environment for Policy Evaluation,,deduplication,exclude,duplicate of: WorldGym: World Model as An Environment for Policy Evaluation
+q7,Simulating the Visual World with Artificial Intelligence: A Roadmap,,deduplication,exclude,duplicate of: Simulating the Visual World with Artificial Intelligence: A Roadmap
+q7,WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens,,deduplication,exclude,duplicate of: WorldDreamer: Towards General World Models for Video Generation via Pr
+q7,GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation,,deduplication,exclude,duplicate of: GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation
+q7,NARRATE: A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving,,deduplication,exclude,duplicate of: NARRATE: A Multimodal Real-World Australian Driving Dataset for Human-
+q7,Nano World Models: A Minimalist Implementation of Future Video Prediction,,deduplication,exclude,duplicate of: Nano World Models: A Minimalist Implementation of Future Video Predict
+q7,Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation,,deduplication,exclude,duplicate of: Direct Experience World-Model Optimization: Learning the World Beyond 
+q7,Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models,,deduplication,exclude,duplicate of: Is Energy Guidance All You Need? Training-Free Norm Injection for Driv
+q7,Relationally Grounded Latent World Models for Autonomous Driving,,deduplication,exclude,duplicate of: Relationally Grounded Latent World Models for Autonomous Driving
+q8,DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving,10.1109/iccv51701.2025.02500,deduplication,exclude,duplicate of: DriveArena: A Closed-Loop Generative Simulation Platform for Autonomou
+q8,Generative AI for Autonomous Driving: Frontiers and Opportunities,10.1145/3838726,deduplication,exclude,duplicate of: Generative AI for Autonomous Driving: Frontiers and Opportunities
+q8,Pseudo-Simulation for Autonomous Driving,10.48550/arxiv.2506.04218,deduplication,exclude,duplicate of: Pseudo-Simulation for Autonomous Driving
+q8,NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation,10.48550/arxiv.2606.03159,deduplication,exclude,duplicate of: NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Au
+q8,OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving,10.1109/tip.2026.3687468,deduplication,exclude,duplicate of: OccSora: 4D Occupancy Generation Models as World Simulators for Autono
+q8,GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving,10.48550/arxiv.2503.20523,deduplication,exclude,duplicate of: GAIA-2: A Controllable Multi-View Generative World Model for Autonomou
+q8,MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations,10.1109/iv64158.2025.11097718,deduplication,exclude,duplicate of: MUVO: A Multimodal Generative World Model for Autonomous Driving with 
+q8,BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents,10.48550/arxiv.2407.05679,deduplication,exclude,duplicate of: BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scen
+q8,DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving,10.48550/arxiv.2601.01528,deduplication,exclude,duplicate of: DrivingGen: A Comprehensive Benchmark for Generative Video World Model
+q8,ReSim: Reliable World Simulation for Autonomous Driving,10.52202/085713-5591,deduplication,exclude,duplicate of: ReSim: Reliable World Simulation for Autonomous Driving
+q8,DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation,,deduplication,exclude,duplicate of: DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving thro
+q8,Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning,,deduplication,exclude,duplicate of: Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cog
+q8,Are NeRFs ready for autonomous driving? Towards closing the real-to-simulation gap,,deduplication,exclude,duplicate of: Are NeRFs ready for autonomous driving? Towards closing the real-to-si
+q8,TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving,,deduplication,exclude,duplicate of: TaCarla: A comprehensive benchmarking dataset for end-to-end autonomou
+q8,DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving,,deduplication,exclude,duplicate of: DriveWorld3D Evidence Constrained 3D World Modeling and Generative Sim
+q8,CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving
+q8,Selective Communication for Cooperative Perception in End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: Selective Communication for Cooperative Perception in End-to-End Auton
+q8,Evaluation of Large Language Models for Decision Making in Autonomous Driving,,deduplication,exclude,duplicate of: Evaluation of Large Language Models for Decision Making in Autonomous 
+q8,2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving,,deduplication,exclude,duplicate of: 2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Auton
+q8,Data Scaling Laws for End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: Data Scaling Laws for End-to-End Autonomous Driving
+q8,Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors,,deduplication,exclude,duplicate of: Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundat
+q8,DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving,,deduplication,exclude,duplicate of: DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving
+q8,Interpretable Decision-Making for End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: Interpretable Decision-Making for End-to-End Autonomous Driving
+q8,"Multi-Frame, Lightweight & Efficient Vision-Language Models for Question Answering in Autonomous Driving",,deduplication,exclude,"duplicate of: Multi-Frame, Lightweight & Efficient Vision-Language Models for Questi"
+q8,OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving,,deduplication,exclude,duplicate of: OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Drivi
+q8,"Collaborative Perception in Autonomous Driving: Methods, Datasets and Challenges",10.1109/mits.2023.3298534,deduplication,exclude,"duplicate of: Collaborative Perception in Autonomous Driving: Methods, Datasets and "
+q9,DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation,10.1109/cvpr52734.2025.01122,deduplication,exclude,duplicate of: DriveDreamer4D: World Models Are Effective Data Machines for 4D Drivin
+q9,WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation,10.1007/978-3-031-72989-8_19,deduplication,exclude,duplicate of: WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Dr
+q9,HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation,10.1109/iccv51701.2025.02582,deduplication,exclude,duplicate of: HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene U
+q9,DriveWorld: 4D Pre-Trained Scene Understanding via World Models for Autonomous Driving,10.1109/cvpr52733.2024.01470,deduplication,exclude,duplicate of: DriveWorld: 4D Pre-Trained Scene Understanding via World Models for Au
+q9,ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration,10.1109/cvpr52734.2025.00153,deduplication,exclude,duplicate of: ReconDreamer: Crafting World Models for Driving Scene Reconstruction v
+q9,DriveDreamer: Towards Real-World-Drive World Models for Autonomous Driving,10.1007/978-3-031-73195-2_4,deduplication,exclude,duplicate of: DriveDreamer: Towards Real-World-Drive World Models for Autonomous Dri
+q9,UniScene: Unified Occupancy-centric Driving Scene Generation,10.1109/cvpr52734.2025.01118,deduplication,exclude,duplicate of: UniScene: Unified Occupancy-centric Driving Scene Generation
+q9,A Survey of World Models for Autonomous Driving,10.48550/arxiv.2501.11260,deduplication,exclude,duplicate of: A Survey of World Models for Autonomous Driving
+q9,ADriver-I: A General World Model for Autonomous Driving,10.48550/arxiv.2311.13549,deduplication,exclude,duplicate of: ADriver-I: A General World Model for Autonomous Driving
+q9,Hermes++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation,10.1109/tpami.2026.3735606,deduplication,exclude,duplicate of: Hermes++: Toward a Unified Driving World Model for 3D Scene Understand
+q9,A Survey on Multimodal Large Language Models for Autonomous Driving,10.1109/wacvw60836.2024.00106,deduplication,exclude,duplicate of: A Survey on Multimodal Large Language Models for Autonomous Driving
+q9,World Models for Autonomous Driving: An Initial Survey,10.1109/tiv.2024.3398357,deduplication,exclude,duplicate of: World Models for Autonomous Driving: An Initial Survey
+q9,Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability,10.52202/079017-2906,deduplication,exclude,duplicate of: Vista: A Generalizable Driving World Model with High Fidelity and Vers
+q9,Sora as a World Model? A Complete Survey on Text-to-Video Generation,,deduplication,exclude,duplicate of: Sora as a World Model? A Complete Survey on Text-to-Video Generation
+q9,AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems,,deduplication,exclude,duplicate of: AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalabl
+q9,WorldGym: World Model as An Environment for Policy Evaluation,,deduplication,exclude,duplicate of: WorldGym: World Model as An Environment for Policy Evaluation
+q9,WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens,,deduplication,exclude,duplicate of: WorldDreamer: Towards General World Models for Video Generation via Pr
+q9,Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report,,deduplication,exclude,duplicate of: Generative World Modelling for Humanoids: 1X World Model Challenge Tec
+q9,What-If World: A Causal Benchmark for General World Models in Embodied Scenarios,,deduplication,exclude,duplicate of: What-If World: A Causal Benchmark for General World Models in Embodied
+q9,Relationally Grounded Latent World Models for Autonomous Driving,,deduplication,exclude,duplicate of: Relationally Grounded Latent World Models for Autonomous Driving
+q9,Nano World Models: A Minimalist Implementation of Future Video Prediction,,deduplication,exclude,duplicate of: Nano World Models: A Minimalist Implementation of Future Video Predict
+q1|q10|q9,Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability,10.52202/079017-2906,keyword filter,include,
+q1,DrivingGPT: Unifying Driving World Modeling and Planning with Multi-Modal Autoregressive Transformers,10.1109/iccv51701.2025.02496,keyword filter,include,
+q1,InfinityDrive: Breaking Time Limits in Driving World Models,10.48550/arxiv.2412.01522,keyword filter,include,
+q1,Physical Informed Driving World Model,10.48550/arxiv.2412.08410,keyword filter,include,
+q1|q2,MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction,10.1109/cvpr52734.2025.02085,keyword filter,include,
+q1,EponaV2: Driving World Model with Comprehensive Future Reasoning,10.48550/arxiv.2605.14696,keyword filter,include,
+q1,Breaking survivorship bias in driving world models,10.48550/arxiv.2611.11516,keyword filter,include,
+q1,DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model,10.52202/079017-0414,keyword filter,include,
+q1|q9,HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation,10.1109/iccv51701.2025.02582,keyword filter,include,
+q1,PanDWM: Panoramic 4D Driving World Models,10.48550/arxiv.2611.19857,keyword filter,include,
+q1,WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World,10.48550/arxiv.2512.10958,keyword filter,include,
+q1,Is Your Driving World Model an All-Around Player?,10.48550/arxiv.2605.10858,keyword filter,include,
+q1,"Driving World Models Move the Camera, Not the Scene",10.48550/arxiv.2611.15260,keyword filter,include,
+q1,VehDyn: A Driving World Model Benchmark for Vehicle Dynamics,10.48550/arxiv.2609.33264,keyword filter,include,
+q1,How Can Driving World Models Do Counterfactual Prediction?,10.48550/arxiv.2608.11601,keyword filter,include,
+q1,ProphetDWM: A Driving World Model for Rolling Out Future Actions and Videos,10.48550/arxiv.2505.18650,keyword filter,include,
+q1|q7,HelloWorld: Towards Practical Applications of Generative Driving World Models,10.48550/arxiv.2609.28931,keyword filter,include,
+q1,MAD: Motion Appearance Decoupling for efficient Driving World Models,10.48550/arxiv.2601.09452,keyword filter,include,
+q1,GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control,10.1109/icra57385.2026.11696583,keyword filter,include,
+q1,LongDWM: Cross-Granularity Distillation for Building a Long-Term Driving World Model,10.48550/arxiv.2506.01546,keyword filter,include,
+q1,Orbis: Overcoming Challenges of Long-Horizon Prediction in Driving World Models,10.48550/arxiv.2507.13162,keyword filter,include,
+q1|q9,Hermes++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation,10.1109/tpami.2026.3735606,keyword filter,include,
+q1,RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models,10.48550/arxiv.2608.02953,keyword filter,include,
+q1,MORE: Learning Motion-Oriented Registers for Driving World Models and Planning,10.48550/arxiv.2610.14871,keyword filter,include,
+q1,ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask,10.48550/arxiv.2602.03213,keyword filter,include,
+q1|q5|q6|q7|q9,AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems,,keyword filter,include,
+q1|q10|q2|q5|q6|q7|q8,DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving,10.48550/arxiv.2610.22450,keyword filter,include,
+q1|q10|q2|q5|q6|q7,The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey,10.48550/arxiv.2502.10498,keyword filter,include,
+q1|q6|q7|q9,WorldGym: World Model as An Environment for Policy Evaluation,,keyword filter,exclude,no driving/traffic term
+q1|q6|q7|q9,What-If World: A Causal Benchmark for General World Models in Embodied Scenarios,,keyword filter,include,
+q1|q2|q7,GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation,,keyword filter,include,
+q1|q5|q7|q9,Relationally Grounded Latent World Models for Autonomous Driving,,keyword filter,include,
+q1|q7|q9,Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report,,keyword filter,exclude,no driving/traffic term
+q1,"Quo Vadis, World Modeling?",,keyword filter,exclude,no driving/traffic term
+q1|q2|q7|q9,Nano World Models: A Minimalist Implementation of Future Video Prediction,,keyword filter,exclude,no driving/traffic term
+q1|q7,Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models,,keyword filter,include,
+q1|q6|q7,Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation,,keyword filter,exclude,no driving/traffic term
+q1|q2|q6,AVID: Adapting Video Diffusion Models to World Models,,keyword filter,exclude,no driving/traffic term
+q1|q6|q8,Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning,,keyword filter,include,
+q1|q5,D$^2$-World: An Efficient World Model through Decoupled Dynamic Flow,,keyword filter,include,
+q1|q6,World-in-World: World Models in a Closed-Loop World,10.48550/arxiv.2510.18135,keyword filter,exclude,no driving/traffic term
+q1|q7,NARRATE: A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving,,keyword filter,include,
+q1,"Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",,keyword filter,include,
+q1,"Better Slots, Better Worlds: Representation Quality & Robustness in Object-Centric World Models",,keyword filter,include,
+q1,World-Gymnast: Training Robots with Reinforcement Learning in a World Model,,keyword filter,exclude,no driving/traffic term
+q1|q2|q7|q9,Sora as a World Model? A Complete Survey on Text-to-Video Generation,,keyword filter,exclude,no driving/traffic term
+q1|q7,Simulating the Visual World with Artificial Intelligence: A Roadmap,,keyword filter,include,
+q1|q10|q2|q5|q8,CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving,,keyword filter,include,
+q1|q7|q9,WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens,,keyword filter,include,
+q10,Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion,10.48550/arxiv.2311.01017,keyword filter,include,
+q10,Visual Point Cloud Forecasting Enables Scalable Autonomous Driving,10.1109/cvpr52733.2024.01390,keyword filter,include,
+q10|q2|q5|q6|q7|q9,A Survey of World Models for Autonomous Driving,10.48550/arxiv.2501.11260,keyword filter,include,
+q10|q5|q7,Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving,10.1609/aaai.v39i9.33010,keyword filter,include,
+q10|q2|q5|q7|q9,World Models for Autonomous Driving: An Initial Survey,10.1109/tiv.2024.3398357,keyword filter,include,
+q10|q2|q5,OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving,10.48550/arxiv.2409.03272,keyword filter,include,
+q10|q5|q9,DriveWorld: 4D Pre-Trained Scene Understanding via World Models for Autonomous Driving,10.1109/cvpr52733.2024.01470,keyword filter,include,
+q10|q9,A Survey on Multimodal Large Language Models for Autonomous Driving,10.1109/wacvw60836.2024.00106,keyword filter,exclude,no scenario/simulation term
+q10,EMMA: End-to-End Multimodal Model for Autonomous Driving,10.48550/arxiv.2410.23262,keyword filter,include,
+q10|q2|q5|q7|q8,MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations,10.1109/iv64158.2025.11097718,keyword filter,include,
+q10|q7|q8,BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents,10.48550/arxiv.2407.05679,keyword filter,include,
+q10,A Survey for Foundation Models in Autonomous Driving,10.1109/iccvdm66874.2025.11290083,keyword filter,include,
+q10|q6,Doe-1: Closed-Loop Autonomous Driving with Large World Model,10.48550/arxiv.2412.09627,keyword filter,include,
+q10,Uniocc: a Unified Benchmark for Occupancy Forecasting and Prediction in Autonomous Driving,10.1109/iccv51701.2025.02371,keyword filter,include,
+q10,DriveX: Omni Scene Modeling for Learning Generalizable World Knowledge in Autonomous Driving,10.1109/iccv51701.2025.02656,keyword filter,include,
+q10,Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis,10.1109/ojits.2026.3660686,keyword filter,include,
+q10|q2,Exploring the Interplay Between Video Generation and World Models in Autonomous Driving: A Survey,10.48550/arxiv.2411.02914,keyword filter,include,
+q10|q5,Semi-Supervised Vision-Centric 3D Occupancy World Model for Autonomous Driving,10.48550/arxiv.2502.07309,keyword filter,include,
+q10,DriveWorld-VLA: Unified Latent-Space World Modeling with Vision-Language-Action for Autonomous Driving,10.48550/arxiv.2602.06521,keyword filter,include,
+q10,Applications of Large Scale Foundation Models for Autonomous Driving,10.48550/arxiv.2311.12144,keyword filter,include,
+q10|q8,ReSim: Reliable World Simulation for Autonomous Driving,10.52202/085713-5591,keyword filter,include,
+q10,A Survey on Future Physical World Generation for Autonomous Driving,10.1145/3769748.3773345,keyword filter,include,
+q10,World4Drive: End-to-End Autonomous Driving via Intention-Aware Physical Latent World Model,10.1109/iccv51701.2025.02659,keyword filter,include,
+q10,$PC^2$: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction,,keyword filter,include,
+q10,Noise2Score3D:Unsupervised Tweedie's Approach for Point Cloud Denoising,,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q10,Masked Clustering Prediction for Unsupervised Point Cloud Pre-training,,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q10|q2|q5|q6|q8,DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation,,keyword filter,include,
+q10|q2|q5|q8,Evaluation of Large Language Models for Decision Making in Autonomous Driving,,keyword filter,exclude,no scenario/simulation term
+q10,Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting,,keyword filter,include,
+q10,Forecasting intermittent time series with Gaussian Processes and Tweedie likelihood,10.1016/j.ijforecast.2025.10.001,keyword filter,exclude,no driving/traffic term
+q10,Unified Discrete Diffusion for Categorical Data,,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q10|q2|q5|q8,"Multi-Frame, Lightweight & Efficient Vision-Language Models for Question Answering in Autonomous Driving",,keyword filter,include,
+q10|q2|q5|q8,TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving,,keyword filter,include,
+q10|q2|q5|q8,OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving,,keyword filter,include,
+q10|q2|q5|q8,Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors,,keyword filter,exclude,no scenario/simulation term
+q10|q2|q5|q8,Data Scaling Laws for End-to-End Autonomous Driving,,keyword filter,include,
+q10,A Reparameterized Discrete Diffusion Model for Text Generation,,keyword filter,exclude,no driving/traffic term
+q10,Neural Point Cloud Diffusion for Disentangled 3D Shape and Appearance Generation,,keyword filter,exclude,no driving/traffic term
+q10|q2|q5|q8,DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving,,keyword filter,include,
+q10|q2|q5|q8,2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving,,keyword filter,include,
+q10,Fixed Point Diffusion Models,,keyword filter,exclude,no driving/traffic term
+q10,The Rise of Diffusion Models in Time-Series Forecasting,,keyword filter,exclude,no driving/traffic term
+q2|q8,DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving,10.48550/arxiv.2601.01528,keyword filter,include,
+q2,DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving,10.48550/arxiv.2605.28544,keyword filter,include,
+q2,GAIA-1: A Generative World Model for Autonomous Driving,10.48550/arxiv.2309.17080,keyword filter,include,
+q2|q8,GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving,10.48550/arxiv.2503.20523,keyword filter,include,
+q2|q5|q7|q8,OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving,10.1109/tip.2026.3687468,keyword filter,include,
+q2|q9,DriveDreamer: Towards Real-World-Drive World Models for Autonomous Driving,10.1007/978-3-031-73195-2_4,keyword filter,include,
+q2,DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT,10.1007/978-3-032-31583-0_19,keyword filter,include,
+q2,Driving Into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving,10.1109/cvpr52733.2024.01397,keyword filter,include,
+q2|q5|q7,Epona: Autoregressive Diffusion World Model for Autonomous Driving,10.1109/iccv51701.2025.02527,keyword filter,include,
+q2,LMGenDrive: Bridging Multimodal Understanding and Generative World Modeling for End-to-End Driving,10.1007/978-3-032-37189-8_35,keyword filter,include,
+q2|q5|q7,OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving,10.1007/978-3-031-72624-8_4,keyword filter,include,
+q2,GenAD: Generative End-to-End Autonomous Driving,10.1007/978-3-031-73650-6_6,keyword filter,include,
+q2,Generalized Predictive Model for Autonomous Driving,10.1109/cvpr52733.2024.01389,keyword filter,include,
+q2|q8,Generative AI for Autonomous Driving: Frontiers and Opportunities,10.1145/3838726,keyword filter,include,
+q2|q6,CausalDrive: Real-Time Causal World Models for Autonomous Driving,10.1007/978-3-032-37010-5_8,keyword filter,include,
+q2|q5|q9,ADriver-I: A General World Model for Autonomous Driving,10.48550/arxiv.2311.13549,keyword filter,include,
+q2|q6|q8,DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving,10.1109/iccv51701.2025.02500,keyword filter,include,
+q2|q6|q8,NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation,10.48550/arxiv.2606.03159,keyword filter,include,
+q2|q3|q4,Panacea: Panoramic and Controllable Video Generation for Autonomous Driving,10.1109/cvpr52733.2024.00659,keyword filter,include,
+q2,VaViM and VaVAM: Autonomous Driving through Video Generative Modeling,,keyword filter,include,
+q2,Causal Physics Steering in Video World Models via Concept Activation Vectors,,keyword filter,exclude,no driving/traffic term
+q2,"Reading, Writing, Sharing, and Interacting with the World through Video",,keyword filter,exclude,no driving/traffic term
+q2,DriveGenVLM: Real-world Video Generation for Vision Language Model based Autonomous Driving,,keyword filter,include,
+q2|q5|q6|q8,Are NeRFs ready for autonomous driving? Towards closing the real-to-simulation gap,,keyword filter,include,
+q2|q5|q8,Selective Communication for Cooperative Perception in End-to-End Autonomous Driving,,keyword filter,include,
+q3|q4|q9,WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation,10.1007/978-3-031-72989-8_19,keyword filter,include,
+q3,MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control,10.1109/iccv51701.2025.02612,keyword filter,include,
+q3,DrivingDiffusion: Layout-Guided Multi-view Driving Scenarios Video Generation with Latent Diffusion Model,10.1007/978-3-031-73229-4_27,keyword filter,include,
+q3|q4,DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model,10.48550/arxiv.2310.07771,keyword filter,include,
+q3,DriveGen3D: Boosting Feed-Forward Driving Scene Generation with Efficient Video Diffusion,10.48550/arxiv.2510.15264,keyword filter,include,
+q3,Unleashing Generalization of End-to-End Autonomous Driving with Controllable Long Video Generation,10.48550/arxiv.2406.01349,keyword filter,include,
+q3|q4,MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control,10.48550/arxiv.2409.06189,keyword filter,include,
+q3,TrailBlazer: Trajectory Control for Diffusion-Based Video Generation,10.1145/3680528.3687652,keyword filter,include,
+q3,360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model,10.1109/cvpr52733.2024.00660,keyword filter,exclude,no driving/traffic term
+q3|q4,DiVE: Efficient Multi-View Driving Scenes Generation Based on Video Diffusion Transformer,10.1109/tmm.2026.3712641,keyword filter,include,
+q3,Lumiere: A Space-Time Diffusion Model for Video Generation,10.48550/arxiv.2401.12945,keyword filter,exclude,no driving/traffic term
+q3|q4,DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes,10.48550/arxiv.2409.04003,keyword filter,include,
+q3,Risk-Controllable Multi-View Diffusion for Driving Scenario Generation,10.48550/arxiv.2603.11534,keyword filter,include,
+q3,UniMLVG: Unified Framework for Multi-View Long Video Generation with Comprehensive Control Capabilities for Autonomous Driving,10.1109/iccv51701.2025.02361,keyword filter,include,
+q3,Audio-Visual Controlled Video Diffusion with Masked Selective State Spaces Modeling for Natural Talking Head Generation,10.1109/iccv51701.2025.01166,keyword filter,include,
+q3,A Diffusion Model for Generating Safety-Critical Rural Driving Video Data,,keyword filter,include,
+q3,MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation,10.1109/cvpr52729.2023.00985,keyword filter,exclude,no driving/traffic term
+q3,Swap Attention in Spatiotemporal Diffusions for Text-to-Video Generation,10.1007/s11263-025-02349-y,keyword filter,exclude,no driving/traffic term
+q3|q4,DiVE: DiT-based Video Generation with Enhanced Control,10.48550/arxiv.2409.01595,keyword filter,include,
+q3,Conditional Image-to-Video Generation with Latent Flow Diffusion Models,10.1109/cvpr52729.2023.01769,keyword filter,exclude,no driving/traffic term
+q3|q4,Controllable Video Generation: A Survey,10.48550/arxiv.2507.16869,keyword filter,include,
+q3,Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars,10.48550/arxiv.2610.23772,keyword filter,include,
+q3,SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer,10.48550/arxiv.2509.24695,keyword filter,exclude,no driving/traffic term
+q3,ControlNeXt: Powerful and Efficient Control for Image and Video Generation,,keyword filter,exclude,no driving/traffic term
+q3,Controllable Generation with Text-to-Image Diffusion Models: A Survey,10.1109/tpami.2025.3646548,keyword filter,exclude,no driving/traffic term
+q3,Video Diffusion Models: A Survey,,keyword filter,exclude,no driving/traffic term
+q3,OmniVCus: Feedforward Subject-driven Video Customization with Multimodal Control Conditions,,keyword filter,include,
+q3|q4,SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix,,keyword filter,include,
+q3|q4,Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation,,keyword filter,exclude,no driving/traffic term
+q3,Generating Driving Scenes with Diffusion,,keyword filter,include,
+q3,MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model,,keyword filter,include,
+q3,Video-As-Prompt: Unified Semantic Control for Video Generation,,keyword filter,exclude,no driving/traffic term
+q3,Photorealistic Video Generation with Diffusion Models,,keyword filter,exclude,no driving/traffic term
+q3|q4,S^2VG: 3D Stereoscopic and Spatial Video Generation via Denoising Frame Matrix,,keyword filter,include,
+q3,The 1st International Workshop on Disentangled Representation Learning for Controllable Generation (DRL4Real): Methods and Results,,keyword filter,include,
+q3|q4|q7,FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis,,keyword filter,include,
+q3,"How Far Can 5,500 Hours of Driving Take You? A Scaling Law Analysis of Video Diffusion Models",,keyword filter,include,
+q3,AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation,,keyword filter,include,
+q3,Prompting Video-Language Foundation Models with Domain-specific Fine-grained Heuristics for Video Question Answering,10.1109/tcsvt.2024.3475510,keyword filter,exclude,no driving/traffic term
+q3,Physics-Driven Diffusion Models for Impact Sound Synthesis from Videos,,keyword filter,include,
+q3,Text-to-image Diffusion Models in Generative AI: A Survey,,keyword filter,exclude,no driving/traffic term
+q3,Exploring the Evolution of Physics Cognition in Video Generation: A Survey,,keyword filter,exclude,no driving/traffic term
+q3,ReCapture: Generative Video Camera Controls for User-Provided Videos using Masked Video Fine-Tuning,,keyword filter,include,
+q4,Street-View Image Generation From a Bird's-Eye View Layout,10.1109/lra.2024.3368234,keyword filter,include,
+q4,VideoDirectorGPT: Consistent Multi-scene Video Generation via LLM-Guided Planning,10.48550/arxiv.2309.15091,keyword filter,exclude,no driving/traffic term
+q4,BEVControl: Accurately Controlling Street-view Elements with Multi-perspective Consistency via BEV Sketch Layout,10.48550/arxiv.2308.01661,keyword filter,include,
+q4,MagicDrive: Street View Generation with Diverse 3D Geometry Control,10.48550/arxiv.2310.02601,keyword filter,include,
+q4,SceneCraft: Layout-Guided 3D Scene Generation,10.52202/079017-2608,keyword filter,exclude,no driving/traffic term
+q4,Seeing Beyond Views: Multi-View Driving Scene Video Generation with Holistic Attention,10.48550/arxiv.2412.03520,keyword filter,include,
+q4,Streetscapes: Large-scale Consistent Street View Generation Using Autoregressive Video Diffusion,10.1145/3641519.3657513,keyword filter,include,
+q4,StreetDiff: Multi-view Street Scenes Generation via Cross-view Consistent Multi-view Stable Diffusion with Structure Prompts,10.48550/arxiv.2609.09890,keyword filter,include,
+q4,MoVieDrive: Urban Scene Synthesis with Multi-Modal Multi-View Video Diffusion Transformer,10.48550/arxiv.2508.14327,keyword filter,include,
+q4,SceneCrafter: Controllable Multi-View Driving Scene Editing,10.1109/cvpr52734.2025.00639,keyword filter,include,
+q4|q7,HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving,10.48550/arxiv.2412.01407,keyword filter,include,
+q4,DriveScape: Towards High-Resolution Controllable Multi-View Driving Video Generation,10.48550/arxiv.2409.05463,keyword filter,include,
+q4|q9,UniScene: Unified Occupancy-centric Driving Scene Generation,10.1109/cvpr52734.2025.01118,keyword filter,include,
+q4,PerLDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Model,10.1109/iccv51701.2025.02441,keyword filter,include,
+q4,DreamDrive: Generative 4D Scene Modeling from Street View Images,10.1109/icra55743.2025.11127463,keyword filter,include,
+q4,StarGen: A Spatiotemporal Autoregression Framework with Video Diffusion Model for Scalable and Controllable Scene Generation,10.1109/cvpr52734.2025.02498,keyword filter,exclude,no driving/traffic term
+q4,Mind the Time: Temporally-Controlled Multi-Event Video Generation,10.1109/cvpr52734.2025.02234,keyword filter,exclude,no driving/traffic term
+q4,SPATIALGEN: Layout-guided 3D Indoor Scene Generation,,keyword filter,exclude,no driving/traffic term
+q4,Build-A-Scene: Interactive 3D Layout Control for Diffusion-Based Image Generation,,keyword filter,exclude,no driving/traffic term
+q4,MagicDrive3D: Controllable 3D Generation for Any-View Rendering in Street Scenes,,keyword filter,include,
+q4,Controllable 3D Outdoor Scene Generation via Scene Graphs,,keyword filter,include,
+q4,Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene Reconstruction,,keyword filter,exclude,no driving/traffic term
+q4,Stream3D: Sequential Multi-View 3D Generation via Evidential Memory,,keyword filter,exclude,no driving/traffic term
+q4,Populate-A-Scene: Affordance-Aware Human Video Generation,,keyword filter,exclude,no driving/traffic term
+q4,MVRoom: Controllable 3D Indoor Scene Generation with Multi-View Diffusion Models,,keyword filter,exclude,no driving/traffic term
+q4,Generative 4D Scene Gaussian Splatting with Object View-Synthesis Priors,,keyword filter,exclude,no driving/traffic term
+q4,LayoutDM: Discrete Diffusion Model for Controllable Layout Generation,,keyword filter,exclude,no driving/traffic term
+q4,3D Scene Generation: A Survey,10.1007/s11263-026-02999-6,keyword filter,include,
+q4,Fine-Tuning Open Video Generators for Cinematic Scene Synthesis: A Small-Data Pipeline with LoRA and Wan2.1 I2V,10.5281/zenodo.17370356,keyword filter,exclude,no driving/traffic term
+q4,Scene-Aware 3D Multi-Human Motion Capture from a Single Camera,,keyword filter,include,
+q4,Set-the-Scene: Global-Local Training for Generating Controllable NeRF Scenes,,keyword filter,exclude,no driving/traffic term
+q4,3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding,,keyword filter,exclude,no driving/traffic term
+q4,City Street Layout Generation via Conditional Adversarial Learning,10.13774/j.cnki.kjtb.2025.10.009,keyword filter,include,
+q5,OWMDrive: Causality-Aware End-to-End Autonomous Driving via 4D Occupancy World Model,10.48550/arxiv.2606.30421,keyword filter,include,
+q5,UniWorld: Autonomous Driving Pre-training via World Models,10.48550/arxiv.2308.07234,keyword filter,include,
+q5,SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving,10.1109/iccv51070.2023.01986,keyword filter,include,
+q5,Cam4DOcc: Benchmark for Camera-Only 4D Occupancy Forecasting in Autonomous Driving Applications,10.1109/cvpr52733.2024.02030,keyword filter,include,
+q5,Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving,10.52202/075280-2809,keyword filter,include,
+q5,Diffusion-Based Generative Models for 3D Occupancy Prediction in Autonomous Driving,10.1109/icra55743.2025.11128716,keyword filter,include,
+q5,VAD: Vectorized Scene Representation for Efficient Autonomous Driving,10.1109/iccv51070.2023.00766,keyword filter,include,
+q5,Neural Volumetric World Models for Autonomous Driving,10.1007/978-3-031-72643-9_12,keyword filter,include,
+q5,GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction,10.1109/cvpr52734.2025.00635,keyword filter,include,
+q5,ProgressiveDrive: Reconciling fidelity and consistency in world models for autonomous driving,10.1016/j.eswa.2026.133554,keyword filter,include,
+q5,OccDriver: Future Occupancy Guided Dual-branch Trajectory Planner in Autonomous Driving,,keyword filter,include,
+q5,Grid-Centric Traffic Scenario Perception for Autonomous Driving: A Comprehensive Review,10.1109/tnnls.2024.3495045,keyword filter,include,
+q5,DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving,10.48550/arxiv.2510.12796,keyword filter,include,
+q5|q8,Interpretable Decision-Making for End-to-End Autonomous Driving,,keyword filter,include,
+q5|q8,"Collaborative Perception in Autonomous Driving: Methods, Datasets and Challenges",10.1109/mits.2023.3298534,keyword filter,include,
+q6,ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation,10.48550/arxiv.2609.21712,keyword filter,include,
+q6,SimLingo: Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment,10.1109/cvpr52734.2025.01120,keyword filter,include,
+q6,DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation,10.1109/cvpr52734.2025.02564,keyword filter,include,
+q6,Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving,10.48550/arxiv.2611.22691,keyword filter,include,
+q6|q8,Pseudo-Simulation for Autonomous Driving,10.48550/arxiv.2506.04218,keyword filter,include,
+q6,AD-R1: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving with Impartial World Models,10.48550/arxiv.2511.20325,keyword filter,include,
+q6,World-VLA-Loop: Closed-Loop Learning of Video World Model and VLA Policy,10.48550/arxiv.2602.06508,keyword filter,include,
+q6,TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction,10.1109/icra48891.2023.10161243,keyword filter,include,
+q6,Promptable Closed-loop Traffic Simulation,10.48550/arxiv.2409.05863,keyword filter,include,
+q6,OmniNWM: Omniscient Driving Navigation World Models,10.1007/978-3-032-37624-4_12,keyword filter,include,
+q6,CarLLaVA: Vision language models for camera-only closed-loop driving,10.48550/arxiv.2406.10165,keyword filter,include,
+q6|q9,DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation,10.1109/cvpr52734.2025.01122,keyword filter,include,
+q6,Reason--Imagine--Act: Closed-Loop LLM Decision Making with World Models for Autonomous Driving,10.48550/arxiv.2605.24004,keyword filter,include,
+q6,World-Action Models for Robot Learning and Control: A Survey,10.48550/arxiv.2609.16074,keyword filter,include,
+q6|q9,ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration,10.1109/cvpr52734.2025.00153,keyword filter,include,
+q6,Hydra-NeXt: Robust Closed-Loop Driving with Open-Loop Training,10.1109/iccv51701.2025.02535,keyword filter,include,
+q6,Bench2ADVLM: A Closed-Loop Benchmark for Vision-language Models in Autonomous Driving,10.48550/arxiv.2508.02028,keyword filter,include,
+q6,NeuroNCAP: Photorealistic Closed-Loop Safety Testing for Autonomous Driving,10.1007/978-3-031-73404-5_10,keyword filter,exclude,no scenario/simulation term
+q6,Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving,,keyword filter,include,
+q6,World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry,,keyword filter,exclude,no driving/traffic term
+q6,Modelling individual motion sickness accumulation in vehicles and driving simulators,,keyword filter,include,
+q6,Generative World Simulation with DAO and JING,,keyword filter,exclude,no driving/traffic term
+q6,BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation,,keyword filter,include,
+q6,AdaWorld: Learning Adaptable World Models with Latent Actions,,keyword filter,exclude,no driving/traffic term
+q7,LiSTAR: Ray-Centric World Models for 4D LiDAR Sequences in Autonomous Driving,10.1007/978-3-032-37419-6_8,keyword filter,include,
+q7,LidarDM: Generative LiDAR Simulation in a Generated World,10.1109/icra55743.2025.11128001,keyword filter,include,
+q7,UniDriveDreamer: A Single-Stage Multimodal World Model for Autonomous Driving,10.1007/978-3-032-37314-4_20,keyword filter,include,
+q7,OLiDM: Object-aware LiDAR Diffusion Models for Autonomous Driving,10.1609/aaai.v39i9.32987,keyword filter,include,
+q7,LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences,10.1609/aaai.v40i22.38905,keyword filter,include,
+q7,Synthetic lidar point cloud generation using deep generative models for improved driving scene object recognition,10.1016/j.imavis.2024.105207,keyword filter,include,
+q7,TopoLiDM: Topology-Aware LiDAR Diffusion Models for Interpretable and Realistic LiDAR Point Cloud Generation,10.1109/iros60139.2025.11247363,keyword filter,include,
+q7,World Models for Autonomous Driving: From Future Generation to Decision Making,10.2139/ssrn.6827179,keyword filter,include,
+q7,NeRF-LiDAR: Generating Realistic LiDAR Point Clouds with Neural Radiance Fields,10.1609/aaai.v38i7.28546,keyword filter,include,
+q7,Towards Realistic Scene Generation with LiDAR Diffusion Models,10.1109/cvpr52733.2024.01396,keyword filter,include,
+q7,U4D: Uncertainty-Aware 4D World Modeling from LiDAR Sequences,10.48550/arxiv.2512.02982,keyword filter,include,
+q7,LaGen: Towards Autoregressive LiDAR Scene Generation,10.1007/978-3-032-37252-9_31,keyword filter,include,
+q7,STRIDE: Semantically Stratified Historical Retrieval for LiDAR World Modeling,10.1145/3767308.3835050,keyword filter,include,
+q7,Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models,10.48550/arxiv.2506.09042,keyword filter,include,
+q7,LiDAR-RT: Gaussian-based Ray Tracing for Dynamic LiDAR Re-simulation,,keyword filter,include,
+q7,LiDAR-NeRF: Novel LiDAR View Synthesis via Neural Radiance Fields,,keyword filter,include,
+q7,LiDAR-HMR: 3D Human Mesh Recovery from LiDAR,10.1109/tmm.2025.3590928,keyword filter,include,
+q7,"Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather",,keyword filter,include,
+q7,GEM: Generating LiDAR World Model via Deformable Mamba,,keyword filter,include,
+q7,IC-World: In-Context Generation for Shared World Modeling,,keyword filter,include,
+q7,Super LiDAR Intensity for Robotic Perception,,keyword filter,include,
+q8,UniSim: A Neural Closed-Loop Sensor Simulator,10.1109/cvpr52729.2023.00140,keyword filter,include,
+q8,Generative AI-Empowered Simulation for Autonomous Driving in Vehicular Mixed Reality Metaverses,10.1109/jstsp.2023.3293650,keyword filter,include,
+q8,"MARS: An Instance-Aware, Modular and Realistic Simulator for Autonomous Driving",10.1007/978-981-99-8850-1_1,keyword filter,include,
+q8,NeuRAD: Neural Rendering for Autonomous Driving,10.1109/cvpr52733.2024.01411,keyword filter,include,
+q8,A Review of Multi-Sensor Fusion in Autonomous Driving,10.3390/s25196033,keyword filter,include,
+q8,Choose Your Simulator Wisely: A Review on Open-Source Simulators for Autonomous Driving,10.1109/tiv.2024.3374044,keyword filter,include,
+q8,A Unified Generative Framework for Realistic LiDAR Simulation in Autonomous Driving Systems,10.1109/jsen.2025.3642208,keyword filter,include,
+q8,S-NeRF++: Autonomous Driving Simulation via Neural Reconstruction and Generation,10.1109/tpami.2025.3543072,keyword filter,include,
+q8,Generative AI for Autonomous Driving: A Review,10.48550/arxiv.2505.15863,keyword filter,include,
+q8,Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents,10.1109/cvpr52733.2024.01428,keyword filter,include,
+q8,OASim: an Open and Adaptive Simulator based on Neural Rendering for Autonomous Driving,10.48550/arxiv.2402.03830,keyword filter,include,
+q8,A Comprehensive Review of Reinforcement Learning for Autonomous Driving in the CARLA Simulator,10.1109/access.2026.3724381,keyword filter,include,
+q8,Neural Radiance Field in Autonomous Driving: A Survey,10.48550/arxiv.2404.13816,keyword filter,include,
+q8,"HUGSIM: A Real-Time, Photo-Realistic and Closed-Loop Simulator for Autonomous Driving",10.1109/tpami.2025.3647952,keyword filter,include,
+q8,Neural Rendering for Autonomous Driving,10.63959/chalmers.dt/5865,keyword filter,include,
+q8,Fractional Collisions: A Framework for Risk Estimation of Counterfactual Conflicts using Autonomous Driving Behavior Simulations,,keyword filter,include,
+q8,Unified Sensor Simulation for Autonomous Driving,,keyword filter,include,
+q8,Creating Impactful Autonomous Driving Datasets: A Strategic Guide from Research Gap to Benchmark,,keyword filter,include,
+q8,Test Automation for Interactive Scenarios via Promptable Traffic Simulation,,keyword filter,include,
+q9,"GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation",10.48550/arxiv.2608.16234,keyword filter,include,
+q9,Controllable Text Generation for Large Language Models: A Survey,10.48550/arxiv.2408.12599,keyword filter,include,
+q9,InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models,10.1109/iccv51701.2025.02532,keyword filter,include,
+q9,DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation,10.1609/aaai.v39i10.33130,keyword filter,include,
+q9,World model-based end-to-end scene generation for accident anticipation in autonomous driving,10.1038/s44172-025-00474-7,keyword filter,include,
+q9,Dolphins: Multimodal Language Model for Driving,10.1007/978-3-031-72995-9_23,keyword filter,exclude,no scenario/simulation term
+q9,X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving,10.48550/arxiv.2603.19979,keyword filter,include,
+q9,DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models,10.48550/arxiv.2402.12289,keyword filter,include,
+q9,Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text,10.52202/079017-2391,keyword filter,include,
+q9,DriveWLA: Unifying Future Dynamics and Scene Semantics through World-Language-Action Modeling for Autonomous Driving,10.48550/arxiv.2610.17903,keyword filter,include,
+q9,X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability,10.52202/085713-3487,keyword filter,include,
+q9,Vision Language Models in Autonomous Driving: A Survey and Outlook,10.1109/tiv.2024.3402136,keyword filter,include,
+q9,Language-conditioned world model improves policy generalization by reading environmental descriptions,,keyword filter,include,
+q9,Pandora: Towards General World Model with Natural Language Actions and Video States,,keyword filter,exclude,no driving/traffic term
+q9,The Mouth is Not the Brain: Bridging Energy-Based World Models and Language Generation,,keyword filter,exclude,no driving/traffic term
+q9,MameLoshnLM: Yiddish Language Model and Evaluation Benchmark,,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q9,"How do language models learn facts? Dynamics, curricula and hallucinations",,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q9,Unforgettable Generalization in Language Models,,keyword filter,exclude,no driving/traffic term
+q9,LynnReal-Hand: Unlocking World Interaction with Hand Control,,keyword filter,include,
+q9,Trustworthiness of Children Stories Generated by Large Language Models,,keyword filter,exclude,no driving/traffic term
+q9,A Comprehensive Review of State-of-The-Art Methods for Java Code Generation from Natural Language Text,10.1016/j.nlp.2023.100013,keyword filter,exclude,no driving/traffic term
+q9,Visual Question Generation in Bengali,,keyword filter,include,
+q9,JaCoText: A Pretrained Model for Java Code-Text Generation,,keyword filter,exclude,no driving/traffic term
+q9,"Holo-World: Unified Camera, Object and Weather Control for Video World Model",,keyword filter,include,
+q9,Are Compressed Language Models Less Subgroup Robust?,10.18653/v1/2023.emnlp-main.983,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q9,Fast Vocabulary Transfer for Language Model Compression,10.18653/v1/2022.emnlp-industry.41,keyword filter,exclude,no driving/traffic term and no scenario/simulation term
+q9,SpeechPrompt: Prompting Speech Language Models for Speech Processing Tasks,10.1109/taslp.2024.3436618,keyword filter,exclude,no driving/traffic term

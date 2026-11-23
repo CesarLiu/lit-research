@@ -1,0 +1,2382 @@
+[
+ {
+  "n": 1,
+  "id": "adriver_i_a_general_world_model_for_autonomous_dri",
+  "title": "ADriver-I: A General World Model for Autonomous Driving",
+  "short": "ADriver",
+  "first": "Jia et al.",
+  "authors": [
+   "Fan Jia",
+   "Weixin Mao",
+   "Liu, Yingfei",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.48550/arxiv.2311.13549",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 2,
+  "id": "advdiffuser_generating_adversarial_safety_critical",
+  "title": "AdvDiffuser: Generating Adversarial Safety-Critical Driving Scenarios via Guided Diffusion",
+  "short": "AdvDiffuser",
+  "first": "Xie et al.",
+  "authors": [
+   "Yuting Xie",
+   "Xianda Guo",
+   "Cong Wang",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "",
+  "venue": "arXiv",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 3,
+  "id": "advsim_generating_safety_critical_scenarios_for_se",
+  "title": "AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles",
+  "short": "AdvSim",
+  "first": "Wang et al.",
+  "authors": [
+   "Jingkang Wang",
+   "Ava Pun",
+   "James Tu",
+   "et al."
+  ],
+  "year": 2021,
+  "doi": "10.1109/cvpr46437.2021.00978",
+  "venue": "arXiv",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 4,
+  "id": "behaviorgpt_smart_agent_simulation_for_autonomous",
+  "title": "BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction",
+  "short": "BehaviorGPT",
+  "first": "Zhou et al.",
+  "authors": [
+   "Zikang Zhou",
+   "Haibo Hu",
+   "Xinhong Chen",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.52202/079017-2527",
+  "venue": "neural information processing systems",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 5,
+  "id": "behaviorworldgen_closing_the_loop_between_action_m",
+  "title": "BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation",
+  "short": "BehaviorWorldGen",
+  "first": "Wang et al.",
+  "authors": [
+   "Jiaqi Wang",
+   "Zhuo Zhang",
+   "Haining Guan",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2608.22187",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 6,
+  "id": "bevcontrol_accurately_controlling_street_view_elem",
+  "title": "BEVControl: Accurately Controlling Street-view Elements with Multi-perspective Consistency via BEV Sketch Layout",
+  "short": "BEVControl",
+  "first": "Yang et al.",
+  "authors": [
+   "Kairui Yang",
+   "Enhui Ma",
+   "Jibin Peng",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.48550/arxiv.2308.01661",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 7,
+  "id": "bevworld_a_multimodal_world_simulator_for_autonomo",
+  "title": "BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents",
+  "short": "BEVWorld",
+  "first": "Zhang et al.",
+  "authors": [
+   "Yumeng Zhang",
+   "Shi Gong",
+   "Kaixin Xiong",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2407.05679",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 8,
+  "id": "bits_bi_level_imitation_for_traffic_simulation",
+  "title": "BITS: Bi-level Imitation for Traffic Simulation",
+  "short": "BITS",
+  "first": "Xu et al.",
+  "authors": [
+   "Danfei Xu",
+   "Yuxiao Chen",
+   "Boris Ivanovic",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.1109/icra48891.2023.10161167",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 9,
+  "id": "cadre_controllable_and_diverse_generation_of_safet",
+  "title": "CaDRE: Controllable and Diverse Generation of Safety-Critical Driving Scenarios using Real-World Trajectories",
+  "short": "CaDRE",
+  "first": "Huang et al.",
+  "authors": [
+   "Peide Huang",
+   "Wenhao Ding",
+   "Benjamin Stoler",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/icra55743.2025.11127319",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 10,
+  "id": "cafe_causally_faithful_conditional_traffic_scenari",
+  "title": "CaFe: Causally Faithful Conditional Traffic Scenario Generation",
+  "short": "CaFe",
+  "first": "Tung et al.",
+  "authors": [
+   "Steven Yu Tung",
+   "Shubham Vaijanath Phoolari",
+   "Christoph Lauer",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2611.22855",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 11,
+  "id": "cat_closed_loop_adversarial_training_for_safe_end",
+  "title": "CAT: Closed-loop Adversarial Training for Safe End-to-End Driving",
+  "short": "CAT",
+  "first": "Zhang et al.",
+  "authors": [
+   "Linrui Zhang",
+   "Zhenghao Peng",
+   "Quanyi Li",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.48550/arxiv.2310.12432",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 12,
+  "id": "causal_composition_diffusion_model_for_closed_loop",
+  "title": "Causal Composition Diffusion Model for Closed-loop Traffic Generation",
+  "short": "Causal Composition Diffusion Model for C",
+  "first": "Lin et al.",
+  "authors": [
+   "Haohong Lin",
+   "Xin Huang",
+   "Tung Phan",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.02565",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 13,
+  "id": "chatscene_knowledge_enabled_safety_critical_scenar",
+  "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles",
+  "short": "ChatScene",
+  "first": "Zhang et al.",
+  "authors": [
+   "Jiawei Zhang",
+   "Chejian Xu",
+   "Bo Li"
+  ],
+  "year": 2024,
+  "doi": "10.1109/cvpr52733.2024.01464",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 14,
+  "id": "cmts_a_conditional_multiple_trajectory_synthesizer",
+  "title": "CMTS: A Conditional Multiple Trajectory Synthesizer for Generating Safety-Critical Driving Scenarios",
+  "short": "CMTS",
+  "first": "Ding et al.",
+  "authors": [
+   "Wenhao Ding",
+   "Mengdi Xu",
+   "Ding Xuan Zhao"
+  ],
+  "year": 2020,
+  "doi": "10.1109/icra40945.2020.9197145",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 15,
+  "id": "conditional_flow_vae_for_safety_critical_traffic_s",
+  "title": "Conditional Flow-VAE for Safety-Critical Traffic Scenario Generation",
+  "short": "Conditional Flow",
+  "first": "Gong et al.",
+  "authors": [
+   "Zimu Gong",
+   "Brian Zhaoning Zhang",
+   "Chris Zhang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "",
+  "venue": "arXiv",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 16,
+  "id": "control_itra_controlling_the_behavior_of_a_driving",
+  "title": "Control-ITRA: Controlling the Behavior of a Driving Model",
+  "short": "Control",
+  "first": "Lioutas et al.",
+  "authors": [
+   "Lioutas, Vasileios",
+   "Adam Ścibior",
+   "Matthew Niedoba",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.48550/arxiv.2501.12408",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 17,
+  "id": "controllable_latent_diffusion_for_traffic_simulati",
+  "title": "Controllable Latent Diffusion for Traffic Simulation",
+  "short": "Controllable Latent Diffusion for Traffi",
+  "first": "Xiao et al.",
+  "authors": [
+   "Xiao, Yizhuo",
+   "Mustafa Suphi Erden",
+   "Cheng Wang"
+  ],
+  "year": 2025,
+  "doi": "10.48550/arxiv.2503.11771",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 18,
+  "id": "controllable_sim_agents_with_behavior_latents",
+  "title": "Controllable Sim Agents with Behavior Latents (CNeVA)",
+  "short": "Controllable Sim Agents with Behavior La",
+  "first": "Lu et al.",
+  "authors": [
+   "Juanwu Lu",
+   "J ZHU",
+   "Ziran Wang"
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2607.02496",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 19,
+  "id": "controllable_traffic_simulation_through_llm_guided",
+  "title": "Controllable Traffic Simulation through LLM-Guided Hierarchical Reasoning and Refinement",
+  "short": "Controllable Traffic Simulation through ",
+  "first": "Liu et al.",
+  "authors": [
+   "Zhiyuan Liu",
+   "Leheng Li",
+   "Yuning Wang",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iros60139.2025.11247747",
+  "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 20,
+  "id": "copilot4d_learning_unsupervised_world_models_for_a",
+  "title": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion",
+  "short": "Copilot4D",
+  "first": "Zhang et al.",
+  "authors": [
+   "Lunjun Zhang",
+   "Yuwen Xiong",
+   "Ze Yang",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2311.01017",
+  "venue": "International Conference on Learning Representations",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 21,
+  "id": "cosmos_drive_dreams_scalable_synthetic_driving_dat",
+  "title": "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models",
+  "short": "Cosmos",
+  "first": "Ren et al.",
+  "authors": [
+   "Xuanchi Ren",
+   "Yifan Lu",
+   "Tianshi Cao",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.48550/arxiv.2506.09042",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 22,
+  "id": "counterscene_counterfactual_causal_reasoning_in_ge",
+  "title": "CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation",
+  "short": "CounterScene",
+  "first": "Jing et al.",
+  "authors": [
+   "Bowen Jing",
+   "Ruiyang Hao",
+   "Weitao Zhou",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2603.21104",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 23,
+  "id": "crashagent_crash_scenario_generation_via_multi_mod",
+  "title": "CrashAgent: Crash Scenario Generation via Multi-modal Reasoning",
+  "short": "CrashAgent",
+  "first": "Li et al.",
+  "authors": [
+   "Miao Li",
+   "Wenhao Ding",
+   "Lin, Haohong",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.48550/arxiv.2505.18341",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 24,
+  "id": "crashdiffuser_vlm_guided_collision_intent_reasonin",
+  "title": "CrashDiffuser: VLM-Guided Collision Intent Reasoning for Fine-Grained Safety-Critical Traffic Scenario Generation",
+  "short": "CrashDiffuser",
+  "first": "Zhang et al.",
+  "authors": [
+   "Shucheng Zhang",
+   "Yuang Zhang",
+   "Bingzhang Wang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2609.02270",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 25,
+  "id": "ctrl_sim_reactive_and_controllable_driving_agents",
+  "title": "CtRL-Sim: Reactive and Controllable Driving Agents with Offline Reinforcement Learning",
+  "short": "CtRL",
+  "first": "Rowe et al.",
+  "authors": [
+   "Rowe, Luke",
+   "Roger Girgis",
+   "Anthony Gosselin",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2403.19918",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 26,
+  "id": "decoupled_diffusion_sparks_adaptive_scene_generati",
+  "title": "Decoupled Diffusion Sparks Adaptive Scene Generation",
+  "short": "Decoupled Diffusion Sparks Adaptive Scen",
+  "first": "Zhou et al.",
+  "authors": [
+   "Yunsong Zhou",
+   "N. Ye",
+   "William Ljungbergh",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02577",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 27,
+  "id": "diffscene_diffusion_based_safety_critical_scenario",
+  "title": "DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles",
+  "short": "DiffScene",
+  "first": "Xu et al.",
+  "authors": [
+   "Chejian Xu",
+   "Aleksandr Petiushko",
+   "Zhao Ding",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1609/aaai.v39i8.32951",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 28,
+  "id": "dive_dit_based_video_generation_with_enhanced_cont",
+  "title": "DiVE: DiT-based Video Generation with Enhanced Control",
+  "short": "DiVE",
+  "first": "Jiang et al.",
+  "authors": [
+   "Junpeng Jiang",
+   "Gangyi Hong",
+   "Zhou, Lijun",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2409.01595",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 29,
+  "id": "diverse_critical_interaction_generation_for_planni",
+  "title": "Diverse Critical Interaction Generation for Planning and Planner Evaluation",
+  "short": "Diverse Critical Interaction Generation ",
+  "first": "Yin et al.",
+  "authors": [
+   "Zhao-Heng Yin",
+   "Lingfeng Sun",
+   "Liting Sun",
+   "et al."
+  ],
+  "year": 2021,
+  "doi": "10.1109/iros51168.2021.9636266",
+  "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 30,
+  "id": "doe_1_closed_loop_autonomous_driving_with_large_wo",
+  "title": "Doe-1: Closed-Loop Autonomous Driving with Large World Model",
+  "short": "Doe",
+  "first": "Zheng et al.",
+  "authors": [
+   "Wenzhao Zheng",
+   "Xia, Zetian",
+   "Yuanhui Huang",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2412.09627",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 31,
+  "id": "does_the_action_matter_probing_action_conditioned",
+  "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+  "short": "Does the Action Matter? Probing Action",
+  "first": "Singh et al.",
+  "authors": [
+   "Binay Kumar Singh",
+   "Niels Da Vitoria Lobo"
+  ],
+  "year": 2026,
+  "doi": "",
+  "venue": "arXiv",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 32,
+  "id": "dragtraffic_interactive_and_controllable_traffic_s",
+  "title": "DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving",
+  "short": "DragTraffic",
+  "first": "Wang et al.",
+  "authors": [
+   "Sheng Wang",
+   "Ge Sun",
+   "Fulong Ma",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1109/iros58592.2024.10801623",
+  "venue": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 33,
+  "id": "dreamdrive_generative_4d_scene_modeling_from_stree",
+  "title": "DreamDrive: Generative 4D Scene Modeling from Street View Images",
+  "short": "DreamDrive",
+  "first": "Mao et al.",
+  "authors": [
+   "Jiageng Mao",
+   "Boyi Li",
+   "Boris Ivanovic",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/icra55743.2025.11127463",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 34,
+  "id": "drivearena_a_closed_loop_generative_simulation_pla",
+  "title": "DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving",
+  "short": "DriveArena",
+  "first": "Yang et al.",
+  "authors": [
+   "Xuemeng Yang",
+   "Licheng Wen",
+   "Tiantian Wei",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02500",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 35,
+  "id": "drivedreamer_2_llm_enhanced_world_models_for_diver",
+  "title": "DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation",
+  "short": "DriveDreamer",
+  "first": "Zhao et al.",
+  "authors": [
+   "Guosheng Zhao",
+   "Xiaofeng Wang",
+   "Zheng Zhu",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1609/aaai.v39i10.33130",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 36,
+  "id": "drivedreamer4d_world_models_are_effective_data_mac",
+  "title": "DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation",
+  "short": "DriveDreamer4D",
+  "first": "Zhao et al.",
+  "authors": [
+   "Guosheng Zhao",
+   "Chaojun Ni",
+   "Xiaofeng Wang",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.01122",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 37,
+  "id": "drivedreamer_towards_real_world_drive_world_models",
+  "title": "DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving",
+  "short": "DriveDreamer",
+  "first": "Wang et al.",
+  "authors": [
+   "Xiaofeng Wang",
+   "Zheng Hong Zhu",
+   "Guan Huang",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1007/978-3-031-73195-2_4",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 38,
+  "id": "drivescape_towards_high_resolution_controllable_mu",
+  "title": "DriveScape: Towards High-Resolution Controllable Multi-View Driving Video Generation",
+  "short": "DriveScape",
+  "first": "Wu et al.",
+  "authors": [
+   "Wei Wu",
+   "Xiaolong Guo",
+   "Weixuan Tang",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2409.05463",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 39,
+  "id": "drivescenegen_generating_diverse_and_realistic_dri",
+  "title": "DriveSceneGen: Generating Diverse and Realistic Driving Scenarios From Scratch",
+  "short": "DriveSceneGen",
+  "first": "Sun et al.",
+  "authors": [
+   "Shuo Sun",
+   "Zekai Gu",
+   "Tianchen Sun",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1109/lra.2024.3416792",
+  "venue": "IEEE Robotics and Automation Letters",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 40,
+  "id": "driving_in_the_occupancy_world_vision_centric_4d_o",
+  "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+  "short": "Driving in the Occupancy World",
+  "first": "Yu et al.",
+  "authors": [
+   "Yang Yu",
+   "Jianbiao Mei",
+   "Yukai Ma",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1609/aaai.v39i9.33010",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 41,
+  "id": "driving_into_the_future_multiview_visual_forecasti",
+  "title": "Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+  "short": "Driving into the Future",
+  "first": "Wang et al.",
+  "authors": [
+   "Yuqi Wang",
+   "Jiawei He",
+   "Lue Fan",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1109/cvpr52733.2024.01397",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 42,
+  "id": "driving_world_models_move_the_camera_not_the_scene",
+  "title": "Driving World Models Move the Camera, Not the Scene",
+  "short": "Driving World Models Move the Camera, No",
+  "first": "Feng et al.",
+  "authors": [
+   "Yuqiao Feng",
+   "Xiaoyu Ao"
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2611.15260",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 43,
+  "id": "drivingdiffusion_layout_guided_multi_view_driving",
+  "title": "DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model",
+  "short": "DrivingDiffusion",
+  "first": "Li et al.",
+  "authors": [
+   "Xiaofan Li",
+   "Yifu Zhang",
+   "Xiaoqing Ye"
+  ],
+  "year": 2023,
+  "doi": "10.48550/arxiv.2310.07771",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 44,
+  "id": "drivinggpt_unifying_driving_world_modeling_and_pla",
+  "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-Modal Autoregressive Transformers",
+  "short": "DrivingGPT",
+  "first": "Chen et al.",
+  "authors": [
+   "Yuntao Chen",
+   "Yuqi Wang",
+   "Zhaoxiang Zhang"
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02496",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 45,
+  "id": "drivingsphere_building_a_high_fidelity_4d_world_fo",
+  "title": "DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation",
+  "short": "DrivingSphere",
+  "first": "Yan et al.",
+  "authors": [
+   "Tianyi Yan",
+   "Dongming Wu",
+   "Wencheng Han",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.02564",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 46,
+  "id": "drivingworld_constructing_world_model_for_autonomo",
+  "title": "DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT",
+  "short": "DrivingWorld",
+  "first": "Hu et al.",
+  "authors": [
+   "Xiaotao Hu",
+   "Mingkai Jia",
+   "Xiaoyang Guo",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1007/978-3-032-31583-0_19",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 47,
+  "id": "ecosim_data_efficient_fine_tuning_for_controllable",
+  "title": "ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation",
+  "short": "ECoSim",
+  "first": "Chen et al.",
+  "authors": [
+   "Yu-Hsiang Chen",
+   "Wei-Jer Chang",
+   "Yi-Ting Chen",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1007/978-3-032-37196-6_2",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 48,
+  "id": "editable_scene_simulation_for_autonomous_driving_v",
+  "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents",
+  "short": "Editable Scene Simulation for Autonomous",
+  "first": "Wei et al.",
+  "authors": [
+   "Yuxi Wei",
+   "Zi Wang",
+   "Yifan Lu",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1109/cvpr52733.2024.01428",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 49,
+  "id": "editing_driver_character_socially_controllable_beh",
+  "title": "Editing Driver Character: Socially-Controllable Behavior Generation for Interactive Traffic Simulation",
+  "short": "Editing Driver Character",
+  "first": "Chang et al.",
+  "authors": [
+   "Wei-Jer Chang",
+   "Chen Tang",
+   "Chenran Li",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.1109/lra.2023.3291897",
+  "venue": "IEEE Robotics and Automation Letters",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 50,
+  "id": "emergency_lane_change_simulation_a_behavior_guided",
+  "title": "Emergency Lane-Change Simulation: A Behavior-Guided Approach for Safety-Critical Scenario Generation",
+  "short": "Emergency Lane",
+  "first": "Xiong et al.",
+  "authors": [
+   "Chen Xiong",
+   "C D Wang",
+   "Liu Y",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1109/tits.2026.3686061",
+  "venue": "IEEE Transactions on Intelligent Transportation Systems",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 51,
+  "id": "epona_autoregressive_diffusion_world_model_for_aut",
+  "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+  "short": "Epona",
+  "first": "Zhang et al.",
+  "authors": [
+   "Kaiwen Zhang",
+   "Zhenyu Tang",
+   "Xiaotao Hu",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02527",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 52,
+  "id": "evaluation_as_evolution_transforming_adversarial_d",
+  "title": "Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles",
+  "short": "Evaluation as Evolution",
+  "first": "Guo et al.",
+  "authors": [
+   "Yicheng Guo",
+   "Jiaqi Liu",
+   "Chengkai Xu",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2604.07378",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 53,
+  "id": "evodrive_pareto_evolution_for_safety_critical_auto",
+  "title": "EvoDrive: Pareto Evolution for Safety-Critical Autonomous Driving via Self-Improving LLM Agents",
+  "short": "EvoDrive",
+  "first": "Nie et al.",
+  "authors": [
+   "Tong Nie",
+   "Yuewen Mei",
+   "Yihong Tang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2606.03678",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 54,
+  "id": "gaia_1_a_generative_world_model_for_autonomous_dri",
+  "title": "GAIA-1: A Generative World Model for Autonomous Driving",
+  "short": "GAIA",
+  "first": "Hu et al.",
+  "authors": [
+   "Anthony Hu",
+   "Lloyd E. Russell",
+   "Hudson Yeo",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.48550/arxiv.2309.17080",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 55,
+  "id": "gaia_2_a_controllable_multi_view_generative_world",
+  "title": "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving",
+  "short": "GAIA",
+  "first": "Russell et al.",
+  "authors": [
+   "Lloyd E. Russell",
+   "Anthony Hu",
+   "Lorenzo Bertoni",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.48550/arxiv.2503.20523",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 56,
+  "id": "gaussiandwm_language_grounded_3d_gaussian_driving",
+  "title": "GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation",
+  "short": "GaussianDWM++",
+  "first": "Deng et al.",
+  "authors": [
+   "Tianchen Deng",
+   "Xuefeng Chen",
+   "Shuang Wu",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2608.16234",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 57,
+  "id": "gaussianworld_gaussian_world_model_for_streaming_3",
+  "title": "GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction",
+  "short": "GaussianWorld",
+  "first": "Zuo et al.",
+  "authors": [
+   "Sicheng Zuo",
+   "Wenzhao Zheng",
+   "Yuanhui Huang",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.00635",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 58,
+  "id": "generalized_predictive_model_for_autonomous_drivin",
+  "title": "Generalized Predictive Model for Autonomous Driving",
+  "short": "Generalized Predictive Model for Autonom",
+  "first": "Yang et al.",
+  "authors": [
+   "Jiazhi Yang",
+   "Shenyuan Gao",
+   "Yihang Qiu",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1109/cvpr52733.2024.01389",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 59,
+  "id": "geodrive_3d_geometry_informed_driving_world_model",
+  "title": "GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control",
+  "short": "GeoDrive",
+  "first": "Chen et al.",
+  "authors": [
+   "Anthony Chen",
+   "Wenzhao Zheng",
+   "Yida Wang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1109/icra57385.2026.11696583",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 60,
+  "id": "guided_conditional_diffusion_for_controllable_traf",
+  "title": "Guided Conditional Diffusion for Controllable Traffic Simulation",
+  "short": "Guided Conditional Diffusion for Control",
+  "first": "Zhong et al.",
+  "authors": [
+   "Ziyuan Zhong",
+   "Davis Rempe",
+   "Danfei Xu",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.1109/icra48891.2023.10161463",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 61,
+  "id": "guided_latent_spaces_for_controllable_multi_scenar",
+  "title": "Guided Latent Spaces for Controllable Multi-Scenario Generation in Autonomous Driving (Student Abstract)",
+  "short": "Guided Latent Spaces for Controllable Mu",
+  "first": "Mammen et al.",
+  "authors": [
+   "Manasa Mariam Mammen",
+   "Zafer Kayatas",
+   "Stefan Wagner"
+  ],
+  "year": 2026,
+  "doi": "10.1609/aaai.v40i48.42251",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 62,
+  "id": "guiding_neuro_symbolic_scenario_generation_with_sp",
+  "title": "Guiding Neuro-Symbolic Scenario Generation with Spatio-Temporal Logic",
+  "short": "Guiding Neuro",
+  "first": "Bonin et al.",
+  "authors": [
+   "Lorenzo Bonin",
+   "Francesco Giacomarra",
+   "Luca Bortolussi",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.65109/jcra2597",
+  "venue": "Adaptive Agents and Multi-Agents Systems",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 63,
+  "id": "helloworld_towards_practical_applications_of_gener",
+  "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models",
+  "short": "HelloWorld",
+  "first": "Lu et al.",
+  "authors": [
+   "Fan Lu",
+   "Hanshi Wang",
+   "Zijing Wang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2609.28931",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 64,
+  "id": "hermes_a_unified_self_driving_world_model_for_simu",
+  "title": "HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation",
+  "short": "HERMES",
+  "first": "Zhou et al.",
+  "authors": [
+   "Xin Xiang Zhou",
+   "Dingkang Liang",
+   "Sifan Tu",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02582",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 65,
+  "id": "how_can_driving_world_models_do_counterfactual_pre",
+  "title": "How Can Driving World Models Do Counterfactual Prediction?",
+  "short": "How Can Driving World Models Do Counterf",
+  "first": "Zhang et al.",
+  "authors": [
+   "Jiaru Zhang",
+   "Can Cui",
+   "Yi Xu",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2608.11601",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 66,
+  "id": "how_corner_is_a_corner_case_percentile_control_for",
+  "title": "How Corner Is a Corner Case? Percentile Control for Highway Scenario Generation",
+  "short": "How Corner Is a Corner Case? Percentile ",
+  "first": "Liu et al.",
+  "authors": [
+   "J P Liu",
+   "Hang Zhou",
+   "Hangyu Li",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.2139/ssrn.7560931",
+  "venue": "SSRN Electronic Journal",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 67,
+  "id": "human_behavior_informed_crash_scenario_generation",
+  "title": "Human Behavior-Informed Crash Scenario Generation with Real-World Crash Priors for Autonomous Vehicle Safety Evaluation",
+  "short": "Human Behavior",
+  "first": "Peng et al.",
+  "authors": [
+   "Mingxing Peng",
+   "Xusen Guo",
+   "Long Chen",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2610.04366",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 68,
+  "id": "infinicube_unbounded_and_controllable_dynamic_3d_d",
+  "title": "InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models",
+  "short": "InfiniCube",
+  "first": "Lu et al.",
+  "authors": [
+   "Yifan Lu",
+   "Xuanchi Ren",
+   "Jiawei Yang",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02532",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 69,
+  "id": "intelligent_driving_intelligence_test_for_autonomo",
+  "title": "Intelligent driving intelligence test for autonomous vehicles with naturalistic and adversarial environment",
+  "short": "Intelligent driving intelligence test fo",
+  "first": "Feng et al.",
+  "authors": [
+   "Shuo Feng",
+   "Xintao Yan",
+   "Haowei Sun",
+   "et al."
+  ],
+  "year": 2021,
+  "doi": "10.1038/s41467-021-21007-8",
+  "venue": "Nature Communications",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 70,
+  "id": "is_energy_guidance_all_you_need_training_free_norm",
+  "title": "Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models",
+  "short": "Is Energy Guidance All You Need? Trainin",
+  "first": "Su et al.",
+  "authors": [
+   "Xiyan Su",
+   "Frank Diermeyer",
+   "Markus Lienkamp"
+  ],
+  "year": 2026,
+  "doi": "",
+  "venue": "arXiv",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 71,
+  "id": "kg_asg_collision_knowledge_guided_closed_loop_adve",
+  "title": "KG-ASG: Collision-Knowledge-Guided Closed-Loop Adversarial Scenario Generation With Primary-Support Attribution",
+  "short": "KG",
+  "first": "Wang et al.",
+  "authors": [
+   "Cheng Wang",
+   "Chen Xiong",
+   "Ziwen Wang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2605.18895",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 72,
+  "id": "king_generating_safety_critical_driving_scenarios",
+  "title": "KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients",
+  "short": "KING",
+  "first": "Hanselmann et al.",
+  "authors": [
+   "Niklas Hanselmann",
+   "Katrin Renz",
+   "Kashyap Chitta",
+   "et al."
+  ],
+  "year": 2022,
+  "doi": "",
+  "venue": "arXiv",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 73,
+  "id": "langtraj_diffusion_model_and_dataset_for_language",
+  "title": "LANGTRAJ: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation",
+  "short": "LANGTRAJ",
+  "first": "Chang et al.",
+  "authors": [
+   "Wei-Jer Chang",
+   "Wei Zhan",
+   "Masayoshi Tomizuka",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02471",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 74,
+  "id": "language_guided_traffic_simulation_via_scene_level",
+  "title": "Language-Guided Traffic Simulation via Scene-Level Diffusion",
+  "short": "Language",
+  "first": "Zhong et al.",
+  "authors": [
+   "Ziyuan Zhong",
+   "Davis Rempe",
+   "Yuxiao Chen",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.48550/arxiv.2306.06344",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 75,
+  "id": "last_v2x_language_driven_adaptive_scenario_synthes",
+  "title": "LAST-V2X: Language-Driven Adaptive Scenario Synthesis and Testing for Communication-Induced Failures in V2X Safety Applications",
+  "short": "LAST",
+  "first": "Wu et al.",
+  "authors": [
+   "Keshu Wu",
+   "Hao Zhang",
+   "Rui Gan",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2610.30979",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 76,
+  "id": "ld_scene_llm_guided_diffusion_for_controllable_gen",
+  "title": "LD-Scene: LLM-guided diffusion for controllable generation of adversarial safety-critical driving scenarios",
+  "short": "LD",
+  "first": "Peng et al.",
+  "authors": [
+   "Mingxing Peng",
+   "Yuting Xie",
+   "Xusen Guo",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1016/j.trc.2026.105694",
+  "venue": "Transportation Research Part C Emerging Technologies",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 77,
+  "id": "learning_from_risk_llm_guided_generation_of_safety",
+  "title": "Learning from risk: LLM-guided generation of safety-critical scenarios with prior knowledge",
+  "short": "Learning from risk",
+  "first": "Wang et al.",
+  "authors": [
+   "Yuhang Wang",
+   "Heye Huang",
+   "Zhenhua Xu",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1016/j.tre.2026.105110",
+  "venue": "Transportation Research Part E Logistics and Transportation Review",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 78,
+  "id": "learning_responsibility_attributed_adversarial_sce",
+  "title": "Learning Responsibility-Attributed Adversarial Scenarios for Testing Autonomous Vehicles",
+  "short": "Learning Responsibility",
+  "first": "Xiao et al.",
+  "authors": [
+   "Yizhuo Xiao",
+   "Haotian Yan",
+   "Ying Wang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2605.13751",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 79,
+  "id": "lidardm_generative_lidar_simulation_in_a_generated",
+  "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+  "short": "LidarDM",
+  "first": "Zyrianov et al.",
+  "authors": [
+   "Vlas Zyrianov",
+   "Henry Che",
+   "Zhijian Liu",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/icra55743.2025.11128001",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 80,
+  "id": "magicdrive_v2_high_resolution_long_video_generatio",
+  "title": "MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control",
+  "short": "MagicDrive",
+  "first": "Gao et al.",
+  "authors": [
+   "Ruiyuan Gao",
+   "Kai Chen",
+   "Bo Xiao",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02612",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 81,
+  "id": "magicdrive_street_view_generation_with_diverse_3d",
+  "title": "MagicDrive: Street View Generation with Diverse 3D Geometry Control",
+  "short": "MagicDrive",
+  "first": "Gao et al.",
+  "authors": [
+   "Ruiyuan Gao",
+   "Kai Chen",
+   "Enze Xie",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2310.02601",
+  "venue": "International Conference on Learning Representations",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 82,
+  "id": "making_the_world_react_realistically_a_closed_loop",
+  "title": "Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving",
+  "short": "Making the World React Realistically",
+  "first": "Hu et al.",
+  "authors": [
+   "Jia Hu",
+   "Yang Chang",
+   "Panqu Wang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2611.22691",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 83,
+  "id": "model_aware_generation_of_safety_critical_scenes_f",
+  "title": "Model-Aware Generation of Safety-Critical Scenes for Robust End-to-End Driving via Distilled Planner Surrogates",
+  "short": "Model",
+  "first": "Seyam et al.",
+  "authors": [
+   "Khaled M. Seyam",
+   "Julian Wiederer",
+   "Samar Fathalah",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2610.35448",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 84,
+  "id": "muvo_a_multimodal_generative_world_model_for_auton",
+  "title": "MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations",
+  "short": "MUVO",
+  "first": "Bogdoll et al.",
+  "authors": [
+   "Daniel Bogdoll",
+   "Yitian Yang",
+   "Tim Joseph",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iv64158.2025.11097718",
+  "venue": "IEEE Intelligent Vehicles Symposium",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 85,
+  "id": "mygo_consistent_and_controllable_multi_view_drivin",
+  "title": "MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control",
+  "short": "MyGo",
+  "first": "Yao et al.",
+  "authors": [
+   "Yining Yao",
+   "Xi Wei Guo",
+   "Chenjing Ding",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2409.06189",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 86,
+  "id": "nvidia_omnidreams_real_time_generative_world_model",
+  "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+  "short": "NVIDIA OmniDreams",
+  "first": "NVIDIA et al.",
+  "authors": [
+   "NVIDIA",
+   ":",
+   "Despoina Paschalidou",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2606.03159",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 87,
+  "id": "occllama_an_occupancy_language_action_generative_w",
+  "title": "OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving",
+  "short": "OccLLaMA",
+  "first": "Wei et al.",
+  "authors": [
+   "Julong Wei",
+   "Yuan, Shanshuai",
+   "Pengfei Li",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2409.03272",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 88,
+  "id": "occsora_4d_occupancy_generation_models_as_world_si",
+  "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+  "short": "OccSora",
+  "first": "Wang et al.",
+  "authors": [
+   "Lening Wang",
+   "Wenzhao Zheng",
+   "Yilong Ren",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1109/tip.2026.3687468",
+  "venue": "IEEE Transactions on Image Processing",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 89,
+  "id": "occworld_learning_a_3d_occupancy_world_model_for_a",
+  "title": "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving",
+  "short": "OccWorld",
+  "first": "Zheng et al.",
+  "authors": [
+   "Wenzhao Zheng",
+   "Weiliang Chen",
+   "Yuanhui Huang",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1007/978-3-031-72624-8_4",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 90,
+  "id": "omninwm_omniscient_driving_navigation_world_models",
+  "title": "OmniNWM: Omniscient Driving Navigation World Models",
+  "short": "OmniNWM",
+  "first": "Li et al.",
+  "authors": [
+   "Bohan Li",
+   "Zhuang Ma",
+   "Dalong Du",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1007/978-3-032-37624-4_12",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 91,
+  "id": "optimization_guided_diffusion_for_interactive_scen",
+  "title": "Optimization-Guided Diffusion for Interactive Scene Generation",
+  "short": "Optimization",
+  "first": "Li et al.",
+  "authors": [
+   "Shihao Li",
+   "Naisheng Ye",
+   "Tianyu Li",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1007/978-3-032-37167-6_13",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 92,
+  "id": "panacea_panoramic_and_controllable_video_generatio",
+  "title": "Panacea: Panoramic and Controllable Video Generation for Autonomous Driving",
+  "short": "Panacea",
+  "first": "Wen et al.",
+  "authors": [
+   "Yuqing Wen",
+   "Yucheng Zhao",
+   "Yingfei Liu",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1109/cvpr52733.2024.00659",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 93,
+  "id": "pandwm_panoramic_4d_driving_world_models",
+  "title": "PanDWM: Panoramic 4D Driving World Models",
+  "short": "PanDWM",
+  "first": "Sun et al.",
+  "authors": [
+   "Jiajun Sun",
+   "Zeyu Zhang",
+   "Zeyu Ren",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2611.19857",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 94,
+  "id": "path_diffuser_diffusion_model_for_data_driven_traf",
+  "title": "Path Diffuser: Diffusion Model for Data-Driven Traffic Simulator",
+  "short": "Path Diffuser",
+  "first": "Lee et al.",
+  "authors": [
+   "D. Lee",
+   "Akash Karthikeyan",
+   "Yash Vardhan Pant",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/itsc60802.2025.11423013",
+  "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 95,
+  "id": "pcasim_promptable_closed_loop_adversarial_simulati",
+  "title": "PCASim: Promptable Closed-loop Adversarial Simulation for Urban Traffic Environment",
+  "short": "PCASim",
+  "first": "Zhang et al.",
+  "authors": [
+   "Changwang Zhang",
+   "Zhenhao Wang",
+   "Kaizheng Li",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1109/icra57385.2026.11696318",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 96,
+  "id": "perldiff_controllable_street_view_synthesis_using",
+  "title": "PerLDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Model",
+  "short": "PerLDiff",
+  "first": "Zhang et al.",
+  "authors": [
+   "Jinhua Zhang",
+   "Hualian Sheng",
+   "Sijia Cai",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02441",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 97,
+  "id": "promptable_closed_loop_traffic_simulation",
+  "title": "Promptable Closed-loop Traffic Simulation",
+  "short": "Promptable Closed",
+  "first": "Tan et al.",
+  "authors": [
+   "Shuhan Tan",
+   "Boris Ivanovic",
+   "Yuxiao Chen",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2409.05863",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 98,
+  "id": "proposal_conditioned_latent_diffusion_for_closed_l",
+  "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation",
+  "short": "Proposal",
+  "first": "Phoolari et al.",
+  "authors": [
+   "Shubham Vaijanath Phoolari",
+   "Aleyna Kara",
+   "Christoph Lauer",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2606.27123",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 99,
+  "id": "rade_learning_risk_adjustable_driving_environment",
+  "title": "RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion",
+  "short": "RADE",
+  "first": "Wang et al.",
+  "authors": [
+   "Jiawei Wang",
+   "Xintao Yan",
+   "Yao Mu",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/itsc60802.2025.11423555",
+  "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 100,
+  "id": "realgen_retrieval_augmented_generation_for_control",
+  "title": "RealGen: Retrieval Augmented Generation for Controllable Traffic Scenarios",
+  "short": "RealGen",
+  "first": "Ding et al.",
+  "authors": [
+   "Wenhao Ding",
+   "Yulong Cao",
+   "Ding Xuan Zhao",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1007/978-3-031-73033-7_6",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 101,
+  "id": "realweather_realistic_and_scene_faithful_weather_t",
+  "title": "RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models",
+  "short": "RealWeather",
+  "first": "Ning et al.",
+  "authors": [
+   "Yuwei Ning",
+   "Liangzhi Wang",
+   "Yi Xiao",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2608.02953",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 102,
+  "id": "recondreamer_crafting_world_models_for_driving_sce",
+  "title": "ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration",
+  "short": "ReconDreamer",
+  "first": "Ni et al.",
+  "authors": [
+   "Chaojun Ni",
+   "Guosheng Zhao",
+   "Xiaofeng Wang",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.00153",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 103,
+  "id": "resim_reliable_world_simulation_for_autonomous_dri",
+  "title": "ReSim: Reliable World Simulation for Autonomous Driving",
+  "short": "ReSim",
+  "first": "Yang et al.",
+  "authors": [
+   "Jia-Zhi Yang",
+   "Kashyap Chitta",
+   "Shenyuan Gao",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.52202/085713-5591",
+  "venue": "neural information processing systems",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 104,
+  "id": "risk_controllable_multi_view_diffusion_for_driving",
+  "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation",
+  "short": "Risk",
+  "first": "Lin et al.",
+  "authors": [
+   "Hongyi Lin",
+   "Wenxiu Shi",
+   "Heye Huang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "",
+  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2026",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 105,
+  "id": "rlftsim_realistic_and_controllable_multi_agent_tra",
+  "title": "RLFTSim: Realistic and Controllable Multi-Agent Traffic Simulation via Reinforcement Learning Fine-Tuning",
+  "short": "RLFTSim",
+  "first": "Ahmadi et al.",
+  "authors": [
+   "Ehsan Ahmadi",
+   "Hunter Schofield",
+   "Behzad Khamidehi",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2605.19033",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 106,
+  "id": "rolling_ahead_diffusion_for_traffic_scene_simulati",
+  "title": "Rolling Ahead Diffusion for Traffic Scene Simulation",
+  "short": "Rolling Ahead Diffusion for Traffic Scen",
+  "first": "Liu et al.",
+  "authors": [
+   "Yunpeng Liu",
+   "Matthew Niedoba",
+   "Harvey, William",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.48550/arxiv.2502.09587",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 107,
+  "id": "safe_sim_safety_critical_closed_loop_traffic_simul",
+  "title": "Safe-Sim: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries",
+  "short": "Safe",
+  "first": "Chang et al.",
+  "authors": [
+   "Wei-Jer Chang",
+   "Francesco Pittaluga",
+   "Masayoshi Tomizuka",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1007/978-3-031-72664-4_14",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 108,
+  "id": "safety_critical_scenarios_emerge_from_initial_scen",
+  "title": "Safety-Critical Scenarios Emerge from Initial Scenes",
+  "short": "Safety",
+  "first": "Wu et al.",
+  "authors": [
+   "Yin Wu",
+   "Jiarong Wei",
+   "Carl Esselborn",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2609.20103",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 109,
+  "id": "safety_critical_traffic_simulation_with_adversaria",
+  "title": "Safety-Critical Traffic Simulation with Adversarial Transfer of Driving Intentions",
+  "short": "Safety",
+  "first": "Huang et al.",
+  "authors": [
+   "Zherui Huang",
+   "Xing Gao",
+   "Guanjie Zheng",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/icra55743.2025.11128569",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 110,
+  "id": "safety_critical_traffic_simulation_with_guided_lat",
+  "title": "Safety-Critical Traffic Simulation with Guided Latent Diffusion Model",
+  "short": "Safety",
+  "first": "Peng et al.",
+  "authors": [
+   "Mingxing Peng",
+   "Ruoyu Yao",
+   "Xusen Guo",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/itsc60802.2025.11423275",
+  "venue": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 111,
+  "id": "scenario_diffusion_controllable_driving_scenario_g",
+  "title": "Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion",
+  "short": "Scenario Diffusion",
+  "first": "Pronovost et al.",
+  "authors": [
+   "Ethan Pronovost",
+   "Meghana Reddy Ganesina",
+   "Noureldin Hendy",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.52202/075280-3014",
+  "venue": "Advances in Neural Information Processing Systems 36",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 112,
+  "id": "scenario_dreamer_vectorized_latent_diffusion_for_g",
+  "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+  "short": "Scenario Dreamer",
+  "first": "Rowe et al.",
+  "authors": [
+   "Luke Rowe",
+   "Roger Girgis",
+   "Anthony Gosselin",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.01604",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 113,
+  "id": "scenariocontrol_vision_language_controllable_vecto",
+  "title": "ScenarioControl: Vision-Language Controllable Vectorized Latent Scenario Generation",
+  "short": "ScenarioControl",
+  "first": "Gao et al.",
+  "authors": [
+   "Lili Gao",
+   "Yanbo Xu",
+   "William Koch",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1007/978-3-032-37152-2_13",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 114,
+  "id": "scenecrafter_controllable_multi_view_driving_scene",
+  "title": "SceneCrafter: Controllable Multi-View Driving Scene Editing",
+  "short": "SceneCrafter",
+  "first": "Zhu et al.",
+  "authors": [
+   "Zehao Zhu",
+   "Yuliang Zou",
+   "Chiyu Max Jiang",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.00639",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 115,
+  "id": "scenediffuser_efficient_and_controllable_driving_s",
+  "title": "SceneDiffuser: Efficient and Controllable Driving Simulation Initialization and Rollout",
+  "short": "SceneDiffuser",
+  "first": "Jiang et al.",
+  "authors": [
+   "Chiyu Max Jiang",
+   "Yijing Bai",
+   "Andre Cornman",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.52202/079017-1771",
+  "venue": "neural information processing systems",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 116,
+  "id": "scenedm_scene_level_multi_agent_trajectory_generat",
+  "title": "SceneDM: Scene-level Multi-agent Trajectory Generation with Consistent Diffusion Models",
+  "short": "SceneDM",
+  "first": "Guo et al.",
+  "authors": [
+   "Zhiming Guo",
+   "Xing Hua Gao",
+   "Jian-Lan Zhou",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.48550/arxiv.2311.15736",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 117,
+  "id": "seal_towards_safe_autonomous_driving_via_skill_ena",
+  "title": "SEAL: Towards Safe Autonomous Driving via Skill-Enabled Adversary Learning for Closed-Loop Scenario Generation",
+  "short": "SEAL",
+  "first": "Stoler et al.",
+  "authors": [
+   "Benjamin Stoler",
+   "Ingrid Navarro",
+   "Jonathan Francis",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/lra.2025.3592090",
+  "venue": "IEEE Robotics and Automation Letters",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 118,
+  "id": "smart_scalable_multi_agent_real_time_motion_genera",
+  "title": "SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction",
+  "short": "SMART",
+  "first": "Wu et al.",
+  "authors": [
+   "Wei Wu",
+   "Xiaoxin Feng",
+   "Ziyan Gao",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.52202/079017-3622",
+  "venue": "neural information processing systems",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 119,
+  "id": "socialdrivegen_generating_diverse_traffic_scenario",
+  "title": "SocialDriveGen: generating diverse traffic scenarios with controllable social interactions",
+  "short": "SocialDriveGen",
+  "first": "Tian et al.",
+  "authors": [
+   "Jiaguo Tian",
+   "Zhengbang Zhu",
+   "Shenyu Zhang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1007/s11704-026-51974-4",
+  "venue": "Frontiers of Computer Science",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 120,
+  "id": "street_view_image_generation_from_a_bird_s_eye_vie",
+  "title": "Street-View Image Generation From a Bird's-Eye View Layout",
+  "short": "Street",
+  "first": "Swerdlow et al.",
+  "authors": [
+   "Alexander Swerdlow",
+   "Runsheng Xu",
+   "Bolei Zhou"
+  ],
+  "year": 2024,
+  "doi": "10.1109/lra.2024.3368234",
+  "venue": "IEEE Robotics and Automation Letters",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 121,
+  "id": "streetscapes_large_scale_consistent_street_view_ge",
+  "title": "Streetscapes: Large-scale Consistent Street View Generation Using Autoregressive Video Diffusion",
+  "short": "Streetscapes",
+  "first": "Deng et al.",
+  "authors": [
+   "Boyang Deng",
+   "Richard P. Tucker",
+   "Zhengqi Li",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1145/3641519.3657513",
+  "venue": "ACM SIGGRAPH Conference (SIGGRAPH)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 122,
+  "id": "symdrive_realistic_and_controllable_driving_simula",
+  "title": "SymDrive: Realistic and Controllable Driving Simulator via Symmetric Auto-regressive Online Restoration",
+  "short": "SymDrive",
+  "first": "Liu et al.",
+  "authors": [
+   "Zhiyuan Liu",
+   "Daocheng Fu",
+   "Pinlong Cai",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.48550/arxiv.2512.21618",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 123,
+  "id": "symphony_learning_realistic_and_diverse_agents_for",
+  "title": "Symphony: Learning Realistic and Diverse Agents for Autonomous Driving Simulation",
+  "short": "Symphony",
+  "first": "Igl et al.",
+  "authors": [
+   "Maximilian Igl",
+   "Dae Woo Kim",
+   "Alex Kuefler",
+   "et al."
+  ],
+  "year": 2022,
+  "doi": "10.1109/icra46639.2022.9811990",
+  "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 124,
+  "id": "terasim_world_worldwide_safety_critical_data_synth",
+  "title": "TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving",
+  "short": "TeraSim",
+  "first": "Wang et al.",
+  "authors": [
+   "Jiawei Wang",
+   "Haowei Sun",
+   "Xintao Yan",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.48550/arxiv.2509.13164",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 125,
+  "id": "top_down_traffic_scenario_generation_via_joint_ini",
+  "title": "Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion and Trajectory Infilling",
+  "short": "Top",
+  "first": "Lee et al.",
+  "authors": [
+   "D. Lee",
+   "Yash Vardhan Pant",
+   "Sebastian Fischmeister"
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2608.11407",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 126,
+  "id": "towards_realistic_scene_generation_with_lidar_diff",
+  "title": "Towards Realistic Scene Generation with LiDAR Diffusion Models",
+  "short": "Towards Realistic Scene Generation with ",
+  "first": "Ran et al.",
+  "authors": [
+   "Haoxi Ran",
+   "Vitor Guizilini",
+   "Yue Wang"
+  ],
+  "year": 2024,
+  "doi": "10.1109/cvpr52733.2024.01396",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 127,
+  "id": "trace_and_pace_controllable_pedestrian_animation_v",
+  "title": "Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion",
+  "short": "Trace and Pace",
+  "first": "Rempe et al.",
+  "authors": [
+   "Davis Rempe",
+   "Zhengyi Luo",
+   "Xue Bin Peng",
+   "et al."
+  ],
+  "year": 2023,
+  "doi": "10.1109/cvpr52729.2023.01322",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 128,
+  "id": "traffic_scene_generation_from_natural_language_des",
+  "title": "Traffic Scene Generation from Natural Language Description for Autonomous Vehicles with Large Language Model",
+  "short": "Traffic Scene Generation from Natural La",
+  "first": "Ruan et al.",
+  "authors": [
+   "Bo-Kai Ruan",
+   "Tsui, Hao-Tang",
+   "Yung‐Hui Li",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2409.09575",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 129,
+  "id": "trafficalign_aligning_large_language_models_for_tr",
+  "title": "TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation",
+  "short": "TrafficAlign",
+  "first": "Tu et al.",
+  "authors": [
+   "Zhi Tu",
+   "Liangkun Niu",
+   "Tianyi Zhang"
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2606.29097",
+  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2026, pp. 39744-39754",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 130,
+  "id": "trafficgamer_reliable_and_flexible_traffic_simulat",
+  "title": "TrafficGamer: Reliable and Flexible Traffic Simulation for Safety-Critical Scenarios with Game-Theoretic Oracles",
+  "short": "TrafficGamer",
+  "first": "Qiao et al.",
+  "authors": [
+   "Guanren Qiao",
+   "G. Quan",
+   "Jiawei Yu",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1109/tai.2026.3712714",
+  "venue": "IEEE Transactions on Artificial Intelligence",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 131,
+  "id": "trajeglish_traffic_modeling_as_next_token_predicti",
+  "title": "Trajeglish: Traffic Modeling as Next-Token Prediction",
+  "short": "Trajeglish",
+  "first": "Philion et al.",
+  "authors": [
+   "Jonah Philion",
+   "Xue Bin Peng",
+   "Sanja Fidler"
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2312.04535",
+  "venue": "International Conference on Learning Representations",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 132,
+  "id": "unimlvg_unified_framework_for_multi_view_long_vide",
+  "title": "UniMLVG: Unified Framework for Multi-View Long Video Generation with Comprehensive Control Capabilities for Autonomous Driving",
+  "short": "UniMLVG",
+  "first": "Chen et al.",
+  "authors": [
+   "Rui Chen",
+   "Zehuan Wu",
+   "Yichen Liu",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/iccv51701.2025.02361",
+  "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 133,
+  "id": "uniscene_unified_occupancy_centric_driving_scene_g",
+  "title": "UniScene: Unified Occupancy-centric Driving Scene Generation",
+  "short": "UniScene",
+  "first": "Li et al.",
+  "authors": [
+   "Bohan Li",
+   "J. Guo",
+   "Hongsi Liu",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.1109/cvpr52734.2025.01118",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 134,
+  "id": "unleashing_generalization_of_end_to_end_autonomous",
+  "title": "Unleashing Generalization of End-to-End Autonomous Driving with Controllable Long Video Generation",
+  "short": "Unleashing Generalization of End",
+  "first": "Ma et al.",
+  "authors": [
+   "Enhui Ma",
+   "Lijun Zhou",
+   "Tao Tang",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.48550/arxiv.2406.01349",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 135,
+  "id": "versatile_behavior_diffusion_for_generalized_traff",
+  "title": "Versatile Behavior Diffusion for Generalized Traffic Agent Simulation",
+  "short": "Versatile Behavior Diffusion for General",
+  "first": "Huang et al.",
+  "authors": [
+   "Zhiyu Huang",
+   "Zixu Zhang",
+   "Ameya Vaidya",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1109/tits.2026.3662886",
+  "venue": "IEEE Transactions on Intelligent Transportation Systems",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 136,
+  "id": "vilta_a_vlm_in_the_loop_adversary_for_enhancing_dr",
+  "title": "VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness",
+  "short": "VILTA",
+  "first": "Chen et al.",
+  "authors": [
+   "Qimao Chen",
+   "Fang Li",
+   "Shaoqing Xu",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.1609/aaai.v40i4.37290",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "table": "runs/tableC/rows"
+ },
+ {
+  "n": 137,
+  "id": "vista_a_generalizable_driving_world_model_with_hig",
+  "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+  "short": "Vista",
+  "first": "Gao et al.",
+  "authors": [
+   "Shenyuan Gao",
+   "Jiazhi Yang",
+   "Li Chen",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.52202/079017-2906",
+  "venue": "neural information processing systems",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 138,
+  "id": "wovogen_world_volume_aware_diffusion_for_controlla",
+  "title": "WoVoGen: World Volume-aware Diffusion for Controllable Multi-camera Driving Scene Generation",
+  "short": "WoVoGen",
+  "first": "Lu et al.",
+  "authors": [
+   "Jiachen Lu",
+   "Ze Huang",
+   "Zeyu Yang",
+   "et al."
+  ],
+  "year": 2024,
+  "doi": "10.1007/978-3-031-72989-8_19",
+  "venue": "Lecture notes in computer science",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 139,
+  "id": "x_scene_large_scale_driving_scene_generation_with",
+  "title": "X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability",
+  "short": "X",
+  "first": "Yu et al.",
+  "authors": [
+   "Yang Yu",
+   "Alan Liang",
+   "Jianbiao Mei",
+   "et al."
+  ],
+  "year": 2025,
+  "doi": "10.52202/085713-3487",
+  "venue": "neural information processing systems",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 140,
+  "id": "x_world_controllable_ego_centric_multi_camera_worl",
+  "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving",
+  "short": "X",
+  "first": "Zheng et al.",
+  "authors": [
+   "Chaoda Zheng",
+   "Sean Li",
+   "Jinhao Deng",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2603.19979",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ },
+ {
+  "n": 141,
+  "id": "zyt_world_a_real_time_controllable_world_model_for",
+  "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
+  "short": "ZYT",
+  "first": "Hu et al.",
+  "authors": [
+   "Boni Hu",
+   "Xiong Wei",
+   "Haoming Huang",
+   "et al."
+  ],
+  "year": 2026,
+  "doi": "10.48550/arxiv.2609.21712",
+  "venue": "arXiv (Cornell University)",
+  "table": "runs/wmtable/rows"
+ }
+]

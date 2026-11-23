@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Split a review into checkable claims and attach the table rows each claim cites.
 
-  python -I -X utf8 tools/split_claims.py REVIEW.md REFS.json ROWS_DIR OUT_DIR [N_CHUNKS=4]
+  python -I -X utf8 tools/split_claims.py REVIEW.md REFS.json ROWS_DIR OUT_DIR [N_CHUNKS=4] [--industry ROWS.json]
+
+--industry: company statements (runs/industry/rows.json). A sentence citing [W1], [N8] and so on gets those statements
+(company, date, claim, verbatim quote, grade) attached as "company_statements", and its numbers are checked against them.
 
 Units: sentences of paragraphs and list items, and whole table rows, in the numbered sections before "Validity".
 Headings, the reference list and the Validity section are skipped (Validity describes the process, which is
@@ -73,28 +76,38 @@ def units(md: str):
     yield from flush()
 
 
-def main(review: str, refs: str, rows_dir: str, out: str, n_chunks: int = 4) -> int:
+CITE_CO = re.compile(r"\[([A-Z]\d+)\]")  # company statement codes such as [W1], see --industry
+
+
+def main(review: str, refs: str, rows_dir: str, out: str, n_chunks: int = 4, industry: str = "") -> int:
     R = {r["n"]: r for r in json.loads(Path(refs).read_text(encoding="utf-8"))}
     rows = {p.stem: p.read_text(encoding="utf-8") for p in Path(rows_dir).glob("*.json")}
     all_text = " ".join(rows.values())
+    co = {r["id"]: r for r in json.loads(Path(industry).read_text(encoding="utf-8"))} if industry else {}
     outd = Path(out)
     outd.mkdir(parents=True, exist_ok=True)
     claims, flags = [], []
     for i, (sec, text) in enumerate(units(Path(review).read_text(encoding="utf-8")), 1):
         cited = sorted({int(x) for x in CITE.findall(text)})
-        unknown = [n for n in cited if n not in R]
-        body = CITE.sub(" ", text)
+        co_ids = sorted({x for x in CITE_CO.findall(text) if x in co})
+        unknown = [n for n in cited if n not in R] + [x for x in CITE_CO.findall(text) if x not in co]
+        body = CITE_CO.sub(" ", CITE.sub(" ", text))
         nums = sorted(set(NUM.findall(re.sub(r"^\d+\.\s", "", body))))
-        src = " ".join(rows.get(R[n]["id"], "") for n in cited if n in R) if cited else all_text
+        src = " ".join(rows.get(R[n]["id"], "") for n in cited if n in R)
+        src += " " + " ".join(co[x]["quote"] + " " + co[x]["claim"] for x in co_ids)
+        if not cited and not co_ids:
+            src = all_text
         fl = []
         if unknown:
             fl.append(f"unknown_ref {unknown}")
         for n in nums:
             if n not in src and n.rstrip("0").rstrip(".") not in src:
                 fl.append(f"number_not_in_cited_rows {n}")
-        if not cited and (NUM.search(body) or NUMWORD.search(body)):
+        if not cited and not co_ids and (NUM.search(body) or NUMWORD.search(body)):
             fl.append("no_citation")
         claims.append({"id": i, "section": sec, "text": text, "cited": cited,
+                       "company_statements": [{k: co[x][k] for k in ("id", "company", "date", "claim", "quote", "grade", "page")}
+                                              for x in co_ids],
                        "previous_sentence": claims[-1]["text"] if claims and claims[-1]["section"] == sec else "",
                        "papers": [{"n": n, "row_file": f"rows/{R[n]['id']}.json", "title": R[n]["title"]} for n in cited if n in R],
                        "flags": fl})
@@ -112,4 +125,6 @@ def main(review: str, refs: str, rows_dir: str, out: str, n_chunks: int = 4) -> 
 
 if __name__ == "__main__":
     a = sys.argv[1:]
-    raise SystemExit(main(a[0], a[1], a[2], a[3], int(a[4]) if len(a) > 4 else 4) if len(a) >= 4 else print(__doc__) or 2)
+    ind = a[a.index("--industry") + 1] if "--industry" in a else ""
+    a = [x for i, x in enumerate(a) if x != "--industry" and (i == 0 or a[i - 1] != "--industry")]
+    raise SystemExit(main(a[0], a[1], a[2], a[3], int(a[4]) if len(a) > 4 else 4, ind) if len(a) >= 4 else print(__doc__) or 2)

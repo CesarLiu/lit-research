@@ -1,0 +1,1241 @@
+{
+  "query": "occupancy world model autonomous driving",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2023",
+  "raw_hits": 50,
+  "unique": 43,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4403771534",
+      "doi": "10.1007/978-3-031-72624-8_4",
+      "title": "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving",
+      "abstract": "Understanding how the 3D scene evolves is vital for making decisions in autonomous driving. Most existing methods achieve this by predicting the movements of object boxes, which cannot capture more fine-grained scene information. In this paper, we explore a new framework of learning a world model, OccWorld, in the 3D Occupancy space to simultaneously predict the movement of the ego car and the evolution of the surrounding scenes. We propose to learn a world model based on 3D occupancy rather than 3D bounding boxes and segmentation maps for three reasons: 1) expressiveness. 3D occupancy can describe the more fine-grained 3D structure of the scene; 2) efficiency. 3D occupancy is more economical to obtain (e.g., from sparse LiDAR points). 3) versatility. 3D occupancy can adapt to both vision and LiDAR. To facilitate the modeling of the world evolution, we learn a reconstruction-based scene tokenizer on the 3D occupancy to obtain discrete scene tokens to describe the surrounding scenes. We then adopt a GPT-like spatial-temporal generative transformer to generate subsequent scene and ego tokens to decode the future occupancy and ego trajectory. Extensive experiments on the widely used nuScenes benchmark demonstrate the ability of OccWorld to effectively model the evolution of the driving scenes. OccWorld also produces competitive planning results without using instance and map supervision. Code: https://github.com/wzzheng/OccWorld.",
+      "year": 2024,
+      "authors": [
+        "Wenzhao Zheng",
+        "Weiliang Chen",
+        "Yuanhui Huang",
+        "Borui Zhang",
+        "Yueqi Duan",
+        "Jiwen Lu"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 356,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.16038",
+      "url": "https://openalex.org/W4403771534",
+      "also_doi": [],
+      "key": "openalex_101007_978-3-031-72624-8_4_OccWorld_Learning_a_3D_Occupancy_World_Model_for_Auton",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72624-8_4_OccWorld_Learning_a_3D_Occupancy_World_Model_for_Auton.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4409365815",
+      "doi": "10.1609/aaai.v39i9.33010",
+      "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+      "abstract": "World models envision potential future states based on various ego actions. They embed extensive knowledge about the driving environment, facilitating safe and scalable autonomous driving. Most existing methods primarily focus on either data generation or the pretraining paradigms of world models. Unlike the aforementioned prior works, we propose Drive-OccWorld, which adapts a vision-centric 4D forecasting world model to end-to-end planning for autonomous driving. Specifically, we first introduce a semantic and motion-conditional normalization in the memory module, which accumulates semantic and dynamic information from historical BEV embeddings. These BEV features are then conveyed to the world decoder for future occupancy and flow forecasting, considering both geometry and spatiotemporal modeling. Additionally, we propose injecting flexible action conditions, such as velocity, steering angle, trajectory, and commands, into the world model to enable controllable generation and facilitate a broader range of downstream applications. Furthermore, we explore integrating the generative capabilities of the 4D world model with end-to-end planning, enabling continuous forecasting of future states and the selection of optimal trajectories using an occupancy-based cost function. Extensive experiments on the nuScenes dataset demonstrate that our method can generate plausible and controllable 4D occupancy, opening new avenues for driving world generation and end-to-end planning.",
+      "year": 2025,
+      "authors": [
+        "Yang Yu",
+        "Jianbiao Mei",
+        "Yukai Ma",
+        "Siliang Du",
+        "Wenqing Chen",
+        "Yijie Qian",
+        "Yuxiang Feng",
+        "Yong Liu"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "cited_by": 109,
+      "is_oa": true,
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/33010/35165",
+      "url": "https://openalex.org/W4409365815",
+      "also_doi": [],
+      "key": "openalex_101609_aaaiv39i933010_Driving_in_the_Occupancy_World_Vision-Centric_4D_Occupancy_",
+      "file_kind": "txt",
+      "file": "openalex_101609_aaaiv39i933010_Driving_in_the_Occupancy_World_Vision-Centric_4D_Occupancy_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4403556110",
+      "doi": "10.48550/arxiv.2409.03272",
+      "title": "OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving",
+      "abstract": "The rise of multi-modal large language models(MLLMs) has spurred their applications in autonomous driving. Recent MLLM-based methods perform action by learning a direct mapping from perception to action, neglecting the dynamics of the world and the relations between action and world dynamics. In contrast, human beings possess world model that enables them to simulate the future states based on 3D internal visual representation and plan actions accordingly. To this end, we propose OccLLaMA, an occupancy-language-action generative world model, which uses semantic occupancy as a general visual representation and unifies vision-language-action(VLA) modalities through an autoregressive model. Specifically, we introduce a novel VQVAE-like scene tokenizer to efficiently discretize and reconstruct semantic occupancy scenes, considering its sparsity and classes imbalance. Then, we build a unified multi-modal vocabulary for vision, language and action. Furthermore, we enhance LLM, specifically LLaMA, to perform the next token/scene prediction on the unified vocabulary to complete multiple tasks in autonomous driving. Extensive experiments demonstrate that OccLLaMA achieves competitive performance across multiple tasks, including 4D occupancy forecasting, motion planning, and visual question answering, showcasing its potential as a foundation model in autonomous driving.",
+      "year": 2024,
+      "authors": [
+        "Julong Wei",
+        "Yuan, Shanshuai",
+        "Pengfei Li",
+        "Hu, Qingda",
+        "Zhongxue Gan",
+        "Wenchao Ding"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 115,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.03272",
+      "url": "https://openalex.org/W4403556110",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv240903272_OccLLaMA_An_Occupancy-Language-Action_Generative_World_Mod",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv240903272_OccLLaMA_An_Occupancy-Language-Action_Generative_World_Mod.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4399270650",
+      "doi": "10.1109/tip.2026.3687468",
+      "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+      "abstract": "Understanding the evolution of 3D scenes is crucial for autonomous driving. While conventional methods describe scene development through individual instance motions, world models provide a generative framework for modeling overall scene dynamics. However, most existing approaches rely on autoregressive next-token prediction, which suffers from error accumulation and limited global spatiotemporal reasoning, leading to degraded long-term consistency. To address these issues, we propose a diffusion-based 4D occupancy generation model, OccSora, to simulate 3D world evolution for autonomous driving. A 4D scene tokenizer is introduced to obtain compact spatiotemporal representations and enable high-quality reconstruction of long occupancy sequences. We then train a diffusion transformer on these representations to generate 4D occupancy conditioned on trajectory prompts. Experiments on the nuScenes dataset with Occ3D annotations show that OccSora can generate 16s videos with authentic 3D layout and strong temporal consistency. With trajectory-aware 4D generation, OccSora has the potential to serve as a world simulator for autonomous driving decision-making. Project page: https://wzzheng.net/OccSora.",
+      "year": 2026,
+      "authors": [
+        "Lening Wang",
+        "Wenzhao Zheng",
+        "Yilong Ren",
+        "Han Jiang",
+        "Zhiyong Cui",
+        "Hou–Yong Yu",
+        "Jiwen Lu"
+      ],
+      "venue": "IEEE Transactions on Image Processing",
+      "cited_by": 102,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.20337",
+      "url": "https://openalex.org/W4399270650",
+      "also_doi": [],
+      "key": "openalex_101109_tip20263687468_OccSora_4D_Occupancy_Generation_Models_as_World_Simulators_",
+      "file_kind": "txt",
+      "file": "openalex_101109_tip20263687468_OccSora_4D_Occupancy_Generation_Models_as_World_Simulators_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4407424328",
+      "doi": "10.48550/arxiv.2502.07309",
+      "title": "Semi-Supervised Vision-Centric 3D Occupancy World Model for Autonomous Driving",
+      "abstract": "Understanding world dynamics is crucial for planning in autonomous driving. Recent methods attempt to achieve this by learning a 3D occupancy world model that forecasts future surrounding scenes based on current observation. However, 3D occupancy labels are still required to produce promising results. Considering the high annotation cost for 3D outdoor scenes, we propose a semi-supervised vision-centric 3D occupancy world model, PreWorld, to leverage the potential of 2D labels through a novel two-stage training paradigm: the self-supervised pre-training stage and the fully-supervised fine-tuning stage. Specifically, during the pre-training stage, we utilize an attribute projection head to generate different attribute fields of a scene (e.g., RGB, density, semantic), thus enabling temporal supervision from 2D labels via volume rendering techniques. Furthermore, we introduce a simple yet effective state-conditioned forecasting module to recursively forecast future occupancy and ego trajectory in a direct manner. Extensive experiments on the nuScenes dataset validate the effectiveness and scalability of our method, and demonstrate that PreWorld achieves competitive performance across 3D occupancy prediction, 4D occupancy forecasting and motion planning tasks.",
+      "year": 2025,
+      "authors": [
+        "Li, Xiang",
+        "Pengfei Li",
+        "Zheng, Yupeng",
+        "Wei Sun",
+        "Yan Wang",
+        "Yilun Chen"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 35,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/9c979c7a7bcc6a791c3b492697f97e1e-Paper-Conference.pdf",
+      "url": "https://openalex.org/W4407424328",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv250207309_Semi-Supervised_Vision-Centric_3D_Occupancy_World_Model_fo",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250207309_Semi-Supervised_Vision-Centric_3D_Occupancy_World_Model_fo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W7166676698",
+      "doi": "10.48550/arxiv.2606.30421",
+      "title": "OWMDrive: Causality-Aware End-to-End Autonomous Driving via 4D Occupancy World Model",
+      "abstract": "Autonomous driving systems are steadily moving toward end-to-end paradigms to mitigate the limited adaptability of rule-based pipelines in complex traffic environments. However, most existing learning-based methods still make decisions from static representations of the current scene, without explicit future rollouts or modeling of the temporal causal dynamics in traffic interactions. This limitation often results in unstable or overly conservative planning under high-uncertainty conditions, such as occlusions and unexpected events. To overcome these challenges, we introduce OWMDrive, a generative end-to-end driving framework built upon an Occupancy World Model for multi-step 3D occupancy forecasting, which serves as a conditional prior to guide diffusion-based planning. Conditioned on both current observations and predicted future states, the planner iteratively refines trajectory candidates to generate a reinforced driving trajectory. By explicitly modeling scene evolution over future horizons, OWMDrive captures key spatiotemporal causal dependencies, which leads to more foresighted and robust trajectory generation. Extensive experiments demonstrate that OWMDrive significantly improves planning reliability and safety, especially in challenging and partially observable driving scenarios.",
+      "year": 2026,
+      "authors": [
+        "Junjie Cheng",
+        "Ruiqi Song",
+        "Ye Wu",
+        "Nanxin Zeng",
+        "Ximiao Li",
+        "Yunfeng Ai"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 4,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.30421",
+      "url": "https://openalex.org/W7166676698",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv260630421_OWMDrive_Causality-Aware_End-to-End_Autonomous_Driving_via",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260630421_OWMDrive_Causality-Aware_End-to-End_Autonomous_Driving_via.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4406734973",
+      "doi": "10.48550/arxiv.2501.11260",
+      "title": "A Survey of World Models for Autonomous Driving",
+      "abstract": "Recent breakthroughs in autonomous driving have been propelled by advances in robust world modeling, fundamentally transforming how vehicles interpret dynamic scenes and execute safe decision-making. World models have emerged as a linchpin technology, offering high-fidelity representations of the driving environment that integrate multi-sensor data, semantic cues, and temporal dynamics. This paper systematically reviews recent advances in world models for autonomous driving, proposing a three-tiered taxonomy: (i) Generation of Future Physical World, covering Image-, BEV-, OG-, and PC-based generation methods that enhance scene evolution modeling through diffusion models and 4D occupancy forecasting; (ii) Behavior Planning for Intelligent Agents, combining rule-driven and learning-based paradigms with cost map optimization and reinforcement learning for trajectory generation in complex traffic conditions; (ii) Interaction between Prediction and Planning, achieving multi-agent collaborative decision-making through latent space diffusion and memory-augmented architectures. The study further analyzes training paradigms, including self-supervised learning, multimodal pretraining, and generative data augmentation, while evaluating world models' performance in scene understanding and motion prediction tasks. Future research must address key challenges in self-supervised representation learning, multimodal fusion, and advanced simulation to advance the practical deployment of world models in complex urban environments. Overall, the comprehensive analysis provides a technical roadmap for harnessing the transformative potential of world models in advancing safe and reliable autonomous driving solutions.",
+      "year": 2025,
+      "authors": [
+        "Feng, Tuo",
+        "Wenguan Wang",
+        "Yi Yang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 106,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.11260",
+      "url": "https://openalex.org/W4406734973",
+      "key": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402716059",
+      "doi": "10.1109/cvpr52733.2024.01470",
+      "title": "DriveWorld: 4D Pre-Trained Scene Understanding via World Models for Autonomous Driving",
+      "abstract": "Vision-centric autonomous driving has recently raised wide attention due to its lower cost. Pretraining is essential for extracting a universal representation. However, current vision-centric pretraining typically relies on either 2D or 3D pre-text tasks, overlooking the temporal characteristics of autonomous driving as a 4D scene understanding task. In this paper, we address this challenge by introducing a world model-based autonomous driving 4D representation learning framework, dubbed DriveWorld, which is capable of pretraining from multi-camera driving videos in a spatiotemporal fashion. Specifically, we propose a Memory State-Space Model for spatiotemporal modelling, which consists of a Dynamic Memory Bank module for learning temporal-aware latent dynamics to predict future changes and a Static Scene Propagation module for learning spatial-aware latent statics to offer comprehensive scene contexts. We additionally introduce a Task Prompt to decouple task-aware features for various downstream tasks. The experiments demonstrate that DriveWorld delivers promising results on various autonomous driving tasks. When pretrained with the OpenScene dataset, DriveWorld achieves a 7.5% increase in mAP for 3D object detection, a 3.0% increase in IoU for online mapping, a 5.0% increase in AMOTA for multi-object tracking, a 0.1m decrease in minADE for motionforecasting, a 3.0% increase in IoU for occupancy prediction, and a 0.34m reduction in average L2 error for planning.",
+      "year": 2024,
+      "authors": [
+        "Chen Min",
+        "Dawei Zhao",
+        "Xiao Liang",
+        "Jian Cun Zhao",
+        "Xinli Xu",
+        "Zheng Dong Zhu",
+        "Lei Jin",
+        "Jianshu Li",
+        "Yulan Guo",
+        "Junliang Xing",
+        "Liping Jing",
+        "Yiming Nie",
+        "Bin Dai"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 160,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.04390",
+      "url": "https://openalex.org/W4402716059",
+      "key": "openalex_101109_cvpr52733202401470_DriveWorld_4D_Pre-Trained_Scene_Understanding_via_World",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202401470_DriveWorld_4D_Pre-Trained_Scene_Understanding_via_World.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413017878",
+      "doi": "10.1109/iv64158.2025.11097718",
+      "title": "MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations",
+      "abstract": "World models for autonomous driving have the potential to dramatically improve the reasoning capabilities of today's systems. However, most works focus on camera data, with only a few that leverage lidar data or combine both to better represent autonomous vehicle sensor setups. In addition, raw sensor predictions are less actionable than 3D occupancy predictions, but there are no works examining the effects of combining both multimodal sensor data and 3D occupancy prediction. In this work, we perform a set of experiments with a MUltimodal World Model with Geometric VOxel represen-tations (MUVO) to evaluate different sensor fusion strategies to better understand the effects on sensor data prediction. We also analyze potential weaknesses of current sensor fusion approaches and examine the benefits of additionally predicting 3D occupancy.",
+      "year": 2025,
+      "authors": [
+        "Daniel Bogdoll",
+        "Yitian Yang",
+        "Tim Joseph",
+        "Melih Yazgan",
+        "J. Marius Zöllner"
+      ],
+      "venue": "IEEE Intelligent Vehicles Symposium",
+      "cited_by": 57,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.11762",
+      "url": "https://openalex.org/W4413017878",
+      "key": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou",
+      "file_kind": "txt",
+      "file": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4396754486",
+      "doi": "10.1109/tiv.2024.3398357",
+      "title": "World Models for Autonomous Driving: An Initial Survey",
+      "abstract": "In the rapidly evolving landscape of autonomous driving, the capability to accurately predict future events and assess their implications is paramount for both safety and efficiency, critically aiding the decision-making process. World models have emerged as a transformative approach, enabling autonomous driving systems to synthesize and interpret vast amounts of sensor data, thereby predicting potential future scenarios and compensating for information gaps. This paper provides an initial review of the current state and prospective advancements of world models in autonomous driving, spanning their theoretical underpinnings, practical applications, and ongoing research efforts aimed at overcoming existing limitations. Highlighting the significant role of world models in advancing autonomous driving technologies, this survey aspires to serve as a foundational reference for the research community, facilitating swift access to and comprehension of this burgeoning field, and inspiring continued innovation and exploration.",
+      "year": 2024,
+      "authors": [
+        "Yanchen Guan",
+        "Haicheng Liao",
+        "Zhenning Li",
+        "Jia Sheng Hu",
+        "Runze Yuan",
+        "Guohui Zhang",
+        "Chengzhong Xu"
+      ],
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "cited_by": 192,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.02622",
+      "url": "https://openalex.org/W4396754486",
+      "key": "openalex_101109_tiv20243398357_World_Models_for_Autonomous_Driving_An_Initial_Survey",
+      "file_kind": "txt",
+      "file": "openalex_101109_tiv20243398357_World_Models_for_Autonomous_Driving_An_Initial_Survey.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4385849358",
+      "doi": "10.48550/arxiv.2308.07234",
+      "title": "UniWorld: Autonomous Driving Pre-training via World Models",
+      "abstract": "In this paper, we draw inspiration from Alberto Elfes' pioneering work in 1989, where he introduced the concept of the occupancy grid as World Models for robots. We imbue the robot with a spatial-temporal world model, termed UniWorld, to perceive its surroundings and predict the future behavior of other participants. UniWorld involves initially predicting 4D geometric occupancy as the World Models for foundational stage and subsequently fine-tuning on downstream tasks. UniWorld can estimate missing information concerning the world state and predict plausible future states of the world. Besides, UniWorld's pre-training process is label-free, enabling the utilization of massive amounts of image-LiDAR pairs to build a Foundational Model.The proposed unified pre-training framework demonstrates promising results in key tasks such as motion prediction, multi-camera 3D object detection, and surrounding semantic scene completion. When compared to monocular pre-training methods on the nuScenes dataset, UniWorld shows a significant improvement of about 1.5% in IoU for motion prediction, 2.0% in mAP and 2.0% in NDS for multi-camera 3D object detection, as well as a 3% increase in mIoU for surrounding semantic scene completion. By adopting our unified pre-training method, a 25% reduction in 3D training annotation costs can be achieved, offering significant practical value for the implementation of real-world autonomous driving. Codes are publicly available at https://github.com/chaytonmin/UniWorld.",
+      "year": 2023,
+      "authors": [
+        "Chen Min",
+        "Dawei Zhao",
+        "Xiao, Liang",
+        "Yiming Nie",
+        "Bin Dai"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 52,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2308.07234",
+      "url": "https://openalex.org/W4385849358",
+      "key": "openalex_1048550_arxiv230807234_UniWorld_Autonomous_Driving_Pre-training_via_World_Models",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv230807234_UniWorld_Autonomous_Driving_Pre-training_via_World_Models.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4390873564",
+      "doi": "10.1109/iccv51070.2023.01986",
+      "title": "SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving",
+      "abstract": "3D scene understanding plays a vital role in vision-based autonomous driving. While most existing methods focus on 3D object detection, they have difficulty describing real-world objects of arbitrary shapes and infinite classes. Towards a more comprehensive perception of a 3D scene, in this paper, we propose a SurroundOcc method to predict the 3D occupancy with multi-camera images. We first extract multi-scale features for each image and adopt spatial 2D-3D attention to lift them to the 3D volume space. Then we apply 3D convolutions to progressively upsample the volume features and impose supervision on multiple levels. To obtain dense occupancy prediction, we design a pipeline to generate dense occupancy ground truth without expansive occupancy annotations. Specifically, we fuse multi-frame LiDAR scans of dynamic objects and static scenes separately. Then we adopt Poisson Reconstruction to fill the holes and voxelize the mesh to get dense occupancy labels. Extensive experiments on nuScenes and SemanticKITTI datasets demonstrate the superiority of our method. Code and dataset are available at https://github.com/weiyithu/SurroundOcc.",
+      "year": 2023,
+      "authors": [
+        "Yi Wei",
+        "Linqing Zhao",
+        "Wenzhao Zheng",
+        "Zheng Hong Zhu",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 540,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.09551",
+      "url": "https://openalex.org/W4390873564",
+      "key": "openalex_101109_iccv51070202301986_SurroundOcc_Multi-Camera_3D_Occupancy_Prediction_for_Au",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51070202301986_SurroundOcc_Multi-Camera_3D_Occupancy_Prediction_for_Au.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416525310",
+      "doi": "10.1109/iccv51701.2025.02527",
+      "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+      "abstract": "Diffusion models have demonstrated exceptional visual quality in video generation, making them promising for autonomous driving world modeling. However, existing video diffusion-based world models struggle with flexible-length, long-horizon predictions and integrating trajectory planning. This is because conventional video diffusion models rely on global joint distribution modeling of fixed-length frame sequences rather than sequentially constructing localized distributions at each timestep. In this work, we propose Epona, an autoregressive diffusion world model that enables localized spatiotemporal distribution modeling through two key innovations: 1) Decoupled spatiotemporal factorization that separates temporal dynamics modeling from fine-grained future world generation, and 2) Modular trajectory and video prediction that seamlessly integrate motion planning with visual modeling in an end-to-end framework. Our architecture enables high-resolution, long-duration generation while introducing a novel chain-of-forward training strategy to address error accumulation in autoregressive loops. Experimental results demonstrate state-of-the-art performance with 7.4\\% FVD improvement and minutes longer prediction duration compared to prior works. The learned world model further serves as a real-time motion planner, outperforming strong end-to-end planners on NAVSIM benchmarks. Code will be publicly available at \\href{https://github.com/Kevin-thu/Epona/}{https://github.com/Kevin-thu/Epona/}.",
+      "year": 2025,
+      "authors": [
+        "Kaiwen Zhang",
+        "Zhenyu Tang",
+        "Xiaotao Hu",
+        "Xingang Pan",
+        "Xiaoyang Guo",
+        "Yuan Liu",
+        "Jingwei Huang",
+        "Li Yuan",
+        "Qian Zhang",
+        "Xiaoxiao Long",
+        "Xun Cao",
+        "Wei Yin"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 189,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.24113",
+      "url": "https://openalex.org/W4416525310",
+      "key": "openalex_101109_iccv51701202502527_Epona_Autoregressive_Diffusion_World_Model_for_Autonomo",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502527_Epona_Autoregressive_Diffusion_World_Model_for_Autonomo.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4402753757",
+      "doi": "10.1109/cvpr52733.2024.02030",
+      "title": "Cam4DOcc: Benchmark for Camera-Only 4D Occupancy Forecasting in Autonomous Driving Applications",
+      "abstract": "Understanding how the surrounding environment changes is crucial for performing downstream tasks safely and reliably in autonomous driving applications. Recent occupancy estimation techniques using only camera images as input can provide dense occupancy representations of large-scale scenes based on the current observation. However, they are mostly limited to representing the current 3D space and do not consider the future state of surrounding objects along the time axis. To extend camera-only occupancy estimation into spatiotemporal prediction, we propose Cam4DOcc, a new benchmark for camera-only 4D occupancy forecasting, evaluating the surrounding scene changes in a near future. We build our benchmark based on multiple publicly available datasets, including nuScenes, nuScenes-Occupancy, and Lyft-Level5, which provides sequential occupancy states of general movable and static objects, as well as their 3D backward centripetal flow. To establish this benchmark for future research with comprehensive comparisons, we introduce four baseline types from diverse camera-based perception and prediction implementations, including a static-world occupancy model, voxelization of point cloud prediction, 2D-3D instance-based prediction, and our proposed novel end-to-end 4D occupancy forecasting network. Furthermore, the standardized evaluation protocol for preset multiple tasks is also provided to compare the performance of all the proposed baselines on present and future occupancy estimation with respect to objects of interest in autonomous driving scenarios. The dataset and our implementation of all four baselines in the proposed Cam4DOcc benchmark are released as open source at https://github.com/haomo-ai/Cam4DOcc.",
+      "year": 2024,
+      "authors": [
+        "Junyi Ma",
+        "Xieyuanli Chen",
+        "Jiawei Huang",
+        "Jingyi Xu",
+        "Zhen Luo",
+        "Jintao Xu",
+        "Weihao Gu",
+        "Rui Ai",
+        "Hesheng Wang"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 91,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.17663",
+      "url": "https://openalex.org/W4402753757",
+      "key": "openalex_101109_cvpr52733202402030_Cam4DOcc_Benchmark_for_Camera-Only_4D_Occupancy_Forecas",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52733202402030_Cam4DOcc_Benchmark_for_Camera-Only_4D_Occupancy_Forecas.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4388963851",
+      "doi": "10.48550/arxiv.2311.13549",
+      "title": "ADriver-I: A General World Model for Autonomous Driving",
+      "abstract": "Typically, autonomous driving adopts a modular design, which divides the full stack into perception, prediction, planning and control parts. Though interpretable, such modular design tends to introduce a substantial amount of redundancy. Recently, multimodal large language models (MLLM) and diffusion techniques have demonstrated their superior performance on comprehension and generation ability. In this paper, we first introduce the concept of interleaved vision-action pair, which unifies the format of visual features and control signals. Based on the vision-action pairs, we construct a general world model based on MLLM and diffusion model for autonomous driving, termed ADriver-I. It takes the vision-action pairs as inputs and autoregressively predicts the control signal of the current frame. The generated control signals together with the historical vision-action pairs are further conditioned to predict the future frames. With the predicted next frame, ADriver-I performs further control signal prediction. Such a process can be repeated infinite times, ADriver-I achieves autonomous driving in the world created by itself. Extensive experiments are conducted on nuScenes and our large-scale private datasets. ADriver-I shows impressive performance compared to several constructed baselines. We hope our ADriver-I can provide some new insights for future autonomous driving and embodied intelligence.",
+      "year": 2023,
+      "authors": [
+        "Fan Jia",
+        "Weixin Mao",
+        "Liu, Yingfei",
+        "Yucheng Zhao",
+        "Yuqing Wen",
+        "Chi Zhang",
+        "Xiangyu Zhang",
+        "Tiancai Wang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 150,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2311.13549",
+      "url": "https://openalex.org/W4388963851",
+      "key": "openalex_1048550_arxiv231113549_ADriver-I_A_General_World_Model_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv231113549_ADriver-I_A_General_World_Model_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7133220049",
+      "doi": "10.52202/075280-2809",
+      "title": "Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving",
+      "abstract": "Robotic perception requires the modeling of both 3D geometry and semantics. Existing methods typically focus on estimating 3D bounding boxes, neglecting finer geometric details and struggling to handle general, out-of-vocabulary objects. 3D occupancy prediction, which estimates the detailed occupancy states and semantics of a scene, is an emerging task to overcome these limitations. To support 3D occupancy prediction, we develop a label generation pipeline that produces dense, visibility-aware labels for any given scene. This pipeline comprises three stages: voxel densification, occlusion reasoning, and image-guided voxel refinement. We establish two benchmarks, derived from the Waymo Open Dataset and the nuScenes Dataset, namely Occ3D-Waymo and Occ3D-nuScenes benchmarks. Furthermore, we provide an extensive analysis of the proposed dataset with various baseline models. Lastly, we propose a new model, dubbed Coarse-to-Fine Occupancy (CTF-Occ) network, which demonstrates superior performance on the Occ3D benchmarks. The code, data, and benchmarks are released at https://tsinghua-mars-lab.github.io/Occ3D/.",
+      "year": 2023,
+      "authors": [
+        "Xiaoyu Tian",
+        "Tao Jiang",
+        "Longfei Yun",
+        "Yucheng Mao",
+        "Huitong Yang",
+        "Yue Wang",
+        "Yilun Wang",
+        "Hang Zhao"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 514,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7133220049",
+      "key": "openalex_1052202_075280-2809_Occ3D_A_Large-Scale_3D_Occupancy_Prediction_Benchmark_for_Aut",
+      "file_kind": "txt",
+      "file": "openalex_1052202_075280-2809_Occ3D_A_Large-Scale_3D_Occupancy_Prediction_Benchmark_for_Aut.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413945179",
+      "doi": "10.1109/icra55743.2025.11128716",
+      "title": "Diffusion-Based Generative Models for 3D Occupancy Prediction in Autonomous Driving",
+      "abstract": "Accurately predicting 3D occupancy grids from visual inputs is critical for autonomous driving, but current discriminative methods struggle with noisy data, incomplete observations, and the complex structures inherent in 3D scenes. In this work, we reframe 3D occupancy prediction as a generative modeling task using diffusion models, which learn the underlying data distribution and incorporate 3D scene priors. This approach enhances prediction consistency, noise robustness, and better handles the intricacies of 3D spatial structures. Our extensive experiments show that diffusion-based generative models outperform state-of-the-art discriminative approaches, delivering more realistic and accurate occupancy predictions, especially in occluded or low-visibility regions. Moreover, the improved predictions significantly benefit downstream planning tasks, highlighting the practical advantages of our method for real-world autonomous driving applications.",
+      "year": 2025,
+      "authors": [
+        "Yunsheng Wang",
+        "Yicheng Liu",
+        "Tianyuan Yuan",
+        "Yucheng Mao",
+        "Yingshi Liang",
+        "Xin Yang",
+        "Honggang Zhang",
+        "Hang Zhao"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 8,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.23115",
+      "url": "https://openalex.org/W4413945179",
+      "key": "openalex_101109_icra55743202511128716_Diffusion-Based_Generative_Models_for_3D_Occupancy_P",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra55743202511128716_Diffusion-Based_Generative_Models_for_3D_Occupancy_P.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4407683685",
+      "doi": "10.48550/arxiv.2502.10498",
+      "title": "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey",
+      "abstract": "The Driving World Model (DWM), which focuses on predicting scene evolution during the driving process, has emerged as a promising paradigm in the pursuit of autonomous driving (AD). DWMs enable AD systems to better perceive, understand, and interact with dynamic driving environments. In this survey, we provide a comprehensive overview of the latest progress in DWM. First, we review the DWM ecosystem, which is constructed using mainstream simulators, high-impact datasets, and various metrics that evaluate DWMs across multiple dimensions. We then categorize existing approaches based on the modalities of the predicted scenes, including video, point cloud, occupancy, latent feature, and traffic map, and summarize their specific applications in AD research. In addition, the performance of representative approaches across generating and driving tasks is presented. Finally, we discuss the potential limitations of current research and propose future directions. This survey provides valuable insights into the development and application of DWM, fostering its broader adoption in AD. The relevant papers are collected at https://github.com/LMD0311/Awesome-World-Model.",
+      "year": 2025,
+      "authors": [
+        "Sifan Tu",
+        "Xin Zhou",
+        "Dingkang Liang",
+        "Jiang, Xingyu",
+        "Yumeng Zhang",
+        "Li, Xiaofan",
+        "Xiang Bai"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 45,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.10498",
+      "url": "https://openalex.org/W4407683685",
+      "also_doi": [],
+      "key": "openalex_1048550_arxiv250210498_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_C",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250210498_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_C.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4390872423",
+      "doi": "10.1109/iccv51070.2023.00766",
+      "title": "VAD: Vectorized Scene Representation for Efficient Autonomous Driving",
+      "abstract": "Autonomous driving requires a comprehensive understanding of the surrounding environment for reliable trajectory planning. Previous works rely on dense rasterized scene representation (e.g., agent occupancy and semantic map) to perform planning, which is computationally intensive and misses the instance-level structure information. In this paper, we propose VAD, an end-to-end vectorized paradigm for autonomous driving, which models the driving scene as a fully vectorized representation. The proposed vectorized paradigm has two significant advantages. On one hand, VAD exploits the vectorized agent motion and map elements as explicit instance-level planning constraints which effectively improves planning safety. On the other hand, VAD runs much faster than previous end-to-end planning methods by getting rid of computation-intensive rasterized representation and hand-designed post-processing steps. VAD achieves state-of-the-art end-to-end planning performance on the nuScenes dataset, outperforming the previous best method by a large margin. Our base model, VAD-Base, greatly reduces the average collision rate by 29.0% and runs 2.5× faster. Besides, a lightweight variant, VAD-Tiny, greatly improves the inference speed (up to 9.3×) while achieving comparable planning performance. We believe the excellent performance and the high efficiency of VAD are critical for the real-world deployment of an autonomous driving system. Code and models are available at https://github.com/hustvl/VAD for facilitating future research.",
+      "year": 2023,
+      "authors": [
+        "Bo Jiang",
+        "Shaoyu Chen",
+        "Qing Xu",
+        "Bencheng Liao",
+        "Jiajie Chen",
+        "Helong Zhou",
+        "Qian Zhang",
+        "Wenyu Liu",
+        "Chang Huang",
+        "Xinggang Wang"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 1013,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.12077",
+      "url": "https://openalex.org/W4390872423",
+      "key": "openalex_101109_iccv51070202300766_VAD_Vectorized_Scene_Representation_for_Efficient_Auton",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51070202300766_VAD_Vectorized_Scene_Representation_for_Efficient_Auton.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4404582780",
+      "doi": "10.1007/978-3-031-72643-9_12",
+      "title": "Neural Volumetric World Models for Autonomous Driving",
+      "abstract": "",
+      "year": 2024,
+      "authors": [
+        "Zanming Huang",
+        "Jimuyang Zhang",
+        "Eshed Ohn-Bar"
+      ],
+      "venue": "Lecture notes in computer science",
+      "cited_by": 22,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4404582780",
+      "key": "openalex_101007_978-3-031-72643-9_12_Neural_Volumetric_World_Models_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "openalex_101007_978-3-031-72643-9_12_Neural_Volumetric_World_Models_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413146302",
+      "doi": "10.1109/cvpr52734.2025.00635",
+      "title": "GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction",
+      "abstract": "3D occupancy prediction is important for autonomous driving due to its comprehensive perception of the surroundings. To incorporate sequential inputs, most existing methods fuse representations from previous frames to infer the current 3D occupancy. However, they fail to consider the continuity of driving scenarios and ignore the strong prior provided by the evolution of 3D scenes (e.g., only dynamic objects move). In this paper, we propose a world-model-based framework to exploit the scene evolution for perception. We reformulate 3D occupancy prediction as a 4D occupancy forecasting problem conditioned on the current sensor input. We decompose the scene evolution into three factors: 1) ego motion alignment of static scenes; 2) local movements of dynamic objects; and 3) completion of newly-observed scenes. We then employ a Gaussian world model (GaussianWorld) to explicitly exploit these priors and infer the scene evolution in the 3D Gaussian space considering the current RGB observation. We evaluate the effectiveness of our framework on the widely used nuScenes dataset. Our GaussianWorld improves the performance of the single-frame counterpart by over 2% in mIoU without introducing additional computations. Code: https://github.com/zuosc19/GaussianWorld.",
+      "year": 2025,
+      "authors": [
+        "Sicheng Zuo",
+        "Wenzhao Zheng",
+        "Yuanhui Huang",
+        "Jie Na Zhou",
+        "Jiwen Lu"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 97,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.10373",
+      "url": "https://openalex.org/W4413146302",
+      "key": "openalex_101109_cvpr52734202500635_GaussianWorld_Gaussian_World_Model_for_Streaming_3D_Occ",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202500635_GaussianWorld_Gaussian_World_Model_for_Streaming_3D_Occ.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7167788595",
+      "doi": "10.1016/j.eswa.2026.133554",
+      "title": "ProgressiveDrive: Reconciling fidelity and consistency in world models for autonomous driving",
+      "abstract": "",
+      "year": 2026,
+      "authors": [
+        "Dongfang Zhang",
+        "Yuan Zou",
+        "Guodong Du",
+        "Wei Sun",
+        "Ping Lu",
+        "Xudong Zhang",
+        "J M Zhang"
+      ],
+      "venue": "Expert Systems with Applications",
+      "cited_by": 0,
+      "is_oa": false,
+      "pdf_url": "",
+      "url": "https://openalex.org/W7167788595",
+      "key": "openalex_101016_jeswa2026133554_ProgressiveDrive_Reconciling_fidelity_and_consistency_in_w",
+      "file_kind": "txt",
+      "file": "openalex_101016_jeswa2026133554_ProgressiveDrive_Reconciling_fidelity_and_consistency_in_w.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7236534922",
+      "doi": "",
+      "title": "OccDriver: Future Occupancy Guided Dual-branch Trajectory Planner in Autonomous Driving",
+      "abstract": "Trajectory planning for autonomous driving is challenging due to agents' behavioral uncertainty and intricate multi-agent interaction modeling. Most existing studies generate trajectories without explicitly exploiting possible scene evolution, while world models predict consequences from ego behavior, enabling more informed planning decisions. Inspired by the world model, we propose OccDriver, a novel rasterized-to-vectorized dual-branch framework for trajectory planning. This pipeline performs a coarse-to-fine trajectory decoding process: The vectorized branch first generate multimodal coarse trajectories; Then the rasterized branch predicts future scene evolutions conditioned on each coarse trajectory via occupancy flow prediction; Lastly, the vectorized branch leverages intuitive future interaction evolution of each modality from the rasterized branch and produces refined trajectories. Several cross-modality (occupancy and trajectory) losses are further introduced to improve the consistency between trajectory and occupancy prediction. Additionally, we apply a contingency objective in both occupancy space, considering marginal and joint occupancy distributions in different planning scopes. Our model is assessed on the large-scale real-world nuPlan dataset and its associated planning benchmark. Experiments show that OccDriver achieves state-of-the-art in both Non-Reactive and Reactive closed-loop performance.",
+      "year": 2026,
+      "authors": [
+        "Zhao Huang",
+        "Bowen Zhang",
+        "Zhongzhu Li",
+        "Di Lin"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/e59bf9a9077c361ed57180fc79c5b8d8-Paper-Conference.pdf",
+      "url": "https://openalex.org/W7236534922",
+      "key": "openalex_W7236534922_OccDriver_Future_Occupancy_Guided_Dual-branch_Trajectory_Planner_in_A",
+      "file_kind": "txt",
+      "file": "openalex_W7236534922_OccDriver_Future_Occupancy_Guided_Dual-branch_Trajectory_Planner_in_A.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405907309",
+      "doi": "10.1109/tnnls.2024.3495045",
+      "title": "Grid-Centric Traffic Scenario Perception for Autonomous Driving: A Comprehensive Review",
+      "abstract": "The grid-centric perception is a crucial field for mobile robot perception and navigation. Nonetheless, the grid-centric perception is less prevalent than object-centric perception as autonomous vehicles need to accurately perceive highly dynamic, large-scale traffic scenarios, and the complexity and computational costs of grid-centric perception are high. In recent years, the rapid development of deep learning techniques and hardware provides fresh insights into the evolution of grid-centric perception. The fundamental difference between grid-centric and object-centric pipeline lies in that grid-centric perception follows a geometry-first paradigm which is more robust to the open-world driving scenarios with endless long-tailed semantically unknown obstacles. Recent research demonstrates the great advantages of grid-centric perception, such as comprehensive fine-grained environmental representation, greater robustness to occlusion and irregular-shaped objects, better ground estimation, and safer planning policies. There is also a growing trend that the capacity of occupancy networks is greatly expanded to 4-D scene perception and prediction, and the latest techniques are highly related to new research topics, such as 4-D occupancy forecasting, generative artificial intelligence (GenAI), and world models in the field of autonomous driving. Given the lack of current surveys for this rapidly expanding field, we present a hierarchically structured review of grid-centric perception for autonomous vehicles. We organize previous and current knowledge of occupancy grid techniques along the main vein from 2-D bird-eye view (BEV) grids to 3-D occupancy to 4-D occupancy forecasting. We additionally summarize label-efficient occupancy learning and the role of grid-centric perception in driving systems. Finally, we present a summary of the current research trend and provide future outlooks.",
+      "year": 2024,
+      "authors": [
+        "Yining Shi",
+        "Kun Jiang",
+        "Jiusi Li",
+        "Zelin Qian",
+        "Junze Wen",
+        "Mengmeng Yang",
+        "Ke Wang",
+        "Diange Yang"
+      ],
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "cited_by": 67,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2303.01212",
+      "url": "https://openalex.org/W4405907309",
+      "key": "openalex_101109_tnnls20243495045_Grid-Centric_Traffic_Scenario_Perception_for_Autonomous_D",
+      "file_kind": "txt",
+      "file": "openalex_101109_tnnls20243495045_Grid-Centric_Traffic_Scenario_Perception_for_Autonomous_D.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415272869",
+      "doi": "10.48550/arxiv.2510.12796",
+      "title": "DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving",
+      "abstract": "Scaling Vision-Language-Action (VLA) models on large-scale data offers a promising path to achieving a more generalized driving intelligence. However, VLA models are limited by a ``supervision deficit'': the vast model capacity is supervised by sparse, low-dimensional actions, leaving much of their representational power underutilized. To remedy this, we propose \\textbf{DriveVLA-W0}, a training paradigm that employs world modeling to predict future images. This task generates a dense, self-supervised signal that compels the model to learn the underlying dynamics of the driving environment. We showcase the paradigm's versatility by instantiating it for two dominant VLA archetypes: an autoregressive world model for VLAs that use discrete visual tokens, and a diffusion world model for those operating on continuous visual features. Building on the rich representations learned from world modeling, we introduce a lightweight action expert to address the inference latency for real-time deployment. Extensive experiments on the NAVSIM v1/v2 benchmark and a 680x larger in-house dataset demonstrate that DriveVLA-W0 significantly outperforms BEV and VLA baselines. Crucially, it amplifies the data scaling law, showing that performance gains accelerate as the training dataset size increases.",
+      "year": 2026,
+      "authors": [
+        "Yingyan Li",
+        "Shuyao Shang",
+        "Weiwei Liu",
+        "Zhan, Bing",
+        "Haochen Wang",
+        "Wang, Yuqi",
+        "Yuntao Chen",
+        "Xiaoman Wang",
+        "Yun An",
+        "Chufeng Tang",
+        "Lu Hou",
+        "Fan, Lue",
+        "Zhaoxiang Zhang"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 134,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/0d70423f59c5fdd24f0dd3fa52e34623-Paper-Conference.pdf",
+      "url": "https://openalex.org/W4415272869",
+      "key": "openalex_1048550_arxiv251012796_DriveVLA-W0_World_Models_Amplify_Data_Scaling_Law_in_Auton",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv251012796_DriveVLA-W0_World_Models_Amplify_Data_Scaling_Law_in_Auton.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2610.22450v1",
+      "doi": "",
+      "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+      "abstract": "Three dimensional modeling for autonomous driving must continuously estimate road geometry, obstacle occupancy, traffic participant behavior, and observational uncertainty under limited computational resources. Existing reconstruction methods can synthesize realistic novel views, but visual fidelity does not sufficiently characterize the geometric reliability required for driving. Generative world models can expand scenarios and predict future observations, yet may introduce content unsupported by measurements. We propose DriveWorld3D, a framework combining temporal video learning, measurement constraints from multiple sensors, and offline generative simulation. Its online component maintains a unified world state comprising road surfaces, volumetric occupancy, dynamic entities, and road relations, while separately representing physical occupancy, observability, and evidence provenance. Action conditioned future prediction and risk sensitive planning connect this representation to driving decisions. Its offline component reconstructs recorded scenes using neural radiance fields or 3D Gaussian Splatting, then expands long tail conditions using generative models while restricting the use of generated content as geometric ground truth. We specify data partitioning, sensor ablations, fault injection, paired closed loop testing, and real to simulation consistency assessment. The central hypothesis is that explicit evidence management can reduce dangerous false free space predictions and occlusion risk within a matched computational budget while retaining acceptable driving efficiency. All performance claims remain subject to experimental validation. Keywords: autonomous driving; 3D occupancy; sensor fusion; uncertainty; generative world models; NeRF; 3D Gaussian Splatting; closed loop simulation",
+      "year": 2026,
+      "authors": [
+        "Wei Wang",
+        "Yiru Veronika Wang",
+        "Yihan Wang",
+        "Zihao Li",
+        "Xiaohui Liang"
+      ],
+      "venue": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion. arXiv:2311.01017, 2023",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.22450v1",
+      "url": "http://arxiv.org/abs/2610.22450v1",
+      "key": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul",
+      "file_kind": "txt",
+      "file": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.21581v4",
+      "doi": "",
+      "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+      "abstract": "While end-to-end autonomous driving has advanced significantly, prevailing methods remain fundamentally misaligned with human cognitive principles in both perception and planning. In this paper, we propose CogAD, a novel end-to-end autonomous driving model that emulates the hierarchical cognition mechanisms of human drivers. CogAD implements dual hierarchical mechanisms: global-to-local context processing for human-like perception and intent-conditioned multi-mode trajectory generation for cognitively-inspired planning. The proposed method demonstrates three principal advantages: comprehensive environmental understanding through hierarchical perception, robust planning exploration enabled by multi-level planning, and diverse yet reasonable multi-modal trajectory generation facilitated by dual-level uncertainty modeling. Extensive experiments on nuScenes and Bench2Drive demonstrate that CogAD achieves state-of-the-art performance in end-to-end planning, exhibiting particular superiority in long-tail scenarios and robust generalization to complex real-world driving conditions.",
+      "year": 2025,
+      "authors": [
+        "Zhennan Wang",
+        "Jianing Teng",
+        "Canqun Xiang",
+        "Kangliang Chen",
+        "Xing Pan",
+        "Lu Deng",
+        "Weihao Gu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.21581v4",
+      "url": "http://arxiv.org/abs/2505.21581v4",
+      "key": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2509.23922v1",
+      "doi": "",
+      "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+      "abstract": "Closed-loop evaluation is increasingly critical for end-to-end autonomous driving. Current closed-loop benchmarks using the CARLA simulator rely on manually configured traffic scenarios, which can diverge from real-world conditions, limiting their ability to reflect actual driving performance. To address these limitations, we introduce a simple yet challenging closed-loop evaluation framework that closely integrates real-world driving scenarios into the CARLA simulator with infrastructure cooperation. Our approach involves extracting 800 dynamic traffic scenarios selected from a comprehensive 100-hour video dataset captured by high-mounted infrastructure sensors, and creating static digital twin assets for 15 real-world intersections with consistent visual appearance. These digital twins accurately replicate the traffic and environmental characteristics of their real-world counterparts, enabling more realistic simulations in CARLA. This evaluation is challenging due to the diversity of driving behaviors, locations, weather conditions, and times of day at complex urban intersections. In addition, we provide a comprehensive closed-loop benchmark for evaluating end-to-end autonomous driving models. Project URL: \\href{https://github.com/AIR-THU/DriveE2E}{https://github.com/AIR-THU/DriveE2E}.",
+      "year": 2025,
+      "authors": [
+        "Haibao Yu",
+        "Wenxian Yang",
+        "Ruiyang Hao",
+        "Chuanye Wang",
+        "Jiaru Zhong",
+        "Ping Luo",
+        "Zaiqing Nie"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.23922v1",
+      "url": "http://arxiv.org/abs/2509.23922v1",
+      "key": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through",
+      "file_kind": "txt",
+      "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2312.06351v1",
+      "doi": "",
+      "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+      "abstract": "Various methods have been proposed for utilizing Large Language Models (LLMs) in autonomous driving. One strategy of using LLMs for autonomous driving involves inputting surrounding objects as text prompts to the LLMs, along with their coordinate and velocity information, and then outputting the subsequent movements of the vehicle. When using LLMs for such purposes, capabilities such as spatial recognition and planning are essential. In particular, two foundational capabilities are required: (1) spatial-aware decision making, which is the ability to recognize space from coordinate information and make decisions to avoid collisions, and (2) the ability to adhere to traffic rules. However, quantitative research has not been conducted on how accurately different types of LLMs can handle these problems. In this study, we quantitatively evaluated these two abilities of LLMs in the context of autonomous driving. Furthermore, to conduct a Proof of Concept (POC) for the feasibility of implementing these abilities in actual vehicles, we developed a system that uses LLMs to drive a vehicle.",
+      "year": 2023,
+      "authors": [
+        "Kotaro Tanahashi",
+        "Yuichi Inoue",
+        "Yu Yamaguchi",
+        "Hidetatsu Yaginuma",
+        "Daiki Shiotsuka",
+        "Hiroyuki Shimatani",
+        "Kohei Iwamasa",
+        "Yoshiaki Inoue",
+        "Takafumi Yamaguchi",
+        "Koki Igari",
+        "Tsukasa Horinouchi",
+        "Kento Tokuhiro",
+        "Yugo Tokuchi",
+        "Shunsuke Aoki"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2312.06351v1",
+      "url": "http://arxiv.org/abs/2312.06351v1",
+      "key": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr",
+      "file_kind": "txt",
+      "file": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.23499v4",
+      "doi": "",
+      "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+      "abstract": "Collecting a high-quality dataset is a critical task that demands meticulous attention to detail, as overlooking certain aspects can render the entire dataset unusable. Autonomous driving challenges remain a prominent area of research, requiring further exploration to enhance the perception and planning performance of vehicles. However, existing datasets are often incomplete. For instance, datasets that include perception information generally lack planning data, while planning datasets typically consist of extensive driving sequences where the ego vehicle predominantly drives forward, offering limited behavioral diversity. In addition, many real datasets struggle to evaluate their models, especially for planning tasks, since they lack a proper closed-loop evaluation setup. The CARLA Leaderboard 2.0 challenge, which provides a diverse set of scenarios to address the long-tail problem in autonomous driving, has emerged as a valuable alternative platform for developing perception and planning models in both open-loop and closed-loop evaluation setups. Nevertheless, existing datasets collected on this platform present certain limitations. Some datasets appear to be tailored primarily for limited sensor configuration, with particular sensor configurations. To support end-to-end autonomous driving research, we have collected a new dataset comprising over 2.85 million frames using the CARLA simulation environment for the diverse Leaderboard 2.0 challenge scenarios. Our dataset is designed not only for planning tasks but also supports dynamic object detection, lane divider detection, centerline detection, traffic light recognition, prediction tasks and visual language action models . Furthermore, we demonstrate its versatility by training various models using our dataset. Moreover, we also provide numerical rarity scores to understand how rarely the current state occurs in the dataset.",
+      "year": 2026,
+      "authors": [
+        "Tugrul Gorgulu",
+        "Atakan Dag",
+        "M. Esat Kalfaoglu",
+        "Halil Ibrahim Kuru",
+        "Baris Can Cam",
+        "Halil Ibrahim Ozturk",
+        "Ozsel Kilinc"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.23499v4",
+      "url": "http://arxiv.org/abs/2602.23499v4",
+      "key": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d",
+      "file_kind": "txt",
+      "file": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2412.15208v2",
+      "doi": "",
+      "title": "OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving",
+      "abstract": "Since the advent of Multimodal Large Language Models (MLLMs), they have made a significant impact across a wide range of real-world applications, particularly in Autonomous Driving (AD). Their ability to process complex visual data and reason about intricate driving scenarios has paved the way for a new paradigm in end-to-end AD systems. However, the progress of developing end-to-end models for AD has been slow, as existing fine-tuning methods demand substantial resources, including extensive computational power, large-scale datasets, and significant funding. Drawing inspiration from recent advancements in inference computing, we propose OpenEMMA, an open-source end-to-end framework based on MLLMs. By incorporating the Chain-of-Thought reasoning process, OpenEMMA achieves significant improvements compared to the baseline when leveraging a diverse range of MLLMs. Furthermore, OpenEMMA demonstrates effectiveness, generalizability, and robustness across a variety of challenging driving scenarios, offering a more efficient and effective approach to autonomous driving. We release all the codes in https://github.com/taco-group/OpenEMMA.",
+      "year": 2024,
+      "authors": [
+        "Shuo Xing",
+        "Chengyuan Qian",
+        "Yuping Wang",
+        "Hongyuan Hua",
+        "Kexin Tian",
+        "Yang Zhou",
+        "Zhengzhong Tu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.15208v2",
+      "url": "http://arxiv.org/abs/2412.15208v2",
+      "key": "arxiv_241215208v2_OpenEMMA_Open-Source_Multimodal_Model_for_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_241215208v2_OpenEMMA_Open-Source_Multimodal_Model_for_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.19838v2",
+      "doi": "",
+      "title": "Multi-Frame, Lightweight & Efficient Vision-Language Models for Question Answering in Autonomous Driving",
+      "abstract": "Vision-Language Models (VLMs) and Multi-Modal Language models (MMLMs) have become prominent in autonomous driving research, as these models can provide interpretable textual reasoning and responses for end-to-end autonomous driving safety tasks using traffic scene images and other data modalities. However, current approaches to these systems use expensive large language model (LLM) backbones and image encoders, making such systems unsuitable for real-time autonomous driving systems where tight memory constraints exist and fast inference time is necessary. To address these previous issues, we develop EM-VLM4AD, an efficient, lightweight, multi-frame vision language model which performs Visual Question Answering for autonomous driving. In comparison to previous approaches, EM-VLM4AD requires at least 10 times less memory and floating point operations, while also achieving higher CIDEr and ROUGE-L scores than the existing baseline on the DriveLM dataset. EM-VLM4AD also exhibits the ability to extract relevant information from traffic views related to prompts and can answer questions for various autonomous driving subtasks. We release our code to train and evaluate our model at https://github.com/akshaygopalkr/EM-VLM4AD.",
+      "year": 2024,
+      "authors": [
+        "Akshay Gopalkrishnan",
+        "Ross Greer",
+        "Mohan Trivedi"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.19838v2",
+      "url": "http://arxiv.org/abs/2403.19838v2",
+      "key": "arxiv_240319838v2_Multi-Frame_Lightweight__Efficient_Vision-Language_Models_for_Question_A",
+      "file_kind": "txt",
+      "file": "arxiv_240319838v2_Multi-Frame_Lightweight__Efficient_Vision-Language_Models_for_Question_A.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2604.00597v1",
+      "doi": "",
+      "title": "Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors",
+      "abstract": "Robust trajectory planning under camera viewpoint changes is important for scalable end-to-end autonomous driving. However, existing models often depend heavily on the camera viewpoints seen during training. We investigate an augmentation-free approach that leverages geometric priors from a 3D foundation model. The method injects per-pixel 3D positions derived from depth estimates as positional embeddings and fuses intermediate geometric features through cross-attention. Experiments on the VR-Drive camera viewpoint perturbation benchmark show reduced performance degradation under most perturbation conditions, with clear improvements under pitch and height perturbations. Gains under longitudinal translation are smaller, suggesting that more viewpoint-agnostic integration is needed for robustness to camera viewpoint changes.",
+      "year": 2026,
+      "authors": [
+        "Hiroki Hashimoto",
+        "Hiromichi Goto",
+        "Hiroyuki Sugai",
+        "Hiroshi Kera",
+        "Kazuhiko Kawamoto"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.00597v1",
+      "url": "http://arxiv.org/abs/2604.00597v1",
+      "key": "arxiv_260400597v1_Towards_Viewpoint-Robust_End-to-End_Autonomous_Driving_with_3D_Foundatio",
+      "file_kind": "txt",
+      "file": "arxiv_260400597v1_Towards_Viewpoint-Robust_End-to-End_Autonomous_Driving_with_3D_Foundatio.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2504.04338v1",
+      "doi": "",
+      "title": "Data Scaling Laws for End-to-End Autonomous Driving",
+      "abstract": "Autonomous vehicle (AV) stacks have traditionally relied on decomposed approaches, with separate modules handling perception, prediction, and planning. However, this design introduces information loss during inter-module communication, increases computational overhead, and can lead to compounding errors. To address these challenges, recent works have proposed architectures that integrate all components into an end-to-end differentiable model, enabling holistic system optimization. This shift emphasizes data engineering over software integration, offering the potential to enhance system performance by simply scaling up training resources. In this work, we evaluate the performance of a simple end-to-end driving architecture on internal driving datasets ranging in size from 16 to 8192 hours with both open-loop metrics and closed-loop simulations. Specifically, we investigate how much additional training data is needed to achieve a target performance gain, e.g., a 5% improvement in motion prediction accuracy. By understanding the relationship between model performance and training dataset size, we aim to provide insights for data-driven decision-making in autonomous driving development.",
+      "year": 2025,
+      "authors": [
+        "Alexander Naumann",
+        "Xunjiang Gu",
+        "Tolga Dimlioglu",
+        "Mariusz Bojarski",
+        "Alperen Degirmenci",
+        "Alexander Popov",
+        "Devansh Bisla",
+        "Marco Pavone",
+        "Urs Müller",
+        "Boris Ivanovic"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2504.04338v1",
+      "url": "http://arxiv.org/abs/2504.04338v1",
+      "key": "arxiv_250404338v1_Data_Scaling_Laws_for_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_250404338v1_Data_Scaling_Laws_for_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2409.18053v3",
+      "doi": "",
+      "title": "DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving",
+      "abstract": "We present a novel autonomous driving framework, DualAD, designed to imitate human reasoning during driving. DualAD comprises two layers: a rule-based motion planner at the bottom layer that handles routine driving tasks requiring minimal reasoning, and an upper layer featuring a rule-based text encoder that converts driving scenarios from absolute states into text description. This text is then processed by a large language model (LLM) to make driving decisions. The upper layer intervenes in the bottom layer's decisions when potential danger is detected, mimicking human reasoning in critical situations. Closed-loop experiments demonstrate that DualAD, using a zero-shot pre-trained model, significantly outperforms rule-based motion planners that lack reasoning abilities. Our experiments also highlight the effectiveness of the text encoder, which considerably enhances the model's scenario understanding. Additionally, the integrated DualAD model improves with stronger LLMs, indicating the framework's potential for further enhancement. Code and benchmarks are available at github.com/TUM-AVS/DualAD.",
+      "year": 2024,
+      "authors": [
+        "Dingrui Wang",
+        "Marc Kaufeld",
+        "Johannes Betz"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2409.18053v3",
+      "url": "http://arxiv.org/abs/2409.18053v3",
+      "key": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2508.21080v1",
+      "doi": "",
+      "title": "2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving",
+      "abstract": "As the computer vision community advances autonomous driving algorithms, integrating vision-based insights with sensor data remains essential for improving perception, decision making, planning, prediction, simulation, and control. Yet we must ask: Why don't we have entirely safe self-driving cars yet? A key part of the answer lies in addressing novel scenarios, one of the most critical barriers to real-world deployment. Our 2COOOL workshop provides a dedicated forum for researchers and industry experts to push the state of the art in novelty handling, including out-of-distribution hazard detection, vision-language models for hazard understanding, new benchmarking and methodologies, and safe autonomous driving practices. The 2nd Workshop on the Challenge of Out-of-Label Hazards in Autonomous Driving (2COOOL) will be held at the International Conference on Computer Vision (ICCV) 2025 in Honolulu, Hawaii, on October 19, 2025. We aim to inspire the development of new algorithms and systems for hazard avoidance, drawing on ideas from anomaly detection, open-set recognition, open-vocabulary modeling, domain adaptation, and related fields. Building on the success of its inaugural edition at the Winter Conference on Applications of Computer Vision (WACV) 2025, the workshop will feature a mix of academic and industry participation.",
+      "year": 2025,
+      "authors": [
+        "Ali K. AlShami",
+        "Ryan Rabinowitz",
+        "Maged Shoman",
+        "Jianwu Fang",
+        "Lukas Picek",
+        "Shao-Yuan Lo",
+        "Steve Cruz",
+        "Khang Nhut Lam",
+        "Nachiket Kamod",
+        "Lei-Lei Li",
+        "Jugal Kalita",
+        "Terrance E. Boult"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2508.21080v1",
+      "url": "http://arxiv.org/abs/2508.21080v1",
+      "key": "arxiv_250821080v1_2COOOL_2nd_Workshop_on_the_Challenge_Of_Out-Of-Label_Hazards_in_Autonomo",
+      "file_kind": "txt",
+      "file": "arxiv_250821080v1_2COOOL_2nd_Workshop_on_the_Challenge_Of_Out-Of-Label_Hazards_in_Autonomo.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.16092v2",
+      "doi": "",
+      "title": "Are NeRFs ready for autonomous driving? Towards closing the real-to-simulation gap",
+      "abstract": "Neural Radiance Fields (NeRFs) have emerged as promising tools for advancing autonomous driving (AD) research, offering scalable closed-loop simulation and data augmentation capabilities. However, to trust the results achieved in simulation, one needs to ensure that AD systems perceive real and rendered data in the same way. Although the performance of rendering methods is increasing, many scenarios will remain inherently challenging to reconstruct faithfully. To this end, we propose a novel perspective for addressing the real-to-simulated data gap. Rather than solely focusing on improving rendering fidelity, we explore simple yet effective methods to enhance perception model robustness to NeRF artifacts without compromising performance on real data. Moreover, we conduct the first large-scale investigation into the real-to-simulated data gap in an AD setting using a state-of-the-art neural rendering technique. Specifically, we evaluate object detectors and an online mapping model on real and simulated data, and study the effects of different fine-tuning strategies.Our results show notable improvements in model robustness to simulated data, even improving real-world performance in some cases. Last, we delve into the correlation between the real-to-simulated gap and image reconstruction metrics, identifying FID and LPIPS as strong indicators. See https://research.zenseact.com/publications/closing-real2sim-gap for our project page.",
+      "year": 2024,
+      "authors": [
+        "Carl Lindström",
+        "Georg Hess",
+        "Adam Lilja",
+        "Maryam Fatemi",
+        "Lars Hammarstrand",
+        "Christoffer Petersson",
+        "Lennart Svensson"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.16092v2",
+      "url": "http://arxiv.org/abs/2403.16092v2",
+      "key": "arxiv_240316092v2_Are_NeRFs_ready_for_autonomous_driving_Towards_closing_the_real-to-simul",
+      "file_kind": "txt",
+      "file": "arxiv_240316092v2_Are_NeRFs_ready_for_autonomous_driving_Towards_closing_the_real-to-simul.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2411.17027v1",
+      "doi": "",
+      "title": "D$^2$-World: An Efficient World Model through Decoupled Dynamic Flow",
+      "abstract": "This technical report summarizes the second-place solution for the Predictive World Model Challenge held at the CVPR-2024 Workshop on Foundation Models for Autonomous Systems. We introduce D$^2$-World, a novel World model that effectively forecasts future point clouds through Decoupled Dynamic flow. Specifically, the past semantic occupancies are obtained via existing occupancy networks (e.g., BEVDet). Following this, the occupancy results serve as the input for a single-stage world model, generating future occupancy in a non-autoregressive manner. To further simplify the task, dynamic voxel decoupling is performed in the world model. The model generates future dynamic voxels by warping the existing observations through voxel flow, while remaining static voxels can be easily obtained through pose transformation. As a result, our approach achieves state-of-the-art performance on the OpenScene Predictive World Model benchmark, securing second place, and trains more than 300% faster than the baseline model. Code is available at https://github.com/zhanghm1995/D2-World.",
+      "year": 2024,
+      "authors": [
+        "Haiming Zhang",
+        "Xu Yan",
+        "Ying Xue",
+        "Zixuan Guo",
+        "Shuguang Cui",
+        "Zhen Li",
+        "Bingbing Liu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2411.17027v1",
+      "url": "http://arxiv.org/abs/2411.17027v1",
+      "key": "arxiv_241117027v1_D2-World_An_Efficient_World_Model_through_Decoupled_Dynamic_Flow",
+      "file_kind": "txt",
+      "file": "arxiv_241117027v1_D2-World_An_Efficient_World_Model_through_Decoupled_Dynamic_Flow.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2305.17181v1",
+      "doi": "",
+      "title": "Selective Communication for Cooperative Perception in End-to-End Autonomous Driving",
+      "abstract": "The reliability of current autonomous driving systems is often jeopardized in situations when the vehicle's field-of-view is limited by nearby occluding objects. To mitigate this problem, vehicle-to-vehicle communication to share sensor information among multiple autonomous driving vehicles has been proposed. However, to enable timely processing and use of shared sensor data, it is necessary to constrain communication bandwidth, and prior work has done so by restricting the number of other cooperative vehicles and randomly selecting the subset of vehicles to exchange information with from all those that are within communication range. Although simple and cost effective from a communication perspective, this selection approach suffers from its susceptibility to missing those vehicles that possess the perception information most critical to navigation planning. Inspired by recent multi-agent path finding research, we propose a novel selective communication algorithm for cooperative perception to address this shortcoming. Implemented with a lightweight perception network and a previously developed control network, our algorithm is shown to produce higher success rates than a random selection approach on previously studied safety-critical driving scenario simulations, with minimal additional communication overhead.",
+      "year": 2023,
+      "authors": [
+        "Hsu-kuang Chiu",
+        "Stephen F. Smith"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2305.17181v1",
+      "url": "http://arxiv.org/abs/2305.17181v1",
+      "key": "arxiv_230517181v1_Selective_Communication_for_Cooperative_Perception_in_End-to-End_Autonom",
+      "file_kind": "txt",
+      "file": "arxiv_230517181v1_Selective_Communication_for_Cooperative_Perception_in_End-to-End_Autonom.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2508.18898v3",
+      "doi": "",
+      "title": "Interpretable Decision-Making for End-to-End Autonomous Driving",
+      "abstract": "Trustworthy AI is mandatory for the broad deployment of autonomous vehicles. Although end-to-end approaches derive control commands directly from raw data, interpreting these decisions remains challenging, especially in complex urban scenarios. This is mainly attributed to very deep neural networks with non-linear decision boundaries, making it challenging to grasp the logic behind AI-driven decisions. This paper presents a method to enhance interpretability while optimizing control commands in autonomous driving. To address this, we propose loss functions that promote the interpretability of our model by generating sparse and localized feature maps. The feature activations allow us to explain which image regions contribute to the predicted control command. We conduct comprehensive ablation studies on the feature extraction step and validate our method on the CARLA benchmarks. We also demonstrate that our approach improves interpretability, which correlates with reducing infractions, yielding a safer, high-performance driving model. Notably, our monocular, non-ensemble model surpasses the top-performing approaches from the CARLA Leaderboard by achieving lower infraction scores and the highest route completion rate, all while ensuring interpretability.",
+      "year": 2025,
+      "authors": [
+        "Mona Mirzaie",
+        "Bodo Rosenhahn"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2508.18898v3",
+      "url": "http://arxiv.org/abs/2508.18898v3",
+      "key": "arxiv_250818898v3_Interpretable_Decision-Making_for_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_250818898v3_Interpretable_Decision-Making_for_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.24626v1",
+      "doi": "",
+      "title": "Relationally Grounded Latent World Models for Autonomous Driving",
+      "abstract": "Latent world models learn predictive representations for autonomous driving, but the relational semantics these states preserve often remain implicit. We investigate whether traffic scene graphs can serve as privileged semantic supervision for latent world representations. Building on LAW, we construct actor-centric scene graphs from nuScenes 3D annotations, encode their serialized relational structure using a frozen text embedding model, and align the visual latent representations with this semantic target during training. We remove the supervision branch at inference, so it requires neither scene graphs nor 3D annotations and adds no test-time computation. On nuScenes, our method reduces average trajectory L2 error from 0.661 to 0.622 (5.9%) and collision rate from 0.456 to 0.217 (52.4%) relative to our retrained LAW baseline. It also outperforms an unstructured caption-style semantic target, supporting the benefit of explicit relational structure for latent world-model representation learning.",
+      "year": 2026,
+      "authors": [
+        "Fabian Schmidt",
+        "Markus Enzweiler",
+        "Abhinav Valada"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.24626v1",
+      "url": "http://arxiv.org/abs/2609.24626v1",
+      "key": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2301.06262v4",
+      "doi": "10.1109/mits.2023.3298534",
+      "title": "Collaborative Perception in Autonomous Driving: Methods, Datasets and Challenges",
+      "abstract": "Collaborative perception is essential to address occlusion and sensor failure issues in autonomous driving. In recent years, theoretical and experimental investigations of novel works for collaborative perception have increased tremendously. So far, however, few reviews have focused on systematical collaboration modules and large-scale collaborative perception datasets. This work reviews recent achievements in this field to bridge this gap and motivate future research. We start with a brief overview of collaboration schemes. After that, we systematically summarize the collaborative perception methods for ideal scenarios and real-world issues. The former focuses on collaboration modules and efficiency, and the latter is devoted to addressing the problems in actual application. Furthermore, we present large-scale public datasets and summarize quantitative results on these benchmarks. Finally, we highlight gaps and overlook challenges between current academic research and real-world applications. The project page is https://github.com/CatOneTwo/Collaborative-Perception-in-Autonomous-Driving",
+      "year": 2023,
+      "authors": [
+        "Yushan Han",
+        "Hui Zhang",
+        "Huifang Li",
+        "Yi Jin",
+        "Congyan Lang",
+        "Yidong Li"
+      ],
+      "venue": "IEEE Intelligent Transportation Systems Magazine",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2301.06262v4",
+      "url": "http://arxiv.org/abs/2301.06262v4",
+      "key": "arxiv_101109_mits20233298534_Collaborative_Perception_in_Autonomous_Driving_Methods_Datase",
+      "file_kind": "txt",
+      "file": "arxiv_101109_mits20233298534_Collaborative_Perception_in_Autonomous_Driving_Methods_Datase.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.06669v5",
+      "doi": "",
+      "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+      "abstract": "We explore how scalable robot data can address real-world challenges for generalized robotic manipulation. Introducing AgiBot World, a large-scale platform comprising over 1 million trajectories across 217 tasks in five deployment scenarios, we achieve an order-of-magnitude increase in data scale compared to existing datasets. Accelerated by a standardized collection pipeline with human-in-the-loop verification, AgiBot World guarantees high-quality and diverse data distribution. It is extensible from grippers to dexterous hands and visuo-tactile sensors for fine-grained skill acquisition. Building on top of data, we introduce Genie Operator-1 (GO-1), a novel generalist policy that leverages latent action representations to maximize data utilization, demonstrating predictable performance scaling with increased data volume. Policies pre-trained on our dataset achieve an average performance improvement of 30% over those trained on Open X-Embodiment, both in in-domain and out-of-distribution scenarios. GO-1 exhibits exceptional capability in real-world dexterous and long-horizon tasks, achieving over 60% success rate on complex tasks and outperforming prior RDT approach by 32%. By open-sourcing the dataset, tools, and models, we aim to democratize access to large-scale, high-quality robot data, advancing the pursuit of scalable and general-purpose intelligence.",
+      "year": 2025,
+      "authors": [
+        "AgiBot World Contributors",
+        "Qingwen Bu",
+        "Jisong Cai",
+        "Li Chen",
+        "Xiuqi Cui",
+        "Yan Ding",
+        "Siyuan Feng",
+        "Shenyuan Gao",
+        "Xindong He",
+        "Xuan Hu",
+        "Xu Huang",
+        "Shu Jiang",
+        "Yuxin Jiang",
+        "Cheng Jing",
+        "Hongyang Li",
+        "Jialu Li",
+        "Chiming Liu",
+        "Yi Liu",
+        "Yuxiang Lu",
+        "Jianlan Luo"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.06669v5",
+      "url": "http://arxiv.org/abs/2503.06669v5",
+      "key": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a",
+      "file_kind": "txt",
+      "file": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a.txt"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "id": "geodrive_3d_geometry_informed_driving_world_model",
+ "title": "GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "Single-view video predicted from one reference frame along a user-given ego trajectory.", "pages": "3, 5"},
+ "control_signal": {"value": "User-specified ego-vehicle camera trajectory (R, T, f per step); optionally 2D bounding boxes of other vehicles for dynamic editing (needed in training).", "pages": "3-4"},
+ "control_mechanism": {"value": "First-frame point cloud is rendered along the trajectory; rendered video is VAE-encoded, concatenated with noisy latent into a light condition encoder whose features, via zero-initialised linear layers, modulate a frozen DiT.", "pages": "3, 6-7"},
+ "base_model": {"value": "Frozen CogVideo-5B-I2V video diffusion transformer; condition encoder clones first two DiT layers (6% of parameters); MonST3R supplies 3D points and poses.", "pages": "4, 15-16"},
+ "datasets": {"value": "Trained on nuScenes (25,109 video-condition pairs); evaluated on nuScenes validation and zero-shot on a Waymo validation subset of 5 scenes.", "pages": "7-8"},
+ "metrics": {"value": "LPIPS, PSNR, SSIM, FID, FVD for quality; ADE and FDE for action fidelity.", "pages": "7"},
+ "controllability_evidence": {"value": "Trajectory following versus Vista on nuScenes: ADE x10^2 1.62 versus 2.77 and FDE x10^2 3.1 versus 5.28; the introduction states a 42% error reduction. Reverse trajectory is shown qualitatively.", "pages": "2, 4"},
+ "closed_loop": {"value": "No; open-loop generation along given trajectories. A VLA plan-and-verify use is shown only as a qualitative illustration.", "pages": "8-9"},
+ "stated_limitations": {"value": "Depends on depth and pose accuracy from MonST3R; relies only on image and trajectory input. Static first-frame rendering is a limit addressed by dynamic editing.", "pages": "4-5, 10"},
+ "notes": "Table 1 data scale is listed as 5h for GeoDrive versus 1740h for Vista. Packet text includes NUL bytes in places but remained readable."
+}

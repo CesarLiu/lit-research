@@ -1,0 +1,13 @@
+{
+ "id": "controllable_sim_agents_with_behavior_latents",
+ "title": "Controllable Sim Agents with Behavior Latents (CNeVA)",
+ "control_family": "reward/return conditioning",
+ "control_signal": {"value": "Per-agent behavior latent over K=4 reward channels (safety, map, speed, accel), set as one-hot or partial steering vector with a channel mask and guidance weight.", "pages": "2-3, 6-7"},
+ "control_mechanism": {"value": "Latent inferred in closed form from per-channel discounted returns; it enters the flow generator as an extra cross-attention token, with classifier-free guidance trained under mixed channel masks.", "pages": "2-4"},
+ "base_model": {"value": "Conditional flow-matching (rectified-flow) trajectory generator, Transformer decoder with 6 layers, 8 heads, width 512; Euler sampler with 10 steps.", "pages": "4, 6"},
+ "datasets": {"value": "Waymo Open Motion Dataset under the WOSAC protocol (1.1 s history, 8 s rollout, up to 128 agents).", "pages": "6"},
+ "metrics": {"value": "WOSAC realism meta-metric and minADE; controllability via channel steering matrix (CSM) diagonals and trajectory divergence; guardrails: stall fraction, retained speed.", "pages": "6"},
+ "controllability_evidence": {"value": "Table 2 CSM diagonals at w=1.5: safety +0.66, map +0.61, speed +8.15, accel +8.76; unconditional: +0.06, +0.06, -3.33, +4.77. Test realism 0.7145, minADE 1.80 m.", "pages": "6-7"},
+ "stated_limitations": {"value": "Map controllability depends on the reward definition (physical off-road and lane-centerline measures fail to steer); guardrails degrade at larger steering magnitude, so results use calibrated rho=1.", "pages": "9-10"},
+ "notes": "Table 2 flattened in packet; the unconditional column values are read from the order given. Realism is mid-leaderboard, below non-controllable imitation models."
+}

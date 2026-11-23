@@ -1,0 +1,915 @@
+[
+  {
+    "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+    "year": 2026,
+    "authors": [
+      "NVIDIA",
+      ":",
+      "Despoina Paschalidou",
+      "Fangyin Wei",
+      "Francesco Ferroni",
+      "Guillermo Garcia-Cobo",
+      "Haithem Turki",
+      "Huan Ling",
+      "Jaewoo Seo",
+      "James Lucas",
+      "Jay Zhangjie Wu",
+      "Jialiang Wang",
+      "Jonathan Lorraine",
+      "Jun Gao",
+      "Kai He",
+      "Katarína Tóthová",
+      "Kai He",
+      "Michał Tyszkiewicz",
+      "Qi Wu",
+      "Riccardo de Lutio"
+    ],
+    "doi": "10.48550/arxiv.2606.03159",
+    "file": "openalex_1048550_arxiv260603159_NVIDIA_OmniDreams_Real-Time_Generative_World_Model_for_Clo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7163395620",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Xuemeng Yang",
+      "Licheng Wen",
+      "Tiantian Wei",
+      "Yukai Ma",
+      "Jianbiao Mei",
+      "Xin Li",
+      "Wenjie Lei",
+      "Daocheng Fu",
+      "Pinlong Cai",
+      "Min Dou",
+      "Liang He",
+      "Yong Liu",
+      "Botian Shi",
+      "Yu Qiao"
+    ],
+    "doi": "10.1109/iccv51701.2025.02500",
+    "file": "openalex_101109_iccv51701202502500_DriveArena_A_Closed-Loop_Generative_Simulation_Platform.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4401307309",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
+    "year": 2026,
+    "authors": [
+      "Boni Hu",
+      "Xiong Wei",
+      "Haoming Huang",
+      "Yong Huang",
+      "Chenbo Wang",
+      "Yi Yang",
+      "Jiancheng Wang",
+      "Ruicheng Zhu",
+      "Zhimin Yang",
+      "Guanglai Liu",
+      "Qiaowan Jin",
+      "Dongzhuo Wang",
+      "Haiwei Kuang",
+      "Jiajun Fan",
+      "Yue Wu",
+      "Jiaxin Wei",
+      "Hao Sun",
+      "Feihong Yan",
+      "Yuyao Zhou",
+      "Wei Bi"
+    ],
+    "doi": "10.48550/arxiv.2609.21712",
+    "file": "openalex_1048550_arxiv260921712_ZYT-World_A_Real-Time_Controllable_World_Model_for_Closed-.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7213916778",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Doe-1: Closed-Loop Autonomous Driving with Large World Model",
+    "year": 2024,
+    "authors": [
+      "Wenzhao Zheng",
+      "Xia, Zetian",
+      "Yuanhui Huang",
+      "Sicheng Zuo",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "doi": "10.48550/arxiv.2412.09627",
+    "file": "openalex_1048550_arxiv241209627_Doe-1_Closed-Loop_Autonomous_Driving_with_Large_World_Mode.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405355507",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "World-in-World: World Models in a Closed-Loop World",
+    "year": 2026,
+    "authors": [
+      "Jiahan Zhang",
+      "Jiang, Muqing",
+      "Nanru Dai",
+      "Taiming Lu",
+      "Arda Uzunoğlu",
+      "Zhang, Shunchi",
+      "Yana Wei",
+      "Jiahao Wang",
+      "Vishal M. Patel",
+      "Paul Pu Liang",
+      "Daniel Khashabi",
+      "Peng, Cheng",
+      "Rama Chellappa",
+      "Tianmin Shu",
+      "Alan Yuille",
+      "Yilun Du",
+      "Jieneng Chen"
+    ],
+    "doi": "10.48550/arxiv.2510.18135",
+    "file": "openalex_1048550_arxiv251018135_World-in-World_World_Models_in_a_Closed-Loop_World.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416055186",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SimLingo: Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment",
+    "year": 2025,
+    "authors": [
+      "Katrin Renz",
+      "Long Chen",
+      "Elahe Arani",
+      "Oleg Sinavski"
+    ],
+    "doi": "10.1109/cvpr52734.2025.01120",
+    "file": "openalex_101109_cvpr52734202501120_SimLingo_Vision-Only_Closed-Loop_Autonomous_Driving_wit.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413146849",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation",
+    "year": 2025,
+    "authors": [
+      "Tianyi Yan",
+      "Dongming Wu",
+      "Wencheng Han",
+      "Junpeng Jiang",
+      "Xia Zhou",
+      "Kun Zhan",
+      "Chengzhong Xu",
+      "Jianbing Shen"
+    ],
+    "doi": "10.1109/cvpr52734.2025.02564",
+    "file": "openalex_101109_cvpr52734202502564_DrivingSphere_Building_a_High-fidelity_4D_World_for_Clo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413145964",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Jia Hu",
+      "Yang Chang",
+      "Panqu Wang",
+      "Zhijun Fu",
+      "Chang Liu",
+      "Changjian Yu",
+      "Jintao Lai"
+    ],
+    "doi": "10.48550/arxiv.2611.22691",
+    "file": "openalex_1048550_arxiv261122691_Making_the_World_React_Realistically_A_Closed-Loop_Interac.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7236003542",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Wei Wang",
+      "Yiru Veronika Wang",
+      "Yihan Wang",
+      "Zihao Li",
+      "Xiaohui Liang"
+    ],
+    "doi": "10.48550/arxiv.2610.22450",
+    "file": "openalex_1048550_arxiv261022450_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Ge.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7222914528",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CausalDrive: Real-Time Causal World Models for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Tianyi Yan",
+      "Huan Zheng",
+      "Dubing Chen",
+      "Meizhi Qu",
+      "Yingying Shen",
+      "Lijun Zhou",
+      "Mingfei Tu",
+      "Bing Wang",
+      "Guang Chen",
+      "Hangjun Ye",
+      "Haiyang Sun",
+      "Cheng-zhong Xu",
+      "Jianbing Shen"
+    ],
+    "doi": "10.1007/978-3-032-37010-5_8",
+    "file": "openalex_101007_978-3-032-37010-5_8_CausalDrive_Real-Time_Causal_World_Models_for_Autonomo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7164912516",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Pseudo-Simulation for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Wei Cao",
+      "Marcel Hallgarten",
+      "Tianyu Li",
+      "Daniel Dauner",
+      "Xunjiang Gu",
+      "Wang, Caojun",
+      "Yakov Miron",
+      "Marco Aiello",
+      "Hongyang Li",
+      "Igor Gilitschenski",
+      "Boris Ivanovic",
+      "Marco Pavone",
+      "Andreas Geiger",
+      "Kashyap Chitta"
+    ],
+    "doi": "10.48550/arxiv.2506.04218",
+    "file": "openalex_1048550_arxiv250604218_Pseudo-Simulation_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416075228",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "AD-R1: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving with Impartial World Models",
+    "year": 2025,
+    "authors": [
+      "Yan, Tianyi",
+      "Tang, Tao",
+      "Gui, Xingtai",
+      "Li, Yongkang",
+      "Zhesng, Jiasen",
+      "Huang, Weiyao",
+      "Kong, Lingdong",
+      "Han, Wencheng",
+      "Zhou, Xia",
+      "Zhang, Xueyang",
+      "Zhan, Yifei",
+      "Zhan, Kun",
+      "Xu, Cheng-zhong",
+      "Jianbing Shen"
+    ],
+    "doi": "10.48550/arxiv.2511.20325",
+    "file": "openalex_1048550_arxiv251120325_AD-R1_Closed-Loop_Reinforcement_Learning_for_End-to-End_Au.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7106841797",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "World-VLA-Loop: Closed-Loop Learning of Video World Model and VLA Policy",
+    "year": 2026,
+    "authors": [
+      "Xiaokang Liu",
+      "Zechen Bai",
+      "Hai Ci",
+      "Kevin Ma",
+      "Mike Zheng Shou"
+    ],
+    "doi": "10.48550/arxiv.2602.06508",
+    "file": "openalex_1048550_arxiv260206508_World-VLA-Loop_Closed-Loop_Learning_of_Video_World_Model_a.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7128399162",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction",
+    "year": 2023,
+    "authors": [
+      "Zhejun Zhang",
+      "Alexander Liniger",
+      "Dengxin Dai",
+      "Fisher Yu",
+      "Luc Van Gool"
+    ],
+    "doi": "10.1109/icra48891.2023.10161243",
+    "file": "openalex_101109_icra48891202310161243_TrafficBots_Towards_World_Models_for_Autonomous_Driv.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4383108225",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Promptable Closed-loop Traffic Simulation",
+    "year": 2024,
+    "authors": [
+      "Shuhan Tan",
+      "Boris Ivanovic",
+      "Yuxiao Chen",
+      "Boyi Li",
+      "Xinshuo Weng",
+      "Yulong Cao",
+      "Philipp Krähenbühl",
+      "Marco Pavone"
+    ],
+    "doi": "10.48550/arxiv.2409.05863",
+    "file": "openalex_1048550_arxiv240905863_Promptable_Closed-loop_Traffic_Simulation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403619071",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "OmniNWM: Omniscient Driving Navigation World Models",
+    "year": 2026,
+    "authors": [
+      "Bohan Li",
+      "Zhuang Ma",
+      "Dalong Du",
+      "Baorui Peng",
+      "Zhujin Liang",
+      "Zhenqiang Liu",
+      "Xianda Guo",
+      "Zheng Zhu",
+      "Chao Ma",
+      "Yueming Jin",
+      "Xin Jin",
+      "Huanyu Zhao",
+      "Wenjun Zeng"
+    ],
+    "doi": "10.1007/978-3-032-37624-4_12",
+    "file": "openalex_101007_978-3-032-37624-4_12_OmniNWM_Omniscient_Driving_Navigation_World_Models.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415967328",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "CarLLaVA: Vision language models for camera-only closed-loop driving",
+    "year": 2024,
+    "authors": [
+      "Renz, Katrin",
+      "Long Chen",
+      "Ana-Maria Marcu",
+      "Jan Hünermann",
+      "Benoit Hanotte",
+      "Alice Karnsund",
+      "Jamie Shotton",
+      "Elahe Arani",
+      "Oleg Sinavski"
+    ],
+    "doi": "10.48550/arxiv.2406.10165",
+    "file": "openalex_1048550_arxiv240610165_CarLLaVA_Vision_language_models_for_camera-only_closed-loo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4399759454",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation",
+    "year": 2025,
+    "authors": [
+      "Guosheng Zhao",
+      "Chaojun Ni",
+      "Xiaofeng Wang",
+      "Zheng Dong Zhu",
+      "Xueyang Zhang",
+      "Yida Wang",
+      "Guan Huang",
+      "Xinze Chen",
+      "Bo-Yuan Wang",
+      "Youyi Zhang",
+      "Wenjun Mei",
+      "Xingang Wang"
+    ],
+    "doi": "10.1109/cvpr52734.2025.01122",
+    "file": "openalex_101109_cvpr52734202501122_DriveDreamer4D_World_Models_Are_Effective_Data_Machines.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413157439",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Reason--Imagine--Act: Closed-Loop LLM Decision Making with World Models for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Zhengqi Sun",
+      "Yiwen Sun",
+      "Bo Liu",
+      "Tailai Chen",
+      "Tianxu Guo",
+      "Jiabin Liu"
+    ],
+    "doi": "10.48550/arxiv.2605.24004",
+    "file": "openalex_1048550_arxiv260524004_Reason--Imagine--Act_Closed-Loop_LLM_Decision_Making_with_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7162454018",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "World-Action Models for Robot Learning and Control: A Survey",
+    "year": 2026,
+    "authors": [
+      "Zuxing Lu",
+      "Hongjia Zhai",
+      "Guanzhi Wang",
+      "Huajian Zeng",
+      "Jiaqi Yang",
+      "Jingyu Liu",
+      "Lei Cheng",
+      "Yuantai Zhang",
+      "Yuheng Qiu",
+      "Zezhou Cheng",
+      "Ivan Laptev",
+      "Danfei Xu",
+      "Benjamin Rivière",
+      "Giuseppe Loianno",
+      "Eric Xing",
+      "Xingxing Zuo"
+    ],
+    "doi": "10.48550/arxiv.2609.16074",
+    "file": "openalex_1048550_arxiv260916074_World-Action_Models_for_Robot_Learning_and_Control_A_Surve.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7213415795",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration",
+    "year": 2025,
+    "authors": [
+      "Chaojun Ni",
+      "Guosheng Zhao",
+      "Xiaofeng Wang",
+      "Zheng Dong Zhu",
+      "Wenkang Qin",
+      "Guan Huang",
+      "Chen Liu",
+      "Yuyin Chen",
+      "Yida Wang",
+      "Xueyang Zhang",
+      "Yifei Zhan",
+      "Kun Zhan",
+      "Peng Jia",
+      "Xianpeng Lang",
+      "Xingang Wang",
+      "Wenjun Mei"
+    ],
+    "doi": "10.1109/cvpr52734.2025.00153",
+    "file": "openalex_101109_cvpr52734202500153_ReconDreamer_Crafting_World_Models_for_Driving_Scene_Re.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413144262",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Hydra-NeXt: Robust Closed-Loop Driving with Open-Loop Training",
+    "year": 2025,
+    "authors": [
+      "Zhenxin Li",
+      "S G Wang",
+      "Shiyi Lan",
+      "Zhiding Yu",
+      "Zuxuan Wu",
+      "José Manuel Álvarez"
+    ],
+    "doi": "10.1109/iccv51701.2025.02535",
+    "file": "openalex_101109_iccv51701202502535_Hydra-NeXt_Robust_Closed-Loop_Driving_with_Open-Loop_Tr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160152780",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Bench2ADVLM: A Closed-Loop Benchmark for Vision-language Models in Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Tianyuan Zhang",
+      "Ting Jin",
+      "Lu Wang",
+      "Jiangfan Liu",
+      "Siyuan Liang",
+      "Mingchuan Zhang",
+      "Aishan Liu",
+      "Xianglong Liu"
+    ],
+    "doi": "10.48550/arxiv.2508.02028",
+    "file": "openalex_1048550_arxiv250802028_Bench2ADVLM_A_Closed-Loop_Benchmark_for_Vision-language_Mo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417102166",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey of World Models for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Feng, Tuo",
+      "Wenguan Wang",
+      "Yi Yang"
+    ],
+    "doi": "10.48550/arxiv.2501.11260",
+    "file": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4406734973",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "NeuroNCAP: Photorealistic Closed-Loop Safety Testing for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "William Ljungbergh",
+      "Adam Tonderski",
+      "Joakim Johnander",
+      "Holger Caesar",
+      "Kalle Åström",
+      "Michael Felsberg",
+      "Christoffer Petersson"
+    ],
+    "doi": "10.1007/978-3-031-73404-5_10",
+    "file": "openalex_101007_978-3-031-73404-5_10_NeuroNCAP_Photorealistic_Closed-Loop_Safety_Testing_f.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403866647",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+    "year": 2025,
+    "authors": [
+      "Haibao Yu",
+      "Wenxian Yang",
+      "Ruiyang Hao",
+      "Chuanye Wang",
+      "Jiaru Zhong",
+      "Ping Luo",
+      "Zaiqing Nie"
+    ],
+    "doi": "",
+    "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.23922v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning",
+    "year": 2024,
+    "authors": [
+      "Mehshan Ahmed Khan",
+      "Houshyar Asadi",
+      "Mohammad Reza Chalak Qazani",
+      "Chee Peng Lim",
+      "Saied Nahavandi"
+    ],
+    "doi": "",
+    "file": "arxiv_240806349v3_Functional_near-infrared_spectroscopy_fNIRS_and_Eye_tracking_for_Cogniti.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.06349v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Binay Kumar Singh",
+      "Niels Da Vitoria Lobo"
+    ],
+    "doi": "",
+    "file": "arxiv_261124840v1_Does_the_Action_Matter_Probing_Action-Conditioned_Semantic_Forecasting_a.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2611.24840v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation",
+    "year": 2026,
+    "authors": [
+      "Xiangcheng Zhan",
+      "Zirui Chen",
+      "Yicheng Zhao",
+      "Ziteng Gao",
+      "Shuo Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_260937398v1_Direct_Experience_World-Model_Optimization_Learning_the_World_Beyond_Act.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.37398v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry",
+    "year": 2026,
+    "authors": [
+      "Yuejiang Liu",
+      "Fan Feng",
+      "Lingjing Kong",
+      "Weifeng Lu",
+      "Jinzhou Tang",
+      "Kun Zhang",
+      "Kevin Murphy",
+      "Chelsea Finn",
+      "Yilun Du"
+    ],
+    "doi": "",
+    "file": "arxiv_260401985v2_World_Action_Verifier_Self-Improving_World_Models_via_Forward-Inverse_As.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2604.01985v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+    "year": 2025,
+    "authors": [
+      "AgiBot World Contributors",
+      "Qingwen Bu",
+      "Jisong Cai",
+      "Li Chen",
+      "Xiuqi Cui",
+      "Yan Ding",
+      "Siyuan Feng",
+      "Shenyuan Gao",
+      "Xindong He",
+      "Xuan Hu",
+      "Xu Huang",
+      "Shu Jiang",
+      "Yuxin Jiang",
+      "Cheng Jing",
+      "Hongyang Li",
+      "Jialu Li",
+      "Chiming Liu",
+      "Yi Liu",
+      "Yuxiang Lu",
+      "Jianlan Luo"
+    ],
+    "doi": "",
+    "file": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.06669v5",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "WorldGym: World Model as An Environment for Policy Evaluation",
+    "year": 2025,
+    "authors": [
+      "Julian Quevedo",
+      "Ansh Kumar Sharma",
+      "Yixiang Sun",
+      "Varad Suryavanshi",
+      "Percy Liang",
+      "Sherry Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_250600613v3_WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.00613v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "What-If World: A Causal Benchmark for General World Models in Embodied Scenarios",
+    "year": 2026,
+    "authors": [
+      "Kunlin Cai",
+      "Rui Song",
+      "Jinghuai Zhang",
+      "Kaiyuan Zhang",
+      "Pranav Bodapati",
+      "Alicia Yu",
+      "Fnu Suya",
+      "Mohammad Rostami",
+      "Jiaqi Ma",
+      "Yuan Tian"
+    ],
+    "doi": "",
+    "file": "arxiv_260527589v1_What-If_World_A_Causal_Benchmark_for_General_World_Models_in_Embodied_Sc.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.27589v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey",
+    "year": 2025,
+    "authors": [
+      "Sifan Tu",
+      "Xin Zhou",
+      "Dingkang Liang",
+      "Xingyu Jiang",
+      "Yumeng Zhang",
+      "Xiaofan Li",
+      "Xiang Bai"
+    ],
+    "doi": "",
+    "file": "arxiv_250210498v2_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_Comprehensive_S.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.10498v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Are NeRFs ready for autonomous driving? Towards closing the real-to-simulation gap",
+    "year": 2024,
+    "authors": [
+      "Carl Lindström",
+      "Georg Hess",
+      "Adam Lilja",
+      "Maryam Fatemi",
+      "Lars Hammarstrand",
+      "Christoffer Petersson",
+      "Lennart Svensson"
+    ],
+    "doi": "",
+    "file": "arxiv_240316092v2_Are_NeRFs_ready_for_autonomous_driving_Towards_closing_the_real-to-simul.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.16092v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Modelling individual motion sickness accumulation in vehicles and driving simulators",
+    "year": 2023,
+    "authors": [
+      "Varun Kotian",
+      "Daan M. Pool",
+      "Riender Happee"
+    ],
+    "doi": "",
+    "file": "arxiv_230907088v1_Modelling_individual_motion_sickness_accumulation_in_vehicles_and_drivin.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2309.07088v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generative World Simulation with DAO and JING",
+    "year": 2026,
+    "authors": [
+      " XGEN Team",
+      "Guohao Cai",
+      "Haoxuan Che",
+      "Frank Fan",
+      "Chenran Huang",
+      "Junjia Huang",
+      "Jiayi Jiang",
+      "Yanheng Li",
+      "Leon Liu",
+      "Shaoteng Liu",
+      "Xi Liu",
+      "Feng Nie",
+      "Zhefan Rao",
+      "An Wang",
+      "Hanwen Wang",
+      "Pengxiang Yan",
+      "Jieming Yu",
+      "Qian Zha",
+      "Wentao Zheng"
+    ],
+    "doi": "",
+    "file": "arxiv_261019726v1_Generative_World_Simulation_with_DAO_and_JING.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.19726v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation",
+    "year": 2026,
+    "authors": [
+      "Jiaqi Wang",
+      "Zhuo Zhang",
+      "Haining Guan",
+      "Tingguang Zhou",
+      "Haowen Cui",
+      "ChuanYe Wang",
+      "Zhongyang Zhu",
+      "Yulong Zheng",
+      "Xuefeng Chen",
+      "Zhen Yang",
+      "Tianchen Deng",
+      "Feiyang Tan",
+      "Hangning Zhou",
+      "Bo Dai",
+      "Lixia Shen",
+      "Xiwu Chen",
+      "Xiyang Wang",
+      "Jiajun Zhu"
+    ],
+    "doi": "",
+    "file": "arxiv_260822187v3_BehaviorWorldGen_Closing_the_Loop_between_Action_Models_and_World_Simula.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2608.22187v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AVID: Adapting Video Diffusion Models to World Models",
+    "year": 2024,
+    "authors": [
+      "Marc Rigter",
+      "Tarun Gupta",
+      "Agrin Hilmkil",
+      "Chao Ma"
+    ],
+    "doi": "",
+    "file": "arxiv_241012822v2_AVID_Adapting_Video_Diffusion_Models_to_World_Models.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2410.12822v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AdaWorld: Learning Adaptable World Models with Latent Actions",
+    "year": 2025,
+    "authors": [
+      "Shenyuan Gao",
+      "Siyuan Zhou",
+      "Yilun Du",
+      "Jun Zhang",
+      "Chuang Gan"
+    ],
+    "doi": "",
+    "file": "arxiv_250318938v4_AdaWorld_Learning_Adaptable_World_Models_with_Latent_Actions.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.18938v4",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+ "id": "recondreamer_crafting_world_models_for_driving_sce",
+ "title": "ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration",
+ "control_family": "other",
+ "output_modality": {"value": "Dynamic driving scene reconstruction (Gaussian-splatting based) rendering novel-trajectory video; a world-model restorer outputs cleaned video.", "pages": "1-2, 4-5"},
+ "control_signal": {"value": "Novel ego trajectory for rendering (lane shift 3 m, 6 m, lane change); restorer is conditioned on degraded rendered video, 3D boxes and HDMaps.", "pages": "4-5, 6"},
+ "control_mechanism": {"value": "DriveRestorer, fine-tuned from a world model, takes masked degraded video as control condition; progressive data update feeds restored novel-trajectory frames back into reconstruction training.", "pages": "4-5, 5-6"},
+ "base_model": {"value": "DriveDreamer-2 world model (built on Stable Video Diffusion) fine-tuned as restorer; Street Gaussians as main reconstruction backbone, also PVG, S3Gaussian, Deformable-GS.", "pages": "6-7, 7-9"},
+ "datasets": {"value": "Eight highly interactive Waymo scenes, split into 40-frame segments, front-facing camera only.", "pages": "6"},
+ "metrics": {"value": "NTA-IoU, NTL-IoU, FID on novel trajectories, plus a user study win rate.", "pages": "6-7"},
+ "controllability_evidence": {"value": "At 6 m lane shift versus Street Gaussians: NTA-IoU +24.87%, NTL-IoU +6.72%, FID +29.97% relative; versus DriveDreamer4D with PVG NTA-IoU +195.87%, user-study win rate 96.88%.", "pages": "1-2, 6-7"},
+ "closed_loop": {"value": "No. Novel-trajectory rendering evaluated offline; closed-loop simulation is only the motivation.", "pages": "1-2, 9"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Primarily a reconstruction method using a world model as restorer, not a driving world model with a user control input; control family set to other. Stride ablation notes larger strides exceed restorer capacity (page 8-9)."
+}

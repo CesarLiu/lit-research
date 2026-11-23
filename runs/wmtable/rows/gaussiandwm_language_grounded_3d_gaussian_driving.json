@@ -1,0 +1,15 @@
+{
+ "id": "gaussiandwm_language_grounded_3d_gaussian_driving",
+ "title": "GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "RGB image plus depth, for spatial novel views under shifted cameras and temporal future prediction (long-horizon example 0-9 s), from a 3D Gaussian scene representation", "pages": "8-9, 14"},
+ "control_signal": {"value": "target camera shift or future ego trajectory (projected sparse RGB-D), plus language instructions such as weather conditions and dynamic vehicle manipulation", "pages": "1, 8-9"},
+ "control_mechanism": {"value": "Denoising UNet takes noisy latent, reference latent, low-level sparse RGB and depth conditions, and an LLM-produced language condition from Gaussian world tokens and the instruction; v-prediction", "pages": "8"},
+ "base_model": {"value": "Denoising UNet with frozen pretrained VAE; Qwen features distilled into 3D Gaussians; geometry-aware Gaussian adapter feeding an LLM fine-tuned with LoRA", "pages": "1, 9"},
+ "datasets": {"value": "nuScenes (1000 scenes as NuScenes-GSQA Gaussians) for generation; NuInteract, NuInstruct and OmniDrive for understanding", "pages": "1, 9"},
+ "metrics": {"value": "FID and FVD for spatial and temporal generation; BLEU, ROUGE-L, CIDEr, mAP, F1, mIoU, MAE, planning accuracy for understanding", "pages": "9, 13-14"},
+ "controllability_evidence": {"value": "Editing judged qualitatively only. Dual-condition ablation at +-1 m: low-level only FID 10.12, FVD 45.14; adding high-level language 8.36, 44.5; high-level alone fails", "pages": "9, 15"},
+ "closed_loop": {"value": "No; open-loop generation along the future trajectory, long-horizon example spans 0-9 s", "pages": "14"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Hybrid understanding plus generation model; control of generation via text is mainly editing, evaluated qualitatively. Table VIII values match the earlier GaussianDWM row, so they may come from the conference version. No limitations section in packet."
+}

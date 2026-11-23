@@ -1,0 +1,15 @@
+{
+ "id": "generalized_predictive_model_for_autonomous_drivin",
+ "title": "Generalized Predictive Model for Autonomous Driving",
+ "control_family": "text or language conditioning",
+ "output_modality": {"value": "single-view video prediction: 6 future frames at 2Hz, 256x448, from two conditioning frames", "pages": "6, 27-28"},
+ "control_signal": {"value": "text made of a high-level command and a scene context description; in the action-conditioned extension, the future ego trajectory", "pages": "6, 27-28"},
+ "control_mechanism": {"value": "text through frozen CLIP encoders and conditional cross-attention with classifier-free guidance (text dropped at p=0.1); trajectory Fourier-embedded, linearly projected, added to the conditions and injected via cross-attention", "pages": "6, 27-28"},
+ "base_model": {"value": "SDXL image diffusion fine-tuned on driving, then frozen, with added temporal reasoning blocks (causal temporal attention, decoupled spatial attention, zero init) trained for video prediction", "pages": "4-6"},
+ "datasets": {"value": "OpenDV-2K (over 2000 hours of web driving video with text); nuScenes for action conditioning and planning; zero-shot on Waymo, KITTI, Cityscapes, OpenDV-YouTube", "pages": "1, 27-28"},
+ "metrics": {"value": "FID, FVD, CLIPSIM, action prediction error via an inverse dynamics model, and ADE and FDE for planning", "pages": "28"},
+ "controllability_evidence": {"value": "No action-error or language-control number in the packet. Reported: nuScenes FID 15.4 and FVD 184 for GenAD (OpenDV-2K); planning ADE 1.23 and FDE 2.31 with a frozen encoder.", "pages": "7, 8-9"},
+ "closed_loop": {"value": "no, open-loop only: each prediction generates 6 future frames from 2 observed frames; planning evaluated open-loop on nuScenes", "pages": "8-9, 27"},
+ "stated_limitations": {"value": "BLIP-2 captions are short, poorly aligned and unaware of ego intention; SDXL is slow and costly to sample; training and real-time deployment are demanding.", "pages": "9, 17"},
+ "notes": "Primary contribution is a large-scale generalizing predictor; control by text command is shown in the overview figure, but its quantitative test is not in the packet. Action conditioning is a fine-tuned extension on nuScenes."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "controllable_traffic_simulation_through_llm_guided",
+ "title": "Controllable Traffic Simulation through LLM-Guided Hierarchical Reasoning and Refinement",
+ "control_family": "language/LLM-driven",
+ "control_signal": {"value": "Natural-language description of the desired scenario (for example a cut-in event) given by the user, alongside road topology and agent states.", "pages": "3"},
+ "control_mechanism": {"value": "An LLM (GPT-4o) uses chain-of-thought to write a Frenet-frame cost function; its gradient guides diffusion sampling at test time, and a refinement module revises the cost from failed trajectory coordinates.", "pages": "1-3, 5"},
+ "base_model": {"value": "Transformer-based diffusion model following EDM, with map, agent-map and agent-agent attention and relative coordinates; 32 sampling steps; 3 attention layers, 24 agents, 200 lane polylines.", "pages": "3, 5"},
+ "datasets": {"value": "Waymo Open Motion Dataset: trained on the 69,500-scenario training split, evaluated on 1,000 validation scenarios.", "pages": "5"},
+ "metrics": {"value": "ADE, FDE, JSD, collision and offroad rate (conditional); scene collision rate, MMD (unconditional); cost-function correctness and guidance success rate across four event types (guided).", "pages": "5"},
+ "controllability_evidence": {"value": "Guidance success rate over four event types, 20 scenarios each, beat a target-point baseline and improved with refinement (Table IV); exact values not in packet. Unconditional SCR 6.3% vs 9.7% and 11.2%.", "pages": "5-7"},
+ "stated_limitations": {"value": "The refinement module struggles to fix cost functions when the LLM's initial understanding of the scenario is fundamentally wrong.", "pages": "7"},
+ "notes": "Table IV success-rate numbers are missing from the packet. Conditional-simulation JSD is slightly worse than state of the art (page 5)."
+}

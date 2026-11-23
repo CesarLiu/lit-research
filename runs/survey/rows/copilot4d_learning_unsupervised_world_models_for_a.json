@@ -1,0 +1,15 @@
+{
+ "id": "copilot4d_learning_unsupervised_world_models_for_a",
+ "title": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "lidar point clouds (future point cloud forecasting), via BEV tokens decoded to rays/depth", "pages": "1-2, 4"},
+ "control_signal": {"value": "future ego-vehicle SE(3) poses as actions, plus past observations and actions as context", "pages": "2, 4, 8"},
+ "control_mechanism": {"value": "discrete diffusion world model conditioned on past tokens and actions; classifier-free guidance at sampling, using an unconditional objective trained on 10% of iterations", "pages": "6-7, 20"},
+ "base_model": {"value": "VQVAE point-cloud tokenizer (PointNet, Swin, implicit depth-rendering decoder) plus MaskGIT-style discrete diffusion with a spatio-temporal Transformer (Swin spatial, GPT2 temporal blocks, U-Net); no pretrained video backbone stated", "pages": "2, 4, 7"},
+ "datasets": {"value": "NuScenes, KITTI Odometry, Argoverse2 Lidar; zero-shot transfer from Argoverse2 to KITTI", "pages": "8, 14"},
+ "metrics": {"value": "Chamfer distance, L1 depth (mean and median), AbsRel (mean and median) within the ROI of 70m by 70m by 4.5m half-extents", "pages": "8-9"},
+ "controllability_evidence": {"value": "Mostly forecasting accuracy: Chamfer reduced 65%-75% for 1s and more than 50% for 3s versus prior SOTA. Counterfactual ego-action visualisations are qualitative only; CFG cuts Chamfer by 60% on NuScenes 3s.", "pages": "2, 9, 25-26"},
+ "closed_loop": {"value": "no; open-loop prediction of 1s or 3s futures, autoregressive frame by frame, with no driving policy in the loop", "pages": "6, 8"},
+ "stated_limitations": {"value": "3s vehicle behaviour accuracy is lower than 1s, partly from multi-modality; the model does not hallucinate new vehicles entering the region of interest.", "pages": "25"},
+ "notes": "Unsupervised point-cloud forecasting world model; control is only ego poses (counterfactual actions shown qualitatively), not a designer-facing control input like layout or text. Classifier-free guidance here is on past context, not on a control signal."
+}

@@ -1,0 +1,940 @@
+[
+  {
+    "title": "WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation",
+    "year": 2024,
+    "authors": [
+      "Jiachen Lu",
+      "Ze Huang",
+      "Zeyu Yang",
+      "Jiahui Zhang",
+      "Li Zhang"
+    ],
+    "doi": "10.1007/978-3-031-72989-8_19",
+    "file": "openalex_101007_978-3-031-72989-8_19_WoVoGen_World_Volume-Aware_Diffusion_for_Controllable.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403759442",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control",
+    "year": 2025,
+    "authors": [
+      "Ruiyuan Gao",
+      "Kai Chen",
+      "Bo Xiao",
+      "Lanqing Hong",
+      "Zhenguo Li",
+      "Qiang Xu"
+    ],
+    "doi": "10.1109/iccv51701.2025.02612",
+    "file": "openalex_101109_iccv51701202502612_MagicDrive-V2_High-Resolution_Long_Video_Generation_for.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160087193",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DrivingDiffusion: Layout-Guided Multi-view Driving Scenarios Video Generation with Latent Diffusion Model",
+    "year": 2024,
+    "authors": [
+      "Xiaofan Li",
+      "Yifu Zhang",
+      "Xiaoqing Ye"
+    ],
+    "doi": "10.1007/978-3-031-73229-4_27",
+    "file": "openalex_101007_978-3-031-73229-4_27_DrivingDiffusion_Layout-Guided_Multi-view_Driving_Sce.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403706620",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model",
+    "year": 2023,
+    "authors": [
+      "Xiaofan Li",
+      "Yifu Zhang",
+      "Xiaoqing Ye"
+    ],
+    "doi": "10.48550/arxiv.2310.07771",
+    "file": "openalex_1048550_arxiv231007771_DrivingDiffusion_Layout-Guided_multi-view_driving_scene_vi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4387634829",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Panacea: Panoramic and Controllable Video Generation for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Yuqing Wen",
+      "Yucheng Zhao",
+      "Yingfei Liu",
+      "Fan Jia",
+      "Yanhui Wang",
+      "Chong Luo",
+      "Chi Zhang",
+      "Tiancai Wang",
+      "Xiaoyan Sun",
+      "Xiangyu Zhang"
+    ],
+    "doi": "10.1109/cvpr52733.2024.00659",
+    "file": "openalex_101109_cvpr52733202400659_Panacea_Panoramic_and_Controllable_Video_Generation_for.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402727021",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DriveGen3D: Boosting Feed-Forward Driving Scene Generation with Efficient Video Diffusion",
+    "year": 2025,
+    "authors": [
+      "Weijie Wang",
+      "Jiagang Zhu",
+      "Zeyu Zhang",
+      "Xiaofeng Wang",
+      "Zheng Dong Zhu",
+      "Zhao, Guosheng",
+      "Chaojun Ni",
+      "Haoxiao Wang",
+      "Guan Huang",
+      "Xinze Chen",
+      "Yukun Zhou",
+      "Wenkang Qin",
+      "Duochao Shi",
+      "Haoyun Li",
+      "Xiao, Yicheng",
+      "Chen, Donny Y.",
+      "Lu, Jiwen"
+    ],
+    "doi": "10.48550/arxiv.2510.15264",
+    "file": "openalex_1048550_arxiv251015264_DriveGen3D_Boosting_Feed-Forward_Driving_Scene_Generation_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415877528",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Unleashing Generalization of End-to-End Autonomous Driving with Controllable Long Video Generation",
+    "year": 2024,
+    "authors": [
+      "Enhui Ma",
+      "Lijun Zhou",
+      "Tao Tang",
+      "Zhang Zhan",
+      "Dong Han",
+      "Junpeng Jiang",
+      "Kun Zhan",
+      "Peng Jia",
+      "Xianpeng Lang",
+      "Haiyang Sun",
+      "Lin, Di",
+      "Kaicheng Yu"
+    ],
+    "doi": "10.48550/arxiv.2406.01349",
+    "file": "openalex_1048550_arxiv240601349_Unleashing_Generalization_of_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4399378637",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MyGo: Consistent and Controllable Multi-View Driving Video Generation with Camera Control",
+    "year": 2024,
+    "authors": [
+      "Yining Yao",
+      "Xi Wei Guo",
+      "Chenjing Ding",
+      "Wei Wu"
+    ],
+    "doi": "10.48550/arxiv.2409.06189",
+    "file": "openalex_1048550_arxiv240906189_MyGo_Consistent_and_Controllable_Multi-View_Driving_Video_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403620389",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TrailBlazer: Trajectory Control for Diffusion-Based Video Generation",
+    "year": 2024,
+    "authors": [
+      "Wan-Duo Kurt Ma",
+      "John P. Lewis",
+      "Willem Bastiaan Kleijn"
+    ],
+    "doi": "10.1145/3680528.3687652",
+    "file": "openalex_101145_36805283687652_TrailBlazer_Trajectory_Control_for_Diffusion-Based_Video_Ge.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4404971889",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model",
+    "year": 2024,
+    "authors": [
+      "Qian Wang",
+      "Weiqi Li",
+      "Chong Mou",
+      "Xinhua Cheng",
+      "Jian Zhang"
+    ],
+    "doi": "10.1109/cvpr52733.2024.00660",
+    "file": "openalex_101109_cvpr52733202400660_360DVD_Controllable_Panorama_Video_Generation_with_360-.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402727274",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DiVE: Efficient Multi-View Driving Scenes Generation Based on Video Diffusion Transformer",
+    "year": 2026,
+    "authors": [
+      "Junpeng Jiang",
+      "Gangyi Hong",
+      "Miao Zhang",
+      "Hengtong Hu",
+      "Kun Zhan",
+      "Rui Shao",
+      "Liqiang Nie"
+    ],
+    "doi": "10.1109/tmm.2026.3712641",
+    "file": "openalex_101109_tmm20263712641_DiVE_Efficient_Multi-View_Driving_Scenes_Generation_Based_o.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417012199",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Lumiere: A Space-Time Diffusion Model for Video Generation",
+    "year": 2024,
+    "authors": [
+      "Omer Bar-Tal",
+      "Hila Chefer",
+      "Omer Tov",
+      "Charles Herrmann",
+      "Roni Paiss",
+      "Shiran Zada",
+      "Ariel Ephrat",
+      "Junhwa Hur",
+      "Liu, Guanghui",
+      "Raj, Amit",
+      "Yuanzhen Li",
+      "Michael Rubinstein",
+      "Tomer Michaeli",
+      "Oliver Wang",
+      "Deqing Sun",
+      "Tali Dekel",
+      "Inbar Mosseri"
+    ],
+    "doi": "10.48550/arxiv.2401.12945",
+    "file": "openalex_1048550_arxiv240112945_Lumiere_A_Space-Time_Diffusion_Model_for_Video_Generation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4391212809",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes",
+    "year": 2024,
+    "authors": [
+      "Jianbiao Mei",
+      "Hu, Tao",
+      "Xuemeng Yang",
+      "Licheng Wen",
+      "Yang, Yu",
+      "Tiantian Wei",
+      "Yukai Ma",
+      "Min Dou",
+      "Botian Shi",
+      "Yong Liu"
+    ],
+    "doi": "10.48550/arxiv.2409.04003",
+    "file": "openalex_1048550_arxiv240904003_DreamForge_Motion-Aware_Autoregressive_Video_Generation_fo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403586125",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation",
+    "year": 2026,
+    "authors": [
+      "Hongyi Lin",
+      "Wenxiu Shi",
+      "Heye Huang",
+      "Dingyi Zhuang",
+      "Song Zhang",
+      "Yang Liu",
+      "Xiaobo Qu",
+      "Jinhua Zhao"
+    ],
+    "doi": "10.48550/arxiv.2603.11534",
+    "file": "openalex_1048550_arxiv260311534_Risk-Controllable_Multi-View_Diffusion_for_Driving_Scenari.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7135223629",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "UniMLVG: Unified Framework for Multi-View Long Video Generation with Comprehensive Control Capabilities for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Rui Chen",
+      "Zehuan Wu",
+      "Yichen Liu",
+      "Yuxin Guo",
+      "Jingcheng Ni",
+      "Haifeng Xia",
+      "Siyu Xia"
+    ],
+    "doi": "10.1109/iccv51701.2025.02361",
+    "file": "openalex_101109_iccv51701202502361_UniMLVG_Unified_Framework_for_Multi-View_Long_Video_Gen.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405173645",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Audio-Visual Controlled Video Diffusion with Masked Selective State Spaces Modeling for Natural Talking Head Generation",
+    "year": 2025,
+    "authors": [
+      "Fa-Ting Hong",
+      "Zhiwei Xu",
+      "Zixiang Zhou",
+      "Jun Zhou",
+      "Xiu Li",
+      "Qin Lin",
+      "Qinglin Lu",
+      "Dan Xu"
+    ],
+    "doi": "10.1109/iccv51701.2025.01166",
+    "file": "openalex_101109_iccv51701202501166_Audio-Visual_Controlled_Video_Diffusion_with_Masked_Sel.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416123565",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Diffusion Model for Generating Safety-Critical Rural Driving Video Data",
+    "year": 2025,
+    "authors": [
+      "Ruwen Qin",
+      "Ke Li",
+      "Kaidi Liang"
+    ],
+    "doi": "",
+    "file": "openalex_W7233679296_A_Diffusion_Model_for_Generating_Safety-Critical_Rural_Driving_Video_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7233679296",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation",
+    "year": 2023,
+    "authors": [
+      "Ludan Ruan",
+      "Yiyang Ma",
+      "Huan Yang",
+      "Huiguo He",
+      "Bei Liu",
+      "Jianlong Fu",
+      "Nicholas Jing Yuan",
+      "Qin Jin",
+      "Baining Guo"
+    ],
+    "doi": "10.1109/cvpr52729.2023.00985",
+    "file": "openalex_101109_cvpr52729202300985_MM-Diffusion_Learning_Multi-Modal_Diffusion_Models_for_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4386075767",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Swap Attention in Spatiotemporal Diffusions for Text-to-Video Generation",
+    "year": 2025,
+    "authors": [
+      "Wenjing Wang",
+      "Huan Yang",
+      "Zixi Tuo",
+      "Huiguo He",
+      "Junchen Zhu",
+      "Jianlong Fu",
+      "Jiaying Liu"
+    ],
+    "doi": "10.1007/s11263-025-02349-y",
+    "file": "openalex_101007_s11263-025-02349-y_Swap_Attention_in_Spatiotemporal_Diffusions_for_Text-to.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4407881938",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DiVE: DiT-based Video Generation with Enhanced Control",
+    "year": 2024,
+    "authors": [
+      "Junpeng Jiang",
+      "Gangyi Hong",
+      "Zhou, Lijun",
+      "Enhui Ma",
+      "Hu, Hengtong",
+      "Xia Zhou",
+      "Xiang, Jie",
+      "Fan Liu",
+      "Kaicheng Yu",
+      "Sun, Haiyang",
+      "Kun Zhan",
+      "Jia Peng",
+      "Miao Zhang"
+    ],
+    "doi": "10.48550/arxiv.2409.01595",
+    "file": "openalex_1048550_arxiv240901595_DiVE_DiT-based_Video_Generation_with_Enhanced_Control.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402955020",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Conditional Image-to-Video Generation with Latent Flow Diffusion Models",
+    "year": 2023,
+    "authors": [
+      "Haomiao Ni",
+      "Changhao Shi",
+      "Kai Li",
+      "Xiaolei Huang",
+      "Martin Renqiang Min"
+    ],
+    "doi": "10.1109/cvpr52729.2023.01769",
+    "file": "openalex_101109_cvpr52729202301769_Conditional_Image-to-Video_Generation_with_Latent_Flow_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4386076323",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Controllable Video Generation: A Survey",
+    "year": 2025,
+    "authors": [
+      "Yue Ma",
+      "Feng, Kunyu",
+      "Hu, Zhongyuan",
+      "Xinyu Wang",
+      "Yucheng Wang",
+      "Zheng, Mingzhe",
+      "Bingyuan Wang",
+      "Wang, Qinghe",
+      "He, Xuanhua",
+      "Wang, Hongfa",
+      "Chenyang Zhu",
+      "Hongyu Liu",
+      "Yingqing He",
+      "Zeyu Wang",
+      "Zhifeng Li",
+      "Xiu Li",
+      "Sirui Han",
+      "Yike Guo",
+      "Wei Liu",
+      "Dan Xu"
+    ],
+    "doi": "10.48550/arxiv.2507.16869",
+    "file": "openalex_1048550_arxiv250716869_Controllable_Video_Generation_A_Survey.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414877175",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
+    "year": 2026,
+    "authors": [
+      "Simon Giebenhain",
+      "Tobias Kirschstein",
+      "Liam Schoneveld",
+      "Davide Davoli",
+      "Zhe Chen",
+      "Matthias Nießner"
+    ],
+    "doi": "10.48550/arxiv.2610.23772",
+    "file": "openalex_1048550_arxiv261023772_Video_Diffusion_Avatars_Taming_Video_Diffusion_Models_into.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7222956969",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer",
+    "year": 2026,
+    "authors": [
+      "Junsong Chen",
+      "Yuyang Zhao",
+      "Jincheng Yu",
+      "Ruihang Chu",
+      "Chen, Junyu",
+      "Yang, Shuai",
+      "Wang, Xianbang",
+      "Yicheng Pan",
+      "Daquan Zhou",
+      "Ling, Huan",
+      "Haozhe Liu",
+      "Yi, Hongwei",
+      "Hao Zhang",
+      "Miao Li",
+      "Yukang Chen",
+      "Han Cai",
+      "Sanja Fidler",
+      "Ping Luo",
+      "Song Han",
+      "Xie, Enze"
+    ],
+    "doi": "10.48550/arxiv.2509.24695",
+    "file": "openalex_1048550_arxiv250924695_SANA-Video_Efficient_Video_Generation_with_Block_Linear_Di.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415337140",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ControlNeXt: Powerful and Efficient Control for Image and Video Generation",
+    "year": 2024,
+    "authors": [
+      "Bohao Peng",
+      "Jian Wang",
+      "Yuechen Zhang",
+      "Wenbo Li",
+      "Ming-Chang Yang",
+      "Jiaya Jia"
+    ],
+    "doi": "",
+    "file": "arxiv_240806070v3_ControlNeXt_Powerful_and_Efficient_Control_for_Image_and_Video_Generatio.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.06070v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Controllable Generation with Text-to-Image Diffusion Models: A Survey",
+    "year": 2024,
+    "authors": [
+      "Pu Cao",
+      "Feng Zhou",
+      "Qing Song",
+      "Lu Yang"
+    ],
+    "doi": "10.1109/tpami.2025.3646548",
+    "file": "arxiv_101109_tpami20253646548_Controllable_Generation_with_Text-to-Image_Diffusion_Models_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.04279v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Video Diffusion Models: A Survey",
+    "year": 2024,
+    "authors": [
+      "Andrew Melnik",
+      "Michal Ljubljanac",
+      "Cong Lu",
+      "Qi Yan",
+      "Weiming Ren",
+      "Helge Ritter"
+    ],
+    "doi": "",
+    "file": "arxiv_240503150v2_Video_Diffusion_Models_A_Survey.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2405.03150v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "OmniVCus: Feedforward Subject-driven Video Customization with Multimodal Control Conditions",
+    "year": 2025,
+    "authors": [
+      "Yuanhao Cai",
+      "He Zhang",
+      "Xi Chen",
+      "Jinbo Xing",
+      "Yiwei Hu",
+      "Yuqian Zhou",
+      "Kai Zhang",
+      "Zhifei Zhang",
+      "Soo Ye Kim",
+      "Tianyu Wang",
+      "Yulun Zhang",
+      "Xiaokang Yang",
+      "Zhe Lin",
+      "Alan Yuille"
+    ],
+    "doi": "",
+    "file": "arxiv_250623361v3_OmniVCus_Feedforward_Subject-driven_Video_Customization_with_Multimodal_.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.23361v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix",
+    "year": 2024,
+    "authors": [
+      "Peng Dai",
+      "Feitong Tan",
+      "Qiangeng Xu",
+      "David Futschik",
+      "Ruofei Du",
+      "Sean Fanello",
+      "Xiaojuan Qi",
+      "Yinda Zhang"
+    ],
+    "doi": "",
+    "file": "arxiv_240700367v1_SVG_3D_Stereoscopic_Video_Generation_via_Denoising_Frame_Matrix.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2407.00367v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation",
+    "year": 2026,
+    "authors": [
+      "Jiahua Xu",
+      "Yijie Fang",
+      "Nannan Wang",
+      "Xunhao Lin",
+      "Li Cao",
+      "Lei Hao",
+      "Mingrui Zhu",
+      "Fei Gao",
+      "Xinbo Gao"
+    ],
+    "doi": "",
+    "file": "arxiv_261042031v1_Any_Forcing_Any-Step_Generality_and_One-Step_Stability_for_Autoregressiv.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.42031v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generating Driving Scenes with Diffusion",
+    "year": 2023,
+    "authors": [
+      "Ethan Pronovost",
+      "Kai Wang",
+      "Nick Roy"
+    ],
+    "doi": "",
+    "file": "arxiv_230518452v1_Generating_Driving_Scenes_with_Diffusion.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2305.18452v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model",
+    "year": 2024,
+    "authors": [
+      "Muyao Niu",
+      "Xiaodong Cun",
+      "Xintao Wang",
+      "Yong Zhang",
+      "Ying Shan",
+      "Yinqiang Zheng"
+    ],
+    "doi": "",
+    "file": "arxiv_240520222v3_MOFA-Video_Controllable_Image_Animation_via_Generative_Motion_Field_Adap.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2405.20222v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Video-As-Prompt: Unified Semantic Control for Video Generation",
+    "year": 2025,
+    "authors": [
+      "Yuxuan Bian",
+      "Xin Chen",
+      "Zenan Li",
+      "Tiancheng Zhi",
+      "Shen Sang",
+      "Linjie Luo",
+      "Qiang Xu"
+    ],
+    "doi": "",
+    "file": "arxiv_251020888v1_Video-As-Prompt_Unified_Semantic_Control_for_Video_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.20888v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Photorealistic Video Generation with Diffusion Models",
+    "year": 2023,
+    "authors": [
+      "Agrim Gupta",
+      "Lijun Yu",
+      "Kihyuk Sohn",
+      "Xiuye Gu",
+      "Meera Hahn",
+      "Li Fei-Fei",
+      "Irfan Essa",
+      "Lu Jiang",
+      "José Lezama"
+    ],
+    "doi": "",
+    "file": "arxiv_231206662v1_Photorealistic_Video_Generation_with_Diffusion_Models.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2312.06662v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "S^2VG: 3D Stereoscopic and Spatial Video Generation via Denoising Frame Matrix",
+    "year": 2025,
+    "authors": [
+      "Peng Dai",
+      "Feitong Tan",
+      "Qiangeng Xu",
+      "Yihua Huang",
+      "David Futschik",
+      "Ruofei Du",
+      "Sean Fanello",
+      "Yinda Zhang",
+      "Xiaojuan Qi"
+    ],
+    "doi": "",
+    "file": "arxiv_250808048v2_S2VG_3D_Stereoscopic_and_Spatial_Video_Generation_via_Denoising_Frame_Ma.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.08048v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "The 1st International Workshop on Disentangled Representation Learning for Controllable Generation (DRL4Real): Methods and Results",
+    "year": 2025,
+    "authors": [
+      "Qiuyu Chen",
+      "Xin Jin",
+      "Yue Song",
+      "Xihui Liu",
+      "Shuai Yang",
+      "Tao Yang",
+      "Ziqiang Li",
+      "Jianguo Huang",
+      "Yuntao Wei",
+      "Ba'ao Xie",
+      "Nicu Sebe",
+      " Wenjun",
+      " Zeng",
+      "Jooyeol Yun",
+      "Davide Abati",
+      "Mohamed Omran",
+      "Jaegul Choo",
+      "Amir Habibian",
+      "Auke Wiggers",
+      "Masato Kobayashi"
+    ],
+    "doi": "",
+    "file": "arxiv_250910463v1_The_1st_International_Workshop_on_Disentangled_Representation_Learning_f.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.10463v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+    "year": 2025,
+    "authors": [
+      "Shijie Chen",
+      "Peixi Peng"
+    ],
+    "doi": "",
+    "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.04830v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "How Far Can 5,500 Hours of Driving Take You? A Scaling Law Analysis of Video Diffusion Models",
+    "year": 2026,
+    "authors": [
+      "Victor Besnier",
+      "Anh-Quan Cao",
+      "Elias Ramzi",
+      "Spyros Gidaris",
+      "Tuan-Hung Vu",
+      "Andrei Bursuc",
+      "Eloi Zablocki",
+      "Matthieu Cord"
+    ],
+    "doi": "",
+    "file": "arxiv_260828404v2_How_Far_Can_5500_Hours_of_Driving_Take_You_A_Scaling_Law_Analysis_of_Vid.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2608.28404v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation",
+    "year": 2025,
+    "authors": [
+      "Sharath Girish",
+      "Viacheslav Ivanov",
+      "Tsai-Shien Chen",
+      "Hao Chen",
+      "Aliaksandr Siarohin",
+      "Sergey Tulyakov"
+    ],
+    "doi": "",
+    "file": "arxiv_251210943v1_AlcheMinT_Fine-grained_Temporal_Control_for_Multi-Reference_Consistent_V.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.10943v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Prompting Video-Language Foundation Models with Domain-specific Fine-grained Heuristics for Video Question Answering",
+    "year": 2024,
+    "authors": [
+      "Ting Yu",
+      "Kunhao Fu",
+      "Shuhui Wang",
+      "Qingming Huang",
+      "Jun Yu"
+    ],
+    "doi": "10.1109/tcsvt.2024.3475510",
+    "file": "arxiv_101109_tcsvt20243475510_Prompting_Video-Language_Foundation_Models_with_Domain-speci.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2410.09380v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Physics-Driven Diffusion Models for Impact Sound Synthesis from Videos",
+    "year": 2023,
+    "authors": [
+      "Kun Su",
+      "Kaizhi Qian",
+      "Eli Shlizerman",
+      "Antonio Torralba",
+      "Chuang Gan"
+    ],
+    "doi": "",
+    "file": "arxiv_230316897v3_Physics-Driven_Diffusion_Models_for_Impact_Sound_Synthesis_from_Videos.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2303.16897v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Text-to-image Diffusion Models in Generative AI: A Survey",
+    "year": 2023,
+    "authors": [
+      "Chenshuang Zhang",
+      "Chaoning Zhang",
+      "Mengchun Zhang",
+      "In So Kweon",
+      "Junmo Kim"
+    ],
+    "doi": "",
+    "file": "arxiv_230307909v3_Text-to-image_Diffusion_Models_in_Generative_AI_A_Survey.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2303.07909v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Exploring the Evolution of Physics Cognition in Video Generation: A Survey",
+    "year": 2025,
+    "authors": [
+      "Minghui Lin",
+      "Xiang Wang",
+      "Yishan Wang",
+      "Shu Wang",
+      "Fengqi Dai",
+      "Pengxiang Ding",
+      "Cunxiang Wang",
+      "Zhengrong Zuo",
+      "Nong Sang",
+      "Siteng Huang",
+      "Donglin Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_250321765v1_Exploring_the_Evolution_of_Physics_Cognition_in_Video_Generation_A_Surve.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.21765v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "ReCapture: Generative Video Camera Controls for User-Provided Videos using Masked Video Fine-Tuning",
+    "year": 2024,
+    "authors": [
+      "David Junhao Zhang",
+      "Roni Paiss",
+      "Shiran Zada",
+      "Nikhil Karnad",
+      "David E. Jacobs",
+      "Yael Pritch",
+      "Inbar Mosseri",
+      "Mike Zheng Shou",
+      "Neal Wadhwa",
+      "Nataniel Ruiz"
+    ],
+    "doi": "",
+    "file": "arxiv_241105003v1_ReCapture_Generative_Video_Camera_Controls_for_User-Provided_Videos_usin.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2411.05003v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

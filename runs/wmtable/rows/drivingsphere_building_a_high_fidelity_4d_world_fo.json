@@ -1,0 +1,15 @@
+{
+ "id": "drivingsphere_building_a_high_fidelity_4d_world_fo",
+ "title": "DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "4D occupancy world (static OccDreamer scene plus dynamic actors), rendered to multi-view video by VideoDreamer.", "pages": "1, 4, 6"},
+ "control_signal": {"value": "Regional BEV map plus text prompt for static occupancy; per-actor position, ID and caption, scene caption and camera intrinsics for video; driving agent control signals in the loop.", "pages": "4-6"},
+ "control_mechanism": {"value": "OccDreamer: CLIP text by cross-attention, BEV map through a ControlNet branch. VideoDreamer: ST-DiT with ControlNet branch for occupancy features and cross-attention for actor and scene embeddings.", "pages": "4-6"},
+ "base_model": {"value": "Occupancy VQVAE tokenizer plus diffusion denoiser; ST-DiT video denoiser with view-aware spatial attention; ControlNet inspired by PixArt-delta; T5 and CLIP text encoders.", "pages": "4-6"},
+ "datasets": {"value": "nuScenes for video fidelity and agent tests; SemCity setup for occupancy generation. Figure 1 also mentions Waymo.", "pages": "2, 7-8"},
+ "metrics": {"value": "FVD, UniAD-based mAP, NDS, lane and drivable segmentation, L2; FID and MMD for occupancy; NC, DAC, TTC, PDMS open-loop; Route Completion and ADS closed-loop.", "pages": "7-8"},
+ "controllability_evidence": {"value": "Generated video evaluated with UniAD: mAP 21.45 and NDS 34.16 versus 12.92 and 28.36 for MagicDrive; FVD 103.42. OccDreamer shows BEV map and text control qualitatively.", "pages": "7-8"},
+ "closed_loop": {"value": "Yes; UniAD receives rendered video and outputs control on 100 pre-defined routes. Route Completion is 0.1170 (11.7% of each route on average), ADS 0.0851.", "pages": "8-9"},
+ "stated_limitations": {"value": "Future work: improve dynamic agent behaviours and add more complex real-world scenarios.", "pages": "9"},
+ "notes": "Trajectories of actors come from a transportation simulator per Figure 2 caption. Fidelity numbers are on generated data, not direct action-following errors."
+}

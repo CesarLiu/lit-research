@@ -1,0 +1,1048 @@
+[
+  {
+    "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+    "year": 2024,
+    "authors": [
+      "Shenyuan Gao",
+      "Jiazhi Yang",
+      "Li Chen",
+      "Kashyap Chitta",
+      "Yihang Qiu",
+      "Andreas Geiger",
+      "Jun Zhang",
+      "Hongyang Li"
+    ],
+    "doi": "10.52202/079017-2906",
+    "file": "openalex_1052202_079017-2906_Vista_A_Generalizable_Driving_World_Model_with_High_Fidelity_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415796242",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-Modal Autoregressive Transformers",
+    "year": 2025,
+    "authors": [
+      "Yuntao Chen",
+      "Yuqi Wang",
+      "Zhaoxiang Zhang"
+    ],
+    "doi": "10.1109/iccv51701.2025.02496",
+    "file": "openalex_101109_iccv51701202502496_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405792757",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "InfinityDrive: Breaking Time Limits in Driving World Models",
+    "year": 2024,
+    "authors": [
+      "Xiaolong Guo",
+      "Chenjing Ding",
+      "Dou, Haoxuan",
+      "Xin Zhang",
+      "Weixuan Tang",
+      "Wei Wu"
+    ],
+    "doi": "10.48550/arxiv.2412.01522",
+    "file": "openalex_1048550_arxiv241201522_InfinityDrive_Breaking_Time_Limits_in_Driving_World_Models.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405091670",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Physical Informed Driving World Model",
+    "year": 2024,
+    "authors": [
+      "Zhuoran Yang",
+      "Xi Guo",
+      "Chenjing Ding",
+      "Chiyu Wang",
+      "Wei Wu"
+    ],
+    "doi": "10.48550/arxiv.2412.08410",
+    "file": "openalex_1048550_arxiv241208410_Physical_Informed_Driving_World_Model.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405306687",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction",
+    "year": 2025,
+    "authors": [
+      "Jingcheng Ni",
+      "Yuxin Guo",
+      "Yichen Liu",
+      "Rui Chen",
+      "Lewei Lu",
+      "Zehuan Wu"
+    ],
+    "doi": "10.1109/cvpr52734.2025.02085",
+    "file": "openalex_101109_cvpr52734202502085_MaskGWM_A_Generalizable_Driving_World_Model_with_Video_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413146585",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "EponaV2: Driving World Model with Comprehensive Future Reasoning",
+    "year": 2026,
+    "authors": [
+      "Jiawei Xu",
+      "Zhizhou Zhong",
+      "Zhijian Shu",
+      "Mingkai Jia",
+      "Mingxiao Li",
+      "Jia-Wang Bian",
+      "Qian Zhang",
+      "Kaicheng Zhang",
+      "Jin Xie",
+      "Jian Yang",
+      "Wei Yin"
+    ],
+    "doi": "10.48550/arxiv.2605.14696",
+    "file": "openalex_1048550_arxiv260514696_EponaV2_Driving_World_Model_with_Comprehensive_Future_Reas.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7161262407",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Breaking survivorship bias in driving world models",
+    "year": 2026,
+    "authors": [
+      "Zihao Sheng",
+      "Zilin Huang",
+      "Yuhao Luo",
+      "Zhengyang Wan",
+      "Boyue Wang",
+      "Soyoung Ahn",
+      "David A. Noyce",
+      "Sikai Chen"
+    ],
+    "doi": "10.48550/arxiv.2611.11516",
+    "file": "openalex_1048550_arxiv261111516_Breaking_survivorship_bias_in_driving_world_models.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7225746087",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model",
+    "year": 2024,
+    "authors": [
+      "Yuqi Wang",
+      "Ke Cheng",
+      "Jiawei He",
+      "Qitai Wang",
+      "Hengchen Dai",
+      "Yuntao Chen",
+      "Fei Xia",
+      "Zhaoxiang Zhang"
+    ],
+    "doi": "10.52202/079017-0414",
+    "file": "openalex_1052202_079017-0414_DrivingDojo_Dataset_Advancing_Interactive_and_Knowledge-Enric.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415798656",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation",
+    "year": 2025,
+    "authors": [
+      "Xin Xiang Zhou",
+      "Dingkang Liang",
+      "Sifan Tu",
+      "Xiwu Chen",
+      "Yikang Ding",
+      "Dingyuan Zhang",
+      "Feiyang Tan",
+      "Hengshuang Zhao",
+      "Xiang Bai"
+    ],
+    "doi": "10.1109/iccv51701.2025.02582",
+    "file": "openalex_101109_iccv51701202502582_HERMES_A_Unified_Self-Driving_World_Model_for_Simultane.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4406841381",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "PanDWM: Panoramic 4D Driving World Models",
+    "year": 2026,
+    "authors": [
+      "Jiajun Sun",
+      "Zeyu Zhang",
+      "Zeyu Ren",
+      "Guangfeng Jiang",
+      "Yang Zhao",
+      "Hao Tang"
+    ],
+    "doi": "10.48550/arxiv.2611.19857",
+    "file": "openalex_1048550_arxiv261119857_PanDWM_Panoramic_4D_Driving_World_Models.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7235724712",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World",
+    "year": 2025,
+    "authors": [
+      "Liang, Ao",
+      "Kong, Lingdong",
+      "Tianyi Yan",
+      "Liu, Hongsi",
+      "Yang, Wesley",
+      "Huang, Ziqi",
+      "Wei Yin",
+      "Zuo, Jialong",
+      "Yufeng Hu",
+      "Zhu, Dekai",
+      "Dongyue Lu",
+      "Youquan Liu",
+      "Jiang, Guangfeng",
+      "Li, Linfeng",
+      "Xiangtai Li",
+      "Zhuo, Long",
+      "Lai Xing Ng",
+      "Benoit R. Cottereau",
+      "Changxin Gao",
+      "Liang Pan"
+    ],
+    "doi": "10.48550/arxiv.2512.10958",
+    "file": "openalex_1048550_arxiv251210958_WorldLens_Full-Spectrum_Evaluations_of_Driving_World_Model.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417298093",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Is Your Driving World Model an All-Around Player?",
+    "year": 2026,
+    "authors": [
+      "Lingdong Kong",
+      "Ao Liang",
+      "Tianyi Yan",
+      "Hongsi Liu",
+      "Wesley Yang",
+      "Ziqi Huang",
+      "Xian Sun",
+      "Wei Yin",
+      "Jialong Zuo",
+      "Yufeng Hu",
+      "Dekai Zhu",
+      "Dongyue Lu",
+      "Youquan Liu",
+      "Guangfeng Jiang",
+      "Linfeng Li",
+      "Xiangtai Li",
+      "Long Zhuo",
+      "Lai Xing Ng",
+      "Benoit R. Cottereau",
+      "Changxin Gao"
+    ],
+    "doi": "10.48550/arxiv.2605.10858",
+    "file": "openalex_1048550_arxiv260510858_Is_Your_Driving_World_Model_an_All-Around_Player.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160896148",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Driving World Models Move the Camera, Not the Scene",
+    "year": 2026,
+    "authors": [
+      "Yuqiao Feng",
+      "Xiaoyu Ao"
+    ],
+    "doi": "10.48550/arxiv.2611.15260",
+    "file": "openalex_1048550_arxiv261115260_Driving_World_Models_Move_the_Camera_Not_the_Scene.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7226014599",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "VehDyn: A Driving World Model Benchmark for Vehicle Dynamics",
+    "year": 2026,
+    "authors": [
+      "Tianyi Wang",
+      "Wangsheng Du",
+      "Jiazhou Chen",
+      "Tianyi Zeng",
+      "Xiangyu Li",
+      "Jiseop Byeon",
+      "Yujin Wang",
+      "Yiming Xu",
+      "Yangyang Wang",
+      "Bingzhao Gao",
+      "Sikai Chen",
+      "Zhaomiao Guo",
+      "Junfeng Jiao",
+      "Christian Claudel",
+      "Alexandre M. Bayen"
+    ],
+    "doi": "10.48550/arxiv.2609.33264",
+    "file": "openalex_1048550_arxiv260933264_VehDyn_A_Driving_World_Model_Benchmark_for_Vehicle_Dynamic.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7214768123",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "How Can Driving World Models Do Counterfactual Prediction?",
+    "year": 2026,
+    "authors": [
+      "Jiaru Zhang",
+      "Can Cui",
+      "Yi Xu",
+      "Xin Ye",
+      "Ruqi Zhang",
+      "Ziran Wang"
+    ],
+    "doi": "10.48550/arxiv.2608.11601",
+    "file": "openalex_1048550_arxiv260811601_How_Can_Driving_World_Models_Do_Counterfactual_Prediction.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7202380706",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ProphetDWM: A Driving World Model for Rolling Out Future Actions and Videos",
+    "year": 2025,
+    "authors": [
+      "Xiaodong Wang",
+      "Peixi Peng"
+    ],
+    "doi": "10.48550/arxiv.2505.18650",
+    "file": "openalex_1048550_arxiv250518650_ProphetDWM_A_Driving_World_Model_for_Rolling_Out_Future_Ac.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414581539",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models",
+    "year": 2026,
+    "authors": [
+      "Fan Lu",
+      "Hanshi Wang",
+      "Zijing Wang",
+      "Quan Feng",
+      "Zhi Wang",
+      "Shijie Chen",
+      "Xianming Zeng",
+      "Yujian Zhang",
+      "Jiazhe Wang",
+      "Xin Zha",
+      "Kai Wang",
+      "Zhao Zhijie",
+      "Lin Zhu",
+      "Tianyi Yang",
+      "Yucheng Xu",
+      "Tao Ji",
+      "Haodong Zhang",
+      "Zhipeng Zhang",
+      "Peixi Peng",
+      "Guang Chen"
+    ],
+    "doi": "10.48550/arxiv.2609.28931",
+    "file": "openalex_1048550_arxiv260928931_HelloWorld_Towards_Practical_Applications_of_Generative_Dr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7214380207",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MAD: Motion Appearance Decoupling for efficient Driving World Models",
+    "year": 2026,
+    "authors": [
+      "Ahmad Rahimi",
+      "Valentin Gerard",
+      "Éloi Zablocki",
+      "Matthieu Cord",
+      "Alexandre Alahi"
+    ],
+    "doi": "10.48550/arxiv.2601.09452",
+    "file": "openalex_1048550_arxiv260109452_MAD_Motion_Appearance_Decoupling_for_efficient_Driving_Wor.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7124256093",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control",
+    "year": 2026,
+    "authors": [
+      "Anthony Chen",
+      "Wenzhao Zheng",
+      "Yida Wang",
+      "Xueyang Zhang",
+      "Kun Zhan",
+      "Peng Jia",
+      "Kurt Keutzer",
+      "Shanghang Zhang"
+    ],
+    "doi": "10.1109/icra57385.2026.11696583",
+    "file": "openalex_101109_icra57385202611696583_GeoDrive_3D_Geometry-Informed_Driving_World_Model_wi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416600591",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LongDWM: Cross-Granularity Distillation for Building a Long-Term Driving World Model",
+    "year": 2025,
+    "authors": [
+      "Xiaodong Wang",
+      "Zhirong Wu",
+      "Peixi Peng"
+    ],
+    "doi": "10.48550/arxiv.2506.01546",
+    "file": "openalex_1048550_arxiv250601546_LongDWM_Cross-Granularity_Distillation_for_Building_a_Long.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414897100",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Orbis: Overcoming Challenges of Long-Horizon Prediction in Driving World Models",
+    "year": 2025,
+    "authors": [
+      "Arian Mousakhan",
+      "Sudhanshu Mittal",
+      "Silvio Galesso",
+      "Karim Farid",
+      "Thomas Brox"
+    ],
+    "doi": "10.48550/arxiv.2507.13162",
+    "file": "openalex_1048550_arxiv250713162_Orbis_Overcoming_Challenges_of_Long-Horizon_Prediction_in_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415310407",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Hermes++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+    "year": 2026,
+    "authors": [
+      "Xin Zhou",
+      "Dingkang Liang",
+      "Xiwu Chen",
+      "Feiyang Tan",
+      "Dingyuan Zhang",
+      "Hengshuang Zhao",
+      "Xiang Bai"
+    ],
+    "doi": "10.1109/tpami.2026.3735606",
+    "file": "openalex_101109_tpami20263735606_Hermes_Toward_a_Unified_Driving_World_Model_for_3D_Scene_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7159584927",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models",
+    "year": 2026,
+    "authors": [
+      "Yuwei Ning",
+      "Liangzhi Wang",
+      "Yi Xiao",
+      "Wu, Zhenhua",
+      "Yun Pang",
+      "Mingkun Chang",
+      "Jichang Li",
+      "Guanbin Li"
+    ],
+    "doi": "10.48550/arxiv.2608.02953",
+    "file": "openalex_1048550_arxiv260802953_RealWeather_Realistic_and_Scene-Faithful_Weather_Translati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7172534965",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MORE: Learning Motion-Oriented Registers for Driving World Models and Planning",
+    "year": 2026,
+    "authors": [
+      "Yingdong Gu",
+      "Haoyu Wang",
+      "Shaocheng Yan",
+      "Zhenjun Zhao",
+      "Hao Han",
+      "Pengcheng Shi",
+      "Xianfei Li",
+      "Qinghua Tan",
+      "Wenlong Liao",
+      "Tao He",
+      "Jiayuan Li",
+      "Pai Peng"
+    ],
+    "doi": "10.48550/arxiv.2610.14871",
+    "file": "openalex_1048550_arxiv261014871_MORE_Learning_Motion-Oriented_Registers_for_Driving_World_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7221811735",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask",
+    "year": 2026,
+    "authors": [
+      "Zhuoran Yang",
+      "Yanyong Zhang"
+    ],
+    "doi": "10.48550/arxiv.2602.03213",
+    "file": "openalex_1048550_arxiv260203213_ConsisDrive_Identity-Preserving_Driving_World_Models_for_V.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7127570082",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+    "year": 2025,
+    "authors": [
+      "AgiBot World Contributors",
+      "Qingwen Bu",
+      "Jisong Cai",
+      "Li Chen",
+      "Xiuqi Cui",
+      "Yan Ding",
+      "Siyuan Feng",
+      "Shenyuan Gao",
+      "Xindong He",
+      "Xuan Hu",
+      "Xu Huang",
+      "Shu Jiang",
+      "Yuxin Jiang",
+      "Cheng Jing",
+      "Hongyang Li",
+      "Jialu Li",
+      "Chiming Liu",
+      "Yi Liu",
+      "Yuxiang Lu",
+      "Jianlan Luo"
+    ],
+    "doi": "",
+    "file": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.06669v5",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Wei Wang",
+      "Yiru Veronika Wang",
+      "Yihan Wang",
+      "Zihao Li",
+      "Xiaohui Liang"
+    ],
+    "doi": "",
+    "file": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.22450v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey",
+    "year": 2025,
+    "authors": [
+      "Sifan Tu",
+      "Xin Zhou",
+      "Dingkang Liang",
+      "Xingyu Jiang",
+      "Yumeng Zhang",
+      "Xiaofan Li",
+      "Xiang Bai"
+    ],
+    "doi": "",
+    "file": "arxiv_250210498v2_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_Comprehensive_S.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.10498v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "WorldGym: World Model as An Environment for Policy Evaluation",
+    "year": 2025,
+    "authors": [
+      "Julian Quevedo",
+      "Ansh Kumar Sharma",
+      "Yixiang Sun",
+      "Varad Suryavanshi",
+      "Percy Liang",
+      "Sherry Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_250600613v3_WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.00613v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "What-If World: A Causal Benchmark for General World Models in Embodied Scenarios",
+    "year": 2026,
+    "authors": [
+      "Kunlin Cai",
+      "Rui Song",
+      "Jinghuai Zhang",
+      "Kaiyuan Zhang",
+      "Pranav Bodapati",
+      "Alicia Yu",
+      "Fnu Suya",
+      "Mohammad Rostami",
+      "Jiaqi Ma",
+      "Yuan Tian"
+    ],
+    "doi": "",
+    "file": "arxiv_260527589v1_What-If_World_A_Causal_Benchmark_for_General_World_Models_in_Embodied_Sc.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.27589v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation",
+    "year": 2026,
+    "authors": [
+      "Kaichen Zhou",
+      "Yuzhen Chen",
+      "Fangneng Zhan",
+      "Hang Hua",
+      "Grace Chen",
+      "Xinhai Chang",
+      "Ao Qu",
+      "Yilun Du",
+      "Zhuang Liu",
+      "Paul Pu Liang",
+      "Mengyu Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_260522882v4_GEM-4D_Geometry-Enhanced_Video_World_Models_for_Robot_Manipulation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.22882v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Relationally Grounded Latent World Models for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Fabian Schmidt",
+      "Markus Enzweiler",
+      "Abhinav Valada"
+    ],
+    "doi": "",
+    "file": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.24626v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report",
+    "year": 2025,
+    "authors": [
+      "Riccardo Mereu",
+      "Aidan Scannell",
+      "Yuxin Hou",
+      "Yi Zhao",
+      "Aditya Jitta",
+      "Antonio Dominguez",
+      "Luigi Acerbi",
+      "Amos Storkey",
+      "Paul Chang"
+    ],
+    "doi": "",
+    "file": "arxiv_251007092v1_Generative_World_Modelling_for_Humanoids_1X_World_Model_Challenge_Techni.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.07092v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Quo Vadis, World Modeling?",
+    "year": 2026,
+    "authors": [
+      "Yu Yang",
+      "Xuemeng Yang",
+      "Licheng Wen",
+      "Lingdong Kong",
+      "Xiaobin Hu",
+      "Dongyue Lu",
+      "Wei Chow",
+      "Xiyan Huang",
+      "Yuxiang Feng",
+      "Yue Liao",
+      "Jianbiao Mei",
+      "Daocheng Fu",
+      "Rong Wu",
+      "Pinlong Cai",
+      "Ran Yi",
+      "Ying Tai",
+      "Jiangning Zhang",
+      "Botian Shi",
+      "Yong Liu",
+      "Shuicheng Yan"
+    ],
+    "doi": "",
+    "file": "arxiv_260802713v1_Quo_Vadis_World_Modeling.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2608.02713v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Nano World Models: A Minimalist Implementation of Future Video Prediction",
+    "year": 2026,
+    "authors": [
+      "Siqiao Huang",
+      "Partha Kaushik",
+      "Michael Chen",
+      "Hengkai Pan",
+      "Kaiwen Geng",
+      "Omar Chehab",
+      "Fernando Moreno-Pino",
+      "Max Simchowitz"
+    ],
+    "doi": "",
+    "file": "arxiv_260523993v2_Nano_World_Models_A_Minimalist_Implementation_of_Future_Video_Prediction.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.23993v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models",
+    "year": 2026,
+    "authors": [
+      "Xiyan Su",
+      "Frank Diermeyer",
+      "Markus Lienkamp"
+    ],
+    "doi": "",
+    "file": "arxiv_260710781v1_Is_Energy_Guidance_All_You_Need_Training-Free_Norm_Injection_for_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2607.10781v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation",
+    "year": 2026,
+    "authors": [
+      "Xiangcheng Zhan",
+      "Zirui Chen",
+      "Yicheng Zhao",
+      "Ziteng Gao",
+      "Shuo Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_260937398v1_Direct_Experience_World-Model_Optimization_Learning_the_World_Beyond_Act.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.37398v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AVID: Adapting Video Diffusion Models to World Models",
+    "year": 2024,
+    "authors": [
+      "Marc Rigter",
+      "Tarun Gupta",
+      "Agrin Hilmkil",
+      "Chao Ma"
+    ],
+    "doi": "",
+    "file": "arxiv_241012822v2_AVID_Adapting_Video_Diffusion_Models_to_World_Models.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2410.12822v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning",
+    "year": 2024,
+    "authors": [
+      "Mehshan Ahmed Khan",
+      "Houshyar Asadi",
+      "Mohammad Reza Chalak Qazani",
+      "Chee Peng Lim",
+      "Saied Nahavandi"
+    ],
+    "doi": "",
+    "file": "arxiv_240806349v3_Functional_near-infrared_spectroscopy_fNIRS_and_Eye_tracking_for_Cogniti.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2408.06349v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "D$^2$-World: An Efficient World Model through Decoupled Dynamic Flow",
+    "year": 2024,
+    "authors": [
+      "Haiming Zhang",
+      "Xu Yan",
+      "Ying Xue",
+      "Zixuan Guo",
+      "Shuguang Cui",
+      "Zhen Li",
+      "Bingbing Liu"
+    ],
+    "doi": "",
+    "file": "arxiv_241117027v1_D2-World_An_Efficient_World_Model_through_Decoupled_Dynamic_Flow.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2411.17027v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "World-in-World: World Models in a Closed-Loop World",
+    "year": 2025,
+    "authors": [
+      "Jiahan Zhang",
+      "Muqing Jiang",
+      "Nanru Dai",
+      "Taiming Lu",
+      "Arda Uzunoglu",
+      "Shunchi Zhang",
+      "Yana Wei",
+      "Jiahao Wang",
+      "Vishal M. Patel",
+      "Paul Pu Liang",
+      "Daniel Khashabi",
+      "Cheng Peng",
+      "Rama Chellappa",
+      "Tianmin Shu",
+      "Alan Yuille",
+      "Yilun Du",
+      "Jieneng Chen"
+    ],
+    "doi": "",
+    "file": "arxiv_251018135v2_World-in-World_World_Models_in_a_Closed-Loop_World.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.18135v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "NARRATE: A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving",
+    "year": 2026,
+    "authors": [
+      "Ashkan Yousefi Zadeh",
+      "Zishuo Zhu",
+      "Xiaomeng Li",
+      "Andry Rakotonirainy",
+      "Sebastien Glaser",
+      "Ronald Schroeter",
+      "Patricia Delhomme",
+      "Zahra Mehraban"
+    ],
+    "doi": "",
+    "file": "arxiv_260814767v1_NARRATE_A_Multimodal_Real-World_Australian_Driving_Dataset_for_Human-Cen.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2608.14767v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
+    "year": 2026,
+    "authors": [
+      "Jiuming Liu",
+      "Chaojun Ni",
+      "Mengmeng Liu",
+      "Chensheng Peng",
+      "Fangjinhua Wang",
+      "Sitian Shen",
+      "Marc Pollefeys",
+      "Masayoshi Tomizuka",
+      "Ayush Tewari",
+      "Per Ola Kristensson"
+    ],
+    "doi": "",
+    "file": "arxiv_260601164v1_Towards_Interactive_Video_World_Modeling_Frontiers_Challenges_Benchmarks.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2606.01164v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Better Slots, Better Worlds: Representation Quality & Robustness in Object-Centric World Models",
+    "year": 2026,
+    "authors": [
+      "Shukrullo Nazirjonov",
+      "Sai Prasanna",
+      "Anna Manasyan",
+      "Georg Martius"
+    ],
+    "doi": "",
+    "file": "arxiv_260812078v1_Better_Slots_Better_Worlds_Representation_Quality__Robustness_in_Object-.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2608.12078v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "World-Gymnast: Training Robots with Reinforcement Learning in a World Model",
+    "year": 2026,
+    "authors": [
+      "Ansh Kumar Sharma",
+      "Yixiang Sun",
+      "Ninghao Lu",
+      "Yunzhe Zhang",
+      "Jiarao Liu",
+      "Sherry Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_260202454v1_World-Gymnast_Training_Robots_with_Reinforcement_Learning_in_a_World_Mod.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.02454v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Sora as a World Model? A Complete Survey on Text-to-Video Generation",
+    "year": 2024,
+    "authors": [
+      "Fachrina Dewi Puspitasari",
+      "Chaoning Zhang",
+      "Joseph Cho",
+      "Adnan Haider",
+      "Noor Ul Eman",
+      "Omer Amin",
+      "Alexis Mankowski",
+      "Muhammad Umair",
+      "Jingyao Zheng",
+      "Sheng Zheng",
+      "Lik-Hang Lee",
+      "Caiyan Qin",
+      "Tae-Ho Kim",
+      "Choong Seon Hong",
+      "Yang Yang",
+      "Heng Tao Shen"
+    ],
+    "doi": "",
+    "file": "arxiv_240305131v3_Sora_as_a_World_Model_A_Complete_Survey_on_Text-to-Video_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.05131v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+    "year": 2025,
+    "authors": [
+      "Jingtong Yue",
+      "Ziqi Huang",
+      "Zhaoxi Chen",
+      "Xintao Wang",
+      "Pengfei Wan",
+      "Ziwei Liu"
+    ],
+    "doi": "",
+    "file": "arxiv_251108585v4_Simulating_the_Visual_World_with_Artificial_Intelligence_A_Roadmap.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2511.08585v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Zhennan Wang",
+      "Jianing Teng",
+      "Canqun Xiang",
+      "Kangliang Chen",
+      "Xing Pan",
+      "Lu Deng",
+      "Weihao Gu"
+    ],
+    "doi": "",
+    "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.21581v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens",
+    "year": 2024,
+    "authors": [
+      "Xiaofeng Wang",
+      "Zheng Zhu",
+      "Guan Huang",
+      "Boyuan Wang",
+      "Xinze Chen",
+      "Jiwen Lu"
+    ],
+    "doi": "",
+    "file": "arxiv_240109985v1_WorldDreamer_Towards_General_World_Models_for_Video_Generation_via_Predi.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2401.09985v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

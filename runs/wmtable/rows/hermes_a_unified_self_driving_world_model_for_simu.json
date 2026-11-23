@@ -1,0 +1,42 @@
+{
+ "id": "hermes_a_unified_self_driving_world_model_for_simu",
+ "title": "HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {
+  "value": "future lidar point clouds (0 to 3s) from multi-view camera input, plus text answers and scene descriptions",
+  "pages": "4-5, 7"
+ },
+ "control_signal": {
+  "value": "planned future ego positions and heading (ego-motion condition) per predicted frame; text prompts drive the understanding branch",
+  "pages": "5"
+ },
+ "control_mechanism": {
+  "value": "ego-motion embeddings are added to world queries derived by max pooling from the BEV feature and copied per future frame (one group per future frame, with frame embedding) processed by the LLM, then cross-attention link to future BEV features and a point-cloud renderer",
+  "pages": "5"
+ },
+ "base_model": {
+  "value": "InternVL2-2B LLM (1.8B), BEV tokenizer with OpenCLIP ConvNeXt-L backbone following BEVFormer v2, BEV-to-point-cloud renderer; LoRA refinement",
+  "pages": "4, 6, 9"
+ },
+ "datasets": {
+  "value": "nuScenes, NuInteract and OmniDrive-nuScenes captions/QA; NuScenes-QA for extra VQA",
+  "pages": "5, 10"
+ },
+ "metrics": {
+  "value": "Chamfer distance at 0-3s for generation; METEOR, ROUGE, CIDEr for understanding; NuScenes-QA accuracy",
+  "pages": "6, 10"
+ },
+ "controllability_evidence": {
+  "value": "No dedicated action-following test in packet. Generation accuracy: Chamfer 3s 1.17 versus 1.73 for ViDAR (about 32% lower), and 1.37 for a separated unification variant.",
+  "pages": "6"
+ },
+ "closed_loop": {
+  "value": "no; open-loop forecasting of 3 seconds (3 future frames) from the current frame only",
+  "pages": "6, 9"
+ },
+ "stated_limitations": {
+  "value": "Perception tasks are not explored in the framework, and future image generation remains under exploration.",
+  "pages": "8"
+ },
+ "notes": "Controllability (ego-motion conditioning) is mentioned as enabling controllable generation but not separately evaluated in the packet. Primarily a unified understanding-plus-forecasting model."
+}

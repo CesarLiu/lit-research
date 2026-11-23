@@ -1,0 +1,13 @@
+{
+ "id": "ecosim_data_efficient_fine_tuning_for_controllable",
+ "title": "ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Trajectory sketch (future waypoints), latent behavior code from a BehaviorVAE, or natural-language command; behaviors can be retrieved from other agents and transferred into a scene.", "pages": "5-6, 2-3"},
+ "control_mechanism": {"value": "Small adapters predict FiLM scale and shift for decoder layers of a frozen backbone, identity-initialized, trained with closed-loop fine-tuning. Logits-level classifier-free guidance is used for counterfactual rollouts.", "pages": "5-6, 6-7, 11-12"},
+ "base_model": {"value": "Frozen pretrained VBD (diffusion) and SMART (autoregressive) traffic models; DistilBERT with LoRA for text; BehaviorVAE for latents.", "pages": "8-9, 5-6"},
+ "datasets": {"value": "Waymo Open Motion Dataset with the Waymo Open Sim Agents Challenge protocol; BehaviorVAE trained on 10,000 training scenarios; text from ProSim-Instruct-520k.", "pages": "8-9"},
+ "metrics": {"value": "Realism: WOSAC Meta score. Control: mADE and relative mADE gain. Counterfactual: Control ADE, maneuver success rate, coverage, collision, offroad, closed-loop PDMScore.", "pages": "8-9, 11-12"},
+ "controllability_evidence": {"value": "Adapters reduce control error by up to 83% and raise WOSAC Meta by 0.02-0.03, using 0.01%-1% paired data. Counterfactual sketch control: Control ADE 0.3727 m, success 70.61%.", "pages": "2-3, 11-12"},
+ "stated_limitations": {"value": "May favor control satisfaction over safe interaction when instructions conflict with traffic (sudden-brake and at-fault collisions); controls a single agent; retrieved counterfactuals are imbalanced toward simple behaviors.", "pages": "15-16, 21-23"},
+ "notes": "Evaluation controls are derived from ground-truth trajectories (oracle) per the paper; family label chosen because control inputs are trained into an adapter, not applied by guidance."
+}

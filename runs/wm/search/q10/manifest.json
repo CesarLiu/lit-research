@@ -1,0 +1,921 @@
+[
+  {
+    "title": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion",
+    "year": 2024,
+    "authors": [
+      "Lunjun Zhang",
+      "Yuwen Xiong",
+      "Ze Yang",
+      "Sergio Casas",
+      "Hu, Rui",
+      "Raquel Urtasun"
+    ],
+    "doi": "10.48550/arxiv.2311.01017",
+    "file": "openalex_1048550_arxiv231101017_Copilot4D_Learning_Unsupervised_World_Models_for_Autonomou.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4388329036",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Visual Point Cloud Forecasting Enables Scalable Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Zetong Yang",
+      "Li Chen",
+      "Yanan Sun",
+      "Hongyang Li"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01390",
+    "file": "openalex_101109_cvpr52733202401390_Visual_Point_Cloud_Forecasting_Enables_Scalable_Autonom.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402727527",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Survey of World Models for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Feng, Tuo",
+      "Wenguan Wang",
+      "Yi Yang"
+    ],
+    "doi": "10.48550/arxiv.2501.11260",
+    "file": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4406734973",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Yang Yu",
+      "Jianbiao Mei",
+      "Yukai Ma",
+      "Siliang Du",
+      "Wenqing Chen",
+      "Yijie Qian",
+      "Yuxiang Feng",
+      "Yong Liu"
+    ],
+    "doi": "10.1609/aaai.v39i9.33010",
+    "file": "openalex_101609_aaaiv39i933010_Driving_in_the_Occupancy_World_Vision-Centric_4D_Occupancy_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409365815",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "World Models for Autonomous Driving: An Initial Survey",
+    "year": 2024,
+    "authors": [
+      "Yanchen Guan",
+      "Haicheng Liao",
+      "Zhenning Li",
+      "Jia Sheng Hu",
+      "Runze Yuan",
+      "Guohui Zhang",
+      "Chengzhong Xu"
+    ],
+    "doi": "10.1109/tiv.2024.3398357",
+    "file": "openalex_101109_tiv20243398357_World_Models_for_Autonomous_Driving_An_Initial_Survey.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4396754486",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Julong Wei",
+      "Yuan, Shanshuai",
+      "Pengfei Li",
+      "Hu, Qingda",
+      "Zhongxue Gan",
+      "Wenchao Ding"
+    ],
+    "doi": "10.48550/arxiv.2409.03272",
+    "file": "openalex_1048550_arxiv240903272_OccLLaMA_An_Occupancy-Language-Action_Generative_World_Mod.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403556110",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DriveWorld: 4D Pre-Trained Scene Understanding via World Models for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Chen Min",
+      "Dawei Zhao",
+      "Xiao Liang",
+      "Jian Cun Zhao",
+      "Xinli Xu",
+      "Zheng Dong Zhu",
+      "Lei Jin",
+      "Jianshu Li",
+      "Yulan Guo",
+      "Junliang Xing",
+      "Liping Jing",
+      "Yiming Nie",
+      "Bin Dai"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01470",
+    "file": "openalex_101109_cvpr52733202401470_DriveWorld_4D_Pre-Trained_Scene_Understanding_via_World.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402716059",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey on Multimodal Large Language Models for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Can Cui",
+      "Yunsheng Ma",
+      "Xu Cao",
+      "Wenqian Ye",
+      "Yang Zhou",
+      "Kaizhao Liang",
+      "Jintai Chen",
+      "Juanwu Lu",
+      "Zichong Yang",
+      "Kuei-Da Liao",
+      "Tianren Gao",
+      "Erlong Li",
+      "Kun Tang",
+      "Zhipeng Cao",
+      "Tong Zhou",
+      "Ao Liu",
+      "Xinrui Yan",
+      "Shuqi Mei",
+      "Jianguo Cao",
+      "Ziran Wang"
+    ],
+    "doi": "10.1109/wacvw60836.2024.00106",
+    "file": "openalex_101109_wacvw60836202400106_A_Survey_on_Multimodal_Large_Language_Models_for_Auton.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4394862623",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "EMMA: End-to-End Multimodal Model for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Jyh-Jing Hwang",
+      "Xu, Runsheng",
+      "Lin, Hubert",
+      "Wei-Chih Hung",
+      "Jingwei Ji",
+      "Kristy Choi",
+      "Huang, Di",
+      "Tong He",
+      "Paul Covington",
+      "Benjamin Sapp",
+      "Zhou, Yin",
+      "James C. Y. Guo",
+      "Dragomir Anguelov",
+      "Mingxing Tan"
+    ],
+    "doi": "10.48550/arxiv.2410.23262",
+    "file": "openalex_1048550_arxiv241023262_EMMA_End-to-End_Multimodal_Model_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4404350186",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations",
+    "year": 2025,
+    "authors": [
+      "Daniel Bogdoll",
+      "Yitian Yang",
+      "Tim Joseph",
+      "Melih Yazgan",
+      "J. Marius Zöllner"
+    ],
+    "doi": "10.1109/iv64158.2025.11097718",
+    "file": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413017878",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey",
+    "year": 2025,
+    "authors": [
+      "Sifan Tu",
+      "Xin Zhou",
+      "Dingkang Liang",
+      "Jiang, Xingyu",
+      "Yumeng Zhang",
+      "Li, Xiaofan",
+      "Xiang Bai"
+    ],
+    "doi": "10.48550/arxiv.2502.10498",
+    "file": "openalex_1048550_arxiv250210498_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_C.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4407683685",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents",
+    "year": 2024,
+    "authors": [
+      "Yumeng Zhang",
+      "Shi Gong",
+      "Kaixin Xiong",
+      "Xiaoqing Ye",
+      "Li, Xiaofan",
+      "Xiao Tan",
+      "Wang, Fan",
+      "Jizhou Huang",
+      "Hua Ming Wu",
+      "Haifeng Wang"
+    ],
+    "doi": "10.48550/arxiv.2407.05679",
+    "file": "openalex_1048550_arxiv240705679_BEVWorld_A_Multimodal_World_Simulator_for_Autonomous_Drivi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4400481099",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey for Foundation Models in Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Haoxiang Gao",
+      "Zhongruo Wang",
+      "Yunong Li",
+      "Kaiwen Long",
+      "Ming Yang",
+      "Yiqing Shen"
+    ],
+    "doi": "10.1109/iccvdm66874.2025.11290083",
+    "file": "openalex_101109_iccvdm66874202511290083_A_Survey_for_Foundation_Models_in_Autonomous_Drivi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417471306",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Doe-1: Closed-Loop Autonomous Driving with Large World Model",
+    "year": 2024,
+    "authors": [
+      "Wenzhao Zheng",
+      "Xia, Zetian",
+      "Yuanhui Huang",
+      "Sicheng Zuo",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "doi": "10.48550/arxiv.2412.09627",
+    "file": "openalex_1048550_arxiv241209627_Doe-1_Closed-Loop_Autonomous_Driving_with_Large_World_Mode.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405355507",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Uniocc: a Unified Benchmark for Occupancy Forecasting and Prediction in Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Yuping Wang",
+      "Xiangyu Huang",
+      "Xiaokang Sun",
+      "Mingxuan Yan",
+      "Shuo Xing",
+      "Zhengzhong Tu",
+      "Jiachen Li"
+    ],
+    "doi": "10.1109/iccv51701.2025.02371",
+    "file": "openalex_101109_iccv51701202502371_Uniocc_a_Unified_Benchmark_for_Occupancy_Forecasting_an.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7160012808",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DriveX: Omni Scene Modeling for Learning Generalizable World Knowledge in Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Shi Chen",
+      "Shaoshuai Shi",
+      "Kehua Sheng",
+      "Bo Zhang",
+      "Li Jiang"
+    ],
+    "doi": "10.1109/iccv51701.2025.02656",
+    "file": "openalex_101109_iccv51701202502656_DriveX_Omni_Scene_Modeling_for_Learning_Generalizable_W.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4414586019",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis",
+    "year": 2026,
+    "authors": [
+      "Yuan Gao",
+      "Mattia Piccinini",
+      "Yuchen Zhang",
+      "Dingrui Wang",
+      "Korbinian Moller",
+      "Roberto Brusnicki",
+      "Baha Zarrouki",
+      "Alessio Gambi",
+      "Jan Frederik Totz",
+      "Kai Storms",
+      "Steven Peters",
+      "Andrea Stocco",
+      "Bassam Alrifaee",
+      "Marco Pavone",
+      "Johannes Betz"
+    ],
+    "doi": "10.1109/ojits.2026.3660686",
+    "file": "openalex_101109_ojits20263660686_Foundation_Models_in_Autonomous_Driving_A_Survey_on_Scena.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415068890",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Exploring the Interplay Between Video Generation and World Models in Autonomous Driving: A Survey",
+    "year": 2024,
+    "authors": [
+      "Ao Fu",
+      "Yi Zhou",
+      "Tao Zhou",
+      "Yi Yang",
+      "Bojun Gao",
+      "Qun Li",
+      "Guobin Wu",
+      "Ling Shao"
+    ],
+    "doi": "10.48550/arxiv.2411.02914",
+    "file": "openalex_1048550_arxiv241102914_Exploring_the_Interplay_Between_Video_Generation_and_World.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4404403970",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Semi-Supervised Vision-Centric 3D Occupancy World Model for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Li, Xiang",
+      "Pengfei Li",
+      "Zheng, Yupeng",
+      "Wei Sun",
+      "Yan Wang",
+      "Yilun Chen"
+    ],
+    "doi": "10.48550/arxiv.2502.07309",
+    "file": "openalex_1048550_arxiv250207309_Semi-Supervised_Vision-Centric_3D_Occupancy_World_Model_fo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4407424328",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DriveWorld-VLA: Unified Latent-Space World Modeling with Vision-Language-Action for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Feiyang Jia",
+      "Lin Liu",
+      "Ziying Song",
+      "Caiyan Jia",
+      "Hangjun Ye",
+      "Xiaoshuai Hao",
+      "Long Chen"
+    ],
+    "doi": "10.48550/arxiv.2602.06521",
+    "file": "openalex_1048550_arxiv260206521_DriveWorld-VLA_Unified_Latent-Space_World_Modeling_with_Vi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7128356427",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Applications of Large Scale Foundation Models for Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Yu Li Huang",
+      "Yue Chen",
+      "Zhu Li"
+    ],
+    "doi": "10.48550/arxiv.2311.12144",
+    "file": "openalex_1048550_arxiv231112144_Applications_of_Large_Scale_Foundation_Models_for_Autonomo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4388963974",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "ReSim: Reliable World Simulation for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Jia-Zhi Yang",
+      "Kashyap Chitta",
+      "Shenyuan Gao",
+      "Long Chen",
+      "Yuqian Shao",
+      "Xiaosong Jia",
+      "Hongyang Li",
+      "Andreas Geiger",
+      "Xiangyu Yue",
+      "Li Chen"
+    ],
+    "doi": "10.52202/085713-5591",
+    "file": "openalex_1052202_085713-5591_ReSim_Reliable_World_Simulation_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417309039",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey on Future Physical World Generation for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Jianling Chu",
+      "Zerun Liu",
+      "Huanran Huo",
+      "Jinyuan Qin",
+      "Yantao Pan",
+      "Lechao Cheng"
+    ],
+    "doi": "10.1145/3769748.3773345",
+    "file": "openalex_101145_37697483773345_A_Survey_on_Future_Physical_World_Generation_for_Autonomous.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417113974",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "World4Drive: End-to-End Autonomous Driving via Intention-Aware Physical Latent World Model",
+    "year": 2025,
+    "authors": [
+      "Yupeng Zheng",
+      "Pengxuan Yang",
+      "Zebin Xing",
+      "Qichao Zhang",
+      "Yuhang Zheng",
+      "Yinfeng Gao",
+      "Pengfei Li",
+      "Teng Ling Zhang",
+      "Zhongpu Xia",
+      "Peng Jia",
+      "XianPeng Lang",
+      "Dongbin Zhao"
+    ],
+    "doi": "10.1109/iccv51701.2025.02659",
+    "file": "openalex_101109_iccv51701202502659_World4Drive_End-to-End_Autonomous_Driving_via_Intention.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416887510",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+    "year": 2024,
+    "authors": [
+      "Shenyuan Gao",
+      "Jiazhi Yang",
+      "Li Chen",
+      "Kashyap Chitta",
+      "Yihang Qiu",
+      "Andreas Geiger",
+      "Jun Zhang",
+      "Hongyang Li"
+    ],
+    "doi": "10.52202/079017-2906",
+    "file": "openalex_1052202_079017-2906_Vista_A_Generalizable_Driving_World_Model_with_High_Fidelity_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4415796242",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Wei Wang",
+      "Yiru Veronika Wang",
+      "Yihan Wang",
+      "Zihao Li",
+      "Xiaohui Liang"
+    ],
+    "doi": "",
+    "file": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.22450v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "$PC^2$: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction",
+    "year": 2023,
+    "authors": [
+      "Luke Melas-Kyriazi",
+      "Christian Rupprecht",
+      "Andrea Vedaldi"
+    ],
+    "doi": "",
+    "file": "arxiv_230210668v2_PC2_Projection-Conditioned_Point_Cloud_Diffusion_for_Single-Image_3D_Rec.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2302.10668v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Zhennan Wang",
+      "Jianing Teng",
+      "Canqun Xiang",
+      "Kangliang Chen",
+      "Xing Pan",
+      "Lu Deng",
+      "Weihao Gu"
+    ],
+    "doi": "",
+    "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2505.21581v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Noise2Score3D:Unsupervised Tweedie's Approach for Point Cloud Denoising",
+    "year": 2025,
+    "authors": [
+      "Xiangbin Wei"
+    ],
+    "doi": "",
+    "file": "arxiv_250216826v3_Noise2Score3DUnsupervised_Tweedies_Approach_for_Point_Cloud_Denoising.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.16826v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Masked Clustering Prediction for Unsupervised Point Cloud Pre-training",
+    "year": 2025,
+    "authors": [
+      "Bin Ren",
+      "Xiaoshui Huang",
+      "Mengyuan Liu",
+      "Hong Liu",
+      "Fabio Poiesi",
+      "Nicu Sebe",
+      "Guofeng Mei"
+    ],
+    "doi": "",
+    "file": "arxiv_250808910v1_Masked_Clustering_Prediction_for_Unsupervised_Point_Cloud_Pre-training.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.08910v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+    "year": 2025,
+    "authors": [
+      "Haibao Yu",
+      "Wenxian Yang",
+      "Ruiyang Hao",
+      "Chuanye Wang",
+      "Jiaru Zhong",
+      "Ping Luo",
+      "Zaiqing Nie"
+    ],
+    "doi": "",
+    "file": "arxiv_250923922v1_DriveE2E_Closed-Loop_Benchmark_for_End-to-End_Autonomous_Driving_through.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2509.23922v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+    "year": 2023,
+    "authors": [
+      "Kotaro Tanahashi",
+      "Yuichi Inoue",
+      "Yu Yamaguchi",
+      "Hidetatsu Yaginuma",
+      "Daiki Shiotsuka",
+      "Hiroyuki Shimatani",
+      "Kohei Iwamasa",
+      "Yoshiaki Inoue",
+      "Takafumi Yamaguchi",
+      "Koki Igari",
+      "Tsukasa Horinouchi",
+      "Kento Tokuhiro",
+      "Yugo Tokuchi",
+      "Shunsuke Aoki"
+    ],
+    "doi": "",
+    "file": "arxiv_231206351v1_Evaluation_of_Large_Language_Models_for_Decision_Making_in_Autonomous_Dr.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2312.06351v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting",
+    "year": 2023,
+    "authors": [
+      "Tarasha Khurana",
+      "Peiyun Hu",
+      "David Held",
+      "Deva Ramanan"
+    ],
+    "doi": "",
+    "file": "arxiv_230213130v3_Point_Cloud_Forecasting_as_a_Proxy_for_4D_Occupancy_Forecasting.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2302.13130v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Forecasting intermittent time series with Gaussian Processes and Tweedie likelihood",
+    "year": 2025,
+    "authors": [
+      "Stefano Damato",
+      "Dario Azzimonti",
+      "Giorgio Corani"
+    ],
+    "doi": "10.1016/j.ijforecast.2025.10.001",
+    "file": "arxiv_101016_jijforecast202510001_Forecasting_intermittent_time_series_with_Gaussian_Proce.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.19086v5",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Unified Discrete Diffusion for Categorical Data",
+    "year": 2024,
+    "authors": [
+      "Lingxiao Zhao",
+      "Xueying Ding",
+      "Lijun Yu",
+      "Leman Akoglu"
+    ],
+    "doi": "",
+    "file": "arxiv_240203701v2_Unified_Discrete_Diffusion_for_Categorical_Data.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2402.03701v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Multi-Frame, Lightweight & Efficient Vision-Language Models for Question Answering in Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Akshay Gopalkrishnan",
+      "Ross Greer",
+      "Mohan Trivedi"
+    ],
+    "doi": "",
+    "file": "arxiv_240319838v2_Multi-Frame_Lightweight__Efficient_Vision-Language_Models_for_Question_A.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.19838v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+    "year": 2026,
+    "authors": [
+      "Tugrul Gorgulu",
+      "Atakan Dag",
+      "M. Esat Kalfaoglu",
+      "Halil Ibrahim Kuru",
+      "Baris Can Cam",
+      "Halil Ibrahim Ozturk",
+      "Ozsel Kilinc"
+    ],
+    "doi": "",
+    "file": "arxiv_260223499v4_TaCarla_A_comprehensive_benchmarking_dataset_for_end-to-end_autonomous_d.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2602.23499v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Shuo Xing",
+      "Chengyuan Qian",
+      "Yuping Wang",
+      "Hongyuan Hua",
+      "Kexin Tian",
+      "Yang Zhou",
+      "Zhengzhong Tu"
+    ],
+    "doi": "",
+    "file": "arxiv_241215208v2_OpenEMMA_Open-Source_Multimodal_Model_for_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.15208v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors",
+    "year": 2026,
+    "authors": [
+      "Hiroki Hashimoto",
+      "Hiromichi Goto",
+      "Hiroyuki Sugai",
+      "Hiroshi Kera",
+      "Kazuhiko Kawamoto"
+    ],
+    "doi": "",
+    "file": "arxiv_260400597v1_Towards_Viewpoint-Robust_End-to-End_Autonomous_Driving_with_3D_Foundatio.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2604.00597v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Data Scaling Laws for End-to-End Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Alexander Naumann",
+      "Xunjiang Gu",
+      "Tolga Dimlioglu",
+      "Mariusz Bojarski",
+      "Alperen Degirmenci",
+      "Alexander Popov",
+      "Devansh Bisla",
+      "Marco Pavone",
+      "Urs Müller",
+      "Boris Ivanovic"
+    ],
+    "doi": "",
+    "file": "arxiv_250404338v1_Data_Scaling_Laws_for_End-to-End_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2504.04338v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "A Reparameterized Discrete Diffusion Model for Text Generation",
+    "year": 2023,
+    "authors": [
+      "Lin Zheng",
+      "Jianbo Yuan",
+      "Lei Yu",
+      "Lingpeng Kong"
+    ],
+    "doi": "",
+    "file": "arxiv_230205737v3_A_Reparameterized_Discrete_Diffusion_Model_for_Text_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2302.05737v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Neural Point Cloud Diffusion for Disentangled 3D Shape and Appearance Generation",
+    "year": 2023,
+    "authors": [
+      "Philipp Schröppel",
+      "Christopher Wewer",
+      "Jan Eric Lenssen",
+      "Eddy Ilg",
+      "Thomas Brox"
+    ],
+    "doi": "",
+    "file": "arxiv_231214124v2_Neural_Point_Cloud_Diffusion_for_Disentangled_3D_Shape_and_Appearance_Ge.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2312.14124v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Dingrui Wang",
+      "Marc Kaufeld",
+      "Johannes Betz"
+    ],
+    "doi": "",
+    "file": "arxiv_240918053v3_DualAD_Dual-Layer_Planning_for_Reasoning_in_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2409.18053v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Ali K. AlShami",
+      "Ryan Rabinowitz",
+      "Maged Shoman",
+      "Jianwu Fang",
+      "Lukas Picek",
+      "Shao-Yuan Lo",
+      "Steve Cruz",
+      "Khang Nhut Lam",
+      "Nachiket Kamod",
+      "Lei-Lei Li",
+      "Jugal Kalita",
+      "Terrance E. Boult"
+    ],
+    "doi": "",
+    "file": "arxiv_250821080v1_2COOOL_2nd_Workshop_on_the_Challenge_Of_Out-Of-Label_Hazards_in_Autonomo.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.21080v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Fixed Point Diffusion Models",
+    "year": 2024,
+    "authors": [
+      "Xingjian Bai",
+      "Luke Melas-Kyriazi"
+    ],
+    "doi": "",
+    "file": "arxiv_240108741v1_Fixed_Point_Diffusion_Models.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2401.08741v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "The Rise of Diffusion Models in Time-Series Forecasting",
+    "year": 2024,
+    "authors": [
+      "Caspar Meijer",
+      "Lydia Y. Chen"
+    ],
+    "doi": "",
+    "file": "arxiv_240103006v2_The_Rise_of_Diffusion_Models_in_Time-Series_Forecasting.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2401.03006v2",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+ "id": "terasim_world_worldwide_safety_critical_data_synth",
+ "title": "TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving",
+ "control_family": "other",
+ "control_signal": {"value": "Location (coordinates, city and road type, or route), traffic demand level, adversity types (dynamic agent events, road construction, weather) injected by an adversity orchestrator, and street-view-derived text prompts.", "pages": "3-5"},
+ "control_mechanism": {"value": "Pipeline: map and traffic retrieval, behaviour models plus adversity orchestrator and NADE for agent trajectories, rendered HDMap videos feed ControlNet branches of Cosmos-Drive with VLM text prompts for multi-view video.", "pages": "3-5"},
+ "base_model": {"value": "Existing agent models (SUMO/CARLA rule-based, SMART, VBD) plus Cosmos-Drive video diffusion transformer (Cosmos-Transfer1-7B and Single2Multiview-7B) with ControlNet; GPT-4o writes scene prompts.", "pages": "4-5"},
+ "datasets": {"value": "OpenStreetMap maps, TomTom live traffic, Google Street View, RDS-HQ camera setup; WOSAC-style Waymo-format behaviour models. No training or evaluation dataset for the pipeline itself stated.", "pages": "3-5"},
+ "metrics": {"value": "not stated in packet", "pages": ""},
+ "controllability_evidence": {"value": "Qualitative only: case studies (Ann Arbor roundabout, Mcity cases, five worldwide examples) show video motions following simulated trajectories and weather or roadwork variations; no quantitative number.", "pages": "5-6"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Integration pipeline for sensor-level data synthesis, not a new controllable trajectory generator; no quantitative evaluation seen. Future work only: large synthesized dataset, multi-modal sensors, closed-loop AV testing (pages 6-8)."
+}

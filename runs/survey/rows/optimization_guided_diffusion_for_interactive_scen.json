@@ -1,0 +1,13 @@
+{
+ "id": "optimization_guided_diffusion_for_interactive_scen",
+ "title": "Optimization-Guided Diffusion for Interactive Scene Generation",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "Explicit goal points for one or more target agents (via inpainting mask) for controllability; for adversarial generation, a designated attacker vehicle against the ego.", "pages": "1-2, 13, 35"},
+ "control_mechanism": {"value": "Training-free: each reverse diffusion step is re-anchored by KL-bounded constrained optimisation in clean space, with a two-phase noise schedule; adversarial case is a game-theoretic optimisation in distribution space approximating Nash equilibria.", "pages": "1, 4, 11"},
+ "base_model": {"value": "Applied without retraining on the pretrained Nexus diffusion scene generator (trained on nuPlan), giving Nexus-Omega; also applied to VBD.", "pages": "11, 13"},
+ "datasets": {"value": "nuPlan (base model training), Waymo zero-shot, Waymo Open Sim Agents validation set.", "pages": "11-13"},
+ "metrics": {"value": "Distributional JSD (nearest-agent distance, lateral/angular deviation, speed), collision, off-road, kinematic feasibility, Scene Valid Rate, WOSAC Realism Meta score; adversarial: TTC, near-collision frame share.", "pages": "12-13, 32"},
+ "controllability_evidence": {"value": "Goal-conditioned setting: scene valid rate rises from 11.00% (Nexus) to 80.00% (Nexus-Omega), a 69-point gain; collision falls 39 points, off-road 44 points. Free exploration valid rate 32.35% to 72.27% on nuPlan.", "pages": "1, 13"},
+ "stated_limitations": {"value": "Runtime: optimising an 8-second scene takes around 5 seconds. Failure cases include autoregressive drift in stationary agents and overlaps already present in initial states.", "pages": "15, 36"},
+ "notes": "Plug-in sampler on an existing generator. Goal-conditioned control is also supported by the base model's inpainting; OMEGA improves validity while following it."
+}

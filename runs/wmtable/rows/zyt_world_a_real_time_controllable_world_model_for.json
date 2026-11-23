@@ -1,0 +1,15 @@
+{
+ "id": "zyt_world_a_real_time_controllable_world_model_for",
+ "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "multi-view video: four fisheye (FoV above 180 degrees) and three pinhole views at about 720p, streamed per latent timestep", "pages": "1-2"},
+ "control_signal": {"value": "per-timestep ego pose increments, camera geometry as Plucker rays, pixel-aligned layout of traffic participants and signals (boxes, headings, colors, directions), text caption with camera ID", "pages": "1, 7-8"},
+ "control_mechanism": {"value": "dense conditions rendered on the view grid, adapted and added to patch embeddings with zero-initialised projection; ego-motion AdaLN-Zero; text cross-attention; plug-in memory cross-attention", "pages": "1, 7-8"},
+ "base_model": {"value": "Wan-series video DiT initialisation, 30 blocks with cross-view attention; 40-step bidirectional teacher distilled by TF, causal CD, self-rollout DMD and RigCritic into a one-step causal generator; TinyVAE decoder", "pages": "1, 7-8, 11-12"},
+ "datasets": {"value": "internal multi-view data from a production seven-camera rig; internal test set; cross-trajectory paired real captures for memory training", "pages": "1, 16-17"},
+ "metrics": {"value": "FID, FVD, FVMD, FDD, LPIPS, PSNR, SSIM, YOLO-based Det-F1 and Sampson error; speedup and FPS", "pages": "23-24"},
+ "controllability_evidence": {"value": "No control-following metric in the packet. Reported: one-step student keeps over 90% of teacher PSNR and SSIM, FID, FVD, LPIPS within 11%; with memory FVD 113.63 and Det-F1 0.726.", "pages": "1, 23"},
+ "closed_loop": {"value": "Designed for closed-loop simulation with per-timestep ego-motion input and 4 FPS on two GPUs; packet shows 30 s autoregressive rollouts, no policy-in-the-loop result.", "pages": "2, 29-30"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "arXiv 2609.21712 v2. Raw control commands must first be mapped to pose increments, and camera poses are needed at every timestamp. Metrics are on internal data, so not comparable to public benchmarks."
+}

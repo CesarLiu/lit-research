@@ -1,0 +1,15 @@
+{
+ "id": "bevcontrol_accurately_controlling_street_view_elem",
+ "title": "BEVControl: Accurately Controlling Street-view Elements with Multi-perspective Consistency via BEV Sketch Layout",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {"value": "other: multi-view street-view images (six camera perspectives per BEV layout, single frame rather than video)", "pages": "3, 7"},
+ "control_signal": {"value": "Editable BEV sketch (160 x 160 m around ego) with five channels: road line, box centre, text label and heading of foreground objects; plus a text prompt.", "pages": "4"},
+ "control_mechanism": {"value": "Sketch is projected to each camera view; a Controller embeds foreground boxes and background road hints via self-attention, a Coordinator adds cross-view-cross-element attention; text via cross-attention. Only newly added layers are trained.", "pages": "3-6"},
+ "base_model": {"value": "Latent-diffusion style UNet (LDM) fine-tuned from a pretrained diffusion model [14]; original diffusion layers frozen; CLIP used for label embedding.", "pages": "4-5"},
+ "datasets": {"value": "nuScenes; six cameras per frame; 600 validation frames sampled as the validation subset for evaluation.", "pages": "7"},
+ "metrics": {"value": "FID for realism and diversity, CLIP score for cross-view consistency, BEVFormer mAP/NDS/mAOE and CVT mIoU for foreground and background control, downstream NDS.", "pages": "5-7"},
+ "controllability_evidence": {"value": "Detection and segmentation on generated images versus the input layout; foreground segmentation mIoU rises from 5.89 (BEVGen) to 26.80; training on generated data gives on average 1.29 NDS improvement.", "pages": "1"},
+ "closed_loop": {"value": "No; per-frame image generation from a layout, no interactive rollout with a driving policy described in the packet.", "pages": "3"},
+ "stated_limitations": {"value": "Future work: control further visual elements such as lighting and weather, which are not controlled now, and transfer the idea to more general scenes.", "pages": "9"},
+ "notes": "Image generator, not a temporal world model. Which pretrained model [14] is used is not named in the packet text; the packet only cites it by number."
+}

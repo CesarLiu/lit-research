@@ -1,0 +1,13 @@
+{
+ "id": "scenariocontrol_vision_language_controllable_vecto",
+ "title": "ScenarioControl: Vision-Language Controllable Vectorized Latent Scenario Generation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "A text prompt describing the scene and actors, or a single dashcam-style ego image; also default control tokens for agent and lane counts and a domain label.", "pages": "1-2, 3-4"},
+ "control_mechanism": {"value": "Cross-global control: cross-attention branch for fine-grained control plus a lightweight global-context branch; counts and domain via AdaLN-Zero; classifier-free guidance with random condition dropout.", "pages": "2, 3-5"},
+ "base_model": {"value": "Vectorized latent diffusion: transformer autoencoder over lane and object tokens plus DDPM epsilon-prediction denoiser; behaviour model for rollouts; LoRA-adapted Wan 2.2 (5B) video model for sensor video.", "pages": "3, 5"},
+ "datasets": {"value": "nuPlan with roughly 500K VLM-generated captions (GPT-4.1-mini on BEV renders); generalization tested on Waymo Motion.", "pages": "7-9"},
+ "metrics": {"value": "Agent AP at 1.0, 2.0, 3.0 m thresholds, collision rate, control adherence (CCS, SPG, CSC at global, lane, agent levels), plus lane- and agent-level realism metrics in the appendix.", "pages": "7"},
+ "controllability_evidence": {"value": "Image-conditioned agent-control CSC 0.2255 versus 0.0623 for Scenario Dreamer on nuPlan. Cross-global beats full cross-attention by 2.7% in agent CSC and 4.6% in AP.", "pages": "8-10"},
+ "stated_limitations": {"value": "No explicit limitations section in packet. Future work: full multi-view and long-horizon visual conditioning, and unifying initial scene generation with traffic simulation to capture intent and interaction.", "pages": "10-11"},
+ "notes": "Controls scene layout and initial agent placement more than agent behaviour; behaviour comes from a separate rollout model. The 2.7%/4.6% gain text begins mid-sentence ('over full cross-attention'), so comparison is read as against full cross-attention."
+}

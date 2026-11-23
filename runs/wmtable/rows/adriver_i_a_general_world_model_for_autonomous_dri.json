@@ -1,0 +1,15 @@
+{
+ "id": "adriver_i_a_general_world_model_for_autonomous_dri",
+ "title": "ADriver-I: A General World Model for Autonomous Driving",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "single-view (front) video frames; also predicts ego speed and steer angle as text-like tokens", "pages": "3-4"},
+ "control_signal": {"value": "ego control signal (speed, steer angle) predicted by the MLLM, turned into a GPT-3.5 motion text prompt, plus historical frames; no boxes or HD map", "pages": "3, 5, 7"},
+ "control_mechanism": {"value": "history frames concatenated with diffusion input (reference-video control); motion text prompt via retained text-condition modules of the video diffusion model", "pages": "4-5"},
+ "base_model": {"value": "MLLM: Vicuna-7B-1.5 with CLIP-ViT-Large and MLP adapter (LLaVA-7B-1.5 pretrained); video diffusion: Stable Diffusion 2.1 plus temporal modules, trained separately", "pages": "4-5"},
+ "datasets": {"value": "nuScenes (about 23K video samples for finetuning) and a private highway dataset of nearly 1.4M vision-action pairs", "pages": "5"},
+ "metrics": {"value": "Control prediction: L1 error and threshold accuracy A_theta. Generation: frame-wise FID and FVD.", "pages": "6"},
+ "controllability_evidence": {"value": "Quantitative only for action prediction (L1 0.072 m/s speed, 0.091 rad steer on nuScenes) and FID 5.5 / FVD 97.0 for 4 future frames. Action-to-video effect shown qualitatively (turn left/right).", "pages": "2, 7"},
+ "closed_loop": {"value": "Self-contained recurrent loop (MLLM action then generated frame then action) from three initial pairs, shown only qualitatively; claimed repeatable for infinite steps, no external driving policy or closed-loop metrics.", "pages": "7-8"},
+ "stated_limitations": {"value": "Generated frames may be low quality when controls change quickly; performance far from deployment level; MLLM and VDM trained separately; no routing or navigation information for long distances.", "pages": "8-9"},
+ "notes": "Output is front-view only. Table 6 compares FID/FVD against DriveGAN and DriveDreamer with different input-output lengths (4F to 4F)."
+}

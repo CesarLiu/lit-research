@@ -1,0 +1,13 @@
+{
+ "id": "langtraj_diffusion_model_and_dataset_for_language",
+ "title": "LANGTRAJ: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Natural-language descriptions of agent behaviour (e.g. yield to the right, merge left), with agents rephrased as target agent and other agents; optional adversarial collision guidance.", "pages": "2, 5"},
+ "control_mechanism": {"value": "Text cross-attention in the denoiser to per-agent language embeddings (DistilBERT with LoRA, trained end-to-end); text dropout in training enables classifier-free guidance; gradient guidance can be added post-training.", "pages": "2, 5-6, 12-13"},
+ "base_model": {"value": "Scene-diffusion model with query-centric GNN scene encoder and stacked transformer denoiser (inter-agent attention, agent-context cross-attention, text cross-attention); closed-loop training, distilled from K=100 to K=5 steps.", "pages": "5, 12-13"},
+ "datasets": {"value": "INTERDRIVE (new: human interaction labels on Waymo and nuPlan plus heuristic single-agent labels) and ProSim-Instruct-520k; validated on Waymo Open Motion Dataset.", "pages": "3, 7"},
+ "metrics": {"value": "WOSAC Meta, kinematic, interactive, map realism; controllability as minADE improvement over unconditioned model; collision rate and kinematic/map scores for safety-critical runs.", "pages": "7-8"},
+ "controllability_evidence": {"value": "Direct text conditioning gives mADE 2.29 versus 2.65 unconditioned and 2.70 for CTG++-style LLM guidance. Safety-critical: collision rate 0.43 versus 0.33 for LLM-based guidance.", "pages": "7-8"},
+ "stated_limitations": {"value": "Failures often arise when language conflicts with recent history; the model prioritises history, especially for static vehicles. minADE may not capture instruction adherence. Strong CFG weights degrade map adherence.", "pages": "12-14"},
+ "notes": "Text is trained in directly, in contrast to LLM-written guidance; collision guidance is an additional inference-time option. Safety-critical collision rate of 0.43 is a fraction in the table; the text says rates as high as 40%."
+}

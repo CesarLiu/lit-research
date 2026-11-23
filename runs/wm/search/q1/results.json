@@ -1,0 +1,1456 @@
+{
+  "query": "driving world model",
+  "sources": [
+    "openalex",
+    "arxiv"
+  ],
+  "from_year": "2023",
+  "raw_hits": 50,
+  "unique": 49,
+  "per_source": {
+    "openalex": 25,
+    "arxiv": 25
+  },
+  "errors": {},
+  "results": [
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex",
+        "arxiv"
+      ],
+      "id": "W4415796242",
+      "doi": "10.52202/079017-2906",
+      "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+      "abstract": "World models can foresee the outcomes of different actions, which is of paramount importance for autonomous driving. Nevertheless, existing driving world models still have limitations in generalization to unseen environments, prediction fidelity of critical details, and action controllability for flexible application. In this paper, we present Vista, a generalizable driving world model with high fidelity and versatile controllability. Based on a systematic diagnosis of existing methods, we introduce several key ingredients to address these limitations. To accurately predict real-world dynamics at high resolution, we propose two novel losses to promote the learning of moving instances and structural information. We also devise an effective latent replacement approach to inject historical frames as priors for coherent long-horizon rollouts. For action controllability, we incorporate a versatile set of controls from high-level intentions (command, goal point) to low-level maneuvers (trajectory, angle, and speed) through an efficient learning strategy. After large-scale training, the capabilities of Vista can seamlessly generalize to different scenarios. Extensive experiments on multiple datasets show that Vista outperforms the most advanced general-purpose video generator in over 70% of comparisons and surpasses the best-performing driving world model by 55% in FID and 27% in FVD. Moreover, for the first time, we utilize the capacity of Vista itself to establish a generalizable reward for real-world action evaluation without accessing the ground truth actions.",
+      "year": 2024,
+      "authors": [
+        "Shenyuan Gao",
+        "Jiazhi Yang",
+        "Li Chen",
+        "Kashyap Chitta",
+        "Yihang Qiu",
+        "Andreas Geiger",
+        "Jun Zhang",
+        "Hongyang Li"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 484,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2405.17398v5",
+      "url": "https://openalex.org/W4415796242",
+      "also_doi": [],
+      "key": "openalex_1052202_079017-2906_Vista_A_Generalizable_Driving_World_Model_with_High_Fidelity_",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-2906_Vista_A_Generalizable_Driving_World_Model_with_High_Fidelity_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405792757",
+      "doi": "10.1109/iccv51701.2025.02496",
+      "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-Modal Autoregressive Transformers",
+      "abstract": "World model-based searching and planning are widely recognized as a promising path toward human-level physical intelligence. However, current driving world models primarily rely on video diffusion models, which specialize in visual generation but lack the flexibility to incorporate other modalities like action. In contrast, autoregressive transformers have demonstrated exceptional capability in modeling multimodal data. Our work aims to unify both driving model simulation and trajectory planning into a single sequence modeling problem. We introduce a multimodal driving language based on interleaved image and action tokens, and develop DrivingGPT to learn joint world modeling and planning through standard next-token prediction. Our DrivingGPT demonstrates strong performance in both action-conditioned video generation and end-to-end planning, outperforming strong baselines on large-scale nuPlan and NAVSIM benchmarks.",
+      "year": 2025,
+      "authors": [
+        "Yuntao Chen",
+        "Yuqi Wang",
+        "Zhaoxiang Zhang"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 144,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.18607",
+      "url": "https://openalex.org/W4405792757",
+      "key": "openalex_101109_iccv51701202502496_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502496_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405091670",
+      "doi": "10.48550/arxiv.2412.01522",
+      "title": "InfinityDrive: Breaking Time Limits in Driving World Models",
+      "abstract": "Autonomous driving systems struggle with complex scenarios due to limited access to diverse, extensive, and out-of-distribution driving data which are critical for safe navigation. World models offer a promising solution to this challenge; however, current driving world models are constrained by short time windows and limited scenario diversity. To bridge this gap, we introduce InfinityDrive, the first driving world model with exceptional generalization capabilities, delivering state-of-the-art performance in high fidelity, consistency, and diversity with minute-scale video generation. InfinityDrive introduces an efficient spatio-temporal co-modeling module paired with an extended temporal training strategy, enabling high-resolution (576$\\times$1024) video generation with consistent spatial and temporal coherence. By incorporating memory injection and retention mechanisms alongside an adaptive memory curve loss to minimize cumulative errors, achieving consistent video generation lasting over 1500 frames (more than 2 minutes). Comprehensive experiments in multiple datasets validate InfinityDrive's ability to generate complex and varied scenarios, highlighting its potential as a next-generation driving world model built for the evolving demands of autonomous driving. Our project homepage: https://metadrivescape.github.io/papers_project/InfinityDrive/page.html",
+      "year": 2024,
+      "authors": [
+        "Xiaolong Guo",
+        "Chenjing Ding",
+        "Dou, Haoxuan",
+        "Xin Zhang",
+        "Weixuan Tang",
+        "Wei Wu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 29,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.01522",
+      "url": "https://openalex.org/W4405091670",
+      "key": "openalex_1048550_arxiv241201522_InfinityDrive_Breaking_Time_Limits_in_Driving_World_Models",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv241201522_InfinityDrive_Breaking_Time_Limits_in_Driving_World_Models.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4405306687",
+      "doi": "10.48550/arxiv.2412.08410",
+      "title": "Physical Informed Driving World Model",
+      "abstract": "Autonomous driving requires robust perception models trained on high-quality, large-scale multi-view driving videos for tasks like 3D object detection, segmentation and trajectory prediction. While world models provide a cost-effective solution for generating realistic driving videos, challenges remain in ensuring these videos adhere to fundamental physical principles, such as relative and absolute motion, spatial relationship like occlusion and spatial consistency, and temporal consistency. To address these, we propose DrivePhysica, an innovative model designed to generate realistic multi-view driving videos that accurately adhere to essential physical principles through three key advancements: (1) a Coordinate System Aligner module that integrates relative and absolute motion features to enhance motion interpretation, (2) an Instance Flow Guidance module that ensures precise temporal consistency via efficient 3D flow extraction, and (3) a Box Coordinate Guidance module that improves spatial relationship understanding and accurately resolves occlusion hierarchies. Grounded in physical principles, we achieve state-of-the-art performance in driving video generation quality (3.96 FID and 38.06 FVD on the Nuscenes dataset) and downstream perception tasks. Our project homepage: https://metadrivescape.github.io/papers_project/DrivePhysica/page.html",
+      "year": 2024,
+      "authors": [
+        "Zhuoran Yang",
+        "Xi Guo",
+        "Chenjing Ding",
+        "Chiyu Wang",
+        "Wei Wu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 16,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2412.08410",
+      "url": "https://openalex.org/W4405306687",
+      "key": "openalex_1048550_arxiv241208410_Physical_Informed_Driving_World_Model",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv241208410_Physical_Informed_Driving_World_Model.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4413146585",
+      "doi": "10.1109/cvpr52734.2025.02085",
+      "title": "MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction",
+      "abstract": "World models that forecast environmental changes from actions are vital for autonomous driving models with strong generalization. The prevailing driving world model mainly build on video prediction model. Although these models can produce high-fidelity video sequences with advanced diffusion-based generator, they are constrained by their predictive duration and overall generalization capabilities. In this paper, we explore to solve this problem by combining generation loss with MAE-style feature-level context learning. In particular, we instantiate this target with three key design: (1) A more scalable Diffusion Transformer (DiT) structure trained with extra mask construction task. (2) we devise diffusion-related mask tokens to deal with the fuzzy relations between mask reconstruction and generative diffusion process. (3) we extend mask construction task to spatial-temporal domain by utilizing row-wise mask for shifted self-attention rather than masked self-attention in MAE. Then, we adopt a row-wise cross-view module to align with this mask design. Based on above improvement, we propose MaskGWM: a Generalizable driving World Model embodied with Video Mask reconstruction. Our model contains two variants: MaskGWM-long, focusing on long-horizon prediction, and MaskGWM-mview, dedicated to multi-view generation. Comprehensive experiments on standard benchmarks validate the effectiveness of the proposed method, which contain normal validation of Nuscene dataset, long-horizon rollout of OpenDV-2K dataset and zero-shot validation of Waymo dataset. Quantitative metrics on these datasets show our method notably improving state-of-the-art driving world model. Our project page is https://github.com/SenseTime-FVG/OpenDWM.",
+      "year": 2025,
+      "authors": [
+        "Jingcheng Ni",
+        "Yuxin Guo",
+        "Yichen Liu",
+        "Rui Chen",
+        "Lewei Lu",
+        "Zehuan Wu"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "cited_by": 40,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.11663",
+      "url": "https://openalex.org/W4413146585",
+      "key": "openalex_101109_cvpr52734202502085_MaskGWM_A_Generalizable_Driving_World_Model_with_Video_",
+      "file_kind": "txt",
+      "file": "openalex_101109_cvpr52734202502085_MaskGWM_A_Generalizable_Driving_World_Model_with_Video_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7161262407",
+      "doi": "10.48550/arxiv.2605.14696",
+      "title": "EponaV2: Driving World Model with Comprehensive Future Reasoning",
+      "abstract": "Data scaling plays a pivotal role in the pursuit of general intelligence. However, the prevailing perception-planning paradigm in autonomous driving relies heavily on expensive manual annotations to supervise trajectory planning, which severely limits its scalability. Conversely, although existing perception-free driving world models achieve impressive driving performance, their real-world reasoning ability for planning is solely built on next frame image forecasting. Due to the lack of enough supervision, these models often struggle with comprehensive scene understanding, resulting in unsatisfactory trajectory planning. In this paper, we propose EponaV2, a novel paradigm of driving world models, which achieves high-quality planning with comprehensive future reasoning. Inspired by how human drivers anticipate 3D geometry and semantics, we train our model to forecast more comprehensive future representations, which can be additionally decoded to future geometry and semantic maps. Extracting the 3D and semantic modalities enables our model to deeply understand the surrounding environment, and the future prediction task significantly enhances the real-world reasoning capabilities of EponaV2, ultimately leading to improved trajectory planning. Moreover, inspired by the training recipe of Large Language Models (LLMs), we introduce a flow matching group relative policy optimization mechanism to further improve planning accuracy. The state-of-the-art (SOTA) performances of EponaV2 among perception-free models on three NAVSIM benchmarks (+1.3PDMS, +5.5EPDMS) demonstrate the effectiveness of our methods.",
+      "year": 2026,
+      "authors": [
+        "Jiawei Xu",
+        "Zhizhou Zhong",
+        "Zhijian Shu",
+        "Mingkai Jia",
+        "Mingxiao Li",
+        "Jia-Wang Bian",
+        "Qian Zhang",
+        "Kaicheng Zhang",
+        "Jin Xie",
+        "Jian Yang",
+        "Wei Yin"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 21,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.14696",
+      "url": "https://openalex.org/W7161262407",
+      "key": "openalex_1048550_arxiv260514696_EponaV2_Driving_World_Model_with_Comprehensive_Future_Reas",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260514696_EponaV2_Driving_World_Model_with_Comprehensive_Future_Reas.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7225746087",
+      "doi": "10.48550/arxiv.2611.11516",
+      "title": "Breaking survivorship bias in driving world models",
+      "abstract": "World models allow autonomous vehicles to imagine the consequences of candidate actions before execution, but their reliability depends on the futures represented in their training data. We identify a survivorship bias in driving world models: because the futures recorded in prevailing driving datasets almost always end safely, existing models often imagine benign outcomes even when a collision is imminent. We introduce a neutral world model (NWM) that learns both routine and safety-critical futures from a mixture of routine driving and real accident videos with a bounding-box-guided objective. The NWM more faithfully anticipates imminent collisions, while maintaining a low false collision rate and competitive generation quality in routine driving. We further use the model as an imagination engine for decision-making. Given multiple ego trajectories, the NWM predicts the future associated with each candidate, and a reward function evaluates these imagined outcomes before selecting an action. On challenging NAVSIM scenarios, this procedure selects the better trajectory more reliably than the baseline world model. Zero-shot experiments with real-world pedestrian dummy crossing data collected using an autonomous research vehicle further demonstrate transfer to unseen sensor observations. These results show that correcting survivorship bias enables world models to more faithfully reason about futures and support safety-critical decision-making in autonomous driving.",
+      "year": 2026,
+      "authors": [
+        "Zihao Sheng",
+        "Zilin Huang",
+        "Yuhao Luo",
+        "Zhengyang Wan",
+        "Boyue Wang",
+        "Soyoung Ahn",
+        "David A. Noyce",
+        "Sikai Chen"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2611.11516",
+      "url": "https://openalex.org/W7225746087",
+      "key": "openalex_1048550_arxiv261111516_Breaking_survivorship_bias_in_driving_world_models",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv261111516_Breaking_survivorship_bias_in_driving_world_models.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415798656",
+      "doi": "10.52202/079017-0414",
+      "title": "DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model",
+      "abstract": "Driving world models have gained increasing attention due to their ability to model complex physical dynamics. However, their superb modeling capability is yet to be fully unleashed due to the limited video diversity in current driving datasets. We introduce DrivingDojo, the first dataset tailor-made for training interactive world models with complex driving dynamics. Our dataset features video clips with a complete set of driving maneuvers, diverse multi-agent interplay, and rich open-world driving knowledge, laying a stepping stone for future world model development. We further define an action instruction following (AIF) benchmark for world models and demonstrate the superiority of the proposed dataset for generating action-controlled future predictions.",
+      "year": 2024,
+      "authors": [
+        "Yuqi Wang",
+        "Ke Cheng",
+        "Jiawei He",
+        "Qitai Wang",
+        "Hengchen Dai",
+        "Yuntao Chen",
+        "Fei Xia",
+        "Zhaoxiang Zhang"
+      ],
+      "venue": "neural information processing systems",
+      "cited_by": 50,
+      "is_oa": true,
+      "pdf_url": "",
+      "url": "https://openalex.org/W4415798656",
+      "key": "openalex_1052202_079017-0414_DrivingDojo_Dataset_Advancing_Interactive_and_Knowledge-Enric",
+      "file_kind": "txt",
+      "file": "openalex_1052202_079017-0414_DrivingDojo_Dataset_Advancing_Interactive_and_Knowledge-Enric.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4406841381",
+      "doi": "10.1109/iccv51701.2025.02582",
+      "title": "HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation",
+      "abstract": "Driving World Models (DWMs) have become essential for autonomous driving by enabling future scene prediction. However, existing DWMs are limited to scene generation and fail to incorporate scene understanding, which involves interpreting and reasoning about the driving environment. In this paper, we present a unified Driving World Model named HERMES. We seamlessly integrate 3D scene understanding and future scene evolution (generation) through a unified framework in driving scenarios. Specifically, HERMES leverages a Bird's-Eye View (BEV) representation to consolidate multi-view spatial information while preserving geometric relationships and interactions. We also introduce world queries, which incorporate world knowledge into BEV features via causal attention in the Large Language Model, enabling contextual enrichment for understanding and generation tasks. We conduct comprehensive studies on nuScenes and OmniDrive-nuScenes datasets to validate the effectiveness of our method. HERMES achieves state-of-the-art performance, reducing generation error by 32.4% and improving understanding metrics such as CIDEr by 8.0%. The model and code will be publicly released at https://github.com/LMD0311/HERMES.",
+      "year": 2025,
+      "authors": [
+        "Xin Xiang Zhou",
+        "Dingkang Liang",
+        "Sifan Tu",
+        "Xiwu Chen",
+        "Yikang Ding",
+        "Dingyuan Zhang",
+        "Feiyang Tan",
+        "Hengshuang Zhao",
+        "Xiang Bai"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "cited_by": 89,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2501.14729",
+      "url": "https://openalex.org/W4406841381",
+      "key": "openalex_101109_iccv51701202502582_HERMES_A_Unified_Self-Driving_World_Model_for_Simultane",
+      "file_kind": "txt",
+      "file": "openalex_101109_iccv51701202502582_HERMES_A_Unified_Self-Driving_World_Model_for_Simultane.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7235724712",
+      "doi": "10.48550/arxiv.2611.19857",
+      "title": "PanDWM: Panoramic 4D Driving World Models",
+      "abstract": "Driving world models usually generate videos from six pinhole cameras with separate optical centres and small overlaps, and must learn to keep these views consistent. We present PanDWM, which stitches them into one $360^\\circ$ panoramic band. Camera boundaries then fall inside one image, so keeping the views consistent means keeping the image continuous, and each pixel still records its camera ray. Conditioned on layouts, a causal student generates the band window by window in four steps; it is distilled from a causal teacher and trained on its own rollouts. A feed-forward decoder lifts each frame along these rays into 3D Gaussians, and static Gaussians from neighbouring frames complete them into 4D scenes. On nuScenes, scored in one stitched $360^\\circ$ view, PanDWM has lower FID and FVD than the multi-camera baselines at $8$-$46\\times$ their speed, and keeps its 50-step teacher's FID while lowering FVD by 22-25%.",
+      "year": 2026,
+      "authors": [
+        "Jiajun Sun",
+        "Zeyu Zhang",
+        "Zeyu Ren",
+        "Guangfeng Jiang",
+        "Yang Zhao",
+        "Hao Tang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2611.19857",
+      "url": "https://openalex.org/W7235724712",
+      "key": "openalex_1048550_arxiv261119857_PanDWM_Panoramic_4D_Driving_World_Models",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv261119857_PanDWM_Panoramic_4D_Driving_World_Models.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4417298093",
+      "doi": "10.48550/arxiv.2512.10958",
+      "title": "WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World",
+      "abstract": "Generative world models are reshaping embodied AI, enabling agents to synthesize realistic 4D driving environments that look convincing but often fail physically or behaviorally. Despite rapid progress, the field still lacks a unified way to assess whether generated worlds preserve geometry, obey physics, or support reliable control. We introduce WorldLens, a full-spectrum benchmark evaluating how well a model builds, understands, and behaves within its generated world. It spans five aspects -- Generation, Reconstruction, Action-Following, Downstream Task, and Human Preference -- jointly covering visual realism, geometric consistency, physical plausibility, and functional reliability. Across these dimensions, no existing world model excels universally: those with strong textures often violate physics, while geometry-stable ones lack behavioral fidelity. To align objective metrics with human judgment, we further construct WorldLens-26K, a large-scale dataset of human-annotated videos with numerical scores and textual rationales, and develop WorldLens-Agent, an evaluation model distilled from these annotations to enable scalable, explainable scoring. Together, the benchmark, dataset, and agent form a unified ecosystem for measuring world fidelity -- standardizing how future models are judged not only by how real they look, but by how real they behave.",
+      "year": 2025,
+      "authors": [
+        "Liang, Ao",
+        "Kong, Lingdong",
+        "Tianyi Yan",
+        "Liu, Hongsi",
+        "Yang, Wesley",
+        "Huang, Ziqi",
+        "Wei Yin",
+        "Zuo, Jialong",
+        "Yufeng Hu",
+        "Zhu, Dekai",
+        "Dongyue Lu",
+        "Youquan Liu",
+        "Jiang, Guangfeng",
+        "Li, Linfeng",
+        "Xiangtai Li",
+        "Zhuo, Long",
+        "Lai Xing Ng",
+        "Benoit R. Cottereau",
+        "Changxin Gao",
+        "Liang Pan"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 33,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.10958",
+      "url": "https://openalex.org/W4417298093",
+      "key": "openalex_1048550_arxiv251210958_WorldLens_Full-Spectrum_Evaluations_of_Driving_World_Model",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv251210958_WorldLens_Full-Spectrum_Evaluations_of_Driving_World_Model.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7160896148",
+      "doi": "10.48550/arxiv.2605.10858",
+      "title": "Is Your Driving World Model an All-Around Player?",
+      "abstract": "Today's driving world models can generate remarkably realistic dash-cam videos, yet no single model excels universally. Some generate photorealistic textures but violate basic physics; others maintain geometric consistency but fail when subjected to closed-loop planning. This disconnect exposes a critical gap: the field evaluates how real generated worlds appear, but rarely whether they behave realistically. We introduce WorldLens, a unified benchmark that measures world-model fidelity across the full spectrum, from pixel quality and 4D geometry to closed-loop driving and human perceptual alignment, through five complementary aspects and 24 standardized dimensions. Our evaluation of six representative models reveals that no existing approach dominates across all axes: texture-rich models violate geometry, geometry-aware models lack behavioral fidelity, and even the strongest performers achieve only 2-3 out of 10 on human realism ratings. To bridge algorithmic metrics with human perception, we further contribute WorldLens-26K, a 26,808-entry human-annotated preference dataset pairing numerical scores with textual rationales, and WorldLens-Agent, a vision-language evaluator distilled from these judgments that enables scalable, explainable auto-assessment. Together, the benchmark, dataset, and agent form a unified ecosystem for assessing generated worlds not merely by visual appeal, but by physical and behavioral fidelity.",
+      "year": 2026,
+      "authors": [
+        "Lingdong Kong",
+        "Ao Liang",
+        "Tianyi Yan",
+        "Hongsi Liu",
+        "Wesley Yang",
+        "Ziqi Huang",
+        "Xian Sun",
+        "Wei Yin",
+        "Jialong Zuo",
+        "Yufeng Hu",
+        "Dekai Zhu",
+        "Dongyue Lu",
+        "Youquan Liu",
+        "Guangfeng Jiang",
+        "Linfeng Li",
+        "Xiangtai Li",
+        "Long Zhuo",
+        "Lai Xing Ng",
+        "Benoit R. Cottereau",
+        "Changxin Gao"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 7,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.10858",
+      "url": "https://openalex.org/W7160896148",
+      "key": "openalex_1048550_arxiv260510858_Is_Your_Driving_World_Model_an_All-Around_Player",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260510858_Is_Your_Driving_World_Model_an_All-Around_Player.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7226014599",
+      "doi": "10.48550/arxiv.2611.15260",
+      "title": "Driving World Models Move the Camera, Not the Scene",
+      "abstract": "Plan-conditioned driving world models are used to compare candidate plans, so their forecast should change with the plan as the real scene would, yet widely used control metrics check only whether the camera follows the command. Recorded drives already contain real outcomes of plans that were never driven: retiming a log gives pose-matched images and LiDAR for other speeds, and a stereo rig records a laterally shifted view. Against these references, released world models move their camera but barely move the scene: their scene response, the share of the real change in distance that the forecast reproduces, reaches at most about a third of real video's, and the trajectory score cannot tell an executed speed command from an ignored one. Interventions inside the generator trace the failure to the plan's channel. The forecast geometry follows the context frames; once they carry the planned geometry, plan tokens add little. ReTime-Compose therefore delivers the plan as geometry, without training. It transports the frames of one logged-speed rollout to the planned cameras, and the frozen model completes only what no frame covers. Frozen generators then follow a 0.54 m lateral shift nearly as the real scene does on KITTI, nuScenes and Argoverse 2, and respond more than re-sampling to slow-down plans in three generators and to speed-up plans in two.",
+      "year": 2026,
+      "authors": [
+        "Yuqiao Feng",
+        "Xiaoyu Ao"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 0,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2611.15260",
+      "url": "https://openalex.org/W7226014599",
+      "key": "openalex_1048550_arxiv261115260_Driving_World_Models_Move_the_Camera_Not_the_Scene",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv261115260_Driving_World_Models_Move_the_Camera_Not_the_Scene.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7214768123",
+      "doi": "10.48550/arxiv.2609.33264",
+      "title": "VehDyn: A Driving World Model Benchmark for Vehicle Dynamics",
+      "abstract": "Video world models are emerging as data engines, action planners, and generative simulators for autonomous driving, but existing benchmarks primarily assess visual fidelity and coarse physical plausibility, providing limited evidence on whether generated driving futures obey realistic vehicle kinematics and dynamics. This limitation is further compounded by the lack of datasets in which vehicle, road, maneuver, and speed conditions are independently controlled, and ground-truth vehicle states are recorded in synchrony with videos. We introduce VehDyn, a driving world model benchmark for vehicle dynamics. VehDyn is built on a CARLA-CarSim co-simulation platform where photorealistic rendering is coupled with a validated multi-body dynamics model, and it contains 10,080 configurations from a full factorial design over five vehicle types, four tire-road friction coefficients, three maneuvers, four target speeds, 14 scenes, and three illuminations, each paired with synchronized position, velocity, and attitude sequences. Built on this dataset, VehDyn introduces a hierarchical evaluation framework that measures trajectory alignment, kinematic consistency, and dynamic consistency, and benchmarks 12 state-of-the-art video world models. We further assess the video quality using two established protocols and correlate it with the VehDyn score. Trajectory-level metrics are nearly saturated, with ten of twelve models within 20\\% of ground truth, while no model reaches 92\\% of ground truth on dynamic consistency, and visual-quality metrics are only weakly correlated with vehicle-dynamics fidelity. DrivingWorld achieves the highest VehDyn score, followed by Cosmos 3 Nano and LTX-Video 2.5, and the VehDyn score agrees closely with human judgment. VehDyn provides a systematic foundation for developing driving world models that are physically consistent and visually realistic.",
+      "year": 2026,
+      "authors": [
+        "Tianyi Wang",
+        "Wangsheng Du",
+        "Jiazhou Chen",
+        "Tianyi Zeng",
+        "Xiangyu Li",
+        "Jiseop Byeon",
+        "Yujin Wang",
+        "Yiming Xu",
+        "Yangyang Wang",
+        "Bingzhao Gao",
+        "Sikai Chen",
+        "Zhaomiao Guo",
+        "Junfeng Jiao",
+        "Christian Claudel",
+        "Alexandre M. Bayen"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.33264",
+      "url": "https://openalex.org/W7214768123",
+      "key": "openalex_1048550_arxiv260933264_VehDyn_A_Driving_World_Model_Benchmark_for_Vehicle_Dynamic",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260933264_VehDyn_A_Driving_World_Model_Benchmark_for_Vehicle_Dynamic.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7202380706",
+      "doi": "10.48550/arxiv.2608.11601",
+      "title": "How Can Driving World Models Do Counterfactual Prediction?",
+      "abstract": "Driving world models are often interpreted as counterfactual simulators for observed driving episodes: given a factual driving log, they are asked what would have happened under an alternative ego action. In this paper, we identify a fundamental mismatch between this goal and direct action-conditioned prediction. The direct prediction uses the shared history and the alternative action but not the factual continuation observed after that history. It can therefore generate a plausible future without preserving what actually happened in this episode. We formalize this gap using the causal recipe of abduction, action, and prediction and study it in a setting with a short time horizon, where the alternative ego action does not alter how surrounding agents evolve. To make the gap measurable, we construct a controlled simulation benchmark with factual outcomes and matched counterfactual outcomes. Across two representative world models, direct predictions fail to match the counterfactual ground truth, supporting our analysis. As a constructive check of this analysis, we introduce a deliberately simple, training-free pipeline that moves observed evidence into the counterfactual view and lets the frozen model complete what remains unknown. Even this simple construction raises the overall recovered fraction substantially and reduces perceptual distance to the matched counterfactual on both models. We hope this work draws attention to this gap and motivates better counterfactual prediction methods for driving world models.",
+      "year": 2026,
+      "authors": [
+        "Jiaru Zhang",
+        "Can Cui",
+        "Yi Xu",
+        "Xin Ye",
+        "Ruqi Zhang",
+        "Ziran Wang"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 3,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.11601",
+      "url": "https://openalex.org/W7202380706",
+      "key": "openalex_1048550_arxiv260811601_How_Can_Driving_World_Models_Do_Counterfactual_Prediction",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260811601_How_Can_Driving_World_Models_Do_Counterfactual_Prediction.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4414581539",
+      "doi": "10.48550/arxiv.2505.18650",
+      "title": "ProphetDWM: A Driving World Model for Rolling Out Future Actions and Videos",
+      "abstract": "Real-world driving requires people to observe the current environment, anticipate the future, and make appropriate driving decisions. This requirement is aligned well with the capabilities of world models, which understand the environment and predict the future. However, recent world models in autonomous driving are built explicitly, where they could predict the future by controllable driving video generation. We argue that driving world models should have two additional abilities: action control and action prediction. Following this line, previous methods are limited because they predict the video requires given actions of the same length as the video and ignore the dynamical action laws. To address these issues, we propose ProphetDWM, a novel end-to-end driving world model that jointly predicts future videos and actions. Our world model has an action module to learn latent action from the present to the future period by giving the action sequence and observations. And a diffusion-model-based transition module to learn the state distribution. The model is jointly trained by learning latent actions given finite states and predicting action and video. The joint learning connects the action dynamics and states and enables long-term future prediction. We evaluate our method in video generation and action prediction tasks on the Nuscenes dataset. Compared to the state-of-the-art methods, our method achieves the best video consistency and best action prediction accuracy, while also enabling high-quality long-term video and action generation.",
+      "year": 2025,
+      "authors": [
+        "Xiaodong Wang",
+        "Peixi Peng"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 14,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.18650",
+      "url": "https://openalex.org/W4414581539",
+      "key": "openalex_1048550_arxiv250518650_ProphetDWM_A_Driving_World_Model_for_Rolling_Out_Future_Ac",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250518650_ProphetDWM_A_Driving_World_Model_for_Rolling_Out_Future_Ac.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7214380207",
+      "doi": "10.48550/arxiv.2609.28931",
+      "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models",
+      "abstract": "Driving world models provide a promising route toward scalable counterfactual data generation and interactive simulation beyond recorded driving logs. Realizing this potential requires a system that can generalize across diverse scenes, respond faithfully to prescribed controls, generate coherent multi-sensor observations, and operate efficiently under repeated inference. We present \\textbf{HelloWorld}, a 2B driving world model system designed around these requirements. HelloWorld progressively specializes broad visual and motion priors from heterogeneous video data into controllable driving generation using ego pose, HD maps, and 3D boxes. A block-causal generation interface, together with adaptation to self-generated context, aligns the model with sequential simulation. The system further supports synchronized seven-camera RGB generation and conditional LiDAR synthesis, and is distilled toward few-step inference for efficient deployment. Experiments evaluate visual quality, control fidelity, cross-view consistency, robustness under repeated generation, inference efficiency, and LiDAR synthesis. Together, HelloWorld provides a unified framework for scalable driving data generation and interactive simulation.",
+      "year": 2026,
+      "authors": [
+        "Fan Lu",
+        "Hanshi Wang",
+        "Zijing Wang",
+        "Quan Feng",
+        "Zhi Wang",
+        "Shijie Chen",
+        "Xianming Zeng",
+        "Yujian Zhang",
+        "Jiazhe Wang",
+        "Xin Zha",
+        "Kai Wang",
+        "Zhao Zhijie",
+        "Lin Zhu",
+        "Tianyi Yang",
+        "Yucheng Xu",
+        "Tao Ji",
+        "Haodong Zhang",
+        "Zhipeng Zhang",
+        "Peixi Peng",
+        "Guang Chen"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 2,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.28931",
+      "url": "https://openalex.org/W7214380207",
+      "key": "openalex_1048550_arxiv260928931_HelloWorld_Towards_Practical_Applications_of_Generative_Dr",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260928931_HelloWorld_Towards_Practical_Applications_of_Generative_Dr.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7124256093",
+      "doi": "10.48550/arxiv.2601.09452",
+      "title": "MAD: Motion Appearance Decoupling for efficient Driving World Models",
+      "abstract": "Recent video diffusion models generate photorealistic, temporally coherent videos, yet they fall short as reliable world models for autonomous driving, where structured motion and physically consistent interactions are essential. Adapting these generalist video models to driving domains has shown promise but typically requires massive domain-specific data and costly fine-tuning. We propose an efficient adaptation framework that converts generalist video diffusion models into controllable driving world models with minimal supervision. The key idea is to decouple motion learning from appearance synthesis. First, the model is adapted to predict structured motion in a simplified form: videos of skeletonized agents and scene elements, focusing learning on physical and social plausibility. Then, the same backbone is reused to synthesize realistic RGB videos conditioned on these motion sequences, effectively \"dressing\" the motion with texture and lighting. This two-stage process mirrors a reasoning-rendering paradigm: first infer dynamics, then render appearance. Our experiments show this decoupled approach is exceptionally efficient: adapting SVD, we match prior SOTA models with less than 6% of their compute. Scaling to LTX, our MAD-LTX model outperforms all open-source competitors, and supports a comprehensive suite of text, ego, and object controls. Project page: https://vita-epfl.github.io/MAD-World-Model/",
+      "year": 2026,
+      "authors": [
+        "Ahmad Rahimi",
+        "Valentin Gerard",
+        "Éloi Zablocki",
+        "Matthieu Cord",
+        "Alexandre Alahi"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 7,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2601.09452",
+      "url": "https://openalex.org/W7124256093",
+      "key": "openalex_1048550_arxiv260109452_MAD_Motion_Appearance_Decoupling_for_efficient_Driving_Wor",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260109452_MAD_Motion_Appearance_Decoupling_for_efficient_Driving_Wor.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4416600591",
+      "doi": "10.1109/icra57385.2026.11696583",
+      "title": "GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control",
+      "abstract": "Recent advancements in world models have revolutionized dynamic environment simulation, allowing systems to foresee future states and assess potential actions. In autonomous driving, these capabilities help vehicles anticipate the behavior of other road users, perform risk-aware planning, accelerate training in simulation, and adapt to novel scenarios, thereby enhancing safety and reliability. Current approaches exhibit deficiencies in maintaining robust 3D geometric consistency or accumulating artifacts during occlusion handling, both critical for reliable safety assessment in autonomous navigation tasks. To address this, we introduce GeoDrive, which explicitly integrates robust 3D geometry conditions into driving world models to enhance spatial understanding and action controllability. Specifically, we first extract a 3D representation from the input frame and then obtain its 2D rendering based on the user-specified ego-car trajectory. To enable dynamic modeling, we propose a dynamic editing module during training to enhance the renderings by editing the positions of the vehicles. Extensive experiments demonstrate that our method significantly outperforms existing models in both action accuracy and 3D spatial awareness, leading to more realistic, adaptable, and reliable scene modeling for safer autonomous driving. Additionally, our model can generalize to novel trajectories and offers interactive scene editing capabilities, such as object editing and object trajectory control.",
+      "year": 2026,
+      "authors": [
+        "Anthony Chen",
+        "Wenzhao Zheng",
+        "Yida Wang",
+        "Xueyang Zhang",
+        "Kun Zhan",
+        "Peng Jia",
+        "Kurt Keutzer",
+        "Shanghang Zhang"
+      ],
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
+      "cited_by": 23,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.22421",
+      "url": "https://openalex.org/W4416600591",
+      "key": "openalex_101109_icra57385202611696583_GeoDrive_3D_Geometry-Informed_Driving_World_Model_wi",
+      "file_kind": "txt",
+      "file": "openalex_101109_icra57385202611696583_GeoDrive_3D_Geometry-Informed_Driving_World_Model_wi.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4414897100",
+      "doi": "10.48550/arxiv.2506.01546",
+      "title": "LongDWM: Cross-Granularity Distillation for Building a Long-Term Driving World Model",
+      "abstract": "Driving world models are used to simulate futures by video generation based on the condition of the current state and actions. However, current models often suffer serious error accumulations when predicting the long-term future, which limits the practical application. Recent studies utilize the Diffusion Transformer (DiT) as the backbone of driving world models to improve learning flexibility. However, these models are always trained on short video clips (high fps and short duration), and multiple roll-out generations struggle to produce consistent and reasonable long videos due to the training-inference gap. To this end, we propose several solutions to build a simple yet effective long-term driving world model. First, we hierarchically decouple world model learning into large motion learning and bidirectional continuous motion learning. Then, considering the continuity of driving scenes, we propose a simple distillation method where fine-grained video flows are self-supervised signals for coarse-grained flows. The distillation is designed to improve the coherence of infinite video generation. The coarse-grained and fine-grained modules are coordinated to generate long-term and temporally coherent videos. In the public benchmark NuScenes, compared with the state-of-the-art front-view model, our model improves FVD by $27\\%$ and reduces inference time by $85\\%$ for the video task of generating 110+ frames. More videos (including 90s duration) are available at https://Wang-Xiaodong1899.github.io/longdwm/.",
+      "year": 2025,
+      "authors": [
+        "Xiaodong Wang",
+        "Zhirong Wu",
+        "Peixi Peng"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 11,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.01546",
+      "url": "https://openalex.org/W4414897100",
+      "key": "openalex_1048550_arxiv250601546_LongDWM_Cross-Granularity_Distillation_for_Building_a_Long",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250601546_LongDWM_Cross-Granularity_Distillation_for_Building_a_Long.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W4415310407",
+      "doi": "10.48550/arxiv.2507.13162",
+      "title": "Orbis: Overcoming Challenges of Long-Horizon Prediction in Driving World Models",
+      "abstract": "Existing world models for autonomous driving struggle with long-horizon generation and generalization to challenging scenarios. In this work, we develop a model using simple design choices, and without additional supervision or sensors, such as maps, depth, or multiple cameras. We show that our model yields state-of-the-art performance, despite having only 469M parameters and being trained on 280h of video data. It particularly stands out in difficult scenarios like turning maneuvers and urban traffic. We test whether discrete token models possibly have advantages over continuous models based on flow matching. To this end, we set up a hybrid tokenizer that is compatible with both approaches and allows for a side-by-side comparison. Our study concludes in favor of the continuous autoregressive model, which is less brittle on individual design choices and more powerful than the model built on discrete tokens. Code, models and qualitative results are publicly available at https://lmb-freiburg.github.io/orbis.github.io/.",
+      "year": 2025,
+      "authors": [
+        "Arian Mousakhan",
+        "Sudhanshu Mittal",
+        "Silvio Galesso",
+        "Karim Farid",
+        "Thomas Brox"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 17,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2507.13162",
+      "url": "https://openalex.org/W4415310407",
+      "key": "openalex_1048550_arxiv250713162_Orbis_Overcoming_Challenges_of_Long-Horizon_Prediction_in_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv250713162_Orbis_Overcoming_Challenges_of_Long-Horizon_Prediction_in_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7159584927",
+      "doi": "10.1109/tpami.2026.3735606",
+      "title": "Hermes++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "abstract": "Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics. However, existing approaches predominantly focus on future scene generation, often overlooking comprehensive 3D scene understanding. Conversely, while Large Language Models (LLMs) demonstrate impressive reasoning capabilities, they lack the capacity to predict future geometric evolution, creating a significant disparity between semantic interpretation and physical simulation. To bridge this gap, we propose HERMES++, a unified driving world model that integrates 3D scene understanding and future geometry prediction within a single framework. Our approach addresses the distinct requirements of these tasks through synergistic designs. First, a BEV representation consolidates multi-view spatial information into a structure compatible with LLMs. Second, we introduce LLM-enhanced world queries to facilitate knowledge transfer from the understanding branch. Third, a Current-to-Future Link is designed to bridge the temporal gap, conditioning geometric evolution on semantic context. Finally, to enforce structural integrity, we employ a Joint Geometric Optimization strategy that integrates explicit geometric constraints with implicit latent regularization to align internal representations with geometry-aware priors. Extensive evaluations on multiple benchmarks validate the effectiveness of our method. HERMES++ achieves strong performance, outperforming specialist approaches in both future point cloud prediction and 3D scene understanding tasks.",
+      "year": 2026,
+      "authors": [
+        "Xin Zhou",
+        "Dingkang Liang",
+        "Xiwu Chen",
+        "Feiyang Tan",
+        "Dingyuan Zhang",
+        "Hengshuang Zhao",
+        "Xiang Bai"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.28196",
+      "url": "https://openalex.org/W7159584927",
+      "key": "openalex_101109_tpami20263735606_Hermes_Toward_a_Unified_Driving_World_Model_for_3D_Scene_",
+      "file_kind": "txt",
+      "file": "openalex_101109_tpami20263735606_Hermes_Toward_a_Unified_Driving_World_Model_for_3D_Scene_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7172534965",
+      "doi": "10.48550/arxiv.2608.02953",
+      "title": "RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models",
+      "abstract": "Realistic weather translation is valuable for developing and evaluating autonomous driving systems, yet collecting paired videos of the same scenes under different weather conditions at scale is impractical. Existing methods therefore rely on synthetic data, 3D weather editing, or geometry-conditioned generation, often compromising weather realism or scene fidelity. We propose RealWeather, a driving world model for both realistic and scene-faithful weather translation. Our key idea is to learn authentic weather dynamics directly from real-world videos. Specifically, RealWeather employs Progressive Realism Bootstrapping, an iterative data-refinement strategy. Assisted by an auxiliary Pseudo-Clear Generation pipeline, training initially starts with pseudo-style conditioning videos. As training proceeds, these inputs are progressively replaced with increasingly realistic videos generated by the model itself. This strategy bridges the pseudo-to-real domain gap, allowing the model to adapt seamlessly to real-world input distributions and naturally support bidirectional clear adverse translation. Furthermore, to strictly enforce structural integrity and suppress hallucinations, we introduce Scene-Fidelity RL Optimization, a reward-driven policy optimization strategy that explicitly penalizes alterations to safety-critical driving elements. Extensive experiments demonstrate that RealWeather significantly outperforms existing methods in visual realism and structural preservation, while enabling robust long-tail weather scenario generation and strong zero-shot out-of-distribution generalization. Our video demos can be found at https://hust-umi.github.io/RealWeather/.",
+      "year": 2026,
+      "authors": [
+        "Yuwei Ning",
+        "Liangzhi Wang",
+        "Yi Xiao",
+        "Wu, Zhenhua",
+        "Yun Pang",
+        "Mingkun Chang",
+        "Jichang Li",
+        "Guanbin Li"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.02953",
+      "url": "https://openalex.org/W7172534965",
+      "key": "openalex_1048550_arxiv260802953_RealWeather_Realistic_and_Scene-Faithful_Weather_Translati",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260802953_RealWeather_Realistic_and_Scene-Faithful_Weather_Translati.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7221811735",
+      "doi": "10.48550/arxiv.2610.14871",
+      "title": "MORE: Learning Motion-Oriented Registers for Driving World Models and Planning",
+      "abstract": "By predicting future states, latent world models provide rich self-supervision for end-to-end driving, but often inherit dense features from pretrained visual encoders as their world-state interface. This creates a mismatch: visual pretraining produces information-rich, spatially dense features, but their adaptation for motion-conditioned world modeling and planning is deferred to downstream training. The dense grid also makes future prediction more computationally expensive as visual resolution increases. We therefore argue that video pretraining should directly learn state representations suited to downstream world modeling and planning, rather than relying on downstream training to adapt inherited visual features. We propose ***MORE***, a V-JEPA framework that learns **M**otion-**O**riented **RE**gisters during video pretraining as a shared state interface for driving world models and planning. MORE injects temporally aligned ego motion into a small set of registers and uses them as the sole context for masked patch prediction, channeling dense patch-level supervision through a compact state bottleneck. A complementary blockwise register-masking objective further shapes predictive structure in the register space. During downstream training, the same register space defines the future states predicted by the world model and provides shared scene memory for trajectory generation and scoring. On NAVSIM-v2, MORE outperforms the state of the art by 1.6 in EPDMS, while achieving superior efficiency with only 1/10 the inference latency of DriveLaW. These results support learning the state interface for world modeling and planning directly during video pretraining.",
+      "year": 2026,
+      "authors": [
+        "Yingdong Gu",
+        "Haoyu Wang",
+        "Shaocheng Yan",
+        "Zhenjun Zhao",
+        "Hao Han",
+        "Pengcheng Shi",
+        "Xianfei Li",
+        "Qinghua Tan",
+        "Wenlong Liao",
+        "Tao He",
+        "Jiayuan Li",
+        "Pai Peng"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "cited_by": 1,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.14871",
+      "url": "https://openalex.org/W7221811735",
+      "key": "openalex_1048550_arxiv261014871_MORE_Learning_Motion-Oriented_Registers_for_Driving_World_",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv261014871_MORE_Learning_Motion-Oriented_Registers_for_Driving_World_.txt"
+    },
+    {
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "id": "W7127570082",
+      "doi": "10.48550/arxiv.2602.03213",
+      "title": "ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask",
+      "abstract": "Autonomous driving relies on robust models trained on large-scale, high-quality multi-view driving videos. Although world models provide a cost-effective solution for generating realistic driving data, they often suffer from identity drift, where the same object changes its appearance or category across frames due to the absence of instance-level temporal constraints. We introduce ConsisDrive, an identity-preserving driving world model designed to enforce temporal consistency at the instance level. Our framework incorporates two key components: (1) Instance-Masked Attention, which applies instance identity masks and trajectory masks within attention blocks to ensure that visual tokens interact only with their corresponding instance features across spatial and temporal dimensions, thereby preserving object identity consistency; and (2) Instance-Masked Loss, which adaptively emphasizes foreground regions with probabilistic instance masking, reducing background noise while maintaining overall scene fidelity. By integrating these mechanisms, ConsisDrive achieves state-of-the-art driving video generation quality and demonstrates significant improvements in downstream autonomous driving tasks on the nuScenes dataset. Our project page is https://shanpoyang654.github.io/ConsisDrive/page.html.",
+      "year": 2026,
+      "authors": [
+        "Zhuoran Yang",
+        "Yanyong Zhang"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "cited_by": 5,
+      "is_oa": true,
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/fd3c52db29af5d483b154f9abf02de19-Paper-Conference.pdf",
+      "url": "https://openalex.org/W7127570082",
+      "key": "openalex_1048550_arxiv260203213_ConsisDrive_Identity-Preserving_Driving_World_Models_for_V",
+      "file_kind": "txt",
+      "file": "openalex_1048550_arxiv260203213_ConsisDrive_Identity-Preserving_Driving_World_Models_for_V.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2503.06669v5",
+      "doi": "",
+      "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+      "abstract": "We explore how scalable robot data can address real-world challenges for generalized robotic manipulation. Introducing AgiBot World, a large-scale platform comprising over 1 million trajectories across 217 tasks in five deployment scenarios, we achieve an order-of-magnitude increase in data scale compared to existing datasets. Accelerated by a standardized collection pipeline with human-in-the-loop verification, AgiBot World guarantees high-quality and diverse data distribution. It is extensible from grippers to dexterous hands and visuo-tactile sensors for fine-grained skill acquisition. Building on top of data, we introduce Genie Operator-1 (GO-1), a novel generalist policy that leverages latent action representations to maximize data utilization, demonstrating predictable performance scaling with increased data volume. Policies pre-trained on our dataset achieve an average performance improvement of 30% over those trained on Open X-Embodiment, both in in-domain and out-of-distribution scenarios. GO-1 exhibits exceptional capability in real-world dexterous and long-horizon tasks, achieving over 60% success rate on complex tasks and outperforming prior RDT approach by 32%. By open-sourcing the dataset, tools, and models, we aim to democratize access to large-scale, high-quality robot data, advancing the pursuit of scalable and general-purpose intelligence.",
+      "year": 2025,
+      "authors": [
+        "AgiBot World Contributors",
+        "Qingwen Bu",
+        "Jisong Cai",
+        "Li Chen",
+        "Xiuqi Cui",
+        "Yan Ding",
+        "Siyuan Feng",
+        "Shenyuan Gao",
+        "Xindong He",
+        "Xuan Hu",
+        "Xu Huang",
+        "Shu Jiang",
+        "Yuxin Jiang",
+        "Cheng Jing",
+        "Hongyang Li",
+        "Jialu Li",
+        "Chiming Liu",
+        "Yi Liu",
+        "Yuxiang Lu",
+        "Jianlan Luo"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2503.06669v5",
+      "url": "http://arxiv.org/abs/2503.06669v5",
+      "key": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a",
+      "file_kind": "txt",
+      "file": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2610.22450v1",
+      "doi": "",
+      "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+      "abstract": "Three dimensional modeling for autonomous driving must continuously estimate road geometry, obstacle occupancy, traffic participant behavior, and observational uncertainty under limited computational resources. Existing reconstruction methods can synthesize realistic novel views, but visual fidelity does not sufficiently characterize the geometric reliability required for driving. Generative world models can expand scenarios and predict future observations, yet may introduce content unsupported by measurements. We propose DriveWorld3D, a framework combining temporal video learning, measurement constraints from multiple sensors, and offline generative simulation. Its online component maintains a unified world state comprising road surfaces, volumetric occupancy, dynamic entities, and road relations, while separately representing physical occupancy, observability, and evidence provenance. Action conditioned future prediction and risk sensitive planning connect this representation to driving decisions. Its offline component reconstructs recorded scenes using neural radiance fields or 3D Gaussian Splatting, then expands long tail conditions using generative models while restricting the use of generated content as geometric ground truth. We specify data partitioning, sensor ablations, fault injection, paired closed loop testing, and real to simulation consistency assessment. The central hypothesis is that explicit evidence management can reduce dangerous false free space predictions and occlusion risk within a matched computational budget while retaining acceptable driving efficiency. All performance claims remain subject to experimental validation. Keywords: autonomous driving; 3D occupancy; sensor fusion; uncertainty; generative world models; NeRF; 3D Gaussian Splatting; closed loop simulation",
+      "year": 2026,
+      "authors": [
+        "Wei Wang",
+        "Yiru Veronika Wang",
+        "Yihan Wang",
+        "Zihao Li",
+        "Xiaohui Liang"
+      ],
+      "venue": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion. arXiv:2311.01017, 2023",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2610.22450v1",
+      "url": "http://arxiv.org/abs/2610.22450v1",
+      "key": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul",
+      "file_kind": "txt",
+      "file": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2502.10498v2",
+      "doi": "",
+      "title": "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey",
+      "abstract": "The Driving World Model (DWM), which focuses on predicting scene evolution during the driving process, has emerged as a promising paradigm in the pursuit of autonomous driving (AD). DWMs enable AD systems to better perceive, understand, and interact with dynamic driving environments. In this survey, we provide a comprehensive overview of the latest progress in DWM. First, we review the DWM ecosystem, which is constructed using mainstream simulators, high-impact datasets, and various metrics that evaluate DWMs across multiple dimensions. We then categorize existing approaches based on the modalities of the predicted scenes, including video, point cloud, occupancy, latent feature, and traffic map, and summarize their specific applications in AD research. In addition, the performance of representative approaches across generating and driving tasks is presented. Finally, we discuss the potential limitations of current research and propose future directions. This survey provides valuable insights into the development and application of DWM, fostering its broader adoption in AD. The relevant papers are collected at https://github.com/LMD0311/Awesome-World-Model.",
+      "year": 2025,
+      "authors": [
+        "Sifan Tu",
+        "Xin Zhou",
+        "Dingkang Liang",
+        "Xingyu Jiang",
+        "Yumeng Zhang",
+        "Xiaofan Li",
+        "Xiang Bai"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2502.10498v2",
+      "url": "http://arxiv.org/abs/2502.10498v2",
+      "key": "arxiv_250210498v2_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_Comprehensive_S",
+      "file_kind": "txt",
+      "file": "arxiv_250210498v2_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_Comprehensive_S.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2506.00613v3",
+      "doi": "",
+      "title": "WorldGym: World Model as An Environment for Policy Evaluation",
+      "abstract": "Evaluating robot control policies is difficult: real-world testing is costly, and handcrafted simulators require manual effort to improve in realism and generality. We propose a world-model-based policy evaluation environment (WorldGym), an autoregressive, action-conditioned video generation model which serves as a proxy to real world environments. Policies are evaluated via Monte Carlo rollouts in the world model, with a vision-language model providing rewards. We evaluate a set of VLA-based real-robot policies in the world model using only initial frames from real robots, and show that policy success rates within the world model highly correlate with real-world success rates. Moreoever, we show that WorldGym is able to preserve relative policy rankings across different policy versions, sizes, and training checkpoints. Due to requiring only a single start frame as input, the world model further enables efficient evaluation of robot policies' generalization ability on novel tasks and environments. We find that modern VLA-based robot policies still struggle to distinguish object shapes and can become distracted by adversarial facades of objects. While generating highly realistic object interaction remains challenging, WorldGym faithfully emulates robot motions and offers a practical starting point for safe and reproducible policy evaluation before deployment.",
+      "year": 2025,
+      "authors": [
+        "Julian Quevedo",
+        "Ansh Kumar Sharma",
+        "Yixiang Sun",
+        "Varad Suryavanshi",
+        "Percy Liang",
+        "Sherry Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2506.00613v3",
+      "url": "http://arxiv.org/abs/2506.00613v3",
+      "key": "arxiv_250600613v3_WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation",
+      "file_kind": "txt",
+      "file": "arxiv_250600613v3_WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.27589v1",
+      "doi": "",
+      "title": "What-If World: A Causal Benchmark for General World Models in Embodied Scenarios",
+      "abstract": "Video generation models are increasingly used as world simulators for tasks like driving and robotic manipulation. What matters in these settings is not whether a single video looks right, but whether the model's output changes when its input changes. We test this by giving a model two prompts describing the same scene with one physical detail varied, and checking whether the two videos diverge the way physics predicts. The wording difference between the prompts is small by design, since only one variable is changed, but the correct physical difference is not. A model that misses this can still produce two videos that each look plausible individually, and existing benchmarks score videos one at a time and cannot detect this failure. We introduce What-If World, 319 such prompt pairs built on real frames from nuScenes and DROID, organized by a taxonomy of six physical variables shared across driving and manipulation. Each pair is scored with APEO, a four-part rubric checking whether each video follows its prompt (Adherence), is physically consistent (Physics), preserves the shared scene (Environment), and ends in the correct difference (Outcome). Across nine state-of-the-art models, no system exceeds 52% on the paired score, and open-source models cluster near 28%. Every model tested fails on a large fraction of causal interventions, indicating substantial room before these models can reliably support action-conditioned simulation or model-based planning. Where models do score well, performance appears to track the visual prominence of the intervention rather than the tractability of its underlying physics. Some visually subtle interventions score as low as 14.2%, while visually pronounced ones reach 40.4%.",
+      "year": 2026,
+      "authors": [
+        "Kunlin Cai",
+        "Rui Song",
+        "Jinghuai Zhang",
+        "Kaiyuan Zhang",
+        "Pranav Bodapati",
+        "Alicia Yu",
+        "Fnu Suya",
+        "Mohammad Rostami",
+        "Jiaqi Ma",
+        "Yuan Tian"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.27589v1",
+      "url": "http://arxiv.org/abs/2605.27589v1",
+      "key": "arxiv_260527589v1_What-If_World_A_Causal_Benchmark_for_General_World_Models_in_Embodied_Sc",
+      "file_kind": "txt",
+      "file": "arxiv_260527589v1_What-If_World_A_Causal_Benchmark_for_General_World_Models_in_Embodied_Sc.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.22882v4",
+      "doi": "",
+      "title": "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation",
+      "abstract": "Video world models can generate realistic futures from a single instruction, but they often fail to track the same physical points consistently across time. As a result, the generated videos appear plausible, yet lack the physical grounding required for reliable action execution, such as robot manipulation. We present GEM-4D, a geometry-grounded video world model that resolves this limitation by injecting dense 4D correspondence supervision distilled from a pretrained geometry foundation model into the video generative backbone during training. This supervision enables the model to jointly capture appearance and geometric structure while retaining a single-stream architecture with no additional inference cost. We further introduce an inverse dynamics module that converts correspondence-consistent video rollouts into executable robot trajectories, enabling direct deployment in both real-world and simulated manipulation. GEM-4D achieves state-of-the-art performance on both video prediction and geometric consistency across both simulation and realistic scenarios and improves real-world manipulation success from 61% to 81%. Additional results are available at https://gem-4d.github.io/.",
+      "year": 2026,
+      "authors": [
+        "Kaichen Zhou",
+        "Yuzhen Chen",
+        "Fangneng Zhan",
+        "Hang Hua",
+        "Grace Chen",
+        "Xinhai Chang",
+        "Ao Qu",
+        "Yilun Du",
+        "Zhuang Liu",
+        "Paul Pu Liang",
+        "Mengyu Wang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.22882v4",
+      "url": "http://arxiv.org/abs/2605.22882v4",
+      "key": "arxiv_260522882v4_GEM-4D_Geometry-Enhanced_Video_World_Models_for_Robot_Manipulation",
+      "file_kind": "txt",
+      "file": "arxiv_260522882v4_GEM-4D_Geometry-Enhanced_Video_World_Models_for_Robot_Manipulation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.24626v1",
+      "doi": "",
+      "title": "Relationally Grounded Latent World Models for Autonomous Driving",
+      "abstract": "Latent world models learn predictive representations for autonomous driving, but the relational semantics these states preserve often remain implicit. We investigate whether traffic scene graphs can serve as privileged semantic supervision for latent world representations. Building on LAW, we construct actor-centric scene graphs from nuScenes 3D annotations, encode their serialized relational structure using a frozen text embedding model, and align the visual latent representations with this semantic target during training. We remove the supervision branch at inference, so it requires neither scene graphs nor 3D annotations and adds no test-time computation. On nuScenes, our method reduces average trajectory L2 error from 0.661 to 0.622 (5.9%) and collision rate from 0.456 to 0.217 (52.4%) relative to our retrained LAW baseline. It also outperforms an unstructured caption-style semantic target, supporting the benefit of explicit relational structure for latent world-model representation learning.",
+      "year": 2026,
+      "authors": [
+        "Fabian Schmidt",
+        "Markus Enzweiler",
+        "Abhinav Valada"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.24626v1",
+      "url": "http://arxiv.org/abs/2609.24626v1",
+      "key": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.07092v1",
+      "doi": "",
+      "title": "Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report",
+      "abstract": "World models are a powerful paradigm in AI and robotics, enabling agents to reason about the future by predicting visual observations or compact latent states. The 1X World Model Challenge introduces an open-source benchmark of real-world humanoid interaction, with two complementary tracks: sampling, focused on forecasting future image frames, and compression, focused on predicting future discrete latent codes. For the sampling track, we adapt the video generation foundation model Wan-2.2 TI2V-5B to video-state-conditioned future frame prediction. We condition the video generation on robot states using AdaLN-Zero, and further post-train the model using LoRA. For the compression track, we train a Spatio-Temporal Transformer model from scratch. Our models achieve 23.0 dB PSNR in the sampling task and a Top-500 CE of 6.6386 in the compression task, securing 1st place in both challenges.",
+      "year": 2025,
+      "authors": [
+        "Riccardo Mereu",
+        "Aidan Scannell",
+        "Yuxin Hou",
+        "Yi Zhao",
+        "Aditya Jitta",
+        "Antonio Dominguez",
+        "Luigi Acerbi",
+        "Amos Storkey",
+        "Paul Chang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.07092v1",
+      "url": "http://arxiv.org/abs/2510.07092v1",
+      "key": "arxiv_251007092v1_Generative_World_Modelling_for_Humanoids_1X_World_Model_Challenge_Techni",
+      "file_kind": "txt",
+      "file": "arxiv_251007092v1_Generative_World_Modelling_for_Humanoids_1X_World_Model_Challenge_Techni.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2608.02713v1",
+      "doi": "",
+      "title": "Quo Vadis, World Modeling?",
+      "abstract": "Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environment interaction is costly, slow, unsafe, and hard to parallelize. World modeling offers a natural intermediate proxy that allows agents to query lower-cost, more controllable feedback before committing to real actions. Classical world models instantiate this proxy primarily through future physical-state prediction, a formulation useful yet narrow for agents that require actionable feedback beyond raw state transitions. In this work, we conceptualize Agent-Centric Interactive World Proxies, shifting the fundamental paradigm from physical state transitions to agent-usable information transitions, such as execution outcomes, retrieved experiences or skills, and verification signals, broadening the scope of world modeling to provide versatile feedback for continually improving agents. To systematically map this design space, we organize world proxies into six functional forms based on their feedback modalities: dynamics, spatial, execution, memory/experience, skill, and reward/verification proxies, which together characterize the primary ways world modeling serves agent improvement. We further analyze how these proxies empower agents across three progressive levels: L.1 Inference-Time Guidance, where proxy outputs enrich in-context information for superior decisions; L.2 Training-Time Optimization, where proxy outputs yield rewards, critiques, or synthetic rollouts for policy learning; and L.3 Agent-Proxy Co-Evolution, where real-environment evidence continuously updates both the proxy and the agent for co-evolution. Ultimately, this work recasts world modeling into an agent-centric paradigm, establishing a roadmap for building world proxies that empower agents to plan better, learn faster, and evolve continually.",
+      "year": 2026,
+      "authors": [
+        "Yu Yang",
+        "Xuemeng Yang",
+        "Licheng Wen",
+        "Lingdong Kong",
+        "Xiaobin Hu",
+        "Dongyue Lu",
+        "Wei Chow",
+        "Xiyan Huang",
+        "Yuxiang Feng",
+        "Yue Liao",
+        "Jianbiao Mei",
+        "Daocheng Fu",
+        "Rong Wu",
+        "Pinlong Cai",
+        "Ran Yi",
+        "Ying Tai",
+        "Jiangning Zhang",
+        "Botian Shi",
+        "Yong Liu",
+        "Shuicheng Yan"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.02713v1",
+      "url": "http://arxiv.org/abs/2608.02713v1",
+      "key": "arxiv_260802713v1_Quo_Vadis_World_Modeling",
+      "file_kind": "txt",
+      "file": "arxiv_260802713v1_Quo_Vadis_World_Modeling.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2605.23993v2",
+      "doi": "",
+      "title": "Nano World Models: A Minimalist Implementation of Future Video Prediction",
+      "abstract": "World models have become a central paradigm for learning predictive simulators that support generation, planning, and decision-making. Yet, despite rapid progress in industry-scale interactive video generation, the broader research community still lacks compact, reproducible, and easily extensible implementations for studying the design choices underlying modern world models. We introduce Nano World Models, a minimalist codebase for future video prediction centered around diffusion forcing. Nano World Models provides a unified interface for generative objectives, model scales, action-conditioning mechanisms, latent observation spaces, datasets, evaluation protocols, and long-horizon rollout procedures. This design enables controlled studies of world-modeling components that are often entangled across separate implementations. Through experiments across simple control environments, game simulation, and real-robot data, we examine how prediction parameterization, architecture scale, action injection, sampling budget, and domain complexity affect video prediction quality and autoregressive rollout behavior. By releasing code, configurations, evaluation scripts, and pretrained checkpoints, Nano World Models aims to provide a compact yet extensible experimental substrate for open, reproducible, and scientific world-model research.",
+      "year": 2026,
+      "authors": [
+        "Siqiao Huang",
+        "Partha Kaushik",
+        "Michael Chen",
+        "Hengkai Pan",
+        "Kaiwen Geng",
+        "Omar Chehab",
+        "Fernando Moreno-Pino",
+        "Max Simchowitz"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.23993v2",
+      "url": "http://arxiv.org/abs/2605.23993v2",
+      "key": "arxiv_260523993v2_Nano_World_Models_A_Minimalist_Implementation_of_Future_Video_Prediction",
+      "file_kind": "txt",
+      "file": "arxiv_260523993v2_Nano_World_Models_A_Minimalist_Implementation_of_Future_Video_Prediction.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2607.10781v1",
+      "doi": "",
+      "title": "Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models",
+      "abstract": "Driving world models built on large video-diffusion backbones generate realistic scenes but are hard to control: enforcing a traffic norm typically means retraining the backbone or conditioning it on hand-built layouts. We ask whether controllability requires training at all. Our experiment shows that a rectified-flow driving world model, which jointly generates future video and a planned ego trajectory, can have its planned trajectory steered entirely at sampling time by differentiable energy functions that encode driving norms, without knowledge-specific retraining of the diffusion backbone. Concretely, we demonstrate that a world model built on Open-Sora 2.0 MM-DiT backbone can be steered to brake at a counterfactual target by injecting energy guidance at sampling time. However, we find that the generated video does not yet follow the steered trajectory through the backbone's joint self-attention and identify the cross-stream coupling as a crucial requirement for end-to-end-controllable rollouts.",
+      "year": 2026,
+      "authors": [
+        "Xiyan Su",
+        "Frank Diermeyer",
+        "Markus Lienkamp"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.10781v1",
+      "url": "http://arxiv.org/abs/2607.10781v1",
+      "key": "arxiv_260710781v1_Is_Energy_Guidance_All_You_Need_Training-Free_Norm_Injection_for_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_260710781v1_Is_Energy_Guidance_All_You_Need_Training-Free_Norm_Injection_for_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2609.37398v1",
+      "doi": "",
+      "title": "Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation",
+      "abstract": "World-Action Models (WAMs) couple action generation with predictions of how physical interactions unfold. However, current post-deployment learning paradigms typically improve behavior without requiring better world predictions. Especially in dexterous manipulation, small execution errors can compound in high-dimensional action spaces, hindering policy improvement and pushing interactions beyond the world model's training distribution. Motivated by this, we propose Direct Experience World-Model Optimization (DEWO), a post-deployment learning paradigm for WAMs that, alongside action imitation, refines world representations through visual experience to better condition action generation. Specifically, it identifies interaction turning points and learns from successful and failed futures to support classifier-free guidance. An additional value head estimates task progress from video representations and activates guidance when progress stalls during inference. Across five DexJoCo tasks, DEWO improves average success across all three WAM formulations. Ablations show that visual supervision from successful and failed continuations improves both prediction and control beyond action supervision alone. On four real-world tasks across Wuji and Sharpa, 3 x 3 grid evaluations show that two rounds of deployment learning increase success from 51.0% to 71.7% in cells with at least one initial success, a gain of 20.7 percentage points. These findings support continued predictive learning for improving control through deployment experience, making world modeling an active part of WAM adaptation.",
+      "year": 2026,
+      "authors": [
+        "Xiangcheng Zhan",
+        "Zirui Chen",
+        "Yicheng Zhao",
+        "Ziteng Gao",
+        "Shuo Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2609.37398v1",
+      "url": "http://arxiv.org/abs/2609.37398v1",
+      "key": "arxiv_260937398v1_Direct_Experience_World-Model_Optimization_Learning_the_World_Beyond_Act",
+      "file_kind": "txt",
+      "file": "arxiv_260937398v1_Direct_Experience_World-Model_Optimization_Learning_the_World_Beyond_Act.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2410.12822v2",
+      "doi": "",
+      "title": "AVID: Adapting Video Diffusion Models to World Models",
+      "abstract": "Large-scale generative models have achieved remarkable success in a number of domains. However, for sequential decision-making problems, such as robotics, action-labelled data is often scarce and therefore scaling-up foundation models for decision-making remains a challenge. A potential solution lies in leveraging widely-available unlabelled videos to train world models that simulate the consequences of actions. If the world model is accurate, it can be used to optimize decision-making in downstream tasks. Image-to-video diffusion models are already capable of generating highly realistic synthetic videos. However, these models are not action-conditioned, and the most powerful models are closed-source which means they cannot be finetuned. In this work, we propose to adapt pretrained video diffusion models to action-conditioned world models, without access to the parameters of the pretrained model. Our approach, AVID, trains an adapter on a small domain-specific dataset of action-labelled videos. AVID uses a learned mask to modify the intermediate outputs of the pretrained model and generate accurate action-conditioned videos. We evaluate AVID on video game and real-world robotics data, and show that it outperforms existing baselines for diffusion model adaptation.1 Our results demonstrate that if utilized correctly, pretrained video models have the potential to be powerful tools for embodied AI.",
+      "year": 2024,
+      "authors": [
+        "Marc Rigter",
+        "Tarun Gupta",
+        "Agrin Hilmkil",
+        "Chao Ma"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2410.12822v2",
+      "url": "http://arxiv.org/abs/2410.12822v2",
+      "key": "arxiv_241012822v2_AVID_Adapting_Video_Diffusion_Models_to_World_Models",
+      "file_kind": "txt",
+      "file": "arxiv_241012822v2_AVID_Adapting_Video_Diffusion_Models_to_World_Models.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2408.06349v3",
+      "doi": "",
+      "title": "Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning",
+      "abstract": "Motion simulators allow researchers to safely investigate the interaction of drivers with a vehicle. However, many studies that use driving simulator data to predict cognitive load only employ two levels of workload, leaving a gap in research on employing deep learning methodologies to analyze cognitive load, especially in challenging low-light conditions. Often, studies overlook or solely focus on scenarios in bright daylight. To address this gap and understand the correlation between performance and cognitive load, this study employs functional near-infrared spectroscopy (fNIRS) and eye-tracking data, including fixation duration and gaze direction, during simulated driving tasks in low visibility conditions, inducing various mental workloads. The first stage involves the statistical estimation of useful features from fNIRS and eye-tracking data. ANOVA will be applied to the signals to identify significant channels from fNIRS signals. Optimal features from fNIRS, eye-tracking and vehicle dynamics are then combined in one chunk as input to the CNN and LSTM model to predict workload variations. The proposed CNN-LSTM model achieved 99% accuracy with neurological data and 89% with vehicle dynamics to predict cognitive load, indicating potential for real-time assessment of driver mental state and guide designers for the development of safe adaptive systems.",
+      "year": 2024,
+      "authors": [
+        "Mehshan Ahmed Khan",
+        "Houshyar Asadi",
+        "Mohammad Reza Chalak Qazani",
+        "Chee Peng Lim",
+        "Saied Nahavandi"
+      ],
+      "venue": "Proceedings of the Driving Simulation Conference 2024 Europe VR, Driving Simulation Association, Strasbourg, France, 2024, pp. 47-56, ISBN: 978-2-9573777-5-6",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2408.06349v3",
+      "url": "http://arxiv.org/abs/2408.06349v3",
+      "key": "arxiv_240806349v3_Functional_near-infrared_spectroscopy_fNIRS_and_Eye_tracking_for_Cogniti",
+      "file_kind": "txt",
+      "file": "arxiv_240806349v3_Functional_near-infrared_spectroscopy_fNIRS_and_Eye_tracking_for_Cogniti.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2411.17027v1",
+      "doi": "",
+      "title": "D$^2$-World: An Efficient World Model through Decoupled Dynamic Flow",
+      "abstract": "This technical report summarizes the second-place solution for the Predictive World Model Challenge held at the CVPR-2024 Workshop on Foundation Models for Autonomous Systems. We introduce D$^2$-World, a novel World model that effectively forecasts future point clouds through Decoupled Dynamic flow. Specifically, the past semantic occupancies are obtained via existing occupancy networks (e.g., BEVDet). Following this, the occupancy results serve as the input for a single-stage world model, generating future occupancy in a non-autoregressive manner. To further simplify the task, dynamic voxel decoupling is performed in the world model. The model generates future dynamic voxels by warping the existing observations through voxel flow, while remaining static voxels can be easily obtained through pose transformation. As a result, our approach achieves state-of-the-art performance on the OpenScene Predictive World Model benchmark, securing second place, and trains more than 300% faster than the baseline model. Code is available at https://github.com/zhanghm1995/D2-World.",
+      "year": 2024,
+      "authors": [
+        "Haiming Zhang",
+        "Xu Yan",
+        "Ying Xue",
+        "Zixuan Guo",
+        "Shuguang Cui",
+        "Zhen Li",
+        "Bingbing Liu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2411.17027v1",
+      "url": "http://arxiv.org/abs/2411.17027v1",
+      "key": "arxiv_241117027v1_D2-World_An_Efficient_World_Model_through_Decoupled_Dynamic_Flow",
+      "file_kind": "txt",
+      "file": "arxiv_241117027v1_D2-World_An_Efficient_World_Model_through_Decoupled_Dynamic_Flow.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2510.18135v2",
+      "doi": "",
+      "title": "World-in-World: World Models in a Closed-Loop World",
+      "abstract": "Generative world models (WMs) can now simulate worlds with striking visual realism, which naturally raises the question of whether they can endow embodied agents with predictive perception for decision making. Progress on this question has been limited by fragmented evaluation: most existing benchmarks adopt open-loop protocols that emphasize visual quality in isolation, leaving the core issue of embodied utility unresolved, i.e., do WMs actually help agents succeed at embodied tasks? To address this gap, we introduce World-in-World, the first open platform that benchmarks WMs in a closed-loop world that mirrors real agent-environment interactions. World-in-World provides a unified online planning strategy and a standardized action API, enabling heterogeneous WMs for decision making. We curate four closed-loop environments that rigorously evaluate diverse WMs, prioritize task success as the primary metric, and move beyond the common focus on visual quality; we also present the first data scaling law for world models in embodied settings. Our study uncovers three surprises: (1) visual quality alone does not guarantee task success, controllability matters more; (2) scaling post-training with action-observation data is more effective than upgrading the pretrained video generators; and (3) allocating more inference-time compute allows WMs to substantially improve closed-loop performance.",
+      "year": 2025,
+      "authors": [
+        "Jiahan Zhang",
+        "Muqing Jiang",
+        "Nanru Dai",
+        "Taiming Lu",
+        "Arda Uzunoglu",
+        "Shunchi Zhang",
+        "Yana Wei",
+        "Jiahao Wang",
+        "Vishal M. Patel",
+        "Paul Pu Liang",
+        "Daniel Khashabi",
+        "Cheng Peng",
+        "Rama Chellappa",
+        "Tianmin Shu",
+        "Alan Yuille",
+        "Yilun Du",
+        "Jieneng Chen"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.18135v2",
+      "url": "http://arxiv.org/abs/2510.18135v2",
+      "key": "arxiv_251018135v2_World-in-World_World_Models_in_a_Closed-Loop_World",
+      "file_kind": "txt",
+      "file": "arxiv_251018135v2_World-in-World_World_Models_in_a_Closed-Loop_World.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2608.14767v1",
+      "doi": "",
+      "title": "NARRATE: A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving",
+      "abstract": "Automated vehicles must explain their decisions in ways that passengers can understand, monitor, and trust. Existing language-annotated driving datasets are mostly observer-written, post-hoc, simulation-based, or generated from sensor inputs, rather than elicited from the driver performing the action. We introduce NARRATE, a multimodal real-world Australian driving dataset comprising 2,050 annotated events from 35 experienced drivers and driving instructors on public roads. Each event is grounded in synchronised visual, localisation, motion, and LiDAR streams and paired with in-vehicle and/or post-drive free-text explanations. NARRATE provides action labels, scenario-context labels spanning six high-level and 32 fine-grained categories, and span-level Situational Awareness (SA) annotations over driver explanations for Perception, Comprehension and Projection. Four benchmark tasks (SA, scenario-context, driver-action classification, and explanation generation) show that this structure is learnable from driver language, while fine-grained context recognition and explanation generation remain challenging. NARRATE paves a path towards more human-centred and domain-aware explanation models for automated driving.",
+      "year": 2026,
+      "authors": [
+        "Ashkan Yousefi Zadeh",
+        "Zishuo Zhu",
+        "Xiaomeng Li",
+        "Andry Rakotonirainy",
+        "Sebastien Glaser",
+        "Ronald Schroeter",
+        "Patricia Delhomme",
+        "Zahra Mehraban"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.14767v1",
+      "url": "http://arxiv.org/abs/2608.14767v1",
+      "key": "arxiv_260814767v1_NARRATE_A_Multimodal_Real-World_Australian_Driving_Dataset_for_Human-Cen",
+      "file_kind": "txt",
+      "file": "arxiv_260814767v1_NARRATE_A_Multimodal_Real-World_Australian_Driving_Dataset_for_Human-Cen.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2606.01164v1",
+      "doi": "",
+      "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
+      "abstract": "With rapid development of large language models and diffusion-based content generation, world modeling has attracted increasing research attention, benefiting various downstream domains such as game engines, embodied AI, autonomous driving, etc. Through explicitly incorporating user actions into world state transition, recent literature empowers world modeling with interactivity in an action-conditioned video or 3D generation paradigm, further enhancing controllability over world evolutions and facilitating users to freely traverse, manipulate, navigate, and personalize the state evolution. In this paper, we aim to systematically review recent research trends, technical developments, evaluation benchmarks, and also propose future potential directions in interactive world modeling. Specifically, we first summarize recent efforts and trends in terms of application scenarios, world state evolution, and scene modality. Afterwards, we delve into three crucial technical challenges, including action-conditioned controllability, long-horizon interactions and memory, and action-following responsiveness for real-time interactivity. Furthermore, we also thoroughly compare existing benchmarks and metrics in four specific application fields: open-world exploration, game engine, autonomous driving, and robotics. Finally, we discuss several promising future directions in achieving next-generation interactive world modeling. The corresponding repository is publicly available at: https://github.com/liujiuming123/Awesome-Interactive-World-Model.",
+      "year": 2026,
+      "authors": [
+        "Jiuming Liu",
+        "Chaojun Ni",
+        "Mengmeng Liu",
+        "Chensheng Peng",
+        "Fangjinhua Wang",
+        "Sitian Shen",
+        "Marc Pollefeys",
+        "Masayoshi Tomizuka",
+        "Ayush Tewari",
+        "Per Ola Kristensson"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.01164v1",
+      "url": "http://arxiv.org/abs/2606.01164v1",
+      "key": "arxiv_260601164v1_Towards_Interactive_Video_World_Modeling_Frontiers_Challenges_Benchmarks",
+      "file_kind": "txt",
+      "file": "arxiv_260601164v1_Towards_Interactive_Video_World_Modeling_Frontiers_Challenges_Benchmarks.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2608.12078v1",
+      "doi": "",
+      "title": "Better Slots, Better Worlds: Representation Quality & Robustness in Object-Centric World Models",
+      "abstract": "Learning world models from offline trajectories enables agents to accomplish different tasks through planning. Object-centric (OC) representations, which decompose a scene into a set of slots that bind to its objects, have been proposed as an inductive bias for world models that are more sample-efficient and generalize better. Yet prior object-centric world models (OCWMs) take the slot encoder as given and evaluate only in-distribution, leaving open whether the object-centric bias actually delivers for planning and what within the OCWM drives it. We conduct a controlled study of OCWMs for visual model-predictive control along two axes: object-centric representation quality and generalization under distribution shift relative to scene-centric models. We find that (i) planning success correlates positively with unsupervised slot-quality metrics (FG-ARI, mBO), though the gains saturate at high slot quality; (ii) with well-bound slots, the auxiliary proprioception inputs and masking inductive bias that prior methods relied on become unnecessary; and (iii) under unseen distribution shifts, the OCWM with well-bound slots is more robust overall than the end-to-end trained scene-centric LeWM, while DINO-WM, built on similar frozen pretrained features, remains competitive -- pointing to pretrained features as a key contributor to robustness.",
+      "year": 2026,
+      "authors": [
+        "Shukrullo Nazirjonov",
+        "Sai Prasanna",
+        "Anna Manasyan",
+        "Georg Martius"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.12078v1",
+      "url": "http://arxiv.org/abs/2608.12078v1",
+      "key": "arxiv_260812078v1_Better_Slots_Better_Worlds_Representation_Quality__Robustness_in_Object-",
+      "file_kind": "txt",
+      "file": "arxiv_260812078v1_Better_Slots_Better_Worlds_Representation_Quality__Robustness_in_Object-.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2602.02454v1",
+      "doi": "",
+      "title": "World-Gymnast: Training Robots with Reinforcement Learning in a World Model",
+      "abstract": "Robot learning from interacting with the physical world is fundamentally bottlenecked by the cost of physical interaction. The two alternatives, supervised finetuning (SFT) from expert demonstrations and reinforcement learning (RL) in a software-based simulator, are limited by the amount of expert data available and the sim-to-real gap for manipulation. With the recent emergence of world models learned from real-world video-action data, we ask the question of whether training a policy in a world model can be more effective than supervised learning or software simulation in achieving better real-robot performance. We propose World-Gymnast, which performs RL finetuning of a vision-language-action (VLA) policy by rolling out the policy in an action-conditioned video world model and rewarding the rollouts with a vision-language model (VLM). On the Bridge robot setup, World-Gymnast outperforms SFT by as much as 18x and outperforms software simulator by as much as 2x. More importantly, World-Gymnast demonstrates intriguing capabilities of RL with a world model, including training on diverse language instructions and novel scenes from the world model, test-time training in a novel scene, and online iterative world model and policy improvement. Our results suggest learning a world model and training robot policies in the cloud could be the key to bridging the gap between robots that work in demonstrations and robots that can work in anyone's household.",
+      "year": 2026,
+      "authors": [
+        "Ansh Kumar Sharma",
+        "Yixiang Sun",
+        "Ninghao Lu",
+        "Yunzhe Zhang",
+        "Jiarao Liu",
+        "Sherry Yang"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.02454v1",
+      "url": "http://arxiv.org/abs/2602.02454v1",
+      "key": "arxiv_260202454v1_World-Gymnast_Training_Robots_with_Reinforcement_Learning_in_a_World_Mod",
+      "file_kind": "txt",
+      "file": "arxiv_260202454v1_World-Gymnast_Training_Robots_with_Reinforcement_Learning_in_a_World_Mod.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2403.05131v3",
+      "doi": "",
+      "title": "Sora as a World Model? A Complete Survey on Text-to-Video Generation",
+      "abstract": "The evolution of video generation from text, from animating MNIST to simulating the world with Sora, has progressed at a breakneck speed. Here, we systematically discuss how far text-to-video generation technology supports essential requirements in world modeling. We curate 250+ studies on text-based video synthesis and world modeling. We then observe that recent models increasingly support spatial, action, and strategic intelligences in world modeling through adherence to completeness, consistency, invention, as well as human interaction and control. We conclude that text-to-video generation is adept at world modeling, although homework in several aspects, such as the diversity-consistency trade-offs, remains to be addressed.",
+      "year": 2024,
+      "authors": [
+        "Fachrina Dewi Puspitasari",
+        "Chaoning Zhang",
+        "Joseph Cho",
+        "Adnan Haider",
+        "Noor Ul Eman",
+        "Omer Amin",
+        "Alexis Mankowski",
+        "Muhammad Umair",
+        "Jingyao Zheng",
+        "Sheng Zheng",
+        "Lik-Hang Lee",
+        "Caiyan Qin",
+        "Tae-Ho Kim",
+        "Choong Seon Hong",
+        "Yang Yang",
+        "Heng Tao Shen"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2403.05131v3",
+      "url": "http://arxiv.org/abs/2403.05131v3",
+      "key": "arxiv_240305131v3_Sora_as_a_World_Model_A_Complete_Survey_on_Text-to-Video_Generation",
+      "file_kind": "txt",
+      "file": "arxiv_240305131v3_Sora_as_a_World_Model_A_Complete_Survey_on_Text-to-Video_Generation.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2511.08585v4",
+      "doi": "",
+      "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+      "abstract": "The landscape of video generation is shifting, from a focus on generating visually appealing clips to building virtual environments that support interaction and maintain physical plausibility. These developments point toward the emergence of video foundation models that function not only as visual generators but also as implicit world models, models that simulate the physical dynamics, agent-environment interactions, and task planning that govern real or imagined worlds. This survey provides a systematic overview of this evolution, conceptualizing modern video foundation models as the combination of two core components: an implicit world model and a video renderer. The world model encodes structured knowledge about the world, including physical laws, interaction dynamics, and agent behavior. It serves as a latent simulation engine that enables coherent visual reasoning, long-term temporal consistency, and goal-driven planning. The video renderer transforms this latent simulation into realistic visual observations, effectively producing videos as a \"window\" into the simulated world. We trace the progression of video generation through four generations, in which the core capabilities advance step by step, ultimately culminating in a world model, built upon a video generation model, that embodies intrinsic physical plausibility, real-time multimodal interaction, and planning capabilities spanning multiple spatiotemporal scales. For each generation, we define its core characteristics, highlight representative works, and examine their application domains such as robotics, autonomous driving, and interactive gaming. Finally, we discuss open challenges and design principles for next-generation world models, including the role of agent intelligence in shaping and evaluating these systems. An up-to-date list of related works is maintained at this link.",
+      "year": 2025,
+      "authors": [
+        "Jingtong Yue",
+        "Ziqi Huang",
+        "Zhaoxi Chen",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Ziwei Liu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.08585v4",
+      "url": "http://arxiv.org/abs/2511.08585v4",
+      "key": "arxiv_251108585v4_Simulating_the_Visual_World_with_Artificial_Intelligence_A_Roadmap",
+      "file_kind": "txt",
+      "file": "arxiv_251108585v4_Simulating_the_Visual_World_with_Artificial_Intelligence_A_Roadmap.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2505.21581v4",
+      "doi": "",
+      "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+      "abstract": "While end-to-end autonomous driving has advanced significantly, prevailing methods remain fundamentally misaligned with human cognitive principles in both perception and planning. In this paper, we propose CogAD, a novel end-to-end autonomous driving model that emulates the hierarchical cognition mechanisms of human drivers. CogAD implements dual hierarchical mechanisms: global-to-local context processing for human-like perception and intent-conditioned multi-mode trajectory generation for cognitively-inspired planning. The proposed method demonstrates three principal advantages: comprehensive environmental understanding through hierarchical perception, robust planning exploration enabled by multi-level planning, and diverse yet reasonable multi-modal trajectory generation facilitated by dual-level uncertainty modeling. Extensive experiments on nuScenes and Bench2Drive demonstrate that CogAD achieves state-of-the-art performance in end-to-end planning, exhibiting particular superiority in long-tail scenarios and robust generalization to complex real-world driving conditions.",
+      "year": 2025,
+      "authors": [
+        "Zhennan Wang",
+        "Jianing Teng",
+        "Canqun Xiang",
+        "Kangliang Chen",
+        "Xing Pan",
+        "Lu Deng",
+        "Weihao Gu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2505.21581v4",
+      "url": "http://arxiv.org/abs/2505.21581v4",
+      "key": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving",
+      "file_kind": "txt",
+      "file": "arxiv_250521581v4_CogAD_Cognitive-Hierarchy_Guided_End-to-End_Autonomous_Driving.txt"
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "id": "2401.09985v1",
+      "doi": "",
+      "title": "WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens",
+      "abstract": "World models play a crucial role in understanding and predicting the dynamics of the world, which is essential for video generation. However, existing world models are confined to specific scenarios such as gaming or driving, limiting their ability to capture the complexity of general world dynamic environments. Therefore, we introduce WorldDreamer, a pioneering world model to foster a comprehensive comprehension of general world physics and motions, which significantly enhances the capabilities of video generation. Drawing inspiration from the success of large language models, WorldDreamer frames world modeling as an unsupervised visual sequence modeling challenge. This is achieved by mapping visual inputs to discrete tokens and predicting the masked ones. During this process, we incorporate multi-modal prompts to facilitate interaction within the world model. Our experiments show that WorldDreamer excels in generating videos across different scenarios, including natural scenes and driving environments. WorldDreamer showcases versatility in executing tasks such as text-to-video conversion, image-tovideo synthesis, and video editing. These results underscore WorldDreamer's effectiveness in capturing dynamic elements within diverse general world environments.",
+      "year": 2024,
+      "authors": [
+        "Xiaofeng Wang",
+        "Zheng Zhu",
+        "Guan Huang",
+        "Boyuan Wang",
+        "Xinze Chen",
+        "Jiwen Lu"
+      ],
+      "venue": "arXiv",
+      "cited_by": null,
+      "is_oa": true,
+      "pdf_url": "https://arxiv.org/pdf/2401.09985v1",
+      "url": "http://arxiv.org/abs/2401.09985v1",
+      "key": "arxiv_240109985v1_WorldDreamer_Towards_General_World_Models_for_Video_Generation_via_Predi",
+      "file_kind": "txt",
+      "file": "arxiv_240109985v1_WorldDreamer_Towards_General_World_Models_for_Video_Generation_via_Predi.txt"
+    }
+  ]
+}

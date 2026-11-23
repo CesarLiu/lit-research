@@ -1,0 +1,132 @@
+resolve_oa: no --email/UNPAYWALL_EMAIL — skipping Unpaywall, the rest of the chain still runs keyless.
+[1/64] ADriver-I: A General World Model for Autonomous Driving
+   ✓ pdf via openalex  (1670 KB)
+[2/64] BEVControl: Accurately Controlling Street-view Elements with
+   ✓ pdf via openalex  (29589 KB)
+[3/64] BEVWorld: A Multimodal World Simulator for Autonomous Drivin
+   ✓ pdf via openalex  (25660 KB)
+[4/64] Copilot4D: Learning Unsupervised World Models for Autonomous
+   ✓ pdf via openalex  (42097 KB)
+[5/64] Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generat
+   ✓ pdf via openalex  (23749 KB)
+[6/64] DiVE: DiT-based Video Generation with Enhanced Control
+   ✓ pdf via openalex  (1734 KB)
+[7/64] Doe-1: Closed-Loop Autonomous Driving with Large World Model
+   ✓ pdf via openalex  (17440 KB)
+[8/64] Does the Action Matter? Probing Action-Conditioned Semantic 
+   ✓ pdf via arxiv  (396 KB)
+[9/64] DreamDrive: Generative 4D Scene Modeling from Street View Im
+   ✓ pdf via openalex  (5710 KB)
+[10/64] DriveArena: A Closed-Loop Generative Simulation Platform for
+   ✓ pdf via openalex  (11580 KB)
+[11/64] DriveDreamer-2: LLM-Enhanced World Models for Diverse Drivin
+   ✓ pdf via openalex  (2832 KB)
+[12/64] DriveDreamer4D: World Models Are Effective Data Machines for
+   ✓ pdf via openalex  (14018 KB)
+[13/64] DriveDreamer: Towards Real-World-Drive World Models for Auto
+   ✓ pdf via openalex  (17217 KB)
+[14/64] DriveScape: Towards High-Resolution Controllable Multi-View 
+   ✓ pdf via openalex  (25275 KB)
+[15/64] Driving in the Occupancy World: Vision-Centric 4D Occupancy 
+   ✓ pdf via openalex  (8277 KB)
+[16/64] Driving Into the Future: Multiview Visual Forecasting and Pl
+   ✓ pdf via openalex  (37219 KB)
+[17/64] Driving World Models Move the Camera, Not the Scene
+   ✓ pdf via openalex  (5381 KB)
+[18/64] DrivingDiffusion: Layout-Guided multi-view driving scene vid
+   ✓ pdf via openalex  (5562 KB)
+[19/64] DrivingGPT: Unifying Driving World Modeling and Planning wit
+   ✓ pdf via openalex  (3712 KB)
+[20/64] DrivingSphere: Building a High-fidelity 4D World for Closed-
+   ✓ pdf via openalex  (6069 KB)
+[21/64] DrivingWorld: Constructing World Model for Autonomous Drivin
+   ✓ pdf via openalex  (2085 KB)
+[22/64] Editable Scene Simulation for Autonomous Driving via Collabo
+   ✓ pdf via openalex  (19546 KB)
+[23/64] Epona: Autoregressive Diffusion World Model for Autonomous D
+   ✓ pdf via openalex  (21187 KB)
+[24/64] GAIA-1: A Generative World Model for Autonomous Driving
+   ✓ pdf via openalex  (16036 KB)
+[25/64] GAIA-2: A Controllable Multi-View Generative World Model for
+   ✓ pdf via openalex  (28691 KB)
+[26/64] GaussianDWM++: Language-Grounded 3D Gaussian Driving World M
+   ✓ pdf via openalex  (7725 KB)
+[27/64] GaussianWorld: Gaussian World Model for Streaming 3D Occupan
+   ✓ pdf via openalex  (16864 KB)
+[28/64] Generalized Predictive Model for Autonomous Driving
+   ✓ pdf via openalex  (35709 KB)
+[29/64] GeoDrive: 3D Geometry-Informed Driving World Model with Prec
+   ✓ pdf via openalex  (7161 KB)
+[30/64] HelloWorld: Towards Practical Applications of Generative Dri
+   ✓ pdf via openalex  (46369 KB)
+[31/64] HERMES: A Unified Self-Driving World Model for Simultaneous 
+   ✓ pdf via openalex  (4136 KB)
+[32/64] How Can Driving World Models Do Counterfactual Prediction?
+   ✓ pdf via openalex  (2803 KB)
+[33/64] InfiniCube: Unbounded and Controllable Dynamic 3D Driving Sc
+   ✓ pdf via openalex  (15705 KB)
+[34/64] Is Energy Guidance All You Need? Training-Free Norm Injectio
+   ✓ pdf via arxiv  (697 KB)
+[35/64] LidarDM: Generative LiDAR Simulation in a Generated World
+   ✓ pdf via openalex  (4208 KB)
+[36/64] MagicDrive-V2: High-Resolution Long Video Generation for Aut
+   ✓ pdf via openalex  (44751 KB)
+[37/64] MagicDrive: Street View Generation with Diverse 3D Geometry 
+   ✓ pdf via openalex  (20839 KB)
+[38/64] Making the World React Realistically: A Closed-Loop Interact
+   ✓ pdf via openalex  (8090 KB)
+[39/64] MUVO: A Multimodal Generative World Model for Autonomous Dri
+   ✓ pdf via openalex  (1647 KB)
+[40/64] MyGo: Consistent and Controllable Multi-View Driving Video G
+   ✓ pdf via openalex  (49155 KB)
+[41/64] NVIDIA OmniDreams: Real-Time Generative World Model for Clos
+   ✓ pdf via openalex  (22714 KB)
+[42/64] OccLLaMA: An Occupancy-Language-Action Generative World Mode
+   ✓ pdf via openalex  (7680 KB)
+[43/64] OccSora: 4D Occupancy Generation Models as World Simulators 
+   ✓ pdf via openalex  (4718 KB)
+[44/64] OccWorld: Learning a 3D Occupancy World Model for Autonomous
+   ✓ pdf via openalex  (8428 KB)
+[45/64] OmniNWM: Omniscient Driving Navigation World Models
+   ✓ pdf via openalex  (29500 KB)
+[46/64] Panacea: Panoramic and Controllable Video Generation for Aut
+   ✓ pdf via openalex  (28000 KB)
+[47/64] PanDWM: Panoramic 4D Driving World Models
+   ✓ pdf via openalex  (14726 KB)
+[48/64] PerLDiff: Controllable Street View Synthesis Using Perspecti
+   ✓ pdf via openalex  (30923 KB)
+[49/64] RealWeather: Realistic and Scene-Faithful Weather Translatio
+   ✓ pdf via openalex  (8828 KB)
+[50/64] ReconDreamer: Crafting World Models for Driving Scene Recons
+   ✓ pdf via openalex  (24974 KB)
+[51/64] ReSim: Reliable World Simulation for Autonomous Driving
+   ✗ no open copy found
+[52/64] Risk-Controllable Multi-View Diffusion for Driving Scenario 
+   ✓ pdf via openalex  (14144 KB)
+[53/64] SceneCrafter: Controllable Multi-View Driving Scene Editing
+   ✓ pdf via openalex  (50846 KB)
+[54/64] Street-View Image Generation From a Bird's-Eye View Layout
+   ✓ pdf via openalex  (12953 KB)
+[55/64] Streetscapes: Large-scale Consistent Street View Generation 
+   ✓ pdf via openalex  (27558 KB)
+[56/64] Towards Realistic Scene Generation with LiDAR Diffusion Mode
+   ✓ pdf via openalex  (18264 KB)
+[57/64] UniMLVG: Unified Framework for Multi-View Long Video Generat
+   ✓ pdf via openalex  (18394 KB)
+[58/64] UniScene: Unified Occupancy-centric Driving Scene Generation
+   ✓ pdf via openalex  (39979 KB)
+[59/64] Unleashing Generalization of End-to-End Autonomous Driving w
+   ✓ pdf via openalex  (18484 KB)
+[60/64] Vista: A Generalizable Driving World Model with High Fidelit
+   ✓ pdf via search-hit  (17610 KB)
+[61/64] WoVoGen: World Volume-Aware Diffusion for Controllable Multi
+   ✓ pdf via openalex  (17255 KB)
+[62/64] X-Scene: Large-Scale Driving Scene Generation with High Fide
+   ✗ no open copy found
+[63/64] X-World: Controllable Ego-Centric Multi-Camera World Models 
+   ✓ pdf via openalex  (14639 KB)
+[64/64] ZYT-World: A Real-Time Controllable World Model for Closed-L
+   ✓ pdf via openalex  (8451 KB)
+
+resolve_oa: 62/64 open (62 PDF, 0 full-text XML→txt), 2 closed, 0 DOI(s) unknown to Crossref, 0 errored, 0 skipped
+  files + oa_report.json in runs\wm\fulltext

@@ -1,0 +1,42 @@
+{
+ "id": "occsora_4d_occupancy_generation_models_as_world_si",
+ "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {
+  "value": "4D occupancy sequences (16 s videos of 3D semantic occupancy)",
+  "pages": "1, 6"
+ },
+ "control_signal": {
+  "value": "ego car trajectory prompt, for example go straight, turning right, motionless",
+  "pages": "2, 6-8"
+ },
+ "control_mechanism": {
+  "value": "trajectory labels and denoising timestep fed as supplementary inputs alongside token embeddings into the diffusion transformer blocks",
+  "pages": "6"
+ },
+ "base_model": {
+  "value": "4D occupancy scene tokenizer (3D conv encoder, VQ codebook, decoder) plus a diffusion transformer over the discrete spatial-temporal tokens",
+  "pages": "1, 3-5, 6"
+ },
+ "datasets": {
+  "value": "nuScenes with Occ3D occupancy annotations; clips of 32 consecutive frames",
+  "pages": "1, 6-7"
+ },
+ "metrics": {
+  "value": "reconstruction IoU and mIoU; generation FID",
+  "pages": "7-8"
+ },
+ "controllability_evidence": {
+  "value": "Ablation: removing trajectory conditioning raises FID from 8.34 to 17.48. Per-trajectory FID is 8.902 go straight, 10.886 turning right, 5.257 motionless.",
+  "pages": "8"
+ },
+ "closed_loop": {
+  "value": "No; open-loop trajectory-conditioned generation of 16 s clips. Closed-loop end-to-end driving is listed as future work.",
+  "pages": "1, 9"
+ },
+ "stated_limitations": {
+  "value": "Voxel granularity prevents finer 4D scenes; moving-object details are inconsistent, possibly due to small training data.",
+  "pages": "9"
+ },
+ "notes": "Table 3 labels rows only by check marks; I matched the 17.48 row to the missing trajectory column."
+}

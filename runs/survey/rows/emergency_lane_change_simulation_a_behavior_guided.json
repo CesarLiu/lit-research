@@ -1,0 +1,13 @@
+{
+ "id": "emergency_lane_change_simulation_a_behavior_guided",
+ "title": "Emergency Lane-Change Simulation: A Behavior-Guided Approach for Safety-Critical Scenario Generation",
+ "control_family": "other",
+ "control_signal": {"value": "No user-specified signal stated. The attacking vehicle is steered toward collision with the ego vehicle by a reward given when a dangerous scenario is generated, plus a GAN-generated reference lane-change trajectory.", "pages": "2-3, 10-11"},
+ "control_mechanism": {"value": "Recurrent PPO policy for the attack vehicle, guided by the reference trajectory from the behavior learning module (GA-SeqGAN); model predictive control applies physical constraints to the reference trajectory.", "pages": "1, 2, 5"},
+ "base_model": {"value": "GA-SeqGAN (SeqGAN with GRU generator and attention layer) for behavior learning; RecurrentPPO attack policy; MPC; validated in the CARLA simulator.", "pages": "2, 5"},
+ "datasets": {"value": "HighD drone highway dataset; 520 extracted emergency lane-change trajectories (duration under 2 seconds).", "pages": "3"},
+ "metrics": {"value": "Negative log-likelihood of generated sequences under real data distribution (NLLreal), TTC-based risk, collision success rate, training reward convergence, computation time against grid search, manual design, random sampling, and Learning to collision.", "pages": "7-10"},
+ "controllability_evidence": {"value": "Across 100 trials, attack trajectories with behavior guidance align more closely with real data than without; the method converges faster than PPO, TD3, DDPG and beats baselines on collision success rate (numbers shown only in figures).", "pages": "9-10"},
+ "stated_limitations": {"value": "Packet states future work only (testing against state-of-the-art AV driving algorithms, converting to video and radar data); the scenario scope is emergency lane changes on highway or expressway.", "pages": "3, 11"},
+ "notes": "Reward/RL-driven adversarial attack with GAN reference trajectory; family 'other' is a judgement call (not tilting, not guidance). No explicit limitations section in the packet."
+}

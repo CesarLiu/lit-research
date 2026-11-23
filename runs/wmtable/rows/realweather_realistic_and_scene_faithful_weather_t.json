@@ -1,0 +1,15 @@
+{
+ "id": "realweather_realistic_and_scene_faithful_weather_t",
+ "title": "RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models",
+ "control_family": "text or language conditioning",
+ "output_modality": {"value": "single-view driving video (720p, 50-frame clips; long video generated autoregressively in 101-frame chunks) translated between clear and adverse weather", "pages": "5, 17"},
+ "control_signal": {"value": "input driving video to translate plus a text prompt describing weather type and intensity (rain, snow, fog, mixed); translation direction clear to adverse or reverse", "pages": "4, 17"},
+ "control_mechanism": {"value": "input video latent concatenated channel-wise with the noisy target latent, text prompt via cross-attention in the DiT; Progressive Realism Bootstrapping training and a segmentation-IoU RL reward (Scene-Fidelity RL)", "pages": "2-4"},
+ "base_model": {"value": "Cosmos-Predict2.5-2B pre-trained world model (flow-matching DiT with 3D VAE); pseudo-clear data from FLUX.2-dev, Video-Depth-Anything, Canny and SAM3 with Cosmos geometry conditioning", "pages": "4-5, 10"},
+ "datasets": {"value": "Trained on 7,000 adverse-weather and 1,000 clear videos; evaluated on 100 clear and 200 adverse videos from Waymo Open Dataset, nuScenes and an internal dataset", "pages": "5"},
+ "metrics": {"value": "CLIP text-image similarity, CLIP-Consistency, DINO Structure Distance, PickScore, and a Qwen3-VL-based VLM-Realism score", "pages": "5, 14"},
+ "controllability_evidence": {"value": "Table 1 (numbers not in packet): best CC, PS and VR for clear-to-adverse and ties best CS; adverse-to-clear best PS and VR. Some baselines have lower DS via more conservative edits.", "pages": "6"},
+ "closed_loop": {"value": "no; offline video-to-video translation, not interactive with a driving policy", "pages": "17"},
+ "stated_limitations": {"value": "Inference is about 2.5 FPS on 8 B200 GPUs, far from real time; control is by text only with no fine-grained spatial control of weather effects; extreme-condition generalization is open.", "pages": "17-18"},
+ "notes": "Weather-conditioned video translation rather than a scenario generator with trajectory or layout control. Quantitative table values are not in the packet. Packet's pages are an arXiv 2608.02953 listing as given."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "top_down_traffic_scenario_generation_via_joint_ini",
+ "title": "Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion and Trajectory Infilling",
+ "control_family": "conditioning inputs (trained in)",
+ "control_signal": {"value": "Map and number of agents; optional hard constraints on initial state, goal state, both, or neither during trajectory infilling; optional guidance costs (distance to neighbouring agents and lane centre) on the high-level scenario.", "pages": "3-6"},
+ "control_mechanism": {"value": "Infilling model trained with a randomly sampled constraint mode that sets predicted bridge-distance to zero at constrained endpoints; separately, a guidance-cost gradient perturbs the diffusion noise prediction during sampling.", "pages": "3-4, 6"},
+ "base_model": {"value": "Two-stage: DDPM over initial-goal pairs with QCNet-derived map encoder and differential-transformer traffic generator; a deterministic goal-conditioned infilling network that predicts offsets from a straight-line bridge.", "pages": "3-4"},
+ "datasets": {"value": "Argoverse 2 Motion Forecasting dataset; five agent categories (vehicle, bus, pedestrian, bicycle, motorcycle).", "pages": "4-5"},
+ "metrics": {"value": "Collision rate, off-road rate, distance to nearest lane centre; Jensen-Shannon divergence for speed, lateral deviation, local density, nearest distance; ADE, FDE and miss rate for infilling.", "pages": "5"},
+ "controllability_evidence": {"value": "Infilling Table II: hard constraints on initial and goal states give ADE 0.52 m, FDE 0 m, MR 0%, versus PD-init (initial-state constraint) ADE 1.86 m, FDE 7.16 m, MR 43.84%. Initialisation: off-road rate reduced by 2.8%, speed JSD by 55.3%.", "pages": "5-6"},
+ "stated_limitations": {"value": "Stochasticity only in high-level scenario; trajectory infilling is deterministic, limiting trajectory diversity per scenario. Table I also shows higher collision rate (9.80 vs 4.40 and 4.22) attributed to polygon-based map encoding.", "pages": "5-7"},
+ "notes": "Mainly about interpretable initialisation plus infilling, not user-steerable generation; control is modest (endpoint constraints, realism guidance). Table I results were reported without guidance sampling."
+}

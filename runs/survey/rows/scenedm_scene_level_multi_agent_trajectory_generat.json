@@ -1,0 +1,13 @@
+{
+ "id": "scenedm_scene_level_multi_agent_trajectory_generat",
+ "title": "SceneDM: Scene-level Multi-agent Trajectory Generation with Consistent Diffusion Models",
+ "control_family": "none/uncontrolled",
+ "control_signal": {"value": "No user-steerable signal; generation is conditioned on road network and agents' historical trajectories only. Text-conditioned generation is listed as future work.", "pages": "1, 7"},
+ "control_mechanism": {"value": "Scene-encoder agent embeddings condition a Transformer denoiser. Temporal-consistent guidance averages overlapping noise predictions for smoothness, and a scoring module filters collisions and off-road samples; neither is user control.", "pages": "3-5"},
+ "base_model": {"value": "DDPM-style diffusion with a scene-centric vectorized scene encoder and Transformer denoiser alternating self-attention across time and across agents; generates velocities integrated into trajectories.", "pages": "3, 5"},
+ "datasets": {"value": "Waymo Open Motion Dataset (486,995 train, 44,097 val, 44,920 test scenarios); Waymo Sim Agents Benchmark; ablations on 1,000 random validation scenarios.", "pages": "5-6"},
+ "metrics": {"value": "Waymo Sim Agents realism meta-metric with kinematic, interactive (collision, time to collision) and map-based (offroad) components, based on approximate negative log-likelihood.", "pages": "5"},
+ "controllability_evidence": {"value": "not stated in packet; no controllability experiment shown. Realism meta-metric reaches 0.5060 for SceneDMF and 0.5000 for SceneDM on the benchmark.", "pages": "5"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Not a controllable-generation paper: it is a realistic multi-agent simulation model. Only future-work mention of conditional generation from text descriptions."
+}

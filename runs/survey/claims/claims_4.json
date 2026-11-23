@@ -1,0 +1,609 @@
+[
+ {
+  "id": 67,
+  "section": "4.3 Four analyses suggest that action conditioning is weaker than it looks",
+  "text": "Released plan-conditioned world models reach at most about a third of the real-video scene response under speed plans, and a training-free retiming wrapper reaches 0.93 to 1.04 of the real stereo response for a 0.54 m shift [42].",
+  "cited": [
+   42
+  ],
+  "company_statements": [],
+  "previous_sentence": "On Cityscapes the executed action adds at most 2.46 mid-term mIoU to a semantic forecaster [31].",
+  "papers": [
+   {
+    "n": 42,
+    "row_file": "rows/driving_world_models_move_the_camera_not_the_scene.json",
+    "title": "Driving World Models Move the Camera, Not the Scene"
+   }
+  ],
+  "flags": [
+   "number_not_in_cited_rows 0.93"
+  ]
+ },
+ {
+  "id": 68,
+  "section": "4.3 Four analyses suggest that action conditioning is weaker than it looks",
+  "text": "An energy guidance method brings a planned trajectory to a mean of 1.3 m from a braking target against 13.6 m unguided, but video optical flow changes by 2 % or less, so control acts on the trajectory more than on the video [70].",
+  "cited": [
+   70
+  ],
+  "company_statements": [],
+  "previous_sentence": "Released plan-conditioned world models reach at most about a third of the real-video scene response under speed plans, and a training-free retiming wrapper reaches 0.93 to 1.04 of the real stereo response for a 0.54 m shift [42].",
+  "papers": [
+   {
+    "n": 70,
+    "row_file": "rows/is_energy_guidance_all_you_need_training_free_norm.json",
+    "title": "Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 69,
+  "section": "4.3 Four analyses suggest that action conditioning is weaker than it looks",
+  "text": "A training-free counterfactual pipeline raises a measure of faithfulness (RecD/RecC) from 0.38/0.33 to 0.70/0.65 on Vista [65].",
+  "cited": [
+   65
+  ],
+  "company_statements": [],
+  "previous_sentence": "An energy guidance method brings a planned trajectory to a mean of 1.3 m from a braking target against 13.6 m unguided, but video optical flow changes by 2 % or less, so control acts on the trajectory more than on the video [70].",
+  "papers": [
+   {
+    "n": 65,
+    "row_file": "rows/how_can_driving_world_models_do_counterfactual_pre.json",
+    "title": "How Can Driving World Models Do Counterfactual Prediction?"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 70,
+  "section": "4.3 Four analyses suggest that action conditioning is weaker than it looks",
+  "text": "These papers support the concern that a world model can look controllable without the video responding to the plan; they do not show it for every model.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "A training-free counterfactual pipeline raises a measure of faithfulness (RecD/RecC) from 0.38/0.33 to 0.70/0.65 on Vista [65].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 71,
+  "section": "4.4 Closed-loop use is shown, but thinly",
+  "text": "Eight of the 64 rows say the model was run in a closed loop with a policy: DriveArena [34], DrivingSphere [45], HelloWorld [63], Making the World React Realistically [82], OmniDreams [86], OmniNWM [90], ReSim [103] and X-World [140].",
+  "cited": [
+   34,
+   45,
+   63,
+   82,
+   86,
+   90,
+   103,
+   140
+  ],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [
+   {
+    "n": 34,
+    "row_file": "rows/drivearena_a_closed_loop_generative_simulation_pla.json",
+    "title": "DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving"
+   },
+   {
+    "n": 45,
+    "row_file": "rows/drivingsphere_building_a_high_fidelity_4d_world_fo.json",
+    "title": "DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation"
+   },
+   {
+    "n": 63,
+    "row_file": "rows/helloworld_towards_practical_applications_of_gener.json",
+    "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models"
+   },
+   {
+    "n": 82,
+    "row_file": "rows/making_the_world_react_realistically_a_closed_loop.json",
+    "title": "Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving"
+   },
+   {
+    "n": 86,
+    "row_file": "rows/nvidia_omnidreams_real_time_generative_world_model.json",
+    "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation"
+   },
+   {
+    "n": 90,
+    "row_file": "rows/omninwm_omniscient_driving_navigation_world_models.json",
+    "title": "OmniNWM: Omniscient Driving Navigation World Models"
+   },
+   {
+    "n": 103,
+    "row_file": "rows/resim_reliable_world_simulation_for_autonomous_dri.json",
+    "title": "ReSim: Reliable World Simulation for Autonomous Driving"
+   },
+   {
+    "n": 140,
+    "row_file": "rows/x_world_controllable_ego_centric_multi_camera_worl.json",
+    "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving"
+   }
+  ],
+  "flags": [
+   "number_not_in_cited_rows 64"
+  ]
+ },
+ {
+  "id": 72,
+  "section": "4.4 Closed-loop use is shown, but thinly",
+  "text": "Two more feed planning back into the loop [41][40].",
+  "cited": [
+   40,
+   41
+  ],
+  "company_statements": [],
+  "previous_sentence": "Eight of the 64 rows say the model was run in a closed loop with a policy: DriveArena [34], DrivingSphere [45], HelloWorld [63], Making the World React Realistically [82], OmniDreams [86], OmniNWM [90], ReSim [103] and X-World [140].",
+  "papers": [
+   {
+    "n": 40,
+    "row_file": "rows/driving_in_the_occupancy_world_vision_centric_4d_o.json",
+    "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving"
+   },
+   {
+    "n": 41,
+    "row_file": "rows/driving_into_the_future_multiview_visual_forecasti.json",
+    "title": "Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 73,
+  "section": "4.4 Closed-loop use is shown, but thinly",
+  "text": "Three of the eight are qualitative demonstrations [63][103][140].",
+  "cited": [
+   63,
+   103,
+   140
+  ],
+  "company_statements": [],
+  "previous_sentence": "Two more feed planning back into the loop [41][40].",
+  "papers": [
+   {
+    "n": 63,
+    "row_file": "rows/helloworld_towards_practical_applications_of_gener.json",
+    "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models"
+   },
+   {
+    "n": 103,
+    "row_file": "rows/resim_reliable_world_simulation_for_autonomous_dri.json",
+    "title": "ReSim: Reliable World Simulation for Autonomous Driving"
+   },
+   {
+    "n": 140,
+    "row_file": "rows/x_world_controllable_ego_centric_multi_camera_worl.json",
+    "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 74,
+  "section": "4.4 Closed-loop use is shown, but thinly",
+  "text": "The quantitative ones are modest or specific: UniAD driving through DriveArena completes on average 0.137 of the route (ADS 0.086) [34], and through DrivingSphere 0.1170 (ADS 0.0851) [45]; OmniNWM reports a best scenario pass rate of 87.3 % on 150 nuScenes validation scenes at 12 Hz [90]; OmniDreams runs 20 s rollouts with replanning every 533 ms [86].",
+  "cited": [
+   34,
+   45,
+   86,
+   90
+  ],
+  "company_statements": [],
+  "previous_sentence": "Three of the eight are qualitative demonstrations [63][103][140].",
+  "papers": [
+   {
+    "n": 34,
+    "row_file": "rows/drivearena_a_closed_loop_generative_simulation_pla.json",
+    "title": "DriveArena: A Closed-Loop Generative Simulation Platform for Autonomous Driving"
+   },
+   {
+    "n": 45,
+    "row_file": "rows/drivingsphere_building_a_high_fidelity_4d_world_fo.json",
+    "title": "DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation"
+   },
+   {
+    "n": 86,
+    "row_file": "rows/nvidia_omnidreams_real_time_generative_world_model.json",
+    "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation"
+   },
+   {
+    "n": 90,
+    "row_file": "rows/omninwm_omniscient_driving_navigation_world_models.json",
+    "title": "OmniNWM: Omniscient Driving Navigation World Models"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 75,
+  "section": "4.4 Closed-loop use is shown, but thinly",
+  "text": "The remaining 54 rows report open-loop generation or prediction.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "The quantitative ones are modest or specific: UniAD driving through DriveArena completes on average 0.137 of the route (ADS 0.086) [34], and through DrivingSphere 0.1170 (ADS 0.0851) [45]; OmniNWM reports a best scenario pass rate of 87.3 % on 150 nuScenes validation scenes at 12 Hz [90]; OmniDreams runs 20 s rollouts with replanning every 533 ms [86].",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 76,
+  "section": "4.5 Bridging the two layers",
+  "text": "Several papers connect scenario-level control to sensor-level rendering.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 77,
+  "section": "4.5 Bridging the two layers",
+  "text": "DriveDreamer-2 turns text into agent trajectories and then into HD maps and boxes [35]; a risk-controllable multi-view diffusion model produces agent trajectories first and conditions the video on them [104]; TeraSim-World composes behaviour models, an adversity orchestrator and rendered HD-map videos for a video model [124]; BehaviorWorldGen generates behaviour variants that are used to improve action models [5].",
+  "cited": [
+   5,
+   35,
+   104,
+   124
+  ],
+  "company_statements": [],
+  "previous_sentence": "Several papers connect scenario-level control to sensor-level rendering.",
+  "papers": [
+   {
+    "n": 5,
+    "row_file": "rows/behaviorworldgen_closing_the_loop_between_action_m.json",
+    "title": "BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation"
+   },
+   {
+    "n": 35,
+    "row_file": "rows/drivedreamer_2_llm_enhanced_world_models_for_diver.json",
+    "title": "DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation"
+   },
+   {
+    "n": 104,
+    "row_file": "rows/risk_controllable_multi_view_diffusion_for_driving.json",
+    "title": "Risk-Controllable Multi-View Diffusion for Driving Scenario Generation"
+   },
+   {
+    "n": 124,
+    "row_file": "rows/terasim_world_worldwide_safety_critical_data_synth.json",
+    "title": "TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "id": 78,
+  "section": "4.5 Bridging the two layers",
+  "text": "This layered design lets control live in a compact representation, but none of these rows shows a quantitative check that the rendered video preserves the specified behaviour.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "DriveDreamer-2 turns text into agent trajectories and then into HD maps and boxes [35]; a risk-controllable multi-view diffusion model produces agent trajectories first and conditions the video on them [104]; TeraSim-World composes behaviour models, an adversity orchestrator and rendered HD-map videos for a video model [124]; BehaviorWorldGen generates behaviour variants that are used to improve action models [5].",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 79,
+  "section": "5. What companies say",
+  "text": "Company statements are claims from marketing and technical pages; the grades A and B separate those with a described method or number from those with product wording.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 80,
+  "section": "5. What companies say",
+  "text": "**World models are replacing reconstruction-based simulation in several companies.** Waymo says purely reconstructive methods such as 3D Gaussian splats suffer visual breakdowns when the route differs from the logged one [W4], and XPeng says reconstruction-based simulation struggles beyond the reconstructed range [X2].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "W4",
+    "company": "Waymo",
+    "date": "2026-02-06",
+    "claim": "States that purely reconstructive simulation (3DGS) breaks down when the route differs from the logged one",
+    "quote": "purely reconstructive simulation methods (e.g., 3D Gaussian Splats, or 3DGS) suffer from visual breakdowns",
+    "grade": "A",
+    "page": "waymo_wm"
+   },
+   {
+    "id": "X2",
+    "company": "XPeng",
+    "date": "2026-04-29",
+    "claim": "Says 3DGS simulation struggles when the policy leaves the logged path",
+    "quote": "they often struggle to effectively generate and evaluate subsequent scenes beyond the existing reconstruction range",
+    "grade": "B",
+    "page": "xpeng_xworld"
+   }
+  ],
+  "previous_sentence": "Company statements are claims from marketing and technical pages; the grades A and B separate those with a described method or number from those with product wording.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 81,
+  "section": "5. What companies say",
+  "text": "NVIDIA's OmniDreams paper contrasts itself with reconstruction-based neural simulators that are constrained by their initial captured data [N8].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "N8",
+    "company": "NVIDIA",
+    "date": "2026-06-02 (v4 2026-11-12)",
+    "claim": "Used as a reactive environment with the Alpamayo 1 policy and the AlpaSim orchestrator; positioned against reconstruction-based simulators",
+    "quote": "they are fundamentally constrained by their initial captured data and struggle to generalize to highly dynamic or novel scenes",
+    "grade": "A",
+    "page": "nv_omnidreams"
+   }
+  ],
+  "previous_sentence": "**World models are replacing reconstruction-based simulation in several companies.** Waymo says purely reconstructive methods such as 3D Gaussian splats suffer visual breakdowns when the route differs from the logged one [W4], and XPeng says reconstruction-based simulation struggles beyond the reconstructed range [X2].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 82,
+  "section": "5. What companies say",
+  "text": "Applied Intuition's Neural Sim, announced in January 2025, still turns drive logs into closed-loop sensor simulation [A1][A2].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "A1",
+    "company": "Applied Intuition",
+    "date": "2025-01-06",
+    "claim": "Neural reconstruction of drive logs into closed-loop sensor simulation",
+    "quote": "combines the scale and realism of log data with the controllability and efficiency of virtual testing",
+    "grade": "B",
+    "page": "ai_neuralsim"
+   },
+   {
+    "id": "A2",
+    "company": "Applied Intuition",
+    "date": "2025-01-06",
+    "claim": "Automated pipeline turns logs into neural reconstructions (vendor claim)",
+    "quote": "rapidly transform drive logs into neural reconstructions in hours, not weeks",
+    "grade": "B",
+    "page": "ai_neuralsim"
+   }
+  ],
+  "previous_sentence": "NVIDIA's OmniDreams paper contrasts itself with reconstruction-based neural simulators that are constrained by their initial captured data [N8].",
+  "papers": [],
+  "flags": [
+   "number_not_in_cited_rows 2025"
+  ]
+ },
+ {
+  "id": 83,
+  "section": "5. What companies say",
+  "text": "**The base is a large pretrained model.** The Waymo World Model is built on Genie 3 [W1]; XPeng's X-World on the video model WAN 2.2 [X1]; OmniDreams on Cosmos, with 21k hours of driving data in mid- and post-training [N7][N9]; Wayve's GAIA-2 is a latent diffusion world model [Y1].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "N7",
+    "company": "NVIDIA",
+    "date": "2026-06-02 (v4 2026-11-12)",
+    "claim": "OmniDreams: foundation world model mid- and post-trained from Cosmos, generating action-conditioned video autoregressively in real time",
+    "quote": "autoregressively generate action-conditioned videos in real time",
+    "grade": "A",
+    "page": "nv_omnidreams"
+   },
+   {
+    "id": "N9",
+    "company": "NVIDIA",
+    "date": "2026-06-02 (v4 2026-11-12)",
+    "claim": "Mid- and post-training on 21k hours of driving scenarios",
+    "quote": "post-training on 21k hours of driving scenarios",
+    "grade": "A",
+    "page": "nv_omnidreams"
+   },
+   {
+    "id": "W1",
+    "company": "Waymo",
+    "date": "2026-02-06",
+    "claim": "The simulator is built on a pretrained general world model (Genie 3) and adapted to driving",
+    "quote": "The Waymo World Model is built upon Genie 3",
+    "grade": "A",
+    "page": "waymo_wm"
+   },
+   {
+    "id": "X1",
+    "company": "XPeng",
+    "date": "2026-04-29",
+    "claim": "Multi-view generative world model on a pretrained video model (WAN 2.2)",
+    "quote": "built upon the leading video generation model WAN 2.2",
+    "grade": "B",
+    "page": "xpeng_xworld"
+   },
+   {
+    "id": "Y1",
+    "company": "Wayve",
+    "date": "2025-03-26",
+    "claim": "Latent diffusion world model, one framework for control and multi-camera video",
+    "quote": "a latent diffusion world model that unifies these capabilities within a single generative framework",
+    "grade": "A",
+    "page": "wayve_gaia2"
+   }
+  ],
+  "previous_sentence": "Applied Intuition's Neural Sim, announced in January 2025, still turns drive logs into closed-loop sensor simulation [A1][A2].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 84,
+  "section": "5. What companies say",
+  "text": "**Control comes through familiar interfaces.** Waymo names driving action, scene layout and language control [W3][W2]; Wayve conditions on ego dynamics, agent configurations, environmental factors and road semantics [Y2]; XPeng on ego actions, traffic participants and static road elements [X5]; NVIDIA's Cosmos Transfer varies weather, lighting and terrain of an existing scenario [N3].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "N3",
+    "company": "NVIDIA",
+    "date": "2025-06-26",
+    "claim": "Control model that varies weather, lighting and terrain of an existing scenario",
+    "quote": "a control model that adds variations in weather, lighting and terrain to existing scenarios",
+    "grade": "A",
+    "page": "nv_wfm_sim"
+   },
+   {
+    "id": "W2",
+    "company": "Waymo",
+    "date": "2026-02-06",
+    "claim": "Control by language prompts, driving inputs and scene layouts",
+    "quote": "allowing our engineers to modify simulations with simple language prompts, driving inputs, and scene layouts",
+    "grade": "A",
+    "page": "waymo_wm"
+   },
+   {
+    "id": "W3",
+    "company": "Waymo",
+    "date": "2026-02-06",
+    "claim": "Three named control mechanisms",
+    "quote": "driving action control, scene layout control, and language control",
+    "grade": "A",
+    "page": "waymo_wm"
+   },
+   {
+    "id": "X5",
+    "company": "XPeng",
+    "date": "2026-04-29",
+    "claim": "Conditioning on ego actions, traffic participants, road elements, camera parameters",
+    "quote": "including ego-vehicle actions, dynamic traffic participants, static road elements",
+    "grade": "B",
+    "page": "xpeng_xworld"
+   },
+   {
+    "id": "Y2",
+    "company": "Wayve",
+    "date": "2025-03-26",
+    "claim": "Conditioning inputs",
+    "quote": "conditioned on a rich set of structured inputs: ego-vehicle dynamics, agent configurations, environmental factors, and road semantics",
+    "grade": "A",
+    "page": "wayve_gaia2"
+   }
+  ],
+  "previous_sentence": "**The base is a large pretrained model.** The Waymo World Model is built on Genie 3 [W1]; XPeng's X-World on the video model WAN 2.2 [X1]; OmniDreams on Cosmos, with 21k hours of driving data in mid- and post-training [N7][N9]; Wayve's GAIA-2 is a latent diffusion world model [Y1].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 85,
+  "section": "5. What companies say",
+  "text": "These mirror the academic interfaces in section 4; the public statements give few control measurements.",
+  "cited": [],
+  "company_statements": [],
+  "previous_sentence": "**Control comes through familiar interfaces.** Waymo names driving action, scene layout and language control [W3][W2]; Wayve conditions on ego dynamics, agent configurations, environmental factors and road semantics [Y2]; XPeng on ego actions, traffic participants and static road elements [X5]; NVIDIA's Cosmos Transfer varies weather, lighting and terrain of an existing scenario [N3].",
+  "papers": [],
+  "flags": [
+   "no_citation"
+  ]
+ },
+ {
+  "id": 86,
+  "section": "5. What companies say",
+  "text": "**The use is closed-loop evaluation and training.** OmniDreams is described as a reactive environment with the Alpamayo 1 policy and AlpaSim, and a world-action model post-trained from it is reported, preliminarily, to surpass a vision-language-action research policy using one fifth of the parameters [N8][N10].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "N10",
+    "company": "NVIDIA",
+    "date": "2026-06-02 (v4 2026-11-12)",
+    "claim": "Preliminary: a world-action model post-trained from OmniDreams surpasses a VLA research policy with a fifth of the parameters (company result, preliminary)",
+    "quote": "using only 1/5 the total parameters",
+    "grade": "A",
+    "page": "nv_omnidreams"
+   },
+   {
+    "id": "N8",
+    "company": "NVIDIA",
+    "date": "2026-06-02 (v4 2026-11-12)",
+    "claim": "Used as a reactive environment with the Alpamayo 1 policy and the AlpaSim orchestrator; positioned against reconstruction-based simulators",
+    "quote": "they are fundamentally constrained by their initial captured data and struggle to generalize to highly dynamic or novel scenes",
+    "grade": "A",
+    "page": "nv_omnidreams"
+   }
+  ],
+  "previous_sentence": "These mirror the academic interfaces in section 4; the public statements give few control measurements.",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 87,
+  "section": "5. What companies say",
+  "text": "Tesla describes a neural world simulator that predicts the next sensor state from the current state and next action, connected to the policy to evaluate it, and says it can create adversarial scenarios, without method or numbers [T1][T2][T3].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "T1",
+    "company": "Tesla",
+    "date": "2025-10-24",
+    "claim": "Neural world simulator: future sensor state from current state and next action",
+    "quote": "the neural world sim synthesizes future state given current state and next action",
+    "grade": "A",
+    "page": "tesla_x"
+   },
+   {
+    "id": "T2",
+    "company": "Tesla",
+    "date": "2025-10-24",
+    "claim": "Used closed loop with the driving policy to evaluate it",
+    "quote": "connected together with the agent or the policy AI models to run in a closed-loop fashion to evaluate the performance",
+    "grade": "A",
+    "page": "tesla_x"
+   },
+   {
+    "id": "T3",
+    "company": "Tesla",
+    "date": "2025-10-24",
+    "claim": "Can create adversarial scenarios; no method or numbers given",
+    "quote": "we can also synthetically create new adversarial scenarios to test additional corner case situations",
+    "grade": "A",
+    "page": "tesla_x"
+   }
+  ],
+  "previous_sentence": "**The use is closed-loop evaluation and training.** OmniDreams is described as a reactive environment with the Alpamayo 1 policy and AlpaSim, and a world-action model post-trained from it is reported, preliminarily, to surpass a vision-language-action research policy using one fifth of the parameters [N8][N10].",
+  "papers": [],
+  "flags": []
+ },
+ {
+  "id": 88,
+  "section": "5. What companies say",
+  "text": "Huawei lists a cloud world engine and an in-vehicle world action model, with multi-agent game theory and online reinforcement learning on the cloud side [H1][H2]; its own page says the passenger-car system is an assisted-driving feature [H3].",
+  "cited": [],
+  "company_statements": [
+   {
+    "id": "H1",
+    "company": "Huawei",
+    "date": "undated (page shows 2026)",
+    "claim": "Cloud World Engine plus in-vehicle World Action Model (WEWA 2.0)",
+    "quote": "WEWA 2.0: AI Agent for Autonomous Driving",
+    "grade": "B",
+    "page": "huawei_ads"
+   },
+   {
+    "id": "H2",
+    "company": "Huawei",
+    "date": "undated (page shows 2026)",
+    "claim": "Cloud side lists multi-agent game theory and online reinforcement learning",
+    "quote": "Multi-agent Game Theory | Online Reinforcement Learning",
+    "grade": "B",
+    "page": "huawei_ads"
+   },
+   {
+    "id": "H3",
+    "company": "Huawei",
+    "date": "undated (page shows 2026)",
+    "claim": "Passenger-car system is stated to be driver assistance",
+    "quote": "currently an assisted driving feature and cannot replace driver control",
+    "grade": "B",
+    "page": "huawei_ads"
+   }
+  ],
+  "previous_sentence": "Tesla describes a neural world simulator that predicts the next sensor state from the current state and next action, connected to the policy to evaluate it, and says it can create adversarial scenarios, without method or numbers [T1][T2][T3].",
+  "papers": [],
+  "flags": []
+ }
+]

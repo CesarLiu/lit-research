@@ -1,0 +1,15 @@
+{
+ "id": "driving_in_the_occupancy_world_vision_centric_4d_o",
+ "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {"value": "4D semantic occupancy plus 3D backward centripetal flow, forecast from multi-view camera history", "pages": "1-2, 4"},
+ "control_signal": {"value": "Ego action conditions: velocity, steering angle (as curvature), trajectory (next-step displacement), and high-level commands (go forward, turn left, turn right).", "pages": "4-5"},
+ "control_mechanism": {"value": "Actions are Fourier-embedded, concatenated, projected by learned layers, and injected through conditional cross-attention with BEV queries in the autoregressive world decoder; ablation compares to additive embedding.", "pages": "4-5, 7"},
+ "base_model": {"value": "History encoder to multi-view BEV embeddings, memory queue with semantic- and motion-conditional normalization, autoregressive transformer world decoder; plus occupancy-based planner. No pretrained video backbone stated.", "pages": "2-4"},
+ "datasets": {"value": "nuScenes, including nuScenes-Occupancy / OpenOccupancy-style annotations and the Cam4DOcc inflated occupancy and flow task.", "pages": "2, 5"},
+ "metrics": {"value": "mIoU (current, future, timestamp-weighted), VPQ for flow, L2 error and collision rate for planning.", "pages": "5"},
+ "controllability_evidence": {"value": "Table 3 ablation: injecting conditions improves over the unconditioned baseline; a multi-condition row reaches future weighted mIoU 27.8 (+1.0) and VPQ* 35.0 (+1.5); predicted-trajectory row 28.1 and 35.1.", "pages": "5"},
+ "closed_loop": {"value": "Partly: the planner's predicted trajectory is fed back as the next action condition for continuous rollout, but planning is scored open-loop on nuScenes. Rollout length not stated.", "pages": "3, 5"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Output is occupancy, not sensor video. Also an end-to-end planner; in controllable-generation mode the planner is discarded to avoid ego-status leakage. Limits passage did not contain an actual limitations section."
+}

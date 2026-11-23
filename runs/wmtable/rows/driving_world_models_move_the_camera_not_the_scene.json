@@ -1,0 +1,15 @@
+{
+ "id": "driving_world_models_move_the_camera_not_the_scene",
+ "title": "Driving World Models Move the Camera, Not the Scene",
+ "control_family": "inference-time guidance or editing",
+ "output_modality": {"value": "single-view front-camera video forecasts (24-frame evaluation arms, 36-frame rollouts, 576x1024) from frozen released generators", "pages": "6, 13"},
+ "control_signal": {"value": "ego plan: speed plans (0.5x, 1.5x of logged speed, braking, stopping) and lateral shifts (0.54 m up to 3.5 m)", "pages": "7, 12"},
+ "control_mechanism": {"value": "Released models embed the plan as tokens. ReTime-Compose is training-free: retimes the model's own logged-speed rollout, splats frames to planned cameras using depth and poses, frozen generator completes uncovered pixels, Difix3D+ refiner", "pages": "1-2, 6-7, 13"},
+ "base_model": {"value": "Frozen released generators Epona (main), GEM, Orbis 2; DrivingWorld also probed; VGGT depth, RAFT plus PnP pose chain, Difix3D+ single-step refiner", "pages": "2, 6, 12-13"},
+ "datasets": {"value": "KITTI, nuScenes and Argoverse 2; validation set plus five test sets, 212 contexts from 43 drives", "pages": "1, 7"},
+ "metrics": {"value": "scene response alpha and noise N against retimed LiDAR or stereo disparity; scale-aligned ADE; KID and Frechet distance on DINOv2 features for image quality", "pages": "2, 8-9, 17"},
+ "controllability_evidence": {"value": "Released models reach at most about a third of real-video scene response under speed plans; ReTime-Compose reaches .93-1.04 of real stereo response for a 0.54 m shift on KITTI; speed response gains +.17 and +.16 over re-sampling", "pages": "1-2, 7-8"},
+ "closed_loop": {"value": "No; closed-loop planning with these forecasts is stated as still to be tested; open-loop evaluation over 24 plan steps", "pages": "9, 13"},
+ "stated_limitations": {"value": "Retiming covers static content under speed plans and lateral shifts up to 3.5 m; not turns, lane changes or other agents' reactions; needs a rollout reaching planned poses and a working pose reading", "pages": "9"},
+ "notes": "Mainly a diagnostic and evaluation paper on plan-conditioned world models; the proposed method is an inference-time wrapper, not a new conditioned generator. Family label is a judgement call."
+}

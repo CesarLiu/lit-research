@@ -1,0 +1,15 @@
+{
+ "id": "how_can_driving_world_models_do_counterfactual_pre",
+ "title": "How Can Driving World Models Do Counterfactual Prediction?",
+ "control_family": "inference-time guidance or editing",
+ "output_modality": {"value": "Single-view driving video from frozen existing world models (Vista, DrivingWorld); benchmark videos rendered in CARLA.", "pages": "2-3, 9"},
+ "control_signal": {"value": "Alternative ego action given as a target trajectory; in the proposed pipeline also factual-continuation evidence from the recorded episode.", "pages": "2-3"},
+ "control_mechanism": {"value": "Training-free: transport factual-continuation pixels into the counterfactual camera view, let the frozen world model complete unsupported regions, then a Combine stage restores the evidence. Weights unchanged.", "pages": "2-3, 9-10"},
+ "base_model": {"value": "Frozen Vista (diffusion-based) and DrivingWorld (autoregressive video GPT); monocular depth used for transport; DINOv2 and CLIP encoders for scoring.", "pages": "3, 9, 16-17"},
+ "datasets": {"value": "Self-built CARLA benchmark with factual logs and matched counterfactual ground truth; scenarios include side street, lead cuts in, lead brake.", "pages": "2-3, 9"},
+ "metrics": {"value": "Recovered fractions RecD (DINOv2) and RecC (CLIP), and LPIPS against the matched counterfactual ground truth.", "pages": "9"},
+ "controllability_evidence": {"value": "Overall on Vista RecD/RecC rise from 0.38/0.33 (direct) to 0.70/0.65, LPIPS 0.423 to 0.169; on DrivingWorld 0.31/0.24 to 0.67/0.64, LPIPS 0.291 to 0.211.", "pages": "9"},
+ "closed_loop": {"value": "No. Open-loop, short-horizon with scripted surrounding agents; closed-loop suites with reactive agents are future work.", "pages": "17"},
+ "stated_limitations": {"value": "Scripted agents and short horizon; models evaluated outside training render domain; depth error causes seams; method needs the factual continuation, so only retrospective queries.", "pages": "17"},
+ "notes": "Analysis and benchmark paper rather than a new controllable world model; the control input studied is ego action on existing models. Table 1 column pairing read as direct vs ours per metric."
+}

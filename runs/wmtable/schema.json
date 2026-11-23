@@ -1,0 +1,7 @@
+{
+ "families": ["action or trajectory conditioning", "layout, box, map or BEV conditioning", "text or language conditioning",
+              "multi-condition unified control", "scenario, risk or event conditioning", "camera or viewpoint control",
+              "inference-time guidance or editing", "prediction without a control input", "other"],
+ "fields": ["output_modality", "control_signal", "control_mechanism", "base_model", "datasets", "metrics",
+            "controllability_evidence", "closed_loop", "stated_limitations"]
+}

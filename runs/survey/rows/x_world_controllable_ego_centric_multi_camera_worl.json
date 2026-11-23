@@ -1,0 +1,42 @@
+{
+ "id": "x_world_controllable_ego_centric_multi_camera_worl",
+ "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving",
+ "control_family": "action or trajectory conditioning",
+ "output_modality": {
+  "value": "future multi-camera video (seven cameras, 12 FPS) generated from multi-view history",
+  "pages": "1-2, 2-3"
+ },
+ "control_signal": {
+  "value": "Future ego action sequence; optional controls for dynamic agents and static road elements; text prompt for appearance; camera parameters",
+  "pages": "4-5, 5"
+ },
+ "control_mechanism": {
+  "value": "Adaptive layer norm for actions and timesteps, additive embeddings for camera parameters, decoupled cross-attention branches for dynamic agents, static elements and text",
+  "pages": "5"
+ },
+ "base_model": {
+  "value": "WAN 2.2 5B latent video model: 3D causal VAE (16x spatial, 4x temporal), customised multi-view DiT with view-temporal self-attention; Stage-II causal few-step streaming with rolling KV cache",
+  "pages": "4-5, 7-8, 13-14"
+ },
+ "datasets": {
+  "value": "Proprietary real-world driving data: 10-second segments with seven synchronised cameras, agent trajectories, static elements and VLM-generated captions",
+  "pages": "2-3"
+ },
+ "metrics": {
+  "value": "not stated in packet",
+  "pages": ""
+ },
+ "controllability_evidence": {
+  "value": "Qualitative action-controllability figure: logged versus generated video with ego trajectory for next 3 s overlaid (for example Turn Right to Turn Left); no number in packet",
+  "pages": "7-8"
+ },
+ "closed_loop": {
+  "value": "Yes, as a streaming autoregressive simulator for VLA policies: counterfactual detour and inserted-cyclist examples shown qualitatively; rollout length not stated; training clips are 81 frames",
+  "pages": "1-2, 11-12, 7-8"
+ },
+ "stated_limitations": {
+  "value": "Stage-I bidirectional model needs about 50 sampling steps and generates whole short clips offline, unsuited to low-latency streaming; addressed by Stage-II",
+  "pages": "7-8"
+ },
+ "notes": "Technical report. Metrics and quantitative controllability results are probably in pages missing from the packet. Could also be read as multi-condition control. [metrics: packet mentions a quantitative evaluation protocol but gives no metric names or values]"
+}

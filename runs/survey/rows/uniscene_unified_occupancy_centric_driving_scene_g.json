@@ -1,0 +1,42 @@
+{
+ "id": "uniscene_unified_occupancy_centric_driving_scene_g",
+ "title": "UniScene: Unified Occupancy-centric Driving Scene Generation",
+ "control_family": "layout, box, map or BEV conditioning",
+ "output_modality": {
+  "value": "semantic occupancy sequences, multi-view video and LiDAR point clouds, generated hierarchically with occupancy as the intermediate representation",
+  "pages": "1, 3"
+ },
+ "control_signal": {
+  "value": "BEV layout sequences (editable, for example removing a car) for occupancy; text prompts for video attributes such as weather and time of day",
+  "pages": "1, 3, 6, 11-12, 16"
+ },
+ "control_mechanism": {
+  "value": "BEV layout concatenated with noise volumes in an occupancy DiT; occupancy rendered to depth and semantic maps and injected into video U-Net via ControlNet-style branch; text by cross-attention; layout editing via DDIM inversion",
+  "pages": "3-4, 9, 12"
+ },
+ "base_model": {
+  "value": "Occupancy VAE plus spatial-temporal DiT; video model initialised from pre-trained Stable Video Diffusion (3D VAE and U-Net); LiDAR sparse U-Net with ray-based sparse sampling heads",
+  "pages": "3-4, 10-13"
+ },
+ "datasets": {
+  "value": "nuScenes with NuScenes-Occupancy labels interpolated to 12Hz using ASAP annotations (28,130 train, 6,019 val frames); qualitative transfer to Waymo and nuPlan",
+  "pages": "6, 13, 16"
+ },
+ "metrics": {
+  "value": "F3D, MMD and mIoU for occupancy; FID and FVD for video; JSD and MMD for LiDAR; downstream occupancy prediction, BEV segmentation (CVT) and 3D detection (BEVFusion)",
+  "pages": "13"
+ },
+ "controllability_evidence": {
+  "value": "Layout edits shown qualitatively; mIoU is used to check layout accuracy. Figure 1 reports gains over single baselines (video FVD 41.4% lower; occupancy and lidar percentages against other baselines, occupancy metric not named in the packet).",
+  "pages": "1, 6, 13"
+ },
+ "closed_loop": {
+  "value": "no; open-loop generation of occupancy, video and LiDAR from layouts, no driving policy in the loop",
+  "pages": "1, 6"
+ },
+ "stated_limitations": {
+  "value": "Unifying several generation tasks is challenging and resource-intensive; lightweight deployment is future work, as is extension to embodied intelligence and robotics.",
+  "pages": "8-9"
+ },
+ "notes": "Figure 1 percentages were read from the figure text and the metric names for the occupancy bar are not clear in the packet. Direct controllability numbers beyond mIoU were not seen in the packet."
+}

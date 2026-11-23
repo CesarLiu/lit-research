@@ -1,0 +1,15 @@
+{
+ "id": "drivedreamer_towards_real_world_drive_world_models",
+ "title": "DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "multi-view images and driving video (448x256), plus future driving actions as a second output", "pages": "4, 7"},
+ "control_signal": {"value": "HDMap and 3D boxes with labels, text prompts (weather, time of day), reference frame, and ego driving actions (yaw angle, velocity) to steer future videos", "pages": "3-4, 7"},
+ "control_mechanism": {"value": "HDMap concatenated with noisy latents; 3D boxes via gated self-attention; text via cross-attention; ActionFormer predicts future road structural features from actions as conditions for Auto-DM", "pages": "3-5"},
+ "base_model": {"value": "Auto-DM built on Stable Diffusion v1.4 with frozen original parameters, added temporal attention layers, ActionFormer and an action decoder", "pages": "4, 7"},
+ "datasets": {"value": "nuScenes: 700 training and 150 validation videos, 12Hz; HDMap from nuScenes-devkit, 12Hz boxes supplemented from another source", "pages": "7"},
+ "metrics": {"value": "frame-wise FID and FVD; 3D detection mAP and NDS with FCOS3D and BEVFusion on synthetic data; open-loop planning L2 and collision rate", "pages": "7-8"},
+ "controllability_evidence": {"value": "Synthetic data from 4K traffic conditions raises BEVFusion mAP 32.8 to 35.8 (+3.0) and FCOS3D mAP 30.2 to 30.9; action-conditioned videos are shown qualitatively (turn left or right).", "pages": "7-8, 14-15"},
+ "closed_loop": {"value": "no; open-loop only. Predicts 16 frames and 16 future actions, and open-loop planning is evaluated on nuScenes over 3 seconds", "pages": "2, 7-8"},
+ "stated_limitations": {"value": "not stated in packet", "pages": ""},
+ "notes": "Packet does not include FID/FVD numbers or an explicit limitations section. Action control evidence is qualitative in the packet."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "towards_realistic_scene_generation_with_lidar_diff",
+ "title": "Towards Realistic Scene Generation with LiDAR Diffusion Models",
+ "control_family": "multi-condition unified control",
+ "output_modality": {"value": "lidar: single-frame LiDAR range images (32 x 1024 or 64 x 1024) converted to point clouds.", "pages": "4-5"},
+ "control_signal": {"value": "Semantic maps (image-based), bounding boxes and keypoints (token-based), multi-camera views, and text prompts.", "pages": "1-2, 4"},
+ "control_mechanism": {"value": "Image-based conditions handled as image-to-image translation; token-based conditions by cross-attention; camera views by concatenated CLIP global features; text through CLIP embeddings.", "pages": "4"},
+ "base_model": {"value": "Latent diffusion on range images with an autoencoder using curve-wise compression, point-wise coordinate supervision and patch-wise encoding, with VQ regularisation and a CurveGAN discriminator.", "pages": "3-4"},
+ "datasets": {"value": "nuScenes 32-beam and KITTI-360 64-beam; SemanticKITTI for the semantic-map-to-LiDAR task.", "pages": "5"},
+ "metrics": {"value": "Perceptual FRID, FSVD and FPVD; statistical JSD and MMD; throughput and inference speed.", "pages": "5, 8"},
+ "controllability_evidence": {"value": "Conditional quality is claimed but no conditional numbers are in the packet; shown unconditional FPVD 29.0 versus 33.4 for LiDARGen, with x107 throughput.", "pages": "1, 9"},
+ "closed_loop": {"value": "No; single-scene generation, no rollout with a driving policy.", "pages": "4"},
+ "stated_limitations": {"value": "Generated samples still show a visual gap to real LiDAR; autoencoder may give blurry object-background boundaries, producing unreasonable 3D objects.", "pages": "8"},
+ "notes": "Main benchmark is unconditional generation; control is a secondary capability, with conditional results beyond the packet."
+}

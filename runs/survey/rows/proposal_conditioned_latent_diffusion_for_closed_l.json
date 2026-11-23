@@ -1,0 +1,13 @@
+{
+ "id": "proposal_conditioned_latent_diffusion_for_closed_l",
+ "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation",
+ "control_family": "inference-time guidance",
+ "control_signal": {"value": "Differentiable objectives (map, collision, and game-theoretic pursuit-evasion costs) with weights such as w_pursue and step size eta; adversary versus ego agent split.", "pages": "4-5, 6"},
+ "control_mechanism": {"value": "Gradient-based guidance on the decoded latent plan at inference, optionally in late reverse steps, with iterated best-response updates for adversaries and ego; no retraining. Model also conditions on scene context and marginal proposals.", "pages": "4-5"},
+ "base_model": {"value": "Joint Transformer denoiser on a PCA action latent, conditioned on an instance-centric SIMPL scene encoder and per-agent proposals, with proposal-informed shifted Gaussian initialisation and DDIM sampling.", "pages": "2-4"},
+ "datasets": {"value": "Waymo Open Motion Dataset, random subset of 200k scenarios for training; closed-loop evaluation in Waymax.", "pages": "4-5"},
+ "metrics": {"value": "Collision rate, off-road rate, Wasserstein-1 realism of acceleration/jerk histograms, minADE; for adversarial guidance: ego-adversary collision, adversary off-road, minimum distance, impact speed.", "pages": "5-6"},
+ "controllability_evidence": {"value": "Table III: raising w_pursue from 10 to 60 (eta 0.05 to 0.10) lifts Ego Adv Coll from 18.9 +/- 2.0 % to 47.8 +/- 3.4 %, while Adv Off-road rises 2.8 to 5.8 % and realism worsens 0.53 to 0.66.", "pages": "6"},
+ "stated_limitations": {"value": "Guidance depends on differentiable, calibrated objectives, can degrade other fidelity metrics, adds compute and is sensitive to step size and weights. Official Waymo Sim Agents metrics not yet reported.", "pages": "6-8"},
+ "notes": "Unguided model: collision 4.83% vs 11.70% for IDM. Language conditioning listed as future work."
+}

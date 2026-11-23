@@ -55,3 +55,8 @@ So 7 of 10 probes are fully met, 1 partly, 2 missed. Unprompted finds: XPeng X-W
 - The Baidu row [D1] is secondary and should not be cited as Baidu's statement.
 - Selection is mine and the search is US-oriented, so Chinese-language primary sources are likely under-covered.
 - Rows carry a verbatim quote, but whether the claim is a fair reading of that quote was checked only by me, once.
+
+## Update for the survey (same day, later)
+
+Added six rows: NVIDIA OmniDreams from its arXiv abstract page (N7 to N10, grade A: action-conditioned real-time generation, a reactive closed-loop environment with the Alpamayo 1 policy and AlpaSim, 21k hours of driving data, a preliminary world-action-model result) and Nuro's product page (R1, R2, grade B: a language-aligned behavior world model listed as a platform component, no method or numbers). Quotes checked by `tools/check_quotes.py` (41 rows, 0 problems).
+Not added: Wayve's own GAIA-3 pages (wayve.ai/thinking/gaia-3 and the press release) answered HTTP 403, so GAIA-3 is known here only from search-result summaries, which are not evidence and are not cited; Zoox's pages are JavaScript-only and came back empty; the Aurora page fetched is a general development essay with nothing on generative simulation. Li Auto: nothing from the company itself was found.

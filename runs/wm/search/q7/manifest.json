@@ -1,0 +1,985 @@
+[
+  {
+    "title": "LiSTAR: Ray-Centric World Models for 4D LiDAR Sequences in Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Pei Liu",
+      "Songtao Wang",
+      "Lang Zhang",
+      "Xingyue Peng",
+      "Yuandong Lyu",
+      "Jiaxin Deng",
+      "Songxin Lu",
+      "Wenxiao Ma",
+      "Xueyang Zhang",
+      "Yifei Zhan",
+      "Kun Zhan",
+      "Jun Ma"
+    ],
+    "doi": "10.1007/978-3-032-37419-6_8",
+    "file": "openalex_101007_978-3-032-37419-6_8_LiSTAR_Ray-Centric_World_Models_for_4D_LiDAR_Sequences.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416550198",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+    "year": 2025,
+    "authors": [
+      "Vlas Zyrianov",
+      "Henry Che",
+      "Zhijian Liu",
+      "Shenlong Wang"
+    ],
+    "doi": "10.1109/icra55743.2025.11128001",
+    "file": "openalex_101109_icra55743202511128001_LidarDM_Generative_LiDAR_Simulation_in_a_Generated_W.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413917025",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "UniDriveDreamer: A Single-Stage Multimodal World Model for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Guosheng Zhao",
+      "Yaozeng Wang",
+      "Xiaofeng Wang",
+      "Zheng Zhu",
+      "Yu Tingdong",
+      "Guan Huang",
+      "Yongchen Zai",
+      "Ji Jiao",
+      "Changliang Xue",
+      "Xiaole Wang",
+      "Xingang Wang",
+      "Futang Zhu",
+      "Xingang Wang"
+    ],
+    "doi": "10.1007/978-3-032-37314-4_20",
+    "file": "openalex_101007_978-3-032-37314-4_20_UniDriveDreamer_A_Single-Stage_Multimodal_World_Model.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7127424149",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Wenzhao Zheng",
+      "Weiliang Chen",
+      "Yuanhui Huang",
+      "Borui Zhang",
+      "Yueqi Duan",
+      "Jiwen Lu"
+    ],
+    "doi": "10.1007/978-3-031-72624-8_4",
+    "file": "openalex_101007_978-3-031-72624-8_4_OccWorld_Learning_a_3D_Occupancy_World_Model_for_Auton.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4403771534",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "OLiDM: Object-aware LiDAR Diffusion Models for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Tianyi Yan",
+      "Junbo Yin",
+      "Xianpeng Lang",
+      "Ruigang Yang",
+      "Chengzhong Xu",
+      "Jianbing Shen"
+    ],
+    "doi": "10.1609/aaai.v39i9.32987",
+    "file": "openalex_101609_aaaiv39i932987_OLiDM_Object-aware_LiDAR_Diffusion_Models_for_Autonomous_Dr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409365971",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences",
+    "year": 2026,
+    "authors": [
+      "Alan Liang",
+      "Youquan Liu",
+      "Yu Yang",
+      "Dongyue Lu",
+      "Linfeng Li",
+      "Lingdong Kong",
+      "huaici zhao",
+      "Wei Tsang Ooi"
+    ],
+    "doi": "10.1609/aaai.v40i22.38905",
+    "file": "openalex_101609_aaaiv40i2238905_LiDARCrafter_Dynamic_4D_World_Modeling_from_LiDAR_Sequence.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7138117554",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Synthetic lidar point cloud generation using deep generative models for improved driving scene object recognition",
+    "year": 2024,
+    "authors": [
+      "Zhengkang Xiang",
+      "Zexian Huang",
+      "Kourosh Khoshelham"
+    ],
+    "doi": "10.1016/j.imavis.2024.105207",
+    "file": "openalex_101016_jimavis2024105207_Synthetic_lidar_point_cloud_generation_using_deep_genera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4401490108",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "TopoLiDM: Topology-Aware LiDAR Diffusion Models for Interpretable and Realistic LiDAR Point Cloud Generation",
+    "year": 2025,
+    "authors": [
+      "Jiuming Liu",
+      "Zheng Huang",
+      "Mengmeng Liu",
+      "Tianchen Deng",
+      "Francesco Nex",
+      "Hao Cheng",
+      "Hesheng Wang"
+    ],
+    "doi": "10.1109/iros60139.2025.11247363",
+    "file": "openalex_101109_iros60139202511247363_TopoLiDM_Topology-Aware_LiDAR_Diffusion_Models_for_I.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416748845",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "World Models for Autonomous Driving: From Future Generation to Decision Making",
+    "year": 2026,
+    "authors": [
+      "Han Huang",
+      "D Yang",
+      "Lulu Guo",
+      "Jing Cheng",
+      "Ying Liu",
+      "Victor Chung Ming Leung",
+      "Hong Chen"
+    ],
+    "doi": "10.2139/ssrn.6827179",
+    "file": "openalex_102139_ssrn6827179_World_Models_for_Autonomous_Driving_From_Future_Generation_to_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7163959062",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "A Survey of World Models for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Feng, Tuo",
+      "Wenguan Wang",
+      "Yi Yang"
+    ],
+    "doi": "10.48550/arxiv.2501.11260",
+    "file": "openalex_1048550_arxiv250111260_A_Survey_of_World_Models_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4406734973",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "NeRF-LiDAR: Generating Realistic LiDAR Point Clouds with Neural Radiance Fields",
+    "year": 2024,
+    "authors": [
+      "Junge Zhang",
+      "Feihu Zhang",
+      "Shaochen Kuang",
+      "Li Zhang"
+    ],
+    "doi": "10.1609/aaai.v38i7.28546",
+    "file": "openalex_101609_aaaiv38i728546_NeRF-LiDAR_Generating_Realistic_LiDAR_Point_Clouds_with_Neu.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4393159692",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "World Models for Autonomous Driving: An Initial Survey",
+    "year": 2024,
+    "authors": [
+      "Yanchen Guan",
+      "Haicheng Liao",
+      "Zhenning Li",
+      "Jia Sheng Hu",
+      "Runze Yuan",
+      "Guohui Zhang",
+      "Chengzhong Xu"
+    ],
+    "doi": "10.1109/tiv.2024.3398357",
+    "file": "openalex_101109_tiv20243398357_World_Models_for_Autonomous_Driving_An_Initial_Survey.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4396754486",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Kaiwen Zhang",
+      "Zhenyu Tang",
+      "Xiaotao Hu",
+      "Xingang Pan",
+      "Xiaoyang Guo",
+      "Yuan Liu",
+      "Jingwei Huang",
+      "Li Yuan",
+      "Qian Zhang",
+      "Xiaoxiao Long",
+      "Xun Cao",
+      "Wei Yin"
+    ],
+    "doi": "10.1109/iccv51701.2025.02527",
+    "file": "openalex_101109_iccv51701202502527_Epona_Autoregressive_Diffusion_World_Model_for_Autonomo.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416525310",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Towards Realistic Scene Generation with LiDAR Diffusion Models",
+    "year": 2024,
+    "authors": [
+      "Haoxi Ran",
+      "Vitor Guizilini",
+      "Yue Wang"
+    ],
+    "doi": "10.1109/cvpr52733.2024.01396",
+    "file": "openalex_101109_cvpr52733202401396_Towards_Realistic_Scene_Generation_with_LiDAR_Diffusion.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4402703082",
+    "sources": [
+      "openalex",
+      "arxiv"
+    ]
+  },
+  {
+    "title": "U4D: Uncertainty-Aware 4D World Modeling from LiDAR Sequences",
+    "year": 2025,
+    "authors": [
+      "Xiang Hua Xu",
+      "Liang, Alan",
+      "Youquan Liu",
+      "Linfeng Li",
+      "Kong, Lingdong",
+      "Ziwei Liu",
+      "Qingshan Liu"
+    ],
+    "doi": "10.48550/arxiv.2512.02982",
+    "file": "openalex_1048550_arxiv251202982_U4D_Uncertainty-Aware_4D_World_Modeling_from_LiDAR_Sequenc.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417011550",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Lening Wang",
+      "Wenzhao Zheng",
+      "Yilong Ren",
+      "Han Jiang",
+      "Zhiyong Cui",
+      "Hou–Yong Yu",
+      "Jiwen Lu"
+    ],
+    "doi": "10.1109/tip.2026.3687468",
+    "file": "openalex_101109_tip20263687468_OccSora_4D_Occupancy_Generation_Models_as_World_Simulators_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4399270650",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving",
+    "year": 2024,
+    "authors": [
+      "Zehuan Wu",
+      "Jingcheng Ni",
+      "Wang, Xiaodong",
+      "Yuxin Guo",
+      "Rui Chen",
+      "Lewei Lu",
+      "Jifeng Dai",
+      "Yuwen Xiong"
+    ],
+    "doi": "10.48550/arxiv.2412.01407",
+    "file": "openalex_1048550_arxiv241201407_HoloDrive_Holistic_2D-3D_Multi-Modal_Street_Scene_Generati.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4405033109",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "LaGen: Towards Autoregressive LiDAR Scene Generation",
+    "year": 2026,
+    "authors": [
+      "S. Kevin Zhou",
+      "Xiaosong Jia",
+      "Fanrui Zhang",
+      "Junjie Li",
+      "Juyong Zhang",
+      "Yulong Feng",
+      "Jianwen Sun",
+      "Songbur Wong",
+      "Junqi You",
+      "Junchi Yan"
+    ],
+    "doi": "10.1007/978-3-032-37252-9_31",
+    "file": "openalex_101007_978-3-032-37252-9_31_LaGen_Towards_Autoregressive_LiDAR_Scene_Generation.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4416786391",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+    "year": 2025,
+    "authors": [
+      "Yang Yu",
+      "Jianbiao Mei",
+      "Yukai Ma",
+      "Siliang Du",
+      "Wenqing Chen",
+      "Yijie Qian",
+      "Yuxiang Feng",
+      "Yong Liu"
+    ],
+    "doi": "10.1609/aaai.v39i9.33010",
+    "file": "openalex_101609_aaaiv39i933010_Driving_in_the_Occupancy_World_Vision-Centric_4D_Occupancy_.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4409365815",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models",
+    "year": 2026,
+    "authors": [
+      "Fan Lu",
+      "Hanshi Wang",
+      "Zijing Wang",
+      "Quan Feng",
+      "Zhi Wang",
+      "Shijie Chen",
+      "Xianming Zeng",
+      "Yujian Zhang",
+      "Jiazhe Wang",
+      "Xin Zha",
+      "Kai Wang",
+      "Zhao Zhijie",
+      "Lin Zhu",
+      "Tianyi Yang",
+      "Yucheng Xu",
+      "Tao Ji",
+      "Haodong Zhang",
+      "Zhipeng Zhang",
+      "Peixi Peng",
+      "Guang Chen"
+    ],
+    "doi": "10.48550/arxiv.2609.28931",
+    "file": "openalex_1048550_arxiv260928931_HelloWorld_Towards_Practical_Applications_of_Generative_Dr.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7214380207",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations",
+    "year": 2025,
+    "authors": [
+      "Daniel Bogdoll",
+      "Yitian Yang",
+      "Tim Joseph",
+      "Melih Yazgan",
+      "J. Marius Zöllner"
+    ],
+    "doi": "10.1109/iv64158.2025.11097718",
+    "file": "openalex_101109_iv64158202511097718_MUVO_A_Multimodal_Generative_World_Model_for_Autonomou.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4413017878",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "STRIDE: Semantically Stratified Historical Retrieval for LiDAR World Modeling",
+    "year": 2026,
+    "authors": [
+      "Youquan Liu",
+      "Weidong Yang",
+      "Ao Liang",
+      "Xiang Xu",
+      "Lingdong Kong",
+      "Runnan Chen",
+      "Ben Fei"
+    ],
+    "doi": "10.1145/3767308.3835050",
+    "file": "openalex_101145_37673083835050_STRIDE_Semantically_Stratified_Historical_Retrieval_for_LiD.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W7225423938",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents",
+    "year": 2024,
+    "authors": [
+      "Yumeng Zhang",
+      "Shi Gong",
+      "Kaixin Xiong",
+      "Xiaoqing Ye",
+      "Li, Xiaofan",
+      "Xiao Tan",
+      "Wang, Fan",
+      "Jizhou Huang",
+      "Hua Ming Wu",
+      "Haifeng Wang"
+    ],
+    "doi": "10.48550/arxiv.2407.05679",
+    "file": "openalex_1048550_arxiv240705679_BEVWorld_A_Multimodal_World_Simulator_for_Autonomous_Drivi.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4400481099",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models",
+    "year": 2025,
+    "authors": [
+      "Xuanchi Ren",
+      "Yifan Lu",
+      "Tianshi Cao",
+      "Ruiyuan Gao",
+      "Shengyu Huang",
+      "Amirmojtaba Sabour",
+      "Tianchang Shen",
+      "Tobias Pfaff",
+      "Jay Zhangjie Wu",
+      "Runjian Chen",
+      "Seung Wook Kim",
+      "Jun Gao",
+      "Laura Leal-Taixé",
+      "Chen, Mike",
+      "Sanja Fidler",
+      "Ling, Huan"
+    ],
+    "doi": "10.48550/arxiv.2506.09042",
+    "file": "openalex_1048550_arxiv250609042_Cosmos-Drive-Dreams_Scalable_Synthetic_Driving_Data_Genera.txt",
+    "kind": "txt",
+    "url": "https://openalex.org/W4417347357",
+    "sources": [
+      "openalex"
+    ]
+  },
+  {
+    "title": "Sora as a World Model? A Complete Survey on Text-to-Video Generation",
+    "year": 2024,
+    "authors": [
+      "Fachrina Dewi Puspitasari",
+      "Chaoning Zhang",
+      "Joseph Cho",
+      "Adnan Haider",
+      "Noor Ul Eman",
+      "Omer Amin",
+      "Alexis Mankowski",
+      "Muhammad Umair",
+      "Jingyao Zheng",
+      "Sheng Zheng",
+      "Lik-Hang Lee",
+      "Caiyan Qin",
+      "Tae-Ho Kim",
+      "Choong Seon Hong",
+      "Yang Yang",
+      "Heng Tao Shen"
+    ],
+    "doi": "",
+    "file": "arxiv_240305131v3_Sora_as_a_World_Model_A_Complete_Survey_on_Text-to-Video_Generation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2403.05131v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Wei Wang",
+      "Yiru Veronika Wang",
+      "Yihan Wang",
+      "Zihao Li",
+      "Xiaohui Liang"
+    ],
+    "doi": "",
+    "file": "arxiv_261022450v1_DriveWorld3D_Evidence_Constrained_3D_World_Modeling_and_Generative_Simul.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2610.22450v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+    "year": 2025,
+    "authors": [
+      "AgiBot World Contributors",
+      "Qingwen Bu",
+      "Jisong Cai",
+      "Li Chen",
+      "Xiuqi Cui",
+      "Yan Ding",
+      "Siyuan Feng",
+      "Shenyuan Gao",
+      "Xindong He",
+      "Xuan Hu",
+      "Xu Huang",
+      "Shu Jiang",
+      "Yuxin Jiang",
+      "Cheng Jing",
+      "Hongyang Li",
+      "Jialu Li",
+      "Chiming Liu",
+      "Yi Liu",
+      "Yuxiang Lu",
+      "Jianlan Luo"
+    ],
+    "doi": "",
+    "file": "arxiv_250306669v5_AgiBot_World_Colosseo_A_Large-scale_Manipulation_Platform_for_Scalable_a.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2503.06669v5",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LiDAR-RT: Gaussian-based Ray Tracing for Dynamic LiDAR Re-simulation",
+    "year": 2024,
+    "authors": [
+      "Chenxu Zhou",
+      "Lvchang Fu",
+      "Sida Peng",
+      "Yunzhi Yan",
+      "Zhanhua Zhang",
+      "Yong Chen",
+      "Jiazhi Xia",
+      "Xiaowei Zhou"
+    ],
+    "doi": "",
+    "file": "arxiv_241215199v1_LiDAR-RT_Gaussian-based_Ray_Tracing_for_Dynamic_LiDAR_Re-simulation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2412.15199v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
+    "year": 2025,
+    "authors": [
+      "Shijie Chen",
+      "Peixi Peng"
+    ],
+    "doi": "",
+    "file": "arxiv_251204830v1_FreeGen_Feed-Forward_Reconstruction-Generation_Co-Training_for_Free-View.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.04830v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "What-If World: A Causal Benchmark for General World Models in Embodied Scenarios",
+    "year": 2026,
+    "authors": [
+      "Kunlin Cai",
+      "Rui Song",
+      "Jinghuai Zhang",
+      "Kaiyuan Zhang",
+      "Pranav Bodapati",
+      "Alicia Yu",
+      "Fnu Suya",
+      "Mohammad Rostami",
+      "Jiaqi Ma",
+      "Yuan Tian"
+    ],
+    "doi": "",
+    "file": "arxiv_260527589v1_What-If_World_A_Causal_Benchmark_for_General_World_Models_in_Embodied_Sc.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.27589v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey",
+    "year": 2025,
+    "authors": [
+      "Sifan Tu",
+      "Xin Zhou",
+      "Dingkang Liang",
+      "Xingyu Jiang",
+      "Yumeng Zhang",
+      "Xiaofan Li",
+      "Xiang Bai"
+    ],
+    "doi": "",
+    "file": "arxiv_250210498v2_The_Role_of_World_Models_in_Shaping_Autonomous_Driving_A_Comprehensive_S.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2502.10498v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LiDAR-NeRF: Novel LiDAR View Synthesis via Neural Radiance Fields",
+    "year": 2023,
+    "authors": [
+      "Tang Tao",
+      "Longfei Gao",
+      "Guangrun Wang",
+      "Yixing Lao",
+      "Peng Chen",
+      "Hengshuang Zhao",
+      "Dayang Hao",
+      "Xiaodan Liang",
+      "Mathieu Salzmann",
+      "Kaicheng Yu"
+    ],
+    "doi": "",
+    "file": "arxiv_230410406v2_LiDAR-NeRF_Novel_LiDAR_View_Synthesis_via_Neural_Radiance_Fields.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2304.10406v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report",
+    "year": 2025,
+    "authors": [
+      "Riccardo Mereu",
+      "Aidan Scannell",
+      "Yuxin Hou",
+      "Yi Zhao",
+      "Aditya Jitta",
+      "Antonio Dominguez",
+      "Luigi Acerbi",
+      "Amos Storkey",
+      "Paul Chang"
+    ],
+    "doi": "",
+    "file": "arxiv_251007092v1_Generative_World_Modelling_for_Humanoids_1X_World_Model_Challenge_Techni.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2510.07092v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "WorldGym: World Model as An Environment for Policy Evaluation",
+    "year": 2025,
+    "authors": [
+      "Julian Quevedo",
+      "Ansh Kumar Sharma",
+      "Yixiang Sun",
+      "Varad Suryavanshi",
+      "Percy Liang",
+      "Sherry Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_250600613v3_WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2506.00613v3",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+    "year": 2025,
+    "authors": [
+      "Jingtong Yue",
+      "Ziqi Huang",
+      "Zhaoxi Chen",
+      "Xintao Wang",
+      "Pengfei Wan",
+      "Ziwei Liu"
+    ],
+    "doi": "",
+    "file": "arxiv_251108585v4_Simulating_the_Visual_World_with_Artificial_Intelligence_A_Roadmap.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2511.08585v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "LiDAR-HMR: 3D Human Mesh Recovery from LiDAR",
+    "year": 2023,
+    "authors": [
+      "Bohao Fan",
+      "Wenzhao Zheng",
+      "Jianjiang Feng",
+      "Jie Zhou"
+    ],
+    "doi": "10.1109/tmm.2025.3590928",
+    "file": "arxiv_101109_tmm20253590928_LiDAR-HMR_3D_Human_Mesh_Recovery_from_LiDAR.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2311.11971v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather",
+    "year": 2026,
+    "authors": [
+      "Faysal Mehrab Chowdhury",
+      "Md. Mahfuzur Rahman",
+      "Ahmed Rafi Hasan",
+      "Kishor Datta Gupta",
+      "Mohd Ariful Haque",
+      "Savannah Shannon"
+    ],
+    "doi": "",
+    "file": "arxiv_261122669v2_Beyond_the_Camera_A_Tri-Modal_Driving_World_Model_for_Future_RGB_Thermal.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2611.22669v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens",
+    "year": 2024,
+    "authors": [
+      "Xiaofeng Wang",
+      "Zheng Zhu",
+      "Guan Huang",
+      "Boyuan Wang",
+      "Xinze Chen",
+      "Jiwen Lu"
+    ],
+    "doi": "",
+    "file": "arxiv_240109985v1_WorldDreamer_Towards_General_World_Models_for_Video_Generation_via_Predi.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2401.09985v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation",
+    "year": 2026,
+    "authors": [
+      "Kaichen Zhou",
+      "Yuzhen Chen",
+      "Fangneng Zhan",
+      "Hang Hua",
+      "Grace Chen",
+      "Xinhai Chang",
+      "Ao Qu",
+      "Yilun Du",
+      "Zhuang Liu",
+      "Paul Pu Liang",
+      "Mengyu Wang"
+    ],
+    "doi": "",
+    "file": "arxiv_260522882v4_GEM-4D_Geometry-Enhanced_Video_World_Models_for_Robot_Manipulation.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.22882v4",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "GEM: Generating LiDAR World Model via Deformable Mamba",
+    "year": 2026,
+    "authors": [
+      "Yang Wu",
+      "Zhaojiang Liu",
+      "Qiang Meng",
+      "Youquan Liu",
+      "Renliang Weng",
+      "Jianjun Qian",
+      "Jian Yang",
+      "Jin Xie"
+    ],
+    "doi": "",
+    "file": "arxiv_260507326v2_GEM_Generating_LiDAR_World_Model_via_Deformable_Mamba.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.07326v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "NARRATE: A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving",
+    "year": 2026,
+    "authors": [
+      "Ashkan Yousefi Zadeh",
+      "Zishuo Zhu",
+      "Xiaomeng Li",
+      "Andry Rakotonirainy",
+      "Sebastien Glaser",
+      "Ronald Schroeter",
+      "Patricia Delhomme",
+      "Zahra Mehraban"
+    ],
+    "doi": "",
+    "file": "arxiv_260814767v1_NARRATE_A_Multimodal_Real-World_Australian_Driving_Dataset_for_Human-Cen.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2608.14767v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Nano World Models: A Minimalist Implementation of Future Video Prediction",
+    "year": 2026,
+    "authors": [
+      "Siqiao Huang",
+      "Partha Kaushik",
+      "Michael Chen",
+      "Hengkai Pan",
+      "Kaiwen Geng",
+      "Omar Chehab",
+      "Fernando Moreno-Pino",
+      "Max Simchowitz"
+    ],
+    "doi": "",
+    "file": "arxiv_260523993v2_Nano_World_Models_A_Minimalist_Implementation_of_Future_Video_Prediction.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2605.23993v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation",
+    "year": 2026,
+    "authors": [
+      "Xiangcheng Zhan",
+      "Zirui Chen",
+      "Yicheng Zhao",
+      "Ziteng Gao",
+      "Shuo Yang"
+    ],
+    "doi": "",
+    "file": "arxiv_260937398v1_Direct_Experience_World-Model_Optimization_Learning_the_World_Beyond_Act.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.37398v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Is Energy Guidance All You Need? Training-Free Norm Injection for Driving World Models",
+    "year": 2026,
+    "authors": [
+      "Xiyan Su",
+      "Frank Diermeyer",
+      "Markus Lienkamp"
+    ],
+    "doi": "",
+    "file": "arxiv_260710781v1_Is_Energy_Guidance_All_You_Need_Training-Free_Norm_Injection_for_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2607.10781v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "IC-World: In-Context Generation for Shared World Modeling",
+    "year": 2025,
+    "authors": [
+      "Fan Wu",
+      "Jiacheng Wei",
+      "Ruibo Li",
+      "Yi Xu",
+      "Junyou Li",
+      "Deheng Ye",
+      "Guosheng Lin"
+    ],
+    "doi": "",
+    "file": "arxiv_251202793v1_IC-World_In-Context_Generation_for_Shared_World_Modeling.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2512.02793v1",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Super LiDAR Intensity for Robotic Perception",
+    "year": 2025,
+    "authors": [
+      "Wei Gao",
+      "Jie Zhang",
+      "Mingle Zhao",
+      "Zhiyuan Zhang",
+      "Shu Kong",
+      "Maani Ghaffari",
+      "Dezhen Song",
+      "Cheng-Zhong Xu",
+      "Hui Kong"
+    ],
+    "doi": "",
+    "file": "arxiv_250810398v2_Super_LiDAR_Intensity_for_Robotic_Perception.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2508.10398v2",
+    "sources": [
+      "arxiv"
+    ]
+  },
+  {
+    "title": "Relationally Grounded Latent World Models for Autonomous Driving",
+    "year": 2026,
+    "authors": [
+      "Fabian Schmidt",
+      "Markus Enzweiler",
+      "Abhinav Valada"
+    ],
+    "doi": "",
+    "file": "arxiv_260924626v1_Relationally_Grounded_Latent_World_Models_for_Autonomous_Driving.txt",
+    "kind": "txt",
+    "url": "http://arxiv.org/abs/2609.24626v1",
+    "sources": [
+      "arxiv"
+    ]
+  }
+]

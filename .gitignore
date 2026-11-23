@@ -29,3 +29,6 @@ runs/rcs1/packets.jsonl
 # second chaining round: caches and excerpts
 runs/chain2/cache/
 runs/tableC/packets_new/
+
+# world-model search: per-record abstract files
+runs/wm/search/q*/*.txt
